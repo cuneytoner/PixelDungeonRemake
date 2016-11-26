@@ -34,6 +34,8 @@ import com.watabou.pixeldungeon.actors.mobs.Dragon;
 import com.watabou.pixeldungeon.actors.mobs.DM300;
 import com.watabou.pixeldungeon.actors.mobs.Elemental;
 import com.watabou.pixeldungeon.actors.mobs.Eye;
+import com.watabou.pixeldungeon.actors.mobs.Gargoyle;
+import com.watabou.pixeldungeon.actors.mobs.Goblin;
 import com.watabou.pixeldungeon.actors.mobs.Gnoll;
 import com.watabou.pixeldungeon.actors.mobs.Golem;
 import com.watabou.pixeldungeon.actors.mobs.Goo;
@@ -153,6 +155,8 @@ public class MobFactory {
 		registerMobClass(Zombie.class);
 		registerMobClass(Hedgehog.class);
 
+		registerMobClass(Goblin.class);
+		registerMobClass(Gargoyle.class);
 		registerMobClass(Dragon.class);
 
 	}

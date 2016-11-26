@@ -189,7 +189,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int AboutScene_Snd=0x7f05001d;
         public static final int AboutScene_TranslatedBy=0x7f0504a5;
         public static final int AboutScene_Txt=0x7f0504a6;
-        public static final int AccessoryInfo=0x7f05069f;
+        public static final int AccessoryInfo=0x7f0506a0;
         public static final int Acidic_Desc=0x7f05001e;
         public static final int Acidic_Gender=0x7f05001f;
         public static final int Acidic_Name=0x7f050020;
@@ -302,6 +302,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Badges_MonsterSlain2=0x7f050076;
         public static final int Badges_MonsterSlain3=0x7f050077;
         public static final int Badges_MonsterSlain4=0x7f050078;
+        public static final int Badges_Nidhoggr_Slain=0x7f05066f;
         public static final int Badges_NightHunter=0x7f050079;
         public static final int Badges_NoMonsterSlain=0x7f05007a;
         public static final int Badges_Piranhas=0x7f05007b;
@@ -337,13 +338,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int BattleAxe_Gender=0x7f050095;
         public static final int BattleAxe_Info=0x7f050096;
         public static final int BattleAxe_Name=0x7f050097;
-        public static final int Beer_Info=0x7f05066f;
-        public static final int Beer_Info1=0x7f050670;
-        public static final int Beer_Info2=0x7f050671;
-        public static final int Beer_Info3=0x7f050672;
-        public static final int Beer_Info4=0x7f050673;
-        public static final int Beer_Message=0x7f050674;
-        public static final int Beer_Name=0x7f050675;
+        public static final int Beer_Info=0x7f050670;
+        public static final int Beer_Info1=0x7f050671;
+        public static final int Beer_Info2=0x7f050672;
+        public static final int Beer_Info3=0x7f050673;
+        public static final int Beer_Info4=0x7f050674;
+        public static final int Beer_Message=0x7f050675;
+        public static final int Beer_Name=0x7f050676;
         public static final int Belongings_Name=0x7f0504c0;
         public static final int BlackSkull_Gender=0x7f0504c1;
         public static final int BlackSkull_Info=0x7f05065c;
@@ -372,8 +373,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Bleeding_Death=0x7f0500ab;
         public static final int Bleeding_Info=0x7f0504c3;
         public static final int Blindness_Info=0x7f0504c4;
-        public static final int BoiledBeer_Info=0x7f050676;
-        public static final int BoiledBeer_Name=0x7f050677;
+        public static final int BoiledBeer_Info=0x7f050677;
+        public static final int BoiledBeer_Name=0x7f050678;
         public static final int Boomerang_Gender=0x7f0500ac;
         public static final int Boomerang_Info=0x7f0500ad;
         public static final int Boomerang_Name=0x7f0500ae;
@@ -469,10 +470,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Claymore_Gender=0x7f0500f2;
         public static final int Claymore_Info=0x7f0504db;
         public static final int Claymore_Name=0x7f0504dc;
-        public static final int ClericArmor_ACSpecial=0x7f050678;
-        public static final int ClericArmor_Desc=0x7f050679;
-        public static final int ClericArmor_Name=0x7f05067a;
-        public static final int ClericArmor_NotCleric=0x7f05067b;
+        public static final int ClericArmor_ACSpecial=0x7f050679;
+        public static final int ClericArmor_Desc=0x7f05067a;
+        public static final int ClericArmor_Name=0x7f05067b;
+        public static final int ClericArmor_NotCleric=0x7f05067c;
         public static final int ClothArmor_Desc=0x7f0500f3;
         public static final int ClothArmor_Name=0x7f0500f4;
         public static final int Codex_ACRead=0x7f0500f5;
@@ -543,23 +544,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Displacement_Txt=0x7f05011c;
         public static final int DonateButton_pleaseDonate=0x7f05011d;
         public static final int DonateButton_thanks=0x7f05011e;
-        public static final int Dragon_Desc=0x7f0506a0;
-        public static final int Dragon_Gender=0x7f0506a1;
-        public static final int Dragon_Info1=0x7f0506a2;
-        public static final int Dragon_Info2=0x7f0506a3;
-        public static final int Dragon_Info3=0x7f0506a4;
-        public static final int Dragon_Name=0x7f0506a5;
-        public static final int Dragon_Name_Objective=0x7f0506a6;
-        public static final int Dragon_Pits_TileDescBookshelf=0x7f0506a7;
-        public static final int Dragon_Pits_TileDescDeco=0x7f0506a8;
-        public static final int Dragon_Pits_TileDescEntrance=0x7f0506a9;
-        public static final int Dragon_Pits_TileDescExit=0x7f0506aa;
-        public static final int Dragon_Pits_TileDescStatue=0x7f0506ab;
-        public static final int Dragon_Pits_TileDescWater=0x7f0506ac;
-        public static final int Dragon_Pits_TileGrass=0x7f0506ad;
-        public static final int Dragon_Pits_TileHighGrass=0x7f0506ae;
-        public static final int Dragon_Pits_TileStatue=0x7f0506af;
-        public static final int Dragon_Pits_TileWater=0x7f0506b0;
+        public static final int Dragon_Desc=0x7f0506a1;
+        public static final int Dragon_Gender=0x7f0506a2;
+        public static final int Dragon_Info1=0x7f0506a3;
+        public static final int Dragon_Info2=0x7f0506a4;
+        public static final int Dragon_Info3=0x7f0506a5;
+        public static final int Dragon_Name=0x7f0506a6;
+        public static final int Dragon_Name_Objective=0x7f0506a7;
+        public static final int Dragon_Pits_TileDescBookshelf=0x7f0506a8;
+        public static final int Dragon_Pits_TileDescDeco=0x7f0506a9;
+        public static final int Dragon_Pits_TileDescEntrance=0x7f0506aa;
+        public static final int Dragon_Pits_TileDescExit=0x7f0506ab;
+        public static final int Dragon_Pits_TileDescStatue=0x7f0506ac;
+        public static final int Dragon_Pits_TileDescWater=0x7f0506ad;
+        public static final int Dragon_Pits_TileGrass=0x7f0506ae;
+        public static final int Dragon_Pits_TileHighGrass=0x7f0506af;
+        public static final int Dragon_Pits_TileStatue=0x7f0506b0;
+        public static final int Dragon_Pits_TileWater=0x7f0506b1;
         public static final int DreadKnight_Desc=0x7f050660;
         public static final int DreadKnight_Gender=0x7f0504f6;
         public static final int DreadKnight_Name=0x7f050661;
@@ -571,8 +572,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int DriedRose_Info=0x7f0504f9;
         public static final int DriedRose_Info2=0x7f0504fa;
         public static final int DriedRose_Name=0x7f050121;
-        public static final int Drink_ACDrink=0x7f05067c;
-        public static final int Drink_Message=0x7f05067d;
+        public static final int Drink_ACDrink=0x7f05067d;
+        public static final int Drink_Message=0x7f05067e;
         public static final int Dungeon_DeadEnd=0x7f050122;
         public static final int Dungeon_NoTips=0x7f050123;
         public static final int DwarfToken_Info=0x7f0504fb;
@@ -640,12 +641,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int FrostArrow_Name=0x7f050152;
         public static final int Frost_Info=0x7f050509;
         public static final int Frost_Shatter=0x7f05050a;
-        public static final int FrozenBeer_Info=0x7f05067e;
-        public static final int FrozenBeer_Info1=0x7f05067f;
-        public static final int FrozenBeer_Info2=0x7f050680;
-        public static final int FrozenBeer_Info3=0x7f050681;
-        public static final int FrozenBeer_Info4=0x7f050682;
-        public static final int FrozenBeer_Name=0x7f050683;
+        public static final int FrozenBeer_Info=0x7f05067f;
+        public static final int FrozenBeer_Info1=0x7f050680;
+        public static final int FrozenBeer_Info2=0x7f050681;
+        public static final int FrozenBeer_Info3=0x7f050682;
+        public static final int FrozenBeer_Info4=0x7f050683;
+        public static final int FrozenBeer_Name=0x7f050684;
         public static final int FrozenCarpaccio_Info=0x7f050153;
         public static final int FrozenCarpaccio_Info1=0x7f050154;
         public static final int FrozenCarpaccio_Info2=0x7f050155;
@@ -660,6 +661,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int GameScene_Water=0x7f05015d;
         public static final int GameScene_Welcome=0x7f05015e;
         public static final int GameScene_WelcomeBack=0x7f05015f;
+        public static final int Gargoyle_Defense=0x7f0506b2;
+        public static final int Gargoyle_Desc=0x7f0506b3;
+        public static final int Gargoyle_Gender=0x7f0506b4;
+        public static final int Gargoyle_Name=0x7f0506b5;
+        public static final int Gargoyle_Name_Objective=0x7f0506b6;
         public static final int GasesImmunity_Info=0x7f05050c;
         public static final int Ghost_Defense=0x7f050160;
         public static final int Ghost_Desc=0x7f050161;
@@ -675,6 +681,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Gnoll_Gender=0x7f05016b;
         public static final int Gnoll_Name=0x7f05016c;
         public static final int Gnoll_Name_Objective=0x7f05016d;
+        public static final int Goblin_Defense=0x7f0506b7;
+        public static final int Goblin_Desc=0x7f0506b8;
+        public static final int Goblin_Gender=0x7f0506b9;
+        public static final int Goblin_Name=0x7f0506ba;
+        public static final int Goblin_Name_Objective=0x7f0506bb;
         public static final int Gold_Collect=0x7f05050d;
         public static final int Gold_Info=0x7f05050e;
         public static final int Gold_Info1=0x7f05050f;
@@ -721,7 +732,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Halls_TileStatue=0x7f050181;
         public static final int Halls_TileWater=0x7f050182;
         public static final int Heap_Mimic=0x7f050525;
-        public static final int HeartOfDarkness_Gender=0x7f050684;
+        public static final int HeartOfDarkness_Gender=0x7f050685;
         public static final int HeartOfDarkness_Info=0x7f050526;
         public static final int HeartOfDarkness_Name=0x7f050183;
         public static final int Hedgehog_Desc=0x7f050184;
@@ -731,31 +742,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Hedgehog_Info3=0x7f050188;
         public static final int Hedgehog_Info4=0x7f050189;
         public static final int Hedgehog_Name=0x7f05018a;
-        public static final int HeroClass_Cleric=0x7f050685;
+        public static final int HeroClass_Cleric=0x7f050686;
         public static final int HeroClass_Elf=0x7f05018b;
         public static final int HeroClass_Hun=0x7f05018c;
         public static final int HeroClass_Mag=0x7f05018d;
         public static final int HeroClass_Rog=0x7f05018e;
         public static final int HeroClass_War=0x7f05018f;
-        public static final int HeroSubClass_DescArcPriest=0x7f050686;
+        public static final int HeroSubClass_DescArcPriest=0x7f050687;
         public static final int HeroSubClass_DescAssa=0x7f050190;
         public static final int HeroSubClass_DescBatM=0x7f050191;
         public static final int HeroSubClass_DescBers=0x7f050192;
         public static final int HeroSubClass_DescFreR=0x7f050193;
         public static final int HeroSubClass_DescGlad=0x7f050194;
-        public static final int HeroSubClass_DescPaladin=0x7f050687;
+        public static final int HeroSubClass_DescPaladin=0x7f050688;
         public static final int HeroSubClass_DescScout=0x7f050195;
         public static final int HeroSubClass_DescShaman=0x7f050196;
         public static final int HeroSubClass_DescSnip=0x7f050197;
         public static final int HeroSubClass_DescWarL=0x7f050198;
         public static final int HeroSubClass_DescWard=0x7f050199;
-        public static final int HeroSubClass_NameArcPriest=0x7f050688;
+        public static final int HeroSubClass_NameArcPriest=0x7f050689;
         public static final int HeroSubClass_NameAssa=0x7f05019a;
         public static final int HeroSubClass_NameBatM=0x7f05019b;
         public static final int HeroSubClass_NameBers=0x7f05019c;
         public static final int HeroSubClass_NameFreR=0x7f05019d;
         public static final int HeroSubClass_NameGlad=0x7f05019e;
-        public static final int HeroSubClass_NamePaladin=0x7f050689;
+        public static final int HeroSubClass_NamePaladin=0x7f05068a;
         public static final int HeroSubClass_NameScout=0x7f05019f;
         public static final int HeroSubClass_NameShaman=0x7f0501a0;
         public static final int HeroSubClass_NameSnip=0x7f0501a1;
@@ -1015,11 +1026,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Mob_StaSleepingStatus=0x7f050279;
         public static final int Mob_StaWanderingStatus=0x7f05027a;
         public static final int Mob_Yell=0x7f05027b;
-        public static final int Mod_Author=0x7f0506b1;
-        public static final int Mod_Description=0x7f0506b2;
-        public static final int Mod_Email=0x7f0506b3;
-        public static final int Mod_Link=0x7f0506b4;
-        public static final int Mod_Name=0x7f0506b5;
+        public static final int Mod_Author=0x7f0506bc;
+        public static final int Mod_Description=0x7f0506bd;
+        public static final int Mod_Email=0x7f0506be;
+        public static final int Mod_Link=0x7f0506bf;
+        public static final int Mod_Name=0x7f0506c0;
         public static final int ModsButton_SelectMod=0x7f05054b;
         public static final int Mods_AuthorEmail=0x7f05027c;
         public static final int Mods_AuthorSite=0x7f05027d;
@@ -1051,7 +1062,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int NecromancerNPC_Name_Objective=0x7f050554;
         public static final int NekoEars_Info=0x7f050555;
         public static final int NekoEars_Name=0x7f050556;
-        public static final int Neko_Ears_gives_5_additional_HP=0x7f0506b6;
+        public static final int Neko_Ears_gives_5_additional_HP=0x7f0506c1;
         public static final int Nightcap_Info=0x7f050557;
         public static final int Nightcap_Name=0x7f050558;
         public static final int Nightmare_Desc=0x7f050559;
@@ -1073,10 +1084,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ParalyticGas_Info=0x7f05055f;
         public static final int Pasty_Info=0x7f050298;
         public static final int Pasty_Name=0x7f050299;
-        public static final int Pet_Desc=0x7f0506b7;
-        public static final int Pet_Gender=0x7f0506b8;
-        public static final int Pet_Name=0x7f0506b9;
-        public static final int Pet_Name_Objective=0x7f0506ba;
+        public static final int Pet_Desc=0x7f0506c2;
+        public static final int Pet_Gender=0x7f0506c3;
+        public static final int Pet_Name=0x7f0506c4;
+        public static final int Pet_Name_Objective=0x7f0506c5;
         public static final int Pickaxe_ACMine=0x7f050560;
         public static final int Pickaxe_Gender=0x7f05029a;
         public static final int Pickaxe_Info=0x7f050561;
@@ -1143,7 +1154,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Potion_ACMoisten=0x7f0502d1;
         public static final int Potion_ArrowMoisten=0x7f0502d2;
         public static final int Potion_Beneficial=0x7f0502d3;
-        public static final int Potion_DrinkRefreshed=0x7f05068a;
+        public static final int Potion_DrinkRefreshed=0x7f05068b;
         public static final int Potion_FoodRefreshed=0x7f0502d4;
         public static final int Potion_Harmfull=0x7f0502d5;
         public static final int Potion_Info=0x7f0502d6;
@@ -1202,7 +1213,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Rat_Name_Objective=0x7f0502fb;
         public static final int Ration_Info=0x7f0502fc;
         public static final int Ration_Name=0x7f0502fd;
-        public static final int ReMakePixelDungeonApp_sendCrash=0x7f05068b;
+        public static final int ReMakePixelDungeonApp_sendCrash=0x7f05068c;
         public static final int ResultDescriptions_Bleeding=0x7f0502fe;
         public static final int ResultDescriptions_Boss=0x7f0502ff;
         public static final int ResultDescriptions_Burning=0x7f050300;
@@ -1284,9 +1295,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int SacrificialSword_Gender=0x7f05057d;
         public static final int SacrificialSword_Info=0x7f05057e;
         public static final int SacrificialSword_Name=0x7f05057f;
-        public static final int SantaHatDesc=0x7f05068c;
-        public static final int SantaHat_Info=0x7f05068d;
-        public static final int SantaHat_Name=0x7f05068e;
+        public static final int SantaHatDesc=0x7f05068d;
+        public static final int SantaHat_Info=0x7f05068e;
+        public static final int SantaHat_Name=0x7f05068f;
         public static final int ScaleArmor_Desc=0x7f050344;
         public static final int ScaleArmor_Name=0x7f050345;
         public static final int Scorpio_Desc=0x7f050346;
@@ -1327,9 +1338,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ScrollOfRemoveCurse_Name=0x7f050356;
         public static final int ScrollOfRemoveCurse_NoProced=0x7f050593;
         public static final int ScrollOfRemoveCurse_Proced=0x7f050594;
-        public static final int ScrollOfSummon_Info=0x7f05068f;
-        public static final int ScrollOfSummon_Info1=0x7f050690;
-        public static final int ScrollOfSummon_Name=0x7f050691;
+        public static final int ScrollOfSummon_Info=0x7f050690;
+        public static final int ScrollOfSummon_Info1=0x7f050691;
+        public static final int ScrollOfSummon_Name=0x7f050692;
         public static final int ScrollOfTeleportation_Info=0x7f050595;
         public static final int ScrollOfTeleportation_Name=0x7f050357;
         public static final int ScrollOfTeleportation_NoTeleport=0x7f050358;
@@ -1511,8 +1522,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Sword_Gender=0x7f0503cd;
         public static final int Sword_Info=0x7f0503ce;
         public static final int Sword_Name=0x7f0503cf;
-        public static final int TaintedBeer_Info=0x7f050692;
-        public static final int TaintedBeer_Name=0x7f050693;
+        public static final int TaintedBeer_Info=0x7f050693;
+        public static final int TaintedBeer_Name=0x7f050694;
         public static final int TaintedDrink_Message=0x7f05066d;
         public static final int Tamahawk_Gender=0x7f0503d0;
         public static final int Tamahawk_Info=0x7f0503d1;
@@ -1530,14 +1541,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Thief_Name=0x7f0503dd;
         public static final int Thief_Name_Objective=0x7f0503de;
         public static final int Thief_Stole=0x7f0503df;
-        public static final int This_Capotain_gives_defence_skill=0x7f050694;
-        public static final int This_Fez_gives_10_additional_HP=0x7f050695;
-        public static final int This_Nightcap_gives_2_additional_defense_skill=0x7f050696;
-        public static final int This_Pirate_Set_gives_additional_2_attack_skill_2_defense_skill_and_10_HP=0x7f050697;
-        public static final int This_Pumpkin_gives_additional_2_defense_skill_1_attack_skill_and_10_HP=0x7f050698;
-        public static final int This_Rabbit_Ears_gives_additional_4_defense_skill=0x7f050699;
-        public static final int This_Shades_gives_additional_2_defense_skill_and_10_HP=0x7f05069a;
-        public static final int This_Wizard_Hat_gives_additional_10_attack_skill_and_10_HP=0x7f05069b;
+        public static final int This_Capotain_gives_defence_skill=0x7f050695;
+        public static final int This_Fez_gives_10_additional_HP=0x7f050696;
+        public static final int This_Nightcap_gives_2_additional_defense_skill=0x7f050697;
+        public static final int This_Pirate_Set_gives_additional_2_attack_skill_2_defense_skill_and_10_HP=0x7f050698;
+        public static final int This_Pumpkin_gives_additional_2_defense_skill_1_attack_skill_and_10_HP=0x7f050699;
+        public static final int This_Rabbit_Ears_gives_additional_4_defense_skill=0x7f05069a;
+        public static final int This_Shades_gives_additional_2_defense_skill_and_10_HP=0x7f05069b;
+        public static final int This_Wizard_Hat_gives_additional_10_attack_skill_and_10_HP=0x7f05069c;
         public static final int TitleScene_About=0x7f0503e0;
         public static final int TitleScene_Badges=0x7f0503e1;
         public static final int TitleScene_Highscores=0x7f0503e2;
@@ -1548,7 +1559,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int TomeOfMastery_Choose=0x7f0505d1;
         public static final int TomeOfMastery_Info=0x7f0505d2;
         public static final int TomeOfMastery_Name=0x7f0505d3;
-        public static final int TomeOfMastery_WayAlreadyChosen=0x7f05069c;
+        public static final int TomeOfMastery_WayAlreadyChosen=0x7f05069d;
         public static final int Toolbar_Info1=0x7f0505d4;
         public static final int Toolbar_Info2=0x7f0505d5;
         public static final int Torch_ACLight=0x7f0505d6;
@@ -1685,13 +1696,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Welcome_Text_24_2=0x7f050610;
         public static final int Welcome_Text_25=0x7f050611;
         public static final int Welcome_Title=0x7f05042e;
-        public static final int Wine_Info=0x7f0506bb;
-        public static final int Wine_Info1=0x7f0506bc;
-        public static final int Wine_Info2=0x7f0506bd;
-        public static final int Wine_Info3=0x7f0506be;
-        public static final int Wine_Info4=0x7f0506bf;
-        public static final int Wine_Message=0x7f0506c0;
-        public static final int Wine_Name=0x7f0506c1;
+        public static final int Wine_Info=0x7f0506c6;
+        public static final int Wine_Info1=0x7f0506c7;
+        public static final int Wine_Info2=0x7f0506c8;
+        public static final int Wine_Info3=0x7f0506c9;
+        public static final int Wine_Info4=0x7f0506ca;
+        public static final int Wine_Message=0x7f0506cb;
+        public static final int Wine_Name=0x7f0506cc;
         public static final int WizardHat_Info=0x7f050612;
         public static final int WizardHat_Name=0x7f050613;
         public static final int WndBlacksmith_Prompt=0x7f05042f;
@@ -1819,7 +1830,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int WndSettings_ZoomIn=0x7f05048a;
         public static final int WndSettings_ZoomOut=0x7f05048b;
         public static final int WndStory_Caves=0x7f050633;
-        public static final int WndStory_Dragon_Pits=0x7f05069d;
+        public static final int WndStory_Dragon_Pits=0x7f05069e;
         public static final int WndStory_Guts=0x7f050634;
         public static final int WndStory_Halls=0x7f050635;
         public static final int WndStory_Metropolis=0x7f050636;
@@ -1910,21 +1921,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int debug_menu_title=0x7f050016;
         public static final int debug_menu_troubleshooting=0x7f050017;
         public static final int decline=0x7f050018;
-        public static final int default_web_client_id=0x7f0506c2;
-        public static final int easyModeAdUnitId=0x7f0506c3;
-        public static final int easyModeSmallScreenAdUnitId=0x7f0506c4;
-        public static final int firebase_database_url=0x7f0506c5;
-        public static final int gcm_defaultSenderId=0x7f0506c6;
-        public static final int google_api_key=0x7f0506c7;
-        public static final int google_app_id=0x7f0506c8;
-        public static final int google_crash_reporting_api_key=0x7f0506c9;
-        public static final int google_storage_bucket=0x7f0506ca;
-        public static final int iapKey=0x7f0506cb;
-        public static final int saveLoadAdUnitId=0x7f0506cc;
+        public static final int default_web_client_id=0x7f0506cd;
+        public static final int easyModeAdUnitId=0x7f0506ce;
+        public static final int easyModeSmallScreenAdUnitId=0x7f0506cf;
+        public static final int firebase_database_url=0x7f0506d0;
+        public static final int gcm_defaultSenderId=0x7f0506d1;
+        public static final int google_api_key=0x7f0506d2;
+        public static final int google_app_id=0x7f0506d3;
+        public static final int google_crash_reporting_api_key=0x7f0506d4;
+        public static final int google_storage_bucket=0x7f0506d5;
+        public static final int iapKey=0x7f0506d6;
+        public static final int saveLoadAdUnitId=0x7f0506d7;
         public static final int store_picture_message=0x7f050019;
         public static final int store_picture_title=0x7f05001a;
-        public static final int testDevice=0x7f0506cd;
-        public static final int this_bowknot_gives_additional_attack_skill=0x7f05069e;
+        public static final int testDevice=0x7f0506d8;
+        public static final int this_bowknot_gives_additional_attack_skill=0x7f05069f;
     }
     public static final class style {
         /** 
@@ -1939,15 +1950,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
- All customizations that are NOT specific to a particular API-level can go here. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;

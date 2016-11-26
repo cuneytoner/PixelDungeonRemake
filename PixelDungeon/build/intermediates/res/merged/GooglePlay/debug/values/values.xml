@@ -434,6 +434,7 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Badges_MonsterSlain2">50 enemies slain</string>
     <string name="Badges_MonsterSlain3">150 enemies slain</string>
     <string name="Badges_MonsterSlain4">250 enemies slain</string>
+    <string name="Badges_Nidhoggr_Slain">Nidhoggr slain</string>
     <string name="Badges_NightHunter">5 monsters killed at nighttime</string>
     <string name="Badges_NoMonsterSlain">Level completed without killing any monsters</string>
     <string name="Badges_Piranhas">6 piranhas killed</string>
@@ -792,6 +793,11 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="GameScene_Water">You hear the water splashing around you.</string>
     <string name="GameScene_Welcome">Welcome to the level %d of Pixel Dungeon!</string>
     <string name="GameScene_WelcomeBack">Welcome back to the level %d of Pixel Dungeon!</string>
+    <string name="Gargoyle_Defense">parried</string>
+    <string name="Gargoyle_Desc">In the semi-shadow of the gathering evening the gargoyles took on a menacing look.</string>
+    <string name="Gargoyle_Gender">masculine</string>
+    <string name="Gargoyle_Name">Gargoyle</string>
+    <string name="Gargoyle_Name_Objective">Gargoyle</string>
     <string name="GasesImmunity_Info">Immune to gases</string>
     <string name="Ghost_Defense">evaded</string>
     <string name="Ghost_Desc">The ghost is barely visible. It looks like a shapeless spot of faint light with a sorrowful face.</string>
@@ -807,6 +813,11 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Gnoll_Gender">masculine</string>
     <string name="Gnoll_Name">gnoll scout</string>
     <string name="Gnoll_Name_Objective">gnoll scout</string>
+    <string name="Goblin_Defense">parried</string>
+    <string name="Goblin_Desc">Goblins are a race of creatures with a destructive and voracious nature that makes them almost universally despised. Weak and cowardly, goblins are frequently manipulated by stronger creatures that need disposable foot soldiers.</string>
+    <string name="Goblin_Gender">masculine</string>
+    <string name="Goblin_Name">Goblin</string>
+    <string name="Goblin_Name_Objective">Goblin</string>
     <string name="Gold_Collect">Collect gold coins to spend them later in a shop.</string>
     <string name="Gold_Info">A pile of %d gold coins.</string>
     <string name="Gold_Info1">One gold coin.</string>
@@ -2077,14 +2088,10 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="testDevice" translatable="false">4B6C33ADEC57FB3E1BC39957E148D646</string>
     <string name="this_bowknot_gives_additional_attack_skill">This bowknot gives +1 additional attack skill</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="Theme.IAPTheme" parent="android:Theme">
 <item name="android:windowIsFloating">true</item>

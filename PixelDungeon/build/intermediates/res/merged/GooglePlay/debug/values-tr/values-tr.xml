@@ -362,6 +362,7 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="Badges_MonsterSlain2">50 düşman öldürüldü</string>
     <string name="Badges_MonsterSlain3">150 düşman öldürüldü</string>
     <string name="Badges_MonsterSlain4">250 düşman öldürüldü</string>
+    <string name="Badges_Nidhoggr_Slain">Nidhoggr öldürüldü</string>
     <string name="Badges_NightHunter">Geceleyin 5 düşman öldürüldü</string>
     <string name="Badges_NoMonsterSlain">Hiç bir yaratık öldürülmeden seviye tamamlandı</string>
     <string name="Badges_Piranhas">6 pirana öldürüldü</string>

@@ -46,6 +46,18 @@
     <string name="Crab_Desc">These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows.</string>
     <string name="Crab_Defense">parried</string>
 
+    <!-- STRINGS OF Goblin CLASS -->
+    <string name="Goblin_Name">Goblin</string>
+    <string name="Goblin_Gender">masculine</string>
+    <string name="Goblin_Name_Objective">Goblin</string>
+    <string name="Goblin_Desc">Goblins are a race of creatures with a destructive and voracious nature that makes them almost universally despised. Weak and cowardly, goblins are frequently manipulated by stronger creatures that need disposable foot soldiers.</string>
+    <string name="Goblin_Defense">parried</string>
+    <!-- STRINGS OF Gargoyle CLASS -->
+    <string name="Gargoyle_Name">Gargoyle</string>
+    <string name="Gargoyle_Gender">masculine</string>
+    <string name="Gargoyle_Name_Objective">Gargoyle</string>
+    <string name="Gargoyle_Desc">In the semi-shadow of the gathering evening the gargoyles took on a menacing look.</string>
+    <string name="Gargoyle_Defense">parried</string>
     <!-- STRINGS OF Dragon CLASS -->
     <string name="Dragon_Name">Nidhoggr</string>
     <string name="Dragon_Gender">masculine</string>

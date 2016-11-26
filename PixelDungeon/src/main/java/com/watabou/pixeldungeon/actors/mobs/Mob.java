@@ -209,7 +209,7 @@ public abstract class Mob extends Char {
 
 
 			if (sprite == null) {
-				throw new TrackedRuntimeException("spite must not be null");
+				throw new TrackedRuntimeException("sprite must not be null");
 			}
 
 		} catch (Exception e) {
