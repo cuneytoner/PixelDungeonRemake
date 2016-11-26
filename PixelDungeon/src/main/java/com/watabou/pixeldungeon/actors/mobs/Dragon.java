@@ -16,8 +16,10 @@ import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.actors.blobs.Blob;
+import com.watabou.pixeldungeon.actors.blobs.Fire;
 import com.watabou.pixeldungeon.actors.blobs.ToxicGas;
 import com.watabou.pixeldungeon.actors.buffs.Buff;
+import com.watabou.pixeldungeon.actors.buffs.Burning;
 import com.watabou.pixeldungeon.actors.buffs.Paralysis;
 import com.watabou.pixeldungeon.effects.CellEmitter;
 import com.watabou.pixeldungeon.effects.Speck;
@@ -35,9 +37,9 @@ public class Dragon extends Boss {
     public Dragon() {
         spriteClass = DragonSprite.class;
 
-        hp(ht(200));
-        EXP = 30;
-        defenseSkill = 18;
+        hp(ht(400));
+        EXP = 70;
+        defenseSkill = 48;
 
         float dice = Random.Float();
         if( dice < 0.5 ) {
@@ -48,28 +50,29 @@ public class Dragon extends Boss {
 
         lootChance = 0.333f;
 
-        IMMUNITIES.add( ToxicGas.class );
+        IMMUNITIES.add( Fire.class );
+        IMMUNITIES.add( Burning.class);
     }
 
     @Override
     public int damageRoll() {
-        return Random.NormalIntRange( 18, 24 );
+        return Random.NormalIntRange( 28, 44 );
     }
 
     @Override
     public int attackSkill( Char target ) {
-        return 28;
+        return 48;
     }
 
     @Override
     public int dr() {
-        return 10;
+        return 20;
     }
 
     @Override
     public boolean act() {
 
-        GameScene.add( Blob.seed( getPos(), 30, ToxicGas.class ) );
+        GameScene.add( Blob.seed( getPos(), 30, Fire.class ) );
 
         return super.act();
     }
@@ -91,9 +94,9 @@ public class Dragon extends Boss {
         int cell = step + Level.NEIGHBOURS8[Random.Int( Level.NEIGHBOURS8.length )];
 
         if (Dungeon.visible[cell]) {
-            CellEmitter.get( cell ).start( Speck.factory( Speck.ROCK ), 0.07f, 10 );
-            Camera.main.shake( 3, 0.7f );
-            Sample.INSTANCE.play( Assets.SND_ROCKS );
+            CellEmitter.get( cell ).start( Speck.factory( Speck.STEAM ), 0.07f, 10 );
+
+            Sample.INSTANCE.play( Assets.SND_BURNING );
 
             if (Dungeon.level.water[cell]) {
                 GameScene.ripple( cell );
@@ -105,7 +108,8 @@ public class Dragon extends Boss {
 
         Char ch = Actor.findChar( cell );
         if (ch != null && ch != this) {
-            Buff.prolong( ch, Paralysis.class, 2 );
+            Buff.prolong(ch, Paralysis.class,2);
+
         }
     }
 
@@ -117,7 +121,7 @@ public class Dragon extends Boss {
         GameScene.bossSlain();
         Dungeon.level.drop( new SkeletonKey(), getPos() ).sprite.drop();
 
-        Badges.validateBossSlain(Badges.Badge.BOSS_SLAIN_3);
+        Badges.validateBossSlain(Badges.Badge.NIDHOGGR_SLAIN);
 
         yell(Game.getVar(R.string.Dragon_Info2));
     }

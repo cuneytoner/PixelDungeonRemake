@@ -113,6 +113,21 @@ public class AttackIndicator extends Tag {
 		}
 
 		sprite = lastTarget.sprite();
+
+        float scx = 1f;
+        float scy = 1f;
+        float scl = 1f;
+
+        if (sprite.width() > 24.0f) {
+            scx = 24.0f / sprite.width();
+        }
+        if (sprite.height() > 24.0f) {
+            scy = 24.0f / sprite.height();
+        }
+
+        scl = Math.min(1,Math.min(scy,scx));
+
+        sprite.setScale(scl,scl);
 		sprite.idle();
 		sprite.paused = true;
 		add(sprite);

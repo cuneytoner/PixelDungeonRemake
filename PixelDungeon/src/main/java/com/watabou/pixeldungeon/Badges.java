@@ -160,6 +160,7 @@ public class Badges {
 		SPIDER_QUEEN_SLAIN(Game.getVar(R.string.Badges_SpiderQueen_Slain), 66),
 		SHADOW_LORD_SLAIN(Game.getVar(R.string.Badges_ShadowLord_Slain), 67),
 		YOG_SLAIN(Game.getVar(R.string.Badges_Yog_Slain), 65),
+		NIDHOGGR_SLAIN(Game.getVar(R.string.Badges_Nidhoggr_Slain), 70),
 		MASTERY_ELF, VICTORY_ELF, BOSS_SLAIN_1_ELF, BOSS_SLAIN_3_SHAMAN, BOSS_SLAIN_3_SCOUT,
 		MASTERY_CLERIC, VICTORY_CLERIC,BOSS_SLAIN_1_CLERIC, BOSS_SLAIN_3_PALADIN, BOSS_SLAIN_3_ARCPRIEST;
 
@@ -959,7 +960,7 @@ public class Badges {
 
 		leaveBest(filtered, Badge.MONSTERS_SLAIN_1, Badge.MONSTERS_SLAIN_2, Badge.MONSTERS_SLAIN_3, Badge.MONSTERS_SLAIN_4);
 		leaveBest(filtered, Badge.GOLD_COLLECTED_1, Badge.GOLD_COLLECTED_2, Badge.GOLD_COLLECTED_3, Badge.GOLD_COLLECTED_4);
-		leaveBest(filtered, Badge.BOSS_SLAIN_1, Badge.BOSS_SLAIN_2, Badge.BOSS_SLAIN_3, Badge.BOSS_SLAIN_4, Badge.SHADOW_LORD_SLAIN, Badge.YOG_SLAIN);
+		leaveBest(filtered, Badge.BOSS_SLAIN_1, Badge.BOSS_SLAIN_2, Badge.BOSS_SLAIN_3, Badge.BOSS_SLAIN_4, Badge.SHADOW_LORD_SLAIN, Badge.YOG_SLAIN, Badge.NIDHOGGR_SLAIN);
 		leaveBest(filtered, Badge.LEVEL_REACHED_1, Badge.LEVEL_REACHED_2, Badge.LEVEL_REACHED_3, Badge.LEVEL_REACHED_4);
 		leaveBest(filtered, Badge.STRENGTH_ATTAINED_1, Badge.STRENGTH_ATTAINED_2, Badge.STRENGTH_ATTAINED_3, Badge.STRENGTH_ATTAINED_4);
 		leaveBest(filtered, Badge.FOOD_EATEN_1, Badge.FOOD_EATEN_2, Badge.FOOD_EATEN_3, Badge.FOOD_EATEN_4);

@@ -22,13 +22,13 @@ public class DragonSprite extends MobSprite {
         idle.frames( frames, 0, 1 );
 
         run = new Animation( 10, true );
-        run.frames( frames, 2, 3 );
+        run.frames( frames, 0, 1, 2, 3 );
 
         attack = new Animation( 15, false );
-        attack.frames( frames, 8,9,10,11 );
+        attack.frames( frames, 7, 8,9 );
 
         die = new Animation( 20, false );
-        die.frames( frames, 4,5,4,5,6,6,7);
+        die.frames( frames, 4,5,4,5,6,6);
 
         play( idle );
     }
