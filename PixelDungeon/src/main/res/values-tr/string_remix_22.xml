@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- STRINGS OF ShadowLord CLASS -->
+    <string name="ShadowLord_Name">gölde lordu</string>
+    <string name="ShadowLord_Gender">erkek</string>
+    <string name="ShadowLord_Name_Objective">Gölge Lordu</string>
+    <string name="ShadowLord_Desc">Saf şeytani güç ve karanlıktan yaratılmış bir yaratık. Bir çokları onun Eski Tanrının kendisi olduğunda inanır.Diğerlerinin inanışı bir yana kendisi Eski Tanrı\'nın meclisinin koruyucusudur.</string>
+	<string name="ShadowLord_Intro">Hazırla Kendini!</string>
+	<string name="ShadowLord_Death">Hayııır...</string>
+	
+
+    <string name="AllowStatisticsCollectionScene_Title">Kullanım İstatistikleri Toplama</string>
+    <string name="AllowStatisticsCollectionScene_Request">Remake Pixel Dungeon uygulamasının kullanım verisi kullanımını onayladığınız durumda bu veriler sadece : \n
+   -Küçük hataların düzeltilmesi  (vahim hatalar için hata raporu gönderilmeli)\n
+   -Oyun ayar ve geliştirmeleri \n
+   -Cihaz özelindeki performans sorunlarının düzeltilmesi amacıyla kullanılacaktır\n
+Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabilirsiniz
+    </string>
+
+    <string name="AllowStatisticsCollectionScene_Allow">İzin Ver</string>
+    <string name="AllowStatisticsCollectionScene_Deny">Reddet</string>
+    <string name="Darkness_Info">Sonsuz karanlığın havada süzülen bir parçası gibi görünüyor</string>
+
+
+</resources>

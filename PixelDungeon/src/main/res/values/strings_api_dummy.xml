@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="testDevice">4B6C33ADEC57FB3E1BC39957E148D646</string>
+    <string translatable="false" name="saveLoadAdUnitId">ca-app-pub-7605455774783890/6075701774</string>
+    <string translatable="false" name="easyModeAdUnitId">ca-app-pub-7605455774783890/3341378177</string>
+    <string translatable="false" name="easyModeSmallScreenAdUnitId">ca-app-pub-7605455774783890/3341378177</string>
+    <string translatable="false" name="iapKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy74AEMJOiG/KHJ/E7rZZrSjA08l+ayTajJ1R0kl+mcPNjp5qfPwos0CUalbBxYt+80cCH7g+ArhXNkqKLQp+DwA4T2zWLCUuGBOB2RqlpxOcDxfagwryIYjL16ZJ82pPaPi+Tsa4a4Gy/ZIP5ZF/efL4UFwB12tSf2hWlIkgG+Yt8kOWFX/Fl+/MIqwvIYgo/EPTv2aVx/nvveFDzjPajj45oNWqB+jT5o/22hcBVMSLAKNr2orcoGtTRSSMQsK+aZGVOMd8zv6QgQ2VSM9MK+wb0SA/ZHW3UxKUoTkxezyqzSLqJ4k25kEZTHwUFbSXK5PEXh1UyDRDVl1uEsopZQIDAQAB</string>
+</resources>

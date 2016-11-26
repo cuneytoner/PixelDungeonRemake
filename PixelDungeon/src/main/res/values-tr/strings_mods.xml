@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Mods_CreatedBy">Geliştirici:</string>
+    <string name="Mods_AuthorSite">Geliştirici site:</string>
+    <string name="Mods_AuthorEmail">Geliştirici email:</string>
+    <string name="Mods_RestartRequired">Yeniden Başlatma Gerekiyor</string>
+
+</resources>

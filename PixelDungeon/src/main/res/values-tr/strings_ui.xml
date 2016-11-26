@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- STRINGS OF TitleScene CLASS -->
+    <string name="TitleScene_Play">Oyna</string>
+    <string name="TitleScene_Highscores">En iyi scorlar</string>
+    <string name="TitleScene_Badges">Rozetler</string>
+    <string name="TitleScene_About">Hakkında</string>
+    <string name="TitleScene_InternalStorageLow">Yerel depolama alanında yeterli yer yok. Oyununuz kabedilebilir!</string>
+
+    <!-- STRINGS OF AboutScene CLASS -->
+    <string name="AboutScene_OurSite">Web Sitemiz:</string>
+    <string name="AboutScene_Lnk"></string>
+    <string name="AboutScene_Mail" translatable="false">cuneytoner@gmail.com</string>
+    <string name="AboutScene_Snd">E-Posta Yolla</string>
+    <string name="AboutScene_TranslatedBy">Çeviri : Cüneyt Öner</string>
+
+
+        <!-- STRINGS OF RankingsScene CLASS -->
+    <string name="RankingsScene_Title">En iyiler</string>
+    <string name="RankingsScene_Total">Toplam Oynanan Oyun: </string>
+    <string name="RankingsScene_NoGames">Henüz oyun oynanmadı.</string>
+    <string name="RankingsScene_NoInfo">Ek bir bilgi yok</string>
+
+    <!-- STRINGS OF StartScene CLASS -->
+    <string name="StartScene_Load">Oyunu Yükle</string>
+    <string name="StartScene_New">Yeni Oyun</string>
+    <string name="StartScene_Erase">Mevcut Oyunu Sil</string>
+    <string name="StartScene_Depth">Derinlik: %1$d\nSeviye: %2$d</string>
+    <string name="StartScene_Really">Yeni oyun başlamak istediğine eminmisin?</string>
+    <string name="StartScene_Warning">Mevcut ilerlemen silinecek.</string>
+    <string name="StartScene_Yes">Evet, başlat</string>
+    <string name="StartScene_No">Hayır, ana menüye dön</string>
+    <string name="StartScene_Unlock">Bu karakleri açabilmek için 3.seviye boss\'u herhangi bir karakter ile yenmelisin</string>
+    <string name="StartScene_UnlockElf">Bu karakleri açabilmek için 4.seviye boss\'u herhangi bir karakter ile yenmelisin</string>
+    <string name="StartScene_WinGame">Meydan okumalar için oyunu herhangi bir karakter ile bitirmelisin.</string>
+    <string name="StartScene_DifficultySelect">Kaderini seç.</string>
+    <string name="StartScene_DifficultyEasy">Kolay (Reklam içerir)</string>
+    <string name="StartScene_DifficultyNormalWithSaves">Normal (Oyun kayıt) (Reklam içerir)</string>
+    <string name="StartScene_DifficultyNormal">Normal</string>
+    <string name="StartScene_DifficultyExpert">Uzman</string>
+    
+
+        <!-- STRINGS OF InterLevelScene CLASS -->
+    <string name="InterLevelScene_Descending">İniliyor...</string>
+    <string name="InterLevelScene_Ascending">Çıkılıyor...</string>
+    <string name="InterLevelScene_Loading">Yükleniyor...</string>
+    <string name="InterLevelScene_Resurrecting">Diriliyorsun...</string>
+    <string name="InterLevelScene_Returning">Geri dönülüyor...</string>
+    <string name="InterLevelScene_Falling">Düşüyorsun...</string>
+    <string name="InterLevelScene_FileNotFound">Dosya bulunamadı...</string>
+    <string name="InterLevelScene_ErrorGeneric">Birşeyler yanlış gitti...</string>
+
+    <!-- STRINGS OF SurfaceScene CLASS -->
+    <string name="SurfaceScene_GameOver">Oyun Bitti</string>
+    
+    <!-- STRINGS OF WndSettings CLASS -->
+    <string name="WndSettings_ZoomIn">+</string>
+    <string name="WndSettings_ZoomOut">-</string>
+    <string name="WndSettings_ZoomDef">Varsayılan Yakınlaştırma</string>
+    <string name="WndSettings_TextScaleDefault">Varsayılan Font</string>
+    <string name="WndSettings_ScaleUp">Arabirimi sığdır</string>
+    <string name="WndSettings_Immersive">Sürükleyici mod</string>
+    <string name="WndSettings_Music">Müzik</string>
+    <string name="WndSettings_Sound">Ses Efektleri</string>
+    <string name="WndSettings_Brightness">Parlak</string>
+    <string name="WndSettings_SwitchPort">Dikey mod</string>
+    <string name="WndSettings_SwitchLand">Yatay Mod</string>
+    <string name="WndSettings_SelectLanguage">Dil Seçimi</string>
+    <string name="WndSettings_SecondQuickslot">2. hızlı erişim</string>
+    <string name="WndSettings_ThirdQuickslot">3. hızlı erişim</string>
+    <string name="WndSettings_ExperementalFont">Yeni Font</string>
+    <string name="WndSettings_ClassicFont">Klasik Font</string>
+    
+    <!-- STRINGS OF WndSaveSlotSelect CLASS -->
+    <string name="WndSaveSlotSelect_SelectSlot">Erişim yeri seç</string>
+    
+    <!-- STRINGS OF ModsButton CLASS -->
+    <string name="ModsButton_SelectMod">Mod seç</string>
+    
+    <string name="ReMakePixelDungeonApp_sendCrash">Oyun hata verdi...\n Üzgünüz.\nLüften çökme raporu göndererek düzeltmemiz için yardımcı olun.</string>
+</resources>	

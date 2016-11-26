@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE items/armor -->
+    <!-- STRINGS OF Armor CLASS -->
+    <string name="Armor_EquipCursed">%s senin vücudunu acı verici şekilde sıkarak sardı</string>
+    <string name="Armor_Identify">%1$s nesnesini artık tanıyorsun. O bir %2$s.</string>
+    <string name="Armor_ToString">%1$s :%2$d</string>
+    <string name="Armor_Info1">Bu %1$s , her saldırıda \"%2$d\" darbe emilimi sağlar</string>
+    <string name="Armor_Info2">\n\n Gücün yeterli olmadığı için hareket hızın ve savunma becerin düştü.</string>
+    <string name="Armor_Info3">\n\n Gücün yeterli olmadığı bu zırhı taşımak hareket hızını ve savunma becerini azaltıyor.</string>
+    <string name="Armor_Info4">\n\n %1$s , %2$d puana kadar hasar emilimi sağlar ve %3$d güç puanı gerektirir.</string>
+    <string name="Armor_Info5">Bu zırh büyük ihtimalle senin için çok ağır</string>
+    <string name="Armor_Info6">Yazılı</string>
+    <string name="Armor_Info7a">\n\nGiydiğin : %1$s%2$s.</string>
+    <string name="Armor_Info7b">, lanetli olduğundan çıkartmaya gücün yok.</string>
+    <string name="Armor_Info8">\n\n %s içinde gizlenen kötü büyüyü hissedebiliyorsun.</string>
+    <string name="Armor_Glyph">kabartma</string>
+
+    <!-- STRINGS OF ClassArmor CLASS -->
+    <string name="ClassArmor_Desc">Bu şey muhteşem görünüyor!</string>
+    <string name="ClassArmor_LowHealt">Canın çok az</string>
+    <string name="ClassArmor_NotEquipped">Bu zırhın özel güçlerini kullanmak için giymelisin</string>
+
+    <!-- STRINGS OF ClothArmor CLASS -->
+    <string name="ClothArmor_Name">Kumaş zırh</string>
+    <string name="ClothArmor_Desc">Bu hafif zırh basit bir koruma sağlar</string>
+
+    <!-- STRINGS OF ElfArmor CLASS -->
+    <string name="ElfArmor_Name">Elf mantosu</string>
+    <string name="ElfArmor_Desc">Bu manto yardımı ile elf doğanın güçlerini çağırabilir , göz açıp kapayıncaya kadar çimenler büyür ve masif taş gibi yaratıkları hareketsiz bırakabilir.</string>
+    <string name="ElfArmor_ACSpecial">DOĞA ÇAĞRISI</string>
+    <string name="ElfArmor_NotElf">Bu zırhı sadece elfler kullanabilir!</string>
+    
+    <!-- STRINGS OF HuntressArmor CLASS -->
+    <string name="HuntressArmor_Name">Avcı pelerini</string>
+    <string name="HuntressArmor_Desc">Bu pelerin ile avcı ,tayf bıçakları oluşturup görüş alanındaki her bir düşmana saldırı silahı kadar hasar verebilir.</string>
+    <string name="HuntressArmor_ACSpecial">TAYF BIÇAKLARI</string>
+    <string name="HuntressArmor_NoEnemies">Görüş alanında düşman yok</string>
+    <string name="HuntressArmor_NotHuntress">Bu zırhı sadece avcılar kullanabilir!</string>
+
+    <!-- STRINGS OF LeatherArmor CLASS -->
+    <string name="LeatherArmor_Name">deri zırh</string>
+    <string name="LeatherArmor_Desc">Bu zırh , yanık canavar derisinden yapılmıştır.Kumaş zırh kadar hafif değildir ama daha iyi korum sağlar.</string>
+
+    <!-- STRINGS OF MageArmor CLASS -->
+    <string name="MageArmor_Name">büyücü cübbesi</string>
+    <string name="MageArmor_Desc">Bu muhteşem cübbeyi given büyücü, erimiş toprak büyüsü ile görüş alanındaki düşmanları yakar ve hareketsiz bırakır.</string>
+    <string name="MageArmor_ACSpecial">ERİMİŞ TOPRAK</string>
+    <string name="MageArmor_NotMage">Bu zırhı sadece büyücüler kullanabilir!</string>
+
+    <!-- STRINGS OF MailArmor CLASS -->
+    <string name="MailArmor_Name">zincir zırh</string>
+    <string name="MailArmor_Desc">İç içe geçen metaller ile güçlü ve esnek bir zırh.</string>
+
+    <!-- STRINGS OF PlateArmor CLASS -->
+    <string name="PlateArmor_Name">plaka zırh</string>
+    <string name="PlateArmor_Desc">Bu ağır zırhı kullanabilecek maceracılar için Muazzam plakalar birbirlerine bağlanarak benzersiz bir koruma sağlayan bu zırhı oluşturmuş.</string>
+
+    <!-- STRINGS OF RogueArmor CLASS -->
+    <string name="RogueArmor_Name">başıbozuk zırhı</string>
+    <string name="RogueArmor_Desc">Bunu giyen başbozuk , duman bombası denen bir hile yapabilir. Düşmanlarını kör ederken bir kenara sıçrayabilir.</string>
+    <string name="RogueArmor_ACSpecial">DUMAN BOMBASI</string>
+    <string name="RogueArmor_NotRogue">Bu zırhı sadece başbozuklar kullanabilir!</string>
+    <string name="RogueArmor_Fov">Görüş alanınızdaki boş bir yere zıplayabilirsiniz</string>
+    <string name="RogueArmor_Prompt">Zıplanacak yeri seç</string>
+
+    <!-- STRINGS OF ScaleArmor CLASS -->
+    <string name="ScaleArmor_Name">pul zırh</string>
+    <string name="ScaleArmor_Desc">Deri bir yeleğe işlenen metal pullar yeterli bir koruma ve esneklik sağlar.</string>
+
+    <!-- STRINGS OF WarriorArmor CLASS -->
+    <string name="WarriorArmor_Name">savaşcı zırh seti</string>
+    <string name="WarriorArmor_Desc">Bu zırhlar çok ağır görünüyor. Bu zırh savaşçıya destansı sıçrama yapmasını ve düştüğü yerdeki tüm düşmanları şaşırtmasını sağlar.</string>
+    <string name="WarriorArmor_ACSpecial">DESTANSI SIÇRAMA</string>
+    <string name="WarriorArmor_NotWarrior">Sadece savaşcılar bu zırhı kullanabilir!</string>
+    <string name="WarriorArmor_Prompt">Sıçranacak yönü seç</string>
+
+    <!-- PACKAGE /armor/Gyphs -->
+    <!-- STRINGS OF Affection CLASS -->
+    <string name="Affection_Txt">%s sana aşık</string>
+    <!-- STRINGS OF AntiEntropy CLASS -->
+    <string name="AntiEntropy_Txt">anti-entropi %s </string>
+    <!-- STRINGS OF Bounce CLASS -->
+    <string name="Bounce_Txt">Sıçrayan %s</string>
+    <!-- STRINGS OF Displacement CLASS -->
+    <string name="Displacement_Txt">Yerdeğiştirme %s</string>
+    <!-- STRINGS OF Entanglement CLASS -->
+    <string name="Entanglement_Txt">Sevgi %s</string>
+    <!-- STRINGS OF Metabolism CLASS -->
+    <string name="Metabolism_Txt">Matabolizma %s </string>
+    <!-- STRINGS OF Multiplicity CLASS -->
+    <string name="Multiplicity_Txt">Çokluk %s</string>
+    <!-- STRINGS OF Potential CLASS -->
+    <string name="Potential_Txt">Güç %s </string>
+    <!-- STRINGS OF Stench CLASS -->
+    <string name="Stench_Txt">Kokuşuk %s </string>
+    <!-- STRINGS OF Viscosity CLASS -->
+    <string name="Viscosity_Txt">akışkan %s</string>
+    <string name="Viscosity_Status">gecikmeli %d</string>
+
+    <!-- STRINGS OF DeferedDamage CLASS -->
+    <string name="DeferedDamage_Defered_Txt">Gecikmeli zarar (%d)</string>
+    <string name="DeferedDamage_Killed_Txt">%s seni öldürdü...</string>
+    
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Welcome_Ok">Okay!</string>>
+    <string name="Welcome_Title">Welcome!</string>
+    <string name="Welcome_Text">
+        Pixel Dungeon Remake is a modification of NYRDS\'s open source Remixed Pixel Dungeon.\n
+        Project was created to provide players with new experience and content.\n
+        Another important part of our project is developing multilingual support for the game.\n
+        And if one day you\'ll see your idea implemented in the game... Thanks for your creativity =)\n
+        </string>
+        <string name="Welcome_Text_19">
+        </string>
+        <string name="Welcome_Text_20">
+        </string>
+        <string name="Welcome_Text_20_1">
+        </string>
+        <string name="Welcome_Text_20_2">
+        </string>
+        <string name="Welcome_Text_21_1">
+        </string>
+        <string name="Welcome_Text_21_2">
+        </string>
+        <string name="Welcome_Text_21_3">
+        </string>
+        <string name="Welcome_Text_21_4">
+        </string>
+        <string name="Welcome_Text_21_5">
+        </string>
+        <string name="Welcome_Text_22">
+        </string>
+        <string name="Welcome_Text_23">
+        </string>
+		<string name="Welcome_Text_23_1">
+        </string>
+        <string name="Welcome_Text_23_2">
+        </string>
+        <string name="Welcome_Text_24">
+        </string>
+        <string name="Welcome_Text_24_1">
+        </string>
+        <string name="Welcome_Text_24_2">
+        </string>
+        <string name="Welcome_Text_25">
+        </string>
+</resources>

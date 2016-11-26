@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/food -->
+    <!-- STRINGS OF Drink CLASS -->
+    <string name="Drink_ACDrink">İç</string>
+    <string name="Drink_Message">Bu içecek çok lezzetli!</string>
+
+    <!-- STRINGS OF ChargrilledMeat CLASS -->
+    <string name="BoiledBeer_Info">Sıcak bira</string>
+    <string name="BoiledBeer_Name">Kaynamış bira</string>
+
+    <!-- STRINGS OF FrozenBeer CLASS -->
+    <string name="FrozenBeer_Info">Buz bir bir bardak bira. Serin ve buz gibi görünüyor</string>
+    <string name="FrozenBeer_Info1">Bilginin zihninden aktığını hissediyorsun</string>
+    <string name="FrozenBeer_Info2">Derinin sertleştiğini hissediyorsun</string>
+    <string name="FrozenBeer_Info4">Daha iyi hisediyorsun</string>
+    <string name="FrozenBeer_Info3">Diğer yaratıkların varlıklarını hissediyorsun</string>
+    <string name="FrozenBeer_Name">Donmuş bira</string>
+
+
+    <!-- STRINGS OF Beer CLASS -->
+    <string name="Beer_Name">bira</string>
+    <string name="Beer_Info">Çok güzel bir bira!</string>
+    <string name="Beer_Info1">Çekicisin!</string>
+    <string name="Beer_Info2">!!#@@!$##</string>
+    <string name="Beer_Info3">İyi hissetmiyorsun.</string>
+    <string name="Beer_Info4">Yavaşladın.</string>
+    <string name="Beer_Message">Bu içkinin tadı....ilginç</string>
+
+    <!-- STRINGS OF RottenFood CLASS -->
+    <string name="TaintedDrink_Message">"Tadı çok çirkin "</string>
+
+    <!-- STRINGS OF RottenMeat CLASS -->
+    <string name="TaintedBeer_Info">Bozulmuş Bira</string>
+    <string name="TaintedBeer_Name">Bozulmuş Bira</string>
+
+
+</resources>

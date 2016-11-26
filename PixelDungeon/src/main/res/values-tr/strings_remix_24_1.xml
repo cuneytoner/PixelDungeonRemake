@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mobs descriptions -->
+    <!-- STRINGS OF ArmoredStatue -->
+    <string name="ArmoredStatue_Name">canlı heykel</string>
+    <string name="ArmoredStatue_Gender">dişi</string>
+    <string name="ArmoredStatue_Name_Objective">canlı heykel</string>
+
+    <!-- STRINGS OF SpiderSoldier -->
+    <string name="SpiderGuard_Name">örümcek muhafız</string>
+    <string name="SpiderGuard_Gender">masculine</string>
+    <string name="SpiderGuard_Name_Objective">örümcek muhafız</string>
+    <string name="SpiderGuard_Desc">Askerler gibi örümcek muhafızlarda krallıklarını korumak için yemin etmiştir.Muhafızın zehri düşmanlarını felç ederek hareket etmelerini engeller.</string>
+
+    <!-- STRINGS OF SpiderMindAmber -->
+    <string name="SpiderMindAmber_Name">kehribar örümcek</string>
+    <string name="SpiderMindAmber_Gender">masculine</string>
+    <string name="SpiderMindAmber_Name_Objective">kehribar örümcek</string>
+    <string name="SpiderMindAmber_Desc">Kehribar örümcekler gizemli ve nadir varlıklardır. Psi-örümcek \'ler gibi psişik güçleri vardır ancak bu tarikat kardeşlerinden daha da güçlüdürler.</string>
+
+    <!-- Accessories descriptions -->
+    <!-- STRINGS OF PirateSet CLASS -->
+    <string name="PirateSet_Name">Korsan Takımı</string>
+    <string name="PirateSet_Info">Arr! Bir korsan gibi misin yoksa lanet olası bir kara adamı mı ? Öyle olmadığını umuyorum. Bu şey korsanlar içindir. Arr.</string>
+
+    <!-- System Text-->
+    <!-- STRINGS OF WndHats CLASS -->
+    <string name="WndSaveSlotSelect_Delete_Yes">Evet, sil!</string>
+    <string name="WndSaveSlotSelect_Delete_No">Hayır</string>
+    <string name="WndSaveSlotSelect_Delete_Title">Bu kaydı silmek istiyor musun?</string>
+</resources>

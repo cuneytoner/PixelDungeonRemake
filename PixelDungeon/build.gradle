@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'testkey'
+            keyPassword '123456'
+            storeFile file('testKey/test.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId 'com.coner.pixeldungeon.remake'
+        minSdkVersion 14
+        targetSdkVersion 23
+        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
+        signingConfig signingConfigs.release
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            lintOptions {
+                disable 'MissingTranslation'
+                disable 'ExtraTranslation'
+            }
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+        GooglePlay {
+            minSdkVersion 14
+            signingConfig signingConfigs.release
+            targetSdkVersion 23
+            applicationId 'com.coner.pixeldungeon.remake'
+        }
+        Amazon {
+            minSdkVersion 14
+            applicationId 'com.coner.pixeldungeon.remake'
+            signingConfig signingConfigs.release
+            targetSdkVersion 23
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4'
+    compile 'ch.acra:acra:4.8.1@aar'
+    compile 'com.google.firebase:firebase-ads:9.8.0'
+    compile 'com.google.android.gms:play-services-analytics:9.8.0'
+    compile 'com.google.android.gms:play-services-ads:9.8.0'
+    compile 'com.google.firebase:firebase-core:9.8.0'
+}
+apply plugin: 'com.google.gms.google-services'

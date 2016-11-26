@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- STRINGS OF Bow CLASS -->
+    <string name="Bow_Info1">Bu menzilli bir silahtır. Herkes için kullanışlı değildir. Sadece elfler ateş oku atmak için kullanabilir</string>
+    
+    <!-- STRINGS OF WoodenBow CLASS -->
+    <string name="WoodenBow_Name">ahşap yay</string>
+    <string name="WoodenBow_Info">Bu basit yay eğer biraz ok bulabilirsen kullanışlı olabileceğini kanıtlayabilir</string>
+    <string name="WoodenBow_Gender">masculine</string>
+	
+	<!-- STRINGS OF CompoundBow CLASS -->
+    <string name="CompoundBow_Name">Bileşik yay</string>
+    <string name="CompoundBow_Gender">erkek</string>
+	
+	<!-- STRINGS OF RubyBow CLASS -->
+    <string name="RubyBow_Name">yakut yay</string>
+    <string name="RubyBow_Info">Sadece en iyi okçular bu yayı kullanabilir.Neredeyse düşmana fırlattığın her ok düşmanın vücudunda bir oyuk açar, bu yyı çekebilmek için muazzam bir güç gerekir.</string>
+    <string name="RubyBow_Gender">masculine</string>
+	
+	<!-- STRINGS OF Quiver CLASS -->
+    <string name="Quiver_Name">ok kılıfı</string>
+    <string name="Quiver_Info">Deri ok kılıfı çok fazla oku taşıyabilir</string>
+    <string name="Quiver_Gender">masculine</string>
+	
+	<!-- STRINGS OF FireQuiver CLASS -->
+    <string name="FireQuiver_Name">ateş ok kılıfı</string>
+    <string name="FireQuiver_Info"></string>
+    <string name="FireQuiver_Gender">masculine</string>
+	
+	<!-- STRINGS OF PoisonQuiver CLASS -->
+    <string name="PoisonQuiver_Name">zehirli ok kılıfı</string>
+    <string name="PoisonQuiver_Info"></string>
+    <string name="Poisonuiver_Gender">masculine</string>
+	
+	<!-- STRINGS OF ParalysisQuiver CLASS -->
+    <string name="ParalysisQuiver_Name">felç edici ok kılıfı</string>
+    <string name="ParalysisQuiver_Info"></string>
+    <string name="ParalysisQuiver_Gender">masculine</string>
+	
+	<!-- STRINGS OF CommonArrow CLASS -->
+    <string name="CommonArrow_Name">ok</string>
+    <string name="CommonArrow_Info">Demir uçlu sıradan ok</string>
+    <string name="CommonArrow_Gender">dişi</string>
+	
+	<!-- STRINGS OF FireArrow CLASS -->
+    <string name="FireArrow_Name">ateş oku</string>
+    <string name="FireArrow_Info">Bu ok ucundan kırmızı ışık yaymasa, normal oklara benziyor.</string>
+    <string name="FireArrow_Gender">erkek</string>
+	
+	<!-- STRINGS OF PoisonArrow CLASS -->
+    <string name="PoisonArrow_Name">zehirli ok</string>
+    <string name="PoisonArrow_Info">Bu okun ucu bir damla ölümcül zehirle parlıyor.</string>
+    <string name="PoisonArrow_Gender">erkek</string>
+	
+	<!-- STRINGS OF ParalysisArrow CLASS -->
+    <string name="ParalysisArrow_Name">felç edici ok</string>
+    <string name="ParalysisArrow_Info">Bu ok felç edici bir zehir ile kaplı.</string>
+    <string name="ParalysisArrow_Gender">erkek</string>
+
+    <!-- STRINGS OF FrostArrow CLASS -->
+    <string name="FrostArrow_Name">dondurucu ok</string>
+    <string name="FrostArrow_Info">Ok başından yayılan dondurucu aurayı hissedebiliyorsun.</string>
+    <string name="FrostArrow_Gender">erkek</string>
+
+</resources>

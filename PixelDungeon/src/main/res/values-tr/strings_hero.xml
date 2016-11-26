@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- STRINGS OF Hero CLASS -->
+    <string name="Hero_Name">senin</string>
+    <string name="Hero_Name_Objective"></string>
+    <string name="Hero_Leave">Pixel Dungeon\'u öyle kolayca terkedemezsin.</string>
+    <string name="Hero_LevelUp">seviye atladın!</string>
+    <string name="Hero_NewLevel">%d. seviyeye hoş geldin! Artık daha sağlıklık ve odaklanmış durumdasın.</string>
+    <string name="Hero_YouNowHave">%s aldın.</string>
+    <string name="Hero_SomethingElse">Burada birşeyler var</string>
+    <string name="Hero_LockedChest">Bu sandık kilitli ve senin uygun anahtarın yok</string>
+    <string name="Hero_LockedDoor">Uygun anahtarın yok</string>
+    <string name="Hero_NoticedSmth">Birşey farkettin</string>
+    <string name="Hero_Wait">...</string>
+    <string name="Hero_Search">ara</string>
+    <string name="Hero_StaBurning">Yanıyorsun!</string>
+    <string name="Hero_StaParalysis">Felç oldun!</string>
+    <string name="Hero_StaPoison">Zehirlendin!</string>
+    <string name="Hero_StaOoze">Kostik sızıntı etini kemiriyor. Bir an önce yıka!</string>
+    <string name="Hero_StaRoots">Hareket edemiyorsun!</string>
+    <string name="Hero_StaWeakness">Güçsüz hissediyorsun!</string>
+    <string name="Hero_StaBlindness">Kör oldun!</string>
+    <string name="Hero_StaFury">Öfkelisin!</string>
+    <string name="Hero_StaFurious">öfkeli</string>
+    <string name="Hero_StaCharm">Çok çekicisin!</string>
+    <string name="Hero_StaCripple">Sakatlandın!</string>
+    <string name="Hero_StaBleeding">Kanaman var!</string>
+    <string name="Hero_StaVertigo">Etrafındaki herşey dönüyor!</string>
+
+    <!-- STRINGS OF HeroClass CLASS -->
+    <string name="HeroClass_War">savaşçı</string>
+    <string name="HeroClass_Mag">büyücü</string>
+    <string name="HeroClass_Rog">başıbozuk</string>
+    <string name="HeroClass_Hun">avcı</string>
+    <string name="HeroClass_Elf">elf</string>
+
+    <string-array name="HeroClass_WarPerks">
+        <item>Savaşçılar 11 güç puanı ile oyuna başlar.</item>
+        <item>Kısa bir kılıçla oyuna başlanı bu kılı daha sonra yenilenerek başka bir saldırı silahına güncellenebilir.</item>
+        <item>Savaşcıların uzun menzilli silah kullanma yetisi düşüktür.</item>
+        <item>Yenilen yemek ufak bir can artışı sağlar.</item>
+        <item>Güç iksiri başlangıçta tanımlanmıştır.</item>
+    </string-array>
+    <string-array name="HeroClass_MagPerks">
+        <item>Büyücüler oyuna sihirli asa ile başlar ve daha sonra bu asa yükseltilerek başka bir asa yapılabilir.</item>
+        <item>Büyücüler asalarını daha hızlı şarj eder.</item>
+        <item>Yemek yenildiğinde çantadaki tüm asalar 1 puan şarj olur.</item>
+        <item>Büyücüler asayı saldırı silahı olarak kullanabilir.</item>
+        <item>Tanımlama parşömeni başlangıçta tanımlı olarak gelir.</item>
+    </string-array>
+    <string-array name="HeroClass_RogPerks">
+        <item>Başıbozuk oyuna Gölge Yüzüğü+1 ile başlar.</item>
+        <item>Bu yüzük tanılanmış ve parmağına takılı olarak gelir.</item>
+        <item>Daha hafif zırhlar giyerek düşman saldırısını savuşturma tekniğini kullanır.</item>
+        <item>Gizli kapı ve tuzakları önceden farketme yeteneği yüksektir.</item>
+        <item>Yemek yemeden daha uzun süre yol alabilir.</item>
+        <item>Sihirli Harita Parşömeni tanımlı olarak gelir.</item>
+    </string-array>
+    <string-array name="HeroClass_HunPerks">
+        <item>Avcı 15 sağlık puanı ile oyuna başlar.</item>
+        <item>Başlangıçta yükseltilebilir bir bumerangı silah olarak kullanır.</item>
+        <item>Uzun mesafeli silah kullanımında uzmandır ve bu silahlarla büyük hasar verebilir.</item>
+        <item>Bir çiy tanesinden daha fazla sağlık kazanır.</item>
+        <item>Etraftaki yaratıkları sezme yeteneği fazladır.</item>
+    </string-array>
+    <string-array name="HeroClass_ElfPerks">
+        <item>Elfler oyuna 15 Sağlık and 9 Güç puanı ile başlar.</item>
+        <item>Kök salmaya karşı bağışıklıkları vardır.</item>
+        <item>Güncellennmiş tahta yay ve oklar ile oyuna başlar.</item>
+        <item>Elfler yay kullanımı konusund yetenekli ve çeviktir.</item>
+        <item>Diğer saldırı silahları ile daha az başarılıdırlar.</item>>
+    </string-array>
+
+    <!-- STRINGS OF HeroSubClass CLASS -->
+    <string name="HeroSubClass_NameGlad">gladyatör</string>
+    <string name="HeroSubClass_DescGlad">Saldırı silahı ile yaptığı başarılı bir vuruşla "kombo" ya başlar. Başarılı her vuruş daha fazla hasar verir.</string>
+    <string name="HeroSubClass_NameBers">Vahşi Savaşçı</string>
+    <string name="HeroSubClass_DescBers">Fazlaca yaralandığında _Vahşi Savaşçı_ çılgın bir öfkeli duruma geçerek kayda değer hasar veren saldırılar yapar.</string>
+    <string name="HeroSubClass_NameWarL">sihirbaz</string>
+    <string name="HeroSubClass_DescWarL">_Sihirbaz_ düşmanını öldürdüğünde onun ruhunu tüketir ve yaralarını iyileştirip ,açlığını bastırır.</string>
+    <string name="HeroSubClass_NameBatM">savaş büyücüsü</string>
+    <string name="HeroSubClass_DescBatM">Asa ile dövüştüğünde , asasının şarjına bağlı olarak ekstra hasar verir ve her başarılı saldırı asasını 1 birim şarj eder.</string>
+    <string name="HeroSubClass_NameAssa">suikastçi</string>
+    <string name="HeroSubClass_DescAssa">Sürpriz atak yaptığında _suikastçi_ hedefine ektra hasar verir.</string>
+    <string name="HeroSubClass_NameFreR">koşucu</string>
+    <string name="HeroSubClass_DescFreR">_Koşucu_ neredeyse bütün yaratıklardan iki kat hızlı hareket eder. Koştuğunda ona vurmak çok zordur. Bunun için tok ve serbest olması lazımdır.</string>
+    <string name="HeroSubClass_NameSnip">nişancı</string>
+    <string name="HeroSubClass_DescSnip">_Nişancılar_ düşmanın zırhını zayıf noktalarını belirleyip uzun menzilli silah ile büyük hasarlar verebilir.</string>
+    <string name="HeroSubClass_NameWard">muhafız</string>
+    <string name="HeroSubClass_DescWard">Doğa güçleri ile olan sıkı bağı _muhafız_\'lara bitkilerden çiy ve tohum elde etme yeteneği verir. Ayrıca uzun çimenler geçici bir koruma sağlar.</string>
+    <string name="HeroSubClass_NameScout">izci</string>
+    <string name="HeroSubClass_DescScout">Elf _izciler_ gizliliğin ustalarıdır.Uzun çimenler geçici görünmezlik verir.Normal elflere göre daha hızlıdırlar.</string>
+    <string name="HeroSubClass_NameShaman">şaman</string>
+    <string name="HeroSubClass_DescShaman">Elf _Şamanlar_ asayı saldırı silahı olarak kullanabilir.Başarılı saldırılar asanın gücünü şarj kullanmadan aktif etmeyi sağlar.</string>
+    
+</resources>

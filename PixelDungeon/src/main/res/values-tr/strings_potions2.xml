@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- PACKAGE /items/potions additional strings-->
+    
+    <string name="Potion_ACMoisten">NEMLENDİR</string>
+    <string name="Potion_SelectForMoisten">Nemlendirilecek nesneyi seç</string>
+    <string name="Potion_MoistenUseless">Görünüşe göre bu iksiri ziyan ettin.</string>
+    
+    <string name="Potion_RuneDissaperaed">%s üzerindeki rün kayboldu.</string>
+    <string name="Potion_ArrowMoisten">Oklarını başarıyla nemlendirdin.</string>
+    <string name="Potion_ItemFliesAway">%s öylece ellerinin arasından kaçıverdi.</string>
+    <string name="Potion_FoodRefreshed">%s artık yenebilir gibi görünüyor</string>
+
+</resources>

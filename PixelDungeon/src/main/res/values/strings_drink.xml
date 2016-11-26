@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/food -->
+    <!-- STRINGS OF Drink CLASS -->
+    <string name="Drink_ACDrink">Drink</string>
+    <string name="Drink_Message">That drink tasted delicious!</string>
+
+    <!-- STRINGS OF ChargrilledMeat CLASS -->
+    <string name="BoiledBeer_Name">Boiled Beer</string>
+    <string name="BoiledBeer_Info">Warm beer.</string>
+
+    <!-- STRINGS OF FrozenBeer CLASS -->
+    <string name="FrozenBeer_Name">frozen beer</string>
+    <string name="FrozenBeer_Info">It\'s a glass of ice-cold beer. it\'s looking fresh and cold as ice.</string>
+    <string name="FrozenBeer_Info1">you feel the knowledge pour into your mind!</string>
+    <string name="FrozenBeer_Info2">You feel your skin harden!</string>
+    <string name="FrozenBeer_Info3">You can feel the presence of other creatures</string>
+    <string name="FrozenBeer_Info4">You feel better!</string>
+
+
+    <!-- STRINGS OF Beer CLASS -->
+    <string name="Beer_Name">beer</string>
+    <string name="Beer_Info">It\'s looks very tasty!</string>
+    <string name="Beer_Info1">You\'re very charmy!</string>
+    <string name="Beer_Info2">!!#@@!$##</string>
+    <string name="Beer_Info3">You are not feeling well.</string>
+    <string name="Beer_Info4">You are slowed.</string>
+    <string name="Beer_Message">That drink  tasted... interesting.</string>
+
+    <!-- STRINGS OF Wine CLASS -->
+    <string name="Wine_Name">Wine</string>
+    <string name="Wine_Info">It\'s looks very tasty!</string>
+    <string name="Wine_Info1">Let there be light!</string>
+    <string name="Wine_Info2">You feels refreshed</string>
+    <string name="Wine_Info3">You are not feeling well.</string>
+    <string name="Wine_Info4">You are very fast.</string>
+    <string name="Wine_Message">That drink  tasted... interesting.</string>
+
+    <!-- STRINGS OF RottenFood CLASS -->
+    <string name="TaintedDrink_Message">Nasty!</string>
+
+    <!-- STRINGS OF RottenMeat CLASS -->
+    <string name="TaintedBeer_Name">Tainted Beer</string>
+    <string name="TaintedBeer_Info">A glass of Tainted Beer</string>
+
+
+</resources>

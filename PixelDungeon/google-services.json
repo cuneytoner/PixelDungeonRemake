@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "434403672689",
+    "firebase_url": "https://api-5670678809838127583-629463.firebaseio.com",
+    "project_id": "api-5670678809838127583-629463",
+    "storage_bucket": "api-5670678809838127583-629463.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434403672689:android:90b7e0519a3706e5",
+        "android_client_info": {
+          "package_name": "com.coner.pixeldungeon.remake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434403672689-afcsf749km3v02uj5cmla0tkvlsgq4om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coner.pixeldungeon.remake",
+            "certificate_hash": "26E14392D5957EBE7F80C641DDE0C563453C9DAE"
+          }
+        },
+        {
+          "client_id": "434403672689-1gs9jm66nah74j172svn66m996gel6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgTVcBaX8Rl9W1JxGrGENiRq875gYPaQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434403672689-1gs9jm66nah74j172svn66m996gel6u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

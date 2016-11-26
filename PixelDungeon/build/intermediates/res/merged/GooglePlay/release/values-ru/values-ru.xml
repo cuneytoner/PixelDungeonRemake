@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="Challenges_Names">
+    <item>На диете</item>
+    <item>Вера заменит мне броню</item>
+    <item>Никаких лекарств!</item>
+    <item>Пустыня</item>
+    <item>Коллективный разум</item>
+    <item>Во Тьме</item>
+  </string-array>
+    <string-array name="Char_Defeat">
+    <item>%1$s одолело %2$s</item>
+    <item>%1$s одолел %2$s</item>
+    <item>%1$s одолела %2$s</item>
+  </string-array>
+    <string-array name="Char_Hit">
+    <item>%1$s ударило %2$s</item>
+    <item>%1$s ударил %2$s</item>
+    <item>%1$s ударила %2$s</item>
+  </string-array>
+    <string-array name="Char_Kill">
+    <item>%s убило тебя</item>
+    <item>%s убил тебя</item>
+    <item>%s убила тебя</item>
+  </string-array>
+    <string-array name="Char_StaDodged">
+    <item>уклонилось</item>
+    <item>уклонился</item>
+    <item>уклонилась</item>
+  </string-array>
+    <string-array name="Codex_Story">
+    <item>И создал Watabou Pixel Dungeon. И посмотрел он на дело рук своих. И увидел он, что это хорошо!</item>
+    <item>Глиф Упругости - отталкивает врага после того, как тот ударит Героя.</item>
+    <item>Глиф Влечения - очаровывает врага на несколько ходов, Герой также подвергается очарованию на некоторое время, но не дольше, чем враг.</item>
+    <item>Глиф Антиэнтропии - поджигает и освещает Героя, в то же время замораживая врага.</item>
+    <item>Глиф Умножения - герой ценой части своего здоровья, а иногда и жизни, создает зеркального двойника.</item>
+    <item>Глиф Потенциала - бьёт молнией врага посмевшего атаковать Героя, однако Герою достаётся примерно половина урона врагу.</item>
+    <item>Глиф Метаболизма - перед тем, как получить удар врага, Герой немного подлечивается, если только не голоден. Однако голод будет напоминать о себе чаще.</item>
+    <item>Глиф Зловония - пропустив удар, Герой испускает облачко токсичного газа.</item>
+    <item>Глиф Вязкости - накапливает урон и наносит его герою не сразу, а постепенно, по одной единице за ход.</item>
+    <item>Глиф Смещения - пропустив удар, Герой может телепортироваться куда-нибудь в поле зрения. Этот глиф не работает на уровнях с Боссами.</item>
+    <item>Глиф Пут - Герой может получить растительную броню, но в то же время его могут опутать корни.</item>
+    <item>Мрачное оружие - при удачном ударе может убить врага на месте (или нанести двойной урон Боссу).</item>
+    <item>Искрящее оружие - при удачном ударе наносит врагу дополнительный урон и может его поджечь.</item>
+    <item>Ужасное оружие - при удачном ударе может обратить врага в ужас.</item>
+    <item>Нестабильное оружие - при удачном ударе может сработать эффект любого зачарования.</item>
+    <item>Вампирическое оружие - при удачном ударе передаёт Герою часть потерянного врагом здоровья.</item>
+    <item>Счастливое оружие - почти полностью игнорирует вооружение врага, а также наносит гораздо больше урона.</item>
+    <item>Ошеломляющее оружие - при удачном ударе парализует врага.</item>
+    <item>Пронзающее оружие - при удачном ударе поражает не только врага, но и каждого, кто стоит прямо за ним.</item>
+    <item>Отравленное оружие - при удачном ударе отравляет врага.</item>
+    <item>Морозное оружие - при удачном ударе замедляет врага и может защитить его от возгорания.</item>
+    <item>Дикое оружие - при удачном ударе может нанести урон множеству врагов вокруг цели.</item>
+    <item>Эта книга написана на языке демонов</item>
+    <item>Эта книга написана на языке дворфов</item>
+    <item>Эта книга написана на языке эльфов</item>
+  </string-array>
+    <string-array name="Death_Name">
+    <item>Мрачное %s</item>
+    <item>Мрачный %s</item>
+    <item>Мрачная %s</item>
+  </string-array>
+    <string-array name="Dungeon_Tips">
+    <item>Не будь самоуверенным, используй доступные тебе оружие и броню.</item>
+    <item>Не всякая дверь в подземелье заметна с первого взгляда. Если не знаешь куда идти, попробуй поискать тайные двери.</item>
+    <item>Помни, что повышение силы - не единственный способ использовать лучшее снаряжение, ты можешь пойти другим путём, понижая требования предмета с помощью Свитка Улучшения.</item>
+    <item>Золото можно тратить в магазинах в глубине подземелья. Первый встречается на уровне 6.</item>
+    <item>Берегись Жижи!</item>
+    <item>Pixel-Mart - всё, что нужно для успешного приключения!</item>
+    <item>Распознавай свитки и зелья как можно раньше. Не откладывай до того момента, когда они могут тебе понадобится.</item>
+    <item>Голод не наносит урона, чего нельзя сказать об истощении.</item>
+    <item>Неожиданная атака имеет больший шанс на попадание. Например, ты можешь подстеречь врага у закрытой двери, будучи уверенным, что он приближается.</item>
+    <item>Не выпускай Тенгу!</item>
+    <item>Pixel-Mart. Больше потратишь. Дольше проживёшь.</item>
+    <item>Если на тебя нападают несколько монстров, попробуй отступить за дверь.</item>
+    <item>Если тебя подожгут, пока ты в состоянии левитации, ты не сможешь потушить огонь, зайдя в воду.</item>
+    <item>Нет смысла держать при себе более одного Анха, они все исчезнут при воскрешении.</item>
+    <item>ОПАСНОСТЬ! Тяжёлая техника может послужить причиной травм, потери конечностей и смерти!</item>
+    <item>Pixel-Mart. Обезопась свою жизнь в подземелье.</item>
+    <item>При улучшении зачарованного оружия есть вероятность, что оно лишится волшебных свойств.</item>
+    <item>В Источнике Трансмутации можно получить предмет, который иначе никак не приобрести.</item>
+    <item>Единственный способ зачаровать оружие - воспользоваться Свитком Улучшения Оружия.</item>
+    <item>Ношение оружия недопустимо в присутствии его Величества!</item>
+    <item>Pixel-Mart. Охотникам на демонов скидки!</item>
+    <item>Этот текст написан на языке демонов.</item>
+    <item>Этот текст написан на языке демонов.</item>
+    <item>Этот текст написан на языке демонов</item>
+  </string-array>
+    <string-array name="Fire_Name">
+    <item>Искрящее %s</item>
+    <item>Искрящий %s</item>
+    <item>Искрящая %s</item>
+  </string-array>
+    <string-array name="HeroClass_ElfPerks">
+    <item>Эльфы начинают с 15 очками здоровья и 9 очками силы.</item>
+    <item>У Эльфов иммунитет к спутыванию.</item>
+    <item>Эльфы начинают с улучшенным деревянным луком и связкой стрел.</item>
+    <item>Эльфы восхитительно владеют луками и очень проворны.</item>
+    <item>Эльфы слабы с оружием ближнего боя.</item>
+  </string-array>
+    <string-array name="HeroClass_HunPerks">
+    <item>Охотницы начинают с 15 очками Здоровья.</item>
+    <item>Охотницы начинают с уникальным улучшаемым бумерангом.</item>
+    <item>Охотницы хороши в обращении с оружием дальнего боя и получают бонус к урону за каждое очко Силы сверх требований этого оружия.</item>
+    <item>Охотницы восстанавливают больше здоровья от капель росы.</item>
+    <item>Охотницы чувствуют ближайших монстров, даже если те скрыты за препятствиями.</item>
+  </string-array>
+    <string-array name="HeroClass_MagPerks">
+    <item>Маги начинают с уникальной Палочкой Волшебных Снарядов. Которую, в дальнейшем, можно \"развоплотить\" для улучшения другой палочки.</item>
+    <item>Маги быстрее восполняют заряды волшебных палочек.</item>
+    <item>Во время еды любая пища восстанавливает 1 заряд для каждой палочки в инвентаре.</item>
+    <item>Маги могут использовать волшебные палочки в ближнем бою.</item>
+    <item>Свитки Опознания распознаны с самого начала.</item>
+  </string-array>
+    <string-array name="HeroClass_RogPerks">
+    <item>Воры начинают с Кольцом Теней+1.</item>
+    <item>Воры узнают тип кольца при его надевании.</item>
+    <item>Воры - эксперты легкой брони,в ней они лучше уклоняются.</item>
+    <item>Воры - эксперты в нахождении скрытых дверей и ловушек.</item>
+    <item>Воры могут долгое время обходиться без еды.</item>
+    <item>Свитки Магической Картографии распознаны с самого начала.</item>
+  </string-array>
+    <string-array name="HeroClass_WarPerks">
+    <item>Воины начинают с 11 очками Силы.</item>
+    <item>Воины начинают с уникальным коротким мечом. Который, в дальнейшем, можно \"перековать\" для улучшения другого оружия ближнего боя.</item>
+    <item>Воины плохо приспособлены к оружию дальнего боя.</item>
+    <item>Во время еды Воин восстанавливает немного здоровья.</item>
+    <item>Зелья Силы распознаны с самого начала.</item>
+  </string-array>
+    <string-array name="Horror_Name">
+    <item>Жуткое %s</item>
+    <item>Жуткий %s</item>
+    <item>Жуткая %s</item>
+  </string-array>
+    <string-array name="Hunger_Hungry">
+    <item>Ты голодно.</item>
+    <item>Ты голоден.</item>
+    <item>Ты голодна.</item>
+  </string-array>
+    <string-array name="Hunger_Starving">
+    <item>Ты истощено!</item>
+    <item>Ты истощён!</item>
+    <item>Ты истощена!</item>
+  </string-array>
+    <string-array name="Instability_Name">
+    <item>Нестабильное %s</item>
+    <item>Нестабильный %s</item>
+    <item>Нестабильная %s</item>
+  </string-array>
+    <string-array name="Leech_Name">
+    <item>Вампирическое %s</item>
+    <item>Вампирический %s</item>
+    <item>Вампирическая %s</item>
+  </string-array>
+    <string-array name="Luck_Name">
+    <item>Счастливое %s</item>
+    <item>Счастливый %s</item>
+    <item>Счастливая %s</item>
+  </string-array>
+    <string-array name="Paralysis_Name">
+    <item>Ошеломляющее %s</item>
+    <item>Ошеломляющий %s</item>
+    <item>Ошеломляющая %s</item>
+  </string-array>
+    <string-array name="Piercing_Name">
+    <item>Пронзающее %s</item>
+    <item>Пронзающий %s</item>
+    <item>Пронзающая %s</item>
+  </string-array>
+    <string-array name="Poison_Name">
+    <item>Отравленное %s</item>
+    <item>Отравленный %s</item>
+    <item>Отравленная %s</item>
+  </string-array>
+    <string-array name="Potion_Colors">
+    <item>голубое</item>
+    <item>алое</item>
+    <item>синее</item>
+    <item>зелёное</item>
+    <item>золотое</item>
+    <item>лиловое</item>
+    <item>чёрное</item>
+    <item>белесое</item>
+    <item>янтарное</item>
+    <item>коричневое</item>
+    <item>фиолетовое</item>
+    <item>серебряное</item>
+  </string-array>
+    <string-array name="Ring_Gems">
+    <item>бриллиантом</item>
+    <item>опалом</item>
+    <item>гранатом</item>
+    <item>рубином</item>
+    <item>аметистом</item>
+    <item>топазом</item>
+    <item>ониксом</item>
+    <item>турмалином</item>
+    <item>изумрудом</item>
+    <item>сапфиром</item>
+    <item>кварцем</item>
+    <item>агатом</item>
+  </string-array>
+    <string-array name="Scroll_Runes">
+    <item>КАУНАН</item>
+    <item>СОВИЛО</item>
+    <item>ЛАГУЗ</item>
+    <item>ИНГВИ</item>
+    <item>ГИФУ</item>
+    <item>РАЙДО</item>
+    <item>ИСАЗ</item>
+    <item>МАННАЗ</item>
+    <item>НАУДИЗ</item>
+    <item>БЕРКАНАН</item>
+    <item>ОДАЛ</item>
+    <item>ТИВАЗ</item>
+    <item>АНСУЗ</item>
+    <item>ИВАЗ</item>
+    <item>АЛГИЗ</item>
+    <item>ДАГАЗ</item>
+    <item>САХЕЗ</item>
+  </string-array>
+    <string-array name="Slow_Name">
+    <item>Морозное %s</item>
+    <item>Морозный %s</item>
+    <item>Морозная %s</item>
+  </string-array>
+    <string-array name="Swing_Name">
+    <item>Дикое %s</item>
+    <item>Дикий %s</item>
+    <item>Дикая %s</item>
+  </string-array>
+    <string-array name="WandOfFlock_SheepBaa">
+    <item>Бее!</item>
+    <item>Бее?</item>
+    <item>Бее.</item>
+    <item>Бее...</item>
+    <item>Бээ...</item>
+    <item>Бваа...</item>
+  </string-array>
+    <string-array name="Wand_Wood_Types">
+    <item>ясеневая</item>
+    <item>тисовая</item>
+    <item>эбеновая</item>
+    <item>вишнёвая</item>
+    <item>тиковая</item>
+    <item>рябиновая</item>
+    <item>ивовая</item>
+    <item>сандаловая</item>
+    <item>бамбуковая</item>
+    <item>амарантовая</item>
+    <item>дубовая</item>
+    <item>берёзовая</item>
+  </string-array>
+    <string-array name="known_mods">
+    <item/>
+  </string-array>
+    <string name="AboutScene_Lnk">http://wiki.nyrds.net/</string>
+    <string name="AboutScene_Mail">cuneytoner@gmail.com</string>
+    <string name="AboutScene_OurSite">Наш сайт:</string>
+    <string name="AboutScene_Snd">Отправить E-Mail</string>
+    <string name="AboutScene_TranslatedBy">Русский перевод:\n NYRDS\nособая благодарность Arex и всем нашим пользователям.</string>
+    <string name="AboutScene_Txt">Remixed Pixel Dungeon от NYRDS основана на исходном коде Pixel Dungeon от Watabou.\n\n Програмирование &amp; графика: Watabou &amp; NYRDS &amp; ThEnigma314\n\nМузыка: Cube_Code\n\nОсобая благодарность: rodriformiga за подготовку локализации PD\n\nНапишите нам:\n\n</string>
+    <string name="Acidic_Desc">Эти огромные членистоногие создания стараются избегать ближнего боя, выстреливая ядовитые иглы с большого расстояния.</string>
+    <string name="Acidic_Gender">masculine</string>
+    <string name="Acidic_Name">кислотный скорпион</string>
+    <string name="Acidic_Name_Objective">кислотного скорпиона</string>
+    <string name="Affection_Txt">%s влечения</string>
+    <string name="AirElemental_Desc">Воздушные элементали - это летающие магические существа из ожившего воздуха.</string>
+    <string name="AirElemental_Gender">masculine</string>
+    <string name="AirElemental_Name">воздушный элементаль</string>
+    <string name="AirElemental_Name_Objective">элементаля</string>
+    <string name="AlarmTrap_Desc">Ловушка издаёт пронзающий звук, разносящийся по подземелью!</string>
+    <string name="Albino_Desc">Сумчатые крысы - агрессивные, но довольно слабые обитатели канализации. Тем не менее, в больших количествах, они могут представлять опасность.</string>
+    <string name="Albino_Gender">feminine</string>
+    <string name="Albino_Name">крыса-альбинос</string>
+    <string name="Albino_Name_Objective">крысу-альбиноса</string>
+    <string name="AlchemyPot_SelectSeed">Выбери семена</string>
+    <string name="AllowStatisticsCollectionScene_Allow">Разрешаю</string>
+    <string name="AllowStatisticsCollectionScene_Deny">Запрещаю</string>
+    <string name="AllowStatisticsCollectionScene_Request">С вашего разрешения Remixed Pixel Dungeon начнёт собирать пользовательскую статистику. Эти данные будут использоваться для:\n
+- отслеживания и исправления незначительных багов (если дело доходит до критической ошибки, игра явно попросит вас отправить отчёт)\n
+- улучшения игрового баланса\n
+- исправления проблем, уникальных для определённых устройств\n
+- публикация забавных фактов из статистики, время от времени\n
+Вы всегда можете изменить ваше решение (кликните по иконке диаграммы на стартовом экране)</string>
+    <string name="AllowStatisticsCollectionScene_Title">Сбор пользовательской статистики</string>
+    <string name="Amok_Info">Буйство</string>
+    <string name="AmuletScene_Exit">Моё дело здесь сделано</string>
+    <string name="AmuletScene_Stay">Я, пожалуй, ещё осмотрюсь</string>
+    <string name="AmuletScene_Txt">Наконец-то, он в твоих руках, Амулет Эндора. Ты обретёшь могущество, позволяющее покорить всех и вся или подаришь человечеству мир и процветание, или что-то типа того. В любом случае, твоя жизнь изменится навсегда, а игра на этом завершится. С другой стороны, ты можешь побыть жалким смертным ещё немного.</string>
+    <string name="Amulet_ACEnd">ЗАВЕРШИТЬ ИГРУ</string>
+    <string name="Amulet_Info">Амулет Эндора, могущественнейший артефакт, неведомого происхождения. Считается, что он может исполнить любое желание, если воля его обладателя достаточно сильна, для того чтобы \"убедить\" амулет.</string>
+    <string name="Amulet_Name">Амулет Эндора</string>
+    <string name="Ankh_Info">Древний символ бессмертия, дарующий возможность вернуться к жизни после смерти. При воскрешении все ненадетые вещи теряются.</string>
+    <string name="Ankh_Name">Анх</string>
+    <string name="AntiEntropy_Txt">%s антиэнтропии</string>
+    <string name="ArmorKit_ACAplly">ПРИМЕНИТЬ</string>
+    <string name="ArmorKit_Info">Используя этот набор маленьких инструментов и материалов, любой способен превратить броню в \"эпическую броню\", сохраняя свойства прежней брони, но при этом давая носителю особую способность, в зависимости от класса персонажа. Не требует навыков вышивания, кожевника или кузница.</string>
+    <string name="ArmorKit_Name">инструменты</string>
+    <string name="ArmorKit_SelectArmor">Выбери броню для улучшения</string>
+    <string name="ArmorKit_Upgraded">ты применил инструменты для улучшения предмета %s</string>
+    <string name="Armor_EquipCursed">%s болезненно впивается в твою кожу</string>
+    <string name="Armor_Glyph">глиф</string>
+    <string name="Armor_Identify">ты достаточно хорошо знаком с предметом %1$s, чтобы его опознать. Это %2$s.</string>
+    <string name="Armor_Incompatible">Взаимодействие несовместимых типов магии стёрло глиф с этой брони!</string>
+    <string name="Armor_Info1">%1$s обеспечивает поглощение урона вплоть до \"%2$d\" очков за удар.</string>
+    <string name="Armor_Info2">\n\nИз-за недостаточной силы твоя скорость передвижения и навык защиты понизились. </string>
+    <string name="Armor_Info3">\n\nИз-за недостаточной силы ношение этой брони понизит твою скорость передвижения и навык защиты.</string>
+    <string name="Armor_Info4">\n\nКак правило, %1$s обеспечивает поглощение урона вплоть до %2$d очков за удар и требует %3$d очков силы.</string>
+    <string name="Armor_Info5">Судя по всему, эта броня слишком тяжела для тебя.</string>
+    <string name="Armor_Info6">Здесь присутствуют начертания.</string>
+    <string name="Armor_Info7a">\n\nТы носишь предмет %1$s%2$s.</string>
+    <string name="Armor_Info7b">, а поскольку он проклят, ты не в силах его снять</string>
+    <string name="Armor_Info8">\n\nТы чувствуешь зловещую силу, затаившуюся в предмете %s.</string>
+    <string name="Armor_ToString">%1$s :%2$d</string>
+    <string name="ArmoredStatue_Desc">Вряд ли кому-то могло показаться что это очередная обычная статуя. И дело не столько в святящихся красных глазах, но в факте того что никто, в здравом уме, не стал бы одевать статую в _%s_.</string>
+    <string name="ArmoredStatue_Gender">feminine</string>
+    <string name="ArmoredStatue_Name">ожившая статуя</string>
+    <string name="ArmoredStatue_Name_Objective">статую</string>
+    <string name="Assets_Prefix">rus_</string>
+    <string name="AzuterronNPC_Desc">Загадочная фигура сокрытая чёрным туманом.</string>
+    <string name="AzuterronNPC_Gender">masculine</string>
+    <string name="AzuterronNPC_Name">Незнакомец</string>
+    <string name="AzuterronNPC_Name_Objective">Незнакомца</string>
+    <string name="AzuterronNPC_Quest_End">Превосходно. Вот, возьми это зелье, я уверен оно тебе пригодится.</string>
+    <string name="AzuterronNPC_Quest_Reminder">Помоги мне и я помогу тебе.</string>
+    <string name="AzuterronNPC_Quest_Start">Хм, что... о, ты меня видишь, так ведь? Стало быть ты не \"один из них\". Я так понимаю ты тоже не в восторге от этого засилья монстров. Знаешь что, если бы ты мне помог с одним дельцом, я в долгу не останусь. Где-то на этом уровне притаился _Предательский дух_. Убей его и принеси мне его _сердце_. И конечно если ты захочешь приобрести что-то из моих запасов, только спроси.</string>
+    <string name="BadgesScene_Title">Заработанные Значки</string>
+    <string name="Badges_AllBags">Все сумки куплены</string>
+    <string name="Badges_AllItems">Все зелья, свитки, кольца и палочки распознаны</string>
+    <string name="Badges_AllPotions">Все зелья распознаны</string>
+    <string name="Badges_AllRings">Все кольца распознаны\"</string>
+    <string name="Badges_AllScrolls">Все свитки распознаны</string>
+    <string name="Badges_AllWands">Все палочки распознаны\"</string>
+    <string name="Badges_BossSlain1">1-й босс убит</string>
+    <string name="Badges_BossSlain1All">1-й босс убит Воином, Магом, Разбойником и Охотницей</string>
+    <string name="Badges_BossSlain2">2-й босс убит</string>
+    <string name="Badges_BossSlain3">3-й босс убит</string>
+    <string name="Badges_BossSlain3All">3-й босс убит Гладиатором, Берсерком, Чернокнижником, Боевым Магом, Бегуном, Убийцей, Снайпером и Травницей</string>
+    <string name="Badges_BossSlain4">4-й босс убит</string>
+    <string name="Badges_Champion">Испытание пройдено</string>
+    <string name="Badges_DeathFalling">Погиб от падения</string>
+    <string name="Badges_DeathFire">Погиб в огне</string>
+    <string name="Badges_DeathGas">Погиб от токсичного газа</string>
+    <string name="Badges_DeathGlyph">Погиб от глифа</string>
+    <string name="Badges_DeathHunger">Погиб от голода</string>
+    <string name="Badges_DeathPoison">Погиб от яда</string>
+    <string name="Badges_FoodEaten1">10 порций пищи съедено</string>
+    <string name="Badges_FoodEaten2">20 порций пищи съедено</string>
+    <string name="Badges_FoodEaten3">30 порций пищи съедено</string>
+    <string name="Badges_FoodEaten4">40 порций пищи съедено</string>
+    <string name="Badges_GamesPlayed1">10 игр сыграно</string>
+    <string name="Badges_GamesPlayed2">100 игр сыграно</string>
+    <string name="Badges_GamesPlayed3">500 игр сыграно</string>
+    <string name="Badges_GamesPlayed4">2000 игр сыграно</string>
+    <string name="Badges_GoldColleted1">100 золота собрано</string>
+    <string name="Badges_GoldColleted2">500 золота собрано</string>
+    <string name="Badges_GoldColleted3">2500 золота собрано</string>
+    <string name="Badges_GoldColleted4">7500 золота собрано</string>
+    <string name="Badges_GrimWepon">Монстр убит Мрачным оружием</string>
+    <string name="Badges_HappyEnd">Счастливый конец</string>
+    <string name="Badges_Immured">Смерть от замуровывания</string>
+    <string name="Badges_Info1">Значок заработан: %s</string>
+    <string name="Badges_Info2">Новый суперзначок: %s</string>
+    <string name="Badges_Info3">Новый значок: %s</string>
+    <string name="Badges_ItemLvl1">Получен предмет 3 уровня</string>
+    <string name="Badges_ItemLvl2">Получен предмет 6 уровня</string>
+    <string name="Badges_ItemLvl3">Получен предмет 9 уровня</string>
+    <string name="Badges_ItemLvl4">Получен предмет 12 уровня</string>
+    <string name="Badges_LevelReached1">Уровень 6 достигнут</string>
+    <string name="Badges_LevelReached2">Уровень 12 достигнут</string>
+    <string name="Badges_LevelReached3">Уровень 18 достигнут</string>
+    <string name="Badges_LevelReached4">Уровень 24 достигнут</string>
+    <string name="Badges_Lich_Slain">Лич побеждён</string>
+    <string name="Badges_MasteryCombo">7 комбо-ударов за серию</string>
+    <string name="Badges_MonsterSlain1">10 врагов побеждено</string>
+    <string name="Badges_MonsterSlain2">50 врагов побеждено</string>
+    <string name="Badges_MonsterSlain3">150 врагов побеждено</string>
+    <string name="Badges_MonsterSlain4">250 врагов побеждено</string>
+    <string name="Badges_NightHunter">5 монстров убито ночью</string>
+    <string name="Badges_NoMonsterSlain">Прошёл уровень, не убив ни одного монстра</string>
+    <string name="Badges_Piranhas">6 пираний убито</string>
+    <string name="Badges_PotionsCooked1">3 зелья изготовлено</string>
+    <string name="Badges_PotionsCooked2">6 зелий изготовлено</string>
+    <string name="Badges_PotionsCooked3">9 зелий изготовлено</string>
+    <string name="Badges_PotionsCooked4">12 зелий изготовлено</string>
+    <string name="Badges_RareAll">Все редкие монстры побеждены</string>
+    <string name="Badges_RingHaggler">Кольцо Торгаша получено</string>
+    <string name="Badges_RingThorns">Кольцо Шипов получено</string>
+    <string name="Badges_ShadowLord_Slain">Владыка Теней побеждён</string>
+    <string name="Badges_SpiderQueen_Slain">Королева Пауков побеждена</string>
+    <string name="Badges_StrengthAttained1">13 очков Силы достигнуто</string>
+    <string name="Badges_StrengthAttained2">15 очков Силы достигнуто</string>
+    <string name="Badges_StrengthAttained3">17 очков Силы достигнуто</string>
+    <string name="Badges_StrengthAttained4">19 очков Силы достигнуто</string>
+    <string name="Badges_Supporter">Спасибо за поддержку!</string>
+    <string name="Badges_Victory">Амулет Эндора получен</string>
+    <string name="Badges_VictoryAll">Амулет Эндора получен Воином, Магом, Разбойником и Охотницей</string>
+    <string name="Badges_Yasd">Погибал от огня, яда, токсичного газа и голода</string>
+    <string name="Badges_Yog_Slain">Йог-Джева побеждён</string>
+    <string name="Bag_ACOpen">ОТКРЫТЬ</string>
+    <string name="Bandit_Desc">Глубинные уровни подземелья всегда служили хорошим укрытием для всякого преступника. Но не всякий преступник мог сохранить рассудок, будучи отлучённым от дневного света на долгое время. Давным-давно эти безумные бандиты и воры позабыли, кто они и зачем совершают преступления.</string>
+    <string name="Bandit_Gender">masculine</string>
+    <string name="Bandit_Name">бандит</string>
+    <string name="Bandit_Name_Objective">бандита</string>
+    <string name="Barkskin_Info">Кожа-кора</string>
+    <string name="Bat_Defense">увернулась</string>
+    <string name="Bat_Desc">Эти шустрые назойливые обитатели пещер способны одолеть более крупного соперника за счёт того, что с каждым успешным ударом они восполняют часть своего здоровья.</string>
+    <string name="Bat_Gender">feminine</string>
+    <string name="Bat_Name">летучая мышь-вампир</string>
+    <string name="Bat_Name_Objective">вампира</string>
+    <string name="BattleAxe_Gender">masculine</string>
+    <string name="BattleAxe_Info">В каждом взмахе этого грозного оружия чувствуется вес огромного стального лезвия.</string>
+    <string name="BattleAxe_Name">боевой топор</string>
+    <string name="Belongings_Name">рюкзак</string>
+    <string name="BlackSkull_Gender">masculine</string>
+    <string name="BlackSkull_Info">Маленький обсидиановый череп. Он был источником сил Некрополиса, но, после поражения Лича, утратил их. Однако когда ты держишь его в руках тебя посещает чуждая мысль: \"Он жаждет\". </string>
+    <string name="BlackSkull_Info_Awakened">Череп дышит мощью, видно как она льётся из его пустых глазниц. И держа его в руках ты слышишь ужасающий голос: \"Узри поступь смерти\".</string>
+    <string name="BlackSkull_Name">черный череп</string>
+    <string name="BlackSkull_Name_Awakened">пробудившийся черный череп</string>
+    <string name="Blacksmith_Blood1">Эй, человечек! Хочешь принести пользу, а? Возьми-ка эт кирку, шоб ей _прихлопнуть летучую мышь_. Мне нужно, шобы наконечник был в крови. Чё значит, сколько я заплачу? Ну ты жадный...\nЛадно, ладно, нету у меня денег, но я могу предложить тебе своё ремесло. Ты, считай, везунчик, нашёл единственного кузнеца в округе.</string>
+    <string name="Blacksmith_Completed">Ой же, вернулся... Лушше поздно, чем никогда.</string>
+    <string name="Blacksmith_Desc">Этот тролль-кузнец ничем не отличим от прочих троллей: высокий и сутулый, кожа его подобна камню. Тролль-кузнец орудует непропорционально маленькими инструментами.</string>
+    <string name="Blacksmith_GetLost">Я занят. Отвали!</string>
+    <string name="Blacksmith_Gold1">Эй, человечек! Хочешь принести пользу, а? Возьми-ка эт кирку, да копни мне _самородков мракозлата_, _штук 15_ хватит. Чё значит, сколько я заплачу? Ну ты жадный...\nЛадно, ладно, нету у меня денег, но я могу предложить тебе своё ремесло. Ты, считай, везунчик, нашёл единственного кузнеца в округе.</string>
+    <string name="Blacksmith_LooksBetter">твой предмет %s теперь выглядит лучше</string>
+    <string name="Blacksmith_Name">тролль-кузнец</string>
+    <string name="Blacksmith_Txt2">Ты чё, стебёшься? Где моя кирка?!</string>
+    <string name="Blacksmith_Txt3">Самородки Мракозлата. 15 ошмётков. Чё те, трудно шо ли?</string>
+    <string name="Blacksmith_Txt4">Я сказал, шо кирка должна быть покрыта кровью. Шуруй, шуруй!</string>
+    <string name="Blacksmith_Verify1">Выбери 2 разных предмета, нельзя выбрать один и тот же дважды!</string>
+    <string name="Blacksmith_Verify2">Выбери 2 предмета одного типа!</string>
+    <string name="Blacksmith_Verify3">Я чё те, справочное бюро? Распознай свои предметы, шобы я мог с ними работать!</string>
+    <string name="Blacksmith_Verify4">Э, ты чё, я с проклятыми штуками не работаю!</string>
+    <string name="Blacksmith_Verify5">Чё эт за барахло? Уж больно эта штука низкокачественная!</string>
+    <string name="Blacksmith_Verify6">Я эт перековать не могу!</string>
+    <string name="BlankScroll_Info">Просто чистый свиток. Может, написать на нём что-нибудь?</string>
+    <string name="BlankScroll_Name">Чистый свиток</string>
+    <string name="BlankScroll_ReallyBlank">Этот свиток действительно чист</string>
+    <string name="Bleeding_Death">Ты истёк кровью...</string>
+    <string name="Bleeding_Info">Кровотечение</string>
+    <string name="Blindness_Info">Ослеплён</string>
+    <string name="Boomerang_Gender">masculine</string>
+    <string name="Boomerang_Info">Брошенное во врага, это изогнутое деревянное оружие вернётся в руку владельца.</string>
+    <string name="Boomerang_Name">бумеранг</string>
+    <string name="Bounce_Txt">%s упругости</string>
+    <string name="Bow_Info1">Это оружие дальнего боя, в ближнем бою почти бесполезное (для всех кроме эльфов).\n\n</string>
+    <string name="Bowknot_Info">Заколка с милой розовой ленточкой завязанной в узел бантиком.</string>
+    <string name="Bowknot_Name">Бант</string>
+    <string name="Brute_Desc">Громилы - самые большие, сильные и выносливые из всех гноллов. Будучи израненными, они впадают в неистовство, нанося увеличенный урон.</string>
+    <string name="Brute_Enraged">%s впал в неистовство!</string>
+    <string name="Brute_Gender">masculine</string>
+    <string name="Brute_Name">гнолл-громила</string>
+    <string name="Brute_Name_Objective">гнолла-громилу</string>
+    <string name="Brute_StaEnraged">неистовый</string>
+    <string name="BurningFist_Desc">Пылающий кулак Бога</string>
+    <string name="BurningFist_Gender">masculine</string>
+    <string name="BurningFist_Name">пылающий кулак</string>
+    <string name="BurningFist_Name_Objective">пылающий кулак</string>
+    <string name="Burning_Burns">%s в огне!</string>
+    <string name="Burning_Death">Ты сгорел заживо...</string>
+    <string name="Burning_Info">В огне</string>
+    <string name="Capotain_Info">Высокая шляпа, опоясанная кожаным ремешком. Обычно данный головной убор приписывают приверженцам пуританской веры. Но не обязательно быть религиозным чтобы её носить. Что странно, на ней есть бирка на которой написано \"Соломон\".</string>
+    <string name="Capotain_Name">Пуританская Шляпа</string>
+    <string name="Caves_TileDescBookshelf">Кому в подземелье мог понадобится книжный шкаф?</string>
+    <string name="Caves_TileDescDeco">На стене виднеется открытая жила какой-то руды. Золото?</string>
+    <string name="Caves_TileDescEntrance">Лестница ведёт наверх.</string>
+    <string name="Caves_TileDescExit">Лестница ведёт вниз.</string>
+    <string name="Caves_TileDescHighGrass">Огромный гриб закрывает обзор.</string>
+    <string name="Caves_TileGrass">Светящийся мох</string>
+    <string name="Caves_TileHighGrass">Светящиеся грибы</string>
+    <string name="Caves_TileWater">Ледяная вода.</string>
+    <string name="ChaosArmor_Info">Эти доспехи состоят из кроваво-красных пластин скреплённых тёмно-красными цепями. Они излучают хаотическую энергию, когда ты их касаешься.</string>
+    <string name="ChaosArmor_Name">Доспехи Хаоса</string>
+    <string name="ChaosBow_Gender">masculine</string>
+    <string name="ChaosBow_Info">Устрашающий лук, напитанный силой Хаоса. Каждая впущенная из него стрела донесёт до цели частицу хаотичной энергии. Но если ты промахнёшься...</string>
+    <string name="ChaosBow_Name">лук хаоса</string>
+    <string name="ChaosCrystal_ArmorFused">Кристалл слился с твоей бронёй и принял форму пластинчатого доспеха.</string>
+    <string name="ChaosCrystal_BowFused">Кристалл слился с твоим оружием и принял форму Лука</string>
+    <string name="ChaosCrystal_Fuse">СЛИТЬ</string>
+    <string name="ChaosCrystal_Info">Касаясь его, ты чувствуешь потоки энергии, бегущие по твоим рукам.</string>
+    <string name="ChaosCrystal_Info_1">Силы хаоса пронизывают этот кристалл. Пожалуй, он на что-нибудь сгодится.</string>
+    <string name="ChaosCrystal_Info_2">Да! Теперь ты знаешь что его можно слить с одним из твоих предметов, но что же дальше?</string>
+    <string name="ChaosCrystal_Name">Странный Кристалл</string>
+    <string name="ChaosCrystal_Name_1">Хаотичный Кристалл</string>
+    <string name="ChaosCrystal_Name_2">Кристалл Хаоса</string>
+    <string name="ChaosCrystal_Prompt">Выбери место для Метки Хаоса</string>
+    <string name="ChaosCrystal_ScrollFused">Начертанная на свитке руна поглотила кристалл, и теперь это %s</string>
+    <string name="ChaosCrystal_SelectForFuse">Выбери предмет, чтобы слить его с Кристаллом</string>
+    <string name="ChaosCrystal_StaffFused">Кристалл слился с твоим оружием и принял форму Посоха</string>
+    <string name="ChaosCrystal_SwordFused">Кристалл слился с твоим оружием и принял форму Меча</string>
+    <string name="ChaosCrystal_Use">ИСПОЛЬЗОВАТЬ</string>
+    <string name="ChaosStaff_Gender">masculine</string>
+    <string name="ChaosStaff_Info">Посох, пропитанный силой Хаоса! О чём ещё может мечтать маг, и чего ещё бояться?</string>
+    <string name="ChaosStaff_Name">посох хаоса</string>
+    <string name="ChaosSword_Gender">masculine</string>
+    <string name="ChaosSword_Info">Клинок это меча создан из чистого Хаоса и иногда слегка подрагивает в предвкушении. Великая сила, сокрытая в этом оружии, может рассечь пополам почти всё, что угодно. Однако, чтобы совладать с ней, нужно великое мастерство. </string>
+    <string name="ChaosSword_Name">меч хаоса</string>
+    <string name="Char_Name">монстр</string>
+    <string name="Char_Name_Objective">монстра</string>
+    <string name="Char_OutParalysis">Боль избавляет %s от паралича</string>
+    <string name="Char_SmbMissed">%1$s %2$s от атаки монстра %3$s</string>
+    <string name="Char_StaAmok">буйствует</string>
+    <string name="Char_StaBleeding">кровотечение</string>
+    <string name="Char_StaCrippled">травмирован</string>
+    <string name="Char_StaDizzy">ошеломлён</string>
+    <string name="Char_StaFrightened">испуган</string>
+    <string name="Char_StaInvisible">невидимый</string>
+    <string name="Char_StaMind">ясно</string>
+    <string name="Char_StaParalysed">парализован</string>
+    <string name="Char_StaPoisoned">отравлен</string>
+    <string name="Char_StaRooted">опутан</string>
+    <string name="Char_StaSlowed">замедлен</string>
+    <string name="Char_StaVision">видение</string>
+    <string name="Char_YouMissed">%1$s %2$s от твоей атаки</string>
+    <string name="ChargrilledMeat_Info">Выглядит достойно.</string>
+    <string name="ChargrilledMeat_Name">приготовленное на углях мясо</string>
+    <string name="Charm_Info">Зачарован</string>
+    <string name="Chasm_Chasm">Пропасть</string>
+    <string name="Chasm_Info">Ты разбился...</string>
+    <string name="Chasm_Jump">Ты уверен, что хочешь спрыгнуть вниз, ты можешь разбиться.</string>
+    <string name="Chasm_No">Нет, я передумал</string>
+    <string name="Chasm_Yes">Да, я знаю, что делаю</string>
+    <string name="City_TileDescBookshelf">Полки уставлены разнообразными учебниками.</string>
+    <string name="City_TileDescDeco">Здесь недостаёт нескольких плиток.</string>
+    <string name="City_TileDescEmptySP">Пол укрыт плотным ковром.</string>
+    <string name="City_TileDescEntrance">Пролёт, ведущий наверх.</string>
+    <string name="City_TileDescExit">Пролёт, ведущий вниз.</string>
+    <string name="City_TileDescStatue">Статуя изображает Дворфа в героической позе.</string>
+    <string name="City_TileHighGrass">Большой цветущий куст</string>
+    <string name="City_TileWater">Подозрительно окрашенная вода</string>
+    <string name="ClassArmor_Desc">Вот это вещь!</string>
+    <string name="ClassArmor_LowHealt">У тебя слишком мало здоровья!</string>
+    <string name="ClassArmor_NotEquipped">Чтобы использовать особые свойства этой брони, её надо надеть!</string>
+    <string name="Claymore_Gender">feminine</string>
+    <string name="Claymore_Info">Этот  увесистый меч должен быть в состоянии разрубить всё что угодно.</string>
+    <string name="Claymore_Name">Клеймор</string>
+    <string name="ClothArmor_Desc">Эта лёгкая броня обеспечивает простейшую защиту.</string>
+    <string name="ClothArmor_Name">тканевый доспех</string>
+    <string name="Codex_ACRead">ЧИТАТЬ</string>
+    <string name="Codex_Blinded">Нельзя читать, будучи ослеплённым</string>
+    <string name="Codex_Info">Одна из множества книг, что можно найти в любой библиотеке</string>
+    <string name="Codex_Name">Кодекс</string>
+    <string name="Combo_Combo">%d-ударное комбо!</string>
+    <string name="Combo_Info">Комбо</string>
+    <string name="CommonArrow_Gender">feminine</string>
+    <string name="CommonArrow_Info">Обычная деревянная стрела с железным наконечником.</string>
+    <string name="CommonArrow_Name">стрела</string>
+    <string name="CompositeCrossbow_Gender">masculine</string>
+    <string name="CompositeCrossbow_Info">Этот укреплённый арбалет зарекомендовал себя как более эффективное орудие, нежели его деревянный собрат.</string>
+    <string name="CompositeCrossbow_Name">Составной арбалет</string>
+    <string name="CompoundBow_Gender">masculine</string>
+    <string name="CompoundBow_Info">Стрелы, выпущенные из блочного лука, с лёгкостью находят цель и наносят серьёзный урон, однако он не так быстр, как простой лук.</string>
+    <string name="CompoundBow_Name">блочный лук</string>
+    <string name="ConfusionGas_Info">Здесь витает облако дурманящего газа.</string>
+    <string name="CorpseDust_Buff">Жажда крови</string>
+    <string name="CorpseDust_Info">Горстка трупной пыли неотличима от пыли обыкновенной. Хотя тебя не покидает чувство, что лучше от неё избавится как можно скорее.</string>
+    <string name="CorpseDust_Info2">Достаточно взять её в руку чтобы почувствовать беспокойство и гнев. </string>
+    <string name="CorpseDust_Name">трупная пыль</string>
+    <string name="Crab_Defense">отбился</string>
+    <string name="Crab_Desc">Эти огромные крабы находятся на вершине пищевой цепочки канализации. Они поразительно быстры, а их прочный хитин способен выдерживать множество ударов.</string>
+    <string name="Crab_Gender">masculine</string>
+    <string name="Crab_Name">сточный краб</string>
+    <string name="Crab_Name_Objective">краба</string>
+    <string name="Cripple_Info">Травмирован</string>
+    <string name="Crystal_Desc">Большой сияющий кристалл парит в воздухе. Наверное, он наполнен магией.</string>
+    <string name="Crystal_Gender">masculine</string>
+    <string name="Crystal_Name">парящий кристалл</string>
+    <string name="Crystal_Name_Objective">парящий кристалл</string>
+    <string name="CurareDart_Gender">masculine</string>
+    <string name="CurareDart_Info">Эти маленькие зловещие дротики наносят не много урона, но способны временно парализовать цель.</string>
+    <string name="CurareDart_Name">дротик с кураре</string>
+    <string name="DM300_Desc">Эта машина создана Дворфами много веков назад. Позднее Дворфы стали заменять машины големами, элементалями и даже демонами. Что и привело к гибели их цивилизации. Машины, подобные ДМ-300, в основном выполняли строительные и шахтёрские функции, но в случае необходимости могли защищать город.</string>
+    <string name="DM300_Gender">masculine</string>
+    <string name="DM300_Info1">ДМ-300 ремонтируется!</string>
+    <string name="DM300_Info2">Миссия провалена. Отключаюсь.</string>
+    <string name="DM300_Info3">Обнаружено несанкционированное проникновение.</string>
+    <string name="DM300_Name">ДМ-300</string>
+    <string name="DM300_Name_Objective">ДМ-300</string>
+    <string name="Dagger_Gender">masculine</string>
+    <string name="Dagger_Info">Простейший железный кинжал с удобной деревянной рукоятью.</string>
+    <string name="Dagger_Name">кинжал</string>
+    <string name="DarkGold_Info">Этот металл зовётся мрачным не из-за его цвета (он не отличим от простого золота), а из-за того, что тает на солнечном свету, в связи с чем его невозможно использовать на поверхности.</string>
+    <string name="DarkGold_Name">самородок мракозлата</string>
+    <string name="DarkVeil_Buff">Тёмная вуаль</string>
+    <string name="Darkness_Info">Выглядит как всполохи непроглядной тьмы, витающие в воздухе</string>
+    <string name="Dart_Gender">masculine</string>
+    <string name="Dart_Info">Эти простые металлические шипы идеально выверены для того, чтобы точно вонзиться в свою жертву.</string>
+    <string name="Dart_Name">дротик</string>
+    <string name="DeathKnight_Desc">На первый взгляд это могучий воин в тяжёлой броне, и лишь мертвецкий оскал выдаёт его. Рыцарь смерти - это воплощение души рыцаря нарушевшего свои обеты. И в своём проклятьи будет он вечно скитаться ища очищенья в бою, убивая невинных, не в силах вспомнить кого он поклялся защищать.</string>
+    <string name="DeathKnight_Gender">masculine</string>
+    <string name="DeathKnight_Name">рыцарь смерти</string>
+    <string name="DeathKnight_Name_Objective">рыцаря смерти</string>
+    <string name="DeferedDamage_Defered_Txt">Отложенный урон (%d)</string>
+    <string name="DeferedDamage_Killed_Txt">%s убивает тебя...</string>
+    <string name="DewVial_ACDRINK">ВЫПИТЬ</string>
+    <string name="DewVial_AutoDrink">Ты опустошил флакончик росы, чтобы залечить раны.</string>
+    <string name="DewVial_Collected">Ты собрал каплю росы во флакончик.</string>
+    <string name="DewVial_Empty">Флакончик росы пуст!</string>
+    <string name="DewVial_Full">Флакончик росы заполнен!</string>
+    <string name="DewVial_Info">Ты можешь сохранить лишнюю росу, поместив её в этот флакончик. Если он полон, роса будет употребляться автоматически в момент смертельной опасности.</string>
+    <string name="DewVial_Name">флакончик росы</string>
+    <string name="Dewdrop_Info">Кристально чистая капля росы.</string>
+    <string name="Dewdrop_Name">капля росы</string>
+    <string name="Displacement_Txt">%s смещения</string>
+    <string name="DonateButton_pleaseDonate">Поддержите проект</string>
+    <string name="DonateButton_thanks">Спасибо за Вашу помощь!</string>
+    <string name="DreadKnight_Desc">Рыцарь Ужаса - это древний воин которому, при жизни, не были ведомы ни добро, ни праведность. За его грехи он обречен на вечные скитания в изломанном теле умертвия. И каждый миг его проклятого существования будет для него полон боли и страданий, подобных тем, что он причинял своим жертвам.</string>
+    <string name="DreadKnight_Gender">masculine</string>
+    <string name="DreadKnight_Name">рыцарь ужаса</string>
+    <string name="DreadKnight_Name_Objective">рыцаря ужаса</string>
+    <string name="Dreamweed_Desc">При прикосновении Дурман-трава испускает сияющее облачко ошеломляющего газа.</string>
+    <string name="Dreamweed_Name">Дурман-трава</string>
+    <string name="DriedRose_Buff">Очаровательный</string>
+    <string name="DriedRose_CursedBuff">Влюбчивый</string>
+    <string name="DriedRose_Info">Эта роза иссохла много лет тому назад, но, несмотря на это, сохранила каждый лепесток.</string>
+    <string name="DriedRose_Info2">Однако она не потеряла своего очарования. Она так прекрасна, что ты хочешь оставить её себе... Навсегда.</string>
+    <string name="DriedRose_Name">сухая роза</string>
+    <string name="Dungeon_DeadEnd">Что ты здесь делаешь?!</string>
+    <string name="Dungeon_NoTips">Текст неразборчив...</string>
+    <string name="DwarfToken_Info">Многие дворфы и их наиболее массивные творения носили эти маленькие металлические штучки. Для чего они нужны, остаётся загадкой. Может, это были украшения или, своего рода, удостоверения. Дворфы - странный народец.</string>
+    <string name="DwarfToken_Name">дворфийский жетон</string>
+    <string name="EarthElemental_Desc">Земляные элементали - это массы земли, движимые силами природы.</string>
+    <string name="EarthElemental_Gender">masculine</string>
+    <string name="EarthElemental_Name">земляной элементаль</string>
+    <string name="EarthElemental_Name_Objective">элементаля</string>
+    <string name="Earthroot_Buff">Растительная броня</string>
+    <string name="Earthroot_Desc">Когда существо касается Земляного Корня, его окутывает природная броня.</string>
+    <string name="Earthroot_Name">Земляной Корень</string>
+    <string name="Elemental_Desc">Огненные элементали являются побочным эффектом ритуалов призыва великих сущностей. Ввиду своей хаотичной природы, воля этих созданий не подвластна даже сильнейшим демонологам.</string>
+    <string name="Elemental_Gender">masculine</string>
+    <string name="Elemental_Name">огненный элементаль</string>
+    <string name="Elemental_Name_Objective">элементаля</string>
+    <string name="ElfArmor_ACSpecial">Зов Природы </string>
+    <string name="ElfArmor_Desc">С помощью этой мантии эльф может вызвать силы природы. Высокая трава вырастет в мгновение ока, даже через твёрдый камень, удерживая всех врагов в поле зрения.</string>
+    <string name="ElfArmor_Name">эльфийская мантия</string>
+    <string name="ElfArmor_NotElf">Только эльфы могут использовать эту броню!</string>
+    <string name="EnslavedSoul_Desc">Это призрачное создание почти прозрачно. И хотя оно выглядит как череп, иногда на долю секунды проявляется лицо, лицо полное боли и страданий.</string>
+    <string name="EnslavedSoul_Gender">feminine</string>
+    <string name="EnslavedSoul_Name">порабощенная душа</string>
+    <string name="EnslavedSoul_Name_Objective">порабощенную душу</string>
+    <string name="Entanglement_Txt">%s пут</string>
+    <string name="EquipableItem_ACEquip">НАДЕТЬ</string>
+    <string name="EquipableItem_ACUnequip">СНЯТЬ</string>
+    <string name="EquipableItem_Unequip">Ты не можешь снять проклятый предмет %s!</string>
+    <string name="ExplodingSkull_Desc">Это парящий, пылающий череп выглядит весьма хрупким, создаётся впечатление, что он готов разлетится на куски в любой момент.</string>
+    <string name="ExplodingSkull_Gender">masculine</string>
+    <string name="ExplodingSkull_Name">взрывающийся череп</string>
+    <string name="ExplodingSkull_Name_Objective">взрывающийся череп</string>
+    <string name="Eye_Desc">Этот демон также известен как \"шар ненависти\", поскольку при виде врага, он, не задумываясь, обращает на того \"взгляд смерти\", не принимая во внимание, что может ранить союзников.</string>
+    <string name="Eye_Gender">neuter</string>
+    <string name="Eye_Kill">%s убивает тебя взглядом смерти...</string>
+    <string name="Eye_Name">око зла</string>
+    <string name="Eye_Name_Objective">око зла</string>
+    <string name="Fadeleaf_Desc">Касание Бледнолиста телепортирует любое существо в случайную точку текущего уровня.</string>
+    <string name="Fadeleaf_Name">Бледнолист</string>
+    <string name="FetidRat_Desc">Эта сумчатая крыса крупнее обычной. Вокруг неё витает зловоние.</string>
+    <string name="FetidRat_Gender">feminine</string>
+    <string name="FetidRat_Name">мерзкая крыса</string>
+    <string name="FetidRat_Name_Objective">мерзкую крысу</string>
+    <string name="Fez_Info">Шапочка в виде усечённого конуса из красной ткани с кисточкой на макушке. И нет, она не может сделать мир трёхмерным.</string>
+    <string name="Fez_Name">Феска</string>
+    <string name="FireArrow_Gender">feminine</string>
+    <string name="FireArrow_Info">Эта стрела выглядит обычной, лишь наконечник испускает тёплый красноватый свет.</string>
+    <string name="FireArrow_Name">огненная стрела</string>
+    <string name="FireQuiver_Gender">masculine</string>
+    <string name="FireQuiver_Info"/>
+    <string name="FireQuiver_Name">огненный колчан</string>
+    <string name="Fire_Info">Здесь бушует пламя.</string>
+    <string name="Firebloom_Desc">Всё, чего касается Огнецвет, охватывает огонь.</string>
+    <string name="Firebloom_Name">Огнецвет</string>
+    <string name="Foliage_Info">Столб света пронзает мрак подземного сада.</string>
+    <string name="Food_ACEat">СЪЕСТЬ</string>
+    <string name="Food_Message">Вкуснечка!</string>
+    <string name="FrostArrow_Gender">feminine</string>
+    <string name="FrostArrow_Info">Ты чуствуешь ауру холода, исходящую от наконечника этой стрелы</string>
+    <string name="FrostArrow_Name">морозная стрела</string>
+    <string name="Frost_Info">Заморожен</string>
+    <string name="Frost_Shatter">%s лопается от холода!</string>
+    <string name="FrozenCarpaccio_Info">Кусок сырого промороженного мяса. Съесть его можно лишь отрезая тоненькие ломтики. Которые получаются на удивление вкусными.</string>
+    <string name="FrozenCarpaccio_Info1">Твои руки становятся невидимыми!</string>
+    <string name="FrozenCarpaccio_Info2">Ты чувствуешь, как твоя кожа крепчает!</string>
+    <string name="FrozenCarpaccio_Info3">Освежает!</string>
+    <string name="FrozenCarpaccio_Info4">Тебе похорошело!</string>
+    <string name="FrozenCarpaccio_Name">замороженный карпаччо</string>
+    <string name="Fury_Info">В ярости</string>
+    <string name="GameScene_Chasm">Каждый твой шаг отдаётся эхом по всему подземелью.</string>
+    <string name="GameScene_Grass">В воздухе витает запах растительности.</string>
+    <string name="GameScene_NightMode">Будь начеку, ведь ночью подземелье куда опаснее!</string>
+    <string name="GameScene_Secrets">Атмосфера таинственности окутывает этот уровень, он полон секретов.</string>
+    <string name="GameScene_Water">Ты слышишь плеск воды поблизости.</string>
+    <string name="GameScene_Welcome">Добро пожаловать на %d уровень Pixel Dungeon!</string>
+    <string name="GameScene_WelcomeBack">С возвращением на %d уровень Pixel Dungeon!</string>
+    <string name="GasesImmunity_Info">Иммунитет к газам</string>
+    <string name="Ghost_Defense">отклонился</string>
+    <string name="Ghost_Desc">Ты едва можешь разглядеть призрака. Он похож на бесформенную дымку с грустным лицом.</string>
+    <string name="Ghost_Name">печальный призрак</string>
+    <string name="Ghost_Rat1">Здравствуй, путник... Когда-то я был таким же, как и ты - сильным, уверенным... А теперь я мёртв... Но я не могу покинуть это место... Пока моя месть не осуществится... Одолей _мерзкую крысу_, которая лишила меня жизни...</string>
+    <string name="Ghost_Rat2">Прошу... Помоги... Одолей эту тварь...</string>
+    <string name="Ghost_Rose1">Здравствуй, путник... Когда-то я был таким же, как и ты - сильным, уверенным... А теперь я мёртв... Но я не могу покинуть это место... Пока ко мне не вернётся _сухая роза_... Это очень важная для меня вещь...  Чудище стащило её с моего бездыханного тела...</string>
+    <string name="Ghost_Rose2">Прошу... Помоги... Найди розу...</string>
+    <string name="Glaive_Gender">feminine</string>
+    <string name="Glaive_Info">Древковое оружие с лезвием от меча на конце древка.</string>
+    <string name="Glaive_Name">глефа</string>
+    <string name="Gnoll_Desc">Гноллы - это гиенообразные гуманоиды. Они обитают в канализации и подземельях, периодически совершая набеги на поверхность. Гнолл-следопыт - типичный представитель стаи, он не столь силён, как громила, и не так умён, как шаман.</string>
+    <string name="Gnoll_Gender">masculine</string>
+    <string name="Gnoll_Name">гнолл-следопыт</string>
+    <string name="Gnoll_Name_Objective">гнолла</string>
+    <string name="Gold_Collect">Собирай золотые монеты, чтобы позже торговать в магазине.</string>
+    <string name="Gold_Info">Горсть из %d золотых монет.</string>
+    <string name="Gold_Info1">Одна золотая монетка.</string>
+    <string name="Gold_Name">золото</string>
+    <string name="GoldenKey_Info">Засечки на этом ключе имеют миниатюрную, замысловатую форму. Наверное он подойдёт к какому-нибудь сундуку?</string>
+    <string name="GoldenKey_Name">золотой ключ</string>
+    <string name="GoldenStatue_Desc">Верится с трудом, но эта восхитительная статуя не является обычной декорацией, напротив, это коварный монстр, поджидающий беспечного искателя приключений. На первый взгляд ты мог бы поклястся, что _%s_ был продолжением руки этой статуи.</string>
+    <string name="GoldenStatue_Gender">feminine</string>
+    <string name="GoldenStatue_Name">золотая статуя</string>
+    <string name="GoldenStatue_Name_Objective">статую</string>
+    <string name="GoldenSword_Gender">masculine</string>
+    <string name="GoldenSword_Info">Как правило, оружие сделанное из столь мягкого металла, как золота, сойдёт разве что за украшение. Но не смотря на это, данный меч выглядит вполне способным разрубить что-нибудь.</string>
+    <string name="GoldenSword_Name">золотой меч</string>
+    <string name="Golem_Defense">прикрылся</string>
+    <string name="Golem_Desc">Продукт дворфийских экспериментов по взаимоиспользованию их навыков машиностроения и новоприобретённых знаний о покорении стихий. Духи земли заменяли \"душу\" механического каркаса голема, считалось, что их легче всего контролировать. Несмотря на это, малейшая оплошность в ритуале приводила к плачевным последствиям.</string>
+    <string name="Golem_Gender">masculine</string>
+    <string name="Golem_Name">голем</string>
+    <string name="Golem_Name_Objective">голема</string>
+    <string name="Goo_Desc">Жижа - загадочная вещь. Скорее всего, это даже не существо, а масса канализационных субстанций, обретшая зачатки сознания.</string>
+    <string name="Goo_Gender">feminine</string>
+    <string name="Goo_Info1">Жижа начинает раздуваться!</string>
+    <string name="Goo_Info2">хлюп... хлюп...</string>
+    <string name="Goo_Info3">ХЛЮП-ХЛЮП!</string>
+    <string name="Goo_Name">жижа</string>
+    <string name="Goo_Name_Objective">жижу</string>
+    <string name="Goo_StaInfo1">!!!</string>
+    <string name="GothicArmor_Info">Готическая броня это венец искусства ковки латной брони.</string>
+    <string name="GothicArmor_Name">Готический доспех</string>
+    <string name="Guts_TileDescBookshelf">Эта книжная полка покрыта паутиной наростов из плоти, ты не видишь ни единой книги, которую можно было бы достать.</string>
+    <string name="Guts_TileDescDeco">Похоже что эта стена была... ранена.</string>
+    <string name="Guts_TileDescEntrance">Дыра в потолке ведёт к верхним уровням.</string>
+    <string name="Guts_TileDescExit">Дыра в полу ведёт к нижним уровням.</string>
+    <string name="Guts_TileGrass">Высохший кустарник.</string>
+    <string name="Guts_TileHighGrass">Высохший кустарник</string>
+    <string name="Guts_TileWater">Странная склизкая жидкость.</string>
+    <string name="Halberd_Gender">feminine</string>
+    <string name="Halberd_Info">Древковое оружие с топориком на конце древка.</string>
+    <string name="Halberd_Name">Алебарда</string>
+    <string name="Halls_TileDescBookshelf">Этот шкаф заполняют книги на мёртвых языках.</string>
+    <string name="Halls_TileDescStatue">Этот столб составлен из настоящих гуманоидных черепов. Прикольно.</string>
+    <string name="Halls_TileDescWater">Это подозрительно похоже на лаву. Но она холодна на ощупь и, судя по всему, не представляет опасности.</string>
+    <string name="Halls_TileGrass">Углемох</string>
+    <string name="Halls_TileHighGrass">Углегриб</string>
+    <string name="Halls_TileStatue">Столб</string>
+    <string name="Halls_TileWater">Холодная лава</string>
+    <string name="Heap_Mimic">Это мимик!</string>
+    <string name="HeartOfDarkness_Info">Чёрное пульсирующее сердце Предательского духа.</string>
+    <string name="HeartOfDarkness_Name">Сердце тьмы</string>
+    <string name="Hedgehog_Desc">Ёжик беспокойно глядит по сторонам.</string>
+    <string name="Hedgehog_ImLate">Я опаздываю, ужасно опаздываю...</string>
+    <string name="Hedgehog_Info1">Ты тоже ищешь медвежонка?</string>
+    <string name="Hedgehog_Info2">Как там лошадка в тумане?</string>
+    <string name="Hedgehog_Info3">А ты любишь чай с малиновым вареньем?</string>
+    <string name="Hedgehog_Info4">Возьми этот пирожок</string>
+    <string name="Hedgehog_Name">ёжик</string>
+    <string name="HeroClass_Elf">эльф</string>
+    <string name="HeroClass_Hun">охотница</string>
+    <string name="HeroClass_Mag">маг</string>
+    <string name="HeroClass_Rog">вор</string>
+    <string name="HeroClass_War">воин</string>
+    <string name="HeroSubClass_DescAssa">При совершении неожиданной атаки _Убийца_ наносит своей цели дополнительный урон.</string>
+    <string name="HeroSubClass_DescBatM">Сражаясь с палочкой в руках, _Боевой Маг_ наносит дополнительный урон, зависящий от количества оставшихся зарядов. Каждое успешное попадание восстанавливает 1 заряд этой палочки.</string>
+    <string name="HeroSubClass_DescBers">Будучи сильно раненым, _Берсерк_ впадает в состояние дикой ярости, значительно повышая свой показатель урона.</string>
+    <string name="HeroSubClass_DescFreR">_Бегун_ двигается почти вдвое быстрее большинства монстров. В движущегося _Бегуна_ труднее попасть. Но лишь в тех случаях, когда он сыт и не перегружен.</string>
+    <string name="HeroSubClass_DescGlad">Успешная атака ближнего боя позволяет, _Гладиатору_ начать серию комбо-ударов, в течение которой каждое последующее попадание наносит больше урона.</string>
+    <string name="HeroSubClass_DescScout">_Следопыты_  эльфов - мастера незаметности. Вытаптывание высокой травы дает им временный эффект невидимости. Также они быстрее, чем обычные Эльфы.</string>
+    <string name="HeroSubClass_DescShaman">_Шаманы_ эльфов могут использовать посохи как оружие ближнего боя. При попадании в цель волшебство палочки может использоваться без потери заряда.</string>
+    <string name="HeroSubClass_DescSnip">_Снайперы_ способны заметить прорехи в броне противника, практически игнорируя её при использовании оружия дальнего боя.</string>
+    <string name="HeroSubClass_DescWarL">После убийства врага _Чернокнижник_ поглощает его душу, излечивая себя и утоляя голод.</string>
+    <string name="HeroSubClass_DescWard">За счёт своей близости к природе, _Травница_ может лучше собирать капли росы и семена с растений. Также контакт с высокой травой даёт ей временный бонус к броне.</string>
+    <string name="HeroSubClass_NameAssa">убийца</string>
+    <string name="HeroSubClass_NameBatM">боевой маг</string>
+    <string name="HeroSubClass_NameBers">берсерк</string>
+    <string name="HeroSubClass_NameFreR">бегун</string>
+    <string name="HeroSubClass_NameGlad">гладиатор</string>
+    <string name="HeroSubClass_NameScout">следопыт</string>
+    <string name="HeroSubClass_NameShaman">шаман</string>
+    <string name="HeroSubClass_NameSnip">снайпер</string>
+    <string name="HeroSubClass_NameWarL">чернокнижник</string>
+    <string name="HeroSubClass_NameWard">травница</string>
+    <string name="Hero_Leave">Нельзя просто так взять и выйти из Pixel Dungeon.</string>
+    <string name="Hero_LevelUp">новый уровень!</string>
+    <string name="Hero_LockedChest">Сундук закрыт, и у тебя нет подходящего ключа</string>
+    <string name="Hero_LockedDoor">У тебя нет подходящего ключа</string>
+    <string name="Hero_Name">ты</string>
+    <string name="Hero_Name_Objective">тебя</string>
+    <string name="Hero_NewLevel">Твой уровень поднялся до %d! Теперь ты сильнее, а может даже и умнее. Тебе стало проще попадать по врагам и уклоняться от их атак.</string>
+    <string name="Hero_NoticedSmth">Ты что-то заметил</string>
+    <string name="Hero_Search">поиск</string>
+    <string name="Hero_SomethingElse">Здесь есть что-то ещё</string>
+    <string name="Hero_StaBleeding">У тебя кровотечение!</string>
+    <string name="Hero_StaBlindness">Тебя ослепили!</string>
+    <string name="Hero_StaBurning">Тебя охватил огонь!</string>
+    <string name="Hero_StaCharm">Ты зачарован!</string>
+    <string name="Hero_StaCripple">Ты получил травму!</string>
+    <string name="Hero_StaFurious">яростный</string>
+    <string name="Hero_StaFury">Ты впал в ярость!</string>
+    <string name="Hero_StaOoze">Едкий ил поедает твою плоть. Смой его!</string>
+    <string name="Hero_StaParalysis">Тебя парализовало!</string>
+    <string name="Hero_StaPoison">Ты отравлен!</string>
+    <string name="Hero_StaRoots">Ты не можешь сдвинутся!</string>
+    <string name="Hero_StaVertigo">У тебя кружится голова!</string>
+    <string name="Hero_StaWeakness">Тебя охватила слабость!</string>
+    <string name="Hero_Wait">...</string>
+    <string name="Hero_YouNowHave">Теперь у тебя есть %s</string>
+    <string name="Hunger_Death">Тебя настигла смерть от голода.</string>
+    <string name="Hunger_Info1">Голоден</string>
+    <string name="Hunger_Info2">Истощение</string>
+    <string name="HuntressArmor_ACSpecial">ПРИЗРАЧНЫЕ КЛИНКИ</string>
+    <string name="HuntressArmor_Desc">Подобный плащ позволяет охотнице выпускать веер призрачных клинков. Каждое из этих лезвий устремится к одной из целей, находящихся в поле зрения охотницы, нанося урон в зависимости от используемого оружия ближнего боя.</string>
+    <string name="HuntressArmor_Name">охотничий плащ</string>
+    <string name="HuntressArmor_NoEnemies">Нет видимых целей</string>
+    <string name="HuntressArmor_NotHuntress">Этот доспех доступен лишь охотнице!</string>
+    <string name="Icecap_Desc">При касании Ледовик испускает пыльцу, которая замораживает всё на своём пути.</string>
+    <string name="Icecap_Name">Ледовик</string>
+    <string name="ImpShopkeeper_Desc">Бесы - это низшие демоны. Они не славятся своей силой или магической мощью, но достаточно умны и общительны. Многие бесы предпочитают жить с теми, кто не являются демонами.</string>
+    <string name="ImpShopkeeper_Greetings">Привет, друг!</string>
+    <string name="ImpShopkeeper_Name">амбициозный бес</string>
+    <string name="Imp_Cya">Увидимся, %s!</string>
+    <string name="Imp_Defense">отклонился</string>
+    <string name="Imp_Desc">Бесы - это низшие демоны. Они не славятся своей силой или магической мощью, но достаточно умны и общительны. Многие бесы предпочитают жить с теми, кто не являются демонами.</string>
+    <string name="Imp_Golems1">Ты путешественник? Я обожаю путешественников! На них всегда можно положиться, если требуется чего-нибудь убить. Правда, а? За плату, конечно ;)\nВ нашем случае _големы_ нуждаются в убийстве. Видишь ли, я хотел начать здесь дельце, но эти дурацкие големы спутали мне все карты! Ходячие куски гранита не шибко коммуникабельны, однако! Так что прошу, прихлопни... скажем, _6 големов_, и я в долгу не останусь.</string>
+    <string name="Imp_Golems2">Как там наше големово сафари?</string>
+    <string name="Imp_Hey">Пссс, эй %s!</string>
+    <string name="Imp_Monks1">Ты путешественник? Я обожаю путешественников! На них всегда можно положиться, если требуется чего-нибудь убить. Правда, а? За плату, конечно ;)\nВ нашем случае _монахи_ нуждаются в убийстве. Видишь ли, я хотел начать здесь дельце, но эти шизики сами ничего не купят и остальных покупателей распугают. Так что прошу, прихлопни... скажем, _8 монахов_, и я в долгу не останусь.</string>
+    <string name="Imp_Monks2">О, да ты не умер! Я знал, что твоё кунг-фу сильнее ;) Только не забудь собрать с этих монахов жетоны.</string>
+    <string name="Imp_Name">амбициозный бес</string>
+    <string name="IncendiaryDart_Gender">masculine</string>
+    <string name="IncendiaryDart_Info">Кончик дротика рассчитан на то, чтобы надёжно впиться в цель, в то время как состав, которым он обработан, вспыхнет, окутывая жертву пламенем.</string>
+    <string name="IncendiaryDart_Name">воспламеняющий дротик</string>
+    <string name="InterLevelScene_Ascending">Поднимаемся...</string>
+    <string name="InterLevelScene_Descending">Спускаемся...</string>
+    <string name="InterLevelScene_ErrorGeneric">Что-то пошло не так...</string>
+    <string name="InterLevelScene_Falling">Падаем...</string>
+    <string name="InterLevelScene_FileNotFound">Файл не найден. К чему бы это...</string>
+    <string name="InterLevelScene_Loading">Загружаемся...</string>
+    <string name="InterLevelScene_Resurrecting">Воскрешаемся...</string>
+    <string name="InterLevelScene_Returning">Возвращаемся...</string>
+    <string name="IntroScene_Txt">Многие искатели приключений и путешественники спускались в Подземелье до тебя. Некоторые возвращались, наделённые несметными богатствами и волшебными артефактами, но большинство попусту сгинуло. Но никому не удалось заполучить Амулет Эндора, согласно легендам, сокрытый в глубинах Подземелья.\n\nТы чувствуешь, что готов к этому испытанию и, что немаловажно, веришь, что удача на твоей стороне. Пришло время начать своё приключение!</string>
+    <string name="InventoryScroll_No">Нет, я передумал</string>
+    <string name="InventoryScroll_Title">Выбери предмет</string>
+    <string name="InventoryScroll_Warning">Ты уверен, что хочешь отменить использование свитка? Он пропадёт в любом случае.</string>
+    <string name="InventoryScroll_Yes">Да, пусть так</string>
+    <string name="Invisibility_Info">Невидимый</string>
+    <string name="IronKey_FromDepth">железный ключ с %d этажа</string>
+    <string name="IronKey_Info">Засечки на этом древнем ключе износились; продетый в него кожаный ремень давно потрескался. Какую дверь им можно открыть?</string>
+    <string name="IronKey_Name">железный ключ</string>
+    <string name="ItemSprite_Info1">выбросить: %1$.1f %2$.1f</string>
+    <string name="Item_ACDrop">ВЫЛОЖИТЬ</string>
+    <string name="Item_ACThrow">МЕТНУТЬ</string>
+    <string name="Item_DirThrow">Выбери направление броска</string>
+    <string name="Item_Info">описание предмета</string>
+    <string name="Item_Name">предмет</string>
+    <string name="Item_PackFull">У тебя нет места для предмета %s</string>
+    <string name="JarOfSouls_Desc">Сияющие глаза черепа, изображённого на этом кувшине, не говоря уже о странной магической энергии, что он излучает, вселяют в тебя беспокойство.</string>
+    <string name="JarOfSouls_Gender">masculine</string>
+    <string name="JarOfSouls_Name">кувшин душ</string>
+    <string name="JarOfSouls_Name_Objective">кувшин душ</string>
+    <string name="Javelin_Gender">neuter</string>
+    <string name="Javelin_Info">Это металлическое копьё тщательно сбалансировано, чтобы его острый наконечник неизменно стремился в цель, на протяжении всего полёта.</string>
+    <string name="Javelin_Name">метательное копьё</string>
+    <string name="Journal_Alchemy">Алхимический котёл</string>
+    <string name="Journal_Azuterron">Незнакомец</string>
+    <string name="Journal_Garden">Сад</string>
+    <string name="Journal_Ghost">Печальный призрак</string>
+    <string name="Journal_Imp">Амбициозный бес</string>
+    <string name="Journal_Statue">Ожившая статуя</string>
+    <string name="Journal_Troll">Тролль-кузнец</string>
+    <string name="Journal_Wandmaker">Старый мастер</string>
+    <string name="Journal_WellAwareness">Источник Чутья</string>
+    <string name="Journal_WellHealt">Источник Исцеления</string>
+    <string name="Journal_WellTransmut">Источник Трансмутации</string>
+    <string name="Keyring_Info">Это медное кольцо для ключей позволит хранить все твои ключи отдельно от остальных вещей.</string>
+    <string name="Keyring_Name">кольцо для ключей</string>
+    <string name="KindOfWeapon_EquipCursed">ты не в силах разжать пальцы, охватившие %s</string>
+    <string name="King_Defense">отбился</string>
+    <string name="King_Desc">Последний из дворфийских царей известен своими выдающимися познаниями о природе жизни и смерти. Он убедил придворную свиту принять участие в ритуале, обещавшим вечную молодость. В итоге её обрёл лишь он сам, заполучив армию нежити в качестве бонуса.</string>
+    <string name="King_Gender">masculine</string>
+    <string name="King_Info1">Ты не в силах меня одолеть, %s... Я... бессмертен...</string>
+    <string name="King_Info2">Восстаньте, слуги!</string>
+    <string name="King_Info3">Да как ты смеешь!</string>
+    <string name="King_Name">Царь Дворфов</string>
+    <string name="King_Name_Objective">Царя Дворфов</string>
+    <string name="Knuckles_Gender">masculine</string>
+    <string name="Knuckles_Info">Железная скоба, плотно охватывающая пальцы.</string>
+    <string name="Knuckles_Name">кастет</string>
+    <string name="Kusarigama_Gender">feminine</string>
+    <string name="Kusarigama_Info">Это оружие состоит из серпа на длинной цепи и тяжелой гири на другом её конце.</string>
+    <string name="Kusarigama_Name">кусаригама</string>
+    <string name="Kusarigama_Pull">ПОДТЯНУТЬ</string>
+    <string name="Larva_Desc">Личинка старого Бога</string>
+    <string name="Larva_Gender">feminine</string>
+    <string name="Larva_Name">личинка бога</string>
+    <string name="Larva_Name_Objective">личинку бога</string>
+    <string name="LastLevel_TileDescStatue">Этот столб составлен из настоящих гуманоидных черепов. Прикольно.</string>
+    <string name="LastLevel_TileDescWater">Это подозрительно похоже на лаву. Но она холодна на ощупь и, судя по всему, не представляет опасности.</string>
+    <string name="LastLevel_TileGrass">Углемох</string>
+    <string name="LastLevel_TileHighGrass">Углегриб</string>
+    <string name="LastLevel_TileStatue">Столб</string>
+    <string name="LastLevel_TileWater">Холодная лава</string>
+    <string name="LastShopLevel_TileDescDeco">Здесь недостаёт нескольких плиток.</string>
+    <string name="LastShopLevel_TileDescEmptySP">Пол укрыт плотным ковром.</string>
+    <string name="LastShopLevel_TileDescEntrance">Лестница в преисподнюю.</string>
+    <string name="LastShopLevel_TileDescExit">Пролёт, ведущий наверх.</string>
+    <string name="LastShopLevel_TileHighGrass">Большой цветущий куст</string>
+    <string name="LastShopLevel_TileWater">Подозрительно окрашенная вода</string>
+    <string name="LeatherArmor_Desc">Доспех, изготовленный из шкуры монстра. Не столь лёгок, как тканевый доспех, но обеспечивает лучшую защиту.</string>
+    <string name="LeatherArmor_Name">кожаный доспех</string>
+    <string name="Level_HiddenPlate">Прижимная плита щёлкнула!</string>
+    <string name="Level_TileAlarmTrap">Сигнальная ловушка</string>
+    <string name="Level_TileAlchemy">Алхимический котёл</string>
+    <string name="Level_TileBarricade">Баррикада</string>
+    <string name="Level_TileBookshelf">Шкаф</string>
+    <string name="Level_TileChasm">Пропасть</string>
+    <string name="Level_TileClosedDoor">Закрытая дверь</string>
+    <string name="Level_TileDefault">\?\?\?</string>
+    <string name="Level_TileDescAlchemy">Закинь сюда семян, чтобы сварить зелья.</string>
+    <string name="Level_TileDescBarricade">Деревянная баррикада ладно сработана, но обветшала от времени. Интересно, загорится?</string>
+    <string name="Level_TileDescChasm">Дна не видать.</string>
+    <string name="Level_TileDescEmbers">Пол усыпан углями.</string>
+    <string name="Level_TileDescEmptyWell">Источник иссяк.</string>
+    <string name="Level_TileDescEntrance">Эти ступеньки ведут наверх.</string>
+    <string name="Level_TileDescExit">Эти ступеньки ведут в глубь подземелья.</string>
+    <string name="Level_TileDescHighGrass">Густая растительность закрывает обзор.</string>
+    <string name="Level_TileDescInactiveTrap">Ловушка уже сработала, теперь она безопасна.</string>
+    <string name="Level_TileDescLockedDoor">Эта дверь заперта, тебе нужен подходящий ключ.</string>
+    <string name="Level_TileDescLockedExit">Проход закрыт тяжёлой решёткой.</string>
+    <string name="Level_TileDescSign">Ты не можешь рассмотреть текст отсюда.</string>
+    <string name="Level_TileDescStatue">Декоратор у этого места не самый лучший.</string>
+    <string name="Level_TileDescTrap">Встав на прижимную плиту, ты активируешь ловушку.</string>
+    <string name="Level_TileDescWater">Если загоришься, зайди в воду, чтобы потухнуть.</string>
+    <string name="Level_TileEmbers">Тлеющие угли</string>
+    <string name="Level_TileEmptyWell">Пустой источник</string>
+    <string name="Level_TileEntrance">Подъём</string>
+    <string name="Level_TileExit">Спуск</string>
+    <string name="Level_TileFireTrap">Огненная ловушка</string>
+    <string name="Level_TileFloor">Пол</string>
+    <string name="Level_TileGrass">Трава</string>
+    <string name="Level_TileGrippingTrap">Хватающая ловушка</string>
+    <string name="Level_TileHighGrass">Высокая трава</string>
+    <string name="Level_TileInactiveTrap">Разряженная ловушка</string>
+    <string name="Level_TileLightningTrap">Электрическая ловушка</string>
+    <string name="Level_TileLockedDoor">Запертая дверь</string>
+    <string name="Level_TileLockedExit">Запертая лестница вниз</string>
+    <string name="Level_TileOpenDoor">Открытая дверь</string>
+    <string name="Level_TileParalyticTrap">Ловушка с паралитическим газом</string>
+    <string name="Level_TilePedestal">Пьедестал</string>
+    <string name="Level_TilePoisonTrap">Ловушка с ядовитыми дротиками</string>
+    <string name="Level_TileSign">Знак</string>
+    <string name="Level_TileStatue">Статуя</string>
+    <string name="Level_TileSummoningTrap">Призывающая ловушка</string>
+    <string name="Level_TileToxicTrap">Ловушка с токсичным газом</string>
+    <string name="Level_TileUnlockedExit">Открытая лестница вниз</string>
+    <string name="Level_TileWall">Стена</string>
+    <string name="Level_TileWater">Вода</string>
+    <string name="Level_TileWell">Источник</string>
+    <string name="Levitation_Info">Левитирующий</string>
+    <string name="Lich_Desc">Некромант нашел свою смерть в глубинах некрополиса, и постепенно, злые силы, что вливались в его тело, превратили его в Лича. В мага-умертвие, безвольную марионетку, управляемую темными силами...</string>
+    <string name="Lich_Gender">masculine</string>
+    <string name="Lich_Name">лич</string>
+    <string name="Lich_Name_Objective">лича</string>
+    <string name="Light_Info">Светящийся</string>
+    <string name="LightningTrap_Desc">Тебя пришибло разрядом электрической ловушки...</string>
+    <string name="LightningTrap_Name">электрическая ловушка</string>
+    <string name="LloidsBeacon_ACReturn">ВОЗВРАТ</string>
+    <string name="LloidsBeacon_ACSet">УСТАНОВКА</string>
+    <string name="LloidsBeacon_Creatures">Психическая аура ближайших существ не позволяет тебе использовать маяк Ллойда сейчас.</string>
+    <string name="LloidsBeacon_Info">Маяк Ллойда - это интерактивное волшебное устройство, которое позволяет вернуться в место, где ты уже был.</string>
+    <string name="LloidsBeacon_Name">маяк Ллойда</string>
+    <string name="LloidsBeacon_Preventing">Могучая магическая аура этого места не позволяет использовать маяк Ллойда!</string>
+    <string name="LloidsBeacon_Return">Маяк Ллойда успешно установлен на твоё текущее положение, теперь ты можешь вернуться сюда в любое время.</string>
+    <string name="LloidsBeacon_Set">\n\nЭтот маяк был установлен где-то на %d уровне Pixel Dungeon.</string>
+    <string name="Longsword_Gender">masculine</string>
+    <string name="Longsword_Info">Этот массивный клинок наносит огромный урон, обрушивая на врага весь свой вес.</string>
+    <string name="Longsword_Name">длинный меч</string>
+    <string name="Mace_Gender">feminine</string>
+    <string name="Mace_Info">Железный наконечник этого оружия способен наносить существенный урон.</string>
+    <string name="Mace_Name">булава</string>
+    <string name="MageArmor_ACSpecial">РАСПЛАВЛЕННАЯ ЗЕМЛЯ</string>
+    <string name="MageArmor_Desc">Облачённый в эти роскошные одеяния маг способен использовать заклятие Расплавленной Земли, поджигая и обездвиживая всех врагов в поле зрения.</string>
+    <string name="MageArmor_Name">волшебный балахон</string>
+    <string name="MageArmor_NotMage">Этот доспех доступен лишь магу!</string>
+    <string name="MailArmor_Desc">Сочленение металлических колец образует прочный, но в тоже время не сковывающий движения доспех.</string>
+    <string name="MailArmor_Name">кольчужный доспех</string>
+    <string name="MeleeWeapon_Info1a">%1$s - %2$s оружие ближнего боя %3$d порядка.</string>
+    <string name="MeleeWeapon_Info1b"> </string>
+    <string name="MeleeWeapon_Info1c">улучшенное</string>
+    <string name="MeleeWeapon_Info1d">ослабленное</string>
+    <string name="MeleeWeapon_Info2a">Средний урон %d единиц за удар.</string>
+    <string name="MeleeWeapon_Info2b">Типичный средний урон составляет %1$d единицы за удар и, как правило, требует %2$d очков силы.</string>
+    <string name="MeleeWeapon_Info2c">Судя по всему, это оружие слишком тяжело для тебя.</string>
+    <string name="MeleeWeapon_Info3a">Это довольно %s оружие.</string>
+    <string name="MeleeWeapon_Info3b">быстрое</string>
+    <string name="MeleeWeapon_Info3c">медленное</string>
+    <string name="MeleeWeapon_Info3d">и</string>
+    <string name="MeleeWeapon_Info3e">но</string>
+    <string name="MeleeWeapon_Info3f">меткое</string>
+    <string name="MeleeWeapon_Info3g">неточное</string>
+    <string name="MeleeWeapon_Info4a">Оно было сбалансировано для повышения скорости.</string>
+    <string name="MeleeWeapon_Info4b">Оно было сбалансировано для повышения точности.</string>
+    <string name="MeleeWeapon_Info5">Оно зачарованно.</string>
+    <string name="MeleeWeapon_Info6a">Из-за твоей недостаточной силы, скорость и точность атаки оружием %s снижены.</string>
+    <string name="MeleeWeapon_Info6b">За счёт более чем достаточной силы, количество урона, от оружия %s, увеличено.</string>
+    <string name="MeleeWeapon_Info7a">Ты держишь %1$s наготове %2$s.</string>
+    <string name="MeleeWeapon_Info7b">, поскольку оружие проклято, ты не в силах выпустить его из рук</string>
+    <string name="MeleeWeapon_Info7c">Ты чувствуешь зловещую магию, затаившуюся в оружии %s.</string>
+    <string name="Metabolism_Txt">%s метаболизма</string>
+    <string name="MimicAmulet_Desc">Самый знаменательный момент в твоей приключенческой карьере только что обернулся очередной ловушкой.</string>
+    <string name="MimicAmulet_Gender">masculine</string>
+    <string name="MimicAmulet_Name">мимик</string>
+    <string name="MimicAmulet_Name_Objective">мимика</string>
+    <string name="MimicPie_Desc">Мимики - магические существа, которые могут принимать любую форму по желанию. Этот похож на большой вкусный пирог.</string>
+    <string name="MimicPie_Gender">masculine</string>
+    <string name="MimicPie_Name">мимик</string>
+    <string name="MimicPie_Name_Objective">мимика</string>
+    <string name="Mimic_Desc">Мимики - магические существа, которые могут принимать любую форму по желанию. В подземельях мимики почти всегда принимают форму сундуков, они ведь знают, как лучше всего привлечь искателя приключений.</string>
+    <string name="Mimic_Gender">masculine</string>
+    <string name="Mimic_Name">мимик</string>
+    <string name="Mimic_Name_Objective">мимика</string>
+    <string name="MindVision_Info">Ясновидение</string>
+    <string name="MirrorImage_Desc">Эта иллюзия весьма на тебя похожа, хотя слегка бледновата и посверкивает.</string>
+    <string name="MirrorImage_Gender">masculine</string>
+    <string name="MirrorImage_Name">двойник</string>
+    <string name="MirrorImage_Name_Objective">двойника</string>
+    <string name="MissileWeapon_Info1">\n\nСредний урон от этого оружия составляет %d единиц за удар.</string>
+    <string name="MissileWeapon_Info2">Из-за твоей недостаточной силы, скорость и точность атаки оружием %s снижены.</string>
+    <string name="MissileWeapon_Info3">За счёт более чем достаточной силы, количество урона от оружия %s увеличено.</string>
+    <string name="MissileWeapon_Info4">\n\nТы держишь %s наизготове.</string>
+    <string name="MissileWeapon_Missiles">Оружие дальнего боя</string>
+    <string name="MissileWeapon_No">Нет, я передумал</string>
+    <string name="MissileWeapon_Sure">Ты уверен, что хочешь использовать это в качестве оружия ближнего боя?</string>
+    <string name="MissileWeapon_Yes">Да, я знаю, что делаю</string>
+    <string name="Mob_Desc">Настоящее описание скоро появится!</string>
+    <string name="Mob_Died">Ты слышишь, как что-то умерло вдали</string>
+    <string name="Mob_StaFleeingStatus">%s спасается бегством</string>
+    <string name="Mob_StaHuntingStatus">%s охотится</string>
+    <string name="Mob_StaPassiveStatus">%s бездельничает</string>
+    <string name="Mob_StaSleepingStatus">%s спит</string>
+    <string name="Mob_StaWanderingStatus">%s рыщет</string>
+    <string name="Mob_Yell">%1$s: \"%2$s\"</string>
+    <string name="ModsButton_SelectMod">Выберите мод</string>
+    <string name="Mods_AuthorEmail">Email автора:</string>
+    <string name="Mods_AuthorSite">Сайт автора:</string>
+    <string name="Mods_CreatedBy">Автор:</string>
+    <string name="Mods_RestartRequired">Нужен перезапуск</string>
+    <string name="Monk_Defense">отбился</string>
+    <string name="Monk_Desc">Монахи - это фанатики, посвятившие себя защите секретов своего народа от чужаков. Они не полагаются на броню и оружие, доверившись искусству рукопашного боя.</string>
+    <string name="Monk_Disarm">%1$s выбил %2$s из твоих рук!</string>
+    <string name="Monk_Gender">masculine</string>
+    <string name="Monk_Name">дворф-монах</string>
+    <string name="Monk_Name_Objective">монаха</string>
+    <string name="Multiplicity_Txt">%s умножения</string>
+    <string name="MysteryMeat_Info">Съешь на свой страх и риск!</string>
+    <string name="MysteryMeat_Info1">Оу, остренько!</string>
+    <string name="MysteryMeat_Info2">У тебя отнялись ноги!</string>
+    <string name="MysteryMeat_Info3">Что-то тебе нехорошо.</string>
+    <string name="MysteryMeat_Info4">Ты объелся.</string>
+    <string name="MysteryMeat_Message">Какой... подозрительный вкус.</string>
+    <string name="MysteryMeat_Name">подозрительное мясо</string>
+    <string name="NecromancerNPC_Desc">Этот мужчина средних лет выглядит слегка раздражёным и взволнованным одновременно. Он одет в составной доспех состоящий из скреплёных костей.</string>
+    <string name="NecromancerNPC_Gender">masculine</string>
+    <string name="NecromancerNPC_Intro">А! Какое редкое зрелище! Собрат приключенец не являющийся бездыханым трупом! Верится с трудом! Кхм... извиняюсь, иногда я становлюсь слишком заносчивым. Я, видите ли, некромант. И не смотря на то, что изучение мертвецов и самой смерти у нас в почёте, всё это серое однообразие рано или поздно кому угодно наскучит. Но с другой стороны я здесь, как раз из-за этого. Согласно моим подсчётам, всего через пару недель, в этом самом подземелье, случится нечто грандиозное. Откроется проход в _Некрополь_, древний город мёртвых. И... в общем я и так много болтал, больше нельзя терять время. Мне надо подготовится, может мы вернёмся к этому разговору _позже_.</string>
+    <string name="NecromancerNPC_Intro2">А! Собрат приключенец не являющийся бездыханным трупом! Верится с трудом! Кхм... извиняюсь, иногда я становлюсь слишком заносчивым. Я, видите ли, некромант. И не смотря на то, что изучение мертвецов и самой смерти у нас в почёте, всё это серое однообразие рано или поздно кому угодно наскучит. Но с другой стороны я здесь, как раз из-за этого. Намедни случилось нечто грандиозное! _Некрополь_, древний город мёртвых открыл нашему взору свои двери. Честно говоря, мы стоим прямо подле этих дверей. И... знаешь что, возьми как ключ и иди первый, ты же любишь всякие приключения, да? А я пойду следом... только сначала подготовлюсь.</string>
+    <string name="NecromancerNPC_Message1">Так мало времени, так мало времени...</string>
+    <string name="NecromancerNPC_Message2">Я должен подготовиться.</string>
+    <string name="NecromancerNPC_Message3">Я слышу зов мёртвых.</string>
+    <string name="NecromancerNPC_Message4">В Некрополе таится нечто особенное.</string>
+    <string name="NecromancerNPC_Name">некромант</string>
+    <string name="NecromancerNPC_Name_Objective">некроманта</string>
+    <string name="NekoEars_Info">Иногда хочется смыть с себя останки монстров и грязищу и просто чувствовать себя кавайным и пушистым... Ну или можно ограничится ношением кавайных кошачьих ушек.</string>
+    <string name="NekoEars_Name">Нэко-ушки</string>
+    <string name="Nightcap_Info">Покорять подземелья в ночную пору должно быть крайне утомительным занятием. Как насчёт того, чтобы  одеть это уютную тёплую шапочку и расслабиться, и пусть весь мир подождёт.</string>
+    <string name="Nightcap_Name">Ночной колпак</string>
+    <string name="Nightmare_Desc">Омерзительное создание, выглядящее как пучок  щупалец сделанных из плоти. Кошмары являются воплощением зловещих мыслей Старого Бога.</string>
+    <string name="Nightmare_Gender">masculine</string>
+    <string name="Nightmare_Name">кошмар</string>
+    <string name="Nightmare_Name_Objective">кошмара</string>
+    <string name="Ooze_Death">%s сжирает тебя...</string>
+    <string name="Ooze_Info">Едкая слизь</string>
+    <string name="OverpricedRation_Info">Он как обычный сухпаёк, только маленький.</string>
+    <string name="OverpricedRation_Message">Достаточно вкусно.</string>
+    <string name="OverpricedRation_Name">дорогущий сухпаёк</string>
+    <string name="ParalysisArrow_Gender">feminine</string>
+    <string name="ParalysisArrow_Info">Эта стрела испускает лёгкий, но такой знакомый запах кураре.</string>
+    <string name="ParalysisArrow_Name">парализующая стрела</string>
+    <string name="ParalysisQuiver_Gender">masculine</string>
+    <string name="ParalysisQuiver_Info"/>
+    <string name="ParalysisQuiver_Name">парализующий колчан</string>
+    <string name="Paralysis_Info">Парализован</string>
+    <string name="ParalyticGas_Info">Здесь витает облако паралитического газа.</string>
+    <string name="Pasty_Info">Традиционный Корнуоллский пирог с начинкой из говядины и картофеля.</string>
+    <string name="Pasty_Name">пирог</string>
+    <string name="Pickaxe_ACMine">ДОБЫВАТЬ</string>
+    <string name="Pickaxe_Gender">feminine</string>
+    <string name="Pickaxe_Info">Это крупное, крепкое орудие используется для раскалывания камней. Как простое оружие оно тоже может сгодится.</string>
+    <string name="Pickaxe_Name">кирка</string>
+    <string name="Pickaxe_NoVein">Ты не видишь ни одного месторождения мракозлата в зоне досягаемости</string>
+    <string name="Piranha_Desc">Эти плотоядные рыбы не являются исконными обитателями пещерных водоёмов. Они были выведены специально для защиты затопленных сокровищниц.</string>
+    <string name="Piranha_Gender">feminine</string>
+    <string name="Piranha_Name">огромная пиранья</string>
+    <string name="Piranha_Name_Objective">пиранью</string>
+    <string name="PirateSet_Info">Арр! Чувствуешь в себе силы присоединиться к нашим парням!? Или ты просто очередная сухопутная крыса?. Надеюсь что нет, эта штуковина ведь только для пиратов, эээ в смысле... Арр!</string>
+    <string name="PirateSet_Name">Пиратский Набор</string>
+    <string name="Plant_ACPlant">ПОСАДИТЬ</string>
+    <string name="Plant_Info">Посади эти семена в то место, где ты хочешь вырастить %1$s.\n\n%2$s</string>
+    <string name="Plant_Seed">семена растения %s</string>
+    <string name="PlateArmor_Desc">Массивные металлические пластины обеспечивают непревзойдённую защиту, доступную лишь героям, способным осилить эту тяжкую ношу.</string>
+    <string name="PlateArmor_Name">латный доспех</string>
+    <string name="PoisonArrow_Gender">feminine</string>
+    <string name="PoisonArrow_Info">Наконечник этой стрелы блестит каплей смертельного яда.</string>
+    <string name="PoisonArrow_Name">ядовитая стрела</string>
+    <string name="PoisonQuiver_Info"/>
+    <string name="PoisonQuiver_Name">отравленный колчан</string>
+    <string name="Poison_Death">Ты умер от яда...</string>
+    <string name="Poison_Info">Отравлен</string>
+    <string name="Poisonuiver_Gender">masculine</string>
+    <string name="Potential_Txt">%s потенциала</string>
+    <string name="PotionBelt_Info">На этот крепкий кожаный пояс можно закрепить все твои зелья, также он не даст склянке лопнуть на морозе.</string>
+    <string name="PotionBelt_Name">пояс для зелий</string>
+    <string name="PotionOfExperience_Info">Опыт, накопленный в неисчислимых битвах, преобразован в форму зелья; такой напиток моментально повысит твой уровень опыта.</string>
+    <string name="PotionOfExperience_Name">Зелье Опыта</string>
+    <string name="PotionOfFrost_Info">При контакте с воздухом этот химикат испарится, образуя леденящее облачко, примораживающее к месту всякое коснувшееся его существо, лишая того возможности пошевелится.</string>
+    <string name="PotionOfFrost_Name">Зелье Мороза</string>
+    <string name="PotionOfHealing_Apply">Твои раны полностью затянулись.</string>
+    <string name="PotionOfHealing_Info">Эликсир мгновенно восстановит твоё здоровье и излечит от яда.</string>
+    <string name="PotionOfHealing_Name">Зелье Исцеления</string>
+    <string name="PotionOfInvisibility_Apply">Ты становишься невидимым!</string>
+    <string name="PotionOfInvisibility_Info">Выпив это зелье, ты станешь временно невидимым. Враги не смогут увидеть тебя, но нападение на врага, так же как использование палочки или свитка у них на глазах, сделает тебя видимым.</string>
+    <string name="PotionOfInvisibility_Name">Зелье Невидимости</string>
+    <string name="PotionOfLevitation_Apply">Ты воспарил над землёй!</string>
+    <string name="PotionOfLevitation_Info">Выпив эту занятную субстанцию ты обретёшь способность парить над поверхностью, минуя ловушки. Однако огонь и газы заполняют объём, и облететь их не получится.</string>
+    <string name="PotionOfLevitation_Name">Зелье Левитации</string>
+    <string name="PotionOfLiquidFlame_Info">Эта фляга содержит мощный реагент, который мгновенно воспламенится при контакте с воздухом.</string>
+    <string name="PotionOfLiquidFlame_Name">Зелье Жидкого Пламени</string>
+    <string name="PotionOfMight_Apply">Новоприобретённая сила пульсирует в твоём теле.</string>
+    <string name="PotionOfMight_Info">Это сильнодействующее средство нальёт мощью твои мышцы, перманентно повышая твою силу на 1, а здоровье на 5 очков.</string>
+    <string name="PotionOfMight_Name">Зелье Могущества</string>
+    <string name="PotionOfMight_StaApply">+1 сила, +5 здоровье</string>
+    <string name="PotionOfMindVision_Apply1">Ты каким-то образом почувствовал присутствие других разумных существ!</string>
+    <string name="PotionOfMindVision_Apply2">Что-то тебе подсказывает, что ты единственное живое существо на этом уровне.</string>
+    <string name="PotionOfMindVision_Info">Выпив его, ты обретёшь способность улавливать мозговые волны отдалённых существ, что позволит тебе чувствовать живые организмы сквозь стены. Также это зелье позволит тебе видеть сквозь ближайшие стены и двери.</string>
+    <string name="PotionOfMindVision_Name">Зелье Ясновидения</string>
+    <string name="PotionOfParalyticGas_Info">При контакте с воздухом эта жидкость испарится, образуя желтоватую дымку. Любой вдохнувший его будет мгновенно парализован и сможет двинуться лишь спустя некоторое время после испарения дымки. Этот предмет можно швырнуть во врагов, чтобы парализовать их.</string>
+    <string name="PotionOfParalyticGas_Name">Зелье Парализующего Газа</string>
+    <string name="PotionOfPurity_Freshness">Воздух внезапно посвежел.</string>
+    <string name="PotionOfPurity_Info">Этот реагент мгновенно нейтрализует все вредоносные газы в помещении. Выпив его, ты временно получишь иммунитет к подобным газам.</string>
+    <string name="PotionOfPurity_Name">Зелье Очищения</string>
+    <string name="PotionOfPurity_NoSmell">Ты потерял обоняние!</string>
+    <string name="PotionOfStrength_Apply">Новоприобретённая сила пульсирует в твоём теле.</string>
+    <string name="PotionOfStrength_Info">Это сильнодействующее средство нальёт мощью твои мышцы, перманентно повышая твою силу на 1.</string>
+    <string name="PotionOfStrength_Name">Зелье Силы</string>
+    <string name="PotionOfStrength_StaApply">+1 сила</string>
+    <string name="PotionOfToxicGas_Info">Малейшее повреждение или попытка открыть этот сосуд приведёт к взрыву закачанного под давлением токсичного газа. Тебе лучше метнуть его во врага, нежели пытаться открыть.</string>
+    <string name="PotionOfToxicGas_Name">Зелье Токсичного Газа</string>
+    <string name="Potion_ACDrink">ВЫПИТЬ</string>
+    <string name="Potion_ACMoisten">СМАЗАТЬ</string>
+    <string name="Potion_ArrowMoisten">Стрелы успешно смазаны.</string>
+    <string name="Potion_Beneficial">Полезное зелье</string>
+    <string name="Potion_FoodRefreshed">%s теперь выглядит свежим</string>
+    <string name="Potion_Harmfull">Вредное зелье!</string>
+    <string name="Potion_Info">В этом флаконе содержится %s зелье. Кто знает, что станется, если его выпить или швырнуть?</string>
+    <string name="Potion_ItemFliesAway">Предмет %s вырвался из рук и улетел.</string>
+    <string name="Potion_MoistenUseless">Похоже, это зелье потрачено впустую.</string>
+    <string name="Potion_Name">%s зелье</string>
+    <string name="Potion_No">Нет, я передумал</string>
+    <string name="Potion_RuneDissaperaed">Руна исчезла с предмета %s.</string>
+    <string name="Potion_SelectForMoisten">Что смазываем?</string>
+    <string name="Potion_Shatter">Флакон разбивается и %s зелье безвредно растекается</string>
+    <string name="Potion_SureDrink">Ты уверен, что стоит это пить? Обычно такие зелья кидают во врагов.</string>
+    <string name="Potion_SureThrow">Ты уверен, что стоит это кидать? Как правило, подобные зелья выпивают.</string>
+    <string name="Potion_Yes">Да, я знаю, на что иду</string>
+    <string name="Prison_TileDescBookshelf">Похоже на останки тюремной библиотеки. Интересно, загорится?</string>
+    <string name="Prison_TileDescDeco">Пол заляпан кровью.</string>
+    <string name="Prison_TileWater">Тёмная холодная вода.</string>
+    <string name="PseudoPasty_Info">Это подлинный корнуоллский пирог с традиционной начинкой из говядины и картофеля.</string>
+    <string name="PseudoPasty_Name">пирог</string>
+    <string name="PseudoRat_Desc">Ужасающий зверь вырвавшийся из трупика крысы не имеет ничего общего ни с грызунами, ни с какими-либо другими животными которых ты видел. Большущая пасть, усеянная бритвенно-острыми зубами, занимает значительную часть его тела.</string>
+    <string name="PseudoRat_Gender">feminine</string>
+    <string name="PseudoRat_Name">Псевдо-крыса</string>
+    <string name="PseudoRat_Name_Objective">Псевдо-крысу</string>
+    <string name="Pumpkin_Info">Давным давно, Люди-тыквы были гордым и процветающим народом. Но всё изменилось, когда пришли люди, оставляющие за собой лишь разруху. Теперь единственным напоминанием о тех страшных событиях служат отрубленные, выскобленные головы Людей-тыкв.</string>
+    <string name="Pumpkin_Name">Тыква</string>
+    <string name="Quarterstaff_Gender">masculine</string>
+    <string name="Quarterstaff_Info">Посох из твёрдого дерева, его концы окованы железом.</string>
+    <string name="Quarterstaff_Name">боевой посох</string>
+    <string name="QuickSlot_SelectedItem">Выбери предмет для быстрой ячейки</string>
+    <string name="Quiver_Gender">masculine</string>
+    <string name="Quiver_Info">Кожаный колчан отлично подходит для любых стрел</string>
+    <string name="Quiver_Name">колчан</string>
+    <string name="RabbitEars_Info">Существует поверье, что кролики являются прирождёнными счастливчиками и что человеку, заполучившему часть такого кролика, будет сопутствовать присущая зверю удача.  С другой стороны быть убитым ради твоих ушей, из которых сделают украшение, не особо счастливое событие.</string>
+    <string name="RabbitEars_Name">Кроличьи ушки</string>
+    <string name="RankingsScene_NoGames">Вы ещё ни разу не сыграли.</string>
+    <string name="RankingsScene_NoInfo">Дополнительная информация отсутствует</string>
+    <string name="RankingsScene_Title">Лучшие Результаты</string>
+    <string name="RankingsScene_Total">Всего игр сыграно: </string>
+    <string name="RatKingCrown_Buff">Крыссность</string>
+    <string name="RatKingCrown_Info">Золотая корона Его Крыссности, символ его власти </string>
+    <string name="RatKingCrown_Name">Корона крысиного короля</string>
+    <string name="RatKing_Desc">Эта крыса слегка крупнее обычной. На её голове виднеется малюсенькая корона.</string>
+    <string name="RatKing_Died">Король умер! Да здравствует Король!</string>
+    <string name="RatKing_Gender">masculine</string>
+    <string name="RatKing_Info1">Я не сплю!</string>
+    <string name="RatKing_Info2">Это ещё что? У меня нет времени на всякую ерунду. Королевство само собой править не будет!</string>
+    <string name="RatKing_Info3">Как ты смеешь, тщедушное существо, мешать Нашему Крысиныму Величеству?!</string>
+    <string name="RatKing_Name">крысиный король</string>
+    <string name="RatKing_Name_Objective">крысиного короля</string>
+    <string name="RatSkull_Buff">Крысобой</string>
+    <string name="RatSkull_Info">Он мог бы стать неплохим трофеем, но не хотелось бы вешать на стену нечто столь зловонное.</string>
+    <string name="RatSkull_Info2">Но с другой стороны, сразу видно что его владелец может убивать крыс, даже больших и мерзких.</string>
+    <string name="RatSkull_Name">череп гигантской крысы</string>
+    <string name="Rat_Desc">Сумчатые крысы - агрессивные, но довольно слабые обитатели канализации. Тем не менее, в больших количествах, они могут представлять опасность.</string>
+    <string name="Rat_Gender">feminine</string>
+    <string name="Rat_Name">сумчатая крыса</string>
+    <string name="Rat_Name_Objective">крысу</string>
+    <string name="Ration_Info">Дёшево и сердито: вяленое мясо, немного печенек - и так далее.</string>
+    <string name="Ration_Name">сухпаёк</string>
+    <string name="ResultDescriptions_Bleeding">Истёк кровью на уровне %d</string>
+    <string name="ResultDescriptions_Boss">Убит боссом (%1$s) на уровне %2$d</string>
+    <string name="ResultDescriptions_Burning">Сгорел живьём на уровне %d</string>
+    <string name="ResultDescriptions_Fall">Разбился насмерть об уровень %d</string>
+    <string name="ResultDescriptions_Gas">Погиб от токсичного газа на уровне %d</string>
+    <string name="ResultDescriptions_Glyph">Убит глифом (%1$s) на уровне %2$d</string>
+    <string name="ResultDescriptions_Hunger">Помер с голоду на уровне %d</string>
+    <string name="ResultDescriptions_Immured">Замурован в камне на уровне %d</string>
+    <string name="ResultDescriptions_Mob">Убит монстром (%1$s) на уровне %2$d</string>
+    <string name="ResultDescriptions_Ooze">Убит едкой слизью на уровне %d</string>
+    <string name="ResultDescriptions_Poison">Отравился на уровне %d</string>
+    <string name="ResultDescriptions_Trap">Убит ловушкой (%1$s) на уровне %2$d</string>
+    <string name="ResultDescriptions_Wand">Убит собственной палочкой (%1$s) на уровне %2$d</string>
+    <string name="ResultDescriptions_Win">Заполучил Амулет Эндора</string>
+    <string name="RingOfAccuracy_Info">Это кольцо повысит твой шанс попадания по врагу.</string>
+    <string name="RingOfAccuracy_Name">Кольцо Меткости</string>
+    <string name="RingOfDetection_Info">Это кольцо позволит тебе замечать такие секреты, как тайные двери и ловушки, не тратя время на поиски. Ослабленное кольцо обнаружения наоборот притупит твои чувства, усложнив поиск секретов.</string>
+    <string name="RingOfDetection_Name">Кольцо Обнаружения</string>
+    <string name="RingOfElements_Info">Это кольцо обеспечит тебя сопротивляемостью к воздействию стихий, таких как огонь, электричество, газы и т.д. Также оно снизит время влияния негативных эффектов</string>
+    <string name="RingOfElements_Name">Кольцо Стихий</string>
+    <string name="RingOfEvasion_Info">Это кольцо повысит твой шанс уклонится от вражеской атаки.</string>
+    <string name="RingOfEvasion_Name">Кольцо Уклонения</string>
+    <string name="RingOfHaggler_Info">Это кольцо не имеет волшебных эффектов, но торговцы и дельцы в курсе, что его может носить лишь член Гильдии Воров. Как правило, они готовы предложить скидку, чтобы избежать проблем. Улучшение этого кольца не принесёт дополнительных бонусов.</string>
+    <string name="RingOfHaggler_Name">Кольцо Торгаша</string>
+    <string name="RingOfHaste_Info">Это кольцо ускорит течение времени своего владельца, в связи с чем тот начнёт быстрее справлятся со всевозможными задачами.</string>
+    <string name="RingOfHaste_Name">Кольцо Стремительности</string>
+    <string name="RingOfHerbalism_Info">Это кольцо увеличит шанс собрать росу и семена с вытоптанной травы.</string>
+    <string name="RingOfHerbalism_Name">Кольцо Травничества</string>
+    <string name="RingOfMending_Info">Это кольцо увеличит регенеративные способности владельца, позволяя ему быстрее восполнять здоровье. Ослабленное кольцо снизит или может целиком остановить регенерацию организма.</string>
+    <string name="RingOfMending_Name">Кольцо Заживления</string>
+    <string name="RingOfPower_Info">Мощь этого кольца усилит волшебные палочки владельца. Ослабленное кольцо окажет обратный эффект.</string>
+    <string name="RingOfPower_Name">Кольцо Власти</string>
+    <string name="RingOfSatiety_Info">Носитель кольца сможет дольше продержаться без еды. Ослабленное кольцо подстегнёт голод.</string>
+    <string name="RingOfSatiety_Name">Кольцо Сытости</string>
+    <string name="RingOfShadows_Info">Враги имеют меньший шанс заметить носителя этого кольца. Ослабленное кольцо наоборот привлечёт внимание врагов, которые в простой ситуации могли тебя и не заметить.</string>
+    <string name="RingOfShadows_Name">Кольцо Теней</string>
+    <string name="RingOfStoneWalking_ImmuredInStone">Замурован в камне. Навсегда.</string>
+    <string name="RingOfStoneWalking_Info">Это кольцо, сделанное из крепкого камня, выглядело бы обычным. Если бы не капля жидкой крови, пульсирующая вместо камня. Внутри стрелка, указывающая на что-то вроде стены и на разбитое сердце... Что бы это могло значить?</string>
+    <string name="RingOfStoneWalking_Name">Кольцо Каменной Крови</string>
+    <string name="RingOfThorns_Info">Хотя само кольцо и не покрыто шипами, всякий атакующий враг ощутит на своей шкуре часть нанесённого тебе урона. Улучшение этого кольца не принесёт дополнительных бонусов.</string>
+    <string name="RingOfThorns_Name">Кольцо Шипов</string>
+    <string name="Ring_BuffKnown">Это %s</string>
+    <string name="Ring_Identify">ты достаточно хорошо знаком с предметом %1$s, чтобы его опознать. Это %2$s.</string>
+    <string name="Ring_Info">Это металлическое колечко украшено переливающимся на свету %s. Кто знает, какой эффект оно может оказать при надевании?</string>
+    <string name="Ring_Info1">Ты можешь носить максимум 2 кольца</string>
+    <string name="Ring_Info2">Проклятое %s не снять. Боль.</string>
+    <string name="Ring_Info3a">%1$s\n\n%2$s на твоём пальце %3$s</string>
+    <string name="Ring_Info3b">проклято, ты не в силах его снять.</string>
+    <string name="Ring_Info4">%1$s\n\nТы чувствуешь зловещую магию, затаившуюся внутри предмета %2$s.</string>
+    <string name="Ring_Name">кольцо с %s</string>
+    <string name="RogueArmor_ACSpecial">ДЫМОВАЯ ШАШКА</string>
+    <string name="RogueArmor_Desc">Облачившись в эти чёрные одежды, разбойник способен провернуть фокус, называемый \"дымовой шашкой\": ослепляя заметивших его противников и отскакивая в сторону.</string>
+    <string name="RogueArmor_Fov">Ты можешь отскочить лишь в свободное место в поле твоего зрения</string>
+    <string name="RogueArmor_Name">разбойничий комбинезон</string>
+    <string name="RogueArmor_NotRogue">Этот доспех доступен лишь разбойнику!</string>
+    <string name="RogueArmor_Prompt">Выбери место для отскока</string>
+    <string name="Roots_Info">Опутан</string>
+    <string name="RottenFood_Message">мерзость!</string>
+    <string name="RottenMeat_Info">кусок гнилого мяса</string>
+    <string name="RottenMeat_Name">гнилое мясо</string>
+    <string name="RottenPasty_Info">выглядит мерзко</string>
+    <string name="RottenPasty_Name">тухлый пирог</string>
+    <string name="RottenRation_Info">Когда-то давно он был съедобным</string>
+    <string name="RottenRation_Name">испорченный рацион</string>
+    <string name="RottingFist_Desc">Гнойный кулак Бога</string>
+    <string name="RottingFist_Gender">masculine</string>
+    <string name="RottingFist_Name">гнойный кулак</string>
+    <string name="RottingFist_Name_Objective">гнойный кулак</string>
+    <string name="RubyBow_Gender">masculine</string>
+    <string name="RubyBow_Info">Только величайшие лучники могут использовать рубиновый лук. Почти каждая выпущенная из него стрела пронзает врага насквозь, оставляя огромные дыры в его плоти. Но как же непросто натянуть тетиву.</string>
+    <string name="RubyBow_Name">рубиновый лук</string>
+    <string name="RubyCrossbow_Gender">masculine</string>
+    <string name="RubyCrossbow_Info">Это смертоносное оружие воистину является чудом дворфиской инженерии.</string>
+    <string name="RubyCrossbow_Name">Рубиновый арбалет</string>
+    <string name="RunicSkull_Desc">Для чего-то что было создано искусственным путём, это череп слишком уж походит на настоящий. Ты также видишь как его окутывает слабое свечение.</string>
+    <string name="RunicSkull_Gender">masculine</string>
+    <string name="RunicSkull_Name">рунный череп</string>
+    <string name="RunicSkull_Name_Objective">рунный череп</string>
+    <string name="SacrificialSword_Gender">masculine</string>
+    <string name="SacrificialSword_Info">На первый взгляд, этот старый бронзовый меч с потёками патины совершенно бесполезен. Но внутри него спят какие-то древние, архаичные силы, способные превратить почти любое существо в безвольного раба. Нужно лишь найти способ их пробудить...</string>
+    <string name="SacrificialSword_Name">жертвенный меч</string>
+    <string name="ScaleArmor_Desc">Металлические пластинки, нашитые на кожаную основу, обеспечивают достаточную подвижность и недурную защиту.</string>
+    <string name="ScaleArmor_Name">чешуйчатый доспех</string>
+    <string name="Scorpio_Desc">Эти огромные членистоногие создания стараются избегать ближнего боя, выстреливая ядовитые иглы с большого расстояния.</string>
+    <string name="Scorpio_Gender">masculine</string>
+    <string name="Scorpio_Name">скорпион</string>
+    <string name="Scorpio_Name_Objective">скорпиона</string>
+    <string name="ScrollHolder_Info">В этот футляр может поместиться любое количество свитков. Он освободит место в твоём рюкзаке и защитит свитки от огня.</string>
+    <string name="ScrollHolder_Name">футляр для свитков</string>
+    <string name="ScrollOfChallenge_Info">При прочтении вслух этот свиток издаст бросающий вызов рёв, указывая место твоего положения всем монстрам на уровне.</string>
+    <string name="ScrollOfChallenge_Info1">Свиток испускает бросающий вызов рёв, эхом проносящийся по подземелью!</string>
+    <string name="ScrollOfChallenge_Name">Свиток Вызова</string>
+    <string name="ScrollOfCurse_Info">Этот свиток создан исключительно для наказания вора, который достаточно глуп, чтобы попытаться использовать магию неведомой ему природы. Заключённая в нём магия абсолютно бесполезна и даже вредна для искателя приключений, однако весьма ценится торговцами.</string>
+    <string name="ScrollOfCurse_Name">Свиток Проклятья</string>
+    <string name="ScrollOfDomination_Info">Этот свиток сломит волю одного из существ в твоём поле зрения. Существо будет биться за тебя не щадя живота своего.</string>
+    <string name="ScrollOfDomination_Name">Свиток Подчинения</string>
+    <string name="ScrollOfIdentify_Info">Раскрывает все секреты одного предмета.</string>
+    <string name="ScrollOfIdentify_Info1">Это %s</string>
+    <string name="ScrollOfIdentify_InvTitle">Выбери предмет для опознания</string>
+    <string name="ScrollOfIdentify_Name">Свиток Опознания</string>
+    <string name="ScrollOfLullaby_Info">Убаюкивающая мелодия, создаваемая свитком, усыпляет всех существ в поле зрения, позволяя тебе сбежать или давая возможность нанести неожиданный удар.</string>
+    <string name="ScrollOfLullaby_Info1">Свиток испускает убаюкивающую мелодию.</string>
+    <string name="ScrollOfLullaby_Info2">Свиток испускает убаюкивающую мелодию и %s засыпает!</string>
+    <string name="ScrollOfLullaby_Info3">Свиток испускает убаюкивающую мелодию и монстры засыпают!</string>
+    <string name="ScrollOfLullaby_Name">Свиток Колыбельной</string>
+    <string name="ScrollOfMagicMapping_Info">При прочтении свитка в твоей памяти отчётливо выстроится картина, показывающая карту уровня и все его секреты. Но расположение предметов и существ останется неизвестным.</string>
+    <string name="ScrollOfMagicMapping_Layout">Теперь ты знаешь план уровня.</string>
+    <string name="ScrollOfMagicMapping_Name">Свиток Волшебной Карты</string>
+    <string name="ScrollOfMirrorImage_Info">Прочтение свитка создаст твоего иллюзорного близнеца, который устремится в погоню за врагами.</string>
+    <string name="ScrollOfMirrorImage_Name">Свиток Двойника</string>
+    <string name="ScrollOfPsionicBlast_Info">Этот свиток содержит разрушительную энергию, которая, по воле владельца, устремится ко всем врагам в поле зрения, нанося им непомерный урон. Этот эффект сопровождается сильнейшей вспышкой, которая ослепит всех присутствующих, включая владельца.</string>
+    <string name="ScrollOfPsionicBlast_Name">Свиток Ментального Удара</string>
+    <string name="ScrollOfRecharging_Info">Сырая магическая энергия, заточённая в этом свитке восстановит заряд всех волшебных палочек у того, кто его прочтёт.</string>
+    <string name="ScrollOfRecharging_Info1a">поток энергии пробежал сквозь твой рюкзак, перезарядив волшебную палочку</string>
+    <string name="ScrollOfRecharging_Info1b">поток энергии пробежал сквозь твой рюкзак, перезарядив волшебные палочки</string>
+    <string name="ScrollOfRecharging_Info2">поток энергии пробежал сквозь твой рюкзак, но ничего не изменилось</string>
+    <string name="ScrollOfRecharging_Name">Свиток Перезарядки</string>
+    <string name="ScrollOfRemoveCurse_Info">Прочитав этот свиток, ты призовёшь волшебную силу, которая развеет проклятья со всех предметов, позволяя тебе их снять.</string>
+    <string name="ScrollOfRemoveCurse_Name">Свиток Снятия Проклятия</string>
+    <string name="ScrollOfRemoveCurse_NoProced">Очистительный свет озаряет твой рюкзак, но ничего не изменилось.</string>
+    <string name="ScrollOfRemoveCurse_Proced">Очистительный свет озаряет твой рюкзак, изгоняя зловещую силу.</string>
+    <string name="ScrollOfTeleportation_Info">Этот свиток перенесёт заклинателя в случайную точку текущего уровня. Это может помочь сбежать из опасных ситуаций, хотя невезение может привести в место и похуже.</string>
+    <string name="ScrollOfTeleportation_Name">Свиток Телепортации</string>
+    <string name="ScrollOfTeleportation_NoTeleport">Могучая магическая аура этого места не позволяет тебе телепортироваться!</string>
+    <string name="ScrollOfTeleportation_Teleport">В мгновение ока ты переместился в другую область уровня.</string>
+    <string name="ScrollOfTerror_Info">Красная вспышка повергнет всех видимых существ в ужас, обращая их в бегство. Атакуя убегающего врага, ты снимешь с него заклятие.</string>
+    <string name="ScrollOfTerror_Info1">Свиток испускает яркую вспышку красного света</string>
+    <string name="ScrollOfTerror_Info2">Свиток испускает яркую вспышку красного света, и %s спасается бегством!</string>
+    <string name="ScrollOfTerror_Info3">Свиток испускает яркую вспышку красного света, и монстры спасаются бегством!</string>
+    <string name="ScrollOfTerror_Name">Свиток Ужаса</string>
+    <string name="ScrollOfUpgrade_Info">Этот свиток улучшит единственную вещь, повышая её качество. Сила и ёмкость палочки возрастёт; оружие получит больший урон или увеличит меткость; броня получит большую защиту; возможности кольца возрастут. Оружие и броня также потребуют меньше силы для использования, а любой проклятый предмет будет очищен.</string>
+    <string name="ScrollOfUpgrade_InvTitle">Выбери предмет для улучшения</string>
+    <string name="ScrollOfUpgrade_LooksBetter">%s теперь действительно выглядит лучше</string>
+    <string name="ScrollOfUpgrade_Name">Свиток Улучшения</string>
+    <string name="ScrollOfWeaponUpgrade_Info">Этот свиток улучшит оружие ближнего боя, повысив его качество. В отличие от простого Свитка Улучшения, эта версия не разрушит чары, наложенные на предмет. Даже наоборот, он сможет наделить случайным эффектом незачарованный предмет.</string>
+    <string name="ScrollOfWeaponUpgrade_InvTitle">Выбери предмет для улучшения</string>
+    <string name="ScrollOfWeaponUpgrade_LooksBetter">%s теперь действительно выглядит лучше</string>
+    <string name="ScrollOfWeaponUpgrade_Name">Свиток Улучшения Оружия</string>
+    <string name="Scroll_ACRead">ЧИТАТЬ</string>
+    <string name="Scroll_Blinded">Ты не можешь прочесть свиток, будучи ослеплённым</string>
+    <string name="Scroll_Info">Этот свиток покрыт непонятными письменами и озаглавлен руной %s. Кто знает, что случится если его прочесть вслух?</string>
+    <string name="Scroll_Name">свиток \"%s\"</string>
+    <string name="SeedPouch_Info">Этот маленький бархатный мешочек вмещает любое количество семян. Полезная вещь.</string>
+    <string name="SeedPouch_Name">мешочек для семян</string>
+    <string name="Senior_Desc">Монахи - это фанатики, посвятившие себя защите секретов своего народа от чужаков. Они не полагаются на броню и оружие, доверившись искусству рукопашного боя.</string>
+    <string name="Senior_Gender">masculine</string>
+    <string name="Senior_Name">старший монах</string>
+    <string name="Senior_Name_Objective">монаха</string>
+    <string name="Sewer_TileDescBookshelf">Полки заставлены дешёвыми бесполезными книгами. Интересно, загорится?</string>
+    <string name="Sewer_TileDescDeco">Влажный желтоватый мох растянулся по полу.</string>
+    <string name="Sewer_TileWater">Мутная вода</string>
+    <string name="Shades_Info">Есть люди, которые говорят, дескать подземелья слишком тёмные, чтобы носить тёмные очки. Эти люди просто недостаточно клёвые.</string>
+    <string name="Shades_Name">Тёмные очки</string>
+    <string name="ShadowLord_Death">Нееееет...</string>
+    <string name="ShadowLord_Desc">Это существо соткано из чистого зла и непроглядной тьмы. Многие верят, что Владыка Теней и есть Старый Бог, ссылаясь на то, сколь он могущественен. Но, в то же время, прочие утверждают, что он лишь охраняет вход в покои Старого Бога.</string>
+    <string name="ShadowLord_Gender">masculine</string>
+    <string name="ShadowLord_Intro">Приготовься!</string>
+    <string name="ShadowLord_Name">владыка теней</string>
+    <string name="ShadowLord_Name_Objective">Владыку Теней</string>
+    <string name="Shadow_Desc">Тени тихо блуждают через руины древней тюрьмы, только иногда показываясь путникам, обычно в их последнем приключении.</string>
+    <string name="Shadow_Gender">feminine</string>
+    <string name="Shadow_Name">тень</string>
+    <string name="Shadow_Name_Objective">тень</string>
+    <string name="Shadows_Info">Слился с тенью</string>
+    <string name="Shaman_Desc">Умнейшие из гноллов способны освоить шаманизм. Гнолл-шаман охотно использует боевые заклятия, компенсируя недостаток физической силы, а также чтобы обезопасить свой высокий статус в обществе.</string>
+    <string name="Shaman_Gender">masculine</string>
+    <string name="Shaman_Killed">%s убивает тебя разрядом молнии...</string>
+    <string name="Shaman_Name">гнолл-шаман</string>
+    <string name="Shaman_Name_Objective">гнолла</string>
+    <string name="Sheep_Desc">Это волшебная овца. Что в ней такого волшебного? Ты не сможешь её убить. Она будет стоять на месте, сосредоточенно что-то пережёвывая, пока волшебным образом не испарится.</string>
+    <string name="Sheep_Gender">feminine</string>
+    <string name="Sheep_Name">овца</string>
+    <string name="Sheep_Name_Objective">овцу</string>
+    <string name="Shielded_Defense">прикрылся</string>
+    <string name="Shielded_Desc">Громилы - самые большие, сильные и выносливые из всех гноллов. Будучи израненными, они впадают в неистовство, нанося увеличенный урон.</string>
+    <string name="Shielded_Gender">masculine</string>
+    <string name="Shielded_Name">громила-щитоносец</string>
+    <string name="Shielded_Name_Objective">громилу-щитоносеца</string>
+    <string name="Shopkeeper_Desc">Этот тучный индивидуум больше подходит для торговли в городском квартале, нежели в подземелье. Хотя, судя по ценам, здесь ему тоже неплохо.</string>
+    <string name="Shopkeeper_Name">торговец</string>
+    <string name="Shopkeeper_Sell">Выбери предмет для продажи</string>
+    <string name="ShortSword_ACReforge">ПЕРЕКОВАТЬ</string>
+    <string name="ShortSword_Gender">masculine</string>
+    <string name="ShortSword_Info">Действительно короткий, буквально на несколько сантиметров длиннее кинжала.</string>
+    <string name="ShortSword_Name">короткий меч</string>
+    <string name="ShortSword_NotBoomerang">ты не сможешь улучшить бумеранг таким образом</string>
+    <string name="ShortSword_Reforged">ты перековал короткий меч для улучшения оружия %s</string>
+    <string name="ShortSword_Select">Выбери оружие для улучшения</string>
+    <string name="Shuriken_Gender">masculine</string>
+    <string name="Shuriken_Info">Острые как бритва металлические звёздочки наносят существенный урон своим целям. Их можно метать с большой скоростью.</string>
+    <string name="Shuriken_Name">сюрикен</string>
+    <string name="SkeletonKey_Info">Весьма внушительный ключ: с головкой в форме черепа. Пожалуй он смог бы открыть некую внушительную дверь.</string>
+    <string name="SkeletonKey_Name">ключ-скелет</string>
+    <string name="Skeleton_Defense">прикрылся</string>
+    <string name="Skeleton_Desc">Скелеты из костей павших путешественников восстали под воздействием отголосков зловещей магии, таящейся в глубине подземелья. Будучи достаточно повреждёнными, они разлетаются на костяные осколки.</string>
+    <string name="Skeleton_Gender">masculine</string>
+    <string name="Skeleton_Killed">Тебя пробило костяным осколком...</string>
+    <string name="Skeleton_Name">скелет</string>
+    <string name="Skeleton_Name_Objective">скелета</string>
+    <string name="Slow_Info">Замедлен</string>
+    <string name="SnipersMark_Info">Метка снайпера</string>
+    <string name="Sorrowmoss_Desc">Грустномох - это цветок (а не мох) с бритвенно острыми лепестками, покрытыми смертельным ядом.</string>
+    <string name="Sorrowmoss_Name">Грустномох</string>
+    <string name="SoulShard_Gender">masculine</string>
+    <string name="SoulShard_Info">Это черепок подобранный из останков Кувшина Душ. Он поблескивает загадочной силой, возможно есть кто-то, кто мог бы заинтересоваться чем-то подобным.</string>
+    <string name="SoulShard_Name">осколок души</string>
+    <string name="Spear_Gender">neuter</string>
+    <string name="Spear_Info">Тонкое древко с острым железным наконечником.</string>
+    <string name="Spear_Name">копьё</string>
+    <string name="SpiderArmor_Gender">feminine</string>
+    <string name="SpiderArmor_Info">Эта броня изготовлена из старого паучьего хитина и некоей ткани. Что удивительно, похоже что она содержит функционирующие паутинные железы. Если нажать на пластины достаточно сильно, то она выстреливает паутину. А зубчатые подошвы позволяют тебе беспепятственно передвигаться по такой паутине.</string>
+    <string name="SpiderArmor_Name">паучья броня</string>
+    <string name="SpiderCharm_Info">Эта занятная побрякушка источает некую ауру. Интересно, что станется если её надеть?</string>
+    <string name="SpiderCharm_Name">Паучий Оберег</string>
+    <string name="SpiderCharm_Use">ИСПОЛЬЗОВАТЬ</string>
+    <string name="SpiderEgg_Desc">Это яйцо с мягкой оболочкой медленно пульсирует, внутри просматривается что-то многоногое.</string>
+    <string name="SpiderEgg_Gender">neuter</string>
+    <string name="SpiderEgg_Name">паучье яйцо</string>
+    <string name="SpiderEgg_Name_Objective">яйцо</string>
+    <string name="SpiderExploding_Desc">В спокойное для колонии время эти трудяги безобидны, но при появлении опасности молниеносно бросаются на неприятеля, сорвав первое попавшееся растение, тем самым выполняя роль смертника.</string>
+    <string name="SpiderExploding_Gender">masculine</string>
+    <string name="SpiderExploding_Name">паук-рабочий</string>
+    <string name="SpiderExploding_Name_Objective">паука</string>
+    <string name="SpiderGuard_Desc">Подобно паукам-солдатам, стражи призваны защищать покой своего царства. Их яд вызывает временный паралич, что превращает укушенного в лёгкую добычу.</string>
+    <string name="SpiderGuard_Gender">masculine</string>
+    <string name="SpiderGuard_Name">паук-страж</string>
+    <string name="SpiderGuard_Name_Objective">паука-стража</string>
+    <string name="SpiderMindAmber_Desc">Янтарные пауки, это редкие загадочные существа, они обладают пси способностями подобно обычным пси-паукам, но при этом они гораздо сильнее физически. Название \"янтарный\" происходит от цвета их \"мозговых коконов\", которые открываются взору жертвы в тот момент, когда янтарный паук использует свои способности.</string>
+    <string name="SpiderMindAmber_Gender">masculine</string>
+    <string name="SpiderMindAmber_Name">янтарный паук</string>
+    <string name="SpiderMindAmber_Name_Objective">янтарного паука</string>
+    <string name="SpiderMind_Desc">Несмотря на свою хрупкость, данные пауки обладают уникальными ментальными способностями, предназначенными для управления колонией. Может воздействовать на сознание любого живого существа, однако очень трусливый.</string>
+    <string name="SpiderMind_Gender">masculine</string>
+    <string name="SpiderMind_Name">пси-паук</string>
+    <string name="SpiderMind_Name_Objective">паука</string>
+    <string name="SpiderNest_Desc">Кокон из тончайшего шёлка скрывает в себе нечто живое.</string>
+    <string name="SpiderNest_Gender">masculine</string>
+    <string name="SpiderNest_Name">паучий кокон</string>
+    <string name="SpiderNest_Name_Objective">кокон</string>
+    <string name="SpiderQueen_Desc">Тело прекрасной девушки, скрещённое с отвратительным пауком. В её подчинении находятся все обитатели данного логова. Встреча с данной особой чревата смертельными последствиям, так что не ждите пощады. Вы в её владениях!</string>
+    <string name="SpiderQueen_Gender">feminine</string>
+    <string name="SpiderQueen_Name">королева пауков</string>
+    <string name="SpiderQueen_Name_Objective">королеву</string>
+    <string name="SpiderServant_Desc">Самые многочисленные представители паучьего логова. Защищает территорию от внезапных посягательств. Его хелицеры снабжены ядовитыми железами, поэтому внезапный укус чреват отравлением.</string>
+    <string name="SpiderServant_Gender">masculine</string>
+    <string name="SpiderServant_Name">паук-солдат</string>
+    <string name="SpiderServant_Name_Objective">паука</string>
+    <string name="Spinner_Desc">Эти пушистые зелёные пауки стараются избегать прямых столкновений, предпочитая выжидать издали, пока их жертва, запутанная в паутине, медленно гибнет от яда.</string>
+    <string name="Spinner_Gender">masculine</string>
+    <string name="Spinner_Name">пещерный паук</string>
+    <string name="Spinner_Name_Objective">паука</string>
+    <string name="SpiritOfPain_Desc">Осколок ожившей тьмы.</string>
+    <string name="SpiritOfPain_Gender">masculine</string>
+    <string name="SpiritOfPain_Name">дух боли</string>
+    <string name="SpiritOfPain_Name_Objective">духа боли</string>
+    <string name="StartScene_Depth">Глубина: %1$d\nУровень: %2$d</string>
+    <string name="StartScene_DifficultyEasy">Лёгкий (с рекламой)</string>
+    <string name="StartScene_DifficultyExpert">Эксперт</string>
+    <string name="StartScene_DifficultyNormal">Обычный</string>
+    <string name="StartScene_DifficultyNormalWithSaves">Обычный с сохр. (и рекламой)</string>
+    <string name="StartScene_DifficultySelect">Выбери свой путь</string>
+    <string name="StartScene_Erase">Стереть\nтекущую игру</string>
+    <string name="StartScene_Load">Загрузить Игру</string>
+    <string name="StartScene_New">Новая Игра</string>
+    <string name="StartScene_No">Нет, вернуться в меню</string>
+    <string name="StartScene_Really">Вы точно хотите начать новую игру?</string>
+    <string name="StartScene_Unlock">Чтобы открыть этот класс персонажа, убейте 3-го босса любым другим классом</string>
+    <string name="StartScene_UnlockElf">Чтобы открыть этот класс персонажа, убейте 4-го босса любым другим классом</string>
+    <string name="StartScene_Warning">Прогресс текущей игры будет потерян.</string>
+    <string name="StartScene_WinGame">Чтобы открыть \"Испытания\", пройдите игру любым персонажем.</string>
+    <string name="StartScene_Yes">Да, начать новую игру</string>
+    <string name="Statue_Desc">Может показаться, что это просто очередная неприметная статуя, но красные светящиеся глаза выдают её намерения. Хоть статуя и сработана из камня, её _%s_ выглядит настоящим.</string>
+    <string name="Statue_Gender">feminine</string>
+    <string name="Statue_Name">ожившая статуя</string>
+    <string name="Statue_Name_Objective">статую</string>
+    <string name="Stench_Txt">%s зловония</string>
+    <string name="Stylus_ACInscribe">НАЧЕРТАТЬ</string>
+    <string name="Stylus_Info">Этот мистический стилус был изготовлен из некоего чёрного, весьма твёрдого камня. С его помощью ты можешь начертать волшебный глиф или руну, но ты не в силах выбрать, что именно - стилус решит за тебя.</string>
+    <string name="Stylus_Inscribed">ты начертал %1$s на предмете %2$s</string>
+    <string name="Stylus_Name">мистический стилус</string>
+    <string name="Stylus_SelectArmor">Выбери предмет для начертания</string>
+    <string name="Succubus_Desc">Суккубы - это демоны, принимающие вид соблазнительных (в слегка готическом стиле) девушек. Своим колдовством они могут зачаровать героя, лишая его возможности атаковать, до того как эффект пройдёт.</string>
+    <string name="Succubus_Gender">masculine</string>
+    <string name="Succubus_Name">суккуб</string>
+    <string name="Succubus_Name_Objective">суккуба</string>
+    <string name="Sungrass_Buff">Растительное исцеление</string>
+    <string name="Sungrass_Desc">Солнечник славится целебными свойствами своего сока.</string>
+    <string name="Sungrass_Name">Солнечник</string>
+    <string name="SurfaceScene_GameOver">Конец</string>
+    <string name="SuspiciousRat_Desc">Увидеть крысу в подземельях не такая уж и редкость, но вот как она забралась на столько глубоко... Ты замечаешь как при движении тело крысы сотрясают спазмы.</string>
+    <string name="SuspiciousRat_Gender">feminine</string>
+    <string name="SuspiciousRat_Info1">Подозрительная крыса судорожно трясётся.</string>
+    <string name="SuspiciousRat_Name">подозрительная крыса</string>
+    <string name="SuspiciousRat_Name_Objective">подозрительную крысу</string>
+    <string name="Swarm_Defense">отклонился</string>
+    <string name="Swarm_Desc">Смертоносный рой мух злобно жужжит. Каждая немагическая атака разобьёт его на два роя поменьше, каждый из которых не менее опасен, чем полноценный рой.</string>
+    <string name="Swarm_Gender">masculine</string>
+    <string name="Swarm_Name">рой мух</string>
+    <string name="Swarm_Name_Objective">рой</string>
+    <string name="Sword_Gender">masculine</string>
+    <string name="Sword_Info">Отблеск острого как бритва клинка внушает уверенность.</string>
+    <string name="Sword_Name">меч</string>
+    <string name="TaintedDrink_Message"/>
+    <string name="Tamahawk_Gender">masculine</string>
+    <string name="Tamahawk_Info">Хоть этот метательный топор не столь тяжёл, но, тем не менее, для обращения с ним требуется ощутимая сила.</string>
+    <string name="Tamahawk_Name">томагавк</string>
+    <string name="Tengu_Desc">Тенгу - это члены древнего клана наёмных убийц, который также зовётся Тенгу. Они известны страстью к сюрикенам и ловушкам.</string>
+    <string name="Tengu_Gender">masculine</string>
+    <string name="Tengu_Info1">Наконец-то, свобода...</string>
+    <string name="Tengu_Info2">Попался, %s!</string>
+    <string name="Tengu_Info3">Попалась, %s!</string>
+    <string name="Tengu_Name">тенгу</string>
+    <string name="Tengu_Name_Objective">тенгу</string>
+    <string name="Thief_Carries">\n\n%1$s носит _%2$s_. Добро, конечно, краденое.</string>
+    <string name="Thief_Desc">Глубинные уровни подземелья всегда служили хорошим укрытием для всякого рода преступников. Но не всякий преступник мог сохранить рассудок, будучи отлучённым от дневного света на долгое время. Давным-давно эти безумные бандиты и воры позабыли, кто они и зачем совершают преступления.</string>
+    <string name="Thief_Gender">masculine</string>
+    <string name="Thief_Name">свихнувшийся вор</string>
+    <string name="Thief_Name_Objective">вора</string>
+    <string name="Thief_Stole">%1$s украл у тебя %2$s!</string>
+    <string name="TitleScene_About">Об игре</string>
+    <string name="TitleScene_Badges">Значки</string>
+    <string name="TitleScene_Highscores">Рекорды</string>
+    <string name="TitleScene_InternalStorageLow">Недостаточно места во\n внутреннем хранилище\n Игра может не сохранится!</string>
+    <string name="TitleScene_Play">Играть</string>
+    <string name="TomeOfMastery_ACRead">ЧИТАТЬ</string>
+    <string name="TomeOfMastery_Blinded">Нельзя читать, будучи ослеплённым</string>
+    <string name="TomeOfMastery_Choose">Теперь ты %s!</string>
+    <string name="TomeOfMastery_Info">Эта изношенная кожаная книга не так уж велика, но ты почему-то уверен, что она многому тебя научит. Но помни, чтение этого тома требует времени.</string>
+    <string name="TomeOfMastery_Name">Том Мастерства</string>
+    <string name="Toolbar_Info1">Ты не знаешь, что там.</string>
+    <string name="Toolbar_Info2">Выбери ячейку для изучения</string>
+    <string name="Torch_ACLight">Зажечь</string>
+    <string name="Torch_Info">Это незаменимая вещь в Чертогах Демонов, известных своим скудным освещением.</string>
+    <string name="Torch_Name">факел</string>
+    <string name="ToxicGas_Info">Здесь витает зеленоватое облако токсичного газа.</string>
+    <string name="ToxicGas_Info1">Ты отравился токсичным газом..</string>
+    <string name="TreacherousSpirit_Desc">Это чудовищное создание выглядит как ожившее облако тьмы. Его гигантский глаз сверлит тебя взглядом, кротко вздрагивая от каждого твоего движения.</string>
+    <string name="TreacherousSpirit_Gender">masculine</string>
+    <string name="TreacherousSpirit_Name">Предательский дух</string>
+    <string name="TreacherousSpirit_Name_Objective">Предательского духа</string>
+    <string name="Undead_Defense">прикрылся</string>
+    <string name="Undead_Desc">Эти мёртвые дворфы, восставшие по воле своего Царя, были некогда членами его придворной свиты. Внешне они выглядят как скелеты с внушительными бородами.</string>
+    <string name="Undead_Gender">masculine</string>
+    <string name="Undead_Name">дворф-нежить</string>
+    <string name="Undead_Name_Objective">нежить</string>
+    <string name="Utils_IsIndefinte">0</string>
+    <string name="Vertigo_Info">Завихрение</string>
+    <string name="Viscosity_Status">отложено %d</string>
+    <string name="Viscosity_Txt">%s вязкости</string>
+    <string name="WandHolster_Info">Изящное изделие, сработанное из кожи экзотического зверя, уместит в себе волшебные палочки в количестве до %d.</string>
+    <string name="WandHolster_Name">чехол для палочек</string>
+    <string name="WandMaker_Berry1">О, какой приятный сюрприз, встретить достойного человека в таком месте! Я пришёл сюда в поисках редкого ингредиента, _семян Гниловики_. Как человек, осведомлённый в магии, я вполне справляюсь с местными монстрами, но заблудиться для меня - раз плюнуть, стыдоба, честное слово. Не поможешь старику? Я с радостью оплачу твои старания одной из своих лучших волшебных палочек.</string>
+    <string name="WandMaker_Berry2">Как поиски семян Гниловики, %s? Глухо? Не переживай, я не тороплюсь.</string>
+    <string name="WandMaker_Defense">отмахнулся</string>
+    <string name="WandMaker_Desc">Этот старый, но крепенький мужчина, выглядит немного озадаченным. Он окружён магическим щитом.</string>
+    <string name="WandMaker_Dust1">О, какой приятный сюрприз, встретить достойного человека в таком месте! Я пришёл сюда в поисках редкого ингредиента - _трупной пыли_. Её можно собрать с костяных останков, которыми изобилует подземелье. Как человек осведомлённый в магии, я вполне справляюсь с местными монстрами, но заблудиться для меня - раз плюнуть, стыдоба, честное слово. Не поможешь старику? Я с радостью оплачу твои старания одной из своих лучших волшебных палочек.</string>
+    <string name="WandMaker_Dust2">Как наши пыльные делишки, %s? Я бы первым делом осмотрел кучки костей.</string>
+    <string name="WandMaker_Name">старый мастер</string>
+    <string name="WandMaker_RotberryDesc">Ягоды с этого куста имеют сладкий привкус смерти.</string>
+    <string name="WandMaker_RotberryInfo">Семя издаёт рёв, эхом проносящийся по подземелью!</string>
+    <string name="WandMaker_RotberryName">Гниловика</string>
+    <string name="WandOfAmok_Info">Лиловый свет, испускаемый этой палочкой, заставит цель впасть в буйство и атаковать всех существ без разбора в зоне досягаемости.</string>
+    <string name="WandOfAmok_Info1">ничего не произошло</string>
+    <string name="WandOfAmok_Name">Палочка Буйства</string>
+    <string name="WandOfAvalanche_Info">Когда разряд палочки ударяет в стену (или другое твёрдое препятствие), он вызывает обвал камней, нанося урон и оглушая всех существ в области действия.</string>
+    <string name="WandOfAvalanche_Info1">Ты убился собственной Палочкой Камнепада...</string>
+    <string name="WandOfAvalanche_Name">Палочка Камнепада</string>
+    <string name="WandOfBlink_Info">Эта палочка позволит тебе телепортироваться в выбранное место. Существа и неодушевлённые предметы помешают телепортации.</string>
+    <string name="WandOfBlink_Name">Палочка Скачка</string>
+    <string name="WandOfDisintegration_Info">Эта палочка извергает луч разрушительной энергии, пронзающий всех существ на пути. Чем больше целей он поразит, тем больше урона получит каждая из них.</string>
+    <string name="WandOfDisintegration_Name">Палочка Дезинтеграции</string>
+    <string name="WandOfFirebolt_Info">Эта палочка выпускает сгусток волшебного пламени, который может поджечь воспламеняющуюся среду, а также нанести урон и поджечь цель.</string>
+    <string name="WandOfFirebolt_Info1">Ты погорел от собственной Палочки Огнеплюя...</string>
+    <string name="WandOfFirebolt_Name">Палочка Огнеплюя</string>
+    <string name="WandOfFlock_Info">Взмах этой палочки призовёт стадо волшебных овец, которые образуют временное непреодолимое препятствие.</string>
+    <string name="WandOfFlock_Name">Палочка Стада</string>
+    <string name="WandOfLightning_Info">Эта палочка испускает разряд молний, поражающий несколько стоящих рядом целей.</string>
+    <string name="WandOfLightning_Info1">Ты спалился на собственной Палочке Молний...</string>
+    <string name="WandOfLightning_Name">Палочка Молний</string>
+    <string name="WandOfMagicMissile_ACDisenchant">РАЗВОПЛОТИТЬ</string>
+    <string name="WandOfMagicMissile_Desinchanted">ты развоплотил Палочку Волшебных Зарядов, использовав её энергию для улучшения предмета %s</string>
+    <string name="WandOfMagicMissile_Info">Эта палочка выпускает заряд волшебной энергии, нанося средний урон цели.</string>
+    <string name="WandOfMagicMissile_Info1">Ты пришлёпнул себя собственной Палочкой Волшебных Зарядов...</string>
+    <string name="WandOfMagicMissile_Name">Палочка Волшебных Зарядов</string>
+    <string name="WandOfMagicMissile_SelectWand">Выбери палочку для улучшения</string>
+    <string name="WandOfPoison_Info">Этот порочный кусок древесины извергает сгусток яда, отравляющий твою цель. Отравленное существо получает периодический урон вплоть до окончания действия эффекта. Продолжительность эффекта возрастает с уровнем палочки.</string>
+    <string name="WandOfPoison_Info1">ничего не произошло</string>
+    <string name="WandOfPoison_Name">Палочка Яда</string>
+    <string name="WandOfRegrowth_Info">\"В окончании одной жизни новая жизнь берёт своё начало... Бесконечный цикл нерушим!\"</string>
+    <string name="WandOfRegrowth_Info1">ничего не произошло</string>
+    <string name="WandOfRegrowth_Name">Палочка Роста</string>
+    <string name="WandOfSlowness_Info">Эта палочка наложит на цель временный эффект, уменьшающий её скорость атаки и движения</string>
+    <string name="WandOfSlowness_Info1">ничего не произошло</string>
+    <string name="WandOfSlowness_Name">Палочка Замедления</string>
+    <string name="WandOfTelekinesis_Info">Волна магической силы окажет воздействие на всё, что попадётся ей на пути, разряжая ловушки, сминая высокие растения, открывая закрытые двери и наоборот. А также оттолкнёт монстров назад.</string>
+    <string name="WandOfTelekinesis_Name">Палочка Телекинеза</string>
+    <string name="WandOfTelekinesis_YouNowHave">Ты волшебным образом переместил %s в свой рюкзак</string>
+    <string name="WandOfTeleportation_Info">Разряд этой палочки перенесёт указанное существо в случайную точку текущего уровня, хочет оно того или нет.</string>
+    <string name="WandOfTeleportation_Info1">%1$s куда-то телепортирует %2$s</string>
+    <string name="WandOfTeleportation_Info2">ничего не произошло</string>
+    <string name="WandOfTeleportation_Name">Палочка Телепортации</string>
+    <string name="Wand_ACZap">ВЗМАХНУТЬ</string>
+    <string name="Wand_Damage">В качестве оружия ближнего боя эта палочка нанесёт %d урона за удар.</string>
+    <string name="Wand_Fizzles">твоя палочка издаёт потрескивание; наверное, в ней кончились заряды</string>
+    <string name="Wand_Name">%s волшебная палочка</string>
+    <string name="Wand_Prompt">Выбери направление взмаха</string>
+    <string name="Wand_SelfTarget">Ты не можешь нацелится на себя</string>
+    <string name="Wand_Weapon">Ты можешь использовать эту палочку как оружие ближнего боя.</string>
+    <string name="Wand_Wood">Эта тонкая %s палочка теплая на ощупь. Кто знает, на что она способна?</string>
+    <string name="WarHammer_Gender">masculine</string>
+    <string name="WarHammer_Info">Очень немногие существа могут пережить удар такого оружия, но не каждому путешественнику под силу его использовать .</string>
+    <string name="WarHammer_Name">боевой молот</string>
+    <string name="Warlock_Desc">Когда интерес дворфов перекочевал с технологий на магию, чернокнижники стали новой элитой. Начав с магии стихий, вскоре они перешли на некромантию и демонологию.</string>
+    <string name="Warlock_Gender">masculine</string>
+    <string name="Warlock_Killed">%s уничтожает тебя стрелой теней...</string>
+    <string name="Warlock_Name">дворф-чернокнижник</string>
+    <string name="Warlock_Name_Objective">чернокнижника</string>
+    <string name="WarriorArmor_ACSpecial">БОГАТЫРСКИЙ РЫВОК</string>
+    <string name="WarriorArmor_Desc">Несмотря на кажущуюся тяжесть, эта броня позволяет воину осуществлять рывок в указанное место, оглушая ближайший врагов ударной волной.</string>
+    <string name="WarriorArmor_Name">боевой доспех</string>
+    <string name="WarriorArmor_NotWarrior">Этот доспех доступен лишь воину!</string>
+    <string name="WarriorArmor_Prompt">Выбери направление рывка</string>
+    <string name="WaterElemental_Desc">Водные элементали встречаются около больших водоёмов. Обычно эти магически связанные волны просто бродят по округе.</string>
+    <string name="WaterElemental_Gender">masculine</string>
+    <string name="WaterElemental_Name">водный элементаль</string>
+    <string name="WaterElemental_Name_Objective">элементаля</string>
+    <string name="WaterOfAwareness_Info">Вода этого источника излучает силу знаний. Сделай глоток, чтобы раскрыть все секреты своей экипировки.</string>
+    <string name="WaterOfAwareness_Procced">Сделав глоток, ты чувствуешь, как знания переполняют твой разум. Теперь ты знаешь всё о надетых на тебя вещах. Ты также чувствуешь все предметы на этом уровне и знаешь все его секреты.</string>
+    <string name="WaterOfHealth_Info">Вода этого источника излучает силу здоровья. Сделай глоток, чтобы залечить свои раны и утолить голод.</string>
+    <string name="WaterOfHealth_Procced">Сделав глоток, ты чувствуешь, как твои раны исцеляются.</string>
+    <string name="WaterOfTransmutation_Info">Вода этого источника излучает силу перемен. Брось в воду предмет, чтобы он превратился в нечто иное.</string>
+    <string name="Weakness_Info">Ослаблен</string>
+    <string name="Weapon_Identify">Ты достаточно хорошо знаком с предметом %1$s, чтобы его опознать. Это %2$s.</string>
+    <string name="Weapon_Incompatible">Взаимодействие несовместимых типов магии разрушило чары, наложенные на это оружие!</string>
+    <string name="Web_Info">Здесь всё покрыто паутиной.</string>
+    <string name="Weightstone_ACApply">ПРИМЕНИТЬ</string>
+    <string name="Weightstone_Accurate">ты сбалансировал предмет %s, сделав его точнее</string>
+    <string name="Weightstone_Fast">ты сбалансировал предмет %s, сделав его быстрее</string>
+    <string name="Weightstone_Info">При помощи грузила ты можешь сбалансировать ближнее оружие, увеличивая его скорость и меткость.</string>
+    <string name="Weightstone_Name">грузило</string>
+    <string name="Weightstone_Select">Выбери оружие для балансировки</string>
+    <string name="Weightstone_WndAccuracy">На меткость</string>
+    <string name="Weightstone_WndCancel">Забудь об этом</string>
+    <string name="Weightstone_WndChoice">Как ты хочешь сбалансировать предмет %s?</string>
+    <string name="Weightstone_WndSpeed">На скорость</string>
+    <string name="Welcome_Ok">Ладушки!</string>
+    <string name="Welcome_Text">
+Remixed Pixel Dungeon - это модификация свободной Pixel Dungeon от Watabou.\n
+Проект был создан с целью позволить игрокам получить новые впечатления от игры.\n
+А также мы хотели преодолеть языковой барьер ;)\n
+Каждое обновление создаётся с оглядкой на пожелания наших игроков.\n
+И если вы внезапно увидели в игре вашу задумку... Спасибо за идею =)\n\n
+Текущая версия основана на Pixel Dungeon 1.7.2 с элементами 1.7.5.\n
+Отличия от оригинала: \n
+ - Поддержка русского языка =) И меню выбора языка\n
+ - Новые монстры и NPC\n
+ - Токсичный газ и огонь теперь взаимодействуют с большим количеством предметов\n
+ - Новые виды «еды»\n
+ - Новые предметы и обновлённые свойства некоторых старых предметов\n
+ - Семена теперь можно есть =)\n
+ - Луки и стрелы\n
+</string>
+    <string name="Welcome_Text_19">
+        remix.17:\n
+        - Новый вид мимиков\n
+        remix.18:\n
+        - Элементали\n
+        remix.19:\n
+        - Пауки\n
+        - Паучьи уровни\n
+        - Королева Пауков\n
+        </string>
+    <string name="Welcome_Text_20">
+        remix.20:\n
+        - Новое редкое оружие - кусаригама\n
+        - Новый редкий враг\n
+        - Режим игры с сохранениями и загрузками\n
+        - И много менее заметных вещей\n
+        </string>
+    <string name="Welcome_Text_20_1">
+remix.20.1:\n
+- Свиток Подчинения\n
+- Свиток Проклятья\n
+</string>
+    <string name="Welcome_Text_20_2">
+remix.21:\n
+- Редкие предметы Хаоса\n
+- Жидкое пламя теперь действительно жидкое\n
+</string>
+    <string name="Welcome_Text_21_1">remix.21.1:\n
+- Лёгкий режим (с рекламой)\n
+- Экспертный режим\n</string>
+    <string name="Welcome_Text_21_2">
+remix.21.2:\n
+- Возможность выбирать моды (на данном этапе просто рескины) (Пока этот режим полезен только опытным моддерам)\n</string>
+    <string name="Welcome_Text_21_3">
+remix.21.3:\n
+- Моды PD mini (ещё в разработке) и The Dungeon of Heroes доступны для загрузки\n
+- Улучшена графика канализации</string>
+    <string name="Welcome_Text_21_4">
+remix.21.4:\n
+- Новое редкое оружие - меч для жертвоприношений</string>
+    <string name="Welcome_Text_21_5">
+remix.21.5:\n
+- Новые свойства для старых предметов</string>
+    <string name="Welcome_Text_22">
+remix.22:\n
+- Новый секретный босс</string>
+    <string name="Welcome_Text_23">
+remix.23:\n
+- Секретный босс переехал на 25 уровень\n
+- Подземелье теперь имеет максимальную глубину в 32 уровня (вместо 26)\n
+- Новые мини-боссы для финального боя (теперь Йог-Джева может выбирать из 5 разных боссов)\n
+- Новый сеттинг и монстры для уровней 27-31</string>
+    <string name="Welcome_Text_23_1">
+remix.23.1:\n
+- На 27 уровне появился новый магазин, NPC и квест\n
+- Новый монстр для Гнезда Демонов (27-31)\n
+- Все монстры и боссы на последних уровнях, а также их способности, стали сильнее\n
+- Новые значки за победу над боссами\n
+- Множество мелких визуальных улучшений\n
+- Пофикшено несколько багов</string>
+    <string name="Welcome_Text_23_2">
+remix.23.2:\n
+- Добавлено оружие и броня 6 Порядка\n
+- Добавлены арбалеты\n
+- Добавлены Доспехи Хаоса\n</string>
+    <string name="Welcome_Text_24">remix.24:\n
+- Появились шапки! (Косметические предметы)\n
+- Пофикшено несколько багов\n
+- Русскоязычные сообщения \\"Конец\\", \\"Босс Убит\\" и \\"Выбери Героя\\" теперь видоизменяются соответственно уровню пожертвования, так же как надпись \\"Pixel Dungeon\\" на стартовом экране\n</string>
+    <string name="Welcome_Text_24_1">remix.24.1:\n
+    --Игра--\n
+    - Новый моб: Статуя в Доспехах\n
+    - Появилась функция удаления сохранений\n
+    - Исправлено несколько багов\n
+    - Обновлён внешний вид паучьего гнезда и его обитателей\n
+    - Добавлены Паук Страж (редкий вид Паука Солдата) и Янтарный Паук(редкий вид Пси-паука)\n
+    --Косметические Предметы--\n
+    - Теперь при покупке нового аксессуара он автоматически надевается\n
+    - Новый предмет \"Пиратский Набор\"\n
+    - Обновлён внешний вид предметов \"Нэко Ушки\" и \"Кроличьи Ушки\"\n</string>
+    <string name="Welcome_Text_24_2">remix.24.2:\n
+- Новый моб: Золотая Статуя (редкий вид статуи)\n
+- Новый предмет: Золотой меч (можно найти в качестве редкого лута или добыть с Золотой Статуи с 100% шансом дропа)\n
+- Новый НИП: Некромнат (У него есть для вас интересные новости! Ищите его на 7 уровне подземелья)\n
+- Жижа стала слабее\n
+- Тенгу роняет том мастерства каждый раз, подклассы не могут читать том мастерства чтобы респекнуться\n
+- Владыка теней обзавёлся более адекватной стартовой комнатой (теперь игроки не могут пробежать мимо него без боя)\n
+- Изменён спрайт Пучьего Оберега. Сам оберег теперь падает с Королевы Пауков а не с Жижи\n</string>
+    <string name="Welcome_Text_25">remix.25:\n
+- Новая локация: Некрополь. Чтобы попасть в Некрополь,найдите некроманта на 7 уровне и возьмите у него ключ от двери с черепом.\n
+- Новые предметы: «Паучья броня», «Чёрный череп»\n
+- «Золотой Меч» стал сильнее и требует больше силы\n
+- Теперь в «Паучьем Логове» правильно отображается вода\n
+- Теперь в кости не могут попасть артефакты и квестовые предметы\n
+- Изменён механизм приручения. Теперь игрок не сможет приручить ряд мобов, которые, будучи в подчинении игрока, могли бы оказывать слишком сильное влияние на игровой процесс\n
+- Время горения «Жидкого пламени» сокращено, оно также будет гаснуть быстрее в воде\n
+- Изменена иконка появляющаяся над головами подчинённых мобов\n
+- Улучшено отображение «нового шрифта»\n
+- Улучшены переводы\n
+- Убраны опции : «режим погружения» и «масштабирование гуи»\n</string>
+    <string name="Welcome_Title">Добро пожаловать!</string>
+    <string name="WizardHat_Info">Восхитительная шёлковая шляпа, украшенная звёздными узорами. Когда-то считалось, что величайшие волшебники носили особые одеяния, которые увеличивали их волшебные силы. Эта шляпа конечно не даёт фактического прироста к магическим способностям, но когда ты её носишь, то почти чувствуешь что давняя молва не врёт.</string>
+    <string name="WizardHat_Name">Шляпа волшебника</string>
+    <string name="WndBlacksmith_Prompt">Ладно, сделка есть сделка, расклад такой: я перекую тебе два предмета в один, но лучший качеством.</string>
+    <string name="WndBlacksmith_Reforge">Перековать</string>
+    <string name="WndBlacksmith_Select">Выбери предмет для перековки</string>
+    <string name="WndCatalogus_Potions">Зелья</string>
+    <string name="WndCatalogus_Scrolls">Свитки</string>
+    <string name="WndCatalogus_Title">Каталог</string>
+    <string name="WndChallenges_Title">Испытания</string>
+    <string name="WndChooseWay_Cancel">Приму решение позже</string>
+    <string name="WndChooseWay_Message">Какой дорогой последуешь?</string>
+    <string name="WndClass_Mastery">Мастерство</string>
+    <string name="WndDonate_commonDonateText">Remixed Pixel Dungeon - свободна и бесплатна для всех, и так будет всегда.\n\nОднако Вы можете помочь нам сделать игру ещё лучше.\n\nКроме нашей сердечной благодарности Вы получите некоторые косметические улучшения, однако не влияющие на геймплей.</string>
+    <string name="WndDonate_donate">поддержать:  </string>
+    <string name="WndDonate_gold">золото</string>
+    <string name="WndDonate_goldDonate">золотое пожертвование</string>
+    <string name="WndDonate_goldDonateText">Спасибо за Вашу помощь.</string>
+    <string name="WndDonate_goldDonateText2">А также открывает Эльфа с самого начала.</string>
+    <string name="WndDonate_notConnected">нет связи :(</string>
+    <string name="WndDonate_ruby">рубин</string>
+    <string name="WndDonate_rubyDonate">рубиновое пожертвование</string>
+    <string name="WndDonate_rubyDonateText">Ваша щедрость поможет нам и дальше улучшать Remixed Pixel Dungeon!</string>
+    <string name="WndDonate_rubyDonateText2"/>
+    <string name="WndDonate_silver">серебро</string>
+    <string name="WndDonate_silverDonate">серебряное пожертвование</string>
+    <string name="WndDonate_silverDonateText">Любой вклад поможет развитию проекта.</string>
+    <string name="WndDonate_silverDonateText2">Никакой рекламы во всех игровых режимах. Охотница доступна с самого начала.</string>
+    <string name="WndError_Title">ОШИБКА</string>
+    <string name="WndGame_Challenges">Испытания</string>
+    <string name="WndGame_Exit">Покинуть Pixel Dungeon</string>
+    <string name="WndGame_Load">Загрузить</string>
+    <string name="WndGame_Ranking">Рекорды</string>
+    <string name="WndGame_Return">Вернутся в Игру</string>
+    <string name="WndGame_Save">Сохранить</string>
+    <string name="WndGame_Settings">Настройки</string>
+    <string name="WndGame_Start">Начать Новую Игру</string>
+    <string name="WndGame_menu">Главное Меню</string>
+    <string name="WndHats_BackButton">Назад</string>
+    <string name="WndHats_BuyButton">Купить</string>
+    <string name="WndHats_EquipButton">Надеть</string>
+    <string name="WndHats_InfoButton">Просмотреть</string>
+    <string name="WndHats_ListTitle">Список Акссессуаров</string>
+    <string name="WndHats_NoConnectionMsg">Не удаётся соединиться с Google Play.</string>
+    <string name="WndHats_Purchased">Есть!</string>
+    <string name="WndHats_SlotTitle">Надето</string>
+    <string name="WndHats_UnequipButton">Снять</string>
+    <string name="WndHero_Buffs">Эффекты</string>
+    <string name="WndHero_Depth">Бывал на глубине</string>
+    <string name="WndHero_Exp">Опыт</string>
+    <string name="WndHero_Gold">Собрано Золота</string>
+    <string name="WndHero_Health">Здоровье</string>
+    <string name="WndHero_StaCatalogus">Каталог</string>
+    <string name="WndHero_StaJournal">Журнал</string>
+    <string name="WndHero_StaTitle">Уровень %1$d %2$s</string>
+    <string name="WndHero_Stats">Параметры</string>
+    <string name="WndHero_Str">Сила</string>
+    <string name="WndImp_Message">О, да! Ты мой герой!\nНасчёт награды, наличных у меня при себе нет, но я могу предложить кое-что получше. Это кольцо - моя семейная реликвия: мой дедуля снял его с пальца мёртвого паладина.</string>
+    <string name="WndImp_Reward">Взять кольцо</string>
+    <string name="WndInfoCell_Nothing">Здесь ничего нет.</string>
+    <string name="WndInfoItem_Chest">Сундук</string>
+    <string name="WndInfoItem_CrystalChest">Хрустальный сундук</string>
+    <string name="WndInfoItem_Inside">Внутри ты видишь предмет - %s, но, чтобы открыть сундук, понадобится золотой ключ.</string>
+    <string name="WndInfoItem_LockedChest">Запертый сундук</string>
+    <string name="WndInfoItem_NeedKey"> Но, чтобы открыть, тебе понадобится золотой ключ.</string>
+    <string name="WndInfoItem_Owner">В этой древней гробнице может оказаться нечто полезное, но владелец вряд ли оценит твой энтузиазм.</string>
+    <string name="WndInfoItem_Remains">Это всё, что осталось от твоего предшественника. Пожалуй, стоит обыскать на предмет ценностей.</string>
+    <string name="WndInfoItem_Skeleton">Останки скелета</string>
+    <string name="WndInfoItem_Tomb">Гробница</string>
+    <string name="WndInfoItem_WontKnow">Ты не узнаешь, что внутри, пока не откроешь!</string>
+    <string name="WndJournal_Title">Журнал</string>
+    <string name="WndPremiumSettings_banners">Вид баннеров</string>
+    <string name="WndPremiumSettings_chrome">Вид интерфейса</string>
+    <string name="WndPremiumSettings_gold">золотой</string>
+    <string name="WndPremiumSettings_notAvailbale">Эта опция недоступна</string>
+    <string name="WndPremiumSettings_ruby">рубиновый</string>
+    <string name="WndPremiumSettings_silver">серебрянный</string>
+    <string name="WndPremiumSettings_status">Вид панели героя</string>
+    <string name="WndPremiumSettings_std">обычный</string>
+    <string name="WndPremiumSettings_toolbar">Вид панели инструментов</string>
+    <string name="WndRanking_Badges">Значки</string>
+    <string name="WndRanking_Error">Не удалось загрузить дополнительную информацию</string>
+    <string name="WndRanking_Items">Вещи</string>
+    <string name="WndRanking_StaAlchemy">Зелий Сварено</string>
+    <string name="WndRanking_StaAnkhs">Анхов Использовано</string>
+    <string name="WndRanking_StaChallenges">Испытания</string>
+    <string name="WndRanking_StaDepth">Максимальная Глубина</string>
+    <string name="WndRanking_StaDuration">Ходов Сделано</string>
+    <string name="WndRanking_StaEnemies">Монстров Убито</string>
+    <string name="WndRanking_StaFood">Еды Съедено</string>
+    <string name="WndRanking_StaGold">Золота Собрано</string>
+    <string name="WndRanking_StaHealth">Здоровье</string>
+    <string name="WndRanking_StaStr">Сила</string>
+    <string name="WndRanking_StaTitle">Уровень %1$d %2$s</string>
+    <string name="WndRanking_Stats">Герой</string>
+    <string name="WndResurrect_Message">Ты погиб, но тебе дарован ещё один шанс покорить подземелье. Воспользуешься ли ты им?</string>
+    <string name="WndResurrect_No">Нет, я сдаюсь</string>
+    <string name="WndResurrect_Yes">Да, я продолжу биться!</string>
+    <string name="WndSadGhost_Armor">Доспехи призрака</string>
+    <string name="WndSadGhost_Farewell">Счастливого пути!</string>
+    <string name="WndSadGhost_Rat">Да! Мерзкое создание пало, наконец-то я могу упокоиться с миром... Прошу, возьми любой их этих предметов, они могут тебе пригодится...</string>
+    <string name="WndSadGhost_Rose">Да! Да!!! То, что нужно! Прошу, отдай её мне! И можешь взять любой из этих предметов, они могут тебе пригодится...</string>
+    <string name="WndSadGhost_Wepon">Оружие призрака</string>
+    <string name="WndSaveSlotSelect_Delete_No">Нет</string>
+    <string name="WndSaveSlotSelect_Delete_Title">Вы уверены что хотите удалить это сохранение?</string>
+    <string name="WndSaveSlotSelect_Delete_Yes">Да, удалить!</string>
+    <string name="WndSaveSlotSelect_SelectSlot">Выбери ячейку</string>
+    <string name="WndSaveSlotSelect_dontLike">Не нравится реклама? Сделайте любое пожертвование и она исчезнет. Навсегда.</string>
+    <string name="WndSelectLanguage_ImproveTranslation">Помогите улучшить перевод Remixed Pixel Dungeon</string>
+    <string name="WndSelectLanguage_LinkToTranslationSite">Нажмите, чтобы присоединиться к команде перевода Remixed Pixel Dungeon</string>
+    <string name="WndSelectLanguage_TranslationLink">https://www.transifex.com/nyrds/remixed-pixel-dungeon/</string>
+    <string name="WndSettings_Brightness">Яркость</string>
+    <string name="WndSettings_ClassicFont">Шрифт Классик</string>
+    <string name="WndSettings_ExperementalFont">Новый шрифт</string>
+    <string name="WndSettings_Immersive">Режим \"погружение\"</string>
+    <string name="WndSettings_Music">Музыка</string>
+    <string name="WndSettings_ScaleUp">Маcштабировать ГУИ</string>
+    <string name="WndSettings_SecondQuickslot">Второй слот</string>
+    <string name="WndSettings_SelectLanguage">Выберите язык</string>
+    <string name="WndSettings_Sound">Звуковые эффекты</string>
+    <string name="WndSettings_SwitchLand">Альбомный режим</string>
+    <string name="WndSettings_SwitchPort">Портретный режим</string>
+    <string name="WndSettings_TextScaleDefault">Обычный шрифт</string>
+    <string name="WndSettings_ThirdQuickslot">Третий слот</string>
+    <string name="WndSettings_ZoomDef">Обычный Масштаб</string>
+    <string name="WndSettings_ZoomIn">+</string>
+    <string name="WndSettings_ZoomOut">-</string>
+    <string name="WndStory_Caves">Пещеры, протянувшиеся под тюрьмой, вряд ли можно назвать обитаемыми. Они слишком глубоко, вне досягаемости Города и слишком бедны минералами, чтобы заинтересовать дворфов. В прошлом здесь располагалась торговая точка, на пути соединяющим две стороны, но она сгинула вместе с падением Дворфийской Метрополии. Теперь здесь остались лишь вездесущие гноллы и подземные твари.</string>
+    <string name="WndStory_Guts">Поверженный, расколотый на куски, но всё же не уничтоженный до конца, Старый Бог был запечатан в глубинах подземелья. Но не так давно печать была сорвана, раскрыв проход в обитель демонов. Кошмарные монстры, рождаемые во снах Старого Бога, были столь многочисленны, что не имея возможности сбежать, они были вынужденны слиться воедино, образуя эти чудовищные залы. И с каждым шагом, по их трепещущей плоти, ты чувствуешь, как в них пульсирует сердце Старого Бога.</string>
+    <string name="WndStory_Halls">В прошлом эти уровни считались задворками Метрополии. Победа над старым богом далась дворфам дорогой ценой, и они были не в силах зачистить местность от оставшихся демонов. Со временем демоны овладели этими местом, теперь оно зовётся Чертогом Демонов.\n\nЛишь немногие путешественники заходили так далеко...</string>
+    <string name="WndStory_Metropolis">Дворфийская Метрополия была когда-то величайшим городом-государством подземного народа. В дни его расцвета механизированная армия дворфов смогла отбиться от вторжения старого бога и его армии демонов. Говорится, что вернувшиеся воины несли с собой семя разрушения, и что эта победа лишь ознаменовала кончину подземного царства.</string>
+    <string name="WndStory_Prision">Много лет назад на этом месте возвели подземную тюрьму для содержания опаснейших преступников. Тогда это казалось весьма недурственной идеей, поскольку побег оттуда был воистину проблематичен. Но вскоре чёрные испарения стали сочиться из глубин, лишая рассудка стражников и заключённых. В конце концов тюрьму забросили, оставив некоторых заключённых взаперти.</string>
+    <string name="WndStory_Sewers">Подземелье расположено точно под городом, верхние уровни фактически являются канализацией города. Будучи условно частью города, эти уровни не столь опасны. Конечно безопасными их тоже не назовёшь, но, по крайней мере, здесь не приходится волноваться о зловещей магии.</string>
+    <string name="WndStory_Spiders">Давным-давно здесь пролегали прииски, богатые магически активными каменьями. Когда же драгоценные залежи истощились и последняя шахтёрская компания покинула это место, здесь осталась лишь бесконечная вереница сырых тунелей. Спустя годы это место заселили глубинные пауки. Опасные и непредсказуемые твари снискали, для этих мест, дурную славу, но не смотря на это находились смельчаки и безумцы охочие до наживы. Ведь чем больше была опастность, тем быстрее расходилась молва о магических артефактах, оставленых в шахтах. Однажды коварная колдунья, скрываясь от преследования, затаилась в глубине пещер. Суеверные люди не отважились ступить во тьму тунелей и стали ждать у входа.\n\n Но она так и не вышла. Поговаривали, быть может, колдунья нашла другой выход из пещер, а может смогла прошмыгнуть мимо преследователей… а может сгинула во тьме лабиринта, окружёная шорохами глубиных тварей.</string>
+    <string name="WndTradeItem_Bought">Ты купил %1$s за %2$dg</string>
+    <string name="WndTradeItem_Buy">Купить за %dg</string>
+    <string name="WndTradeItem_Cancel">Забудь об этом</string>
+    <string name="WndTradeItem_Sale">В ПРОДАЖЕ: %1$s - %2$dg</string>
+    <string name="WndTradeItem_Sell">Продать за %dg</string>
+    <string name="WndTradeItem_Sell1">Продать 1 за %dg</string>
+    <string name="WndTradeItem_SellAll">Продать все за %dg</string>
+    <string name="WndTradeItem_Sold">Ты продал %1$s за %2$dg</string>
+    <string name="WndWandmaker_Battle">Боевая палочка</string>
+    <string name="WndWandmaker_Farawell">Удачи тебе в твоих свершениях, %s!</string>
+    <string name="WndWandmaker_Message">О, я вижу, ты преуспел! Надеюсь, это не доставило тебе особых хлопот. Как обещано, ты волен выбрать одну из моих лучших палочек.</string>
+    <string name="WndWandmaker_NonBattle">Небоевая палочка</string>
+    <string name="WoodenBow_Gender">masculine</string>
+    <string name="WoodenBow_Info">Несмотря на кажущуюся простоту, этот лук может оказаться полезным. Если у тебя есть стрелы.</string>
+    <string name="WoodenBow_Name">деревянный лук</string>
+    <string name="WoodenCrossbow_Gender">masculine</string>
+    <string name="WoodenCrossbow_Info">С виду типичный деревянный арбалет, но похоже, что он предназначен для стрельбы стрелами от лука.</string>
+    <string name="WoodenCrossbow_Name">Деревянный арбалет</string>
+    <string name="Worm_Desc">Даже частично скрытый под полом, этот червь кажется просто гигантским. Его тело покрыто ошмётками гниющей плоти, обмазанными слизью. Огромные жвала чудовища недвусмысленно намекают на то, каким образом он передвигается под поверхностью.</string>
+    <string name="Worm_Gender">masculine</string>
+    <string name="Worm_Name">червь</string>
+    <string name="Worm_Name_Objective">червя</string>
+    <string name="Wraith_Defense">отклонился</string>
+    <string name="Wraith_Desc">Фантом - это мстительный дух грешника, чья могила была потревожена. Нематериальное создание крайне сложно победить простым оружием.</string>
+    <string name="Wraith_Gender">masculine</string>
+    <string name="Wraith_Name">фантом</string>
+    <string name="Wraith_Name_Objective">фантома</string>
+    <string name="Yog_Desc">Йог-Джева - это старый Бог, могучая сущность из мира хаоса. В минувшие века древние дворфы с трудом одолели его армию демонов, но одолеть бога им было не под силу. Они заточили его в глубинах своего города, убеждённые, что он слишком ослаблен, чтобы когда-либо вырваться на свободу.</string>
+    <string name="Yog_Gender">masculine</string>
+    <string name="Yog_Info1">...</string>
+    <string name="Yog_Info2">Я надеюсь, мне это почудилось...</string>
+    <string name="Yog_Name">Йог-Джева</string>
+    <string name="Yog_Name_Objective">Йог-Джева</string>
+    <string name="YogsBrain_Desc">Мозг Йог-Джевы. Источник всего зла, что когда-либо появлялось в подземелье.</string>
+    <string name="YogsBrain_Gender">masculine</string>
+    <string name="YogsBrain_Name">мозг Йога</string>
+    <string name="YogsBrain_Name_Objective">мозг Йога</string>
+    <string name="YogsEye_Desc">Всевидящее око Старого Бога наполнено всеобъемлющей ненавистью. Ты чувствуешь как оно смотрит прямо сквозь твою душу.</string>
+    <string name="YogsEye_Gender">masculine</string>
+    <string name="YogsEye_Name">глаз Йога</string>
+    <string name="YogsEye_Name_Objective">глаз Йога</string>
+    <string name="YogsHeart_Desc">Испокон веков люди верили, что лишь бессердечные создания способны на по-настоящему злые поступки. Вопреки этому, ты видишь перед собой огромное бьющееся сердце Старого Бога.</string>
+    <string name="YogsHeart_Gender">neuter</string>
+    <string name="YogsHeart_Name">сердце Йога</string>
+    <string name="YogsHeart_Name_Objective">сердце Йога</string>
+    <string name="YogsTeeth_Desc">Гигантская пасть Старого Бога усеяна бритвенно-острыми зубами. Весьма подходящее воплощение его жажды к разрушению и поглощению всего и вся.</string>
+    <string name="YogsTeeth_Gender">femenine</string>
+    <string name="YogsTeeth_Name">пасть Йога</string>
+    <string name="YogsTeeth_Name_Objective">пасть Йога</string>
+    <string name="ZombieGnoll_Desc">Исковерканное, изломанное тело гнолла-зомби более не напоминает ни гиену, ни гуманоида. Всё что осталось это груда гниющей плоти и костей, наполненная жаждой убивать и пожирать.</string>
+    <string name="ZombieGnoll_Gender">masculine</string>
+    <string name="ZombieGnoll_Info">Гнолл-зомби восстал из мёртвых!</string>
+    <string name="ZombieGnoll_Name">гнолл-зомби</string>
+    <string name="ZombieGnoll_Name_Objective">гнолла-зомби</string>
+    <string name="Zombie_Desc">Подземелья всегда были опасным местом и многие путешественники встретили здесь свою судьбу. Но путь тех, кому посчастливилось меньше всего, обрывался в Некрополе. И теперь они обречены слоняться по этим коридорам в виде гниющего трупа.</string>
+    <string name="Zombie_Gender">masculine</string>
+    <string name="Zombie_Name">зомби</string>
+    <string name="Zombie_Name_Objective">зомби</string>
+    <string msgid="5835639618285370804" name="accept">"Принять"</string>
+    <string name="app_name">Remixed Pixel Dungeon</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Разрешить объявлению создать мероприятие в календаре?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Создание мероприятия"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Сведения об объявлении"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Creative Preview"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Выбрать режим отладки"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Устранение неполадок"</string>
+    <string msgid="6099173376375995052" name="decline">"Отклонить"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Разрешить объявлению сохранить изображение в галерее?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Сохранение изображения"</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

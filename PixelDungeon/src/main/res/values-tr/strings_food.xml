@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/food -->
+    <!-- STRINGS OF Food CLASS -->
+    <string name="Food_ACEat">YE</string>
+    <string name="Food_Message">Bu yemek çok lezzetliydi!</string>
+
+    <!-- STRINGS OF Ration CLASS -->
+    <string name="Ration_Name">tayın</string>
+    <string name="Ration_Info">pek eğlenceli bir şey yok: kuru et, biraz çörek - buna benzer şeyler.</string>
+
+    <!-- STRINGS OF ChargrilledMeat CLASS -->
+    <string name="ChargrilledMeat_Name">ızgara et</string>
+    <string name="ChargrilledMeat_Info">Güzel bir biftek</string>
+
+    <!-- STRINGS OF FrozenCarpaccio CLASS -->
+    <string name="FrozenCarpaccio_Name">donmuş carpaccio</string>
+    <string name="FrozenCarpaccio_Info">Bir parça donmuş çiğ et. Yiyebilmenin tek yolu bundan parçalar kesmek , ilginç bir şekilde böyle yemek oldukça güzelmiş.</string>
+    <string name="FrozenCarpaccio_Info1">Ellerinin görünmez olduğunu farkediyorsun!</string>
+    <string name="FrozenCarpaccio_Info2">Cildinin sertleştiğini hissediyorsun!</string>
+    <string name="FrozenCarpaccio_Info3">Tazelendin!</string>
+    <string name="FrozenCarpaccio_Info4">Kendini daha iyi hissediyorsun!</string>
+
+    <!-- STRINGS OF MysteryMeat CLASS -->
+    <string name="MysteryMeat_Name">gizemli et</string>
+    <string name="MysteryMeat_Info">Bu eti yemek riskli olabilir!</string>
+    <string name="MysteryMeat_Info1">Uff, bu baya acı!</string>
+    <string name="MysteryMeat_Info2">Ayaklarını hissetmiyorsun!</string>
+    <string name="MysteryMeat_Info3">Kendini kötü hissediyorsun.</string>
+    <string name="MysteryMeat_Info4">Tıkabasa doydun.</string>
+    <string name="MysteryMeat_Message">Bu yemek... tadı ilginç.</string>
+
+    <!-- STRINGS OF RottenFood CLASS -->
+    <string name="RottenFood_Message">İğrenç!</string>
+
+    <!-- STRINGS OF RottenMeat CLASS -->
+    <string name="RottenMeat_Name">Çürümüş et</string>
+    <string name="RottenMeat_Info">Bir parça çürümüş et</string>
+
+    <!-- STRINGS OF RottenPasty CLASS -->
+    <string name="RottenPasty_Name">Çürümüş mantı</string>
+    <string name="RottenPasty_Info">Bu mantı çok çirkin görünüyor.</string>
+
+    <!-- STRINGS OF RottenRation CLASS -->
+    <string name="RottenRation_Name">Çürümüş tayın</string>
+    <string name="RottenRation_Info">Bir zamanlar yenilebilirmiş</string>
+
+    <!-- STRINGS OF OverpricedRation CLASS -->
+    <string name="OverpricedRation_Name">pahalı tayın</string>
+    <string name="OverpricedRation_Info">Standart tayın gibi görünüyor ama daha ufak.</string>
+    <string name="OverpricedRation_Message">Tadı fena değil.</string>
+
+    <!-- STRINGS OF Pasty CLASS -->
+    <string name="Pasty_Name">mantı</string>
+    <string name="Pasty_Info">Bu otantik Kelt mantısının içinde et ve patates var</string>
+
+    <!-- STRINGS OF PseudoPasty CLASS -->
+    <string name="PseudoPasty_Name">mantı</string>
+    <string name="PseudoPasty_Info">Bu otantik Kelt mantısının içinde et ve patates var</string>
+    
+</resources>

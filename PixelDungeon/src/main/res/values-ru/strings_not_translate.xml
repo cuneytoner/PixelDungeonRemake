@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Assets_Prefix">rus_</string>
+  <string name="Utils_IsIndefinte">0</string>
+  
+  <string-array name="known_mods">
+    <item></item>
+  </string-array>
+ 
+</resources>

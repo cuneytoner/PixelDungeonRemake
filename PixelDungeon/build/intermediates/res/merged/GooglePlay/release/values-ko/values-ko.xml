@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="Challenges_Names">
+    <item>식습관</item>
+    <item>신념은나의갑옷</item>
+    <item>약물공포증</item>
+    <item>불모의땅</item>
+    <item>집단지성</item>
+    <item>어둠속으로</item>
+  </string-array>
+    <string-array name="Char_Defeat">
+    <item>%1$s이(가) %2$s</item>
+    <item>%1$s이(가) %2$s</item>
+    <item>%1$s이(가) %2$s</item>
+  </string-array>
+    <string-array name="Char_Hit">
+    <item>%1$s 이/가 %2$s</item>
+    <item>%1$s 이/가 %2$s</item>
+    <item>%1$s 이/가 %2$s</item>
+  </string-array>
+    <string-array name="Char_Kill">
+    <item>%s 이/가 당신을 죽였다...</item>
+    <item>%s 이/가 당신을 죽였다...</item>
+    <item>%s 이/가 당신을 죽였다...</item>
+  </string-array>
+    <string-array name="Char_StaDodged">
+    <item>이/가 </item>
+    <item>이/가 </item>
+    <item>이/가 </item>
+  </string-array>
+    <string-array name="Death_Name">
+    <item>죽음의 %s</item>
+    <item>죽음의 %s</item>
+    <item>죽음의 %s</item>
+  </string-array>
+    <string-array name="Dungeon_Tips">
+    <item>당신의 힘을 과신하지 말고, 다룰 수 있을 만한 무기나 갑옷을 착용하라.</item>
+    <item>던전에 있는 모든 문들이 첫 눈에 보이는 것은 아니다. 만일 갇혔다고 생각되면, 숨겨진 문이 있는지 조사해보라.</item>
+    <item>보다 나은 장비를 착용하기 위해서라면, 당신의 힘을 올리는 것만이 유일한 방법이 아님을 기억하라. 다른 방법으로는 업그레이드 스크롤을 이용하여 장비의 힘 요구치를 낮추는 방법도 있다.</item>
+    <item>더 깊은 층에 있는 가게에서 당신의 금화를 사용할 수 있다. 첫 번째 가게는 6층에 있다.</item>
+    <item>Goo 조심!</item>
+    <item>Pixel-마트 -당신의 성공적인 모험을 위한 모든 것!</item>
+    <item>당신이 가진 포션과 스크롤의 정체를 가능한한 빨리 파악하라. 실제로 필요한 순간이 올 때까지로 미루지 마라.</item>
+    <item>배고픈건 고통을 주진 않지만, 굶주리게 되면 고통이 따른다.</item>
+    <item>기습 공격은 명중률이 높다. 예를 들면, 적이 다가오고 있다는걸 알고 있으면 닫혀진 문뒤에 매복해서 기다리는 방법이 있다.</item>
+    <item>덴구를 밖으로 나가지 못하게 하시오!</item>
+    <item>Pixel-마트. 돈을 쓰자. 오래 살자.</item>
+    <item>동시의 여러마리의 몬스트에게 공격을 받는다면, 문 뒤 쪽으로 후퇴하라.</item>
+    <item>만약 불 붙은 채로 비행중이라면, 물 속에 들어가서 불을 끄는 것은 불가능 하다.</item>
+    <item>앵커를 한번에 두 개 이상 가지고 다니는 건 비상식 적이다. 왜냐하면 죽은뒤 부활 시 장비하지 않은 것들은 몽땅 잃어 버리기 때문이다.</item>
+    <item>위험! 육중한 기계로 인해 부상이나, 수족 절단 또는 사망에 이를 수 있음!</item>
+    <item>Pixel-마트. 던전에서 보다 안전한 삶을.</item>
+    <item>인챈트된 무기를 업그레이드할 때는, 인챈트가 사라질 확률이 있다.</item>
+    <item>변이의 우물을 통해 다른 방법으로는 구할 수 없는 아이템을 얻을 수 있다.</item>
+    <item>인챈트된 무기를 만드는 방법은, 오직 무기 업그레이드의 스크롤을 이용하는 길 뿐이다.</item>
+    <item>폐하가 계신 곳에 어떤 무기도 허락되지 않는다.</item>
+    <item>Pixel-마트. 데몬 헌터들에게 특별가로 모십니다!</item>
+    <item>글자들이 악마의 언어로 적혀 있다.</item>
+    <item>글자들이 악마의 언어로 적혀 있다.</item>
+    <item>글자들이 악마의 언어로 적혀 있다.</item>
+  </string-array>
+    <string-array name="Fire_Name">
+    <item>불타는 %s</item>
+    <item>불타는 %s</item>
+    <item>불타는 %s</item>
+  </string-array>
+    <string-array name="HeroClass_ElfPerks">
+    <item>엘프는 체력 15와 힘 9로 시작한다.</item>
+    <item>엘프는 속박에 면역이다.</item>
+    <item>엘프는 업그레이드된 나무 활과 화살 더미를 가지고 시작한다.</item>
+    <item>엘프는 활에 대한 숙련도가 매우 높고 민첩하다</item>
+    <item>엘프는 근접 무기에 대한 숙련도가 떨어진다.</item>
+  </string-array>
+    <string-array name="HeroClass_HunPerks">
+    <item>사냥꾼은 체력 15로 시작한다.</item>
+    <item>사냥꾼은 업그레이드 가능한 유니크 부메랑을 가지고 시작한다.</item>
+    <item>사냥꾼은 투척무기에 숙련되어, 자신의 현재 힘이 투척무기의 요구치보다 높을 경우 데미지에 보너스를 받는다.</item>
+    <item>사냥꾼은 이슬에서 좀 더 많은 양의 체력을 회복한다.</item>
+    <item>사냥꾼은 근처에 있는 장애물 너머의 적을 인식할 수 있다.</item>
+  </string-array>
+    <string-array name="HeroClass_MagPerks">
+    <item>마법사는 유니크 매직 미사일 완드를 가지고 시작한다. 나중에 다른 완드를 업그레이드하기 위해 이 완드의 마법을 풀 수 있다.</item>
+    <item>마법사는 완드의 마나를 빨리 회복시킨다.</item>
+    <item>어떤 음식이든 먹으면 가지고 있는 모든 완드의 마나를 1 회복시킨다.</item>
+    <item>마법사는 완드를 근접무기로 사용할 수 있다.</item>
+    <item>식별 주문서를 식별한 채로 시작한다.</item>
+  </string-array>
+    <string-array name="HeroClass_RogPerks">
+    <item>도적은 그림자의 반지+1을 가지고 시작한다.</item>
+    <item>도적은 반지를 착용하자마자 그 반지의 종류를 알아낼 수 있다.</item>
+    <item>도적은 가벼운 방어구에 숙련되어 있어, 착용하는 동안 회피율이 상승한다.</item>
+    <item>도적은숨겨진 함정이나 문을 찾아낼 확률이 높다.</item>
+    <item>도적은 음식 없이 더 오래 버틸 수 있다.</item>
+    <item>마법 지도 주문서를 식별한 채로 시작한다.</item>
+  </string-array>
+    <string-array name="HeroClass_WarPerks">
+    <item>전사는 힘 11로 시작한다.</item>
+    <item>전사는 유니크 숏 소드를 가지고 시작한다. 이 무기는 나중에 재련하여 다른 근접 무기를 업그레이드하는데 쓸 수 있다.</item>
+    <item>전사는 원거리 무기에 숙련되지 못하다.</item>
+    <item>어떤 음식이든 먹으면 약간의 체력을 회복한다.</item>
+    <item>힘의 물약을 식별한 채로 시작한다. </item>
+  </string-array>
+    <string-array name="Horror_Name">
+    <item>섬뜩한 %s</item>
+    <item>섬뜩한 %s</item>
+    <item>섬뜩한 %s</item>
+  </string-array>
+    <string-array name="Hunger_Hungry">
+    <item>당신은 배가 고픕니다.</item>
+    <item>당신은 배가 고픕니다.</item>
+    <item>당신은 배가 고픕니다.</item>
+  </string-array>
+    <string-array name="Hunger_Starving">
+    <item>당신은 굶주리고 있습니다!</item>
+    <item>당신은 굶주리고 있습니다!</item>
+    <item>당신은 굶주리고 있습니다!</item>
+  </string-array>
+    <string-array name="Instability_Name">
+    <item>불안정한 %s</item>
+    <item>불안정한 %s</item>
+    <item>불안정한 %s</item>
+  </string-array>
+    <string-array name="Leech_Name">
+    <item>흡혈의 %s</item>
+    <item>흡혈의 %s</item>
+    <item>흡혈의 %s</item>
+  </string-array>
+    <string-array name="Luck_Name">
+    <item>행운의 %s</item>
+    <item>행운의 %s</item>
+    <item>행운의 %s</item>
+  </string-array>
+    <string-array name="Paralysis_Name">
+    <item>기절시키는 %s</item>
+    <item>기절시키는 %s</item>
+    <item>기절시키는 %s</item>
+  </string-array>
+    <string-array name="Piercing_Name">
+    <item>관통의 %s</item>
+    <item>관통의 %s</item>
+    <item>관통의 %s</item>
+  </string-array>
+    <string-array name="Poison_Name">
+    <item>악의에 찬 %s</item>
+    <item>악의에 찬 %s</item>
+    <item>악의에 찬 %s</item>
+  </string-array>
+    <string-array name="Potion_Colors">
+    <item>청록색</item>
+    <item>진홍색</item>
+    <item>하늘색</item>
+    <item>비취색</item>
+    <item>금색</item>
+    <item>자홍색</item>
+    <item>암회색</item>
+    <item>상아색</item>
+    <item>호박색</item>
+    <item>암갈색</item>
+    <item>남색</item>
+    <item>은색</item>
+  </string-array>
+    <string-array name="Ring_Gems">
+    <item>다이아몬드</item>
+    <item>오팔</item>
+    <item>가넷</item>
+    <item>루비</item>
+    <item>자수정</item>
+    <item>토파즈</item>
+    <item>줄마노</item>
+    <item>전기석</item>
+    <item>에메랄드</item>
+    <item>사파이어</item>
+    <item>석영</item>
+    <item>마노</item>
+  </string-array>
+    <string-array name="Scroll_Runes">
+    <item>카우난</item>
+    <item>소윌로</item>
+    <item>라구즈</item>
+    <item>잉그비</item>
+    <item>가이푸</item>
+    <item>라이도</item>
+    <item>이사즈</item>
+    <item>만나즈</item>
+    <item>나우디즈</item>
+    <item>버카난</item>
+    <item>오쌀란</item>
+    <item>티와즈</item>
+    <item>안수즈</item>
+    <item>아이하즈</item>
+    <item>알기즈</item>
+    <item>다가즈</item>
+    <item>샇에Z</item>
+  </string-array>
+    <string-array name="Slow_Name">
+    <item>냉기의 %s</item>
+    <item>냉기의 %s</item>
+    <item>냉기의 %s</item>
+  </string-array>
+    <string-array name="Swing_Name">
+    <item>야생의 %s</item>
+    <item>야생의 %s</item>
+    <item>야생의 %s</item>
+  </string-array>
+    <string-array name="WandOfFlock_SheepBaa">
+    <item>Baa!</item>
+    <item>Baa?</item>
+    <item>Baa.</item>
+    <item>Baa...</item>
+    <item>Bee...</item>
+    <item>Ble...</item>
+  </string-array>
+    <string-array name="Wand_Wood_Types">
+    <item>호랑가시나무</item>
+    <item>주목나무</item>
+    <item>흑단</item>
+    <item>벚나무</item>
+    <item>티크나무</item>
+    <item>마가목</item>
+    <item>버드나무</item>
+    <item>마호가니</item>
+    <item>대나무</item>
+    <item>베니어재</item>
+    <item>오크나무</item>
+    <item>자작나무</item>
+  </string-array>
+    <string name="AboutScene_Lnk">http://wiki.nyrds.net/</string>
+    <string name="AboutScene_Mail">cuneytoner@gmail.com</string>
+    <string name="AboutScene_OurSite">제작사 홈페이지:</string>
+    <string name="AboutScene_Snd">Send E-Mail</string>
+    <string name="AboutScene_TranslatedBy">영어 - NYRDS가 만드는 Remixed Pixel Dungeon의 주 언어
+Special Thanks to: Omen267901</string>
+    <string name="AboutScene_Txt">Remixed Pixel Dungeon by NYRDS based on Pixel Dungeon Source by Watabou.\n\n Code &amp; graphics: Watabou &amp; NYRDS &amp; ThEnigma314\n\nMusic: Cube_Code\n\nSpecial Thanks to: rodriformiga for PD i18n code\n\nE-Mail us:\n\n</string>
+    <string name="Acidic_Desc">이 거대한 거미류의 악마같은 생물은 근접전을 최대한 피하고, 멀리서 불구로 만들어 버릴 수 있는 톱니 가시를 발사한다.</string>
+    <string name="Acidic_Gender">남성</string>
+    <string name="Acidic_Name">산성 전갈</string>
+    <string name="Acidic_Name_Objective">산성 전갈</string>
+    <string name="Affection_Txt">매혹의 %s </string>
+    <string name="AirElemental_Desc">바람의 정령은 살아있는 공기로 만들어진 날아 다니는 마법 생물이다.</string>
+    <string name="AirElemental_Gender">남성</string>
+    <string name="AirElemental_Name">공기의 정령</string>
+    <string name="AirElemental_Name_Objective">공기의 정령</string>
+    <string name="AlarmTrap_Desc">함정이 날카로운 소리를 냈고 던전 전체에 울려퍼졌다!</string>
+    <string name="Albino_Desc">주머니 쥐들은 난폭하지만 다소 약한 하수구의 거주자들이다. 그들은 큰 수가 모였을때만 위험하다. 이 특별한 쥐는 알비노 종으로 보인다. 게다가 비정상적으로 날카로운 이빨을 가지고 있다.</string>
+    <string name="Albino_Gender">남성</string>
+    <string name="Albino_Name">알비노 쥐</string>
+    <string name="Albino_Name_Objective">알비노 쥐</string>
+    <string name="AlchemyPot_SelectSeed">던져넣을 씨앗을 고르세요</string>
+    <string name="AllowStatisticsCollectionScene_Allow">허용</string>
+    <string name="AllowStatisticsCollectionScene_Deny">거부</string>
+    <string name="AllowStatisticsCollectionScene_Title">사용 통계 수집</string>
+    <string name="Amok_Info">착란</string>
+    <string name="AmuletScene_Exit">여기서 끝내기로 하지</string>
+    <string name="AmuletScene_Stay">아직 끝내긴 이르다</string>
+    <string name="AmuletScene_Txt">당신은 마침내 손에 옌도르의 아뮬렛을 거머쥐었다. 이 힘을 이용하여 당신은 세상을 손에 넣을 수도있고 아니면 평화와 번영을 가져다 줄수도 있는 등 여러 가지 일을 할 수 있다. 어쨌든, 당신의 인생은 완전히 바뀔 것이고, 게임은 여기서 끝날 것이다. 아니면 그저 필멸자 상태로 좀 더 머무를 수도 있다.</string>
+    <string name="Amulet_ACEnd">END THE GAME</string>
+    <string name="Amulet_Info">옌더의 부적은 정체불명의 가장 강력한 유물입니다. 이 부적은 소유자의 의지가 충분하다면 어떤 소원이든 성취할 수 있다고 합니다.</string>
+    <string name="Amulet_Name">옌도르의 목걸이</string>
+    <string name="Ankh_Info">불멸의 상징인 이 고대의 유물은 죽은뒤 다시 삶의로 복귀 할 수 있는 능력을 부여합니다. 부활하면 장착하지 않은 모든 아이템을 손실합니다.</string>
+    <string name="Ankh_Name">앙크-생명의상징</string>
+    <string name="AntiEntropy_Txt">반 엔트로피의 %s</string>
+    <string name="ArmorKit_ACAplly">적용</string>
+    <string name="ArmorKit_Info">이 도구를 사용하면 원래 갑옷의 모든 속성을 유지하며 \"에픽 방어구\"로 변환 할 수 있습니다. 이 도구를 사용해 자신의 클래스에 따라 특별한 기능을 제공할 뿐만 아니라 재봉술/무두질 또는 대장기술같은 기술이 필요하지 않습니다.</string>
+    <string name="ArmorKit_Name">방어구 키트</string>
+    <string name="ArmorKit_SelectArmor">업그레이드할 갑옷을 선택하세요.</string>
+    <string name="ArmorKit_Upgraded">%s 에 방어구 업그레이드 키트를 적용했습니다.</string>
+    <string name="Armor_EquipCursed">당신의 %s 이/가 몸을 고통스럽게 조여온다</string>
+    <string name="Armor_Glyph">문양</string>
+    <string name="Armor_Identify">당신은 이제 %1$s 을 식별할 수 있을 만큼 충분히 익숙해졌습니다. 이것은 %2$s 입니다.</string>
+    <string name="Armor_Incompatible">서로 다른 마법간의 상호작용으로 갑옷의 각인이 지워져 버렸다!</string>
+    <string name="Armor_Info1">이 %1$s 은/는 공격 당 최대  \"%2$d\" 데미지를 흡수할 수 있다</string>
+    <string name="Armor_Info2">\n\n힘이 부족하여 움직임이 느려지고 방어능력이 떨어졌습니다.</string>
+    <string name="Armor_Info3">\n\n이 갑옷을 입기 위한 힘이 부족하여 착용하면 움직임이 느려지고 방어 능력이 떨어질 것이다.</string>
+    <string name="Armor_Info4">\n\n일반적인 %1$s 은/는 최대 %2$d 데미지를 흡수하고 힘 %3$d을 필요로 한다.</string>
+    <string name="Armor_Info5">아마 당신에게는 갑옷이 너무 무거워 보인다.</string>
+    <string name="Armor_Info6">각인되어 있다.</string>
+    <string name="Armor_Info7a">\n\n당신은 %1$s%2$s 을/를 착용하고 있다.</string>
+    <string name="Armor_Info7b">그리고 저주로 인해 당신은 그것을 벗을 수가 없다.</string>
+    <string name="Armor_Info8">\n\n %s안에 해로운 마법이 숨어있음을 느낄 수 있다.</string>
+    <string name="Armor_ToString">%1$s :%2$d</string>
+    <string name="ArmoredStatue_Name">살아있는 석상</string>
+    <string name="ArmoredStatue_Name_Objective">살아있는 석상</string>
+    <string name="AzuterronNPC_Desc">이상한 형체가 검은 안개에 둘러싸여 있다.</string>
+    <string name="AzuterronNPC_Gender">남성</string>
+    <string name="AzuterronNPC_Name">이방인</string>
+    <string name="AzuterronNPC_Name_Objective">이방인</string>
+    <string name="AzuterronNPC_Quest_End">완벽하군. 여기 이 물약을 가져가게, 분명 도움이 될 거야.</string>
+    <string name="AzuterronNPC_Quest_Reminder">날 도와주면 나중에 도와줄께.</string>
+    <string name="AzuterronNPC_Quest_Start">앗, 뭐지... 오, 넌 날 볼 수 있구나? 그렇다면 \"저들\"은 아니란 말이겠군. 저기 널려있는 괴물들도 아닐 테고. 괜찮다면, 내 골칫거리를 좀 해결해주면 보상해 줄 수도 있어. 이 층 어딘가에 어둠의 괴수인 _위험한 혼령_  이 있을거야. 그것을 죽이고 _심장_을 가져 와. 또 한가지, 내 물건들을 사고 싶다면 언제든지 말만 해.</string>
+    <string name="BadgesScene_Title">당신의 뱃지들</string>
+    <string name="Badges_AllBags">모든 가방 구매</string>
+    <string name="Badges_AllItems">모든 물약, 스크롤, 반지, 완드 식별</string>
+    <string name="Badges_AllPotions">모든 물약 식별</string>
+    <string name="Badges_AllRings">모든 반지 식별</string>
+    <string name="Badges_AllScrolls">모든 스크롤 식별</string>
+    <string name="Badges_AllWands">모든 완드 식별</string>
+    <string name="Badges_BossSlain1">1번째 보스 섬멸</string>
+    <string name="Badges_BossSlain1All">1번째 보스를 모든 직업으로 섬멸</string>
+    <string name="Badges_BossSlain2">2번째 보스 섬멸</string>
+    <string name="Badges_BossSlain3">3번째 보스 섬멸</string>
+    <string name="Badges_BossSlain3All">3번째 보스를 모든 세부전직으로 섬멸</string>
+    <string name="Badges_BossSlain4">4번째 보스 섬멸</string>
+    <string name="Badges_Champion">도전 성공</string>
+    <string name="Badges_DeathFalling">추락 데미지로 인해 사망</string>
+    <string name="Badges_DeathFire">불로 인해 사망</string>
+    <string name="Badges_DeathGas">독가스로 인해 사망</string>
+    <string name="Badges_DeathGlyph">방어구의 상형문자로 인해 사망</string>
+    <string name="Badges_DeathHunger">배고픔으로 인해 사망</string>
+    <string name="Badges_DeathPoison">독으로 인해 사망</string>
+    <string name="Badges_FoodEaten1">음식 10 조각 섭취</string>
+    <string name="Badges_FoodEaten2">음식 20 조각 섭취</string>
+    <string name="Badges_FoodEaten3">음식 30 조각 섭취</string>
+    <string name="Badges_FoodEaten4">음식 40 조각 섭취</string>
+    <string name="Badges_GamesPlayed1">게임 10회 플레이</string>
+    <string name="Badges_GamesPlayed2">게임 100회 플레이</string>
+    <string name="Badges_GamesPlayed3">게임 500회 플레이</string>
+    <string name="Badges_GamesPlayed4">게임 2000회 플레이</string>
+    <string name="Badges_GoldColleted1">100 골드 수집</string>
+    <string name="Badges_GoldColleted2">500 골드 수집</string>
+    <string name="Badges_GoldColleted3">2500 골드 수집</string>
+    <string name="Badges_GoldColleted4">7500 골드 수집</string>
+    <string name="Badges_GrimWepon">냉혹한 무기로 몬스터 처치</string>
+    <string name="Badges_HappyEnd">해피 엔딩</string>
+    <string name="Badges_Immured">감금으로 인해 사망</string>
+    <string name="Badges_Info1">뱃지 획득: %s</string>
+    <string name="Badges_Info2">새로운 슈퍼 뱃지 획득 : %s</string>
+    <string name="Badges_Info3">새로운 뱃지 획득 : %s</string>
+    <string name="Badges_ItemLvl1">레벨 3의 아이템 획득</string>
+    <string name="Badges_ItemLvl2">레벨 6의 아이템 획득</string>
+    <string name="Badges_ItemLvl3">레벨 9의 아이템 획득</string>
+    <string name="Badges_ItemLvl4">레벨 12의 아이템 획득</string>
+    <string name="Badges_LevelReached1">레벨 6 달성</string>
+    <string name="Badges_LevelReached2">레벨 12 달성</string>
+    <string name="Badges_LevelReached3">레벨 18 달성</string>
+    <string name="Badges_LevelReached4">레벨 24 달성</string>
+    <string name="Badges_MasteryCombo">7연타!</string>
+    <string name="Badges_MonsterSlain1">적 10마리 처치</string>
+    <string name="Badges_MonsterSlain2">적 50 마리 처치</string>
+    <string name="Badges_MonsterSlain3">적 150 마리 처치</string>
+    <string name="Badges_MonsterSlain4">적 250 마리 섬멸</string>
+    <string name="Badges_NightHunter">밤에 몬스터 5마리 처치</string>
+    <string name="Badges_NoMonsterSlain">아무 몬스터도 처치하지 않고 층을 클리어</string>
+    <string name="Badges_Piranhas">피라냐 6마리 처치</string>
+    <string name="Badges_PotionsCooked1">물약 3개 제조</string>
+    <string name="Badges_PotionsCooked2">물약 6개 제조</string>
+    <string name="Badges_PotionsCooked3">물약 9개 제조</string>
+    <string name="Badges_PotionsCooked4">물약 12개 제조</string>
+    <string name="Badges_RareAll">모든 희귀 몬스터 섬멸</string>
+    <string name="Badges_RingHaggler">흥정꾼의 반지 획득</string>
+    <string name="Badges_RingThorns">가시의 반지 획득</string>
+    <string name="Badges_StrengthAttained1">힘 13 획득</string>
+    <string name="Badges_StrengthAttained2">힘 15 획득</string>
+    <string name="Badges_StrengthAttained3">힘 17 획득</string>
+    <string name="Badges_StrengthAttained4">힘 19 획득</string>
+    <string name="Badges_Supporter">도움 감사합니다!</string>
+    <string name="Badges_Victory">옌더의 아뮬렛 획득</string>
+    <string name="Badges_VictoryAll">옌더의 아뮬렛을 모든 직업으로 획득</string>
+    <string name="Badges_Yasd">불, 독, 독가스, 배고픔으로 인해 사망</string>
+    <string name="Bag_ACOpen">OPEN</string>
+    <string name="Bandit_Desc">던전 깊숙한 곳에는 언제나 모든 종류의 범죄자들이 숨어 지내는 곳이 있다. 빛을 보지 못하는 시간이 길어짐으로 인해 그들중 대다수는 제정신이 아니다.오래 전, 미친 도둑과 강도들은 자신들이 누구이며 왜 무언가를 훔치고 있는지 잊었다. 이 강도는 그의 단도에 뭔가를 묻혀둔거 같다!</string>
+    <string name="Bandit_Gender">남성</string>
+    <string name="Bandit_Name">미친 강도</string>
+    <string name="Bandit_Name_Objective">미친 강도</string>
+    <string name="Barkskin_Info">나무스킨</string>
+    <string name="Bat_Defense">회피</string>
+    <string name="Bat_Desc">이 민첩하고 끈질긴 동굴 천장의 주민은 공격 성공시마다 흡혈을 통해 자기 보다 훨씬 큰 상대도 제압할 수 있다.</string>
+    <string name="Bat_Gender">남성</string>
+    <string name="Bat_Name">흡혈 박쥐</string>
+    <string name="Bat_Name_Objective">흡혈 박쥐</string>
+    <string name="BattleAxe_Gender">남성</string>
+    <string name="BattleAxe_Info">이 전투 도끼의 엄청난 스틸 헤드는 각각의 스트로크 뒤에 상당한 영향력을 줍니다.</string>
+    <string name="BattleAxe_Name">배틀 엑스</string>
+    <string name="Belongings_Name">가방</string>
+    <string name="Blacksmith_Blood1">이봐 인간! 쓸만해지고 싶나, 어? 이 곡괭이를 가져다가 이걸로 _박쥐를 잡아서_ 박쥐 피를 묻혀와. 보상은 뭐냐고? 이 탐욕스러운... \n 알았어, 알았다고, 내가 돈은 없지만 아이템 제련은 해줄 수 있지. 운 좋은 줄 알아, 이 근처에 대장장이는 나밖에 없으니.</string>
+    <string name="Blacksmith_Completed">오, 돌아오긴 했네... 늦는 게 안 오는 것보단 낫지.</string>
+    <string name="Blacksmith_Desc">트롤 대장장이는 전형적인 트롤같이 생겼다. 큰 키에 여윈 몸을 가지고 있고, 피부는 색이든 질감이든 돌을 연상시킨다. 덩치에 어울리지 않는 작은 도구들을 가지고 땜질을 하고 있다.</string>
+    <string name="Blacksmith_GetLost">꺼져, 난 바쁘다고!</string>
+    <string name="Blacksmith_Gold1">이봐 인간! 쓸만해지고 싶나, 어? 이 곡괭이를 가져다가 이걸로 _어두운 금 원석_을 캐다 줘, _15개_ 면 충분하겠네. 보상은 뭐냐고? 이 탐욕스러운... \n알았어, 알았다고, 내가 돈은 없지만 아이템 제련은 해줄 수 있지. 운 좋은 줄 알아, 이 근처에 대장장이는 나밖에 없으니.</string>
+    <string name="Blacksmith_LooksBetter">당신의 %s는(은) 확실히 좋아진것같다.</string>
+    <string name="Blacksmith_Name">트롤 대장장이</string>
+    <string name="Blacksmith_Txt2">지금 장난해? 내 곡괭이 어디 갔어?!</string>
+    <string name="Blacksmith_Txt3">어두운 금 원석. 15개. 솔직히 그게 그렇게 어렵냐?</string>
+    <string name="Blacksmith_Txt4">박쥐 피 묻혀오라고 했잖아. 빨리 빨리!</string>
+    <string name="Blacksmith_Verify1">똑같은 아이템 두 번 고르지 말고, 다른 아이템 2개를 고르라고!</string>
+    <string name="Blacksmith_Verify2">2개의 똑같은 종류의 아이템을 고르라니까!</string>
+    <string name="Blacksmith_Verify3">내가 뭐 가지고 작업하는 지 알아야 하니까, 식별부터 해!</string>
+    <string name="Blacksmith_Verify4">저주받은 아이템 가지곤 작업 안 해!</string>
+    <string name="Blacksmith_Verify5">이건 그냥 쓰레기야, 질이 너무 구리다고!</string>
+    <string name="Blacksmith_Verify6">이런 아이템은 제련 못 해!</string>
+    <string name="BlankScroll_Info">그냥 비어있는 스크롤입니다. 아마 뭔가를 여기 다 쓸 수 있지 않을까요?</string>
+    <string name="BlankScroll_Name">비어있는 스크롤</string>
+    <string name="BlankScroll_ReallyBlank">이 스크롤은 비어있습니다.</string>
+    <string name="Bleeding_Death">출혈로 인해 사망하였습니다.</string>
+    <string name="Bleeding_Info">출혈</string>
+    <string name="Blindness_Info">실명</string>
+    <string name="Boomerang_Gender">남성</string>
+    <string name="Boomerang_Info">곡선의 나무 미사일 - 부메랑 - 을 적에게 던지면, 던진사람에게 다시 돌아옵니다.</string>
+    <string name="Boomerang_Name">부메랑</string>
+    <string name="Bounce_Txt">탄력의 %s</string>
+    <string name="Bow_Info1">이 활은 원거리 무기로써, 오직 엘프만이 근거리에서 제대로 된 사용을 할 수 있다. 활을 들어야만 화살을 발사할 수 있다.\n\n</string>
+    <string name="Bowknot_Info">머리핀에 달린 귀여운 분홍색 반짝이 리본이다.</string>
+    <string name="Bowknot_Name">나비리본</string>
+    <string name="Brute_Desc">놀 정예병은 놀 중에서도 가장 크고 강하며 터프한 녀석들이다. 큰 상처를 입게되면, 이들은 격분하면서 적에게 보다 큰 데미지를 준다.</string>
+    <string name="Brute_Enraged">%s 은/는 격분에 빠졌다!</string>
+    <string name="Brute_Gender">남성</string>
+    <string name="Brute_Name">놀 정예병</string>
+    <string name="Brute_Name_Objective">놀 정예병</string>
+    <string name="Brute_StaEnraged">격분</string>
+    <string name="BurningFist_Desc">고대 신의 불타는 주먹</string>
+    <string name="BurningFist_Gender">남성</string>
+    <string name="BurningFist_Name">불타는 주먹</string>
+    <string name="BurningFist_Name_Objective">불타는 주먹</string>
+    <string name="Burning_Burns">%s 이/가 화상을 입었다!</string>
+    <string name="Burning_Death">불에 타죽었습니다...</string>
+    <string name="Burning_Info">불타는</string>
+    <string name="Capotain_Info">길이가 길고 챙이 좁은 모자다. 대부분 청교도들이 쓰는 모자이지만, 굳이 그것에 연연할 필요는 없다. 무슨 이유인지 \"솔로몬\"이라는 이름표가 붙어있다.</string>
+    <string name="Capotain_Name">카포텡</string>
+    <string name="Caves_TileDescBookshelf">동굴에 책장이 대체 왜 필요한 거지?</string>
+    <string name="Caves_TileDescDeco">어떤 광물의 광맥이 벽에 보인다. 금인가?</string>
+    <string name="Caves_TileDescEntrance">사다리는 위를 향하고 있다.</string>
+    <string name="Caves_TileDescExit">사다리는 아래를 향하고 있다.</string>
+    <string name="Caves_TileDescHighGrass">거대한 버섯들이 시야를 방해한다.</string>
+    <string name="Caves_TileGrass">형광 이끼</string>
+    <string name="Caves_TileHighGrass">형광 버섯</string>
+    <string name="Caves_TileWater">한기가 들 정도로 차가운 물.</string>
+    <string name="ChaosCrystal_Info">쥐고 있는 동안 손으로 흘러 들어오는 에너지의 흐름이 느껴진다.</string>
+    <string name="ChaosCrystal_Name">이상한 수정</string>
+    <string name="ChaosCrystal_Use">사용</string>
+    <string name="Char_Name">무리</string>
+    <string name="Char_Name_Objective">무리</string>
+    <string name="Char_OutParalysis">고통이 %s를 마비로부터 벗어나게 했다</string>
+    <string name="Char_SmbMissed">%1$s %2$s %3$s의 공격</string>
+    <string name="Char_StaAmok">착란</string>
+    <string name="Char_StaBleeding">출혈</string>
+    <string name="Char_StaCrippled">불구</string>
+    <string name="Char_StaDizzy">어지럼</string>
+    <string name="Char_StaFrightened">겁먹은</string>
+    <string name="Char_StaInvisible">투명</string>
+    <string name="Char_StaMind">마음</string>
+    <string name="Char_StaParalysed">마비</string>
+    <string name="Char_StaPoisoned">중독</string>
+    <string name="Char_StaRooted">묶임</string>
+    <string name="Char_StaSlowed">느려짐</string>
+    <string name="Char_StaVision">비전</string>
+    <string name="Char_YouMissed">%1$s %2$s 당신의 공격</string>
+    <string name="ChargrilledMeat_Info">괜찮은 스테이크처럼 구워졌다.</string>
+    <string name="ChargrilledMeat_Name">익힌 고기</string>
+    <string name="Charm_Info">매혹</string>
+    <string name="Chasm_Chasm">틈</string>
+    <string name="Chasm_Info">추락하여 사망했습니다...</string>
+    <string name="Chasm_Jump">정말로 이 틈 아래로 뛰어 들겠습니까? 죽을수도 있습니다.</string>
+    <string name="Chasm_No">아니요, 생각을 바꿨습니다.</string>
+    <string name="Chasm_Yes">네, 내가 뭘 하려는지 잘 알고 있습니다.</string>
+    <string name="City_TileDescBookshelf">다양한 학문과 관련된 책들이 책장을 채우고 있다.</string>
+    <string name="City_TileDescDeco">몇몇 타일이 사라지고 없다.</string>
+    <string name="City_TileDescEmptySP">두터운 카펫이 복도를 덮고 있다.</string>
+    <string name="City_TileDescEntrance">경사로는 위를 향하고 있다.</string>
+    <string name="City_TileDescExit">경사로는 아래를 향하고 있다.</string>
+    <string name="City_TileDescStatue">이 석상은 영웅적인 풍채로 서 있는 어떤 드워프를 묘사하고 있다.</string>
+    <string name="City_TileHighGrass">활짝 피어있는 꽃들</string>
+    <string name="City_TileWater">수상한 색의 물</string>
+    <string name="ClassArmor_Desc">굉장해 보이는군!</string>
+    <string name="ClassArmor_LowHealt">쓰러지기 일보 직전입니다!</string>
+    <string name="ClassArmor_NotEquipped">갑옷의 특별한 힘을 이용하기 위해서는 입고 있어야 합니다.</string>
+    <string name="Claymore_Gender">여성</string>
+    <string name="Claymore_Info">이 거대한 무기는 모든걸 베어버릴 수 있을 것이다.</string>
+    <string name="Claymore_Name">대검</string>
+    <string name="ClothArmor_Desc">이 가벼운 갑옷은 기본적인 방어력을 제공한다.</string>
+    <string name="ClothArmor_Name">천 갑옷</string>
+    <string name="Codex_ACRead">읽는다</string>
+    <string name="Codex_Blinded">눈이 먼 상태에서는 읽을 수 없다</string>
+    <string name="Codex_Info">도서관에서 볼 수 있는 많은 책들 중 하나이다.</string>
+    <string name="Codex_Name">고문서</string>
+    <string name="Combo_Combo">%d 연타 콤보</string>
+    <string name="Combo_Info">콤보</string>
+    <string name="CommonArrow_Gender">여성스런</string>
+    <string name="CommonArrow_Info">쇠촉을 가진 평범한 나무 화살이다.</string>
+    <string name="CommonArrow_Name">화살</string>
+    <string name="CompositeCrossbow_Gender">남성</string>
+    <string name="CompositeCrossbow_Info">이 개조된 쇠뇌는 나무 쇠뇌에 비해서 더 효율적인 도구임이 입증된 바 있다.</string>
+    <string name="CompositeCrossbow_Name">합성 쇠뇌</string>
+    <string name="CompoundBow_Gender">남성적인</string>
+    <string name="CompoundBow_Info">이 합성궁에서 발사된 화살은 나무 활에서 발사하는 것 만큼 빠르진 않지만 대신 높은 데미지와 향상된 명중률을 가집니다.</string>
+    <string name="CompoundBow_Name">합성궁</string>
+    <string name="ConfusionGas_Info">혼란을 주는 가스 구름이 소용돌이 칩니다.</string>
+    <string name="CorpseDust_Info">시체에서 나온 먼지나 일반적인 먼지나 외관상 별차이가 없어보입니다. 어쨋든 가능한 빨리 없애고 찾아오세요.</string>
+    <string name="CorpseDust_Name">시체 먼지</string>
+    <string name="Crab_Defense">막음</string>
+    <string name="Crab_Desc">이 거대한 게들은 하수구 먹이사슬의 최상의 포식자다. 그들은 매우 빠르고 그들의 딱딱한 껍질은 큰 충격을 견딜 수 있다.</string>
+    <string name="Crab_Gender">남성</string>
+    <string name="Crab_Name">하수구 게</string>
+    <string name="Crab_Name_Objective">하수구 게</string>
+    <string name="Cripple_Info">불구</string>
+    <string name="Crystal_Desc">크고 빛나는 크리스탈이 공중에 떠있습니다. 아마도 이것은 강력한 마법으로 가득 차 있을 것입니다.</string>
+    <string name="Crystal_Gender">남성</string>
+    <string name="Crystal_Name">공중에 떠있는 크리스탈</string>
+    <string name="Crystal_Name_Objective">공중에 떠있는 크리스탈</string>
+    <string name="CurareDart_Gender">남성</string>
+    <string name="CurareDart_Info">이 작은 이블다트는 많은 데미지를 주지 않는다. 그러나 적중된 대상은 얼마간 무기력해지거나 움직임이 느려집니다.</string>
+    <string name="CurareDart_Name">큐라레 다트</string>
+    <string name="DM300_Desc">이 기계는 드워프에 의해 수세기 전에 만들어 졌다. 시간이 지남에 따라 이들은 골렘, 정령, 심지어는 악마들로 교체되어 갔고, 이 때문에 드워프들의 문명은 쇠퇴하게 되었다. DM-300 및 이와 유사한 기계들은 건설, 채광, 또는 도시 방어를 위해 사용되었다.</string>
+    <string name="DM300_Gender">남성</string>
+    <string name="DM300_Info1">DM-300이 스스로를 수리했다!</string>
+    <string name="DM300_Info2">임무 실패. 종료됩니다.</string>
+    <string name="DM300_Info3">무단 출입 감지됨.</string>
+    <string name="DM300_Name">DM-300</string>
+    <string name="DM300_Name_Objective">DM-300</string>
+    <string name="Dagger_Gender">남성</string>
+    <string name="Dagger_Info">이 철로 만들어진 단검은 낡은 손잡이가 달려있습니다.</string>
+    <string name="Dagger_Name">대거</string>
+    <string name="DarkGold_Info">이 금속은 어두운 색이라곤 하지만 일반적인 금과 다르지 않다. 왜나하면 햇빛 아래에서 검은 표면이 녹아내리면 쓸모있게 변하기 때문입니다.</string>
+    <string name="DarkGold_Name">흑금광석</string>
+    <string name="Darkness_Info">영원한 어둠의 조각이 공중에 피어오른다.</string>
+    <string name="Dart_Gender">남성</string>
+    <string name="Dart_Info">이 간단한 금속 스파이크는 사실 날리기 부담스러운 무게지만 맞은 사람을 괴롭게 한다.</string>
+    <string name="Dart_Name">다트</string>
+    <string name="DeferedDamage_Defered_Txt">지속 피해 (%d)</string>
+    <string name="DeferedDamage_Killed_Txt">%s 이/가 당신을 죽였습니다...</string>
+    <string name="DewVial_ACDRINK">마신다</string>
+    <string name="DewVial_AutoDrink">이슬을 담은 유리병이 당신의 상처를 치유하기위해 비워졌습니다.</string>
+    <string name="DewVial_Collected">이슬을 유리병에 모았습니다.</string>
+    <string name="DewVial_Empty">이슬을 담는 유리병이 비어있습니다.</string>
+    <string name="DewVial_Full">이슬을 담는 유리병이 가득 찼습니다.</string>
+    <string name="DewVial_Info">이 작은 용기에 넘치는 이슬을 저장할 수 있습니다. 나중에 유리병이 가득 찬 경우, 치명적인 위험의 순간에 이슬이 자동으로 소비됩니다.</string>
+    <string name="DewVial_Name">이슬을 담는 병</string>
+    <string name="Dewdrop_Info">맑은 이슬</string>
+    <string name="Dewdrop_Name">이슬</string>
+    <string name="Displacement_Txt">이동의 %s</string>
+    <string name="DonateButton_pleaseDonate">기부 부탁드립니다</string>
+    <string name="DonateButton_thanks">당신의 후원에 감사드립니다!!</string>
+    <string name="Dreamweed_Desc">꿈결초를 만지면 혼란가스 구름을 뿜어낸다.</string>
+    <string name="Dreamweed_Name">꿈결초</string>
+    <string name="DriedRose_Info">이건 아주 오래전에 건조된 장미입니다. 그러나 어쨋든 모든 꽃잎을 유지하고 있습니다.</string>
+    <string name="DriedRose_Name">말린장미</string>
+    <string name="Dungeon_DeadEnd">당신 여기서 뭐하시는 겁니까?!</string>
+    <string name="Dungeon_NoTips">글자가 뭔말인지 해독할 수 없습니다..</string>
+    <string name="DwarfToken_Info">많은 드워프들이 그들의 작품을 가지고 다니는데 그중 일부는 목적을 알 수 없는 작은 조각들 입니다. 어쩌면 보석이거나 ID를 대신하는 그런 종류 같습니다. 드워프는 좀 이상하군요.</string>
+    <string name="DwarfToken_Name">드워프 토큰</string>
+    <string name="EarthElemental_Desc">대지의 정령은 자연의 힘이 집약되어 만들어진 흙 덩어리다.</string>
+    <string name="EarthElemental_Gender">남성</string>
+    <string name="EarthElemental_Name">대지의 정령</string>
+    <string name="EarthElemental_Name_Objective">대지의 정령</string>
+    <string name="Earthroot_Buff">자연의 갑옷</string>
+    <string name="Earthroot_Desc">생물이 이 뱀뿌리를 만지면, 자연의 갑옷을 주변에 만들어 준다.</string>
+    <string name="Earthroot_Name">뱀뿌리</string>
+    <string name="Elemental_Desc">이리 저리 돌아다니는 불의 정령들은 고위 몬스터 소환의 부산물이다. 이들은 너무나 혼돈스런 성질을 가지고 있어서 가장 강력한 데몬술사마저 조종하기 어렵다.</string>
+    <string name="Elemental_Gender">남성</string>
+    <string name="Elemental_Name">불의 정령</string>
+    <string name="Elemental_Name_Objective">불의 정령</string>
+    <string name="ElfArmor_ACSpecial">자연의 부름</string>
+    <string name="ElfArmor_Desc">이 망토의 도움으로 엘프는 자연의 힘 자체를 소환할 수 있다. 단단한 바위 표면을 뚫고 순식간에 기다란 풀숲이 자라나 시야 내의 모든 적들을 옴짝달싹 못하게 해 버릴 것이다.</string>
+    <string name="ElfArmor_Name">엘프의 망토</string>
+    <string name="ElfArmor_NotElf">이 갑옷은 엘프만 착용 가능하다.</string>
+    <string name="Entanglement_Txt">속박 %s</string>
+    <string name="EquipableItem_ACEquip">장착</string>
+    <string name="EquipableItem_ACUnequip">해제</string>
+    <string name="EquipableItem_Unequip">%s 은/는 저주로 인해 해제 할 수 없습니다!</string>
+    <string name="Eye_Desc">이 악마의 또다른 이름은 \"증오의 구슬\"이다. 왜냐하면 한 번 적을 본 녀석은 주변에 아군이 있든 말든 무시하고 죽음의 광선을 사용하여 아군도 상처 입히기 때문이다.</string>
+    <string name="Eye_Gender">중성적인</string>
+    <string name="Eye_Kill">%s의 죽음의 광선이 당신을 죽였다...</string>
+    <string name="Eye_Name">이블아이</string>
+    <string name="Eye_Name_Objective">이블아이</string>
+    <string name="Fadeleaf_Desc">미명초를 만지면 현재 층의 랜덤한 장소로 순간이동시켜 버린다.</string>
+    <string name="Fadeleaf_Name">미명초</string>
+    <string name="FetidRat_Desc">이 주머니 쥐는 보통 녀석들 보다 훨씬 몸집이 크다.  악취나는 구름에 뒤덮혀 있다.</string>
+    <string name="FetidRat_Gender">여성</string>
+    <string name="FetidRat_Name">악취 쥐</string>
+    <string name="FetidRat_Name_Objective">악취 쥐</string>
+    <string name="Fez_Info">윗부분이 잘린 원뿔 모양의 붉은 펠트 머리덮개로, 꼭대기에 장식이 달려 있다. 당연히 세상이 3차원이 되는 마법 같은건 걸려있지 않다.</string>
+    <string name="Fez_Name">페즈</string>
+    <string name="FireArrow_Gender">여성스런</string>
+    <string name="FireArrow_Info">이 화살은 평범해 보이지만 화살촉에서 붉고 따뜻한 빛이 새어나온다.</string>
+    <string name="FireArrow_Name">불 화살</string>
+    <string name="FireQuiver_Gender">남성적인</string>
+    <string name="FireQuiver_Info"/>
+    <string name="FireQuiver_Name">불 화살통</string>
+    <string name="Fire_Info">불꽃이 맹렬하게 타오릅니다.</string>
+    <string name="Firebloom_Desc">화염초에 뭔가 닿으면, 불꽃으로 변해 버린다.</string>
+    <string name="Firebloom_Name">화염초</string>
+    <string name="Foliage_Info">빛의 기둥이 지하정원의 어둠을 관통합니다.</string>
+    <string name="Food_ACEat">먹는다</string>
+    <string name="Food_Message">이 음식은 맛있군!</string>
+    <string name="FrostArrow_Gender">여성스런</string>
+    <string name="FrostArrow_Info">화살 촉에서 차가운의 기운이 발산하는걸 느낄 수 있다.</string>
+    <string name="FrostArrow_Name">얼음 화살</string>
+    <string name="Frost_Info">얼어붙은</string>
+    <string name="Frost_Shatter">%s 이/가 얼어붙어 산산조각 났습니다!</string>
+    <string name="FrozenCarpaccio_Info">냉동시킨 고기 조각. 이걸 먹는 방법은 고기를 얇게 썰어서 먹는 것이다. 그리고 이렇게 먹으면 아주 맛이 좋다.</string>
+    <string name="FrozenCarpaccio_Info1">당신 손이 서서히 눈에서 사라지기 시작했다!</string>
+    <string name="FrozenCarpaccio_Info2">당신은 피부가 단단해 지는게 느껴진다.</string>
+    <string name="FrozenCarpaccio_Info3">상쾌하군!</string>
+    <string name="FrozenCarpaccio_Info4">당신은 기분이 좋아졌다</string>
+    <string name="FrozenCarpaccio_Name">얼린 생고기</string>
+    <string name="Fury_Info">격노</string>
+    <string name="GameScene_Chasm">당신의 발자국 소리가 던전에 울려 퍼진다.</string>
+    <string name="GameScene_Grass">식물 냄새가 공기중에 가득하다.</string>
+    <string name="GameScene_NightMode">조심하세요, 던전은 밤중엔 보다 더 위험합니다.</string>
+    <string name="GameScene_Secrets">이 곳의 분위기가 이 층엔 많은 비밀이 숨겨져 있음을 암시한다.</string>
+    <string name="GameScene_Water">물 소리가 당신 주위에서 들려 온다.</string>
+    <string name="GameScene_Welcome">Pixel Dungeon의 %d층에 오신걸 환영합니다!</string>
+    <string name="GameScene_WelcomeBack">Pixel Dungeon의 %d층에 돌아왔습니다!</string>
+    <string name="GasesImmunity_Info">가스에 면역</string>
+    <string name="Ghost_Defense">회피</string>
+    <string name="Ghost_Desc">이 유령은 거의 보이지 않는다. 그것은 슬픈 얼굴을 한 희미한 빛으로 된 형상없는 얼룩 같이 보인다.</string>
+    <string name="Ghost_Name">슬픈 유령</string>
+    <string name="Ghost_Rat1">반갑게 모험가여... 한때는 나도 당신과 같았다네 - 강하고 자신감이 넘쳤지... 하지만 지금은 죽었어... 하지만 난 이곳을 떠날수 없네... 복수하기 전까지는 말야... 내 목숨을 앗아간, _악취나는 쥐_를 없애 주게...</string>
+    <string name="Ghost_Rat2">제발... 도와주게...그 끔찍한 놈을 없애 주게...</string>
+    <string name="Ghost_Rose1">반갑네 모험가여... 한때는 나도 당신과 같았다네 - 강하고 자신감이 넘쳤지... 하지만 지금은 죽었어... 하지만 난 이곳을 떠날수 없네... 내 _마른 장미_를 찾기 전까지는 말야... 나한텐 매우 중요한 것이네... 어떤 몬스터가 내게서 훔쳐갔어...</string>
+    <string name="Ghost_Rose2">제발... 도와주게... 장미를 찾아 주시게...</string>
+    <string name="Glaive_Gender">여성</string>
+    <string name="Glaive_Info">이 폴암은 막대기 끝에 날이 달려있는 구조 입니다.</string>
+    <string name="Glaive_Name">글레이브</string>
+    <string name="Gnoll_Desc">놀은 하이에나 처럼 생긴 인간형 몬스터이다. 그들은 하수구나 던전에 살면서 때때로 지상을 습격한다. 놀 수색대는 그들 무리의 일반 구성원이다. 그들은 놀 정예병만큼 강하지도 않고 놀 주술사만큼 똑똑하지도 않다.</string>
+    <string name="Gnoll_Gender">남성</string>
+    <string name="Gnoll_Name">놀 정찰병</string>
+    <string name="Gnoll_Name_Objective">놀 정찰병</string>
+    <string name="Gold_Collect">나중에 상점에서 사용할 수 있는 금화를 수집합니다.</string>
+    <string name="Gold_Info">%d 금화더미</string>
+    <string name="Gold_Info1">금화 한개.</string>
+    <string name="Gold_Name">금화</string>
+    <string name="GoldenKey_Info">이 황금열쇠는 작고 복잡한 홈이 있습니다. 아마 어떤 상자의 잠금 장치를 열수 있지 않을까요?</string>
+    <string name="GoldenKey_Name">황금열쇠</string>
+    <string name="Golem_Defense">막음</string>
+    <string name="Golem_Desc">드워프들은 그들의 기계에 대한 지식과 새로 발견한 정령의 힘을 서로 융합하려고 하였다. 그들은 토양의 정기를 \"영혼\"으로 이용하여 골렘의 기계로된 몸체에 넣었고, 이를 조종할 수 있을거라고 믿어 의심치 않았다. 그럼에도 불구하고, 의식 도중의 아주 사소한 실수에도 재앙을 초래할 수 있다.</string>
+    <string name="Golem_Gender">남성</string>
+    <string name="Golem_Name">골렘</string>
+    <string name="Golem_Name_Objective">골렘</string>
+    <string name="Goo_Desc">블랙 푸딩에 대해서는 알려진게 없다. 생물이 아니라, 오히려 하수구로부터의 물질들이 접적된 것에 자유 의지의 씨앗이 깃든 무언가일 가능성도 있다. 어느 쪽이든 간에, 어둠의 마법이 이 곳에 영향을 미치고 있는게 틀림없다.</string>
+    <string name="Goo_Gender">여성</string>
+    <string name="Goo_Info1">블랙 푸딩이 부풀어 오르기 시작했다!</string>
+    <string name="Goo_Info2">꾸룩...꾸룩....</string>
+    <string name="Goo_Info3">꾸룩-꾸룩!</string>
+    <string name="Goo_Name">블랙 푸딩</string>
+    <string name="Goo_Name_Objective">블랙 푸딩</string>
+    <string name="Goo_StaInfo1">!!!</string>
+    <string name="Guts_TileDescBookshelf">그 책장은 완전히 두꺼운 살점 그물로 덮혀 있어, 책을 꺼낼 방법이 없다.</string>
+    <string name="Guts_TileDescDeco">이 장소는 좀...잘못된 것 같다.</string>
+    <string name="Guts_TileDescEntrance">빨아들이는 구멍이 던전의 높은 곳으로 향하게 한다.</string>
+    <string name="Guts_TileDescExit">빨아들이는 구멍이 던전의 아래층으로 향하게 한다.</string>
+    <string name="Guts_TileGrass">마른 덤불</string>
+    <string name="Guts_TileHighGrass">마른 덤불</string>
+    <string name="Guts_TileWater">이상한 점액질 액체</string>
+    <string name="Halberd_Gender">여성</string>
+    <string name="Halberd_Info">끝에 도끼가 달린 냉병기이다.</string>
+    <string name="Halberd_Name">미늘창</string>
+    <string name="Halls_TileDescBookshelf">고대의 언어로 쓰여진 책들이 책장에 가득하다.</string>
+    <string name="Halls_TileDescStatue">진짜 인간 해골로 만들어진 기둥이다. 놀라워!</string>
+    <string name="Halls_TileDescWater">용암처럼 보인다, 하지만 차가운데다가 만져도 괜찮은것 같다.</string>
+    <string name="Halls_TileGrass">화롯불이끼</string>
+    <string name="Halls_TileHighGrass">화롯불버섯</string>
+    <string name="Halls_TileStatue">기둥</string>
+    <string name="Halls_TileWater">차가운 용암</string>
+    <string name="Heap_Mimic">이건 미믹입니다!
+</string>
+    <string name="Hedgehog_Desc">저 고슴도치는 불안해 보인다.</string>
+    <string name="Hedgehog_ImLate">저 늦었어요, 엄청 늦었다구요...</string>
+    <string name="Hedgehog_Info1">당신도 곰을 찾고 있나요?</string>
+    <string name="Hedgehog_Info2">안개 속의 말은 어떤가요?</string>
+    <string name="Hedgehog_Info3">딸기잼으로 만든 차를 좋아 하세요?</string>
+    <string name="Hedgehog_Info4">이 파이 드세요</string>
+    <string name="Hedgehog_Name">고슴도치</string>
+    <string name="HeroClass_Elf">엘프</string>
+    <string name="HeroClass_Hun">사냥꾼</string>
+    <string name="HeroClass_Mag">마법사</string>
+    <string name="HeroClass_Rog">도적</string>
+    <string name="HeroClass_War">전사</string>
+    <string name="HeroSubClass_DescAssa">기습공격을 할 경우, _암살자_는 대상에게 추가 데미지를 가한다.</string>
+    <string name="HeroSubClass_DescBatM">지팡이를 장착하고 전투를 하면, _배틀메이지_는 현재 마나량에 비례한 추가 데미지를 입힌다. 공격이 성공할 때 마다 장착하고 있는 지팡이의 마나량이 1씩 회복된다.</string>
+    <string name="HeroSubClass_DescBers">상처가 심하면, _광전사_는 광란 상태가 되며 공격력이 크게 상승한다.</string>
+    <string name="HeroSubClass_DescFreR">_프리러너_는 대부분의 몬스터들 보다도 거의 두 배 가까이 빠르게 움직일 수 있다. 그가 달릴때는 상당히 맞추기가 어렵다. 그러기 위해서는 무겁게 장비했거나 굶주린 상태가 아니어야 한다.</string>
+    <string name="HeroSubClass_DescGlad">근접 무기를 이용한 공격에 성공하면 _검투사_는 연타를 시작하고, 다음 공격이 성공할 때 마다 추가로 데미지를 입힌다.</string>
+    <string name="HeroSubClass_DescScout">엘프 _정찰병_은 은신의 달인이다. 높게 자란 풀 위에 올라서면 잠시동안 은신 상태가 된다. 또한 일반 엘프들 보다 빠르다.</string>
+    <string name="HeroSubClass_DescShaman">엘프 _주술사_는 지팡이를 근접 무기로 사용할 수 있습니다. 타격에 성공시 완드의 마나를 소모하지 않고 지팡이의 힘을 적에게 가할 수 있습니다.</string>
+    <string name="HeroSubClass_DescSnip">_저격수_는 적의 갑옷의 취약점을 파악할 수 있어서, 원거리 무기 사용시 이를 효과적으로 무시할 수 있다.</string>
+    <string name="HeroSubClass_DescWarL">적을 죽이면, _워락_은 적의 영혼을 흡수하여, 상처를 치료하고 배를 채운다.</string>
+    <string name="HeroSubClass_DescWard">자연의 힘과의 밀접한 교감은 _숲지기_에게 식물로부터 이슬과 씨앗을 수확할 수 있는 능력을 준다. 또한, 높게 자란 풀 위에 올라서면 일시적인 방어도 버프를 부여한다.</string>
+    <string name="HeroSubClass_NameAssa">암살자</string>
+    <string name="HeroSubClass_NameBatM">배틀메이지</string>
+    <string name="HeroSubClass_NameBers">광전사</string>
+    <string name="HeroSubClass_NameFreR">프리러너</string>
+    <string name="HeroSubClass_NameGlad">검투사</string>
+    <string name="HeroSubClass_NameScout">정찰병</string>
+    <string name="HeroSubClass_NameShaman">주술사</string>
+    <string name="HeroSubClass_NameSnip">저격수</string>
+    <string name="HeroSubClass_NameWarL">워락</string>
+    <string name="HeroSubClass_NameWard">숲지기</string>
+    <string name="Hero_Leave">아무도 픽셀 던전을 쉽게 빠져 나갈 수 없다.</string>
+    <string name="Hero_LevelUp">레벨 업!</string>
+    <string name="Hero_LockedChest">이 상자는 잠겨 있고, 당신에게는 맞는 열쇠가 없다.</string>
+    <string name="Hero_LockedDoor">당신에게는 맞는 열쇠가 없다.</string>
+    <string name="Hero_Name">당신</string>
+    <string name="Hero_Name_Objective">당신</string>
+    <string name="Hero_NewLevel">레벨 %d이 된걸 축하합니다! 이제 당신은 보다 더 건강해지고 집중력이 높아졌습니다. 적을 맞추거나 공격을 회피하기 쉬워졌습니다.</string>
+    <string name="Hero_NoticedSmth">당신은 무언가를 눈치챘다.</string>
+    <string name="Hero_Search">탐색</string>
+    <string name="Hero_SomethingElse">여기에 다른 무언가가 있다.</string>
+    <string name="Hero_StaBleeding">당신은 피를 흘리고 있다!</string>
+    <string name="Hero_StaBlindness">당신은 눈이 멀었다!</string>
+    <string name="Hero_StaBurning">당신에게 불이 붙었다!</string>
+    <string name="Hero_StaCharm">당신은 매혹되었다!</string>
+    <string name="Hero_StaCripple">당신은 불구가 되었다!</string>
+    <string name="Hero_StaFurious">광란</string>
+    <string name="Hero_StaFury">당신은 광란 상태에 빠졌다!</string>
+    <string name="Hero_StaOoze">부식성 점액이 당신의 살을 녹이고 있다. 씻어내라!</string>
+    <string name="Hero_StaParalysis">당신은 마비되었다!</string>
+    <string name="Hero_StaPoison">당신은 중독되었다!</string>
+    <string name="Hero_StaRoots">당신은 움직일 수 없다!</string>
+    <string name="Hero_StaVertigo">주변이 빙글빙글 돈다!</string>
+    <string name="Hero_StaWeakness">당신은 힘이 약해짐을 느꼈다!</string>
+    <string name="Hero_Wait">...</string>
+    <string name="Hero_YouNowHave">%s을/를 얻었다.</string>
+    <string name="Hunger_Death">굶어 죽었습니다.</string>
+    <string name="Hunger_Info1">배고프다</string>
+    <string name="Hunger_Info2">굶주린</string>
+    <string name="HuntressArmor_ACSpecial">귀검</string>
+    <string name="HuntressArmor_Desc">이 망토를 착용한 사냥꾼은 귀검 부채를 만들어낼 수 있다.각 칼날 하나마다 시야에 들어온 적 하나씩을 노리고, 착용중인 근접 무기의 공격력에 따라 피해를 준다.</string>
+    <string name="HuntressArmor_Name">사냥꾼의 망토</string>
+    <string name="HuntressArmor_NoEnemies">시야 내에 적 없음</string>
+    <string name="HuntressArmor_NotHuntress">이 갑옷은 사냥꾼만 착용 가능하다.</string>
+    <string name="Icecap_Desc">얼음송이를 만지면 꽃가루를 사방에 배출하는데, 이는 가까이 있는 모든것을 얼려버린다.</string>
+    <string name="Icecap_Name">얼음송이</string>
+    <string name="ImpShopkeeper_Desc">임프들은 하급 데몬들이다. 그들이 유명한건 힘도 마법 재능도 아닌, 영리함과 사회성 때문이다. 많은 임프들은 데몬이 아닌 것들과 살아가는 것을 좋아한다.</string>
+    <string name="ImpShopkeeper_Greetings">안녕, 친구!</string>
+    <string name="ImpShopkeeper_Name">야망있는 임프</string>
+    <string name="Imp_Cya">나중에 봐요, %s!</string>
+    <string name="Imp_Defense">회피</string>
+    <string name="Imp_Desc">임프들은 하급 데몬들이다. 그들이 유명한건 힘도 마법 재능도 아닌, 영리함과 사회성 때문이다. 많은 임프들은 데몬이 아닌 것들과 살아가는 것을 좋아한다.</string>
+    <string name="Imp_Golems1">모험가이신가요? 전 모험가들이 좋아요! 누군가를 죽이고 싶을땐 언제나 그들에게 믿고 맡길 수 있죠. 내 말이 맞죠? 당연히 댓가도 드리죠. :)\n제 경우엔 _골렘_을 죽이고 싶어요. 보세요. 여기서 조그만한 사업을 하나 시작하려고 하는데요, 이놈의 멍청한 골렘들이 골치예요. 돌아다니는 화강암 덩어리인 녀석들과는 도무지 협상이 안되요, 제길! 그러니 제발, 좀 죽여줘요... 한.._6 마리_정도면 보상하겠습니다.</string>
+    <string name="Imp_Golems2">골렘 사파리는 잘되가고 있나요?</string>
+    <string name="Imp_Hey">저기요, %s!</string>
+    <string name="Imp_Monks1">모험가이신가요? 전 모험가들이 좋아요! 누군가를 죽이고 싶을땐 언제나 그들에게 믿고 맡길 수 있죠. 내 말이 맞죠? 당연히 댓가도 드리죠. :)\n제 경우엔 _수도승_을 죽이고 싶어요. 보세요. 여기서 조그만한 사업을 하나 시작하려고 하는데요, 이 미치광이들은 아무 것도 안 살 거고 손님들만 겁줘서 쫒아낼 거에요. 그러니 제발, 좀 죽여줘요... 한.._8 마리_정도면 보상하겠습니다.</string>
+    <string name="Imp_Monks2">오, 당신 아직 살아 있네요! 역시 당신의 쿵푸가 더 강할줄 알았아요 :) 드워프 토큰 챙기는거 잊지 마요.</string>
+    <string name="Imp_Name">야망있는 임프</string>
+    <string name="IncendiaryDart_Gender">남성</string>
+    <string name="IncendiaryDart_Info">이 다트끝에 있는 스파이크는 목표물에 도달하면 화려한 불꽃을 내며 폭발하도록 설계되어 있습니다.</string>
+    <string name="IncendiaryDart_Name">방화 다트</string>
+    <string name="InterLevelScene_Ascending">올라가는중...</string>
+    <string name="InterLevelScene_Descending">내려가는중...</string>
+    <string name="InterLevelScene_ErrorGeneric">무언가 잘못 되었다...</string>
+    <string name="InterLevelScene_Falling">떨어지는중...</string>
+    <string name="InterLevelScene_FileNotFound">파일을 찾지 못함. 어떠한 이유로...</string>
+    <string name="InterLevelScene_Loading">로딩중...</string>
+    <string name="InterLevelScene_Resurrecting">부활중...</string>
+    <string name="InterLevelScene_Returning">돌아오는중...</string>
+    <string name="IntroScene_Txt">수많은 영웅들이 당신 이전에 던전으로 모험을 떠났다. 일부는 보물이나 마법 장비와 함께 돌아 오기도 했지만, 대부분은 그 이후로 소식이 끊겼다. 하지만 그 누구도 던전 가장 아래에 숨겨진 옌도르의 아뮬렛을 손에 넣는데 성공한 사람은 없다.\n\n당신은 이제 도전을 받아들일 준비가 되었다. 무엇보다도 행운의 여신이 당신에게 미소짓고 있다고 생각하기 때문이다. 이제 당신만의 모험을 떠날 시간이다!</string>
+    <string name="InventoryScroll_No">아니, 생각을 바꿨어</string>
+    <string name="InventoryScroll_Title">아이템을 선택하세요.</string>
+    <string name="InventoryScroll_Warning">정말 이 스크롤 사용을 취소 하시겠습니까? 어쨌든 스크롤은 소모됩니다.</string>
+    <string name="InventoryScroll_Yes">네, 괜찮습니다.</string>
+    <string name="Invisibility_Info">투명</string>
+    <string name="IronKey_FromDepth">이 열쇠는 %d 층 열쇠 입니다.</string>
+    <string name="IronKey_Info">열쇠에 있는 홈이 많이 닳아있고 가죽끊은 오래써서 낡아 보입니다. 이걸로 어떤문을 열수 있을까요?</string>
+    <string name="IronKey_Name">열쇠</string>
+    <string name="ItemSprite_Info1">drop aside: %1$.1f %2$.1f</string>
+    <string name="Item_ACDrop">버리다</string>
+    <string name="Item_ACThrow">던지다</string>
+    <string name="Item_DirThrow">던질 방향을 선택하세요.</string>
+    <string name="Item_Info">어떤것</string>
+    <string name="Item_Name">어떤것</string>
+    <string name="Item_PackFull">가방이 가득차서 %s 넣을 수 없습니다.
+</string>
+    <string name="Javelin_Gender">중성</string>
+    <string name="Javelin_Info">이 금속이 스파이크를 유지하며 날아가도록 한다.</string>
+    <string name="Javelin_Name">자벨린</string>
+    <string name="Journal_Alchemy">연금술 솥</string>
+    <string name="Journal_Azuterron">이방인</string>
+    <string name="Journal_Garden">정원</string>
+    <string name="Journal_Ghost">슬픈 유령</string>
+    <string name="Journal_Imp">야망가 임프</string>
+    <string name="Journal_Statue">살아난 석상</string>
+    <string name="Journal_Troll">트롤 대장장이</string>
+    <string name="Journal_Wandmaker">늙은 완드 장인</string>
+    <string name="Journal_WellAwareness">깨닳음의 우물</string>
+    <string name="Journal_WellHealt">회복의 우물</string>
+    <string name="Journal_WellTransmut">변이의 우물</string>
+    <string name="Keyring_Info">이것은 가방에서 열쇠들이 자리를 차지하지 않고 별도로 보관할 수 있는 구리 열쇠고리 입니다.</string>
+    <string name="Keyring_Name">열쇠고리</string>
+    <string name="KindOfWeapon_EquipCursed">%s 주위로 몰려드는 강한 느낌에 당신은 잠시 주춤 했습니다.</string>
+    <string name="King_Defense">막음</string>
+    <string name="King_Desc">드워프의 마지막 왕은 생명과 죽음의 원리에 대해 깊은 지식을 가진 것으로 잘 알려져 있다. 그는 의회의 의원들을 영원한 젊음을 얻을 수 있다고 설득하여 의식에 참여하게 하였다. 마지막에 그걸 얻은건 왕 혼자 뿐이었다. 그리고 그는 보너스로 언데드 군대도 얻었다.</string>
+    <string name="King_Gender">남성</string>
+    <string name="King_Info1">넌 나를 죽일 수 없다, %s... 나는... 불사신이다...</string>
+    <string name="King_Info2">일어나라, 노예들아!</string>
+    <string name="King_Info3">네가 감히!</string>
+    <string name="King_Name">드워프 왕</string>
+    <string name="King_Name_Objective">드워프 왕</string>
+    <string name="Knuckles_Gender">남성</string>
+    <string name="Knuckles_Info">이 너클은 쇠로된 조각이 주먹에 꼭 맞도록 만들어져 있습니다.</string>
+    <string name="Knuckles_Name">너클더스터</string>
+    <string name="Kusarigama_Gender">여성</string>
+    <string name="Kusarigama_Info">이 무기는 낫이 달린 사슬의 끝에 무거운 강철로 된 추가 달려있습니다.</string>
+    <string name="Kusarigama_Name">쿠사리가마</string>
+    <string name="Kusarigama_Pull">당기다</string>
+    <string name="Larva_Desc">고대 신의 애벌레</string>
+    <string name="Larva_Gender">여성</string>
+    <string name="Larva_Name">신의 애벌레</string>
+    <string name="Larva_Name_Objective">신의 애벌레</string>
+    <string name="LastLevel_TileDescStatue">이 기둥은 진짜 휴머노이드 해골로 만들어져 있다. 대박.</string>
+    <string name="LastLevel_TileDescWater">용암처럼 보인다. 하지만 차갑고, 아마 만져도 괜찮을 것이다.</string>
+    <string name="LastLevel_TileGrass">화롯불이끼</string>
+    <string name="LastLevel_TileHighGrass">화롯불버섯</string>
+    <string name="LastLevel_TileStatue">기둥</string>
+    <string name="LastLevel_TileWater">차가운 용암</string>
+    <string name="LastShopLevel_TileDescDeco">타일 이가 여기저기 빠져 있다.</string>
+    <string name="LastShopLevel_TileDescEmptySP">두터운 카펫이 복도를 덮고 있다.</string>
+    <string name="LastShopLevel_TileDescEntrance">위 층으로 향하는 경사로</string>
+    <string name="LastShopLevel_TileDescExit">아래의 지옥불로 향하는 경사로.</string>
+    <string name="LastShopLevel_TileHighGrass">높이 피어있는 꽃들</string>
+    <string name="LastShopLevel_TileWater">수상한 색의 물</string>
+    <string name="LeatherArmor_Desc">무두질한 몬스터 가죽으로 만든 갑옷. 천 갑옷만큼 가볍지는 않지만 더 나은 방어력을 제공한다.</string>
+    <string name="LeatherArmor_Name">가죽 갑옷</string>
+    <string name="Level_HiddenPlate">숨겨진 발판이 발동했다!</string>
+    <string name="Level_TileAlarmTrap">경보 함정</string>
+    <string name="Level_TileAlchemy">연금솥</string>
+    <string name="Level_TileBarricade">바리케이드</string>
+    <string name="Level_TileBookshelf">책장</string>
+    <string name="Level_TileChasm">낭떠러지</string>
+    <string name="Level_TileClosedDoor">닫긴 문</string>
+    <string name="Level_TileDefault">\?\?\?</string>
+    <string name="Level_TileDescAlchemy">여기다가 씨앗을 떨어뜨려 물약을 제조할 수 있다.</string>
+    <string name="Level_TileDescBarricade">나무 바리케이드가 단단히 가로막고 있지만 수년동안 바짝 말라 있다. 불에 탈까?</string>
+    <string name="Level_TileDescChasm">바닥이 보이지 않는다.</string>
+    <string name="Level_TileDescEmbers">바닥 전체가 잿더미다</string>
+    <string name="Level_TileDescEmptyWell">우물은 말라있다.</string>
+    <string name="Level_TileDescEntrance">계단은 위를 향하고 있다.</string>
+    <string name="Level_TileDescExit">계단은 아래를 향하고 있다.</string>
+    <string name="Level_TileDescHighGrass">빽빽한 초목이 시야를 방해한다.</string>
+    <string name="Level_TileDescInactiveTrap">함정이 이미 발동해서 더 이상 위험하지 않다.</string>
+    <string name="Level_TileDescLockedDoor">이 문은 잠겨 있습니다. 열기 위해서는 맞는 열쇠가 필요합니다.</string>
+    <string name="Level_TileDescLockedExit">무거운 빗장이 아래로 내려가는 계단을 가로막고 있다.</string>
+    <string name="Level_TileDescSign">여기서는 글씨가 보이지 않는다.</string>
+    <string name="Level_TileDescStatue">누군가 이곳을 꾸미고 싶어했지만, 당연히 던전의 분위기를 바꾸진 못했다.</string>
+    <string name="Level_TileDescTrap">숨겨진 발판을 디디면 함정이 발동한다.</string>
+    <string name="Level_TileDescWater">불이 붙었다면, 물 속에 들어가 불을 끄세요.</string>
+    <string name="Level_TileEmbers">잿더미</string>
+    <string name="Level_TileEmptyWell">빈 우물</string>
+    <string name="Level_TileEntrance">층 입구</string>
+    <string name="Level_TileExit">층 출구</string>
+    <string name="Level_TileFireTrap">화염 함정</string>
+    <string name="Level_TileFloor">바닥</string>
+    <string name="Level_TileGrass">잔디</string>
+    <string name="Level_TileGrippingTrap">속박 함정</string>
+    <string name="Level_TileHighGrass">높게 자란 풀</string>
+    <string name="Level_TileInactiveTrap">발동된 함정</string>
+    <string name="Level_TileLightningTrap">번개 함정</string>
+    <string name="Level_TileLockedDoor">잠긴 문</string>
+    <string name="Level_TileLockedExit">잠긴 층 출구</string>
+    <string name="Level_TileOpenDoor">열린 문</string>
+    <string name="Level_TileParalyticTrap">마비가스 함정</string>
+    <string name="Level_TilePedestal">받침대</string>
+    <string name="Level_TilePoisonTrap">맹독다트 함정</string>
+    <string name="Level_TileSign">표지판</string>
+    <string name="Level_TileStatue">석상</string>
+    <string name="Level_TileSummoningTrap">소환 함정</string>
+    <string name="Level_TileToxicTrap">독가스 함정</string>
+    <string name="Level_TileUnlockedExit">열린 층 출구</string>
+    <string name="Level_TileWall">벽</string>
+    <string name="Level_TileWater">물</string>
+    <string name="Level_TileWell">우물</string>
+    <string name="Levitation_Info">공중부양</string>
+    <string name="Light_Info">섬광</string>
+    <string name="LightningTrap_Desc">당신은 번개 함정의 방전으로 사망했습니다...</string>
+    <string name="LightningTrap_Name">번개 함정</string>
+    <string name="LloidsBeacon_ACReturn">RETURN</string>
+    <string name="LloidsBeacon_ACSet">SET</string>
+    <string name="LloidsBeacon_Creatures">주변 생물의 영향력때문에 lloyd의 신호기를 사용할 수 없습니다.</string>
+    <string name="LloidsBeacon_Info">Lloyd의 신호기는 저장된 위치로 귀환할 수 있는 복잡한 마법 장치 입니다.</string>
+    <string name="LloidsBeacon_Name">lloyd의 신호기</string>
+    <string name="LloidsBeacon_Preventing">이곳의 강력한 마법장이 lloyd의 신호기를 사용하지 못하게 막고 있습니다!</string>
+    <string name="LloidsBeacon_Return">lloyd의 신호기가 귀환위치를 설정하는데 성공했습니다. 이제 언제든지 당신은 여기로 귀환할 수 있습니다.</string>
+    <string name="LloidsBeacon_Set">
+lloyd의 신호기는 %d 층 어딘가에 귀환지점을 설정했습니다.</string>
+    <string name="Longsword_Gender">남성</string>
+    <string name="Longsword_Info">이 우뚝 솟은 칼날은 모든 동작에 그 무게를 실어 큰 피해를 입힙니다.</string>
+    <string name="Longsword_Name">롱소드</string>
+    <string name="Mace_Gender">여성</string>
+    <string name="Mace_Info">이 무기의 아이언 헤드는 상당한 피해를 입힙니다.</string>
+    <string name="Mace_Name">메이스</string>
+    <string name="MageArmor_ACSpecial">용암 분출</string>
+    <string name="MageArmor_Desc">이 멋진 로브를 입고있는 마법사는 용암 분출 주문을 사용할 수 있다; 시야의 모든 적에 불을 붙이고 움직일 수 없게 한다.</string>
+    <string name="MageArmor_Name">마법사의 로브</string>
+    <string name="MageArmor_NotMage">이 갑옷은 마법사만 착용 가능하다</string>
+    <string name="MailArmor_Desc">갑옷을 단단하면서도 유연하게 하기 위하여 쇠사슬을 엮어 만들었다.</string>
+    <string name="MailArmor_Name">사슬 갑옷</string>
+    <string name="MeleeWeapon_Info1a">이 %1$s 은/는 %2$s %3$d차 근접 무기입니다.-업그레이드시 +차수 데미지-</string>
+    <string name="MeleeWeapon_Info1b">일반</string>
+    <string name="MeleeWeapon_Info1c">향상된</string>
+    <string name="MeleeWeapon_Info1d">하향된</string>
+    <string name="MeleeWeapon_Info2a">평균 데미지는 타격당 %d 포인트.</string>
+    <string name="MeleeWeapon_Info2b">일반적으로 평균피해는 타격당 %1$d 데미지를 줍니다. 이것을 위해서는 힘이 %2$d가 필요합니다.</string>
+    <string name="MeleeWeapon_Info2c">아무래도 이 무기는 당신한테 너무 무겁다.</string>
+    <string name="MeleeWeapon_Info3a">이 무기는 보다 %s 무기이다.</string>
+    <string name="MeleeWeapon_Info3b">빠른</string>
+    <string name="MeleeWeapon_Info3c">느린</string>
+    <string name="MeleeWeapon_Info3d">그리고</string>
+    <string name="MeleeWeapon_Info3e">하지만</string>
+    <string name="MeleeWeapon_Info3f">정확한</string>
+    <string name="MeleeWeapon_Info3g">부정확한</string>
+    <string name="MeleeWeapon_Info4a">밸런스를 속도에 맞췄다.</string>
+    <string name="MeleeWeapon_Info4b">밸런스를 정확도에 맞췄다.</string>
+    <string name="MeleeWeapon_Info5">인챈트 되어 있음.</string>
+    <string name="MeleeWeapon_Info6a">당신의 힘 수치가 부족하기 때문에 이 %s 의 정확도와 속도가 감소합니다.</string>
+    <string name="MeleeWeapon_Info6b">당신의 힘 수치를 초과 하는 만큼 이 %s 의 공격 데미지가 증가합니다.</string>
+    <string name="MeleeWeapon_Info7a">당신이 쥐고 있는 %1$s 의 준비가 완료되었습니다.%2$s</string>
+    <string name="MeleeWeapon_Info7b">, 그리고 이 저주때문에 당신은 전혀 움직일 수 없습니다.</string>
+    <string name="MeleeWeapon_Info7c">당신은 %s 안에 숨어있는 악의적인 마법을 느낄 수 있습니다.</string>
+    <string name="Metabolism_Txt">신진대사의 %s</string>
+    <string name="MimicAmulet_Desc">당신이 한 모험의 가장 영광스러운 순간은 그저 함정이었을 뿐이었다.</string>
+    <string name="MimicAmulet_Gender">남성</string>
+    <string name="MimicAmulet_Name">미믹</string>
+    <string name="MimicAmulet_Name_Objective">미믹</string>
+    <string name="MimicPie_Desc">미믹은 자기가 원하는 어떤 형상으로도 변할 수 있는 마법의 생물이다. 이 놈은 크고 맛있는 파스티처럼 생겼다.</string>
+    <string name="MimicPie_Gender">남성</string>
+    <string name="MimicPie_Name">미믹</string>
+    <string name="MimicPie_Name_Objective">미믹</string>
+    <string name="Mimic_Desc">미믹은 자기가 원하는 어떤 형상으로도 변할 수 있는 마법의 생물이다. 던전에서 그들은 거의 항상 보물상자 형상을 하고 있는데, 어떻게 하면 모험가들을 유인할 수 있는지 잘 알기 때문이다.</string>
+    <string name="Mimic_Gender">남성</string>
+    <string name="Mimic_Name">미믹</string>
+    <string name="Mimic_Name_Objective">미믹</string>
+    <string name="MindVision_Info">마인드 비젼</string>
+    <string name="MirrorImage_Desc">이 환영은 당신과 빼닮은 형상을 하고 있지만, 좀 더 창백하고 조금씩 아른거린다.</string>
+    <string name="MirrorImage_Gender">남성</string>
+    <string name="MirrorImage_Name">거울상</string>
+    <string name="MirrorImage_Name_Objective">거울상</string>
+    <string name="MissileWeapon_Info1">
+평균 데미지는 타격당 %d 포인트와 같다.</string>
+    <string name="MissileWeapon_Info2">당신의 부족한 힘수치 때문에 %s 의 정확도와 속도가 감소됩니다.</string>
+    <string name="MissileWeapon_Info3">당신의 초과 힘수치 만큼 %s 의 데미지가 증가합니다.</string>
+    <string name="MissileWeapon_Info4">
+당신이 쥐고 있는 %s 의 준비가 완료되었습니다.</string>
+    <string name="MissileWeapon_Missiles">원거리 무기</string>
+    <string name="MissileWeapon_No">아니, 생각을 바꿨어</string>
+    <string name="MissileWeapon_Sure">정말로 이 것을 근접 무기로 장비 하시겠습니까?</string>
+    <string name="MissileWeapon_Yes">그래, 내가 뭘하는진 내가 잘알아</string>
+    <string name="Mob_Desc">진짜 설명은 곧 나올 예정입니다!</string>
+    <string name="Mob_Died">저 멀리서 뭔가가 죽는 소리가 들었다.</string>
+    <string name="Mob_StaFleeingStatus">이 %s 은/는 혼비백산하고 있습니다.</string>
+    <string name="Mob_StaHuntingStatus">이 %s 은/는 사냥중 입니다</string>
+    <string name="Mob_StaPassiveStatus">이 %s 은/는 소극적입니다</string>
+    <string name="Mob_StaSleepingStatus">이 %s 은/는 자고 있습니다.</string>
+    <string name="Mob_StaWanderingStatus">이 %s 은/는 방랑중 입니다</string>
+    <string name="Mob_Yell">%1$s: \"%2$s\"</string>
+    <string name="Mods_AuthorEmail">작가의 이메일:</string>
+    <string name="Mods_AuthorSite">작가 홈페이지:</string>
+    <string name="Mods_CreatedBy">제작자:</string>
+    <string name="Mods_RestartRequired">재시작하십시오</string>
+    <string name="Monk_Defense">막음</string>
+    <string name="Monk_Desc">외부 침략자들로부터 자신들의 도시의 비밀을 지키는데 헌신하는 이 수도승들은 광기에 빠져 있다. 그들은 아무런 갑옷도 무기도 사용하지 않고, 오직 맨주먹에 의지하여 싸운다.</string>
+    <string name="Monk_Disarm">%1$s 이  %2$s 을/를 당신 손에서 떨어 뜨렸다!</string>
+    <string name="Monk_Gender">남성</string>
+    <string name="Monk_Name">드워프 수도승</string>
+    <string name="Monk_Name_Objective">드워프 수도승</string>
+    <string name="Multiplicity_Txt">다중성의 %s</string>
+    <string name="MysteryMeat_Info">상했을 수 있습니다</string>
+    <string name="MysteryMeat_Info1">으, 뜨거워!</string>
+    <string name="MysteryMeat_Info2">다리에 감각이 느껴지지 않는다!</string>
+    <string name="MysteryMeat_Info3">당신은 기분이 좋지 않다.</string>
+    <string name="MysteryMeat_Info4">당신은 배가 부릅다.</string>
+    <string name="MysteryMeat_Message">이 음식.... 맛이 이상하군.</string>
+    <string name="MysteryMeat_Name">알 수 없는 고기</string>
+    <string name="NekoEars_Info">가끔은 괴물들의 피와 흙을 씻어내고 귀여운 척을 할 수도 있다... 대신 귀여운 고양이 귀를 쓸 수도 있고.</string>
+    <string name="NekoEars_Name">고양이 귀 머리띠</string>
+    <string name="Ooze_Death">%s 이/가 당신을 죽였습니다...</string>
+    <string name="Ooze_Info">부식성 점액</string>
+    <string name="OverpricedRation_Info">일반적인 비상 식량과 똑같이 생겼지만 크기가 좀 더 작습니다.</string>
+    <string name="OverpricedRation_Message">맛이 좋습니다.</string>
+    <string name="OverpricedRation_Name">비싼 비상 식량</string>
+    <string name="ParalysisArrow_Gender">여성스런</string>
+    <string name="ParalysisArrow_Info">이 화살은 쿠라레 독이 칠해져 있다.</string>
+    <string name="ParalysisArrow_Name">마비 화살</string>
+    <string name="ParalysisQuiver_Gender">남성적인</string>
+    <string name="ParalysisQuiver_Info"/>
+    <string name="ParalysisQuiver_Name">마비 화살통</string>
+    <string name="Paralysis_Info">마비</string>
+    <string name="ParalyticGas_Info">마비가스의 구름이 소용돌이 칩니다.</string>
+    <string name="Pasty_Info">소고기와 감자를 넣어 전통 방법으로 요리한 영국식 파스티이다.</string>
+    <string name="Pasty_Name">파스티</string>
+    <string name="Pickaxe_ACMine">광산</string>
+    <string name="Pickaxe_Gender">여성스런</string>
+    <string name="Pickaxe_Info">이 크고 튼튼한 도구는 바위를 파괴하기 위한 도구입니다. 이건 아마 무기로도 사용할 수 있을꺼 같네요.</string>
+    <string name="Pickaxe_Name">곡괭이</string>
+    <string name="Pickaxe_NoVein">근처에 캘수있는 흑금광석이 없습니다.</string>
+    <string name="Piranha_Desc">이 식인 물고기는 지하 웅덩이의 자연적인 생물이 아니다. 그들은 침수된 보물창고를 지키기 위해 특별히 사육된 녀석들이다.</string>
+    <string name="Piranha_Gender">여성</string>
+    <string name="Piranha_Name">거대 피라냐</string>
+    <string name="Piranha_Name_Objective">거대 피라냐</string>
+    <string name="Plant_ACPlant">심는다</string>
+    <string name="Plant_Info"> %1$s를 심고 싶은 곳에 이 씨앗을 던지십시오.\n\n%2$s</string>
+    <string name="Plant_Seed">%s 의 씨앗</string>
+    <string name="PlateArmor_Desc">많은 철판들을 서로 연결해 한 벌로 만들어, 이 엄청난 무게를 견딜 수 있는 모험자들에게는 비교할 수 없는 방어력을 제공한다.</string>
+    <string name="PlateArmor_Name">판금 갑옷</string>
+    <string name="PoisonArrow_Gender">여성스런</string>
+    <string name="PoisonArrow_Info">치명적인 독이 화살 촉 표면에 번들거린다.</string>
+    <string name="PoisonArrow_Name">독 화살</string>
+    <string name="PoisonQuiver_Info"/>
+    <string name="PoisonQuiver_Name">독 화살통</string>
+    <string name="Poison_Death">독에 의해 사망하였습니다...</string>
+    <string name="Poison_Info">중독</string>
+    <string name="Poisonuiver_Gender">남성적인</string>
+    <string name="Potential_Txt">전격의 %s</string>
+    <string name="PotionBelt_Info">이 튼튼한 가죽벨트로 깨지기 쉬운 여러 포션들을 저장할 수 있습니다.</string>
+    <string name="PotionBelt_Name">포션 벨트</string>
+    <string name="PotionOfExperience_Info">이야기속에 나오는 수많은 전투 경험들이 액체 형태로 축약된  것으로, 마시면 순간적으로 경험치 레벨을 증가시킬 수 있다.</string>
+    <string name="PotionOfExperience_Name">숙련 포션</string>
+    <string name="PotionOfFrost_Info">공기중에 노출되면, 화학물질이 증발하여 냉기 구름을 형성하여, 닿은 생물들을 그 자리에 모조리 얼려 버리고 아무런 행동도 할 수 없게 만든다.</string>
+    <string name="PotionOfFrost_Name">서리 포션</string>
+    <string name="PotionOfHealing_Apply">상처가 완전히 회복되었다.</string>
+    <string name="PotionOfHealing_Info">순식간에 체력을 완전히 회복시켜주고 중독을 치료하는 묘약이다.</string>
+    <string name="PotionOfHealing_Name">회복 포션</string>
+    <string name="PotionOfInvisibility_Apply">당신의 손이 서서히 눈에서 사라지기 시작했다!!</string>
+    <string name="PotionOfInvisibility_Info">이 물약을 마시면 잠시동안 모습이 사라진다. 은신한 동안 적들은 당신을 볼 수 없다. 적의 시야 안에서 적을 공격하거나, 완드 또는 스크롤을 사용하면 효과가 풀린다.</string>
+    <string name="PotionOfInvisibility_Name">투명 포션</string>
+    <string name="PotionOfLevitation_Apply">공기 중으로 두둥실 떴다!</string>
+    <string name="PotionOfLevitation_Info">이 흥미로운 액체를 마시게되면 몸이 공중에 뜨게되어, 함정 위를 아무런 힘들이지 않고 지나갈 수 있다. 하지만 가스나 화염은 공기중을 가득 매우기 때문에 비행 중이라도 피해없이 지나가기 힘들다.</string>
+    <string name="PotionOfLevitation_Name">공중부양 포션</string>
+    <string name="PotionOfLiquidFlame_Info">플라스크는 불안정한 혼합물로 가득차 있어, 공기에 닿으면 폭발하며 화염을 일으킨다.</string>
+    <string name="PotionOfLiquidFlame_Name">액체화염 포션</string>
+    <string name="PotionOfMight_Apply">새로운 힘이 당신 몸속으로 밀려든다.</string>
+    <string name="PotionOfMight_Info">이 강력한 액체는 당신의 근육으로 퍼져, 영구적으로 힘 1 과 체력 5를 증가시킨다.</string>
+    <string name="PotionOfMight_Name">용력 포션</string>
+    <string name="PotionOfMight_StaApply">+1 힘, +5 체력</string>
+    <string name="PotionOfMindVision_Apply1">당신은 왠지 다른 생물들의 존재를 느낄 수 있게 되었다!</string>
+    <string name="PotionOfMindVision_Apply2">당신은 왠지 지금 이 순간 이 층에는 당신 혼자 뿐이란걸 느낄 수 있게 되었다.</string>
+    <string name="PotionOfMindVision_Info">이걸 마신 후에는, 당신의 마음이 멀리 떨어진 생명체의 정신신호와 공명하게 되어, 생물의 존재를 벽너머로도 감지할 수 있다. 또한 이 포션은 가까이 있는 벽과 문 너머를 볼 수 있는 능력을 준다.</string>
+    <string name="PotionOfMindVision_Name">심안 포션</string>
+    <string name="PotionOfParalyticGas_Info">이 플라스크 안의 액체가 공기에 닿으면,  증발하여 마비를 일으키는 노란 안개로 바뀐다. 누구든 이 증기를 흡입하게되면 순간적으로 마비를 일으키고, 안개가 가신 후에도 얼마동안은 움직일 수 없게된다. 멀리있는 적에게 이 아이템을 던져서 적을 가스속에 가둘 수 있다.</string>
+    <string name="PotionOfParalyticGas_Name">마비가스 포션</string>
+    <string name="PotionOfPurity_Freshness">비범한 상쾌함이 공기에서 느껴진다.</string>
+    <string name="PotionOfPurity_Info">이 시약은 유효 범위내의 모든 해로운 가스들을 빠르게 정화한다. 마셨을 땐 그런 가스들에 대해 면역이 잠시동안 생긴다.</string>
+    <string name="PotionOfPurity_Name">정화 포션</string>
+    <string name="PotionOfPurity_NoSmell">잠시동안 아무런 냄새도 맡을 수 없게 되었다!</string>
+    <string name="PotionOfStrength_Apply">새로운 힘이 당신 몸속으로 밀려든다.</string>
+    <string name="PotionOfStrength_Info">이 강력한 액체는 근육으로 퍼져 영구적으로 힘을 1 증가시킨다.</string>
+    <string name="PotionOfStrength_Name">힘 포션</string>
+    <string name="PotionOfStrength_StaApply">+1 힘</string>
+    <string name="PotionOfToxicGas_Info">이 유리병을 열거나 충격을 가하면 치명적인 독성의 녹색 가스가 폭발합니다. 선택하세요. 당신의 손으로 열거나 적에게 던지거나 당신 마음입니다.</string>
+    <string name="PotionOfToxicGas_Name">독가스 포션</string>
+    <string name="Potion_ACDrink">마신다</string>
+    <string name="Potion_ACMoisten">바르다</string>
+    <string name="Potion_ArrowMoisten">성공적으로 화살을 촉촉하게 했습니다.</string>
+    <string name="Potion_Beneficial">이로운 포션</string>
+    <string name="Potion_FoodRefreshed">지금은 %s 을/를 먹을 수 있을꺼 같습니다.</string>
+    <string name="Potion_Harmfull">해로운 포션!</string>
+    <string name="Potion_Info">이 플라스크는 속에 출렁이는 %s 액체를 담고 있습니다. 마시거나 던지면 과연 무슨 일이 일어날까요?</string>
+    <string name="Potion_ItemFliesAway">%s 이/가 손에서 멀리 날아갔다.</string>
+    <string name="Potion_MoistenUseless">그 물약을 낭비한 것 같습니다.</string>
+    <string name="Potion_Name">%s 포션</string>
+    <string name="Potion_No">아니, 생각을 바꿨어</string>
+    <string name="Potion_RuneDissaperaed">룬이 %s에서 사라졌습니다.</string>
+    <string name="Potion_SelectForMoisten">적실 아이템을 선택 하세요.</string>
+    <string name="Potion_Shatter">플라스크가 산산조각나고 %s 액체가 사방으로 튀었는데 해롭진 않아 보인다.</string>
+    <string name="Potion_SureDrink">정말 마실건가요? 보통은 이런 포션들은 적한테 던지는 용도로 사용합니다.</string>
+    <string name="Potion_SureThrow">정말 던질건가요? 보통은 이런 포션들은 마시는게 상식입니다.</string>
+    <string name="Potion_Yes">네, 내가 뭘 하려는지 잘 알고 있습니다.</string>
+    <string name="Prison_TileDescBookshelf">이건 아마 감옥 도서관의 흔적일 것이다. 불에 탈 것 같은데?</string>
+    <string name="Prison_TileDescDeco">복도에 오래된 핏자국이 남아 있다.</string>
+    <string name="Prison_TileWater">검고 차가운 물</string>
+    <string name="PseudoPasty_Info">소고기와 감자를 넣어 전통 방법으로 요리한 영국식 파스티이다.</string>
+    <string name="PseudoPasty_Name">파스티</string>
+    <string name="Quarterstaff_Gender">남성</string>
+    <string name="Quarterstaff_Info">이 단단한 나무 스태프의 끝에는 철이 덧씌워져 있습니다.</string>
+    <string name="Quarterstaff_Name">쿼터스태프</string>
+    <string name="QuickSlot_SelectedItem">퀵슬롯에 등록 할 아이템을 선택하세요.</string>
+    <string name="Quiver_Gender">남성적인</string>
+    <string name="Quiver_Info">아무 화살이나 보관할 수 있는 가죽 화살집</string>
+    <string name="Quiver_Name">화살통</string>
+    <string name="RabbitEars_Info">전설에 따르면 토끼들은 운이 좋은 짐승으로 알려져 있다. 아니면 토끼의 몸 일부를 가지는 게 행운을 가져다 준다는 믿음이 있다. 생각해 보니 잡혀서 장식으로 만들어진 토끼한테는 그다지 운이 좋다곤 할  수 없을 듯 하다.</string>
+    <string name="RabbitEars_Name">토끼 귀 머리띠</string>
+    <string name="RankingsScene_NoGames">한번도 플레이 하지 않음.</string>
+    <string name="RankingsScene_NoInfo">정보 없음</string>
+    <string name="RankingsScene_Title">최고 랭킹</string>
+    <string name="RankingsScene_Total">총 플레이 회수.</string>
+    <string name="RatKing_Desc">이 쥐는 평범한 다른 주머니 쥐보다 조금 더 크고, 조그만한 왕관을 머리에 쓰고 있다.</string>
+    <string name="RatKing_Died">왕이 죽었다. 왕이여 영원하라!</string>
+    <string name="RatKing_Info1">나 안 자고 있어!</string>
+    <string name="RatKing_Info2">뭐냐? 쓸데없는 일로 낭비할 시간이 없다! 내 왕국은 저절로 돌아가지 않는단 말이다!</string>
+    <string name="RatKing_Info3">감히, 이 보잘것 없는 생물이, 우리의 쥐결함을 더럽히다니?!</string>
+    <string name="RatKing_Name">쥐 대왕</string>
+    <string name="RatSkull_Info">이건 아주 좋은 사냥 기념품이 될 수 있겠지만.. 벽에 걸어놓기엔 악취가 너무 심합니다.</string>
+    <string name="RatSkull_Name">거대한 쥐의 두개골</string>
+    <string name="Rat_Desc">거대 주머니 쥐는 포악하지만 비교적 약한 하수구 거주자다.  많은 수가 모이지 않으면 그닥 위험하지 않다.</string>
+    <string name="Rat_Gender">여성</string>
+    <string name="Rat_Name">주머니 쥐</string>
+    <string name="Rat_Name_Objective">주머니 쥐</string>
+    <string name="Ration_Info">말린 고기, 비스킷 몇 개 등의 특별할 것 없는 식량입니다.</string>
+    <string name="Ration_Name">비상 식량</string>
+    <string name="ResultDescriptions_Bleeding">%d 층에서 출혈에 의해 죽었습니다.</string>
+    <string name="ResultDescriptions_Boss">%2$d층에서 %1$s에게 사망</string>
+    <string name="ResultDescriptions_Burning">%d 층에서 불에 타죽었습니다.</string>
+    <string name="ResultDescriptions_Fall">%d 층에서 낙사 하였습니다.</string>
+    <string name="ResultDescriptions_Gas">%d 층에서 독가스에 의해 죽었습니다.</string>
+    <string name="ResultDescriptions_Glyph">%2$d층에서 %1$s에게 죽었습니다.</string>
+    <string name="ResultDescriptions_Hunger">%d 층에서 굶어 죽었습니다.</string>
+    <string name="ResultDescriptions_Immured">%d 층에서 돌에 갖혀 죽었습니다.</string>
+    <string name="ResultDescriptions_Mob">%2$d층에서 %1$s에게 죽었습니다.</string>
+    <string name="ResultDescriptions_Ooze">%d 층에서 부식성 점액에 의해 죽었습니다.</string>
+    <string name="ResultDescriptions_Poison">%d 층에서 독에 의해 죽었습니다.</string>
+    <string name="ResultDescriptions_Trap">진행 깊이: %1$s \n층 수: %2$d</string>
+    <string name="ResultDescriptions_Wand">%2$d 층에서 당신의 %1$s에 의해서 사망</string>
+    <string name="ResultDescriptions_Win">옌더의 아뮬렛을 획득하였습니다.</string>
+    <string name="RingOfAccuracy_Info">이 반지는 당신의 공격이 적중할 확률을 상승시켜 줍니다.</string>
+    <string name="RingOfAccuracy_Name">명중의 반지</string>
+    <string name="RingOfDetection_Info">이 반지를 착용시 검색에 턴을 소모하지 않고 함정과 비밀의 문을 발견할 수 있습니다. 역강화된 반지는 당신의 감각을 둔화시켜 함정과 비밀의 문을 찾기 위해 검색해도 발견하기 어렵게 만듭니다.</string>
+    <string name="RingOfDetection_Name">감지의 반지</string>
+    <string name="RingOfElements_Info">이 반지는 부정적인 효과의 지속시간을 감소시키고 화재, 전기, 가스등에 대한 저항력을 높여준다.</string>
+    <string name="RingOfElements_Name">원소의 반지</string>
+    <string name="RingOfEvasion_Info">이 반지는 적의 공격을 회피할 확률을 상승시켜 줍니다.</string>
+    <string name="RingOfEvasion_Name">회피의 반지</string>
+    <string name="RingOfHaggler_Info">사실, 이 반지는 어떤 마법적 효과도 지니고 있지 않습니다. 그러나 이 반지의 소유주가 도둑길드 소속인지 상점주인에게 보여줍니다. 그들은 이 반지에 대한 보증으로 할인을 제공합니다. 이 반지를 업그레이드 해도 추가보너스를 제공하지 않습니다.</string>
+    <string name="RingOfHaggler_Name">흥정꾼의 반지</string>
+    <string name="RingOfHaste_Info">이 반지는 착용자 시간의 흐름을 가속해 더 많은 행동을 할 수 있도록 합니다.</string>
+    <string name="RingOfHaste_Name">가속의 반지</string>
+    <string name="RingOfHerbalism_Info">이 반지는 수풀에서 이슬과 씨앗을 발견할 확률을 높여줍니다.</string>
+    <string name="RingOfHerbalism_Name">약초의 반지</string>
+    <string name="RingOfMending_Info">이 반지는 신체의 재생속도를 증가시켜 빠르게 체력을 회복합니다. 역강화된 반지는 자연재생을 감소시키거나 중지시킵니다.</string>
+    <string name="RingOfMending_Name">회복의 반지</string>
+    <string name="RingOfPower_Info">당신의 완드는 이 반지에서 나오는 에너지에 의해 더 강해집니다. 역강화된 반지는 당신의 완드의 힘을 약화시킵니다.</string>
+    <string name="RingOfPower_Name">힘의 반지</string>
+    <string name="RingOfSatiety_Info">이 반지는 당신이 음식없이 오랫동안 행동할 수 있게 해줍니다. 역강화된 반지는 반대의 효과를 유발합니다.</string>
+    <string name="RingOfSatiety_Name">포만의 반지</string>
+    <string name="RingOfShadows_Info">이 반지를 착용하면 적들이 당신을 발견할 확률을 줄여 줍니다. 역강화된 반지는 당신의 존재를 적들에게 알려줍니다.</string>
+    <string name="RingOfShadows_Name">은신의 반지</string>
+    <string name="RingOfStoneWalking_ImmuredInStone">당신은 돌에 감금되었다. 영원히...</string>
+    <string name="RingOfStoneWalking_Info">이 이상한 반지는 튼튼한 돌로 구성되어 있습니다... - ps - 착용시 가까운 벽안으로 스며들고 데미지를 입습니다. 다시 반지를 해제하면 벽 바깥으로 나올수 있습니다. 벽을 통과할 수 있게되는거죠.</string>
+    <string name="RingOfStoneWalking_Name">혈석의 반지</string>
+    <string name="RingOfThorns_Info">이 반지는 실제로 가시를 제공하지는 않습니다. 그러나 적이 공격하는 피해의 일부분을 다시 적에게 되돌려줍니다. 이 반지를 업그레이드 해도  추가보너스를 제공하지 않습니다.</string>
+    <string name="RingOfThorns_Name">가시의 반지</string>
+    <string name="Ring_BuffKnown">이것은 %s 입니다.</string>
+    <string name="Ring_Identify">당신은 %1$s 에 충분히 친숙해져서 그것의 정체를 알게 되었다. 그것은 %2$s이다.</string>
+    <string name="Ring_Info">이 금속 고리는 어둠 속에서 빛나는 커다란 %s 보석으로 장식되어 있습니다. 착용했을 때 어떤 효과가 나타날까요?</string>
+    <string name="Ring_Info1">반지는 동시에 2개까지 착용할 수 있습니다.</string>
+    <string name="Ring_Info2">%s 이/가 당신의 손가락을 고통스럽게 조여옵니다.</string>
+    <string name="Ring_Info3a">%1$s\n\n %2$s 은/는 당신의 손가락 %3$s에 있습니다.</string>
+    <string name="Ring_Info3b">그리고 저주로 인해, 당신은 그것을 벗을 수가 없습니다</string>
+    <string name="Ring_Info4">%1$s\n\n당신의 %2$s안에 숨어있는 마법의 기운을 느낄 수 있습니다.</string>
+    <string name="Ring_Name">%s 반지</string>
+    <string name="RogueArmor_ACSpecial">연막탄</string>
+    <string name="RogueArmor_Desc">이 어둠의 의복을 입는다면, 로그는 \"연막탄\" 이라는 술수를 부릴 수 있게 된다 (폭발물을 사용하진 않지만 말이다): 적들의 눈을 멀게 하고 옆으로 회피한다.</string>
+    <string name="RogueArmor_Fov">시야에 들어오는 비어있는 위치로만 점프할 수 있다.</string>
+    <string name="RogueArmor_Name">로그의 의복</string>
+    <string name="RogueArmor_NotRogue">이 갑옷은 로그만 착용 가능하다</string>
+    <string name="RogueArmor_Prompt">점프할 위치 선택</string>
+    <string name="Roots_Info">묶임</string>
+    <string name="RottenFood_Message">역겹군!</string>
+    <string name="RottenMeat_Info">썩은 고기 조각</string>
+    <string name="RottenMeat_Name">썩은 고기</string>
+    <string name="RottenPasty_Info">원래는 파이였을지 모르지만, 역겨워 보입니다.</string>
+    <string name="RottenPasty_Name">썩은 파스티</string>
+    <string name="RottenRation_Info">옛날 옛적에 이 음식은 먹을 수 있었을 것입니다.</string>
+    <string name="RottenRation_Name">썩은 비상 식량</string>
+    <string name="RottingFist_Desc">고대 신의 썩어가는 주먹</string>
+    <string name="RottingFist_Gender">남성</string>
+    <string name="RottingFist_Name">썩어가는 주먹</string>
+    <string name="RottingFist_Name_Objective">썩어가는 주먹</string>
+    <string name="RubyBow_Gender">남성적인</string>
+    <string name="RubyBow_Info">오직 최고의 궁수만이 루비 활을 이용할 수 있다. 활시위를 당기기 위해선 엄청난 힘이 필요하지만, 그렇게 발사된 화살 대부분은 적의 몸통에 바람구멍을 내어 버린다고 한다.</string>
+    <string name="RubyBow_Name">루비 활</string>
+    <string name="ScaleArmor_Desc">가죽 조끼 표면에 철판을 꿰메어 유연하면서도 방어력이 강한 갑옷을 만들었다.</string>
+    <string name="ScaleArmor_Name">미늘 갑옷</string>
+    <string name="Scorpio_Desc">이 거대한 거미류의 악마같은 생물은 근접전을 최대한 피하고, 멀리서 불구로 만들어 버릴 수 있는 톱니 가시를 발사한다.</string>
+    <string name="Scorpio_Gender">남성</string>
+    <string name="Scorpio_Name">거대 전갈</string>
+    <string name="Scorpio_Name_Objective">거대 전갈</string>
+    <string name="ScrollHolder_Info">이 튜브형 용기에 스크롤을 넣어놓을 수 있습니다. 이건 공간을 절약하고 화재로부터 스크롤을 보호합니다.</string>
+    <string name="ScrollHolder_Name">스크롤 홀더</string>
+    <string name="ScrollOfChallenge_Info">도전의 스크롤을 소리내어 읽을때, 모든 몬스터가 사용자의 위치로 모여들게 됩니다.</string>
+    <string name="ScrollOfChallenge_Info1">스크롤에서 던전 전체에 적들을 부르는 포효 발생!!</string>
+    <string name="ScrollOfChallenge_Name">도전의 스크롤</string>
+    <string name="ScrollOfIdentify_Info">영구적으로 아이템의 비밀을 보여준다.</string>
+    <string name="ScrollOfIdentify_Info1">이것은 %s 입니다.</string>
+    <string name="ScrollOfIdentify_InvTitle">식별할 아이템을 선택하세요.</string>
+    <string name="ScrollOfIdentify_Name">식별의 스크롤</string>
+    <string name="ScrollOfLullaby_Info">이 부드러운 멜로디는 시야안에 있는 모든 생물에게 깊은 잠에 빠지게 합니다. 당신은 도망가거나 이들에게 기습공격를 가할 수 있습니다.</string>
+    <string name="ScrollOfLullaby_Info1">스크롤에서 부드러운 멜로디가 흘러나옵니다.</string>
+    <string name="ScrollOfLullaby_Info2">스크롤에서 부드러운 멜로디가 흘러나와 %s 이/가 깊은 잠에 빠졌습니다!!</string>
+    <string name="ScrollOfLullaby_Info3">스크롤에서 부드러운 멜로디가 흘러나와 몬스터들이 깊은 잠에 빠졌습니다!!</string>
+    <string name="ScrollOfLullaby_Name">자장가의 스크롤</string>
+    <string name="ScrollOfMagicMapping_Info">이 스크롤을 읽는 순간 현재층의 모든 구역이 기억됩니다. 하지만 여전히 아이템과 생물의 위치는 알수 없습니다.</string>
+    <string name="ScrollOfMagicMapping_Layout">이제 현재층의 모든 지형을 파악했습니다.</string>
+    <string name="ScrollOfMagicMapping_Name">마법 지도 스크롤</string>
+    <string name="ScrollOfMirrorImage_Info">이 스크롤의 주문은 주문자의 쌍둥이 환영을 만들어 적들을 쫓아갑니다.</string>
+    <string name="ScrollOfMirrorImage_Name">환영의 스크롤</string>
+    <string name="ScrollOfPsionicBlast_Info">이 스크롤은 시야내의 모든 생물에 엄청난 피해를 입힐 수 있는 파괴 에너지를 포함하고 있습니다. 빛을 동반한 섬광이 일시적으로 시전자를 포함하여 범위안의 모든 생물의 눈을 멀게 합니다.</string>
+    <string name="ScrollOfPsionicBlast_Name">사이오닉 폭발의 스크롤</string>
+    <string name="ScrollOfRecharging_Info">이 스크롤에 바인딩된 원시마법의 힘은 발동할때 시전자의 모든 완드의 충전량을 가득 채웁니다.</string>
+    <string name="ScrollOfRecharging_Info1a">가방에서 에너지가 급증하며 당신의 완드가 충전되었습니다.</string>
+    <string name="ScrollOfRecharging_Info1b">가방에서 에너지가 급증하며 당신의 완드들이 충전되었습니다.</string>
+    <string name="ScrollOfRecharging_Info2">가방에서 에너지가 급증하였지만 아무일도 일어나지 않았습니다.</string>
+    <string name="ScrollOfRecharging_Name">충전의 스크롤</string>
+    <string name="ScrollOfRemoveCurse_Info">이 스크롤을 발동하는 즉시 시전자의 무기,갑옷,반지에서 해가되는 저주들을 제거합니다.</string>
+    <string name="ScrollOfRemoveCurse_Name">저주제거 스크롤</string>
+    <string name="ScrollOfRemoveCurse_NoProced">가방에서 정화의 빛이 빛났지만 아무일도 일어나지 않았습니다.</string>
+    <string name="ScrollOfRemoveCurse_Proced">가방에서 정화의 빛이 빛나며 악의 에너지가 분산되고 있습니다.</string>
+    <string name="ScrollOfTeleportation_Info">이 스크롤을 발동하면 즉시 시전자를 같은층의 임의의 장소로 이동시킵니다. 이것은 위험한 상황을 탈출하는데 사용할 수도 있지만 시전자를 더 위험한 장소로 이동시킬 수도 있습니다.</string>
+    <string name="ScrollOfTeleportation_Name">순간이동의 스크롤</string>
+    <string name="ScrollOfTeleportation_NoTeleport">이곳의 강력한 마법장이 순간이동을 못하게 막고 있습니다!</string>
+    <string name="ScrollOfTeleportation_Teleport">순식간에 다른장소로 순간이동 했습니다.</string>
+    <string name="ScrollOfTerror_Info">붉은 빛의 플래시의 공포가 시야의 모든 생물을 압도하며 모두 도망칩니다. 달아나는 적을 공격하면 공포효과가 풀립니다.</string>
+    <string name="ScrollOfTerror_Info1">스크롤에서 붉은 빛의 화려한 플래쉬가 터져나옵니다.</string>
+    <string name="ScrollOfTerror_Info2">스크롤에서 붉은 빛의 화려한 플래시가 터져나오고, %s 이/가 달아납니다!</string>
+    <string name="ScrollOfTerror_Info3">스크롤에서 붉은 빛의 화려한 플래시가 터져나오고, 몬스터가 달아납니다!</string>
+    <string name="ScrollOfTerror_Name">공포의 스크롤</string>
+    <string name="ScrollOfUpgrade_Info">이 스크롤은 한가지 아이템을 업그레이드 합니다. 완드는 사용횟수의 증가; 무기는 데미지의 증가;갑옷은 막을수 있는 데미지의 량이 증가; 링의 효과를 강화;무기와 갑옷을 사용하는데 필요한 최소의 힘을 요구하게 되고 아이템의 저주는 해제 됩니다.</string>
+    <string name="ScrollOfUpgrade_InvTitle">업그레이드 할 아이템을 선택하세요.</string>
+    <string name="ScrollOfUpgrade_LooksBetter">당신의 %s는/은 확실히 좋아진것같다.</string>
+    <string name="ScrollOfUpgrade_Name">업그레이드 스크롤</string>
+    <string name="ScrollOfWeaponUpgrade_Info">이 스크롤은 근접무기를 업그레이드합니다. 이 스크롤은 강화 업그레이드 버전으로 인첸트를 파괴하지 않습니다.  랜덤으로 인첸트되지 않은 무기를 인첸트 시켜줍니다.</string>
+    <string name="ScrollOfWeaponUpgrade_InvTitle">업그레이드할 무기를 고르세요</string>
+    <string name="ScrollOfWeaponUpgrade_LooksBetter">당신의 %s는/은 확실히 좋아진것같다.</string>
+    <string name="ScrollOfWeaponUpgrade_Name">무기업그레이드 스크롤</string>
+    <string name="Scroll_ACRead">읽는다</string>
+    <string name="Scroll_Blinded">눈이 먼 상태에서 스크롤을 읽을 수 없다</string>
+    <string name="Scroll_Info">이 양피지는 판독할 수 없는 룬 문자 %s로 덮여있습니다. 누가 이것을 소리내어 읽을때 어떤 일이 일어날까요?</string>
+    <string name="Scroll_Name">\"%s\" 스크롤</string>
+    <string name="SeedPouch_Info">이 작은 벨벳주머니는 씨앗을 저장할 수 있습니다. 매우 편리합니다.</string>
+    <string name="SeedPouch_Name">씨앗주머니</string>
+    <string name="Senior_Desc">외부 침략자들로부터 자신들의 도시의 비밀을 지키는데 헌신하는 이 수도승들은 광기에 빠져 있다. 그들은 아무런 갑옷도 무기도 사용하지 않고, 오직 맨주먹에 의지하여 싸운다. 이 특별한 몽크는 상대를 불구로 만들어 버리는 기술의 달인이다.</string>
+    <string name="Senior_Gender">남성</string>
+    <string name="Senior_Name">고위 드워프 수도승</string>
+    <string name="Senior_Name_Objective">고위 드워프 수도승</string>
+    <string name="Sewer_TileDescBookshelf">책장이 쓸모없는 싸구려 책들로 가득차있다. 불에 탈 것 같은데?</string>
+    <string name="Sewer_TileDescDeco">축축하고 누르스름한 이끼들이 복도를 뒤덮고 있다.</string>
+    <string name="Sewer_TileWater">탁한 물</string>
+    <string name="Shades_Info">몇몇 사람들은 던전에서 그런 옷을 입어봤자 무슨 소용이냐고 묻는다. 당신은 그런 사람들에게 뭘 모른다며 비웃어도 된다.</string>
+    <string name="Shades_Name">그림자</string>
+    <string name="ShadowLord_Death">안돼애애애애...</string>
+    <string name="ShadowLord_Desc">순수한 악과 어둠의 결정체로 만들어진 생물체입니다. 그것의 강력함으로 미루어 고대신 그 자체라는 의견과, 단지 고대신의 문지기들 중 하나라는 의견과의 논쟁이 끊이지 않고 있습니다.</string>
+    <string name="ShadowLord_Gender">근육질의</string>
+    <string name="ShadowLord_Intro">전투를 준비하십시오!</string>
+    <string name="ShadowLord_Name">그림자 군주</string>
+    <string name="ShadowLord_Name_Objective">그림자 군주</string>
+    <string name="Shadow_Desc">조용히 고대 감옥의 폐허를 떠돌아 다니는 그림자. 모험자들에게 아주 드물게 자신들의 모습을 드러낸다. 대개 그 모험자의 모험은 그날로 끝이다.</string>
+    <string name="Shadow_Gender">여성</string>
+    <string name="Shadow_Name">그림자</string>
+    <string name="Shadow_Name_Objective">그림자</string>
+    <string name="Shadows_Info">그림자숨기</string>
+    <string name="Shaman_Desc">가장 지능이 뛰어는 놀들만이 주술사의 주술을 익힐 수 있다. 놀 주술사의 힘은 약하지만 그 대신 전투 마법을 사용하길 좋아하며, 부족에서 자신의 지위를 의심하는 자들에게는 이를 사용하길 꺼리지 않는다.</string>
+    <string name="Shaman_Gender">남성</string>
+    <string name="Shaman_Killed">%s의 번개 화살이 당신을 죽였다...</string>
+    <string name="Shaman_Name">놀 주술사</string>
+    <string name="Shaman_Name_Objective">놀 주술사</string>
+    <string name="Sheep_Desc">이것은 마법의 양 입니다. 왜 마법이나구요? 당신은 그것을 죽일수 없습니다. 마법이 사라질때까지..</string>
+    <string name="Sheep_Gender">여성스런</string>
+    <string name="Sheep_Name">양</string>
+    <string name="Sheep_Name_Objective">양</string>
+    <string name="Shielded_Defense">막음</string>
+    <string name="Shielded_Desc">놀 정예병은 놀 중에서도 가장 크고 강하며 터프한 녀석들이다. 큰 상처를 입게되면, 이들은 격분하면서 적에게 보다 큰 데미지를 준다. 이 정예병은 거대한 방패를 들고 있다.</string>
+    <string name="Shielded_Gender">남성</string>
+    <string name="Shielded_Name">방패를 든 놀 정예병</string>
+    <string name="Shielded_Name_Objective">방패를 든 놀 정예병</string>
+    <string name="Shopkeeper_Desc">이 통통한 남자는 던전보다는 어딘가 큰 도시의 상가나 있을 법하지만, 그가 제시하는 가격을 들어보면 왜 여기서 장사하는 걸 더 좋아하는지 이해가 된다.</string>
+    <string name="Shopkeeper_Name">상점 주인</string>
+    <string name="Shopkeeper_Sell">판매할 아이템을 선택 하세요</string>
+    <string name="ShortSword_ACReforge">재주조</string>
+    <string name="ShortSword_Gender">남성</string>
+    <string name="ShortSword_Info">이건 엄청 짧은데 단검보다도 몇 인치 짧습니다.</string>
+    <string name="ShortSword_Name">숏 소드</string>
+    <string name="ShortSword_NotBoomerang">이 방법으로 부메랑을 업그레이드 할 수 없습니다.</string>
+    <string name="ShortSword_Reforged">다시 제련해서 당신의 %s 를 숏소드로 업그레이드 합니다.</string>
+    <string name="ShortSword_Select">업그레이드할 무기를 고르세요</string>
+    <string name="Shuriken_Gender">남성</string>
+    <string name="Shuriken_Info">목표에 명중 할 때 높은 확률로 별모양 금속과 날카로운 칼날이 상당한피해를 입힌다.</string>
+    <string name="Shuriken_Name">수리검</string>
+    <string name="SkeletonKey_Info">이 열쇠는 중요해 보입니다. 열쇠 머리부분이 해골 모양 입니다. 아마 이건 중요한 문을 열수 있을꺼 같습니다.</string>
+    <string name="SkeletonKey_Name">해골열쇠</string>
+    <string name="Skeleton_Defense">막음</string>
+    <string name="Skeleton_Desc">해골은 운 없는 모험가들이나 던전에 사는 생물들의 시체에서 나온 뼈들로 이루어져 있고, 저 깊은 곳으로부터 뿜어나오는 악마의 주문에 의해 살아 움직인다. 어느 이상 데미지를 받게되면 뼈의 폭발로 산산조각 난다.</string>
+    <string name="Skeleton_Gender">남성</string>
+    <string name="Skeleton_Killed">당신은 뼈의 폭발에 맞아 죽었다...</string>
+    <string name="Skeleton_Name">해골</string>
+    <string name="Skeleton_Name_Objective">해골</string>
+    <string name="Slow_Info">느려짐</string>
+    <string name="SnipersMark_Info">Sniper\'s mark</string>
+    <string name="Sorrowmoss_Desc">슬픔이끼는 면도날처럼 날카롭고 치명적인 독이 묻은 꽃잎으로된 꽃이다(이끼가 아님).</string>
+    <string name="Sorrowmoss_Name">슬픔이끼</string>
+    <string name="Spear_Gender">중성</string>
+    <string name="Spear_Info">가느다란 나무 막대 끝에  날카로운 쇠조각을 덧댔습니다.</string>
+    <string name="Spear_Name">스피어</string>
+    <string name="SpiderCharm_Info">이 이국적인 장신구는 신비로운 기운에 감싸여 있습니다. 이것을 착용하면 무슨일이 일어날지 아는 사람이 있을까요?</string>
+    <string name="SpiderCharm_Name">거미 장신구</string>
+    <string name="SpiderCharm_Use">사용</string>
+    <string name="SpiderEgg_Desc">이 얇은 알 껍질이 꿈틀댄다. 그 안에 다리가 여럿 달린 뭔가가 보인다.</string>
+    <string name="SpiderEgg_Gender">중성적인</string>
+    <string name="SpiderEgg_Name">거미 알</string>
+    <string name="SpiderEgg_Name_Objective">거미 알</string>
+    <string name="SpiderExploding_Desc">평화 시에는 성실한 일꾼이지만, 이 짐승들은 적에게 돌진하고 마주치는 식물을 움켜 잡는것을 마다하지 않음으로써 그들을 살아있는 폭탄으로 변모시킨다.</string>
+    <string name="SpiderExploding_Gender">남성</string>
+    <string name="SpiderExploding_Name">거미 일꾼</string>
+    <string name="SpiderExploding_Name_Objective">거미 일꾼</string>
+    <string name="SpiderMind_Desc">보기에 연약해 보이는 이 거미들은 특별한 정신적 힘을 가지고 있어서, 콜로니 전체를 컨트롤 할 수 있다. 정신 거미는 어떤 살아있는 생물도 조종할 수 있지만, 다소 겁이 많다.</string>
+    <string name="SpiderMind_Gender">남성</string>
+    <string name="SpiderMind_Name">정신 거미</string>
+    <string name="SpiderMind_Name_Objective">정신 거미</string>
+    <string name="SpiderNest_Desc">이 고치는 아주 가느다란 거미줄로 만들어져 있는데 살아 있는 뭔가를 감싸고 있다.</string>
+    <string name="SpiderNest_Gender">중성적인</string>
+    <string name="SpiderNest_Name">거미 고치</string>
+    <string name="SpiderNest_Name_Objective">거미 고치</string>
+    <string name="SpiderQueen_Desc">아름다운 여성과 추악한 거미가 섞인 몸을 가졌다. 이 거미 굴에서 살아 있는 모든 것은 그녀의 시종들이다. 이 기괴한 여인과 마주 친다는 것은 매우 목숨이 위태로운 일이다. 왜냐하면 당신은 침입자이기 때문이다!</string>
+    <string name="SpiderQueen_Gender">여성</string>
+    <string name="SpiderQueen_Name">거미 여왕</string>
+    <string name="SpiderQueen_Name_Objective">거미 여왕</string>
+    <string name="SpiderServant_Desc">거미 병사는 거미 왕국에서 가장 많은 수를 차지 한다. 그들은 자신들의 영역을 지키기 위해 태어났다. 거미 병사들의 집게턱에는 맹독 분비샘이 발달되어 이를 이용해 적을 중독 시킨다.</string>
+    <string name="SpiderServant_Gender">남성</string>
+    <string name="SpiderServant_Name">거미 병사</string>
+    <string name="SpiderServant_Name_Objective">거미 병사</string>
+    <string name="Spinner_Desc">이 초록색 털복숭이 동굴 거미들은 직접 전투를 꺼려 하는 대신, 그들의 희생자들이 독에 물린채 그들이 뿜어 놓은 거미줄에 걸려 서서히 죽어가는 것을 멀리서 지켜보는 걸 좋아한다.</string>
+    <string name="Spinner_Gender">남성</string>
+    <string name="Spinner_Name">동굴 거미</string>
+    <string name="Spinner_Name_Objective">동굴 거미</string>
+    <string name="StartScene_Depth">진행 깊이: %1$d\n층 수: %2$d</string>
+    <string name="StartScene_DifficultyEasy">쉬움(광고)</string>
+    <string name="StartScene_DifficultyExpert">어려움</string>
+    <string name="StartScene_DifficultyNormal">보통</string>
+    <string name="StartScene_DifficultyNormalWithSaves">보통+저장(광고)</string>
+    <string name="StartScene_Erase">현재 게임 삭제</string>
+    <string name="StartScene_Load">불러 오기</string>
+    <string name="StartScene_New">새 게임</string>
+    <string name="StartScene_No">아니오, 메인 메뉴로</string>
+    <string name="StartScene_Really">정말 게임을 새로 시작 하시겠습니까?</string>
+    <string name="StartScene_Unlock">이 직업을 얻으려면, 아무 직업으로 3번째 보스까지 물리치세요</string>
+    <string name="StartScene_UnlockElf">이 직업을 얻으려면, 아무 직업으로 4번째 보스까지 물리치세요</string>
+    <string name="StartScene_Warning">현재 게임 진행 상황은 지워집니다.</string>
+    <string name="StartScene_WinGame">\"도전\"을 해제하려면, 아무 직업으로 게임을 클리어 하세요.</string>
+    <string name="StartScene_Yes">네, 새로운 게임 시작</string>
+    <string name="Statue_Desc">던전에 있는 못생긴 여느 석상과 다를바 없다고 생각 할수도 있지만, 붉게 빛나는 눈은 그렇지 않다고 말하고 있다. 석상 자체는 돌로 만들어져 있지만, _%s_, 무기를 휘두르는걸 보면, 진짜다.</string>
+    <string name="Statue_Gender">여성</string>
+    <string name="Statue_Name">살아있는 석상</string>
+    <string name="Statue_Name_Objective">살아있는 석상</string>
+    <string name="Stench_Txt">악취의 %s</string>
+    <string name="Stylus_ACInscribe">룬을 새기다</string>
+    <string name="Stylus_Info">arcane stylus 는 일부분이 검고 무거운 돌재질로 구성되어있습니다. 룬을 그리거나 새겨 넣을 수 있지만, 어떤 효과가 부여될지는 arcane stylus 가 결정합니다.</string>
+    <string name="Stylus_Inscribed">%2$s 에 %1$s 룬이 새겨졌습니다.</string>
+    <string name="Stylus_Name">arcane stylus - 갑옷인첸트</string>
+    <string name="Stylus_SelectArmor">룬을 새겨넣을 아이템을 선택하세요</string>
+    <string name="Succubus_Desc">서큐버스들은 유혹하는 여자들(약간 고전적인 방식으로)처럼 생긴 악마들이다. 그녀들은 마법을 써서 영웅들을 매혹에 빠뜨리고 그 저주가 풀리기 전까지는 아무런 공격도 하지 못하게 만들어 버린다.</string>
+    <string name="Succubus_Gender">남성</string>
+    <string name="Succubus_Name">서큐버스</string>
+    <string name="Succubus_Name_Objective">서큐버스</string>
+    <string name="Sungrass_Buff">자연의 회복</string>
+    <string name="Sungrass_Desc">태양초는 잠시 회복력을 주고 서서히 사라지는 것으로 알려져있다.</string>
+    <string name="Sungrass_Name">태양초</string>
+    <string name="SurfaceScene_GameOver">게임 오버</string>
+    <string name="Swarm_Defense">회피</string>
+    <string name="Swarm_Desc">죽음의 파리 떼가 매섭게 윙윙 거린다. 물리 공격을 받을 때마다 더 작은 두 무리로 분할 되지만 똑같이 위험하다.</string>
+    <string name="Swarm_Gender">남성</string>
+    <string name="Swarm_Name">파리 떼</string>
+    <string name="Swarm_Name_Objective">파리 떼</string>
+    <string name="Sword_Gender">남성</string>
+    <string name="Sword_Info">그 금속칼날이 날카롭게 빛나는 동안은 안심이 된다.</string>
+    <string name="Sword_Name">소드</string>
+    <string name="Tamahawk_Gender">남성</string>
+    <string name="Tamahawk_Info">이 던지는 도끼는 무겁진 않지만 사용하는데 꽤 많은 힘이 필요하다.</string>
+    <string name="Tamahawk_Name">토마호크</string>
+    <string name="Tengu_Desc">덴구는 고대 암살 집단의 일원이다. 이들 암살자들은 수리검과 함정을 다루는 데 능하다.</string>
+    <string name="Tengu_Gender">남성</string>
+    <string name="Tengu_Info1">드디어 해방이구나...</string>
+    <string name="Tengu_Info2">잡았다, %s!</string>
+    <string name="Tengu_Info3">잡았다, %s!</string>
+    <string name="Tengu_Name">텐구</string>
+    <string name="Tengu_Name_Objective">텐구</string>
+    <string name="Thief_Carries">\n\n%1$s 이 _%2$s_를 들고 있다. 분명히 훔친거다.</string>
+    <string name="Thief_Desc">던전 깊이 들어가면 갈수록 언제나 오만 가지의 범죄자들이 숨는 소굴이 있다. 햇볕으로 부터 멀리 떨어진 기간이 길어짐에 따라 제대로 된 정신을 차리고 있는 자들은 몇 되지 않는다. 오래 전, 이 미친 도둑들은 자신이 누구고 왜 훔치는지 잊어버렸다.</string>
+    <string name="Thief_Gender">남성</string>
+    <string name="Thief_Name">미친 도둑</string>
+    <string name="Thief_Name_Objective">미친 도둑</string>
+    <string name="Thief_Stole">%1$s 이 당신한테서 %2$s 을/를 훔쳤다!</string>
+    <string name="TitleScene_About">정보</string>
+    <string name="TitleScene_Badges">뱃지</string>
+    <string name="TitleScene_Highscores">최고 점수</string>
+    <string name="TitleScene_InternalStorageLow">내부 저장 장치에\n 공간이 부족하여\n 진행 사항을 잃을 수 있습니다!</string>
+    <string name="TitleScene_Play">시작</string>
+    <string name="TomeOfMastery_ACRead">읽는다</string>
+    <string name="TomeOfMastery_Blinded">눈이 먼 상태에서는 읽을 수 없다</string>
+    <string name="TomeOfMastery_Choose">%s 길을 선택했습니다.</string>
+    <string name="TomeOfMastery_Info">두껍지 않지만 가죽으로 마감된 이 책은 읽는데 시간이 좀 걸리겠지만 당신에게 많은 영감을 줄 수 있다는걸 기억하세요.</string>
+    <string name="TomeOfMastery_Name">Tome of Mastery</string>
+    <string name="Toolbar_Info1">그곳에 무엇이 있는지 알 수 없습니다.</string>
+    <string name="Toolbar_Info2">검사할 타일을 선택하세요.</string>
+    <string name="Torch_ACLight">빛</string>
+    <string name="Torch_Info">이건 어두침침한 악마들의 홀에서 필수적인 아이템입니다.</string>
+    <string name="Torch_Name">횃불</string>
+    <string name="ToxicGas_Info">녹색 독성 가스구름이 소용돌이 칩니다.</string>
+    <string name="ToxicGas_Info1">당신은 유독가스 흡입으로 사망하였습니다...</string>
+    <string name="TreacherousSpirit_Desc">이 흉측한 생물은 살아있는 어둠의 형상을 취하고 있다. 생기 없는 눈은 당신을 바라보고 있으며, 당신이 움직일 때 마다 박동하고 있다.</string>
+    <string name="TreacherousSpirit_Gender">남성</string>
+    <string name="TreacherousSpirit_Name">무서운 영혼</string>
+    <string name="TreacherousSpirit_Name_Objective">무서운 영혼</string>
+    <string name="Undead_Defense">막았다</string>
+    <string name="Undead_Desc">드워프 왕의 의지에 의해 살아난 언데드 드워프들은 왕의 의회의 구성원들이었다. 그들은 해골의 형상에 얼굴에는 엄청나게 수염이 많이 붙어있는 꼴을 하고 있다.</string>
+    <string name="Undead_Gender">남성</string>
+    <string name="Undead_Name">언데드 드워프</string>
+    <string name="Undead_Name_Objective">언데드 드워프</string>
+    <string name="Vertigo_Info">어지러움</string>
+    <string name="Viscosity_Status">지속적으로 %d</string>
+    <string name="Viscosity_Txt">점성의의 %s</string>
+    <string name="WandHolster_Info">이 슬림한 홀더는 이국적인 동물의 가죽으로 만들었습니다. 여기에 %d 개 까지의 완드를 보관할 수 있습니다.</string>
+    <string name="WandHolster_Name">완드 홀더</string>
+    <string name="WandMaker_Berry1">오, 이런 장소에서 이렇게 괜찮은 사람을 만나서 기쁘네! 난 여기 희귀한 재료를 찾으러 왔어 - _썩은딸기의 씨_라네. 마법을 사용하는 사람으로서, 마법 사용자로서 여기 몬스터로부터 자기보호는 할 수 있지만 당황스럽군. 아마도 자네가 날 도와줄 수 있을것 같군. 도와 준다면 내 최고의 완드로 기꺼이 보상하겠네.</string>
+    <string name="WandMaker_Berry2">썩은딸기의 씨를 찾는건 잘되어가는가, %s? 잘 안되어가나? 괜찮다네, 급한건 아니니까.</string>
+    <string name="WandMaker_Defense">흡수</string>
+    <string name="WandMaker_Desc">이 노인은 살짝 혼란스런 표정을 하고 있다. 그는 마법 보호막에 의해 보호받고 있다.</string>
+    <string name="WandMaker_Dust1">오, 이런 장소에서 이렇게 괜찮은 사람을 만나서 기쁘네! 난 여기 희귀한 재료를 찾으러 왔어 - _시체 먼지_라네. 던전에 널려 있는 시체 더미에서 얻을 수 있다네. 마법 사용자로서 여기 몬스터로부터 자기보호는 할 수 있지만 당황스럽군. 아마도 자네가 날 도와줄 수 있을것 같군. 도와준다면 기꺼이 내 최고의 완드로 보상하지.</string>
+    <string name="WandMaker_Dust2">시체 먼지를 찾는 건 잘되어가는가, %s? 가장 먼저 찾아봐야 할 장소는 뼈 무더기라네.</string>
+    <string name="WandMaker_Name">늙은 지팡이 제작자</string>
+    <string name="WandMaker_RotberryDesc">이 나무 열매의 맛은 달콤하다- 달콤한 죽음.</string>
+    <string name="WandMaker_RotberryInfo">그 씨앗은 으르렁하는 소리를 내었고, 그 소리는 던전 전체로 퍼져나갔다.</string>
+    <string name="WandMaker_RotberryName">썩은딸기의 씨</string>
+    <string name="WandOfAmok_Info">지팡이에서 나온 보라색 광선은 타겟을 미친듯이 날뛰게 해서 주변에 있는 아무나 공격하게 합니다.</string>
+    <string name="WandOfAmok_Info1">아무일도 일어나지 않았습니다.</string>
+    <string name="WandOfAmok_Name">정신착란의 지팡이</string>
+    <string name="WandOfAvalanche_Info">눈사태의 지팡이의 목표지점이 벽(또는 다른고체 장애물)에 맞으면 해당지역에 돌이 무너집니다. 돌에 맞은 생물은 데미지를 입고 기절하게 됩니다.</string>
+    <string name="WandOfAvalanche_Info1">눈사태의 지팡이로 자살했습니다...</string>
+    <string name="WandOfAvalanche_Name">눈사태의 지팡이</string>
+    <string name="WandOfBlink_Info">이 는 당신이 선택한 방향으로 순간이동 할 수 있습니다. 생물이나 무생물 장애물등은 순간이동을  차단합니다.</string>
+    <string name="WandOfBlink_Name">점멸의 지팡이</string>
+    <string name="WandOfDisintegration_Info">이 지팡이에서 나가는 파괴적인 광선은 그 방향에 있는 모든 생물에게 각각의 피해를 입힙니다.</string>
+    <string name="WandOfDisintegration_Name">분해의 지팡이</string>
+    <string name="WandOfFirebolt_Info">이 지팡이는 마법의 불꽃으로 화재를 유발합니다. 가연성있는 지형/물체를 태우고 생물에게 적중시 지속적으로 화염데미지를 입힙니다.</string>
+    <string name="WandOfFirebolt_Info1">파이어볼트의 지팡이로 자살했습니다...</string>
+    <string name="WandOfFirebolt_Name">파이어볼트의 지팡이</string>
+    <string name="WandOfFlock_Info">이 지팡이는 일시적으로 뚫을 수 없는 양무리를 소환합니다.</string>
+    <string name="WandOfFlock_Name">무리의 지팡이</string>
+    <string name="WandOfLightning_Info">이 지팡이는 서로 가까이있는 최대 4명의 생물에 전기 데미지를 가한다.</string>
+    <string name="WandOfLightning_Info1">번개의 지팡이로 자살했습니다...</string>
+    <string name="WandOfLightning_Name">번개의 지팡이</string>
+    <string name="WandOfMagicMissile_ACDisenchant">마법해체</string>
+    <string name="WandOfMagicMissile_Desinchanted">매직미사일의 지팡이를 해체해서 나온 정수로 당신의 %s 을/를 업그레이드 합니다.</string>
+    <string name="WandOfMagicMissile_Info">이 지팡이는 순수 마법에너지의 미사일을 발사합니다. 목표 생물에게 평균적인 데미지를 입힙니다.</string>
+    <string name="WandOfMagicMissile_Info1">매직미사일의 지팡이로 자살했습니다.</string>
+    <string name="WandOfMagicMissile_Name">매직미사일의 지팡이</string>
+    <string name="WandOfMagicMissile_SelectWand">업그레이드 할 지팡이를 선택하세요.</string>
+    <string name="WandOfPoison_Info">비틀린 나무가지의 사악한 저주는 목표물에 독이 스며들게 합니다. 독에 적중된 생물은 효과가 끝날때까지 지속적인 독에의한 피해를 입게 됩니다. 효과의 지속시간은 지팡이의 레벨에 따라 늘어납니다.</string>
+    <string name="WandOfPoison_Info1">아무일도 일어나지 않았습니다.</string>
+    <string name="WandOfPoison_Name">독의 지팡이</string>
+    <string name="WandOfRegrowth_Info">\"한 생명이 끝날때 항상 새 생명이 성장하고.. 이 영원한 주기는 항상 유지된다!\"</string>
+    <string name="WandOfRegrowth_Info1">아무일도 일어나지 않았습니다.</string>
+    <string name="WandOfRegrowth_Name">재생의 지팡이</string>
+    <string name="WandOfSlowness_Info">이 지팡이의 효과가 끝날때까지 목표물은 절반의 이동속도와 절반의 공격속도를 가지게 됩니다.</string>
+    <string name="WandOfSlowness_Info1">아무일도 일어나지 않았습니다.</string>
+    <string name="WandOfSlowness_Name">둔화의 지팡이</string>
+    <string name="WandOfTelekinesis_Info">이 지팡이에서 나오는 염력은 수풀을 짓밟고, 닫힌문을 열고, 열려있는 문을 닫고, 트랩을 작동시키고 모든 타일에 영향을 미칠 것입니다. 또한 몬스터를 밀어냅니다.</string>
+    <string name="WandOfTelekinesis_Name">염력의 지팡이</string>
+    <string name="WandOfTelekinesis_YouNowHave">당신은 마법으로 %s 를 당신의 가방에 넣었습니다.</string>
+    <string name="WandOfTeleportation_Info">이 지팡이에서 나온 광선은 생물의 의지와 상관없이 현재 층의 랜덤한 장소로 순간이동 합니다.</string>
+    <string name="WandOfTeleportation_Info1"> %2$s 어딘가로 %1$s 이/가 순간이동.</string>
+    <string name="WandOfTeleportation_Info2">아무일도 일어나지 않았습니다.</string>
+    <string name="WandOfTeleportation_Name">순간이동의 지팡이</string>
+    <string name="Wand_ACZap">발동</string>
+    <string name="Wand_Damage">이 지팡이를 근접무기로 사용할때 평균 데미지는 타격당 %d 입니다.</string>
+    <string name="Wand_Fizzles">지금 이 지팡이를 사용하기 위해서는 충전해야 합니다.</string>
+    <string name="Wand_Name">%s 지팡이</string>
+    <string name="Wand_Prompt">공격할 방향을 선택하세요.</string>
+    <string name="Wand_SelfTarget">자신을 목표로 할 수 없습니다.</string>
+    <string name="Wand_Weapon">당신은 이 지팡이를 근접무기로 사용할 수 있습니다.</string>
+    <string name="Wand_Wood">이 가는 %s 지팡이는 오래된것 같습니다. 사용했을 때 어떤 일이 일어날까요?</string>
+    <string name="WarHammer_Gender">남성</string>
+    <string name="WarHammer_Info">몇몇 생물들은 이 납과 철로 우뚝솓아있는 무게감있는 타격을 버틸 수 있겠지만, 강인한 모험가는 이걸 효과적으로 사용할 수 있다.</string>
+    <string name="WarHammer_Name">워 해머</string>
+    <string name="Warlock_Desc">드워프들의 관심이 기술에서 비밀스런 마법으로 옮겨갔을 때, 흑마법사들이 도시에서 힘을 얻기 시작했다. 그들은 원소 마법으로 시작했지만, 얼마 지나지 않아 악마술과 사령술에 손을 뻗었다.</string>
+    <string name="Warlock_Gender">남성</string>
+    <string name="Warlock_Killed">%s의 암흑 화살이 당신을 죽였다...</string>
+    <string name="Warlock_Name">드워프 흑마법사</string>
+    <string name="Warlock_Name_Objective">드워프 흑마법사</string>
+    <string name="WarriorArmor_ACSpecial">영웅의 도약</string>
+    <string name="WarriorArmor_Desc">이 갑옷이 보기엔 무거워 보일지 모르나 착용한 전사에게 영웅적 도약을 가능케 한다. 영웅적 도약으로 목표 지점을 강하게 내리치며 주변의 모든 적을 스턴시킬 수 있다.</string>
+    <string name="WarriorArmor_Name">전사의 갑주</string>
+    <string name="WarriorArmor_NotWarrior">이 갑옷은 전사만 착용 가능하다.</string>
+    <string name="WarriorArmor_Prompt">도약할 방향을 선택하라.</string>
+    <string name="WaterElemental_Desc">물의 정령은 큰 물 웅덩이 근처에서 볼 수 있다. 이 마법으로 뭉쳐진 물덩어리들은 대개 그냥 주변을 어슬렁 댄다.</string>
+    <string name="WaterElemental_Gender">남성</string>
+    <string name="WaterElemental_Name">물의 정령</string>
+    <string name="WaterElemental_Name_Objective">물의 정령</string>
+    <string name="WaterOfAwareness_Info">지식의 힘이 우물에서 흘러나옵니다. 한모금 마시면 당신의 장착 아이템의 모든 정보를 알게 됩니다.</string>
+    <string name="WaterOfAwareness_Procced">한모금 마시자, 머리속이 맑아지며 지식이 쏟아져 들어옵니다. 이제 장착아이템에 대한 모든정보를 알게됩니다. 또 현재 층에 있는 모든 아이템과 비밀을 알수있게 되었습니다.</string>
+    <string name="WaterOfHealth_Info">좋은 물에서 힘의 원천이 나옵니다. 상처를 치유하고 굶주림을 채우기 위해 거기서 한모금 가져가세요.</string>
+    <string name="WaterOfHealth_Procced">한 모금 마시자, 당신의 모든 상처가 완전히 회복되는 것을 느낍니다.</string>
+    <string name="WaterOfTransmutation_Info">변화의 힘이 우물에서 흘러나옵니다. 뭔가를 그 안으로 던져넣어 보세요.</string>
+    <string name="Weakness_Info">쇠약함</string>
+    <string name="Weapon_Identify">당신은 이제 %1$s 에 충분이 익숙해져 정체를 알게 되었습니다. 이것은 %2$s 입니다. </string>
+    <string name="Weapon_Incompatible">서로 다른 종류의 마법들의 작용으로 갑옷의 각인이 지워져 버렸다</string>
+    <string name="Web_Info">모든것이 두꺼운 거미줄로 덮여 있습니다.</string>
+    <string name="Weightstone_ACApply">적용</string>
+    <string name="Weightstone_Accurate">%s 밸런스를 정확도에 맞췄다.</string>
+    <string name="Weightstone_Fast">%s 밸런스를 속도에 맞췄다.</string>
+    <string name="Weightstone_Info">무게추를 사용해 근접무기의 밸런스를 조절하면 무기의 속도와 정확도을 높일 수 있습니다.</string>
+    <string name="Weightstone_Name">무게추</string>
+    <string name="Weightstone_Select">밸런스를 조절할 무기를 선택하세요.</string>
+    <string name="Weightstone_WndAccuracy">정확도</string>
+    <string name="Weightstone_WndCancel">신경쓰지마</string>
+    <string name="Weightstone_WndChoice">%s 의 밸런스를 어떻게 조절하시겠습니까?</string>
+    <string name="Weightstone_WndSpeed">속도</string>
+    <string name="Welcome_Ok">알겠습니다!</string>
+    <string name="Welcome_Text">
+        Remixed Pixel Dungeon은 Watabou의 오픈 소스 게임 Pixel Dungeon의 수정판입니다.\n
+        이 프로젝트는 플레이어에게 새로운 경험과 콘텐츠를 제공하기 위해 만들어졌습니다.\n
+        프로젝트의 또 다른 중요점은, 다국어 지원을 지원하는 것입니다.\n
+        매 업데이트마다 우리는 커뮤니티와 소통을 유지하려 노력합니다.\n
+        그리고 언젠가 당신의 아이디어가 게임에 반영된다면... 당신의 창조력에 감사드립니다.=)\n
+        현재 버전은 Pixel Dungeon 1.7.2에 기반을 두고 있으며 부분적으로 1.7.5의 요소를 포함합니다.\n 
+        오리지널과 차이점: \n
+        - 언어 변경 옵션.\n
+        - 새로운 몬스터와 NPC\n
+        - 독 가스와 불이 좀 더 많은 아이템과 상호작용\n
+        - 새로운 «음식»\n
+        - 새로운 아이템과 일부 기존 아이템의 변경\n
+        - 이제 씨앗을 먹을 수 있습니다. =)\n 
+        - 엘프
+        </string>
+    <string name="Welcome_Text_19">
+        리믹스.17:\n
+        - 새로운 미믹 종류\n
+        리믹스.18:\n
+        - 정령들\n
+        리믹스.19:\n
+        - 거미들\n
+        - 거미 테마 레벨\n
+        - 거미 여왕\n
+        </string>
+    <string name="Welcome_Text_20">
+리믹스.20:\n
+ - 새로운 희귀 무기 - 갈고리낫\n
+ - 새로운 희귀 몬스터\n
+ - 게임을 저장하고 불러올 수 있는 신규 모드\n
+ - 그 외 눈치채기 어려운 변경점들\n</string>
+    <string name="Welcome_Text_20_1">
+리믹스.20.1:\n
+ - 지배의 스크롤\n
+ - 저주의 스크롤</string>
+    <string name="Welcome_Text_20_2">
+리믹스.21:
+ - 희귀한 혼돈의 아이템
+ - 액체 화염은 이제 진짜 액체입니다.</string>
+    <string name="Welcome_Text_21_1">
+리믹스.21.1:\n
+ - 쉬움 모드 (광고 있음)\n
+ - 전문가 모드</string>
+    <string name="Welcome_Text_21_2">
+리믹스.21.2:
+- 게임 모드를 선택할 수 있음(현재는 리스킨만 지원) (숙련된 모더들에게만 추천)</string>
+    <string name="Welcome_Text_21_3">
+remix.21.3:\n
+ - 미니 픽던 모드를 다운로드 받을 수 있음(미완성 된 버전이지만 재미있음)
+ - 하수구 그래픽 개선</string>
+    <string name="Welcome_Text_21_4">
+리믹스.21.4:\n
+ - 신규 희귀 무기 - 희생의 검</string>
+    <string name="Welcome_Text_21_5">
+ 리믹스.21.5:\n
+ - 오래된 아이템의 새로운 기능 구현</string>
+    <string name="Welcome_Title">환영합니다!</string>
+    <string name="WndBlacksmith_Prompt">알았다구, 약속은 약속이니깐, 내가 해줄 수 있는 건 이거야:  아이템 2개를 재 주조해서 더 나은 하나로 만들어 주지.</string>
+    <string name="WndBlacksmith_Reforge">재주조 한다</string>
+    <string name="WndBlacksmith_Select">재 주조할 아이템을 고르시오</string>
+    <string name="WndCatalogus_Potions">포션</string>
+    <string name="WndCatalogus_Scrolls">스크롤</string>
+    <string name="WndCatalogus_Title">카탈로그</string>
+    <string name="WndChallenges_Title">도전들</string>
+    <string name="WndChooseWay_Cancel">나중에 결정 할게</string>
+    <string name="WndChooseWay_Message">어느 길을 걸으시겠습니까?</string>
+    <string name="WndClass_Mastery">마스터리</string>
+    <string name="WndDonate_commonDonateText">Remixed Pixel Dungeon - 모두에게 무료이고 앞으로도 계속 그럴것 입니다.\n\n하지만, 여러분은 저희가 보다 나은 게임을 만드는데 도와 주실수 있습니다.\n\n또한 저희 감사의 표시로 도움을 주신 분들께 몇몇 장식품을 증정해 드립니다. 모든 번역의 저작권은 Henry Yi, hhaakpk@naver.com에게 있습니다.</string>
+    <string name="WndDonate_donate">기부하세요:</string>
+    <string name="WndDonate_gold">골드</string>
+    <string name="WndDonate_goldDonate">금 기부</string>
+    <string name="WndDonate_goldDonateText">당신의 도움에 감사드립니다.</string>
+    <string name="WndDonate_notConnected">연결 안됨 :(</string>
+    <string name="WndDonate_ruby">루비</string>
+    <string name="WndDonate_rubyDonate">루비 기부</string>
+    <string name="WndDonate_rubyDonateText">당신의 관대함은 저희가 계속하여 Remixed Pixel Dungeon을 향상시켜 나가는데 큰 도움이 됩니다.</string>
+    <string name="WndDonate_rubyDonateText2"/>
+    <string name="WndDonate_silver">은</string>
+    <string name="WndDonate_silverDonate">은 기부</string>
+    <string name="WndDonate_silverDonateText">어떤한 기부라도 저희 개발 프로젝트에 도움이 됩니다.</string>
+    <string name="WndDonate_silverDonateText2">또한 모든 게임 모드에서 광고를 없애주며, 처음부터 사냥꾼을 해금합니다.</string>
+    <string name="WndError_Title">에러</string>
+    <string name="WndGame_Challenges">도전들</string>
+    <string name="WndGame_Exit">픽셀 던전 종료</string>
+    <string name="WndGame_Ranking">랭킹</string>
+    <string name="WndGame_Return">게임으로 돌아가기</string>
+    <string name="WndGame_Settings">세팅</string>
+    <string name="WndGame_Start">새 게임 시작</string>
+    <string name="WndGame_menu">메인 메뉴</string>
+    <string name="WndHero_Buffs">버프</string>
+    <string name="WndHero_Depth">최대 깊이</string>
+    <string name="WndHero_Exp">경험치</string>
+    <string name="WndHero_Gold">획득한 금화</string>
+    <string name="WndHero_Health">체력</string>
+    <string name="WndHero_StaCatalogus">카탈로그</string>
+    <string name="WndHero_StaJournal">일지</string>
+    <string name="WndHero_StaTitle">Level %1$d %2$s</string>
+    <string name="WndHero_Stats">스탯</string>
+    <string name="WndHero_Str">힘</string>
+    <string name="WndImp_Message">오 예! 내 영웅이군요!\n보상과 관련해서, 당장 현금은 없지만, 더 나은걸 드릴게요. 이 것은  우리 가보로 내려오는 반지 입니다: 우리 할아버지가 죽은 팔라딘 손가락에서 빼온 거죠.</string>
+    <string name="WndImp_Reward">반지 가지세여</string>
+    <string name="WndInfoCell_Nothing">여긴 아무것도 없다.</string>
+    <string name="WndInfoItem_Chest">보물 상자</string>
+    <string name="WndInfoItem_CrystalChest">크리스탈 보물 상자</string>
+    <string name="WndInfoItem_Inside">당신은 안에 들어있는 %s를 볼 수 있지만, 보물 상자를 열려면 활금 열쇠가 필요하다. </string>
+    <string name="WndInfoItem_LockedChest">잠긴 보물 상자</string>
+    <string name="WndInfoItem_NeedKey">하지만 열어보려면 황금 열쇠가 필요하다.</string>
+    <string name="WndInfoItem_Owner">이 고대 무덤에는 뭔가 쓸만한게 들어 있겠지만, 그 주인은 당연히 열어보는걸 매우 싫어할 것이다.</string>
+    <string name="WndInfoItem_Remains">이 것은 당신의 선조둘 중 하나가 남긴 것일 뿐이다. 귀한게 있는지 조사해 볼 가치가 있을지도.</string>
+    <string name="WndInfoItem_Skeleton">뼈 무더기</string>
+    <string name="WndInfoItem_Tomb">무덤</string>
+    <string name="WndInfoItem_WontKnow">열어보기 전까지는 무엇이 안에 들었는지 알 길이 없다.</string>
+    <string name="WndJournal_Title">일지</string>
+    <string name="WndPremiumSettings_banners">배너 소재 선택</string>
+    <string name="WndPremiumSettings_chrome">GUI 소재 선택</string>
+    <string name="WndPremiumSettings_gold">금</string>
+    <string name="WndPremiumSettings_notAvailbale">이 옵션은 아직 선택할 수 없음</string>
+    <string name="WndPremiumSettings_ruby">루비</string>
+    <string name="WndPremiumSettings_silver">은</string>
+    <string name="WndPremiumSettings_status">스테이터스 바 소재 선택</string>
+    <string name="WndPremiumSettings_std">표준</string>
+    <string name="WndPremiumSettings_toolbar">툴 바 소재 선택</string>
+    <string name="WndRanking_Badges">업적</string>
+    <string name="WndRanking_Error">추가 정보를 로드하지 못했음</string>
+    <string name="WndRanking_Items">아이템</string>
+    <string name="WndRanking_StaAlchemy">제조한 포션</string>
+    <string name="WndRanking_StaAnkhs">사용한 앵커</string>
+    <string name="WndRanking_StaChallenges">도전들</string>
+    <string name="WndRanking_StaDepth">최대 깊이</string>
+    <string name="WndRanking_StaDuration">플레이 시간</string>
+    <string name="WndRanking_StaEnemies">죽인 몬스터</string>
+    <string name="WndRanking_StaFood">먹은 음식</string>
+    <string name="WndRanking_StaGold">획득한 금화</string>
+    <string name="WndRanking_StaHealth">체력</string>
+    <string name="WndRanking_StaStr">힘</string>
+    <string name="WndRanking_StaTitle">Level %1$d %2$s</string>
+    <string name="WndRanking_Stats">스탯</string>
+    <string name="WndResurrect_Message">당신은 죽었다, 하지만 이 던전의 정복을 위한 한 번의 기회가 더 주어졌다. 받아 들이겠는가?</string>
+    <string name="WndResurrect_No">아니, 포기할래</string>
+    <string name="WndResurrect_Yes">그래, 난 싸우겠어!</string>
+    <string name="WndSadGhost_Armor">유령의 갑옷</string>
+    <string name="WndSadGhost_Farewell">잘가요, 모험가님!</string>
+    <string name="WndSadGhost_Rat">네! 그 추한생물은 죽고 드디어 쉴수 있겠군요.. 이 중에 한가지를 가져가세요. 아마 여행에 도움이 될껍니다.</string>
+    <string name="WndSadGhost_Rose">네!네!! 그거에요! 제발 저한테 주세요! 그리고 당신은 이중에 하나를 고르세요, 아마도 당신의 여행에 도움이 될꺼에요..</string>
+    <string name="WndSadGhost_Wepon">유령의 무기</string>
+    <string name="WndSelectLanguage_ImproveTranslation">Remixed Pixel Dungeon의 번역을 도와주십시오.</string>
+    <string name="WndSettings_Brightness">밝기</string>
+    <string name="WndSettings_ClassicFont">클래식 폰트</string>
+    <string name="WndSettings_ExperementalFont">새 폰트</string>
+    <string name="WndSettings_Immersive">실감 모드</string>
+    <string name="WndSettings_Music">음악</string>
+    <string name="WndSettings_ScaleUp">확대 UI</string>
+    <string name="WndSettings_SecondQuickslot">두 번째 퀵 슬롯</string>
+    <string name="WndSettings_SelectLanguage">언어 선택</string>
+    <string name="WndSettings_Sound">Sound FX</string>
+    <string name="WndSettings_SwitchLand">가로 모드로 전환</string>
+    <string name="WndSettings_SwitchPort">세로 모드로 전환</string>
+    <string name="WndSettings_TextScaleDefault">기본 폰트</string>
+    <string name="WndSettings_ThirdQuickslot">세 번째 퀵 슬롯</string>
+    <string name="WndSettings_ZoomDef">기본 배율</string>
+    <string name="WndSettings_ZoomIn">+</string>
+    <string name="WndSettings_ZoomOut">-</string>
+    <string name="WndStory_Caves">그 동굴은, 버려진 지하감옥 밑에 있었습니다. 그들이 이용하기에 너무 깊은 곳에 있었고 미네랄에 관심이 있는 드워프들은 가난했습니다. 과거에 두 도시사이에 무역전초 기지가 있었지만 드워프의 도시가 쇠퇴한뒤에 사라졌습니다. 그곳엔 아직 놀과 지하동물들이 있습니다.</string>
+    <string name="WndStory_Halls">과거에 이러한 수준은 대도시의 외곽정도였다. 이전에 드워프와 고대신과의 전쟁에서 승리한 후 비용이 너무 많이 드는 나머지, 남은 약화된 악마들을 소탕하지 않았다. 그러자 점차 악마들은 점차 지역을 지배하고 악마들을 소환하기 시작했다. 극소수의 모험가의 후손들에게만 전해져...</string>
+    <string name="WndStory_Metropolis">드워프 메트로폴리스는 한때 드워프의 도시국가중 제일 거대했다. 전성기에 드워프의 기계화 군대가 고대신과 악마군대의 침공을 성공적으로 물리쳤다. 그러나 돌아온 전사들은 타락했고 그 승리가 지하왕국의 종말의 시작이라고 말하고 있다.</string>
+    <string name="WndStory_Prision">몇 년 전 위험한 범죄자들을 가두기 위해 지하감옥이 여기에 세워졌습니다. 이곳은 매우 탈출하기 어려웠기때문에 당시에는 좋은 생각처럼 보였습니다. 그러나 곧 어두운 독기가 간수와 죄수들에게 침투해 그들이 미치기 시작했습니다. 결국 일부 죄수가 남아있었지만 지하감옥은 버려졌습니다.</string>
+    <string name="WndStory_Sewers">던전은 도시 아래 위치하고 있습니다. 실제로 상위 레벨은 도시의 하수 시스템이 구성되어 있습니다. 명목상 도시의 일부이기 때문에 이 수준은 위험하지 않습니다. 아무도 이곳을 안전하게 요청하지 않았기 때문에 당신은 여기에 모든 사악한 마법을 전부 처리 할 필요는 없습니다.</string>
+    <string name="WndTradeItem_Bought">%1$s 을/를 %2$dg 에 구매했습니다.</string>
+    <string name="WndTradeItem_Buy">구매 %dg</string>
+    <string name="WndTradeItem_Cancel">신경쓰지마</string>
+    <string name="WndTradeItem_Sale">할인 : %1$s - %2$dg</string>
+    <string name="WndTradeItem_Sell">판매 %dg</string>
+    <string name="WndTradeItem_Sell1">판매 1개당 %dg</string>
+    <string name="WndTradeItem_SellAll">모두 판매 %dg</string>
+    <string name="WndTradeItem_Sold">%1$s 을/를 %2$dg 에 판매했습니다.</string>
+    <string name="WndWandmaker_Battle">전투용 지팡이</string>
+    <string name="WndWandmaker_Farawell">당신의 퀘스트에 행운을 빌어요, %s!</string>
+    <string name="WndWandmaker_Message">오, 성공했군요! 자 너무 고민하지 마세요. 약속대로 제 고급 지팡이중 하나를 드리겠습니다.</string>
+    <string name="WndWandmaker_NonBattle">비전투용 지팡이</string>
+    <string name="WoodenBow_Gender">남성적인</string>
+    <string name="WoodenBow_Info">이 단순한 나무활은 화살을 가지고 있다면 어느정도 쓸만할 것입니다.</string>
+    <string name="WoodenBow_Name">나무 활</string>
+    <string name="WoodenCrossbow_Gender">남성</string>
+    <string name="WoodenCrossbow_Info">간단한 나무 쇠뇌다. 특이하게도 볼트 대신 일반 화살을 발사할 수 있게 만들어져 있다.</string>
+    <string name="WoodenCrossbow_Name">나무 쇠뇌</string>
+    <string name="Wraith_Defense">회피</string>
+    <string name="Wraith_Desc">그들의 묘지의 유령들은 복수심에 불타는 죄인의 영혼이다. 영체로 이루어져 있기 때문에 일반 무기로 맞추기가 매우 어렵다.</string>
+    <string name="Wraith_Gender">남성</string>
+    <string name="Wraith_Name">유령</string>
+    <string name="Wraith_Name_Objective">유령</string>
+    <string name="Yog_Desc">요그-제바는 혼돈의 왕국의 강력한 고대의 신이다. 한 세기 전, 고대 드워프들은 악마의 군대와 싸워 간신히 이겼지만, 신은 죽이지 못했다. 그 대신, 그들은 자신들의 도시 아래에 있는 홀에 이 신을 가두고는, 그가 다시는 일어서지 못할 정도로 약해지기를 바랬다.</string>
+    <string name="Yog_Gender">남성</string>
+    <string name="Yog_Info1">...</string>
+    <string name="Yog_Info2">저게 환상이길 빈다.....</string>
+    <string name="Yog_Name">요그-제바</string>
+    <string name="Yog_Name_Objective">요그-제바</string>
+    <string msgid="5835639618285370804" name="accept">"동의"</string>
+    <string name="app_name">Remixed Pixel Dungeon</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"사용 설정"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 작동합니다."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play 서비스 사용"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"설치"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"기기에 Google Play 서비스가 설치되어 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play 서비스 설치"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 서비스 오류"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"업데이트"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play 서비스를 업데이트해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"현재 업데이트 중인 Google Play 서비스가 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"광고에서 캘린더 일정을 만들도록 허용하시겠습니까?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"캘린더 일정 만들기"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"광고 정보"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"광고 소재 미리보기"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"디버그 모드 선택"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"문제해결"</string>
+    <string msgid="6099173376375995052" name="decline">"거부"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"이미지 저장"</string>
+</resources>

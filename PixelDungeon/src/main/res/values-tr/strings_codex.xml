@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- STRINGS OF Codex CLASS -->
+    <string name="Codex_Name">El yazması</string>
+    <string name="Codex_ACRead">OKU</string>
+    <string name="Codex_Info">Herhangi bir kütüphanede bulunabilecek kitaplar</string>
+    <string name="Codex_Blinded">Körken okuyamazsın</string>
+
+    <string-array name="Codex_Story">
+        <item>Watabou Pixel Dungon\'u yarattı , onun el işi çizimlerine baktı. Ve güzel olduğunu gördü!</item>
+        
+        <item>Zıplayan Kabartma - Düşmanın darbesi sonrası onu geri itilmesine yolaçar.</item>
+        <item>Sevgi Kabartması -  Sadece bir seferde bir düşmanı etkiler.Bir kaç döngü boyunca düşman sana aşık olacaktır.</item>
+        <item>Ters-entropi Kabartması - Macerası aydınlanıp yanmaya başlayacak ve düşman donacaktır.</item>
+        <item>Çokluk Kabartması - Bu kabartma mecaracının bir ayna görüntüsünü oluşturacak ancak bu görüntü hasar alabilir ve kahramanın ölebilir.</item>
+        <item>Güç Kabartması - Bu kabartma şimşek vari bir patlama ile saldıran düşmana hasar verirken , yarısı kadar hasarı da kahramanına verecektir.</item>
+        <item>Metabolizma Kabartması - Düşman saldırısından sonra canının bir miktar dolmasını sağlar ancak bunun karşılığında açlığın artacaktır. Sadece çok aç değilken çalışır,.</item>
+        <item>Koku Kabartması - Darbe alındığında zehirli gaz salınmasını sağlar.</item>
+        <item>Sıvı Kabartması - Bu hasar azaltıcı etkili kabartma ile kahramanın sadece her döngüde sadece bir hasar alacaktır.</item>
+        <item>Yerdeğiştiren Kabartma - Bir darbe aldığında görüş alanındaki rastgele bir yere ışınlanma ihtimalin olacak, bu kabartma boss seviyesinde çalışmaz.</item>
+        <item>Karmaşık Kabartma - Bitkisel zırh sağlar aynı zamanda da kök salacaksın.</item>
+        
+   </string-array>
+
+</resources>

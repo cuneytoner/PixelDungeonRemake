@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="Char_Defeat">
+    <item>%1$s vernichtete %2$s</item>
+    <item>%1$s vernichtete %2$s</item>
+    <item>%1$s vernichtete %2$s</item>
+  </string-array>
+    <string-array name="Char_Hit">
+    <item>%1$s trifft %2$s</item>
+    <item>%1$s trifft %2$s</item>
+    <item>%1$s trifft %2$s</item>
+  </string-array>
+    <string-array name="Char_Kill">
+    <item>%s hat dich getötet...</item>
+    <item>%s hat dich getötet...</item>
+    <item>%s hat dich getötet...</item>
+  </string-array>
+    <string-array name="Char_StaDodged">
+    <item>wich aus</item>
+    <item>wich aus</item>
+    <item>wich aus</item>
+  </string-array>
+    <string-array name="Death_Name">
+    <item>%s des Todes</item>
+    <item>%s des Todes</item>
+    <item>%s des Todes</item>
+  </string-array>
+    <string-array name="Dungeon_Tips">
+    <item>Überschätze deine Stärke nicht - verwende nur Waffen und Rüstungen mit denen du umgehen kannst.</item>
+    <item>Nicht alle Türen im Dungeon sind sofort erkennbar. Wenn du nicht weiterkommst suche nach versteckten Türen.</item>
+    <item>Bedenke, dass das Erhöhen deiner Stärke nicht der einzige Weg ist bessere Ausrüstung zu verwenden, du kannst es auch anders herum versuchen indem du die Stärkenanforderung der Ausrüstung mit Schriftrollen der Aufwertung senkst.</item>
+    <item>Du kannst dein Gold in Läden in tieferen Ebenen des Dungeons ausgeben. Der erste befindet sich auf Ebene 6.</item>
+    <item>Nimm dich vor Goo in Acht!</item>
+    <item>Pixel-Mart - alles das du für ein erfolgreiches Abenteuer benötigst!</item>
+    <item>Identifiziere deine Tränke und Schriftrollen so schnell wie möglich. Warte nicht auf den Moment in dem du sie wirklich brauchst.</item>
+    <item>Hungrig zu sein tut dir nicht weh, am Verhungern sein jedoch schon.</item>
+    <item>Überraschungsangriffe haben eine bessere Chance auf einen Treffer. Du könntest z.B. deinem Gegner hinter einer geschlossenen Tür auflauern, wenn du weißt, dass er sich nähert.</item>
+    <item>Lass den Tengu nicht raus!</item>
+    <item>Pixel-Mart. Gib Geld aus. Lebe länger.</item>
+    <item>Wenn du von mehreren Monstern angegriffen wirst versuche dich hinter eine Tür zurückzuziehen.</item>
+    <item>Wenn du Feuer gefangen hast während du schwebst kannst du es nicht durch Wasser löschen.</item>
+    <item>Es macht keinen Sinn mehr als einen Ankh gleichzeitig zu besitzen da du sie ohnehin bei einer Auferstehung verlieren wirst.</item>
+    <item>ACHTUNG! Schwere Maschinen verursachen Verletzungen bis hin zu Verlust von Gliedmaßen oder Tod!</item>
+    <item>Pixel-Mart. Ein sichereres Leben im Dungeon.</item>
+    <item>Wenn du eine verzauberte Waffen aufrüstest besteht eine Chance, dass die Verzauberung dabei zerstört wird.</item>
+    <item>Durch einen Brunnen der Verwandlung kannst du einen Gegenstand erhalten, den du auf keine andere Art erlangen kannst.</item>
+    <item>Der einzige Weg eine Waffe zu verzaubern ist sie durch eine Schriftrolle der Aufwertung aufzurüsten.</item>
+    <item>Im Beisein Ihrer Majestät sind keine Waffen erlaubt!</item>
+    <item>Pixel-Mart. Spezialpreise für Dämonenjäger!</item>
+    <item>Der Text ist in dämonischer Sprache verfasst.</item>
+    <item>Der Text ist in dämonischer Sprache verfasst.</item>
+    <item>Der Text ist in dämonischer Sprache verfasst.</item>
+  </string-array>
+    <string-array name="Fire_Name">
+    <item>%s der Flammen</item>
+    <item>%s der Flammen</item>
+    <item>%s der Flammen</item>
+  </string-array>
+    <string-array name="HeroClass_ElfPerks">
+    <item>Elfen beginnen mit 15HP und 9 STR.</item>
+    <item>Elfen sind immun gegen Anwurzelung.</item>
+    <item>Elfen beginnen mit einem verbesserten Holzbogen und einem Haufen Pfeilen.</item>
+    <item>Elfen sind extrem Erfahren mit Bögen und beweglich.</item>
+    <item>Elfen sind weniger Erfahren mit Nahkampfwaffen.</item>
+  </string-array>
+    <string-array name="HeroClass_HunPerks">
+    <item>Jägerinnen beginnen mit 15 Lebenspunkten.</item>
+    <item>Jägerinnen beginnen mit einem einzigartigen aufwertbaren Bummerang.</item>
+    <item>Jägerinnen sind effektiv im Umgang mit Fernkampfwaffen und erhalten einen Schadensbonus beim Benutzen, wenn ihre Stärke die erforderliche Stärke für die Waffe übersteigt.</item>
+    <item>Jägerinnen erhalten mehr Gesundheit von Tautropfen.</item>
+    <item>Jägerinnen spüren benachbarte Monster sogar dann, wenn sie hinter Hindernissen versteckt sind.</item>
+  </string-array>
+    <string-array name="HeroClass_MagPerks">
+    <item>Magier beginnen mit einem einzigartigen Zauberstab der magischen Geschosse. Dieser Zauberstab kann später \"entzaubert\" werden um einen anderen Zauberstab aufzuwerten.</item>
+    <item>Magier laden ihre Zauberstäbe schneller auf.</item>
+    <item>Jedes Nahrungsmittel stellt beim Essen 1 Ladung bei allen Zauberstäben im Rucksack wieder her.</item>
+    <item>Magiere können ihre Zauberstäbe als Nahkampfwaffe nutzen.</item>
+    <item>Identifizierungsrollen sind bereits zu Beginn bekannt.</item>
+  </string-array>
+    <string-array name="HeroClass_RogPerks">
+    <item>Rouges beginnen mit einem Schattenring+1.</item>
+    <item>Rouges identifizieren den Typ eines Ringes, indem sie ihn ausrüsten. </item>
+    <item>Rouges sind am besten mit leichter Rüstung, weichen besser aus, wenn sie sie tragen </item>
+    <item>Rouges sind am besten im versteckte Türen und Fallen finden</item>
+    <item>Rouges können es länger ohne Essen aushalten </item>
+    <item>Schriftrollen der Magischen Diagramme sind schon zu Beginn bekannt. </item>
+  </string-array>
+    <string-array name="HeroClass_WarPerks">
+    <item>Krieger beginnen mit 11 Stärkepunkten.</item>
+    <item>Krieger starten mit einem einzigartigen Schwert. Dieses Schwert kann später \"umgeschmiedet\" werden um eine andere Nahkampfwaffe zu verbessern.</item>
+    <item>Krieger sind weniger effektiv im Umgang mit Fernkampfwaffen.</item>
+    <item>Jede Form von Nahrung gibt beim Verzehr etwas Gesundheit zurück.</item>
+    <item>Stärketränke sind von Beginn an bekannt.</item>
+  </string-array>
+    <string-array name="Horror_Name">
+    <item>%s der Geister</item>
+    <item>%s der Geister</item>
+    <item>%s der Geister</item>
+  </string-array>
+    <string-array name="Instability_Name">
+    <item>%s der Unbeständigkeit</item>
+    <item>%s der Unbeständigkeit</item>
+    <item>%s der Unbeständigkeit</item>
+  </string-array>
+    <string-array name="Leech_Name">
+    <item>%s der Blutsauger</item>
+    <item>%s der Blutsauger</item>
+    <item>%s der Blutsauger</item>
+  </string-array>
+    <string-array name="Luck_Name">
+    <item>%s des Glücks</item>
+    <item>%s des Glücks</item>
+    <item>%s des Glücks</item>
+  </string-array>
+    <string-array name="Paralysis_Name">
+    <item>%s der Erstarrung</item>
+    <item>%s der Erstarrung</item>
+    <item>%s der Erstarrung</item>
+  </string-array>
+    <string-array name="Piercing_Name">
+    <item>%s mit Spitze</item>
+    <item>%s mit Spitze</item>
+    <item>%s mit Spitze</item>
+  </string-array>
+    <string-array name="Poison_Name">
+    <item>%s mit Gift</item>
+    <item>%s mit Gift</item>
+    <item>%s mit Gift</item>
+  </string-array>
+    <string-array name="Potion_Colors">
+    <item>Türkiser</item>
+    <item>Purpurner</item>
+    <item>Himmelblauer</item>
+    <item>Grüner</item>
+    <item>Goldener</item>
+    <item>Violetter</item>
+    <item>Dunkelgrauer</item>
+    <item>Elfenbeinfarbener</item>
+    <item>Bernsteinfarbener</item>
+    <item>Brauner</item>
+    <item>indigoblauer</item>
+    <item>Silberner</item>
+  </string-array>
+    <string-array name="Ring_Gems">
+    <item>Diamant</item>
+    <item>Opal</item>
+    <item>Granat</item>
+    <item>Rubin</item>
+    <item>Amethyst</item>
+    <item>Topaz</item>
+    <item>Onyx</item>
+    <item>Turmalin</item>
+    <item>Smaragd</item>
+    <item>Saphir</item>
+    <item>Quarz</item>
+    <item>Achat</item>
+  </string-array>
+    <string-array name="Scroll_Runes">
+    <item>KAUNAN</item>
+    <item>SOWILO</item>
+    <item>LAGUZ</item>
+    <item>YNGVI</item>
+    <item>GYFU</item>
+    <item>RAIDO</item>
+    <item>ISAZ</item>
+    <item>MANNAZ</item>
+    <item>NAUDIZ</item>
+    <item>BERKANAN</item>
+    <item>ODAL</item>
+    <item>TIWAZ</item>
+    <item>ANSUZ</item>
+    <item>IWAZ</item>
+    <item>ALGIZ</item>
+    <item>DAGAZ</item>
+    <item>SAHEZ</item>
+  </string-array>
+    <string-array name="Slow_Name">
+    <item>%s aus Eis</item>
+    <item>%s aus Eis</item>
+    <item>%s aus Eis</item>
+  </string-array>
+    <string-array name="Swing_Name">
+    <item>%s der Wut</item>
+    <item>%s der Wut</item>
+    <item>%s der Wut</item>
+  </string-array>
+    <string name="AboutScene_Lnk">http://wiki.nyrds.net/</string>
+    <string name="AboutScene_Mail">cuneytoner@gmail.com</string>
+    <string name="AboutScene_Snd">E-Mail senden</string>
+    <string name="Acidic_Desc">Dieses riesige spinnenartige dämonische Wesen vermeidet Nahkampf mit allen Mitteln. Sie schießt gezackte Dornen mit lähmender Wirkung aus großer Entfernung ab.</string>
+    <string name="Acidic_Gender">männlich</string>
+    <string name="Acidic_Name">Giftiger Skorpion</string>
+    <string name="Acidic_Name_Objective">Giftiger Skorpion</string>
+    <string name="Affection_Txt">%s der Zuneigung</string>
+    <string name="AirElemental_Desc">Luftgeister sind fliegende magische Wesen, die aus lebendiger Luft bestehen.</string>
+    <string name="AirElemental_Gender">männlich</string>
+    <string name="AirElemental_Name">Luftgeist</string>
+    <string name="AirElemental_Name_Objective">Luftgeist</string>
+    <string name="AlarmTrap_Desc">Die Falle gibt einen lauten durchdringenden Ton ab, der durch die Gemäuer hallt.</string>
+    <string name="Albino_Desc">Beutelratten sind aggressiv, aber ziemlich schwache Bewohner der Abwasserkanäle. Sie können nur bei großer Anzahl gefährlich werden. Diese bestimmte Ratte, scheint ein Albino zu sein. Sie hat ausserdem aussergewöhnlich  scharfe Zähne.</string>
+    <string name="Albino_Gender">männlich</string>
+    <string name="Albino_Name">Albino Rattenjäger</string>
+    <string name="Albino_Name_Objective">Albino Rattenkrieger</string>
+    <string name="AlchemyPot_SelectSeed">Wähle einen Samen aus um ihn zu werfen.</string>
+    <string name="AllowStatisticsCollectionScene_Allow">Erlauben</string>
+    <string name="AllowStatisticsCollectionScene_Deny">Verweigern</string>
+    <string name="AllowStatisticsCollectionScene_Request">Wenn du Remixed Pixel Dungeon erlaubst Verwendungsstatistiken zu sammeln, werden die Daten verwendet um:\n
+- Verschiedene geringe Störungen ausfindig zu machen und zu beseitigen ( bei blockierenden Fehlern wirdt di ausdrücklich gefragt, einen Bericht zu senden )\n
+- Spiel-Balance-Verbesserungen\n
+- Gerätespezifische Performancefehler zu beheben\n
+- Lustige Statistiktatsachen von Zeit zu Zeit zu veröffentlichen\n
+Du kannst deine Entscheidung jederzeit ändern (Klicke auf das Diagrammsymbol beim Titelbildschirm ) </string>
+    <string name="AllowStatisticsCollectionScene_Title">Verwendungsstatistiksammlung</string>
+    <string name="AmuletScene_Exit">Lassen wir es gut sein</string>
+    <string name="AmuletScene_Stay">Ich bin noch nicht fertig</string>
+    <string name="AmuletScene_Txt">Endlich hältst du es in deinen Händen, das Amulett von Yendor. Mit seiner Macht kannst du die Welt erobern oder allen Frieden und Reichtum bringen oder was auch immer. Jedenfalls wir sich dein Leben für immer verändern und dieses Spiel endet hier. Oder du kannst noch ein bisschen länger ein gewöhnlicher Sterblicher bleiben.</string>
+    <string name="AntiEntropy_Txt">%s der negativen Entropie</string>
+    <string name="Armor_EquipCursed">Deine %s schnürt dich schmerzhaft ein.</string>
+    <string name="Armor_Glyph">Glyphe</string>
+    <string name="Armor_Identify">Du bist nun vertraut genug mit deiner %1$s um sie zu identifizieren. Es ist eine %2$s.</string>
+    <string name="Armor_Incompatible">Eine Überlagerung verschiedener Magiearten hat die Glyphe von dieser Rüstung entfernt.</string>
+    <string name="Armor_Info1">Diese %1$s bietet bis zu \"%2$d\" Schadensreduzierung pro Angriff.</string>
+    <string name="Armor_Info2">
+\n\nDeine Stärke ist zu gering. Deine Bewegungsgeschwindigkeit und deine Verteidigungsfähigkeit sind verringert, solange du diese Rüstung anhast.</string>
+    <string name="Armor_Info3">
+\n\nDa deine Stärke zu gering ist, wird das Tragen dieser Rüstung deine Bewegungsgeschwindigkeit und deine Verteidigungsfähigkeit verringern.</string>
+    <string name="Armor_Info4">
+\n\nEine typische %1$s absorbiert bis zu %2$d Schadenspunkte pro Angriff und benötigt %3$d Stärkepunkte.</string>
+    <string name="Armor_Info5">Diese Rüstung ist wahrscheinlich zu schwer für dich.</string>
+    <string name="Armor_Info6">Sie hat eine Gravur.</string>
+    <string name="Armor_Info7a">
+\n\n Du trägst die %1$s%2$s.</string>
+    <string name="Armor_Info7b">, und da sie verflucht ist, kannst du sie nicht entfernen.</string>
+    <string name="Armor_Info8">
+\n\nDu spürst, dass eine bösartige Magie in dieser %s lauert.</string>
+    <string name="Armor_ToString">%1$s :%2$d</string>
+    <string name="AzuterronNPC_Gender">männlich</string>
+    <string name="AzuterronNPC_Name">Fremder</string>
+    <string name="AzuterronNPC_Name_Objective">Fremder</string>
+    <string name="BadgesScene_Title">Deine Medallien</string>
+    <string name="Badges_AllBags">Alle Taschen gekauft</string>
+    <string name="Badges_AllItems">Alle Tränke, Schriftrollen, Ringe und Zauberstäbe identifiziert</string>
+    <string name="Badges_AllPotions">Alle Tränke identifiziert</string>
+    <string name="Badges_AllRings">Alle Ringe identifiziert</string>
+    <string name="Badges_AllScrolls">Alle Schriftrollen identifiziert</string>
+    <string name="Badges_AllWands">Alle Zauberstäbe identifiziert</string>
+    <string name="Badges_BossSlain1">1. Boss besiegt</string>
+    <string name="Badges_BossSlain1All">1. Boss besiegt durch Krieger, Magier, Schurke und Jägerin</string>
+    <string name="Badges_BossSlain2">2. Boss besiegt</string>
+    <string name="Badges_BossSlain3">3. Boss besiegt</string>
+    <string name="Badges_BossSlain3All">3. Boss besiegt durch Gladiator, Berserker, Hexenmeister, Kampfmagier, Freerunner, Assassine, Scharfschütze und Wächter</string>
+    <string name="Badges_BossSlain4">4. Boss besiegt</string>
+    <string name="Badges_Champion">Herausforderung gewonnen</string>
+    <string name="Badges_DeathFalling">Tod durch Fallen</string>
+    <string name="Badges_DeathFire">Tod durch Feuer</string>
+    <string name="Badges_DeathGas">Tod durch giftige Gase</string>
+    <string name="Badges_DeathGlyph">Tod durch eine Glyphe</string>
+    <string name="Badges_DeathHunger">Tod durch Hunger</string>
+    <string name="Badges_DeathPoison">Tod durch Gift</string>
+    <string name="Badges_FoodEaten1">10 Mahlzeiten gegessen</string>
+    <string name="Badges_FoodEaten2">20 Mahlzeiten gegessen</string>
+    <string name="Badges_FoodEaten3">30 Mahlzeiten gegessen</string>
+    <string name="Badges_FoodEaten4">40 Mahlzeiten gegessen</string>
+    <string name="Badges_GamesPlayed1">10 Spiele gespielt</string>
+    <string name="Badges_GamesPlayed2">100 Spiele gespielt</string>
+    <string name="Badges_GamesPlayed3">500 Spiele gespielt</string>
+    <string name="Badges_GamesPlayed4">2000 Spiele gespielt</string>
+    <string name="Badges_GoldColleted1">100 Gold gesammelt</string>
+    <string name="Badges_GoldColleted2">500 Gold gesammelt</string>
+    <string name="Badges_GoldColleted3">2500 Gold gesammelt</string>
+    <string name="Badges_GoldColleted4">7500 Gold gesammelt</string>
+    <string name="Badges_GrimWepon">Monster mit einer Grausigen Waffe getötet</string>
+    <string name="Badges_HappyEnd">Happy End</string>
+    <string name="Badges_Immured">Tod durch Einsperren</string>
+    <string name="Badges_Info1">Medallie bestätigt: %s</string>
+    <string name="Badges_Info2">Neue Meta Medallie: %s</string>
+    <string name="Badges_Info3">Neue Medallie: %s</string>
+    <string name="Badges_ItemLvl1">Gegenstand mit Level 3 errungen</string>
+    <string name="Badges_ItemLvl2">Gegenstand mit Level 6 errungen</string>
+    <string name="Badges_ItemLvl3">Gegenstand mit Level 9 errungen</string>
+    <string name="Badges_ItemLvl4">Gegenstand mit Level 12 errungen</string>
+    <string name="Badges_LevelReached1">Level 6 erreicht</string>
+    <string name="Badges_LevelReached2">Level 12 erreicht</string>
+    <string name="Badges_LevelReached3">Level 18 erreicht</string>
+    <string name="Badges_LevelReached4">Level 24 erreicht</string>
+    <string name="Badges_MasteryCombo">7er Combo</string>
+    <string name="Badges_MonsterSlain1">10 Gegner getötet</string>
+    <string name="Badges_MonsterSlain2">50 Gegner getötet</string>
+    <string name="Badges_MonsterSlain3">150 Gegner getötet</string>
+    <string name="Badges_MonsterSlain4">250 Gegner getötet</string>
+    <string name="Badges_NightHunter">5 Monster in der Nacht getötet</string>
+    <string name="Badges_NoMonsterSlain">Level abgeschlossen ohne ein Monster zu töten</string>
+    <string name="Badges_Piranhas">6 Piranhas getötet</string>
+    <string name="Badges_PotionsCooked1">3 Tränke gebraut</string>
+    <string name="Badges_PotionsCooked2">6 Tränke gebraut</string>
+    <string name="Badges_PotionsCooked3">9 Tränke gebraut</string>
+    <string name="Badges_PotionsCooked4">12 Tränke gebraut</string>
+    <string name="Badges_RareAll">Alle seltenen Monster getötet</string>
+    <string name="Badges_RingHaggler">Ring des Schacherers erhalten</string>
+    <string name="Badges_RingThorns">Dornenring erhalten</string>
+    <string name="Badges_StrengthAttained1">13 Stärkepunkte erhalten</string>
+    <string name="Badges_StrengthAttained2">15 Stärkepunkte erhalten</string>
+    <string name="Badges_StrengthAttained3">17 Stärkepunkte erhalten</string>
+    <string name="Badges_StrengthAttained4">19 Stärkepunkte erhalten</string>
+    <string name="Badges_Supporter">Danke für deine Unterstützung!</string>
+    <string name="Badges_Victory">Amulett von Yendor erhalten</string>
+    <string name="Badges_VictoryAll">Amulett von Yendor mit Krieger, Magier, Schurke und Jägerin erhalten</string>
+    <string name="Badges_Yasd">Tod durch Feuer, Gift, giftige Gase und Hunger</string>
+    <string name="Badges_Yog_Slain">Yog-Dzewa getötet </string>
+    <string name="Bandit_Desc">Tiefere Ebenen des Verließes waren schon immer ein Versteck für alle möglichen Kriminellen. Nicht alle von ihnen konnten einen klaren Verstand bewahren wärend ihrer langen Zeit so weit weg vom Tageslicht. Diese Diebe und Banditen haben schon vor langer Zeit vergessen, wer sie waren und warum sie stehlen. Es scheint, als ob dieser Bandit, seinen Dolch mit etwas überzogen hat!  </string>
+    <string name="Bandit_Gender">männlich</string>
+    <string name="Bandit_Name">Verrückter Bandit</string>
+    <string name="Bandit_Name_Objective">Verrückter Bandit</string>
+    <string name="Bat_Defense">ausgewichen</string>
+    <string name="Bat_Desc">Diese flinken und zähen Fledermäuse können sogar deutlich größere Gegner besiegen, in dem sie mit jedem erfolgreichen Angriff ihre Gesundheit wieder herstellen.</string>
+    <string name="Bat_Gender">männlich</string>
+    <string name="Bat_Name">Fledermaus Blutsauger</string>
+    <string name="Bat_Name_Objective">Fledermaus Blutsauger</string>
+    <string name="BattleAxe_Gender">feminin</string>
+    <string name="BattleAxe_Info">Der enorme stählerne Kopf dieser Axt bringt eine beachtliche Kraft in jeden deiner Schläge.</string>
+    <string name="BattleAxe_Name">Streitaxt</string>
+    <string name="Blacksmith_Blood1">Hey Mensch! Willst du dich nützlich machen? Nimm diese Spitzhacke und _töte eine Fledermaus_ damit, ich brauche ihr Blut an der Spitze.  Was willst du? Wie ich dich bezahle? Du gieriger...\nOkay, okay, ich habe kein Geld um dich zu bezahlen, aber ich kann etwas für dich schmieden. Du kannst dich glücklich schätzen, ich bin der einzige Schmied in der Gegend.</string>
+    <string name="Blacksmith_Completed">Oh, du bist zurückgekommen... Besser spät als nie.</string>
+    <string name="Blacksmith_Desc">Dieser Trollschmied sieht so aus wie alle Trolle auch: Er ist groß und dürr, und seine Haut gleicht Stein, in Beidem: Farbe und Beschaffenheit. Der Trollschmied arbeitet mit unproportional kleinen Werkzeugen.</string>
+    <string name="Blacksmith_GetLost">Ich bin beschäftigt. Verschwinde!</string>
+    <string name="Blacksmith_Gold1">Hey Mensch! Willst du dich nützlich machen? Nimm diese Spitzhacke und baue etwas _dunkles Golderz_ für mich ab, _15 Stück_ sollten genügen. Was willst du? Wie ich dich bezahle? Du gieriger...\nOkay, okay, ich habe kein Geld um dich zu bezahlen, aber ich kann etwas für dich schmieden. Du kannst dich glücklich schätzen, ich bin der einzige Schmied in der Gegend.</string>
+    <string name="Blacksmith_LooksBetter">Dein/e %s schaut nun besser aus</string>
+    <string name="Blacksmith_Name">Trollschmied</string>
+    <string name="Blacksmith_Txt2">Willst du mich verarschen? Wo ist meine Spitzhacke?!</string>
+    <string name="Blacksmith_Txt3">Dunkles Golderz. 15 Stück. Ernsthaft, ist das so schwer?</string>
+    <string name="Blacksmith_Txt4">Ich sagte ich brauche Fledermausblut auf der Spitzhacke. Hopp, hopp!</string>
+    <string name="Blacksmith_Verify1">Wähle 2 verschiedene Gegenstände aus, nicht zwei mal den Selben!</string>
+    <string name="Blacksmith_Verify2">Wähle 2 Gegenstände des selben Art aus!</string>
+    <string name="Blacksmith_Verify3">Ich muss wissen, womit ich arbeite. Identifiziere sie erst!</string>
+    <string name="Blacksmith_Verify4">Ich arbeite nicht mit verfluchten Gegenständen!</string>
+    <string name="Blacksmith_Verify5">Das ist Müll, die Qualität ist zu schlecht!</string>
+    <string name="Blacksmith_Verify6">Ich kann diese Gegenstände nicht wiederverwerten!</string>
+    <string name="BlankScroll_Info">Lediglich eine leere Schriftrolle. Jemand könnte etwas darauf schreiben.</string>
+    <string name="BlankScroll_Name">Leere Schriftrolle</string>
+    <string name="BlankScroll_ReallyBlank">Diese Schriftrolle ist leer.</string>
+    <string name="Bleeding_Death">Du bist verblutet</string>
+    <string name="Boomerang_Gender">maskulin</string>
+    <string name="Boomerang_Info">Auf den Gegner geworfen findet dieses hölzerne Wurfgeschoss wieder zurück in die Hand des Angreifes.</string>
+    <string name="Boomerang_Name">Bumerang</string>
+    <string name="Bounce_Txt">%s des Rückstoßes</string>
+    <string name="Bow_Info1">Das ist eine Distanzwaffe. </string>
+    <string name="Brute_Desc">Schläger sind die größten, stärksten und zähesten unter den Gnollen. Wenn sie ernsthaft verletzt sind fallen sie in einen Berserkerzustand und fügen ihren Feinden sogar noch mehr Schaden zu.</string>
+    <string name="Brute_Enraged">Der %s bekommt einen Wutanfall!</string>
+    <string name="Brute_Gender">männlich</string>
+    <string name="Brute_Name">Gnollschläger</string>
+    <string name="Brute_Name_Objective">Gnollschläger</string>
+    <string name="Brute_StaEnraged">tobend</string>
+    <string name="BurningFist_Desc">brennende Faust des Alten Gottes</string>
+    <string name="BurningFist_Gender">männlich</string>
+    <string name="BurningFist_Name">brennende Faust</string>
+    <string name="BurningFist_Name_Objective">brennende Faust</string>
+    <string name="Caves_TileDescBookshelf">Wer braucht denn ein Bücherregal in einer Höhle?</string>
+    <string name="Caves_TileDescDeco">Eine Erzader ist in der Wand sichtbar. Gold?</string>
+    <string name="Caves_TileDescEntrance">Die Leiter führt nach oben in eine höhere Ebene.</string>
+    <string name="Caves_TileDescExit">Die Leiter führt nach unten in eine tiefere Ebene.</string>
+    <string name="Caves_TileDescHighGrass">Riesige Pilze versperren die Sicht.</string>
+    <string name="Caves_TileGrass">Leuchtendes Moos</string>
+    <string name="Caves_TileHighGrass">Leuchtende Pilze</string>
+    <string name="Caves_TileWater">Gefrierendes kaltes Wasser</string>
+    <string name="ChaosCrystal_BowFused">Der Kristall absorbiert deine Waffe und hat die Gestalt eines Bogens angenommen</string>
+    <string name="ChaosCrystal_Fuse">Verbinden</string>
+    <string name="ChaosCrystal_Info">Du fühlst Energie durch deine Hände strömen während du ihn hältst.</string>
+    <string name="ChaosCrystal_Info_1">Chaotische Kräfte fließen durch diesen Kristall. Er könnte nützlich sein.</string>
+    <string name="ChaosCrystal_Info_2">Ja! Nun weißt du, dass du ihn mit einem deiner Gegenstände verbinden kannst, aber was sollst du nun tun?</string>
+    <string name="ChaosCrystal_Name">Sonderbarer Kristall</string>
+    <string name="ChaosCrystal_Name_1">Chaos Kristall</string>
+    <string name="ChaosCrystal_Name_2">Chaos Kristall</string>
+    <string name="ChaosCrystal_Prompt">Wähle den Ort an dem du die Chaos Markierung platzieren willst</string>
+    <string name="ChaosCrystal_ScrollFused">Der Kristall wurde von der Rune auf der Schriftrolle  absorbiert, nun ist es ein %s</string>
+    <string name="ChaosCrystal_SelectForFuse">Wähle den Gegenstand mit dem du den Chaos Kristall verbinden willst</string>
+    <string name="ChaosCrystal_StaffFused">Der Kristall absorbiert deinen Zauberstab und hat die Gestalt eines Zauberstabs angenommen</string>
+    <string name="ChaosCrystal_SwordFused">Der Kristall absorbiert deine Waffe und hat die Gestalt eines Schwertes angenommen</string>
+    <string name="ChaosCrystal_Use">Benutze</string>
+    <string name="Char_OutParalysis">Der Schmerz riss %s aus der Paralyse</string>
+    <string name="Char_SmbMissed">%1$s %2$s %3$s\'s Angriff</string>
+    <string name="Char_StaAmok">rasend</string>
+    <string name="Char_StaBleeding">blutend</string>
+    <string name="Char_StaCrippled">verkrüppelt</string>
+    <string name="Char_StaDizzy">verwirrt</string>
+    <string name="Char_StaFrightened">verängstigt</string>
+    <string name="Char_StaInvisible">unsichtbar</string>
+    <string name="Char_StaMind">Geist</string>
+    <string name="Char_StaParalysed">paralysiert</string>
+    <string name="Char_StaPoisoned">vergiftet</string>
+    <string name="Char_StaRooted">festgewachsen</string>
+    <string name="Char_StaSlowed">verlangsamt</string>
+    <string name="Char_StaVision">Vision</string>
+    <string name="Char_YouMissed">%1$s %2$s deinen Angriff</string>
+    <string name="ChargrilledMeat_Info">Es sieht nach einem annehmbaren Steak aus.</string>
+    <string name="ChargrilledMeat_Name">Geröstetes Fleisch</string>
+    <string name="Chasm_Chasm">Abgrund</string>
+    <string name="Chasm_Info">Du stürzt in den Tod.</string>
+    <string name="Chasm_Jump">Willst du wirklich in den Abgrund springen? Du stirbst möglicherweise.</string>
+    <string name="Chasm_No">Nein, ich habe meine Meinung geändert.</string>
+    <string name="Chasm_Yes">Ja, ich weiß was ich mache.</string>
+    <string name="City_TileDescBookshelf">Mehrere Reihen Bücher aus den verschiedenen Fachrichtungen füllen das Bücherregal.</string>
+    <string name="City_TileDescDeco">Mehrere Bodenplatten fehlen hier.</string>
+    <string name="City_TileDescEmptySP">Ein dicker Teppich bedeckt den Bode.</string>
+    <string name="City_TileDescEntrance">Eine Rampe führt in eine höhere Ebene.</string>
+    <string name="City_TileDescExit">Eine Rampe führt in eine tiefere Ebene.</string>
+    <string name="City_TileDescStatue">Die Statue zeigt einen Zwerg in einer heroischen Pose.</string>
+    <string name="City_TileHighGrass">Große blühende Blumen</string>
+    <string name="City_TileWater">Merkwürdig gefärbtes Wasser</string>
+    <string name="ClassArmor_Desc">Dieser Gegenstand sieht großartig aus.</string>
+    <string name="ClassArmor_LowHealt">Deine Lebensenergie ist zu niedrig.</string>
+    <string name="ClassArmor_NotEquipped">Du musst diese Rüstung tragen um ihre besondere Kraft nutzen zu können.</string>
+    <string name="Claymore_Gender">weiblich</string>
+    <string name="ClothArmor_Desc">Diese leichte Rüstung bietet einfachen Schutz.</string>
+    <string name="ClothArmor_Name">Stoffrüstung</string>
+    <string name="Codex_ACRead">LESEN</string>
+    <string name="Codex_Blinded">Du kannst nicht lesen während du geblendet bist</string>
+    <string name="Codex_Info">Eines von vielen Büchern das man in der Bibliothek finden kann</string>
+    <string name="Codex_Name">Codex</string>
+    <string name="CommonArrow_Gender">weiblich</string>
+    <string name="CommonArrow_Info">Gewöhnlicher Holzpfeil mit Eisenspitze.</string>
+    <string name="CommonArrow_Name">Pfeil</string>
+    <string name="CompoundBow_Gender">männlich</string>
+    <string name="CompoundBow_Info">Pfeile die mit einem Verbundbogen abgeschossen werden verursachen mehr Schaden und sind treffsicherer, auf kosten von Geschwindigkeit.</string>
+    <string name="CompoundBow_Name">Compoundbogen</string>
+    <string name="Crab_Defense">parriert</string>
+    <string name="Crab_Desc">Diese riesigen Krebse stehen in den Abwasserkanälen an der Spitze der Nahrungskette. Sie sind extrem schnell und ihr dicker Panzer kann selbst schwere Schläge aushalten.</string>
+    <string name="Crab_Gender">männlich</string>
+    <string name="Crab_Name">Kanalkrebs</string>
+    <string name="Crab_Name_Objective">Kanalkrebs</string>
+    <string name="Crystal_Desc">Ein grosser leuchtender Kristall schwebt in der Luft. Wahrscheinlich steckt ein starker Zauber drin.</string>
+    <string name="Crystal_Gender">männlich</string>
+    <string name="Crystal_Name">Sonderbarer Kristall</string>
+    <string name="Crystal_Name_Objective">Sonderbarer Kristall</string>
+    <string name="CurareDart_Gender">maskulin</string>
+    <string name="CurareDart_Info">Diese kleinen Pfeile machen nicht viel Schaden, dafür aber können sie den Gegner lähmen.</string>
+    <string name="CurareDart_Name">Vergifteter Pfeil</string>
+    <string name="DM300_Desc">Diese Maschine wurde vor Jahrhunderten von den Zwergen erschaffen. Die Zwerge begannen damit, ihre Maschinen durch Golems, Elementare und sogar Dämonen zu ersetzen. Dies führte möglicherweise zum Niedergang ihrer Zivilisation. Der DM-300 und andere Maschinen wurden üblicherweise für Bau- und Minenarbeiten genutzt, manchmal auch zur Stadtverteidigung.</string>
+    <string name="DM300_Gender">männlich</string>
+    <string name="DM300_Info1">Der DM-300 repariert sich selbst!</string>
+    <string name="DM300_Info2">Mission gescheitert. Herunterfahren eingeleitet.</string>
+    <string name="DM300_Info3">Nicht autorisierter Zugang registriert.</string>
+    <string name="DM300_Name">DM-300</string>
+    <string name="DM300_Name_Objective">DM-300</string>
+    <string name="Dagger_Gender">maskulin</string>
+    <string name="Dagger_Info">Ein einfacher eisener Dolch mit einem stark abgenützten Holzgriff.</string>
+    <string name="Dagger_Name">Dolch</string>
+    <string name="DarkVeil_Buff">Dunkeler Schleier</string>
+    <string name="Darkness_Info">Sieht aus als ob Stücke ewiger Dunkelheit in der Luft schwebt</string>
+    <string name="Dart_Gender">maskulin</string>
+    <string name="Dart_Info">Diese kleinen Metallspitzen sind für eine stabile Flugbahn gefertigt und piksen den Gegner gewaltig.</string>
+    <string name="Dart_Name">Pfeil</string>
+    <string name="DeferedDamage_Defered_Txt">Verzögerter Schaden (%d)</string>
+    <string name="DeferedDamage_Killed_Txt">%s hat dich getötet...</string>
+    <string name="Displacement_Txt">%s des Verdrängens</string>
+    <string name="DonateButton_pleaseDonate">Bitte erwägen Sie es zu spenden</string>
+    <string name="DonateButton_thanks">Danke für Ihre Unterstützung!</string>
+    <string name="Dreamweed_Desc">Wenn man ein Traumkraut berührt, sondert es eine glitzernde Wolke aus verwirrendem Gas ab.</string>
+    <string name="Dreamweed_Name">Traumkraut</string>
+    <string name="DriedRose_Name">getrocknete Rose</string>
+    <string name="Dungeon_DeadEnd">Was machst du hier?!</string>
+    <string name="Dungeon_NoTips">Der Text ist nicht zu entschlüsseln...</string>
+    <string name="EarthElemental_Desc">Erdgeister sind Erdmassen, welche von konzentrierten Naturgewalten getrieben werden.</string>
+    <string name="EarthElemental_Gender">männlich</string>
+    <string name="EarthElemental_Name">Erdgeist</string>
+    <string name="EarthElemental_Name_Objective">Erdgeist</string>
+    <string name="Earthroot_Buff">pflanzliche Rüstung</string>
+    <string name="Earthroot_Desc">Wenn eine Kreatur eine Erdwurzel berührt, erschaffen ihre Wurzeln eine Art natürliche Rüstung an der Kreatur.</string>
+    <string name="Earthroot_Name">Erdwurzel</string>
+    <string name="Elemental_Desc">Umherziehende Feuerwandler sind ein Nebenprodukt von mächtigeren Beschwörungen. Ihre chaotische Natur macht es selbst für die mächtigsten Dämonologen zu schwierig, sie zu kontrollieren. </string>
+    <string name="Elemental_Gender">männlich</string>
+    <string name="Elemental_Name">Feuerwandler</string>
+    <string name="Elemental_Name_Objective">Feuerwandler</string>
+    <string name="ElfArmor_ACSpecial">RUF DER NATUR</string>
+    <string name="ElfArmor_Desc">Mit Hilfe dieses Umhangs kann ein Elf die Kräfte der Natur beschwören. Hohes Gras wird in einem Sekundenbruchteil wachsen, sogar massiven Stein durchdringen und Gegner im Sichtfeld bewegungsunfähig machen.</string>
+    <string name="ElfArmor_Name">Umhang des Elfen</string>
+    <string name="ElfArmor_NotElf">Nur Elfen können diese Rüstung nutzen!</string>
+    <string name="Entanglement_Txt">%s der Verschränkung</string>
+    <string name="Eye_Desc">Ein anderer Name dieses Dämons ist \"Kugel des Hasses\". Wenn er einen Feind erblickt, benutzt er seinen Todesblick ohne Rücksicht auf Verbündete in der Nähe und verwundet diese dabei oft.</string>
+    <string name="Eye_Gender">geschlechtslos</string>
+    <string name="Eye_Kill">Der Todesblick des %s hat dich getötet...</string>
+    <string name="Eye_Name">Dunkler Starrer</string>
+    <string name="Eye_Name_Objective">Dunkler Starrer</string>
+    <string name="Fadeleaf_Desc">Das berühren eines Verblassenden Blattes, teleportiert irgendeine Kreatur an einen zufälligen Platz der aktuellen Ebene.</string>
+    <string name="Fadeleaf_Name">Verblassendes Blatt</string>
+    <string name="FetidRat_Desc">Diese Beutelratte ist viel größer als normal. Sie wird von einer fauligen Aura umgeben.</string>
+    <string name="FetidRat_Gender">weiblich</string>
+    <string name="FetidRat_Name">stinkende Ratte</string>
+    <string name="FetidRat_Name_Objective">stinkende Ratte</string>
+    <string name="FireArrow_Gender">weiblich</string>
+    <string name="FireArrow_Info">Dieser Pfeil sieht bis auf das warme, rote Licht, das seine Spitze ausstrahlt normal aus.</string>
+    <string name="FireArrow_Name">Feuerpfeil</string>
+    <string name="FireQuiver_Gender">männlich</string>
+    <string name="FireQuiver_Info"/>
+    <string name="FireQuiver_Name">Feuerköcher</string>
+    <string name="Fire_Info">Ein Feuer wütet hier.</string>
+    <string name="Firebloom_Desc">Wenn etwas eine Feuerblüte berührt, geht es in Flammen auf.</string>
+    <string name="Firebloom_Name">Feuerblüte</string>
+    <string name="Food_ACEat">ESSEN</string>
+    <string name="Food_Message">Dieses Essen schmeckt köstlich!</string>
+    <string name="FrostArrow_Gender">weiblich</string>
+    <string name="FrostArrow_Info">Du fühlst eine eiskalte Aura welche von der Pfeilspitze ausgeht.</string>
+    <string name="FrostArrow_Name">Frostpfeil</string>
+    <string name="FrozenCarpaccio_Info">Ein Stück gefrorenes Fleisch. Man kann es nur essen, wenn man dünne Scheiben davon abschneidet. Und dadurch schmeckt es überraschend gut.</string>
+    <string name="FrozenCarpaccio_Info1">Du siehst, wie deine Hände unsichtbar werden!</string>
+    <string name="FrozenCarpaccio_Info2">Du spürst, wie deine Haut fester wird!</string>
+    <string name="FrozenCarpaccio_Info3">Erfrischend!</string>
+    <string name="FrozenCarpaccio_Info4">Du fühlst dich besser!</string>
+    <string name="FrozenCarpaccio_Name">Gefrorene Fleischscheiben</string>
+    <string name="GameScene_Chasm">Deine Schritte hallen durch den Dungeon.</string>
+    <string name="GameScene_Grass">Der Geruch von Vegetation hängt in der Luft.</string>
+    <string name="GameScene_NightMode">Sei vorsichtig, der Dungeon ist nachts noch gefährlicher!</string>
+    <string name="GameScene_Secrets">Die besondere Atmosphäre dieser Ebene weist auf viele Geheimnisse hin.</string>
+    <string name="GameScene_Water">Du hörst Wasser um dich plätschern.</string>
+    <string name="GameScene_Welcome">Willkommen auf Ebene %d von Pixel Dungeon!</string>
+    <string name="GameScene_WelcomeBack">Willkommen zurück auf Ebene %d von Pixel Dungeon!</string>
+    <string name="Ghost_Defense">ausgewichen</string>
+    <string name="Ghost_Desc">Der Geist ist kaum sichtbar. Er sieht wie ein formloses schwaches Licht mit einem traurigen Gesicht aus.</string>
+    <string name="Ghost_Name">trauriger Geist</string>
+    <string name="Ghost_Rat1">Hallo Abenteurer... Einst war ich wie du - stark und selbstbewusst... Und nun bin ich tot... Aber ich kann diesen Platz nicht verlassen... Nicht bevor ich mich gerächt habe... Erlege die _stinkende Ratte_, die mir das Leben genommen hat...</string>
+    <string name="Ghost_Rat2">Bitte... Hilf mir... Erschlage die Abschäulichkeit...</string>
+    <string name="Ghost_Rose1">Hallo Abenteurer... Einst war ich wie du - stark und selbstbewusst... Und nun bin ich tot... Aber ich kann diesen Platz nicht verlassen... nicht bevor ich meine _getrocknete Rose_ wieder habe... Es ist sehr wichtig für mich... Einige Monster haben sie von meinem Körper gestohlen...</string>
+    <string name="Ghost_Rose2">Bitte... Hilf mir... Finde die Rose...</string>
+    <string name="Glaive_Gender">feminin</string>
+    <string name="Glaive_Info">Eine Waffe aus einer Schwertklinge, die am Ende einer Stange befestigt ist.</string>
+    <string name="Glaive_Name">Glefe</string>
+    <string name="Gnoll_Desc">Gnolle sind menschliche Wesen, die Hyänen ähneln. Sie leben in Abwässerkanälen und Höhlen, von wo sie von Zeit zu Zeit zu Raubzügen an die Oberfläche ziehen. Gnoll Späher sind anerkannte Mitglieder ihres Rudels, aber nicht so stark wie Schläger und nicht so intelligent wie Schamanen.</string>
+    <string name="Gnoll_Gender">männlich</string>
+    <string name="Gnoll_Name">Gnollspäher</string>
+    <string name="Gnoll_Name_Objective">Gnollspäher</string>
+    <string name="GoldenKey_Name">Goldener Schlüssel </string>
+    <string name="Golem_Defense">versperrt</string>
+    <string name="Golem_Desc">Die Zwerge versuchten, ihr technisches Wissen mit ihrer neu gewonnen Kraft der elementaren Beschwörung zu kombinieren. Sie nutzen Erdelementare, um ihre mechanischen Golemkörper zu \"beseelen\" welche als besonders einfach zu kontrollieren galten. Allerdings konnte schon der kleinste Fehler im Bindungsritual eine Katastrophe herbeiführen.</string>
+    <string name="Golem_Gender">männlich</string>
+    <string name="Golem_Name">Golem</string>
+    <string name="Golem_Name_Objective">Golem</string>
+    <string name="Goo_Desc">Wenig ist über den Glibber bekannt. Es könnte möglich sein, dass sie nicht einmal eine Kreatur, sondern ein Konglomerat aus Substanzen der Abwasserkanäle die einen freien Willen gewannen. Es ist offensichtlich, dass dunkle Magie hier am Werk ist.</string>
+    <string name="Goo_Gender">weiblich</string>
+    <string name="Goo_Info1">Glibber lädt sich auf!</string>
+    <string name="Goo_Info2">glurp...glurp...</string>
+    <string name="Goo_Info3">GLURP-GLURP!</string>
+    <string name="Goo_Name">Glibber</string>
+    <string name="Goo_Name_Objective">Glibber</string>
+    <string name="Goo_StaInfo1">!!!</string>
+    <string name="Halls_TileDescBookshelf">Bücher in verschiedenen Sprachen vermodern im Bücherregal.</string>
+    <string name="Halls_TileDescStatue">Diese Säule ist aus echter Menschenhaut gemacht. Beeindruckend.</string>
+    <string name="Halls_TileDescWater">Es schaut nach Lava aus, aber sie ist kalt und wahrscheinlich kann man sie gefahrlos berühren.</string>
+    <string name="Halls_TileGrass">Aschemoos</string>
+    <string name="Halls_TileHighGrass">Aschepilz</string>
+    <string name="Halls_TileStatue">Säule</string>
+    <string name="Halls_TileWater">Erkaltete Lava</string>
+    <string name="HeartOfDarkness_Name">Herz der Dunkelheit</string>
+    <string name="Hedgehog_Desc">Dieser Igel scheint nervös zu sein.</string>
+    <string name="Hedgehog_ImLate">Ich bin spät dran, ich bin verdammt spät dran ...</string>
+    <string name="Hedgehog_Info1">Suchst du auch nach Bär?</string>
+    <string name="Hedgehog_Info2">Wie geht es Pferd im Dunst?</string>
+    <string name="Hedgehog_Info3">Magst du Tee mit Himbeermarmelade?</string>
+    <string name="Hedgehog_Info4">Nimm diese Torte</string>
+    <string name="Hedgehog_Name">Igel</string>
+    <string name="HeroClass_Elf">Elf</string>
+    <string name="HeroClass_Hun">Jägerin</string>
+    <string name="HeroClass_Mag">Magier</string>
+    <string name="HeroClass_Rog">Schurke</string>
+    <string name="HeroClass_War">Krieger</string>
+    <string name="HeroSubClass_DescAssa">Der _Assassine_ verursacht zusätzlichen Schaden an seinem Ziel während er einen Überraschungsangriff ausführt.</string>
+    <string name="HeroSubClass_DescBatM">Während er mit einem Zauberstab in der Hand kämpft, verursacht der _Kampfmagier_ zusätzlichen Schaden abhängig von der aktuellen Aufladung. Jeder erfolgreiche Treffer stellt eine Aufladung des Zauberstabes wieder her.</string>
+    <string name="HeroSubClass_DescBers">Wenn ein _Berserker_ schwer verletzt ist, erreicht er einen Zustand wilder Wut, in dem sein Schaden deutlich erhöht ist.</string>
+    <string name="HeroSubClass_DescFreR">Der _Windläufer_ kann fast doppelt so schnell laufen wie die meisten Monster. Während er rennt ist der Freerunner deutlich schwerer zu treffen. Dafür darf er nicht überladen sein und nicht am verhungern.</string>
+    <string name="HeroSubClass_DescGlad">Ein erfolgreicher Angriff mit einer Nahkampfwaffe erlaubt es dem _Gladiator_ , einen Komboangriff einzusetzen, in dem jeder erfolgreiche Treffer mehr Schaden verursacht.</string>
+    <string name="HeroSubClass_DescScout">Elfen_Späher_sind Meister der Heimlichkeit. Wenn sie hohes Gras zertrampeln, bietet dies ihnen einen vorrübergehenden Unsichtbarkeitseffekt. Ausserdem sind sie noch schneller als normale Elfen.</string>
+    <string name="HeroSubClass_DescShaman">Elfen_Schamanen_ können Zauberstäbe als Nahkampfwaffe benutzen. Erfolgreiche treffer haben eine Chance, die Fahigkeit die Kraft des Zauberstabes auf ein Ziel zu aktivieren, ohne eine Ladung zu benutzen.</string>
+    <string name="HeroSubClass_DescSnip">_Scharfschützen_ sind dazu in der Lage, Schwachpunkte in der gegnerischen Rüstung zu erkennen und diese effektiv zu umgehen wenn sie eine Fernkampfwaffe nutzen.</string>
+    <string name="HeroSubClass_DescWarL">Wenn ein _Hexenmeister_ einen Gegner tötet nimmt er seine Seele in sich auf. Sie heilt seine Wunde und sättigt ihn.</string>
+    <string name="HeroSubClass_DescWard">_Bewahrer_ haben eine starke Bindung zu den Kräften der Natur. Sie besitzen die Fähigkeit, Tautropfen und Samen von Pflanzen zu sammeln. Zusätzlich erhalten sie eine temporäre Rüstungsverbesserung, wenn sie hohes Gras niedertreten.</string>
+    <string name="HeroSubClass_NameAssa">Assassine</string>
+    <string name="HeroSubClass_NameBatM">Kampfmagier</string>
+    <string name="HeroSubClass_NameBers">Berserker</string>
+    <string name="HeroSubClass_NameFreR">Windläufer</string>
+    <string name="HeroSubClass_NameGlad">Gladiator</string>
+    <string name="HeroSubClass_NameScout">Späher</string>
+    <string name="HeroSubClass_NameShaman">Schamane</string>
+    <string name="HeroSubClass_NameSnip">Scharfschütze</string>
+    <string name="HeroSubClass_NameWarL">Hexenmeister</string>
+    <string name="HeroSubClass_NameWard">Bewahrer</string>
+    <string name="Hero_Leave">Man verlässt Pixel Dungeon nicht einfach so.</string>
+    <string name="Hero_LevelUp">Level up!</string>
+    <string name="Hero_LockedChest">Die Truhe ist verschlossen, und du hast keinen passenden Schlüssel</string>
+    <string name="Hero_LockedDoor">Du hast keinen passenden Schlüssel</string>
+    <string name="Hero_Name">du</string>
+    <string name="Hero_Name_Objective">du</string>
+    <string name="Hero_NewLevel">Du hast Level %d erreicht! Du hast nun mehr Lebenskraft und kannst dich besser konzentrieren. Es ist einfacher für dich geworden einen Gegner zu treffen und seinen Angriffen auszuweichen.</string>
+    <string name="Hero_NoticedSmth">Du bemerkst etwas</string>
+    <string name="Hero_Search">suchen</string>
+    <string name="Hero_SomethingElse">Da liegt noch mehr</string>
+    <string name="Hero_StaBleeding">Du blutest!</string>
+    <string name="Hero_StaBlindness">Du bist geblendet!</string>
+    <string name="Hero_StaBurning">Du fängst Feuer!</string>
+    <string name="Hero_StaCharm">Du bist verzaubert!</string>
+    <string name="Hero_StaCripple">Du bist verkrüppelt</string>
+    <string name="Hero_StaFurious">wütend</string>
+    <string name="Hero_StaFury">Du wirst wütend!</string>
+    <string name="Hero_StaOoze">Ätzender Schlamm frisst sich in dein Fleisch. Wasch ihn ab!</string>
+    <string name="Hero_StaParalysis">Du bist paralysiert!</string>
+    <string name="Hero_StaPoison">Du bist vergiftet!</string>
+    <string name="Hero_StaRoots">Du kannst dich nicht bewegen!</string>
+    <string name="Hero_StaVertigo">Alles dreht sich um dich!</string>
+    <string name="Hero_StaWeakness">Du fühlst dich geschwächt!</string>
+    <string name="Hero_Wait">...</string>
+    <string name="Hero_YouNowHave">Du hast %s gefunden</string>
+    <string name="Hunger_Death">Für bist verhungert </string>
+    <string name="HuntressArmor_ACSpecial">GEISTERHAFTE KLINGEN</string>
+    <string name="HuntressArmor_Desc">Eine Jägerin in solch einem Umhang kann einen Fächer aus geisterhaften Klingen erschaffen. Jede dieser Klingen wird einen einzelnen Gegner im Sichtfeld anvisieren und Schaden an ihm verursachen.  Dieser Schaden hängt von ihrer momentan ausgerüsteten Nahkampfwaffe ab.</string>
+    <string name="HuntressArmor_Name">Seidenhülle der Jägerin</string>
+    <string name="HuntressArmor_NoEnemies">Es ist kein Gegner zu sehen.</string>
+    <string name="HuntressArmor_NotHuntress">Diese Rüstung kann nur von Jägerinnen benutzt werden!</string>
+    <string name="Icecap_Desc">Nach dem Berühren einer Gletscherblume, scheidet sie Pollen aus, die alles in ihrer Nähe einfrieren.</string>
+    <string name="Icecap_Name">Gletscherblume</string>
+    <string name="ImpShopkeeper_Desc">Kobolde sind niedere Dämonen. Sie sind weder bekannt wegen ihrer Stärke oder ihrem magischen Talent. Denoch  sind sie recht intelligent und gesellig. Viele Kobolde bevorzugen es unter Nicht-Dämonen zu leben und mit ihnen Geschäfte zu machen.</string>
+    <string name="ImpShopkeeper_Greetings">Hallo, Freund!</string>
+    <string name="ImpShopkeeper_Name">Ehrgeiziger Kobold</string>
+    <string name="Imp_Cya">Aufwiedersehen  %s!</string>
+    <string name="Imp_Defense">ausgewichen</string>
+    <string name="Imp_Desc">Kobolde sind niedrige Dämonen. Sie sind weder bekannt wegen ihrer Stärke oder ihrem magischen Talent, aber sie sind recht intelligent und gesellig. Viele Kobolde bevorzugen es unter Nicht-Dämonen zu leben.</string>
+    <string name="Imp_Golems1">Bist du ein Abenteurer ? Ich mag Abenteurer. Du kannst dich immer auf sie verlassen wenn etwas getötet werden muss. Hab ich recht ? Natürlich nur für eine Belohnung ;)\nIn. In meinem Fall sind es _golems_ die getötet werden müssen. Wie du siehst bau ich mir hier gerade ein kleines Geschäft auf, aber diese Golems sind einfach schlecht für das Geschäft. Es ist wirklich schwer mit einem Haufen Granit zu verhandeln. Also ... könntest du _6 von denen_ töten dann bekommst du eine Belohnung.</string>
+    <string name="Imp_Golems2">Wie läuft die Golem Jagd ?</string>
+    <string name="Imp_Hey">Psst, %s!</string>
+    <string name="Imp_Monks1">Bist du ein Abenteurer ? Ich mag Abenteurer. Du kannst dich immer auf sie verlassen wenn etwas getötet werden muss. Hab ich recht ? Natürlich nur für eine Belohnung ;)\nIn. In meinem Fall sind es _Mönche_ die getötet werden müssen. Wie du siehst bau ich mir hier gerade ein kleines Geschäft auf, aber diese Mönche kaufen nie etwas und verschrecken nur andere Kunden. Also ... könntest du _ 8 von denen_ töten, dann bekommst du eine Belohnung.</string>
+    <string name="Imp_Monks2">Oh, du lebst noch. Ich wusste doch das dein Kung-Fu besser ist als ihres :) Aber vergiess nicht dir eine Mönch Abzeichen zu holen.</string>
+    <string name="Imp_Name">Ehrgeiziger Kobold</string>
+    <string name="IncendiaryDart_Gender">männlich</string>
+    <string name="IncendiaryDart_Info">Jede dieser Pfeilspitzen ist dafür gemacht, solange in einem Gegner zu verweilen, bis dieser in hellen Flammen aufgeht.</string>
+    <string name="IncendiaryDart_Name">Feuerpfeil</string>
+    <string name="InterLevelScene_Ascending">Aufsteigen ...</string>
+    <string name="InterLevelScene_Descending">Absteigen ...</string>
+    <string name="InterLevelScene_ErrorGeneric">Irgendwas ist schief gelaufen ...</string>
+    <string name="InterLevelScene_Falling">Fallen ...</string>
+    <string name="InterLevelScene_FileNotFound">Datei nicht gefunden, aus irgendeinem Grund ...</string>
+    <string name="InterLevelScene_Loading">Laden ...</string>
+    <string name="InterLevelScene_Resurrecting">Wiederbeleben ...</string>
+    <string name="InterLevelScene_Returning">Zurückkehren ...</string>
+    <string name="InventoryScroll_No">Nein, ich habe es mir anders überlegt.</string>
+    <string name="InventoryScroll_Title">Wähle einen Gegenstand</string>
+    <string name="InventoryScroll_Warning">Du willst die Schriftrolle nicht lesen? Sie verbraucht sich aber in jedem Fall.</string>
+    <string name="InventoryScroll_Yes">Ja.</string>
+    <string name="Invisibility_Info">Unsichtbar </string>
+    <string name="IronKey_Name">Eisener Schlüssel</string>
+    <string name="Item_ACThrow">WERFEN</string>
+    <string name="Javelin_Gender">maskulin</string>
+    <string name="Javelin_Info">Dieses Stück Metall ist so gebaut, dass das spitze Ende im Flug immer nach vorne zeigt.</string>
+    <string name="Javelin_Name">Wurfspeer</string>
+    <string name="Journal_Alchemy">Alchemiekessel</string>
+    <string name="Journal_Azuterron">Fremder</string>
+    <string name="Journal_Garden">Garten</string>
+    <string name="Journal_Ghost">Trauriger Geist</string>
+    <string name="Journal_Imp">Ehrgeiziger Kobold</string>
+    <string name="Journal_Statue">Lebende Statue</string>
+    <string name="Journal_Troll">Trollschmied</string>
+    <string name="Journal_Wandmaker">Alter Zauberstabmacher</string>
+    <string name="Journal_WellAwareness">Brunnen der Aufmerksamkeit</string>
+    <string name="Journal_WellHealt">Brunnen der Heilung</string>
+    <string name="Journal_WellTransmut">Brunnen der Verwandlung</string>
+    <string name="King_Defense">parriert</string>
+    <string name="King_Desc">Der letzte Zwergenkönig war bekannt für sein weit reichendes Verständnis der Prozesse des Lebens und des Todes.Er überzeugte Mitglieder seines Gerichts an einem Ritual teilzunehmen, welches ihnen ewige Jugend bewilligen sollte. Am Ende war er der Einzige, der sie bekam - und eine Armee der Untoten als Bonus.</string>
+    <string name="King_Gender">männlich</string>
+    <string name="King_Info1">Ihr könnt mich nicht töten, %s... ich bin... unsterblich...</string>
+    <string name="King_Info2">Erhebt euch, Sklaven!</string>
+    <string name="King_Info3">Wie könnt Ihr es wagen!</string>
+    <string name="King_Name">Zwergenkönig</string>
+    <string name="King_Name_Objective">Zwergenkönig</string>
+    <string name="Knuckles_Gender">maskulin</string>
+    <string name="Knuckles_Info">Ein Stück Eisen mit Löchern für deine Finger.</string>
+    <string name="Knuckles_Name">Schlagring</string>
+    <string name="Larva_Desc">alte Götterlarve</string>
+    <string name="Larva_Gender">weiblich</string>
+    <string name="Larva_Name">göttliche Larve</string>
+    <string name="Larva_Name_Objective">göttliche Larve</string>
+    <string name="LastLevel_TileDescStatue">Diese Säule ist aus echter Menschenhaut gemacht. Beeindruckend.</string>
+    <string name="LastLevel_TileDescWater">Es schaut nach Lava aus, aber sie ist kalt und wahrscheinlich kann man sie gefahrlos berühren.</string>
+    <string name="LastLevel_TileGrass">Aschemoos</string>
+    <string name="LastLevel_TileHighGrass">Aschepilz</string>
+    <string name="LastLevel_TileStatue">Säule</string>
+    <string name="LastLevel_TileWater">Erkaltete Lava</string>
+    <string name="LastShopLevel_TileDescDeco">Mehrere Bodenplatten fehlen.</string>
+    <string name="LastShopLevel_TileDescEmptySP">Dicker Teppich bedeckt den Boden.</string>
+    <string name="LastShopLevel_TileDescEntrance">Eine Rampe führt eine Ebene nach oben.</string>
+    <string name="LastShopLevel_TileDescExit">Eine Rampe führt hinunter in das Inferno.</string>
+    <string name="LastShopLevel_TileHighGrass">Große blühende Blumen</string>
+    <string name="LastShopLevel_TileWater">Merkwürdig gefärbtes Wasser</string>
+    <string name="LeatherArmor_Desc">Eine Rüstung hergestellt aus gegerbter Monsterhaut. Sie ist nicht so leicht wie Stoffrüstung, bietet dafür aber besseren Schutz.</string>
+    <string name="LeatherArmor_Name">Lederrüstung</string>
+    <string name="Level_HiddenPlate">Eine verborgene Druckplatte knackt.</string>
+    <string name="Level_TileAlarmTrap">Alarmfalle</string>
+    <string name="Level_TileAlchemy">Alchemiekessel</string>
+    <string name="Level_TileBarricade">Barrikade</string>
+    <string name="Level_TileBookshelf">Buchregal</string>
+    <string name="Level_TileChasm">Abgrund</string>
+    <string name="Level_TileClosedDoor">Geschlossene Tür</string>
+    <string name="Level_TileDefault">\?\?\?</string>
+    <string name="Level_TileDescAlchemy">Wirf einige Samen hinein um einen Zaubertrank zu brauen.</string>
+    <string name="Level_TileDescBarricade">Die hölzerne Barrikade ist massiv gebaut, aber ist über die Jahre hinweg ausgetrocknet. Würde sie brennen?</string>
+    <string name="Level_TileDescChasm">Du kannst den Boden nicht erkennen.</string>
+    <string name="Level_TileDescEmbers">Glühende Kohlen bedecken den Boden.</string>
+    <string name="Level_TileDescEmptyWell">Der Brunnen ist ausgetrocknet.</string>
+    <string name="Level_TileDescEntrance">Treppen führen nach oben in eine höhere Ebene.</string>
+    <string name="Level_TileDescExit">Treppen führen nach unten in eine tiefere Ebene.</string>
+    <string name="Level_TileDescHighGrass">Dichter Pflanzenbewuchs versperrt die Sicht.</string>
+    <string name="Level_TileDescInactiveTrap">Die Falle wurde bereits früher ausgelöst und ist nicht mehr gefährlich.</string>
+    <string name="Level_TileDescLockedDoor">Die Tür ist versperrt, du brauchst einen passenden Schlüssel um sie zu öffnen.</string>
+    <string name="Level_TileDescLockedExit">Schwere Balken blockieren die Treppen nach unten.</string>
+    <string name="Level_TileDescSign">Du kannst die Schrift von hier aus nicht lesen.</string>
+    <string name="Level_TileDescStatue">Jemand wollte diesen Ort dekorieren, ist daran aber offensichtlich gescheitert.</string>
+    <string name="Level_TileDescTrap">Wenn du auf eine verborgene Druckplatte trittst löst dies die Falle aus.</string>
+    <string name="Level_TileDescWater">Wenn du Feuer gefangen hast, stelle dich in Wasser um das Feuer zu löschen.</string>
+    <string name="Level_TileEmbers">Glühende Kohlen</string>
+    <string name="Level_TileEmptyWell">Leerer Brunnen</string>
+    <string name="Level_TileEntrance">Eingang in die Tiefe</string>
+    <string name="Level_TileExit">Ausgang aus der Tiefe</string>
+    <string name="Level_TileFireTrap">Feuerfalle</string>
+    <string name="Level_TileFloor">Boden</string>
+    <string name="Level_TileGrass">Gras</string>
+    <string name="Level_TileGrippingTrap">Lähmende Falle</string>
+    <string name="Level_TileHighGrass">Hohes Gras</string>
+    <string name="Level_TileInactiveTrap">Ausgelöste Falle</string>
+    <string name="Level_TileLightningTrap">Blitzfalle</string>
+    <string name="Level_TileLockedDoor">Verschlossene Tür</string>
+    <string name="Level_TileLockedExit">Verschlossener Ausgang aus der Tiefe</string>
+    <string name="Level_TileOpenDoor">Geöffnete Tür</string>
+    <string name="Level_TileParalyticTrap">Falle mit lähmendem Gas</string>
+    <string name="Level_TilePedestal">Podest</string>
+    <string name="Level_TilePoisonTrap">Giftpfeil Falle</string>
+    <string name="Level_TileSign">Wegweiser</string>
+    <string name="Level_TileStatue">Statue</string>
+    <string name="Level_TileSummoningTrap">Falle der Beschwörung</string>
+    <string name="Level_TileToxicTrap">Falle mit giftigem Gas</string>
+    <string name="Level_TileUnlockedExit">Geöffneter Ausgang aus der Tiefe</string>
+    <string name="Level_TileWall">Mauer</string>
+    <string name="Level_TileWater">Wasser</string>
+    <string name="Level_TileWell">Brunnen</string>
+    <string name="LightningTrap_Desc">Du wurdest durch die Entladung einer Blitzfalle getötet...</string>
+    <string name="LightningTrap_Name">Blitzfalle</string>
+    <string name="Longsword_Gender">neutrum</string>
+    <string name="Longsword_Info">Diese gewaltige Klinge verursacht aufgrund ihres Gewichts mit jedem Schnitt schweren Schaden.</string>
+    <string name="Longsword_Name">Langschwert</string>
+    <string name="Mace_Gender">maskulin</string>
+    <string name="Mace_Info">Der eiserne Kopf dieser Waffe verursacht erheblichen Schaden.</string>
+    <string name="Mace_Name">Morgenstern</string>
+    <string name="MageArmor_ACSpecial">GESCHMOLZENE ERDE</string>
+    <string name="MageArmor_Desc">Ein Magier kann den Zauber \"geschmolzene Erde\" wirken während er diese prächtige Rüstung trägt. Alle Feinde in seinem Sichtfeld werden in Flammen aufgehen und können sich gleichzeitig nicht mehr bewegen.</string>
+    <string name="MageArmor_Name">Magierrobe</string>
+    <string name="MageArmor_NotMage">Nur Magier können diese Rüstung nutzen.</string>
+    <string name="MailArmor_Desc">Verwobene Kettenglieder bilden eine harte und doch gleichzeitig flexible Rüstung.</string>
+    <string name="MailArmor_Name">Kettenrüstung</string>
+    <string name="MeleeWeapon_Info1a">%1$s: %2$s Nahkampfwaffe der Stufe %3$d</string>
+    <string name="MeleeWeapon_Info1b">eine</string>
+    <string name="MeleeWeapon_Info1c">eine verbesserte</string>
+    <string name="MeleeWeapon_Info1d">eine schlechtere</string>
+    <string name="MeleeWeapon_Info2a">Der typische Schaden dieser Waffe sind %d pro Treffer.</string>
+    <string name="MeleeWeapon_Info2b">Der typische Schaden dieser Waffe sind %1$d pro Treffer, normalerweise benötigt ein Angriff %2$d Stärkepunkte.</string>
+    <string name="MeleeWeapon_Info2c">Diese Waffe ist vermutlich zu schwer für dich.</string>
+    <string name="MeleeWeapon_Info3a">Dies ist eine eher %s Waffe.</string>
+    <string name="MeleeWeapon_Info3b">schnelle</string>
+    <string name="MeleeWeapon_Info3c">langsame</string>
+    <string name="MeleeWeapon_Info3d">und</string>
+    <string name="MeleeWeapon_Info3e">aber</string>
+    <string name="MeleeWeapon_Info3f">genaue</string>
+    <string name="MeleeWeapon_Info3g">ungenaue</string>
+    <string name="MeleeWeapon_Info4a">Die Attribute der Waffe wurden abgestimmt, sie ist jetzt schneller.</string>
+    <string name="MeleeWeapon_Info4b">Die Attribute der Waffe wurden abgestimmt, sie ist jetzt genauer.</string>
+    <string name="MeleeWeapon_Info5">Die Waffe ist verzaubert.</string>
+    <string name="MeleeWeapon_Info6a">%s: Aufgrund deiner unzulänglichen Stärke sind die Angriffsgenauigkeit und -geschwindigkeit der Waffe verringert.</string>
+    <string name="MeleeWeapon_Info6b">%s: Aufgrund deiner übermäßigen Stärke sind die Angriffsgenauigkeit und -geschwindigkeit der Waffe erhöht.</string>
+    <string name="MeleeWeapon_Info7a">%1$s ausgerüstet. %2$s</string>
+    <string name="MeleeWeapon_Info7b">Und weil diese Waffe verflucht ist, kannst du sie leider nicht loslassen.</string>
+    <string name="MeleeWeapon_Info7c">%s strahlt ein Gefühl von dunkler Magie aus.</string>
+    <string name="Metabolism_Txt">%s des Metabolismus</string>
+    <string name="MimicAmulet_Gender">männlich</string>
+    <string name="MimicAmulet_Name">Imitator</string>
+    <string name="MimicAmulet_Name_Objective">Imitator </string>
+    <string name="MimicPie_Desc">Imitatoren sind magische Wesen, die jede beliebige Form annehmen können. Dieser hier sieht wie eine große leckere Pastete aus.</string>
+    <string name="MimicPie_Gender">männlich</string>
+    <string name="MimicPie_Name">Nachmacher</string>
+    <string name="MimicPie_Name_Objective">Imitator</string>
+    <string name="Mimic_Desc">Imitatoren sind magische Kreaturen, die jede beliebige Form annehmen können. In Verließen wählen sie fast immer die Form einer Schatztruhe,  weil sie wissen das man damit Abenteurer zu sich locken kann.</string>
+    <string name="Mimic_Gender">männlich</string>
+    <string name="Mimic_Name">Imitator </string>
+    <string name="Mimic_Name_Objective">Imitator </string>
+    <string name="MirrorImage_Desc">Diese Illusion kommt nahe an dich heran, ist jedoch ein bisschen blasser und flackert ein wenig.</string>
+    <string name="MirrorImage_Gender">männlich</string>
+    <string name="MirrorImage_Name">Spiegelbild</string>
+    <string name="MirrorImage_Name_Objective">Spiegelbild</string>
+    <string name="MissileWeapon_Info1">
+Der durschnittliche Schaden dieser Waffe ist %d pro Treffer.</string>
+    <string name="MissileWeapon_Info2">%s: Aufgrund deiner unzulänglichen Stärke sind die Angriffsgenauigkeit und -geschwindigkeit der Waffe verringert.</string>
+    <string name="MissileWeapon_Info3">%s: Aufgrund deiner übermäßigen Stärke sind die Angriffsgenauigkeit und -geschwindigkeit der Waffe erhöht.</string>
+    <string name="MissileWeapon_Info4">
+%s ausgerüstet.</string>
+    <string name="MissileWeapon_Missiles">Fernkampfwaffe</string>
+    <string name="MissileWeapon_No">Nein, ich habe meine Meinung geändert.</string>
+    <string name="MissileWeapon_Sure">Willst du sie wirklich als Nahkampfwaffe ausrüsten?</string>
+    <string name="MissileWeapon_Yes">Ja, ich weiß was ich tue.</string>
+    <string name="Mob_Desc">Richtige Beschreibung folgt!</string>
+    <string name="Mob_Died">Du hörst wie etwas in der Ferne stirbt</string>
+    <string name="Mob_StaFleeingStatus">Dieser %s flüchtet</string>
+    <string name="Mob_StaHuntingStatus">Dieser %s jagd</string>
+    <string name="Mob_StaPassiveStatus">Dieser %s wartet ab</string>
+    <string name="Mob_StaSleepingStatus">Dieser %s schläft</string>
+    <string name="Mob_StaWanderingStatus">Dieser %s läuft herum</string>
+    <string name="Mob_Yell">%1$s: \"%2$s\"</string>
+    <string name="Mods_AuthorEmail">Hersteller Email:</string>
+    <string name="Mods_AuthorSite">Hersteller Seite:</string>
+    <string name="Mods_CreatedBy">Erstellt von: </string>
+    <string name="Mods_RestartRequired">Neustart erforderlich</string>
+    <string name="Monk_Defense">parriert</string>
+    <string name="Monk_Desc">Diese Mönche sind Fanatiker, die sich dem Schutz der Geheimnisse ihrer Stadt vor allen Fremden verschrieben haben. Sie benutzen keine Rüstung oder Waffen und verlassen sich ausschließlich auf die Kunst des unbewaffneten Kampfes.</string>
+    <string name="Monk_Disarm">Der %1$s hat deinen %2$s aus deinen Händen geschmettert!</string>
+    <string name="Monk_Gender">männlich</string>
+    <string name="Monk_Name">Zwergenmönch</string>
+    <string name="Monk_Name_Objective">Zwergenmönch</string>
+    <string name="Multiplicity_Txt">%s der Vervielfältigung</string>
+    <string name="MysteryMeat_Info">Essen auf eigene Gefahr!</string>
+    <string name="MysteryMeat_Info1">Au, das ist heiß!</string>
+    <string name="MysteryMeat_Info2">Du spürst deine Beine nicht mehr.</string>
+    <string name="MysteryMeat_Info3">Du fühlst dich nicht gut.</string>
+    <string name="MysteryMeat_Info4">Du bist pappsatt.</string>
+    <string name="MysteryMeat_Message">Dieses Essen schmeckte... komisch.</string>
+    <string name="MysteryMeat_Name">Geheimnisvolles Fleisch</string>
+    <string name="Nightmare_Gender">männlich</string>
+    <string name="OverpricedRation_Info">Es sieht genauso aus wie eine normale Essensration, nur kleiner.</string>
+    <string name="OverpricedRation_Message">Das Essen hat gut geschmeckt.</string>
+    <string name="OverpricedRation_Name">Überteuerte Essensration</string>
+    <string name="ParalysisArrow_Gender">weiblich</string>
+    <string name="ParalysisArrow_Info">Dieser Pfeil verströmt einen schwachen aber vertraut heilsamen Geruch aus.</string>
+    <string name="ParalysisArrow_Name">Lähmpfeil</string>
+    <string name="ParalysisQuiver_Gender">männlich</string>
+    <string name="ParalysisQuiver_Info"/>
+    <string name="ParalysisQuiver_Name">Lähmköcher</string>
+    <string name="Pasty_Info">Dies ist eine Fleischpastete gefüllt mit Rindfleisch und Kartoffeln.</string>
+    <string name="Pasty_Name">Pastete</string>
+    <string name="Pickaxe_Gender">weiblich</string>
+    <string name="Pickaxe_Name">Spitzhacke</string>
+    <string name="Piranha_Desc">Diese fleischfressenden Fische sind keine natürlichen Bewohner der Untergrundbecken. Sie wurden extra dafür gezüchtet, überschwemmte Schatzkisten zu bewachen.</string>
+    <string name="Piranha_Gender">weiblich</string>
+    <string name="Piranha_Name">Riesiger Piranha</string>
+    <string name="Piranha_Name_Objective">Riesiger Piranha</string>
+    <string name="Plant_ACPlant">PFLANZEN</string>
+    <string name="Plant_Info">Wirf diesen Samen an den Ort, wo du dies wachsen lassen willst: %1$s.\n\n%2$s</string>
+    <string name="Plant_Seed">Ein Samen von %s</string>
+    <string name="PlateArmor_Desc">Wuchtige Metallplatten wurden zu einem Anzug verbunden der unvergleichlichen Schutz für jeden Abenteurer bietet, der stark genug ist sein erdrückendes Gewicht zu ertragen.</string>
+    <string name="PlateArmor_Name">Plattenrüstung</string>
+    <string name="PoisonArrow_Gender">weiblich</string>
+    <string name="PoisonArrow_Info">Tödliche Gifttropfen glänzen auf der Pfeilspitze. </string>
+    <string name="PoisonArrow_Name">Giftpfeil</string>
+    <string name="PoisonQuiver_Info"/>
+    <string name="PoisonQuiver_Name">Giftköcher</string>
+    <string name="Poison_Info">vergiftet</string>
+    <string name="Poisonuiver_Gender">männlich</string>
+    <string name="Potential_Txt">%s der Macht</string>
+    <string name="PotionOfExperience_Info">Die Geschichten unzähliger Schlachten in flüssiger Form - dieser Trank wird deine Erfahrung auf die nächste Stufe erhöhen.</string>
+    <string name="PotionOfExperience_Name">Erfahrungstrank</string>
+    <string name="PotionOfFrost_Info">Sobald diese Chemikalie mit Luft in Berührung kommt verwandelt sie sich in eine Frostwolke die jegliche Kreatur die sie umgibt auf der Stelle einfriert - und ihr damit jegliche Möglichkeit der Bewegung oder Handelns versagt.</string>
+    <string name="PotionOfFrost_Name">Frosttrank</string>
+    <string name="PotionOfHealing_Apply">Deine Wunden heilen vollständig.</string>
+    <string name="PotionOfHealing_Info">Ein Elixier das dich zur Gänze heilt und jeglicher Vergiftung neutralisiert.</string>
+    <string name="PotionOfHealing_Name">Heiltrank</string>
+    <string name="PotionOfInvisibility_Apply">Du siehst, wie deine Hände unsichtbar werden!</string>
+    <string name="PotionOfInvisibility_Info">Dieser Trank macht dich vorübergehend unsichtbar. Solange du unsichtbar bist können dich deine Feinde nicht erkennen. Sobald du einen Feind attackierst, einen Zauberstab oder eine Schriftrolle benutzt wird die Wirkung dieses Effekts verpuffen.</string>
+    <string name="PotionOfInvisibility_Name">Unsichtbarkeitstrank</string>
+    <string name="PotionOfLevitation_Apply">Du schwebst in die Luft!</string>
+    <string name="PotionOfLevitation_Info">Der Genuß dieser wunderlichen Flüssigkeit erlaubt es dir zu Schweben und unbeschadet über Fallen zu gelangen. Flammen und Gase können jedoch nicht ohne Schaden schwebend überwunden werden.</string>
+    <string name="PotionOfLevitation_Name">Schwebetrank</string>
+    <string name="PotionOfLiquidFlame_Info">Dieses Fläschchen enthält eine sehr instabile Verbindung die sich sofort in Flammen verwandelt sobald sie mit Luft in Kontakt kommt.</string>
+    <string name="PotionOfLiquidFlame_Name">Flammentrank</string>
+    <string name="PotionOfMight_Apply">Neu entdeckte Stärke flutet durch deinen Körper.</string>
+    <string name="PotionOfMight_Info">Dieser kräftigende Trank wird durch deine Muskeln strömen und deine Stärke um einen und deine Gesundheit um fünf Punkte erhöhen.</string>
+    <string name="PotionOfMight_Name">Machttrank</string>
+    <string name="PotionOfMight_StaApply">+1 Stä, +5 TP</string>
+    <string name="PotionOfMindVision_Apply1">Du kannst irgendwie die geistige Präsenz anderer Kreaturen fühlen!</string>
+    <string name="PotionOfMindVision_Apply2">Du kannst irgendwie spüren, dass du auf dieser Ebene allein bist.</string>
+    <string name="PotionOfMindVision_Info">Nachdem du dies getrunken hast, wird dein Geist eins mit den physischen Signaturen entfernter Kreaturen und ermöglicht dir diese durch Wände wahrzunehmen. Weiters erlaubt dir dieser Trank durch naheliegende Wände und Türen zu sehen.</string>
+    <string name="PotionOfMindVision_Name">Trank des Gedankenlesens</string>
+    <string name="PotionOfParalyticGas_Info">Sobald diese Chemikalie mit Luft in Berührung kommt verwandelt sie sich in einen gelben Dunst. Jegliche Kreatur die diesen Nebel einatmet wird auf der Stelle paralysiert und kann sich, bis nach einer gewissen Zeit nachdem sich der Nebel verflüchtigt hat, nicht mehr bewegen. Dieser Gegenstand kann auf entfernte Gegner geworfen werden um sie im Wirkungsradius des Gases gefangen zu halten.</string>
+    <string name="PotionOfParalyticGas_Name">Lähmungsgastrank</string>
+    <string name="PotionOfPurity_Freshness">Du bemerkst eine ungewöhnliche Frische in der Luft.</string>
+    <string name="PotionOfPurity_Info">Dieses Gegengift wird schnell alle gefährlichen Gase im Wirkungsbereich neutralisieren. Wenn man es trinkt wird man einige Zeit gegen solche Gase immun.</string>
+    <string name="PotionOfPurity_Name">Purifizierungstrank</string>
+    <string name="PotionOfPurity_NoSmell">Du kannst keine Gerüche mehr wahrnehmen!</string>
+    <string name="PotionOfStrength_Apply">Neu entdeckte Stärke flutet durch deinen Körper.</string>
+    <string name="PotionOfStrength_Info">Dieser kräftigende Trank wird durch deine Muskeln strömen und deine Stärke um einen Punkt erhöhen.</string>
+    <string name="PotionOfStrength_Name">Stärketrank</string>
+    <string name="PotionOfStrength_StaApply">+1 Stä</string>
+    <string name="PotionOfToxicGas_Info">Das Entkorken oder Schütteln dieses unter Druck stehenden Glases würde dazu führen, dass der Inhalt in einer tödlichen Wolke grünen Giftgases explodiert. Du könntest es auf entfernte Gegner werfen anstatt es zu entkorken.</string>
+    <string name="PotionOfToxicGas_Name">Giftgastrank</string>
+    <string name="Potion_ACDrink">TRINKEN</string>
+    <string name="Potion_ACMoisten">BENETZEN</string>
+    <string name="Potion_ArrowMoisten">Du hast die Pfeile erfolgreich benetzt.</string>
+    <string name="Potion_Beneficial">Nützlicher Trank!</string>
+    <string name="Potion_FoodRefreshed">%s sieht nun genießbar aus</string>
+    <string name="Potion_Harmfull">Schädlicher Trank!</string>
+    <string name="Potion_Info">Diese Flasche enthält eine %se Flüssigkeit. Wer weiß, was sie tun wird, wenn du sie trinkst oder wirfst?</string>
+    <string name="Potion_ItemFliesAway">%s fliegt dir gerade aus deinen Händen.</string>
+    <string name="Potion_MoistenUseless">Es sieht so aus, als ob du diesen Trank gerade verschwendet hättest.</string>
+    <string name="Potion_Name">%ser Trank</string>
+    <string name="Potion_No">Nein, ich habe es mir anders überlegt</string>
+    <string name="Potion_RuneDissaperaed">Die Rune ist von %s verschwunden.</string>
+    <string name="Potion_SelectForMoisten">Wähle einen Gegenstand zum Benetzen aus</string>
+    <string name="Potion_Shatter">Das Glas zerbricht und %se Flüssigkeit breitet sich harmlos aus</string>
+    <string name="Potion_SureDrink">Bist du sicher, dass du es trinken möchtest. In den meisten Fällen solltest du solche Tränke auf deine Feinde werfen.</string>
+    <string name="Potion_SureThrow">Bist du sicher, dass du es werfen möchtest? In den meisten Fällen ist es sinnvoll, es zu trinken.</string>
+    <string name="Potion_Yes">Ja, ich weiß, was ich tue</string>
+    <string name="Prison_TileDescBookshelf">Dies ist möglicherweise das Überbleibsel einer Gefängnisbibliothek. Ob sie brennbar ist?</string>
+    <string name="Prison_TileDescDeco">Da sind alte Blutflecken auf dem Boden.</string>
+    <string name="Prison_TileWater">Dunkles kaltes Wasser.</string>
+    <string name="PseudoPasty_Info">Dies ist eine original cornwallsche Fleischpastete mit einer traditionellen Füllung aus Rindfleisch und Kartoffeln.</string>
+    <string name="PseudoPasty_Name">Pastete</string>
+    <string name="PseudoRat_Gender">weiblich</string>
+    <string name="Quarterstaff_Gender">maskulin</string>
+    <string name="Quarterstaff_Info">Ein mit Eisen beschlagener Laubholzstab.</string>
+    <string name="Quarterstaff_Name">Kampfstab</string>
+    <string name="Quiver_Gender">männlich</string>
+    <string name="Quiver_Info">Lederköcher, geeignet um beliebig viele Pfeile aufzubewahren</string>
+    <string name="Quiver_Name">Köcher</string>
+    <string name="RankingsScene_NoGames">Es wurden bisher keine Spiele gespielt.</string>
+    <string name="RankingsScene_NoInfo">Keine zusätzlichen Informationen</string>
+    <string name="RankingsScene_Title">Spitzenplatzierungen</string>
+    <string name="RankingsScene_Total">Gespielte Spiele (insgesamt): </string>
+    <string name="RatKing_Desc">Diese Ratte ist ein wenig größer als andere Beutelratten und sie trägt eine kleine Krone auf ihrem Kopf.</string>
+    <string name="RatKing_Died">Der König ist tot. Lang lebe der König!</string>
+    <string name="RatKing_Info1">Ich schlafe nicht!</string>
+    <string name="RatKing_Info2">Was ist das? Ich habe keine Zeit für so einen Unsinn. Mein Königreich regiert sich nicht von selbst.</string>
+    <string name="RatKing_Info3">Wie kannst du kümmerliche Kreatur es wagen unseren Rattenkönig zu stören.</string>
+    <string name="RatKing_Name">Rattenkönig</string>
+    <string name="RatSkull_Name">großer Rattenschädel</string>
+    <string name="Rat_Desc">Beutelratten sind aggressive, aber eher schwache Bewohner der Abwasserkanäle. Sie werden nur in großer Zahl gefährlich.</string>
+    <string name="Rat_Gender">Weiblich</string>
+    <string name="Rat_Name">Rattenspäher</string>
+    <string name="Rat_Name_Objective">Rattenspäher</string>
+    <string name="Ration_Info">Nichts ausgefallenes: getrocknetes Fleisch, einige Kekse - solche Dinge eben.</string>
+    <string name="Ration_Name">Nahrungsration</string>
+    <string name="ResultDescriptions_Bleeding">Ist auf Ebene %d verblutet.</string>
+    <string name="ResultDescriptions_Boss">Ist von dem %1$s auf Ebene %2$d getötet worden</string>
+    <string name="ResultDescriptions_Burning">Ist auf Ebene %d verbrannt</string>
+    <string name="ResultDescriptions_Fall">Ist auf Ebene %d in den Tod gestürzt</string>
+    <string name="ResultDescriptions_Gas">Ist auf Ebene %d durch giftige Gase gestorben</string>
+    <string name="ResultDescriptions_Glyph">Ist von dem %1$s auf Ebene %2$d getötet worden</string>
+    <string name="ResultDescriptions_Hunger">Ist auf Ebene %d verhungert</string>
+    <string name="ResultDescriptions_Immured">Eingemauert in Stein auf Ebene %d</string>
+    <string name="ResultDescriptions_Mob">Ist durch %1$s auf Ebene %2$d gestorben</string>
+    <string name="ResultDescriptions_Ooze">Ist auf Ebene %d durch Säure gestorben</string>
+    <string name="ResultDescriptions_Poison">Ist auf Ebene %d durch Gift gestorben</string>
+    <string name="ResultDescriptions_Trap">Ist durch eine Entladung von %1$s auf Ebene %2$d gestorben</string>
+    <string name="ResultDescriptions_Wand">Ist durch seine eigene %1$s auf Ebene %2$d gestorben</string>
+    <string name="ResultDescriptions_Win">Hat das Amulett von Yendor erlangt</string>
+    <string name="RingOfAccuracy_Info">Dieser Ring erhöht deine Chance den Feind zu treffen.</string>
+    <string name="RingOfAccuracy_Name">Präzisionsring</string>
+    <string name="RingOfDetection_Info">Träger dieses Rings bemerken Geheimnisse wie versteckte Fallen und Türen ohne danach suchen zu müssen. Defekte Wahrnehmungsringe trüben jedoch deine Sinne und erschweren dir - auch die aktive - Suche nach Geheimnissen erheblich.</string>
+    <string name="RingOfDetection_Name">Wahrnehmungsring</string>
+    <string name="RingOfElements_Info">Dieser Ring ermöglicht es dem Träger Schaden aus Elementen wie Feuer, Elektrizität, Gas etc. besser zu widerstehen. Weiters dauern negative Effekte kürzer an.</string>
+    <string name="RingOfElements_Name">Ring der Elemente</string>
+    <string name="RingOfEvasion_Info">Dieser Ring erhöht deine Chance feindlichen Attacken auszuweichen.</string>
+    <string name="RingOfEvasion_Name">Ausweichungsring</string>
+    <string name="RingOfHaggler_Info">Dieser Diebesgilden-Ring verfügt über keinerlei magischen Effekte, wirkt aber auf Händler einschüchternd. Diese ziehen es jedenfalls vor dem Träger bessere Preise zu machen als einen Diebstahl ihrer Waren zu riskieren. Da dieser Ring nicht magischer Natur ist wäre jeglicher Verbesserungsversuch ohne Effekt.</string>
+    <string name="RingOfHaggler_Name">Diebesgilden-Ring</string>
+    <string name="RingOfHaste_Info">Dieser Ring beschleunigt die allgemeine Zeitwahrnehmung des Trägers wodurch jegliche Aktionen ein wenig schneller durchgeführt werden.</string>
+    <string name="RingOfHaste_Name">Ring der Hast</string>
+    <string name="RingOfHerbalism_Info">Dieser Ring erhöht deine Chance Tautropfen und Samen in zertrampeltem Gras zu finden.</string>
+    <string name="RingOfHerbalism_Name">Ring der Pflanzenkunde</string>
+    <string name="RingOfMending_Info">Dieser Ring erhöht die körpereigenen Regenerationskräfte wodurch sich Wunden schneller schließen. Defekte Heilungsringe hingegen bremsen bzw. stoppen die Regeneration.</string>
+    <string name="RingOfMending_Name">Heilungsring</string>
+    <string name="RingOfPower_Info">Die Wirkung deiner Zauberstäbe werden durch das vom Ring ausgehende Energiefeld verstärkt. Defekte Ringe der Kraft schwächen deine Zauberstäbe jedoch erheblich.</string>
+    <string name="RingOfPower_Name">Ring der Kraft</string>
+    <string name="RingOfSatiety_Info">Mit diesem Ring kannst du länger ohne Nahrung aushalten. Defekte Sättigungsringe haben jedoch den gegenteiligen Effekt.</string>
+    <string name="RingOfSatiety_Name">Sättigungsring</string>
+    <string name="RingOfShadows_Info">Solange du diesen Ring trägst werden Gegner deine Anwesenheit später oder gar nicht bemerken. Defekte Schattenringe verraten dich jedoch sogar an Gegner die dich ansonsten womöglich nicht entdeckt hätten.</string>
+    <string name="RingOfShadows_Name">Schattenring</string>
+    <string name="RingOfStoneWalking_ImmuredInStone">Eingemauert in Stein. Für immer.</string>
+    <string name="RingOfStoneWalking_Info">Dieser sonderbare Ring ist aus einer Art massiven Steins gefertigt. Was du zuerst für einen Rubin gehalten hast ist in Wirklichkeit flüssiges Blut das an Ort und Stelle gebunden ist. Im Inneren kannst du einen Pfeil erkennen der auf etwas, das wie eine Wand mit einem gebrochen Herzen erscheint, zeigt. Was wird beim Anlegen des Rings passieren?</string>
+    <string name="RingOfStoneWalking_Name">Steinblutsring</string>
+    <string name="RingOfThorns_Info">Obwohl dieser Ring keine echten Dornen aufweist wird ein Teil des Schadens eines gegnerischen Angriffs auf deinen Gegner zurückgeworfen. Diesen Ring aufzuwerten bringt keine weiteren Vorteile.</string>
+    <string name="RingOfThorns_Name">Dornenring</string>
+    <string name="Ring_BuffKnown">Dies ist ein %s</string>
+    <string name="Ring_Identify">Du bist nun vertraut genug mit deinem %1$s, um ihn zu identifizieren. Es ist ein %2$s.</string>
+    <string name="Ring_Info">Dieser metallene Ring ist mit einem großen %s Edelstein verziert, der ihm Dunkeln glitzert. Was wird passieren wenn du ihn anlegst?</string>
+    <string name="Ring_Info1">Du kannst nur 2 Ringe gleichzeitig tragen</string>
+    <string name="Ring_Info2">Dein %s schneidet sich schmerzhaft ins Fleisch deines Fingers</string>
+    <string name="Ring_Info3a">%1$s\n\nDer %2$s ist auf deinem Finger %3$s.</string>
+    <string name="Ring_Info3b">, und da er verflucht ist, kannst du ihn nicht entfernen.</string>
+    <string name="Ring_Info4">%1$s\n\nDu spürst, dass eine bösartige Magie in diesem %2$s lauert.</string>
+    <string name="Ring_Name">%sring</string>
+    <string name="RogueArmor_ACSpecial">RAUCHBOMBE</string>
+    <string name="RogueArmor_Desc">Während er dieses dunkle Kleidungsstück trägt, kann ein Schurke den sogenannten \"Rauchbomben\"-Trick anweden ( bei dem allerdings keine echten Explosionen vorkommen ): Er blendet Gegner, welche ihn sehen können, und springt dann zur Seite.</string>
+    <string name="RogueArmor_Fov">Du kannst nur an einen leeren Platz in deinem Sichtfeld springen.</string>
+    <string name="RogueArmor_Name">Schurkentracht</string>
+    <string name="RogueArmor_NotRogue">Nur Schurken können diese Rüstung nutzen!</string>
+    <string name="RogueArmor_Prompt">Wähle den Ort, zu dem du springen willst.</string>
+    <string name="RottenFood_Message">widerlich!</string>
+    <string name="RottenMeat_Info">ein Stück vergammeltes Fleisch</string>
+    <string name="RottenMeat_Name">vergammeltes Fleisch</string>
+    <string name="RottenPasty_Info">es könnte einmal eine Pastete gewesen sein, jetzt ist es nur noch ekelhaft</string>
+    <string name="RottenPasty_Name">Vergammelte Pastete</string>
+    <string name="RottenRation_Info">ab und zu kann man das essen</string>
+    <string name="RottenRation_Name">vergammelte Essensration</string>
+    <string name="RottingFist_Desc">faulige Faust des Alten Gottes</string>
+    <string name="RottingFist_Gender">männlich</string>
+    <string name="RottingFist_Name">faulige Faust</string>
+    <string name="RottingFist_Name_Objective">faulige Faust</string>
+    <string name="RubyBow_Gender">männlich</string>
+    <string name="RubyBow_Info">Nur die besten Bogenschützen können den Rubinbogen benutzen. So gut wie jeder Pfeil durchdringt den Feind und hinterlässt dabei ein großes Loch in seinem Körper. Es benötigt viel Kraft um den Bogen zu spannen.</string>
+    <string name="RubyBow_Name">Rubinbogen</string>
+    <string name="ScaleArmor_Desc">Die Metallplättchen, die auf eine Lederjacke aufgenäht wurden, gewähren eine flexible und doch auch schützende Panzerung.</string>
+    <string name="ScaleArmor_Name">Schuppenrüstung</string>
+    <string name="Scorpio_Desc">Diese riesigen spinnenartigen dämonischen Wesen vermeiden Nahkampf mit allen Mitteln. Sie verschießen aus großer Entfernung gezackte Dornen, die ihre Opfer lähmen.</string>
+    <string name="Scorpio_Gender">männlich</string>
+    <string name="Scorpio_Name">Skorpion</string>
+    <string name="Scorpio_Name_Objective">Skorpion</string>
+    <string name="ScrollOfChallenge_Info">Wenn laut gelesen wird diese Schriftrolle einen Schlachtruf von sich geben der alle Monster in der Umgebung alarmiert und auf Deine Position aufmerksam macht.</string>
+    <string name="ScrollOfChallenge_Info1">Die Schriftrolle gibt einen herausfordernden Schlachtruf von sich dessen Echo die Umgebung füllt.</string>
+    <string name="ScrollOfChallenge_Name">Schriftrolle der Herausforderung</string>
+    <string name="ScrollOfIdentify_Info">Zeigt jedes Geheimnis eines einzelnen Gegenstandes.</string>
+    <string name="ScrollOfIdentify_Info1">Es ist ein(e) %s</string>
+    <string name="ScrollOfIdentify_InvTitle">Wähle einen Gegenstand zu identifizieren</string>
+    <string name="ScrollOfIdentify_Name">Schriftrolle der Identifikation</string>
+    <string name="ScrollOfLullaby_Name">Schriftrolle des Schlaflieds</string>
+    <string name="ScrollOfMagicMapping_Name">Schriftrolle des magischen Vermessens</string>
+    <string name="ScrollOfMirrorImage_Name">Schriftrolle der Doppelbilder</string>
+    <string name="ScrollOfPsionicBlast_Name">Schriftrolle der psychischen Zersprengung</string>
+    <string name="ScrollOfRecharging_Name">Schriftrolle der Aufladung</string>
+    <string name="ScrollOfRemoveCurse_Name">Schriftrolle der Fluchaufhebung</string>
+    <string name="ScrollOfTeleportation_Name">Schriftrolle des Teleportierens</string>
+    <string name="ScrollOfTeleportation_NoTeleport">Die starke magische Aura dieses Ortes hält dich davon dich zu telepotieren.</string>
+    <string name="ScrollOfTerror_Name">Schriftrolle der Angst</string>
+    <string name="ScrollOfUpgrade_Name">Schriftrolle des Verbesserns</string>
+    <string name="Scroll_ACRead">LESEN</string>
+    <string name="Scroll_Blinded">Du kannst keine Schriftrolle lesen, solange Du geblendet bist</string>
+    <string name="Scroll_Info">Dieses Pergament ist mit nicht entzifferbaren Schriftzeichen übersät die von einer Rune %s überschattet wird. Wer kann wissen was passiert, wenn diese laut vorgelesen wird? </string>
+    <string name="Scroll_Name">Schriftrolle »%s«</string>
+    <string name="Senior_Desc">Diese Mönche sind Fanatiker, die sich dem Schutz der Geheimnisse ihrer Stadt vor allen Fremden verschrieben haben. Sie benutzen keine Rüstung oder Waffen und verlassen sich ausschließlich auf die Kunst des unbewaffneten Kampfes.Dieser Mönch hat die Kunst seinen Gegner auszuschalten gemeistert.</string>
+    <string name="Senior_Gender">männlich</string>
+    <string name="Senior_Name">Älterer Mönch</string>
+    <string name="Senior_Name_Objective">Älterer Mönch</string>
+    <string name="Sewer_TileDescBookshelf">Das Bücherregal ist vollgestellt mit billigen nutzlosen Büchern. Ob sie brennen?</string>
+    <string name="Sewer_TileDescDeco">Nasses gelbes Moos bedeckt den Boden.</string>
+    <string name="Sewer_TileWater">Schlammiges Wasser</string>
+    <string name="ShadowLord_Death">Neeeeeeeiiiiiiiinnnnn...</string>
+    <string name="ShadowLord_Desc">Kreatur gemacht aus purem Übel und Dunkelheit, viele glauben, dass er der alte Gott selbst ist, berücksichtigt man, wie stark er ist. Wärend andere vermuten, dass er aber der Wächter der Kammer des alten Gottes ist.</string>
+    <string name="ShadowLord_Gender">männlich</string>
+    <string name="ShadowLord_Intro">Bereite dich vor!</string>
+    <string name="ShadowLord_Name">Schattenlord</string>
+    <string name="ShadowLord_Name_Objective">Schattenlord</string>
+    <string name="Shadow_Desc">Schatten wandern leise durch die Ruinen des alten Gefängnisses, zeigen sich nur vereinzelt einem Abenteurer, meist in ihrem letztem Abenteuer.</string>
+    <string name="Shadow_Gender">weiblich</string>
+    <string name="Shadow_Name">Schatten</string>
+    <string name="Shadow_Name_Objective">Schatten</string>
+    <string name="Shaman_Desc">Die intelligentesten Gnolle können schamanische Magie meistern. Gnoll Schamanen bevorzugen Kampfzauber um ihre fehlende Stärke auszugleichen. Sie zögern nicht, sie auf jeden anzuwenden der ihre Stellung im Stamm anzweifelt.</string>
+    <string name="Shaman_Gender">männlich</string>
+    <string name="Shaman_Killed">Der Blitzschlag des %s hat dich getötet...</string>
+    <string name="Shaman_Name">Gnoll Schamane</string>
+    <string name="Shaman_Name_Objective">Gnoll Schamane</string>
+    <string name="Sheep_Name">Schaf</string>
+    <string name="Shielded_Defense">abgeblockt</string>
+    <string name="Shielded_Desc">Schläger sind die größten, stärksten und zähesten unter den Gnollen. Wenn sie ernsthaft verletzt sind fallen sie in einen Berserkerzustand und fügen ihren Feinden sogar noch mehr Schaden zu. Dieser Scläger trägt einen riesigen Schild bei sich!</string>
+    <string name="Shielded_Gender">männlich</string>
+    <string name="Shielded_Name">Schildschläger</string>
+    <string name="Shielded_Name_Objective">Schildschläger</string>
+    <string name="Shopkeeper_Desc">Dieser dicke Typ sieht eher danach aus als würde er in einer grossen Stadt handel treiben als in einem Verliess.
+Seine Preise erklären warum er lieber hier sein Geschäft betreibt.</string>
+    <string name="Shopkeeper_Name">Krämer</string>
+    <string name="Shopkeeper_Sell">Wähle einen Gegenstand zum Verkaufen</string>
+    <string name="ShortSword_ACReforge">WIEDERVERWERTEN</string>
+    <string name="ShortSword_Gender">neutrum</string>
+    <string name="ShortSword_Info">Dieses Schwert ist in der Tat sehr kurz. Nur wenige Zentimeter länger als ein Dolch.</string>
+    <string name="ShortSword_Name">Kurzschwert</string>
+    <string name="ShortSword_NotBoomerang">Du kannst auf diese Weise keinen Bumerang verbessern.</string>
+    <string name="ShortSword_Reforged">Du hast dein Kurzschwert zerlegt. %s wurde verbessert.</string>
+    <string name="ShortSword_Select">Wähle eine Waffe die du verbessern möchtest</string>
+    <string name="Shuriken_Gender">männlich</string>
+    <string name="Shuriken_Info">Sternenförmige Metallstücke mit rasiermesserscharfen Klingen machen erheblichen Schaden, wenn sie einen Gegner treffen. Sie können sehr schnell geworfen werden.</string>
+    <string name="Shuriken_Name">Wurfstern</string>
+    <string name="Skeleton_Defense">abgeblockt</string>
+    <string name="Skeleton_Desc">Skelette bestehen aus Knochen unglücklicher Abenteurer und Bewohner des Verlieses, sie werden von Ausstrahlungen dunkler Magie von tieferen Ebenen angetrieben. Wenn sie stark genug geschädigt wurden, lösen sie sich in einer Knochenexplosion auf.</string>
+    <string name="Skeleton_Gender">männlich</string>
+    <string name="Skeleton_Killed">Du wurdest durch die Explosion von Knochen getötet...</string>
+    <string name="Skeleton_Name">Skelett</string>
+    <string name="Skeleton_Name_Objective">Skelett</string>
+    <string name="Sorrowmoss_Desc">Sorgenmoos ist eine Blume (kein Moos) mit rasiermesserscharfen Blumenblättern, die mit tödlichem Gift überzogen sind.</string>
+    <string name="Sorrowmoss_Name">Sorgenmoos</string>
+    <string name="Spear_Gender">maskulin</string>
+    <string name="Spear_Info">Ein schmaler Stab aus Holz mit einer geschliffenen Eisenspitze.</string>
+    <string name="Spear_Name">Speer</string>
+    <string name="SpiderCharm_Info">Dieser exotische Anhänger wird von einer mysteriösen Aura umgeben. Wer weiß was mit dem Träger des Anhängers passieren wird?</string>
+    <string name="SpiderCharm_Name">Spinnenanhänger</string>
+    <string name="SpiderCharm_Use">Benutze</string>
+    <string name="SpiderEgg_Gender">geschlechtslos</string>
+    <string name="SpiderEgg_Name">Spinnenei</string>
+    <string name="SpiderEgg_Name_Objective">Spinnenei</string>
+    <string name="SpiderExploding_Gender">männlich</string>
+    <string name="SpiderExploding_Name">Arbeiterspinne</string>
+    <string name="SpiderExploding_Name_Objective">Arbeiterspinne</string>
+    <string name="SpiderMind_Gender">männlich</string>
+    <string name="SpiderMind_Name">Psi-Spinne</string>
+    <string name="SpiderMind_Name_Objective">Psi-Spinne</string>
+    <string name="SpiderNest_Gender">geschlechtslos</string>
+    <string name="SpiderNest_Name">Spinnenkokon</string>
+    <string name="SpiderNest_Name_Objective">Spinnenkokon</string>
+    <string name="SpiderQueen_Gender">weiblich</string>
+    <string name="SpiderQueen_Name">Spinnenkönigin</string>
+    <string name="SpiderQueen_Name_Objective">Spinnenkönigin</string>
+    <string name="SpiderServant_Gender">männlich</string>
+    <string name="SpiderServant_Name">Spinnensoldat</string>
+    <string name="SpiderServant_Name_Objective">Spinnensoldat</string>
+    <string name="Spinner_Desc">Diese grünliche ängstliche Höhlenspinne versucht es, direkten Kampf zu vermeiden, bevorzugt es in einiger Entfernung zu warten während ihre Opfer, eingewickelt in ihre klebrige Spinnennetz, langsam an ihrem giftigen Biss sterben.</string>
+    <string name="Spinner_Gender">männlich</string>
+    <string name="Spinner_Name">Höhlenspinne</string>
+    <string name="Spinner_Name_Objective">Höhlenspinne</string>
+    <string name="StartScene_Depth">Tiefe: %1$d\nLevel: %2$d</string>
+    <string name="StartScene_DifficultyNormal">Normal</string>
+    <string name="StartScene_Erase">Aktuelles Spiel löschen</string>
+    <string name="StartScene_Load">Spiel laden</string>
+    <string name="StartScene_New">Neues Spiel</string>
+    <string name="StartScene_No">Nein, kehr zum Hauptmenü zurück</string>
+    <string name="StartScene_Really">Willst du wirklich ein neues Spiel starten?</string>
+    <string name="StartScene_Unlock">Um diese Klasse freizuschalten, besiege den 3. Endgegner mit einer beliebigen anderen Klasse</string>
+    <string name="StartScene_UnlockElf">Um diese Klasse freizuschalten, besieg den 4. Endgegner mit einer beliebigen anderen Klasse</string>
+    <string name="StartScene_Warning">Dein aktueller Spielfortschritt wird gelöscht.</string>
+    <string name="StartScene_WinGame">Um »Herausforderungen« freizuschalten, gewinne das Spiel mit einer beliebigen Klasse.</string>
+    <string name="StartScene_Yes">Ja, starte ein neues Spiel</string>
+    <string name="Statue_Desc">Während du denkst das es wieder nur eine hässliche Statue ist, stellst du fest das die Augen rot leuchten.
+Die Statue ist aus Stein während _%s_ echt aussieht.</string>
+    <string name="Statue_Gender">weiblich</string>
+    <string name="Statue_Name">beseelte Statue</string>
+    <string name="Statue_Name_Objective">beseelte Statue</string>
+    <string name="Stench_Txt">%s des fauligen Geruches</string>
+    <string name="Succubus_Desc">Die verführerische Dämonin (auf eine gothische Art ) benutzt ihren Zauber um den Helden zu betören. Durch diesen Zauber kann der Held nicht angreifen bis der Zauber aufhört.</string>
+    <string name="Succubus_Gender">männlich</string>
+    <string name="Succubus_Name">Sukkubus</string>
+    <string name="Succubus_Name_Objective">Sukkubus</string>
+    <string name="Sungrass_Buff">pflanzliche Heilung</string>
+    <string name="Sungrass_Desc">Der Samen des Sonnengras ist für seine heilende Eigenschaft bekannt.</string>
+    <string name="Sungrass_Name">Sonnengras</string>
+    <string name="SurfaceScene_GameOver">Spiel vorbei</string>
+    <string name="SuspiciousRat_Gender">weiblich</string>
+    <string name="SuspiciousRat_Name">Merkwürdige Ratte</string>
+    <string name="SuspiciousRat_Name_Objective">Merkwürdige Ratte</string>
+    <string name="Swarm_Defense">ausgewichen</string>
+    <string name="Swarm_Desc">Der tödliche Fliegenschwarm surrt gefährlich. Jeder nicht-magische Angriff teilt ihn in zwei kleinere, nicht minder gefährliche Schwärme.</string>
+    <string name="Swarm_Gender">männlich</string>
+    <string name="Swarm_Name">Fliegenschwarm</string>
+    <string name="Swarm_Name_Objective">Fliegenschwarm</string>
+    <string name="Sword_Gender">neutrum</string>
+    <string name="Sword_Info">Diese rasiermesserscharfe Stahlklinge glänzt auf beruhigende Weise.</string>
+    <string name="Sword_Name">Schwert</string>
+    <string name="Tamahawk_Gender">maskulin</string>
+    <string name="Tamahawk_Info">Diese Wurfaxt ist nicht besonders schwer, aber benötigt dennoch relativ viel Kraft um effizient eingesetzt werden zu können.</string>
+    <string name="Tamahawk_Name">Tomahawk</string>
+    <string name="Tengu_Desc">Tengu sind Mitglieder eines uralten Assassinen-Clans. Auch der Clan hört auf den Namen Tengu. Seine Assassinen sind berüchtigt für ihren exzessiven Einsatz von Shurikeny sowie das Legen von Fallen.</string>
+    <string name="Tengu_Gender">männlich</string>
+    <string name="Tengu_Info1">Endlich frei...</string>
+    <string name="Tengu_Info2">Hab dich, %s!</string>
+    <string name="Tengu_Info3">Hab dich, %s!</string>
+    <string name="Tengu_Name">Tengu</string>
+    <string name="Tengu_Name_Objective">Tengu</string>
+    <string name="Thief_Carries">
+\n\n%1$s trägt  _%2$s_. Wahrscheinlich gestolen.</string>
+    <string name="Thief_Desc">Die tieferen Ebenen der Gewölbe waren immer ein Versteck für alle möglichen Verbrecher. Nicht alle konnten während ihrer ausgedehnten Aufenthalte im Dunkeln, weit weg vom Tageslicht, einen klaren Verstand bewahren. Vor langer Zeit vergaßen diese verrückten Diebe und Banditen wer sie sind und warum sie stehlen.</string>
+    <string name="Thief_Gender">männlich</string>
+    <string name="Thief_Name">Verrückter Dieb</string>
+    <string name="Thief_Name_Objective">Verrückter Dieb</string>
+    <string name="Thief_Stole">%1$s hat %2$s von dir gestohlen!</string>
+    <string name="TitleScene_About">Über</string>
+    <string name="TitleScene_Badges">Abzeichen</string>
+    <string name="TitleScene_Highscores">Rekorde</string>
+    <string name="TitleScene_InternalStorageLow">Nicht genügend Platz\n im internen Speicher\n Dein Fortschritt kann verloren gehen!</string>
+    <string name="TitleScene_Play">Spielen</string>
+    <string name="Torch_Name">Fackel</string>
+    <string name="ToxicGas_Info1">Du bist gestorben weil du giftige Luft eingeatmet hast.</string>
+    <string name="TreacherousSpirit_Gender">männlich</string>
+    <string name="Undead_Defense">abgeblockt</string>
+    <string name="Undead_Desc">Diese untoten Zwerge, erschaffen durch den Willen des Zwergenkönigs, waren einst Mitglieder seines Rates. Sie sehen aus wie Skelette mit einer beeindruckender Gesichtsbehaarung.</string>
+    <string name="Undead_Gender">männlich</string>
+    <string name="Undead_Name">Untoter Zwerg</string>
+    <string name="Undead_Name_Objective">Untoter Zwerg</string>
+    <string name="Viscosity_Status">%d verzögert</string>
+    <string name="Viscosity_Txt">%s der Zähigkeit</string>
+    <string name="WandMaker_Berry1">Oh was eine angehnme Überraschung eine so anständige Person an so einem Ort zu treffen.
+Ich bin hier weil ich eine seltene Zutat suche a _Rotberry seed_. Da ich mich der Kunst des Zaubern bediene, kann ich mich zwar gegen die Monster verteidigen, würde mich aber ganz schnell verlaufen. Das ist echt beschämend. Vielleicht könntest du mir ja helfen. Ich würde liebend gerne diesen Dienst mit meinem besten Zauberstab vergüten.</string>
+    <string name="WandMaker_Berry2">Hattest du Glück mit den Rottbeerensamen, %s? Nein? Kein Problem, ich habs nicht eilig.</string>
+    <string name="WandMaker_Defense">absorbiert</string>
+    <string name="WandMaker_Desc">Dieser alte aber kräftige Gentleman schaut leicht verstört aus. Er wird durch ein magisches Schild beschützt.</string>
+    <string name="WandMaker_Dust1">Oh was eine angehnme Überraschung eine so anständige Person an so einem Ort zu treffen.
+Ich bin hier weil ich eine seltene Zutat suche a_corpse dust_. Meistens bei Überresten von Skelletten auffindbar von denen es hier eine Menge gibt. Da ich mich der Kunst des Zaubern bediene, kann ich mich zwar gegen die Monster verteidigen, würde mich aber ganz schnell verlaufen. Das ist echt beschämend. Vielleicht könntest du mir ja helfen. Ich würde liebend gerne diesen Dienst mit meinem besten Zauberstab vergüten.</string>
+    <string name="WandMaker_Name">alter Zauberstabmacher</string>
+    <string name="WandMaker_RotberryDesc">Die Beeren dieses Strauchs schmecken wie süßer, süßer Tod.</string>
+    <string name="WandMaker_RotberryInfo">Der Samen entfesselt ein Brüllen das durch den gesamten Dungeon hallt!</string>
+    <string name="WandMaker_RotberryName">Rottbeere</string>
+    <string name="WandOfAmok_Info">Das blutrote Licht dieses Zauberstabs lässt das Ziel amoklaufen, sodass es alle Kreaturen in Reichweite angreift.</string>
+    <string name="WandOfAmok_Info1">Es passierte nichts</string>
+    <string name="WandOfAmok_Name">Zauberstab des Amoklaufs</string>
+    <string name="WandOfAvalanche_Info">Wenn eine Ladung dieses Zauberstabs auf eine Wand trifft (oder ein anderes Hinderniss), entsteht eine Steinlawine die allen Kreaturen im Effektbereich Schaden zufügt und betäubt.</string>
+    <string name="WandOfAvalanche_Info1">Du hast dich mit dem Zauberstab der Lawine selbst getötet...</string>
+    <string name="WandOfAvalanche_Name">Zauberstab der Lawine</string>
+    <string name="WandOfBlink_Info">Dieser Zauberstab erlaubt es dir, dich in eine gewünschte Richtung zu teleportieren. Kreaturen und Hindernisse blocken den Teleport.</string>
+    <string name="WandOfBlink_Name">Zauberstab des Blinkens</string>
+    <string name="WandOfDisintegration_Info">Dieser Zauberstab erzeugt einen Strahl destruktiver Energie, welcher durch alle Kreaturen geht. Je mehr Ziele vom Strahl getroffen werden, umso größer der verursachte Schaden.</string>
+    <string name="WandOfDisintegration_Name">Zauberstab der Auflösung</string>
+    <string name="WandOfFirebolt_Name">Zauberstab des Feuerballs</string>
+    <string name="WandOfMagicMissile_SelectWand">Wähle einen Zauberstab den du verbessern möchtest</string>
+    <string name="WandOfRegrowth_Info1">Es passierte nichts</string>
+    <string name="WandOfTeleportation_Info2">Es passierte nichts</string>
+    <string name="Wand_ACZap">zappen</string>
+    <string name="Wand_Damage">Wenn dieser Zauberstab im Nahkampf benutzt wird, beträgt der durchschnittliche Schaden %d Punkte pro Treffer.</string>
+    <string name="Wand_Fizzles">Dein Zauberstab funkelt nur, seine Ladungen sind wohl verbraucht.</string>
+    <string name="Wand_Name">%s Zauberstab</string>
+    <string name="Wand_Prompt">Entscheide wohin du zappen möchtest</string>
+    <string name="Wand_SelfTarget">Du kannst dich nicht selber anvisieren</string>
+    <string name="Wand_Weapon">Du kannst diesen Zauberstab als Nahkampfwaffe benutzen.</string>
+    <string name="Wand_Wood">Dieser %s Zauberstab fühlt sich warm an. Was wohl passiert wenn man ihn benutzt?</string>
+    <string name="WarHammer_Gender">maskulin</string>
+    <string name="WarHammer_Info">Nur wenige Kreaturen können dem schmetternden Schlag dieser gewaltigen Masse aus Blei und Stahl standhalten, aber nur die stärksten Abenteurer können sie effizient einsetzen.</string>
+    <string name="WarHammer_Name">Kampfhammer</string>
+    <string name="Warlock_Desc">Als sich das Interesse der Zwerge vom Maschinenbau zur obskuren Kunst wandelte, kamen die Hexenmeister an die Macht. Es fing alles mit Elementar Zauber an, wurde doch schnell zu Dämonologie und Nekromantie.</string>
+    <string name="Warlock_Gender">männlich</string>
+    <string name="Warlock_Killed">%s\'s Schattenblitz hat dich getötet...</string>
+    <string name="Warlock_Name">Zwergenhexenmeister</string>
+    <string name="Warlock_Name_Objective">Zwergenhexenmeister</string>
+    <string name="WarriorArmor_ACSpecial">HELDENHAFTER SPRUNG</string>
+    <string name="WarriorArmor_Desc">Obwohl diese Rüstung schwer aussieht, erlaubt sie einem Krieger, mit einem heldenhaften Sprung zu einem anvisierten Platz zu springen und dabei alle angrenzenden Feinde niederzuschlagen und zu lähmen.</string>
+    <string name="WarriorArmor_Name">Kriegerrüstung</string>
+    <string name="WarriorArmor_NotWarrior">Nur Krieger können diese Rüstung nutzen.</string>
+    <string name="WarriorArmor_Prompt">Wähle die Richtung für deinen Sprung.</string>
+    <string name="WaterElemental_Desc">Wassergeister können in der Nähe von großen Wassermassen gefunden werden. Üblicherweise wandern diese magiegebundenen Wesen einfach nur umher.</string>
+    <string name="WaterElemental_Gender">männlich</string>
+    <string name="WaterElemental_Name">Wassergeist</string>
+    <string name="WaterElemental_Name_Objective">Wassergeist</string>
+    <string name="Weakness_Info">geschwächt </string>
+    <string name="Weapon_Identify">Du kannst %1$s nun identifizieren. Es handelt sich um %2$s.</string>
+    <string name="Weapon_Incompatible">Die Wechselwirkung verschiedener Magietypen hat die Verzauberung dieser Waffe aufgehoben.</string>
+    <string name="Welcome_Ok">Okay!</string>
+    <string name="Welcome_Text">Remixed Pixel Dungeon ist eine Modifikation von Watabou\'s open source Pixel Dungeon.\n Dieses Projekt wurde erstellt um Spieler mit neuen Erfahrungen und Inhalten zu versorgen.\n Ein anderer, wichtiger Bestandteil unseres Projekt ist es, eine Mehrsprachenunterstützung für das Spiel zu entwickeln.\n Wir versuchen mit jedem Update so nahe wie möglich an unserer Community zu bleiben.\n Und falls Sie eines Tages sehen, dass ihre Idee in das Spiel übernommen wurde... Danke für ihre Kreativität =)\n Die aktuelle Version basiert auf Pixel Dungeon 1.7.2 und teilweise 1.7.5.\n Unterschiede zum Original: \n - Die Möglichkeit die Sprache zu ändern. (aktuell unterstützt: Englisch, Russisch)\n - Neues Monster und NPC\n - Giftiges Gas und Feuer können nun mit mehr Gegenständen interagieren\n - Neue Arten von «Nahrung»\n - Neue Gegenstände und neue Eigenschaften bei einigen alten Gegenständen\n - Samen können jetzt auch gegessen werden =)\n </string>
+    <string name="Welcome_Text_19">
+remix.17:\n
+-Neue Mimicart\n
+remix.18:\n
+-Elementare\n
+remix.19\n
+-Spinnen\n
+-Spinnenlevels\n
+-Spinnenkönigin\n </string>
+    <string name="Welcome_Text_20">
+remix.20:\n
+-Neue seltene Waffe - Kusarigama\n
+-Neues seltenes Monster\n
+-Spielmodus, bei dem du deinen Spielstand speichern und laden kannst\n
+-Und viel mehr Dinge, die nicht groß auffallen\n </string>
+    <string name="Welcome_Text_20_1">
+remix.20.1:\n
+- Schriftrolle der Herrschaft
+- Schriftrolle des Fluches</string>
+    <string name="Welcome_Text_20_2">
+remix.21:\n
+- Seltene Chaos Items\n
+- Flüssige Flamme jetzt wirklich flüssig\n </string>
+    <string name="Welcome_Text_21_1">
+remix.21.1:\n
+- Einfacher Modus (mit Werbung)\n
+-Expertenmodus\n </string>
+    <string name="Welcome_Text_21_2">
+remix.21.2:\n
+- Fähigkeit Mods auszuwählen (Bis jetzt nur Texturänderungen) (Nur für erfahrene Modder benutzbar)\n </string>
+    <string name="Welcome_Text_21_3">
+remix.21.3:\n
+- PD mini Mod verfügbar zum Download (noch nicht fertig aber spaßig)
+- Verbesserte Abwasserkanalgrafiken </string>
+    <string name="Welcome_Text_21_4">
+remix.21.4:\n
+-Neue seltene Waffe - Opferklinge </string>
+    <string name="Welcome_Text_21_5">
+remix.21.5:\n
+- Neue Eigenschaften für alte Gegenstände</string>
+    <string name="Welcome_Text_22">
+remix.22:\n
+- Neuer versteckter Boss </string>
+    <string name="Welcome_Title">Herzlich willkommen!</string>
+    <string name="WndBlacksmith_Prompt">OK, ein Deal ist ein Deal, das kann ich für dich tun: Ich kann dir aus 2 gleichen Gegenständen einen besserer Qualität schmieden.</string>
+    <string name="WndBlacksmith_Reforge">Schmiede sie neu</string>
+    <string name="WndBlacksmith_Select">Wähle einen Gegenstand zum neu schmieden</string>
+    <string name="WndCatalogus_Potions">Tränke</string>
+    <string name="WndCatalogus_Scrolls">Schriftrollen</string>
+    <string name="WndCatalogus_Title">Kataloge</string>
+    <string name="WndChallenges_Title">Herausforderungen</string>
+    <string name="WndChooseWay_Cancel">Ich entscheide mich später</string>
+    <string name="WndChooseWay_Message">Welchen Weg schlägst du ein?</string>
+    <string name="WndClass_Mastery">Meisterschaft</string>
+    <string name="WndDonate_commonDonateText">Remixed Pixel Dungeon - für jeden kostenlos und wird es auch immer bleiben.\n\Allerdings können Sie uns dabei helfen, das Spiel noch besser zu machen.\n\Neben unserem herzlichen Dank bekommst du auch einige kosmetische Verbesserungen.</string>
+    <string name="WndDonate_donate">Spenden:</string>
+    <string name="WndDonate_gold">Gold</string>
+    <string name="WndDonate_goldDonate">Goldspende</string>
+    <string name="WndDonate_goldDonateText">Vielen Dank für ihre Unterstützung</string>
+    <string name="WndDonate_goldDonateText2">Schaltet auch den Elf von Anfang an frei.</string>
+    <string name="WndDonate_notConnected">Keine Internetverbindung :(</string>
+    <string name="WndDonate_ruby">Rubin</string>
+    <string name="WndDonate_rubyDonate">Rubinspende</string>
+    <string name="WndDonate_rubyDonateText">Ihre großzügigkeit wird uns helften, Remixed Pixel Dungeon weiter zu verbessern!</string>
+    <string name="WndDonate_rubyDonateText2"/>
+    <string name="WndDonate_silver">Silber</string>
+    <string name="WndDonate_silverDonate">Silberspende</string>
+    <string name="WndDonate_silverDonateText">Jede Spende wird zur Entwicklung des Projekts beitragen</string>
+    <string name="WndDonate_silverDonateText2">Entfernt auch die Werbung in allen Spielmodi und macht die Jägerin von Anfang an verfügbar.</string>
+    <string name="WndError_Title">FEHLER</string>
+    <string name="WndGame_Challenges">Herausforderungen</string>
+    <string name="WndGame_Exit">Pixel Dungeon verlassen</string>
+    <string name="WndGame_Load">Laden</string>
+    <string name="WndGame_Ranking">Ranglisten</string>
+    <string name="WndGame_Return">Zurück zum Spiel</string>
+    <string name="WndGame_Save">Speichern</string>
+    <string name="WndGame_Settings">Einstellungen</string>
+    <string name="WndGame_Start">Starte neues Spiel</string>
+    <string name="WndGame_menu">Hauptmenü</string>
+    <string name="WndHero_Buffs">Boni</string>
+    <string name="WndHero_Depth">Tiefste Ebene</string>
+    <string name="WndHero_Exp">Erfahrung</string>
+    <string name="WndHero_Gold">gesammeltes Gold</string>
+    <string name="WndHero_Health">Gesundheit</string>
+    <string name="WndHero_StaCatalogus">Kataloge</string>
+    <string name="WndHero_StaJournal">Logbuch</string>
+    <string name="WndHero_StaTitle">Ebene %1$d %2$s</string>
+    <string name="WndHero_Stats">Statistiken</string>
+    <string name="WndHero_Str">Stärke</string>
+    <string name="WndImp_Message">Oh ja! Du bist mein Held!\nWegen deiner Belohnung, ich habe gerade kein Geld bei mir, aber ich habe etwas Besseres für dich. Das ist mein Familienerbstück: Mein Großvater hat diesen Ring dem Finger eines toten Paladins abgestreift.</string>
+    <string name="WndImp_Reward">Nimm den Ring</string>
+    <string name="WndInfoCell_Nothing">Hier ist nichts.</string>
+    <string name="WndInfoItem_Chest">Kiste</string>
+    <string name="WndInfoItem_CrystalChest">Kristallkiste</string>
+    <string name="WndInfoItem_Inside">Du kannst %s im Inneren erkennen, aber um die Kiste zu öffnen benötigst du einen goldenen Schlüssel.</string>
+    <string name="WndInfoItem_LockedChest">Versperrte Kiste</string>
+    <string name="WndInfoItem_NeedKey">Du brauchst einen goldenen Schlüssel um dies zu öffnen.</string>
+    <string name="WndInfoItem_Skeleton">Skelettierte Überreste</string>
+    <string name="WndInfoItem_Tomb">Grab</string>
+    <string name="WndInfoItem_WontKnow">Du wirst erst wissen was darin ist wenn du es geöffnet hast!</string>
+    <string name="WndJournal_Title">Logbuch</string>
+    <string name="WndPremiumSettings_banners">Wähle das Material der Banner</string>
+    <string name="WndPremiumSettings_chrome">Wähle das Material der Benutzeroberfläche</string>
+    <string name="WndPremiumSettings_gold">Gold</string>
+    <string name="WndPremiumSettings_notAvailbale">Diese Option ist noch nicht verfügbar</string>
+    <string name="WndPremiumSettings_ruby">Rubin</string>
+    <string name="WndPremiumSettings_silver">Silber</string>
+    <string name="WndPremiumSettings_status">Wähle das Material der Statusleiste</string>
+    <string name="WndPremiumSettings_std">Standard</string>
+    <string name="WndPremiumSettings_toolbar">Wähle das Material der Schnellzugriffsleiste</string>
+    <string name="WndRanking_StaChallenges">Herausforderungen</string>
+    <string name="WndRanking_StaDepth">Tiefste Ebene</string>
+    <string name="WndRanking_StaGold">gesammeltes Gold</string>
+    <string name="WndRanking_StaHealth">Gesundheit</string>
+    <string name="WndRanking_StaStr">Stärke</string>
+    <string name="WndRanking_StaTitle">Ebene %1$d %2$s</string>
+    <string name="WndRanking_Stats">Statistiken</string>
+    <string name="WndSaveSlotSelect_dontLike">Du magst keine Werbung? Spende einen beliebigen Betrag und sie wird verschwinden. Für immer.</string>
+    <string name="WndSelectLanguage_ImproveTranslation">Bitte hilf die Übersetzungen von Remixed Pixel Dungeon zu verbessern</string>
+    <string name="WndSelectLanguage_LinkToTranslationSite">Klicke hier um dem Remixed Pixel Dungeon Übersetzungsteam beizutreten</string>
+    <string name="WndSelectLanguage_TranslationLink">https://www.transifex.com/nyrds/remixed-pixel-dungeon/</string>
+    <string name="WndSettings_Brightness">Helligkeit</string>
+    <string name="WndSettings_ClassicFont">Klassische Schrift</string>
+    <string name="WndSettings_ExperementalFont">Neue Schrift</string>
+    <string name="WndSettings_Immersive">Immersionsmodus</string>
+    <string name="WndSettings_Music">Musik</string>
+    <string name="WndSettings_ScaleUp">Benutzeroberfläche vergrößern</string>
+    <string name="WndSettings_SecondQuickslot">Zweiter Quickslot</string>
+    <string name="WndSettings_SelectLanguage">Sprache wählen</string>
+    <string name="WndSettings_Sound">Toneffekte</string>
+    <string name="WndSettings_SwitchLand">Zur Landschaft wechseln</string>
+    <string name="WndSettings_SwitchPort">Zum Portrait wechseln</string>
+    <string name="WndSettings_TextScaleDefault">Standardschrift</string>
+    <string name="WndSettings_ThirdQuickslot">Dritter Quickslot</string>
+    <string name="WndSettings_ZoomDef">Standardzoom</string>
+    <string name="WndSettings_ZoomIn">+</string>
+    <string name="WndSettings_ZoomOut">-</string>
+    <string name="WoodenBow_Gender">männlich</string>
+    <string name="WoodenBow_Info">Dieser einfache Holzbogen könnte sich als hilfreich erweisen, wenn du erst mal Pfeile gefunden hast.</string>
+    <string name="WoodenBow_Name">Holzbogen</string>
+    <string name="WoodenCrossbow_Name">Hölzene Armbrust </string>
+    <string name="Worm_Gender">männlich</string>
+    <string name="Worm_Name">Wurm</string>
+    <string name="Worm_Name_Objective">Wurm</string>
+    <string name="Wraith_Defense">ausgewichen</string>
+    <string name="Wraith_Desc">Ein Geist ist eine rachsüchtige Seele eines Sünders, dessen Grab oder Ruhestätte gestört worden ist.
+Da es sich um eine spirituelle Einheit handelt, ist es sehr schwer sie mit einer gewöhnlichen Waffe zu treffen.</string>
+    <string name="Wraith_Gender">männlich</string>
+    <string name="Wraith_Name">Geist</string>
+    <string name="Wraith_Name_Objective">Geist</string>
+    <string name="Yog_Gender">männlich</string>
+    <string name="Yog_Info1">...</string>
+    <string name="Yog_Info2">Hoffentlich ist es eine Illusion...</string>
+    <string name="Yog_Name">Yog-Dzewa</string>
+    <string name="Yog_Name_Objective">Yog-Dzewa</string>
+    <string name="YogsBrain_Gender">männlich</string>
+    <string name="YogsEye_Gender">männlich</string>
+    <string name="YogsEye_Name">yog\'s Auge</string>
+    <string name="YogsHeart_Name_Objective">Yog\'s Herz</string>
+    <string name="YogsTeeth_Name_Objective">Yog\'s Zähne</string>
+    <string name="ZombieGnoll_Gender">männlich</string>
+    <string msgid="5835639618285370804" name="accept">"Akzeptieren"</string>
+    <string name="app_name">Remixed Pixel Dungeon</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installieren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Anzeige erlauben, einen Kalendertermin zu erstellen?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Kalendertermin erstellen"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Informationen zur Anzeige"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Creative-Vorschau"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Fehlerbehebungsmodus auswählen"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Fehlerbehebung"</string>
+    <string msgid="6099173376375995052" name="decline">"Ablehnen"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Anzeige erlauben, das Bild in der Bildergalerie zu speichern?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Bild speichern"</string>
+</resources>

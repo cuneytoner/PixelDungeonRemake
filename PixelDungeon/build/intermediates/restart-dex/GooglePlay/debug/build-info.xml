@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="6549783188394"
+    token="0"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2165" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="5" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/outputs/apk/PixelDungeon-GooglePlay-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="6549783188394"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/outputs/apk/PixelDungeon-GooglePlay-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

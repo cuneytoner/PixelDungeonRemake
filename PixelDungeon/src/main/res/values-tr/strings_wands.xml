@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/Wands -->
+    <!-- STRINGS OF Wand CLASS -->
+    <string name="Wand_Name">%s asası</string>
+    <string name="Wand_ACZap">SALDIR</string>
+    <string name="Wand_Wood">Bu ince %s asası dokunduğunda sıcak.Kullandığında ne gibi bir etkisi olacağını kim bilebilir?</string>
+    <string name="Wand_Damage">Saldırı silahı olarak kullanıldığında %d puan hasar verir.</string>
+    <string name="Wand_Weapon">Bu asayı saldırı silahı olarak kullanabilirsin.</string>
+    <string name="Wand_Fizzles">asanın şarjı bitti;</string>
+    <string name="Wand_SelfTarget">Kendini hedef olarak seçemezsin</string>
+    <string name="Wand_Prompt">Saldırılacak yönü seç</string>
+
+    <string-array name="Wand_Wood_Types">
+        <item>kutsal</item>
+        <item>porsuk ağacı</item>
+        <item>abanoz</item>
+        <item>kiraz ağacı</item>
+        <item>tik ağacı</item>
+        <item>üvez ağacı</item>
+        <item>söğüt ağacı</item>
+        <item>maun</item>
+        <item>bambu</item>
+        <item>pembe kalp ağacı</item>
+        <item>meşe ağacı</item>
+        <item>huş ağacı</item>
+    </string-array>
+
+    <!-- STRINGS OF WandOfAmok CLASS -->
+    <string name="WandOfAmok_Name">Öldürme arzusu asası</string>
+    <string name="WandOfAmok_Info">Bu asadan çıkan pembe ışık hedefini öldürme arzusu ile doldurur.Civardaki yaratıklara saldırmasını sağlar.</string>
+    <string name="WandOfAmok_Info1">hiçbir şey olmadı</string>
+
+    <!-- STRINGS OF WandOfAvalanche CLASS -->
+    <string name="WandOfAvalanche_Name">Çığ Asası</string>
+    <string name="WandOfAvalanche_Info">Bu asanın gücün bir duvara yönelttiğinde taşlardan bir çığ oluşturur ve etrafdaki yaratıkları şaşırtır cve hasar verir.</string>
+    <string name="WandOfAvalanche_Info1">Çığ asası ile kendini öldürdün...</string>
+
+    <!-- STRINGS OF WandOfBlink CLASS -->
+    <string name="WandOfBlink_Name">Gözkırpma Asası</string>
+    <string name="WandOfBlink_Info">Bu asa seçtiği yöne ışınlanmanı sağlar. Yolundaki yaratık ve cansız nesneler ışınlanmanı engeller.</string>
+
+    <!-- STRINGS OF WandOfDisintegration CLASS -->
+    <string name="WandOfDisintegration_Name">Dağılma Asası</string>
+    <string name="WandOfDisintegration_Info">Bu asa yokedici bir enerji ışını yayar. Bu enerji yolu üzerindeki tüm yaratıklara işler, ne kadar çok yaratık varsa verdiği hasar da o kadar artar.</string>
+
+    <!-- STRINGS OF WandOfFirebolt CLASS -->
+    <string name="WandOfFirebolt_Name">Ateş Asası</string>
+    <string name="WandOfFirebolt_Info">Bu asa yakıcı sihirli bir ateş patlatır. Yanabilir arazide  yangın çıkartır ve dokunduğu yaratığı yakar ve hasar verir.</string>
+    <string name="WandOfFirebolt_Info1">Ateş asası ile kendini öldürdün...</string>
+
+    <!-- STRINGS OF WandOfFlock CLASS -->
+    <string name="WandOfFlock_Name">Sürü asası</string>
+    <string name="WandOfFlock_Info">Bu asanın şıklatılması sihirli bir koyun sürüsü yaratır ve bu sürü geçilmez bir engel oluşturur.</string>
+    <string name="Sheep_Name">koyun</string>
+    <string name="Sheep_Name_Objective">koyun</string>
+    <string name="Sheep_Gender">erkek</string>
+    <string name="Sheep_Desc">Bu bir sihirli koyun. Bununla ilgili sihirli olan ne mi ? Onu öldüremezsin! Sihiri solana kadar boş bakışlarlar ve geviş getirerek orada öylece durur..</string>
+
+    <string-array name="WandOfFlock_SheepBaa">
+        <item>Mee!</item>
+        <item>Mee?</item>
+        <item>Mee.</item>
+        <item>Meee...</item>
+        <item>Meeee...</item>
+        <item>Mee...</item>
+    </string-array>
+
+    <!-- STRINGS OF WandOfLightning CLASS -->
+    <string name="WandOfLightning_Name">Şimşek Asası</string>
+    <string name="WandOfLightning_Info">Bu asa ölümcül bir elektrik akımı üretir.Birbirine yakın olan tüm yaratıklara etki eder.</string>
+    <string name="WandOfLightning_Info1">Şimşek Asası ile kendini öldürdün...</string>
+
+    <!-- STRINGS OF WandOfMagicMissile CLASS -->
+    <string name="WandOfMagicMissile_Name">Sihirli Ok Asası</string>
+    <string name="WandOfMagicMissile_Info">Bu asa saf büyü enerjisinden oklar fırlatır. Bu oklar orta seviye hasar verir.</string>
+    <string name="WandOfMagicMissile_ACDisenchant">BÜYÜDEN KURTAR</string>
+    <string name="WandOfMagicMissile_Info1">Sihirli Ok Asası ile kendini öldürdün...</string>
+    <string name="WandOfMagicMissile_SelectWand">Yükseltilecek asayı seç</string>
+    <string name="WandOfMagicMissile_Desinchanted">%s nesnesini efsunlamak için Sihirli Ok Asasının efsununu kullandın</string>
+
+    <!-- STRINGS OF WandOfPoison CLASS -->
+    <string name="WandOfPoison_Name">Zehir Asası</string>
+    <string name="WandOfPoison_Info">Bu asadan çıkan iğrenç zehirli uçlar hedefini ölümcül bir zehirle etkiler.Zehirlenen yaratık zehhrin etkisi boyunca acı çekerek zarar görür.Bu asanın seviyesinin arttırılması zehrin etki süresini uzatır.</string>
+    <string name="WandOfPoison_Info1">hiç birşey olmadı</string>
+
+    <!-- STRINGS OF WandOfRegrowth CLASS -->
+    <string name="WandOfRegrowth_Name">Büyütme Asası</string>
+    <string name="WandOfRegrowth_Info">Hayat sona erdiğince , yeni bir hayat her zaman büyür.Sonsuz döngü herzaman devam edecektir!</string>
+    <string name="WandOfRegrowth_Info1">hiç birşey olmadı</string>
+
+    <!-- STRINGS OF WandOfSlowness CLASS -->
+    <string name="WandOfSlowness_Name">Yavaşlık Asası</string>
+    <string name="WandOfSlowness_Info">Bu asa etki süresi boyunca hedeflenen yaratığın hızını yarıya indirir</string>
+    <string name="WandOfSlowness_Info1">hiç birşey olmadı</string>
+
+    <!-- STRINGS OF WandOfTelekinesis CLASS -->
+    <string name="WandOfTelekinesis_Name">Telekinetik Asa</string>
+    <string name="WandOfTelekinesis_Info">Bu asanın sihirli gücü yolu boyunca tüm tuzakları etkileyecek çalışmasını sağlar, yüksek çimleri ezer
+	, kapalı kapıları açar, açık kapıları kapatır ayrıca yaratıkları geri iter.</string>
+    <string name="WandOfTelekinesis_YouNowHave">%s nesnesini sihirli bir yolla çantan ışınladın</string>
+
+    <!-- STRINGS OF WandOfTeleportation CLASS -->
+    <string name="WandOfTeleportation_Name">Işınlanma Asası</string>
+    <string name="WandOfTeleportation_Info">Bu asadan çıkan ışın hedefini rastgele bir yere ışınlar.</string>
+    <string name="WandOfTeleportation_Info1">%2$s rastgele bir yere ışınlandı</string>
+    <string name="WandOfTeleportation_Info2">hiç birşey olmadı</string>
+
+</resources>
