@@ -1083,6 +1083,8 @@ public abstract class Level implements Bundlable {
 				return Game.getVar(R.string.Level_TileSign);
 			case Terrain.WELL:
 				return Game.getVar(R.string.Level_TileWell);
+            case Terrain.PORTAL:
+                return Game.getVar(R.string.Level_TilePortal);
 			case Terrain.EMPTY_WELL:
 				return Game.getVar(R.string.Level_TileEmptyWell);
 			case Terrain.STATUE:
@@ -1217,6 +1219,9 @@ public abstract class Level implements Bundlable {
 	public boolean isBossLevel() {
 		return false;
 	}
+
+
+    public boolean isPortalLevel() { return false;}
 
 	public void seal() {
 	}

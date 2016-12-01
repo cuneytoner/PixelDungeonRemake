@@ -21,12 +21,13 @@ ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/Androi
 		ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/AndroidManifest.xml:5:5-35
 uses-sdk
 ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/AndroidManifest.xml:9:5-152
+MERGED from [com.android.support:appcompat-v7:23.1.1] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
 MERGED from [ch.acra:acra:4.8.1] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/ch.acra/acra/4.8.1/AndroidManifest.xml:37:5-72
 MERGED from [com.google.firebase:firebase-ads:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.firebase/firebase-ads/9.8.0/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:22:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:24.0.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
 MERGED from [com.google.android.gms:play-services-base:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:17:5-42
@@ -96,11 +97,12 @@ ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/Androi
 		ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/AndroidManifest.xml:22:9-37
 application
 ADDED from /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/AndroidManifest.xml:26:5-80:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
 MERGED from [ch.acra:acra:4.8.1] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/ch.acra/acra/4.8.1/AndroidManifest.xml:39:5-43:19
 MERGED from [com.google.firebase:firebase-ads:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.firebase/firebase-ads/9.8.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:24.0.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-base:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:18:5-19

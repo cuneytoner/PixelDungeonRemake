@@ -19,6 +19,7 @@ package com.watabou.pixeldungeon.actors.blobs;
 
 import com.coner.pixeldungeon.items.guts.weapon.melee.Claymore;
 import com.coner.pixeldungeon.items.guts.weapon.melee.Halberd;
+import com.coner.pixeldungeon.items.stones.Stone;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Journal;
 import com.watabou.pixeldungeon.Journal.Feature;
@@ -53,7 +54,12 @@ public class WaterOfTransmutation extends WellWater {
 			
 			Journal.remove( Feature.WELL_OF_TRANSMUTATION );
 			return changeScroll( (Scroll)item );
-			
+
+		} else if (item instanceof Stone) {
+
+			Journal.remove( Feature.WELL_OF_TRANSMUTATION );
+			return changeStone( (Stone)item );
+
 		} else if (item instanceof Potion) {
 			
 			Journal.remove( Feature.WELL_OF_TRANSMUTATION );
@@ -218,7 +224,15 @@ public class WaterOfTransmutation extends WellWater {
 			return n;
 		}
 	}
-	
+
+	private Stone changeStone(Stone s ) {
+			Stone n;
+			do {
+				n = (Stone)Generator.random( Category.STONE);
+			} while (n.getClass() == s.getClass());
+			return n;
+	}
+
 	private Potion changePotion( Potion p ) {
 		if (p instanceof PotionOfStrength) {
 			

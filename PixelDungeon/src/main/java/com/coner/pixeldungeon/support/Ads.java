@@ -38,7 +38,7 @@ public class Ads {
 	}
 
 	public static void displayEasyModeBanner() {
-		if (googleAdsUsable() && Util.isConnectedToInternet()) {
+		if (googleAdsUsable() && Util.isConnectedToInternet(Game.instance().getApplicationContext())) {
 			if (isSmallScreen()) {
 				initEasyModeIntersitial();
 			} else {
@@ -165,7 +165,7 @@ public class Ads {
 	}
 
 	private static void initEasyModeIntersitial() {
-		if (googleAdsUsable() && Util.isConnectedToInternet()) {
+		if (googleAdsUsable() && Util.isConnectedToInternet(Game.instance().getApplicationContext())) {
 			{
 				GLog.i("easyModeSmallScreenAdUnitId:" + Game.getVar(R.string.easyModeSmallScreenAdUnitId));
 
@@ -184,7 +184,7 @@ public class Ads {
 	}
 
 	public static void initSaveAndLoadIntersitial() {
-		if (googleAdsUsable() && Util.isConnectedToInternet()) {
+		if (googleAdsUsable() && Util.isConnectedToInternet(Game.instance().getApplicationContext())) {
 			{
 				GLog.i("saveLoadAdUnitId:" + Game.getVar(R.string.saveLoadAdUnitId));
 

@@ -1,9 +1,13 @@
 package com.coner.android.util;
 
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.content.pm.PermissionInfo;
 import android.content.res.Configuration;
+import android.support.v4.content.ContextCompat;
 
 import com.coner.pixeldungeon.remake.EventCollector;
+import com.coner.pixeldungeon.remake.Manifest;
 
 import org.acra.ACRA;
 
@@ -47,14 +51,24 @@ public class Util {
 		ACRA.getErrorReporter().putCustomData(eventKey, str);
 	}
 
-	public static boolean isConnectedToInternet() {
-		InetAddress ipAddr;
-		try {
-			ipAddr = InetAddress.getByName("google.com");
-		} catch (UnknownHostException e) {
+	public static boolean isConnectedToInternet(Context context) {
+        
+		if(ContextCompat.checkSelfPermission(context, android.Manifest.permission.INTERNET) == PackageManager.PERMISSION_GRANTED
+				) {
+
+			InetAddress ipAddr;
+			try {
+				ipAddr = InetAddress.getByName("google.com");
+			} catch (UnknownHostException e) {
+				return false;
+			}
+
+			return !ipAddr.toString().equals("");
+		}
+		else
+		{
 			return false;
 		}
 
-		return !ipAddr.toString().equals("");
 	}
 }

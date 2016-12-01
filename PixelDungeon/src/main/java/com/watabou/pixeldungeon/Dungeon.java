@@ -21,6 +21,7 @@ import android.support.annotation.NonNull;
 
 import com.coner.android.util.FileSystem;
 import com.coner.android.util.Scrambler;
+import com.coner.pixeldungeon.items.stones.Stone;
 import com.coner.pixeldungeon.remake.EventCollector;
 import com.coner.pixeldungeon.remake.R;
 import com.coner.pixeldungeon.mobs.npc.AzuterronNPC;
@@ -114,6 +115,7 @@ public class Dungeon {
 	public static void init() {
 		challenges = PixelDungeon.challenges();
 
+		Stone.initLabels();
 		Scroll.initLabels();
 		Potion.initColors();
 		Wand.initWoods();

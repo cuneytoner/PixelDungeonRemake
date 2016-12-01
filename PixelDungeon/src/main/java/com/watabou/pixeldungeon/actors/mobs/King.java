@@ -113,25 +113,28 @@ public class King extends Boss {
 		if (this.isPet()){
 			return false;
 		}
-
-		if (Undead.count < maxArmySize()) {
-			Char ch = Actor.findChar( ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) );
-			return ch == this || ch == null;
-		} else {
-			return false;
+		else {
+			if (Undead.count < maxArmySize()) {
+				Char ch = Actor.findChar(((CityBossLevel) (Dungeon.level)).pedestal(nextPedestal));
+				return ch == this || ch == null;
+			} else {
+				return false;
+			}
 		}
 	}
 	
 	@Override
 	public boolean attack( Char enemy ) {
+		if (isPet())
+		{
+			return super.attack(enemy);
+		}
+		else
 		if (canTryToSummon() && getPos() == ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal )) {
 			summon();
 			return true;
 		} else {
-            if (isPet())
-            {
-            }
-            else if (Actor.findChar( ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) ) == enemy) {
+            if (Actor.findChar( ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) ) == enemy) {
 				nextPedestal = !nextPedestal;
 			}
 			return super.attack(enemy);
@@ -274,4 +277,11 @@ public class King extends Boss {
 			return 5;
 		}
 	}
+
+
+    @Override
+    public boolean canBePet() {
+        return true;
+    }
+
 }

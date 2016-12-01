@@ -23,6 +23,8 @@ import com.coner.pixeldungeon.items.accessories.Accessory;
 import com.coner.pixeldungeon.items.guts.weapon.melee.Claymore;
 import com.coner.pixeldungeon.items.necropolis.BlackSkull;
 import com.coner.pixeldungeon.items.necropolis.BladeOfSouls;
+import com.coner.pixeldungeon.items.stones.PortalStone;
+import com.coner.pixeldungeon.items.stones.Stone;
 import com.coner.pixeldungeon.remake.BuildConfig;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
@@ -168,6 +170,9 @@ public enum HeroClass {
 
 		Scroll scroll = new ScrollOfSummon();
 		hero.collect(scroll);
+
+		Stone stone = new PortalStone();
+		hero.collect(stone);
 /*
 		List<String> accessories = Accessory.getAccessoriesList();
 

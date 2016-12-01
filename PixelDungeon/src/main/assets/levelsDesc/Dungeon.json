@@ -1,6 +1,7 @@
 {
    "Levels":{
       "0":{"kind":"SewerLevel", "depth":0,        "size":[0,0]},
+      "portallevel":{"kind":"PortalLevel", "depth":0,  "size":[32,32], "file":"levelsDesc/PortalLevel.json"},
       "test_guts":{"kind":"PredesignedLevel", "depth":2,  "size":[16,16], "file":"levelsDesc/TestLevelGuts.json"},
       "test_sewers":{"kind":"PredesignedLevel", "depth":2,  "size":[16,16], "file":"levelsDesc/TestLevelSewers.json"},
       "test_town":{"kind":"PredesignedLevel", "depth":0,  "size":[32,32], "file":"levelsDesc/Town.json"},
@@ -59,6 +60,7 @@
    },
    "Graph":{
       "0":[["1"],[]],
+      "portallevel":[[],[]],
       "test_guts":[["1"],["test_sewers"]],
       "test_sewers":[["test_guts","1","2","3"],["1"],[2]],
       "shadow_lord_level":[["26"],["25"]],

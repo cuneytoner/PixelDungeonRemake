@@ -166,6 +166,8 @@ public class ItemSpriteSheet {
 	public static final int BOILED_BEER = 151;
 	public static final int WINE 		= 152;
 
+	// Stone
+	public static final int PORTAL_STONE = 153;
 	
 	// Rotten food
 	public static final int ROTTEN_PASTY    = 117;

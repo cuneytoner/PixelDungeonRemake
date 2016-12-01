@@ -654,7 +654,8 @@ public abstract class Mob extends Char {
 	}
 
 	public void yell(String str) {
-		GLog.n(Game.getVar(R.string.Mob_Yell), getName(), str);
+		if (isPet() == false)
+			GLog.n(Game.getVar(R.string.Mob_Yell), getName(), str);
 	}
 
 	public void say(String str) {

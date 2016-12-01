@@ -67,6 +67,7 @@ import com.watabou.pixeldungeon.actors.buffs.Vertigo;
 import com.watabou.pixeldungeon.actors.buffs.Weakness;
 import com.watabou.pixeldungeon.actors.hero.HeroAction.Attack;
 import com.watabou.pixeldungeon.actors.mobs.Fraction;
+import com.watabou.pixeldungeon.actors.mobs.King;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
 import com.watabou.pixeldungeon.actors.mobs.Rat;
 import com.watabou.pixeldungeon.actors.mobs.Shadow;
@@ -296,6 +297,9 @@ public class Hero extends Char {
 				pet = Mob.makePet(new SpiderServant(), this);
 			}
 
+			alivePets.add(pet);
+
+			pet = Mob.makePet(new King(), this);
 			alivePets.add(pet);
 		}
 

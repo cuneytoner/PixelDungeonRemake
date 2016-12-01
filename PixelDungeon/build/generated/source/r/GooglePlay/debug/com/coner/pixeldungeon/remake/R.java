@@ -8,41 +8,194 @@
 package com.coner.pixeldungeon.remake;
 
 public final class R {
+    public static final class anim {
+        public static final int abc_fade_in=0x7f040000;
+        public static final int abc_fade_out=0x7f040001;
+        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
+        public static final int abc_popup_enter=0x7f040003;
+        public static final int abc_popup_exit=0x7f040004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
+        public static final int abc_slide_in_bottom=0x7f040006;
+        public static final int abc_slide_in_top=0x7f040007;
+        public static final int abc_slide_out_bottom=0x7f040008;
+        public static final int abc_slide_out_top=0x7f040009;
+    }
     public static final class array {
-        public static final int Challenges_Names=0x7f060018;
-        public static final int Char_Defeat=0x7f060000;
-        public static final int Char_Hit=0x7f060001;
-        public static final int Char_Kill=0x7f060002;
-        public static final int Char_StaDodged=0x7f060003;
-        public static final int Codex_Story=0x7f060019;
-        public static final int Death_Name=0x7f060004;
-        public static final int Dungeon_Tips=0x7f060005;
-        public static final int Fire_Name=0x7f060006;
-        public static final int HeroClass_ClericPerks=0x7f06001f;
-        public static final int HeroClass_ElfPerks=0x7f060007;
-        public static final int HeroClass_HunPerks=0x7f060008;
-        public static final int HeroClass_MagPerks=0x7f060009;
-        public static final int HeroClass_RogPerks=0x7f06000a;
-        public static final int HeroClass_WarPerks=0x7f06000b;
-        public static final int Horror_Name=0x7f06000c;
-        public static final int Hunger_Hungry=0x7f06001a;
-        public static final int Hunger_Starving=0x7f06001b;
-        public static final int Instability_Name=0x7f06000d;
-        public static final int Leech_Name=0x7f06000e;
-        public static final int Luck_Name=0x7f06000f;
-        public static final int Paralysis_Name=0x7f060010;
-        public static final int Piercing_Name=0x7f060011;
-        public static final int Poison_Name=0x7f060012;
-        public static final int Potion_Colors=0x7f060013;
-        public static final int Ring_Gems=0x7f060014;
-        public static final int Scroll_Runes=0x7f060015;
-        public static final int Slow_Name=0x7f060016;
-        public static final int Swing_Name=0x7f060017;
-        public static final int WandOfFlock_SheepBaa=0x7f06001c;
-        public static final int Wand_Wood_Types=0x7f06001d;
-        public static final int known_mods=0x7f06001e;
+        public static final int Challenges_Names=0x7f080018;
+        public static final int Char_Defeat=0x7f080000;
+        public static final int Char_Hit=0x7f080001;
+        public static final int Char_Kill=0x7f080002;
+        public static final int Char_StaDodged=0x7f080003;
+        public static final int Codex_Story=0x7f080019;
+        public static final int Death_Name=0x7f080004;
+        public static final int Dungeon_Tips=0x7f080005;
+        public static final int Fire_Name=0x7f080006;
+        public static final int HeroClass_ClericPerks=0x7f08001f;
+        public static final int HeroClass_ElfPerks=0x7f080007;
+        public static final int HeroClass_HunPerks=0x7f080008;
+        public static final int HeroClass_MagPerks=0x7f080009;
+        public static final int HeroClass_RogPerks=0x7f08000a;
+        public static final int HeroClass_WarPerks=0x7f08000b;
+        public static final int Horror_Name=0x7f08000c;
+        public static final int Hunger_Hungry=0x7f08001a;
+        public static final int Hunger_Starving=0x7f08001b;
+        public static final int Instability_Name=0x7f08000d;
+        public static final int Leech_Name=0x7f08000e;
+        public static final int Luck_Name=0x7f08000f;
+        public static final int Paralysis_Name=0x7f080010;
+        public static final int Piercing_Name=0x7f080011;
+        public static final int Poison_Name=0x7f080012;
+        public static final int Potion_Colors=0x7f080013;
+        public static final int Ring_Gems=0x7f080014;
+        public static final int Scroll_Runes=0x7f080015;
+        public static final int Slow_Name=0x7f080016;
+        public static final int Stone_Colors=0x7f080020;
+        public static final int Swing_Name=0x7f080017;
+        public static final int WandOfFlock_SheepBaa=0x7f08001c;
+        public static final int Wand_Wood_Types=0x7f08001d;
+        public static final int known_mods=0x7f08001e;
     }
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarDivider=0x7f01006c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarItemBackground=0x7f01006d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarPopupTheme=0x7f010066;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int actionBarSize=0x7f01006b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarSplitStyle=0x7f010068;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarStyle=0x7f010067;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarTabBarStyle=0x7f010062;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarTabStyle=0x7f010061;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarTabTextStyle=0x7f010063;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarTheme=0x7f010069;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionBarWidgetTheme=0x7f01006a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionButtonStyle=0x7f010086;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionDropDownStyle=0x7f010082;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionLayout=0x7f01003a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionMenuTextAppearance=0x7f01006e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int actionMenuTextColor=0x7f01006f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeBackground=0x7f010072;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCloseButtonStyle=0x7f010071;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCloseDrawable=0x7f010074;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCopyDrawable=0x7f010076;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCutDrawable=0x7f010075;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeFindDrawable=0x7f01007a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModePasteDrawable=0x7f010077;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModePopupWindowStyle=0x7f01007c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeSelectAllDrawable=0x7f010078;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeShareDrawable=0x7f010079;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeSplitBackground=0x7f010073;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeStyle=0x7f010070;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeWebSearchDrawable=0x7f01007b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionOverflowButtonStyle=0x7f010064;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionOverflowMenuStyle=0x7f010065;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -50,7 +203,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int adSize=0x7f010000;
+        public static final int actionProviderClass=0x7f01003c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -58,7 +211,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int adSizes=0x7f010001;
+        public static final int actionViewClass=0x7f01003b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int activityChooserViewStyle=0x7f01008e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -66,7 +223,152 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int adUnitId=0x7f010002;
+        public static final int adSize=0x7f01001f;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f010020;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010021;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogButtonGroupStyle=0x7f0100b1;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int alertDialogCenterButtons=0x7f0100b2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogStyle=0x7f0100b0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogTheme=0x7f0100b3;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int allowStacking=0x7f010028;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arrowHeadLength=0x7f01002f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arrowShaftLength=0x7f010030;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int autoCompleteTextViewStyle=0x7f0100b8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int background=0x7f01000c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int backgroundSplit=0x7f01000e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int backgroundStacked=0x7f01000d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int backgroundTint=0x7f0100d5;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int backgroundTintMode=0x7f0100d6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int barLength=0x7f010031;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int borderlessButtonStyle=0x7f01008b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarButtonStyle=0x7f010088;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarNegativeButtonStyle=0x7f0100b6;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarNeutralButtonStyle=0x7f0100b7;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarPositiveButtonStyle=0x7f0100b5;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f010087;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonPanelSideLayout=0x7f010022;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -80,7 +382,46 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int buttonSize=0x7f010006;
+        public static final int buttonSize=0x7f01004d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyle=0x7f0100b9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyleSmall=0x7f0100ba;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int buttonTint=0x7f010029;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int buttonTintMode=0x7f01002a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkboxStyle=0x7f0100bb;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkedTextViewStyle=0x7f0100bc;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -88,7 +429,99 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f010005;
+        public static final int circleCrop=0x7f010038;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeIcon=0x7f010044;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeItemLayout=0x7f01001c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int collapseContentDescription=0x7f0100cc;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int collapseIcon=0x7f0100cb;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int color=0x7f01002b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorAccent=0x7f0100a9;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorButtonNormal=0x7f0100ad;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlActivated=0x7f0100ab;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlHighlight=0x7f0100ac;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlNormal=0x7f0100aa;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorPrimary=0x7f0100a7;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorPrimaryDark=0x7f0100a8;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -102,7 +535,236 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int colorScheme=0x7f010007;
+        public static final int colorScheme=0x7f01004e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorSwitchThumbNormal=0x7f0100ae;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int commitIcon=0x7f010049;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetEnd=0x7f010017;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetLeft=0x7f010018;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetRight=0x7f010019;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetStart=0x7f010016;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int controlBackground=0x7f0100af;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int customNavigationLayout=0x7f01000f;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultQueryHint=0x7f010043;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dialogPreferredPadding=0x7f010080;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dialogTheme=0x7f01007f;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>useLogo</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>showHome</code></td><td>0x2</td><td></td></tr>
+<tr><td><code>homeAsUp</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>showTitle</code></td><td>0x8</td><td></td></tr>
+<tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
+</table>
+         */
+        public static final int displayOptions=0x7f010005;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int divider=0x7f01000b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dividerHorizontal=0x7f01008d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerPadding=0x7f010035;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dividerVertical=0x7f01008c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int drawableSize=0x7f01002d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int drawerArrowStyle=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dropDownListViewStyle=0x7f01009f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dropdownListPreferredItemHeight=0x7f010083;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int editTextBackground=0x7f010094;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int editTextColor=0x7f010093;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int editTextStyle=0x7f0100bd;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int elevation=0x7f01001a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int expandActivityOverflowButtonDrawable=0x7f01001e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int gapBetweenBars=0x7f01002e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int goIcon=0x7f010045;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int height=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hideOnContentScroll=0x7f010015;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int homeAsUpIndicator=0x7f010085;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int homeLayout=0x7f010010;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icon=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int iconifiedByDefault=0x7f010041;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -110,7 +772,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f010004;
+        public static final int imageAspectRatio=0x7f010037;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -122,1822 +784,2901 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f010003;
+        public static final int imageAspectRatioAdjust=0x7f010036;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int imageButtonStyle=0x7f010095;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int indeterminateProgressStyle=0x7f010012;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int initialActivityCount=0x7f01001d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int isLightTheme=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int itemPadding=0x7f010014;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int layout=0x7f010040;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listChoiceBackgroundIndicator=0x7f0100a6;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listDividerAlertDialog=0x7f010081;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listItemLayout=0x7f010026;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listLayout=0x7f010023;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listPopupWindowStyle=0x7f0100a0;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeight=0x7f01009a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeightLarge=0x7f01009c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeightSmall=0x7f01009b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemPaddingLeft=0x7f01009d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemPaddingRight=0x7f01009e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int logo=0x7f01000a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int logoDescription=0x7f0100cf;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxButtonHeight=0x7f0100ca;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int measureWithLargestChild=0x7f010033;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int multiChoiceItemLayout=0x7f010024;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int navigationContentDescription=0x7f0100ce;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int navigationIcon=0x7f0100cd;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>listMode</code></td><td>1</td><td></td></tr>
+<tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int navigationMode=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int overlapAnchor=0x7f01003e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int paddingEnd=0x7f0100d3;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int paddingStart=0x7f0100d2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int panelBackground=0x7f0100a3;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int panelMenuListTheme=0x7f0100a5;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int panelMenuListWidth=0x7f0100a4;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupMenuStyle=0x7f010091;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupTheme=0x7f01001b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupWindowStyle=0x7f010092;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int preserveIconSpacing=0x7f01003d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progressBarPadding=0x7f010013;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int progressBarStyle=0x7f010011;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int queryBackground=0x7f01004b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int queryHint=0x7f010042;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int radioButtonStyle=0x7f0100be;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyle=0x7f0100bf;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int scopeUris=0x7f010008;
+        public static final int scopeUris=0x7f01004f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchHintIcon=0x7f010047;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchIcon=0x7f010046;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewStyle=0x7f010099;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int seekBarStyle=0x7f0100c0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackground=0x7f010089;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackgroundBorderless=0x7f01008a;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>never</code></td><td>0</td><td></td></tr>
+<tr><td><code>ifRoom</code></td><td>1</td><td></td></tr>
+<tr><td><code>always</code></td><td>2</td><td></td></tr>
+<tr><td><code>withText</code></td><td>4</td><td></td></tr>
+<tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static final int showAsAction=0x7f010039;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>beginning</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int showDividers=0x7f010034;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int showText=0x7f010056;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int singleChoiceItemLayout=0x7f010025;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spinBars=0x7f01002c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerDropDownItemStyle=0x7f010084;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerStyle=0x7f0100c1;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int splitTrack=0x7f010055;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int state_above_anchor=0x7f01003f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int submitBackground=0x7f01004c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitle=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextAppearance=0x7f0100c4;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitleTextColor=0x7f0100d1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextStyle=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int suggestionRowLayout=0x7f01004a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int switchMinWidth=0x7f010053;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int switchPadding=0x7f010054;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int switchStyle=0x7f0100c2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int switchTextAppearance=0x7f010052;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int textAllCaps=0x7f010027;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceLargePopupMenu=0x7f01007d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceListItem=0x7f0100a1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceListItemSmall=0x7f0100a2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceSearchResultSubtitle=0x7f010097;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceSearchResultTitle=0x7f010096;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceSmallPopupMenu=0x7f01007e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorAlertDialogListItem=0x7f0100b4;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f010098;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int theme=0x7f0100d4;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int thickness=0x7f010032;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int thumbTextPadding=0x7f010051;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title=0x7f010003;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginBottom=0x7f0100c9;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginEnd=0x7f0100c7;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginStart=0x7f0100c6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginTop=0x7f0100c8;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMargins=0x7f0100c5;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int titleTextAppearance=0x7f0100c3;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleTextColor=0x7f0100d0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int titleTextStyle=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int toolbarNavigationButtonStyle=0x7f010090;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int toolbarStyle=0x7f01008f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int track=0x7f010050;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int voiceIcon=0x7f010048;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBar=0x7f010057;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBarOverlay=0x7f010059;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionModeOverlay=0x7f01005a;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMajor=0x7f01005e;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMinor=0x7f01005c;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMajor=0x7f01005b;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMinor=0x7f01005d;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f01005f;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f010060;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowNoTitle=0x7f010058;
+    }
+    public static final class bool {
+        public static final int abc_action_bar_embed_tabs=0x7f090003;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f090001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f090004;
+        public static final int abc_allow_stacked_button_bar=0x7f090000;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f090005;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f090002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f090006;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090007;
     }
     public static final class color {
-        public static final int common_google_signin_btn_text_dark=0x7f080008;
-        public static final int common_google_signin_btn_text_dark_default=0x7f080000;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f080001;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f080002;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f080003;
-        public static final int common_google_signin_btn_text_light=0x7f080009;
-        public static final int common_google_signin_btn_text_light_default=0x7f080004;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f080005;
-        public static final int common_google_signin_btn_text_light_focused=0x7f080006;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f080007;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0d0042;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0d0043;
+        public static final int abc_color_highlight_material=0x7f0d0044;
+        public static final int abc_input_method_navigation_guard=0x7f0d0000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0d0045;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0d0046;
+        public static final int abc_primary_text_material_dark=0x7f0d0047;
+        public static final int abc_primary_text_material_light=0x7f0d0048;
+        public static final int abc_search_url_text=0x7f0d0049;
+        public static final int abc_search_url_text_normal=0x7f0d0001;
+        public static final int abc_search_url_text_pressed=0x7f0d0002;
+        public static final int abc_search_url_text_selected=0x7f0d0003;
+        public static final int abc_secondary_text_material_dark=0x7f0d004a;
+        public static final int abc_secondary_text_material_light=0x7f0d004b;
+        public static final int accent_material_dark=0x7f0d0004;
+        public static final int accent_material_light=0x7f0d0005;
+        public static final int background_floating_material_dark=0x7f0d0006;
+        public static final int background_floating_material_light=0x7f0d0007;
+        public static final int background_material_dark=0x7f0d0008;
+        public static final int background_material_light=0x7f0d0009;
+        public static final int bright_foreground_disabled_material_dark=0x7f0d000a;
+        public static final int bright_foreground_disabled_material_light=0x7f0d000b;
+        public static final int bright_foreground_inverse_material_dark=0x7f0d000c;
+        public static final int bright_foreground_inverse_material_light=0x7f0d000d;
+        public static final int bright_foreground_material_dark=0x7f0d000e;
+        public static final int bright_foreground_material_light=0x7f0d000f;
+        public static final int button_material_dark=0x7f0d0010;
+        public static final int button_material_light=0x7f0d0011;
+        public static final int common_google_signin_btn_text_dark=0x7f0d004c;
+        public static final int common_google_signin_btn_text_dark_default=0x7f0d0012;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f0d0013;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f0d0014;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f0d0015;
+        public static final int common_google_signin_btn_text_light=0x7f0d004d;
+        public static final int common_google_signin_btn_text_light_default=0x7f0d0016;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f0d0017;
+        public static final int common_google_signin_btn_text_light_focused=0x7f0d0018;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f0d0019;
+        public static final int dim_foreground_disabled_material_dark=0x7f0d001a;
+        public static final int dim_foreground_disabled_material_light=0x7f0d001b;
+        public static final int dim_foreground_material_dark=0x7f0d001c;
+        public static final int dim_foreground_material_light=0x7f0d001d;
+        public static final int foreground_material_dark=0x7f0d001e;
+        public static final int foreground_material_light=0x7f0d001f;
+        public static final int highlighted_text_material_dark=0x7f0d0020;
+        public static final int highlighted_text_material_light=0x7f0d0021;
+        public static final int hint_foreground_material_dark=0x7f0d0022;
+        public static final int hint_foreground_material_light=0x7f0d0023;
+        public static final int material_blue_grey_800=0x7f0d0024;
+        public static final int material_blue_grey_900=0x7f0d0025;
+        public static final int material_blue_grey_950=0x7f0d0026;
+        public static final int material_deep_teal_200=0x7f0d0027;
+        public static final int material_deep_teal_500=0x7f0d0028;
+        public static final int material_grey_100=0x7f0d0029;
+        public static final int material_grey_300=0x7f0d002a;
+        public static final int material_grey_50=0x7f0d002b;
+        public static final int material_grey_600=0x7f0d002c;
+        public static final int material_grey_800=0x7f0d002d;
+        public static final int material_grey_850=0x7f0d002e;
+        public static final int material_grey_900=0x7f0d002f;
+        public static final int primary_dark_material_dark=0x7f0d0030;
+        public static final int primary_dark_material_light=0x7f0d0031;
+        public static final int primary_material_dark=0x7f0d0032;
+        public static final int primary_material_light=0x7f0d0033;
+        public static final int primary_text_default_material_dark=0x7f0d0034;
+        public static final int primary_text_default_material_light=0x7f0d0035;
+        public static final int primary_text_disabled_material_dark=0x7f0d0036;
+        public static final int primary_text_disabled_material_light=0x7f0d0037;
+        public static final int ripple_material_dark=0x7f0d0038;
+        public static final int ripple_material_light=0x7f0d0039;
+        public static final int secondary_text_default_material_dark=0x7f0d003a;
+        public static final int secondary_text_default_material_light=0x7f0d003b;
+        public static final int secondary_text_disabled_material_dark=0x7f0d003c;
+        public static final int secondary_text_disabled_material_light=0x7f0d003d;
+        public static final int switch_thumb_disabled_material_dark=0x7f0d003e;
+        public static final int switch_thumb_disabled_material_light=0x7f0d003f;
+        public static final int switch_thumb_material_dark=0x7f0d004e;
+        public static final int switch_thumb_material_light=0x7f0d004f;
+        public static final int switch_thumb_normal_material_dark=0x7f0d0040;
+        public static final int switch_thumb_normal_material_light=0x7f0d0041;
+    }
+    public static final class dimen {
+        public static final int abc_action_bar_content_inset_material=0x7f0a000d;
+        public static final int abc_action_bar_default_height_material=0x7f0a0001;
+        public static final int abc_action_bar_default_padding_end_material=0x7f0a000e;
+        public static final int abc_action_bar_default_padding_start_material=0x7f0a000f;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f0a0011;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f0a0012;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f0a0013;
+        public static final int abc_action_bar_progress_bar_size=0x7f0a0002;
+        public static final int abc_action_bar_stacked_max_height=0x7f0a0014;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f0a0015;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f0a0016;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f0a0017;
+        public static final int abc_action_button_min_height_material=0x7f0a0018;
+        public static final int abc_action_button_min_width_material=0x7f0a0019;
+        public static final int abc_action_button_min_width_overflow_material=0x7f0a001a;
+        public static final int abc_alert_dialog_button_bar_height=0x7f0a0000;
+        public static final int abc_button_inset_horizontal_material=0x7f0a001b;
+        public static final int abc_button_inset_vertical_material=0x7f0a001c;
+        public static final int abc_button_padding_horizontal_material=0x7f0a001d;
+        public static final int abc_button_padding_vertical_material=0x7f0a001e;
+        public static final int abc_config_prefDialogWidth=0x7f0a0005;
+        public static final int abc_control_corner_material=0x7f0a001f;
+        public static final int abc_control_inset_material=0x7f0a0020;
+        public static final int abc_control_padding_material=0x7f0a0021;
+        public static final int abc_dialog_fixed_height_major=0x7f0a0006;
+        public static final int abc_dialog_fixed_height_minor=0x7f0a0007;
+        public static final int abc_dialog_fixed_width_major=0x7f0a0008;
+        public static final int abc_dialog_fixed_width_minor=0x7f0a0009;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f0a0022;
+        public static final int abc_dialog_min_width_major=0x7f0a000a;
+        public static final int abc_dialog_min_width_minor=0x7f0a000b;
+        public static final int abc_dialog_padding_material=0x7f0a0023;
+        public static final int abc_dialog_padding_top_material=0x7f0a0024;
+        public static final int abc_disabled_alpha_material_dark=0x7f0a0025;
+        public static final int abc_disabled_alpha_material_light=0x7f0a0026;
+        public static final int abc_dropdownitem_icon_width=0x7f0a0027;
+        public static final int abc_dropdownitem_text_padding_left=0x7f0a0028;
+        public static final int abc_dropdownitem_text_padding_right=0x7f0a0029;
+        public static final int abc_edit_text_inset_bottom_material=0x7f0a002a;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f0a002b;
+        public static final int abc_edit_text_inset_top_material=0x7f0a002c;
+        public static final int abc_floating_window_z=0x7f0a002d;
+        public static final int abc_list_item_padding_horizontal_material=0x7f0a002e;
+        public static final int abc_panel_menu_list_width=0x7f0a002f;
+        public static final int abc_search_view_preferred_width=0x7f0a0030;
+        public static final int abc_search_view_text_min_width=0x7f0a000c;
+        public static final int abc_seekbar_track_background_height_material=0x7f0a0031;
+        public static final int abc_seekbar_track_progress_height_material=0x7f0a0032;
+        public static final int abc_select_dialog_padding_start_material=0x7f0a0033;
+        public static final int abc_switch_padding=0x7f0a0010;
+        public static final int abc_text_size_body_1_material=0x7f0a0034;
+        public static final int abc_text_size_body_2_material=0x7f0a0035;
+        public static final int abc_text_size_button_material=0x7f0a0036;
+        public static final int abc_text_size_caption_material=0x7f0a0037;
+        public static final int abc_text_size_display_1_material=0x7f0a0038;
+        public static final int abc_text_size_display_2_material=0x7f0a0039;
+        public static final int abc_text_size_display_3_material=0x7f0a003a;
+        public static final int abc_text_size_display_4_material=0x7f0a003b;
+        public static final int abc_text_size_headline_material=0x7f0a003c;
+        public static final int abc_text_size_large_material=0x7f0a003d;
+        public static final int abc_text_size_medium_material=0x7f0a003e;
+        public static final int abc_text_size_menu_material=0x7f0a003f;
+        public static final int abc_text_size_small_material=0x7f0a0040;
+        public static final int abc_text_size_subhead_material=0x7f0a0041;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f0a0003;
+        public static final int abc_text_size_title_material=0x7f0a0042;
+        public static final int abc_text_size_title_material_toolbar=0x7f0a0004;
+        public static final int disabled_alpha_material_dark=0x7f0a0043;
+        public static final int disabled_alpha_material_light=0x7f0a0044;
+        public static final int highlight_alpha_material_colored=0x7f0a0045;
+        public static final int highlight_alpha_material_dark=0x7f0a0046;
+        public static final int highlight_alpha_material_light=0x7f0a0047;
+        public static final int notification_large_icon_height=0x7f0a0048;
+        public static final int notification_large_icon_width=0x7f0a0049;
+        public static final int notification_subtext_size=0x7f0a004a;
     }
     public static final class drawable {
-        public static final int common_full_open_on_phone=0x7f020000;
-        public static final int common_google_signin_btn_icon_dark=0x7f020001;
-        public static final int common_google_signin_btn_icon_dark_disabled=0x7f020002;
-        public static final int common_google_signin_btn_icon_dark_focused=0x7f020003;
-        public static final int common_google_signin_btn_icon_dark_normal=0x7f020004;
-        public static final int common_google_signin_btn_icon_dark_pressed=0x7f020005;
-        public static final int common_google_signin_btn_icon_light=0x7f020006;
-        public static final int common_google_signin_btn_icon_light_disabled=0x7f020007;
-        public static final int common_google_signin_btn_icon_light_focused=0x7f020008;
-        public static final int common_google_signin_btn_icon_light_normal=0x7f020009;
-        public static final int common_google_signin_btn_icon_light_pressed=0x7f02000a;
-        public static final int common_google_signin_btn_text_dark=0x7f02000b;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f02000c;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f02000d;
-        public static final int common_google_signin_btn_text_dark_normal=0x7f02000e;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f02000f;
-        public static final int common_google_signin_btn_text_light=0x7f020010;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f020011;
-        public static final int common_google_signin_btn_text_light_focused=0x7f020012;
-        public static final int common_google_signin_btn_text_light_normal=0x7f020013;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f020014;
-        public static final int ic_launcher=0x7f020015;
+        public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
+        public static final int abc_action_bar_item_background_material=0x7f020001;
+        public static final int abc_btn_borderless_material=0x7f020002;
+        public static final int abc_btn_check_material=0x7f020003;
+        public static final int abc_btn_check_to_on_mtrl_000=0x7f020004;
+        public static final int abc_btn_check_to_on_mtrl_015=0x7f020005;
+        public static final int abc_btn_colored_material=0x7f020006;
+        public static final int abc_btn_default_mtrl_shape=0x7f020007;
+        public static final int abc_btn_radio_material=0x7f020008;
+        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020009;
+        public static final int abc_btn_radio_to_on_mtrl_015=0x7f02000a;
+        public static final int abc_btn_rating_star_off_mtrl_alpha=0x7f02000b;
+        public static final int abc_btn_rating_star_on_mtrl_alpha=0x7f02000c;
+        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000d;
+        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000e;
+        public static final int abc_cab_background_internal_bg=0x7f02000f;
+        public static final int abc_cab_background_top_material=0x7f020010;
+        public static final int abc_cab_background_top_mtrl_alpha=0x7f020011;
+        public static final int abc_control_background_material=0x7f020012;
+        public static final int abc_dialog_material_background_dark=0x7f020013;
+        public static final int abc_dialog_material_background_light=0x7f020014;
+        public static final int abc_edit_text_material=0x7f020015;
+        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f020016;
+        public static final int abc_ic_clear_mtrl_alpha=0x7f020017;
+        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020018;
+        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020019;
+        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f02001a;
+        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f02001b;
+        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f02001c;
+        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001d;
+        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001e;
+        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001f;
+        public static final int abc_ic_search_api_mtrl_alpha=0x7f020020;
+        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f020021;
+        public static final int abc_item_background_holo_dark=0x7f020022;
+        public static final int abc_item_background_holo_light=0x7f020023;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020024;
+        public static final int abc_list_focused_holo=0x7f020025;
+        public static final int abc_list_longpressed_holo=0x7f020026;
+        public static final int abc_list_pressed_holo_dark=0x7f020027;
+        public static final int abc_list_pressed_holo_light=0x7f020028;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f020029;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f02002a;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f02002b;
+        public static final int abc_list_selector_disabled_holo_light=0x7f02002c;
+        public static final int abc_list_selector_holo_dark=0x7f02002d;
+        public static final int abc_list_selector_holo_light=0x7f02002e;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f02002f;
+        public static final int abc_popup_background_mtrl_mult=0x7f020030;
+        public static final int abc_ratingbar_full_material=0x7f020031;
+        public static final int abc_scrubber_control_off_mtrl_alpha=0x7f020032;
+        public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f020033;
+        public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f020034;
+        public static final int abc_scrubber_primary_mtrl_alpha=0x7f020035;
+        public static final int abc_scrubber_track_mtrl_alpha=0x7f020036;
+        public static final int abc_seekbar_thumb_material=0x7f020037;
+        public static final int abc_seekbar_track_material=0x7f020038;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f020039;
+        public static final int abc_spinner_textfield_background_material=0x7f02003a;
+        public static final int abc_switch_thumb_material=0x7f02003b;
+        public static final int abc_switch_track_mtrl_alpha=0x7f02003c;
+        public static final int abc_tab_indicator_material=0x7f02003d;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f02003e;
+        public static final int abc_text_cursor_material=0x7f02003f;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f020040;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f020041;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
+        public static final int abc_textfield_search_material=0x7f020044;
+        public static final int common_full_open_on_phone=0x7f020045;
+        public static final int common_google_signin_btn_icon_dark=0x7f020046;
+        public static final int common_google_signin_btn_icon_dark_disabled=0x7f020047;
+        public static final int common_google_signin_btn_icon_dark_focused=0x7f020048;
+        public static final int common_google_signin_btn_icon_dark_normal=0x7f020049;
+        public static final int common_google_signin_btn_icon_dark_pressed=0x7f02004a;
+        public static final int common_google_signin_btn_icon_light=0x7f02004b;
+        public static final int common_google_signin_btn_icon_light_disabled=0x7f02004c;
+        public static final int common_google_signin_btn_icon_light_focused=0x7f02004d;
+        public static final int common_google_signin_btn_icon_light_normal=0x7f02004e;
+        public static final int common_google_signin_btn_icon_light_pressed=0x7f02004f;
+        public static final int common_google_signin_btn_text_dark=0x7f020050;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f020051;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f020052;
+        public static final int common_google_signin_btn_text_dark_normal=0x7f020053;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f020054;
+        public static final int common_google_signin_btn_text_light=0x7f020055;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f020056;
+        public static final int common_google_signin_btn_text_light_focused=0x7f020057;
+        public static final int common_google_signin_btn_text_light_normal=0x7f020058;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f020059;
+        public static final int ic_launcher=0x7f02005a;
+        public static final int notification_template_icon_bg=0x7f02005b;
     }
     public static final class id {
-        public static final int adjust_height=0x7f0a0000;
-        public static final int adjust_width=0x7f0a0001;
-        public static final int auto=0x7f0a0006;
-        public static final int dark=0x7f0a0007;
-        public static final int icon_only=0x7f0a0003;
-        public static final int light=0x7f0a0008;
-        public static final int none=0x7f0a0002;
-        public static final int standard=0x7f0a0004;
-        public static final int wide=0x7f0a0005;
+        public static final int action0=0x7f0e0058;
+        public static final int action_bar=0x7f0e0049;
+        public static final int action_bar_activity_content=0x7f0e0000;
+        public static final int action_bar_container=0x7f0e0048;
+        public static final int action_bar_root=0x7f0e0044;
+        public static final int action_bar_spinner=0x7f0e0001;
+        public static final int action_bar_subtitle=0x7f0e002a;
+        public static final int action_bar_title=0x7f0e0029;
+        public static final int action_context_bar=0x7f0e004a;
+        public static final int action_divider=0x7f0e005c;
+        public static final int action_menu_divider=0x7f0e0002;
+        public static final int action_menu_presenter=0x7f0e0003;
+        public static final int action_mode_bar=0x7f0e0046;
+        public static final int action_mode_bar_stub=0x7f0e0045;
+        public static final int action_mode_close_button=0x7f0e002b;
+        public static final int activity_chooser_view_content=0x7f0e002c;
+        public static final int adjust_height=0x7f0e001b;
+        public static final int adjust_width=0x7f0e001c;
+        public static final int alertTitle=0x7f0e0038;
+        public static final int always=0x7f0e001d;
+        public static final int auto=0x7f0e0025;
+        public static final int beginning=0x7f0e0018;
+        public static final int buttonPanel=0x7f0e0033;
+        public static final int cancel_action=0x7f0e0059;
+        public static final int checkbox=0x7f0e0041;
+        public static final int chronometer=0x7f0e005f;
+        public static final int collapseActionView=0x7f0e001e;
+        public static final int contentPanel=0x7f0e0039;
+        public static final int custom=0x7f0e003f;
+        public static final int customPanel=0x7f0e003e;
+        public static final int dark=0x7f0e0026;
+        public static final int decor_content_parent=0x7f0e0047;
+        public static final int default_activity_button=0x7f0e002f;
+        public static final int disableHome=0x7f0e000c;
+        public static final int edit_query=0x7f0e004b;
+        public static final int end=0x7f0e0019;
+        public static final int end_padder=0x7f0e0064;
+        public static final int expand_activities_button=0x7f0e002d;
+        public static final int expanded_menu=0x7f0e0040;
+        public static final int home=0x7f0e0004;
+        public static final int homeAsUp=0x7f0e000d;
+        public static final int icon=0x7f0e0031;
+        public static final int icon_only=0x7f0e0022;
+        public static final int ifRoom=0x7f0e001f;
+        public static final int image=0x7f0e002e;
+        public static final int info=0x7f0e0063;
+        public static final int light=0x7f0e0027;
+        public static final int line1=0x7f0e005d;
+        public static final int line3=0x7f0e0061;
+        public static final int listMode=0x7f0e0009;
+        public static final int list_item=0x7f0e0030;
+        public static final int media_actions=0x7f0e005b;
+        public static final int middle=0x7f0e001a;
+        public static final int multiply=0x7f0e0013;
+        public static final int never=0x7f0e0020;
+        public static final int none=0x7f0e000e;
+        public static final int normal=0x7f0e000a;
+        public static final int parentPanel=0x7f0e0035;
+        public static final int progress_circular=0x7f0e0005;
+        public static final int progress_horizontal=0x7f0e0006;
+        public static final int radio=0x7f0e0043;
+        public static final int screen=0x7f0e0014;
+        public static final int scrollIndicatorDown=0x7f0e003d;
+        public static final int scrollIndicatorUp=0x7f0e003a;
+        public static final int scrollView=0x7f0e003b;
+        public static final int search_badge=0x7f0e004d;
+        public static final int search_bar=0x7f0e004c;
+        public static final int search_button=0x7f0e004e;
+        public static final int search_close_btn=0x7f0e0053;
+        public static final int search_edit_frame=0x7f0e004f;
+        public static final int search_go_btn=0x7f0e0055;
+        public static final int search_mag_icon=0x7f0e0050;
+        public static final int search_plate=0x7f0e0051;
+        public static final int search_src_text=0x7f0e0052;
+        public static final int search_voice_btn=0x7f0e0056;
+        public static final int select_dialog_listview=0x7f0e0057;
+        public static final int shortcut=0x7f0e0042;
+        public static final int showCustom=0x7f0e000f;
+        public static final int showHome=0x7f0e0010;
+        public static final int showTitle=0x7f0e0011;
+        public static final int spacer=0x7f0e0034;
+        public static final int split_action_bar=0x7f0e0007;
+        public static final int src_atop=0x7f0e0015;
+        public static final int src_in=0x7f0e0016;
+        public static final int src_over=0x7f0e0017;
+        public static final int standard=0x7f0e0023;
+        public static final int status_bar_latest_event_content=0x7f0e005a;
+        public static final int submit_area=0x7f0e0054;
+        public static final int tabMode=0x7f0e000b;
+        public static final int text=0x7f0e0062;
+        public static final int text2=0x7f0e0060;
+        public static final int textSpacerNoButtons=0x7f0e003c;
+        public static final int time=0x7f0e005e;
+        public static final int title=0x7f0e0032;
+        public static final int title_template=0x7f0e0037;
+        public static final int topPanel=0x7f0e0036;
+        public static final int up=0x7f0e0008;
+        public static final int useLogo=0x7f0e0012;
+        public static final int wide=0x7f0e0024;
+        public static final int withText=0x7f0e0021;
+        public static final int wrap_content=0x7f0e0028;
     }
     public static final class integer {
-        public static final int google_play_services_version=0x7f090000;
+        public static final int abc_config_activityDefaultDur=0x7f0c0001;
+        public static final int abc_config_activityShortDur=0x7f0c0002;
+        public static final int abc_max_action_buttons=0x7f0c0000;
+        public static final int cancel_button_image_alpha=0x7f0c0003;
+        public static final int google_play_services_version=0x7f0c0004;
+        public static final int status_bar_notification_info_maxnum=0x7f0c0005;
+    }
+    public static final class layout {
+        public static final int abc_action_bar_title_item=0x7f030000;
+        public static final int abc_action_bar_up_container=0x7f030001;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030002;
+        public static final int abc_action_menu_item_layout=0x7f030003;
+        public static final int abc_action_menu_layout=0x7f030004;
+        public static final int abc_action_mode_bar=0x7f030005;
+        public static final int abc_action_mode_close_item_material=0x7f030006;
+        public static final int abc_activity_chooser_view=0x7f030007;
+        public static final int abc_activity_chooser_view_list_item=0x7f030008;
+        public static final int abc_alert_dialog_button_bar_material=0x7f030009;
+        public static final int abc_alert_dialog_material=0x7f03000a;
+        public static final int abc_dialog_title_material=0x7f03000b;
+        public static final int abc_expanded_menu_layout=0x7f03000c;
+        public static final int abc_list_menu_item_checkbox=0x7f03000d;
+        public static final int abc_list_menu_item_icon=0x7f03000e;
+        public static final int abc_list_menu_item_layout=0x7f03000f;
+        public static final int abc_list_menu_item_radio=0x7f030010;
+        public static final int abc_popup_menu_item_layout=0x7f030011;
+        public static final int abc_screen_content_include=0x7f030012;
+        public static final int abc_screen_simple=0x7f030013;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030014;
+        public static final int abc_screen_toolbar=0x7f030015;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
+        public static final int abc_search_view=0x7f030017;
+        public static final int abc_select_dialog_material=0x7f030018;
+        public static final int notification_media_action=0x7f030019;
+        public static final int notification_media_cancel_action=0x7f03001a;
+        public static final int notification_template_big_media=0x7f03001b;
+        public static final int notification_template_big_media_narrow=0x7f03001c;
+        public static final int notification_template_lines=0x7f03001d;
+        public static final int notification_template_media=0x7f03001e;
+        public static final int notification_template_part_chronometer=0x7f03001f;
+        public static final int notification_template_part_time=0x7f030020;
+        public static final int select_dialog_item_material=0x7f030021;
+        public static final int select_dialog_multichoice_material=0x7f030022;
+        public static final int select_dialog_singlechoice_material=0x7f030023;
+        public static final int support_simple_spinner_dropdown_item=0x7f030024;
     }
     public static final class raw {
-        public static final int gtm_analytics=0x7f040000;
+        public static final int gtm_analytics=0x7f060000;
     }
     public static final class string {
-        public static final int AboutScene_Lnk=0x7f05001b;
-        public static final int AboutScene_Mail=0x7f05001c;
-        public static final int AboutScene_OurSite=0x7f0504a4;
-        public static final int AboutScene_Snd=0x7f05001d;
-        public static final int AboutScene_TranslatedBy=0x7f0504a5;
-        public static final int AboutScene_Txt=0x7f0504a6;
-        public static final int AccessoryInfo=0x7f0506a0;
-        public static final int Acidic_Desc=0x7f05001e;
-        public static final int Acidic_Gender=0x7f05001f;
-        public static final int Acidic_Name=0x7f050020;
-        public static final int Acidic_Name_Objective=0x7f050021;
-        public static final int Affection_Txt=0x7f050022;
-        public static final int AirElemental_Desc=0x7f050023;
-        public static final int AirElemental_Gender=0x7f050024;
-        public static final int AirElemental_Name=0x7f050025;
-        public static final int AirElemental_Name_Objective=0x7f050026;
-        public static final int AlarmTrap_Desc=0x7f050027;
-        public static final int Albino_Desc=0x7f050028;
-        public static final int Albino_Gender=0x7f050029;
-        public static final int Albino_Name=0x7f05002a;
-        public static final int Albino_Name_Objective=0x7f05002b;
-        public static final int AlchemyPot_SelectSeed=0x7f05002c;
-        public static final int AllowStatisticsCollectionScene_Allow=0x7f05002d;
-        public static final int AllowStatisticsCollectionScene_Deny=0x7f05002e;
-        public static final int AllowStatisticsCollectionScene_Request=0x7f05002f;
-        public static final int AllowStatisticsCollectionScene_Title=0x7f050030;
-        public static final int Amok_Info=0x7f0504a7;
-        public static final int AmuletScene_Exit=0x7f050031;
-        public static final int AmuletScene_Stay=0x7f050032;
-        public static final int AmuletScene_Txt=0x7f050033;
-        public static final int Amulet_ACEnd=0x7f0504a8;
-        public static final int Amulet_Info=0x7f0504a9;
-        public static final int Amulet_Name=0x7f0504aa;
-        public static final int Ankh_Info=0x7f0504ab;
-        public static final int Ankh_Name=0x7f0504ac;
-        public static final int AntiEntropy_Txt=0x7f050034;
-        public static final int ArmorKit_ACAplly=0x7f0504ad;
-        public static final int ArmorKit_Info=0x7f0504ae;
-        public static final int ArmorKit_Name=0x7f0504af;
-        public static final int ArmorKit_SelectArmor=0x7f0504b0;
-        public static final int ArmorKit_Upgraded=0x7f0504b1;
-        public static final int Armor_EquipCursed=0x7f050035;
-        public static final int Armor_Glyph=0x7f050036;
-        public static final int Armor_Identify=0x7f050037;
-        public static final int Armor_Incompatible=0x7f050038;
-        public static final int Armor_Info1=0x7f050039;
-        public static final int Armor_Info2=0x7f05003a;
-        public static final int Armor_Info3=0x7f05003b;
-        public static final int Armor_Info4=0x7f05003c;
-        public static final int Armor_Info5=0x7f05003d;
-        public static final int Armor_Info6=0x7f05003e;
-        public static final int Armor_Info7a=0x7f05003f;
-        public static final int Armor_Info7b=0x7f050040;
-        public static final int Armor_Info8=0x7f050041;
-        public static final int Armor_ToString=0x7f050042;
-        public static final int ArmoredStatue_Desc=0x7f0504b2;
-        public static final int ArmoredStatue_Gender=0x7f0504b3;
-        public static final int ArmoredStatue_Name=0x7f0504b4;
-        public static final int ArmoredStatue_Name_Objective=0x7f0504b5;
-        public static final int Assets_Prefix=0x7f0504b6;
-        public static final int AzuterronNPC_Desc=0x7f0504b7;
-        public static final int AzuterronNPC_Gender=0x7f050043;
-        public static final int AzuterronNPC_Name=0x7f050044;
-        public static final int AzuterronNPC_Name_Objective=0x7f050045;
-        public static final int AzuterronNPC_Quest_End=0x7f0504b8;
-        public static final int AzuterronNPC_Quest_Reminder=0x7f0504b9;
-        public static final int AzuterronNPC_Quest_Start=0x7f0504ba;
-        public static final int BadgesScene_Title=0x7f050046;
-        public static final int Badges_AllBags=0x7f050047;
-        public static final int Badges_AllItems=0x7f050048;
-        public static final int Badges_AllPotions=0x7f050049;
-        public static final int Badges_AllRings=0x7f05004a;
-        public static final int Badges_AllScrolls=0x7f05004b;
-        public static final int Badges_AllWands=0x7f05004c;
-        public static final int Badges_BossSlain1=0x7f05004d;
-        public static final int Badges_BossSlain1All=0x7f05004e;
-        public static final int Badges_BossSlain2=0x7f05004f;
-        public static final int Badges_BossSlain3=0x7f050050;
-        public static final int Badges_BossSlain3All=0x7f050051;
-        public static final int Badges_BossSlain4=0x7f050052;
-        public static final int Badges_Champion=0x7f050053;
-        public static final int Badges_DeathFalling=0x7f050054;
-        public static final int Badges_DeathFire=0x7f050055;
-        public static final int Badges_DeathGas=0x7f050056;
-        public static final int Badges_DeathGlyph=0x7f050057;
-        public static final int Badges_DeathHunger=0x7f050058;
-        public static final int Badges_DeathPoison=0x7f050059;
-        public static final int Badges_FoodEaten1=0x7f05005a;
-        public static final int Badges_FoodEaten2=0x7f05005b;
-        public static final int Badges_FoodEaten3=0x7f05005c;
-        public static final int Badges_FoodEaten4=0x7f05005d;
-        public static final int Badges_GamesPlayed1=0x7f05005e;
-        public static final int Badges_GamesPlayed2=0x7f05005f;
-        public static final int Badges_GamesPlayed3=0x7f050060;
-        public static final int Badges_GamesPlayed4=0x7f050061;
-        public static final int Badges_GoldColleted1=0x7f050062;
-        public static final int Badges_GoldColleted2=0x7f050063;
-        public static final int Badges_GoldColleted3=0x7f050064;
-        public static final int Badges_GoldColleted4=0x7f050065;
-        public static final int Badges_GrimWepon=0x7f050066;
-        public static final int Badges_HappyEnd=0x7f050067;
-        public static final int Badges_Immured=0x7f050068;
-        public static final int Badges_Info1=0x7f050069;
-        public static final int Badges_Info2=0x7f05006a;
-        public static final int Badges_Info3=0x7f05006b;
-        public static final int Badges_ItemLvl1=0x7f05006c;
-        public static final int Badges_ItemLvl2=0x7f05006d;
-        public static final int Badges_ItemLvl3=0x7f05006e;
-        public static final int Badges_ItemLvl4=0x7f05006f;
-        public static final int Badges_LevelReached1=0x7f050070;
-        public static final int Badges_LevelReached2=0x7f050071;
-        public static final int Badges_LevelReached3=0x7f050072;
-        public static final int Badges_LevelReached4=0x7f050073;
-        public static final int Badges_Lich_Slain=0x7f0504bb;
-        public static final int Badges_MasteryCombo=0x7f050074;
-        public static final int Badges_MonsterSlain1=0x7f050075;
-        public static final int Badges_MonsterSlain2=0x7f050076;
-        public static final int Badges_MonsterSlain3=0x7f050077;
-        public static final int Badges_MonsterSlain4=0x7f050078;
-        public static final int Badges_Nidhoggr_Slain=0x7f05066f;
-        public static final int Badges_NightHunter=0x7f050079;
-        public static final int Badges_NoMonsterSlain=0x7f05007a;
-        public static final int Badges_Piranhas=0x7f05007b;
-        public static final int Badges_PotionsCooked1=0x7f05007c;
-        public static final int Badges_PotionsCooked2=0x7f05007d;
-        public static final int Badges_PotionsCooked3=0x7f05007e;
-        public static final int Badges_PotionsCooked4=0x7f05007f;
-        public static final int Badges_RareAll=0x7f050080;
-        public static final int Badges_RingHaggler=0x7f050081;
-        public static final int Badges_RingThorns=0x7f050082;
-        public static final int Badges_ShadowLord_Slain=0x7f0504bc;
-        public static final int Badges_SpiderQueen_Slain=0x7f0504bd;
-        public static final int Badges_StrengthAttained1=0x7f050083;
-        public static final int Badges_StrengthAttained2=0x7f050084;
-        public static final int Badges_StrengthAttained3=0x7f050085;
-        public static final int Badges_StrengthAttained4=0x7f050086;
-        public static final int Badges_Supporter=0x7f050087;
-        public static final int Badges_Victory=0x7f050088;
-        public static final int Badges_VictoryAll=0x7f050089;
-        public static final int Badges_Yasd=0x7f05008a;
-        public static final int Badges_Yog_Slain=0x7f05008b;
-        public static final int Bag_ACOpen=0x7f0504be;
-        public static final int Bandit_Desc=0x7f05008c;
-        public static final int Bandit_Gender=0x7f05008d;
-        public static final int Bandit_Name=0x7f05008e;
-        public static final int Bandit_Name_Objective=0x7f05008f;
-        public static final int Barkskin_Info=0x7f0504bf;
-        public static final int Bat_Defense=0x7f050090;
-        public static final int Bat_Desc=0x7f050091;
-        public static final int Bat_Gender=0x7f050092;
-        public static final int Bat_Name=0x7f050093;
-        public static final int Bat_Name_Objective=0x7f050094;
-        public static final int BattleAxe_Gender=0x7f050095;
-        public static final int BattleAxe_Info=0x7f050096;
-        public static final int BattleAxe_Name=0x7f050097;
-        public static final int Beer_Info=0x7f050670;
-        public static final int Beer_Info1=0x7f050671;
-        public static final int Beer_Info2=0x7f050672;
-        public static final int Beer_Info3=0x7f050673;
-        public static final int Beer_Info4=0x7f050674;
-        public static final int Beer_Message=0x7f050675;
-        public static final int Beer_Name=0x7f050676;
-        public static final int Belongings_Name=0x7f0504c0;
-        public static final int BlackSkull_Gender=0x7f0504c1;
-        public static final int BlackSkull_Info=0x7f05065c;
-        public static final int BlackSkull_Info_Awakened=0x7f05065d;
-        public static final int BlackSkull_Name=0x7f0504c2;
-        public static final int BlackSkull_Name_Awakened=0x7f05065e;
-        public static final int Blacksmith_Blood1=0x7f050098;
-        public static final int Blacksmith_Completed=0x7f050099;
-        public static final int Blacksmith_Desc=0x7f05009a;
-        public static final int Blacksmith_GetLost=0x7f05009b;
-        public static final int Blacksmith_Gold1=0x7f05009c;
-        public static final int Blacksmith_LooksBetter=0x7f05009d;
-        public static final int Blacksmith_Name=0x7f05009e;
-        public static final int Blacksmith_Txt2=0x7f05009f;
-        public static final int Blacksmith_Txt3=0x7f0500a0;
-        public static final int Blacksmith_Txt4=0x7f0500a1;
-        public static final int Blacksmith_Verify1=0x7f0500a2;
-        public static final int Blacksmith_Verify2=0x7f0500a3;
-        public static final int Blacksmith_Verify3=0x7f0500a4;
-        public static final int Blacksmith_Verify4=0x7f0500a5;
-        public static final int Blacksmith_Verify5=0x7f0500a6;
-        public static final int Blacksmith_Verify6=0x7f0500a7;
-        public static final int BlankScroll_Info=0x7f0500a8;
-        public static final int BlankScroll_Name=0x7f0500a9;
-        public static final int BlankScroll_ReallyBlank=0x7f0500aa;
-        public static final int Bleeding_Death=0x7f0500ab;
-        public static final int Bleeding_Info=0x7f0504c3;
-        public static final int Blindness_Info=0x7f0504c4;
-        public static final int BoiledBeer_Info=0x7f050677;
-        public static final int BoiledBeer_Name=0x7f050678;
-        public static final int Boomerang_Gender=0x7f0500ac;
-        public static final int Boomerang_Info=0x7f0500ad;
-        public static final int Boomerang_Name=0x7f0500ae;
-        public static final int Bounce_Txt=0x7f0500af;
-        public static final int Bow_Info1=0x7f0500b0;
-        public static final int Bowknot_Info=0x7f0504c5;
-        public static final int Bowknot_Name=0x7f0504c6;
-        public static final int Brute_Desc=0x7f0500b1;
-        public static final int Brute_Enraged=0x7f0500b2;
-        public static final int Brute_Gender=0x7f0500b3;
-        public static final int Brute_Name=0x7f0500b4;
-        public static final int Brute_Name_Objective=0x7f0500b5;
-        public static final int Brute_StaEnraged=0x7f0500b6;
-        public static final int BurningFist_Desc=0x7f0500b7;
-        public static final int BurningFist_Gender=0x7f0500b8;
-        public static final int BurningFist_Name=0x7f0500b9;
-        public static final int BurningFist_Name_Objective=0x7f0500ba;
-        public static final int Burning_Burns=0x7f0504c7;
-        public static final int Burning_Death=0x7f0504c8;
-        public static final int Burning_Info=0x7f0504c9;
-        public static final int Capotain_Info=0x7f0504ca;
-        public static final int Capotain_Name=0x7f0504cb;
-        public static final int Caves_TileDescBookshelf=0x7f0500bb;
-        public static final int Caves_TileDescDeco=0x7f0500bc;
-        public static final int Caves_TileDescEntrance=0x7f0500bd;
-        public static final int Caves_TileDescExit=0x7f0500be;
-        public static final int Caves_TileDescHighGrass=0x7f0500bf;
-        public static final int Caves_TileGrass=0x7f0500c0;
-        public static final int Caves_TileHighGrass=0x7f0500c1;
-        public static final int Caves_TileWater=0x7f0500c2;
-        public static final int ChaosArmor_Info=0x7f0504cc;
-        public static final int ChaosArmor_Name=0x7f0504cd;
-        public static final int ChaosBow_Gender=0x7f0504ce;
-        public static final int ChaosBow_Info=0x7f0504cf;
-        public static final int ChaosBow_Name=0x7f0504d0;
-        public static final int ChaosCrystal_ArmorFused=0x7f0504d1;
-        public static final int ChaosCrystal_BowFused=0x7f0500c3;
-        public static final int ChaosCrystal_Fuse=0x7f0500c4;
-        public static final int ChaosCrystal_Info=0x7f0500c5;
-        public static final int ChaosCrystal_Info_1=0x7f0500c6;
-        public static final int ChaosCrystal_Info_2=0x7f0500c7;
-        public static final int ChaosCrystal_Name=0x7f0500c8;
-        public static final int ChaosCrystal_Name_1=0x7f0500c9;
-        public static final int ChaosCrystal_Name_2=0x7f0500ca;
-        public static final int ChaosCrystal_Prompt=0x7f0500cb;
-        public static final int ChaosCrystal_ScrollFused=0x7f0500cc;
-        public static final int ChaosCrystal_SelectForFuse=0x7f0500cd;
-        public static final int ChaosCrystal_StaffFused=0x7f0500ce;
-        public static final int ChaosCrystal_SwordFused=0x7f0500cf;
-        public static final int ChaosCrystal_Use=0x7f0500d0;
-        public static final int ChaosStaff_Gender=0x7f0504d2;
-        public static final int ChaosStaff_Info=0x7f0504d3;
-        public static final int ChaosStaff_Name=0x7f0504d4;
-        public static final int ChaosSword_Gender=0x7f0504d5;
-        public static final int ChaosSword_Info=0x7f0504d6;
-        public static final int ChaosSword_Name=0x7f0504d7;
-        public static final int Char_Name=0x7f0504d8;
-        public static final int Char_Name_Objective=0x7f0504d9;
-        public static final int Char_OutParalysis=0x7f0500d1;
-        public static final int Char_SmbMissed=0x7f0500d2;
-        public static final int Char_StaAmok=0x7f0500d3;
-        public static final int Char_StaBleeding=0x7f0500d4;
-        public static final int Char_StaCrippled=0x7f0500d5;
-        public static final int Char_StaDizzy=0x7f0500d6;
-        public static final int Char_StaFrightened=0x7f0500d7;
-        public static final int Char_StaInvisible=0x7f0500d8;
-        public static final int Char_StaMind=0x7f0500d9;
-        public static final int Char_StaParalysed=0x7f0500da;
-        public static final int Char_StaPoisoned=0x7f0500db;
-        public static final int Char_StaRooted=0x7f0500dc;
-        public static final int Char_StaSlowed=0x7f0500dd;
-        public static final int Char_StaVision=0x7f0500de;
-        public static final int Char_YouMissed=0x7f0500df;
-        public static final int ChargrilledMeat_Info=0x7f0500e0;
-        public static final int ChargrilledMeat_Name=0x7f0500e1;
-        public static final int Charm_Info=0x7f0504da;
-        public static final int Chasm_Chasm=0x7f0500e2;
-        public static final int Chasm_Info=0x7f0500e3;
-        public static final int Chasm_Jump=0x7f0500e4;
-        public static final int Chasm_No=0x7f0500e5;
-        public static final int Chasm_Yes=0x7f0500e6;
-        public static final int City_TileDescBookshelf=0x7f0500e7;
-        public static final int City_TileDescDeco=0x7f0500e8;
-        public static final int City_TileDescEmptySP=0x7f0500e9;
-        public static final int City_TileDescEntrance=0x7f0500ea;
-        public static final int City_TileDescExit=0x7f0500eb;
-        public static final int City_TileDescStatue=0x7f0500ec;
-        public static final int City_TileHighGrass=0x7f0500ed;
-        public static final int City_TileWater=0x7f0500ee;
-        public static final int ClassArmor_Desc=0x7f0500ef;
-        public static final int ClassArmor_LowHealt=0x7f0500f0;
-        public static final int ClassArmor_NotEquipped=0x7f0500f1;
-        public static final int Claymore_Gender=0x7f0500f2;
-        public static final int Claymore_Info=0x7f0504db;
-        public static final int Claymore_Name=0x7f0504dc;
-        public static final int ClericArmor_ACSpecial=0x7f050679;
-        public static final int ClericArmor_Desc=0x7f05067a;
-        public static final int ClericArmor_Name=0x7f05067b;
-        public static final int ClericArmor_NotCleric=0x7f05067c;
-        public static final int ClothArmor_Desc=0x7f0500f3;
-        public static final int ClothArmor_Name=0x7f0500f4;
-        public static final int Codex_ACRead=0x7f0500f5;
-        public static final int Codex_Blinded=0x7f0500f6;
-        public static final int Codex_Info=0x7f0500f7;
-        public static final int Codex_Name=0x7f0500f8;
-        public static final int Combo_Combo=0x7f0504dd;
-        public static final int Combo_Info=0x7f0504de;
-        public static final int CommonArrow_Gender=0x7f0500f9;
-        public static final int CommonArrow_Info=0x7f0500fa;
-        public static final int CommonArrow_Name=0x7f0500fb;
-        public static final int CompositeCrossbow_Gender=0x7f0504df;
-        public static final int CompositeCrossbow_Info=0x7f0504e0;
-        public static final int CompositeCrossbow_Name=0x7f0504e1;
-        public static final int CompoundBow_Gender=0x7f0500fc;
-        public static final int CompoundBow_Info=0x7f0500fd;
-        public static final int CompoundBow_Name=0x7f0500fe;
-        public static final int ConfusionGas_Info=0x7f0504e2;
-        public static final int CorpseDust_Buff=0x7f0504e3;
-        public static final int CorpseDust_Info=0x7f0504e4;
-        public static final int CorpseDust_Info2=0x7f0504e5;
-        public static final int CorpseDust_Name=0x7f0504e6;
-        public static final int Crab_Defense=0x7f0500ff;
-        public static final int Crab_Desc=0x7f050100;
-        public static final int Crab_Gender=0x7f050101;
-        public static final int Crab_Name=0x7f050102;
-        public static final int Crab_Name_Objective=0x7f050103;
-        public static final int Cripple_Info=0x7f0504e7;
-        public static final int Crystal_Desc=0x7f050104;
-        public static final int Crystal_Gender=0x7f050105;
-        public static final int Crystal_Name=0x7f050106;
-        public static final int Crystal_Name_Objective=0x7f050107;
-        public static final int CurareDart_Gender=0x7f050108;
-        public static final int CurareDart_Info=0x7f050109;
-        public static final int CurareDart_Name=0x7f05010a;
-        public static final int DM300_Desc=0x7f05010b;
-        public static final int DM300_Gender=0x7f05010c;
-        public static final int DM300_Info1=0x7f05010d;
-        public static final int DM300_Info2=0x7f05010e;
-        public static final int DM300_Info3=0x7f05010f;
-        public static final int DM300_Name=0x7f050110;
-        public static final int DM300_Name_Objective=0x7f050111;
-        public static final int Dagger_Gender=0x7f050112;
-        public static final int Dagger_Info=0x7f050113;
-        public static final int Dagger_Name=0x7f050114;
-        public static final int DarkGold_Info=0x7f0504e8;
-        public static final int DarkGold_Name=0x7f0504e9;
-        public static final int DarkVeil_Buff=0x7f050115;
-        public static final int Darkness_Info=0x7f050116;
-        public static final int Dart_Gender=0x7f050117;
-        public static final int Dart_Info=0x7f050118;
-        public static final int Dart_Name=0x7f050119;
-        public static final int DeathKnight_Desc=0x7f05065f;
-        public static final int DeathKnight_Gender=0x7f0504ea;
-        public static final int DeathKnight_Name=0x7f0504eb;
-        public static final int DeathKnight_Name_Objective=0x7f0504ec;
-        public static final int DeferedDamage_Defered_Txt=0x7f05011a;
-        public static final int DeferedDamage_Killed_Txt=0x7f05011b;
-        public static final int DewVial_ACDRINK=0x7f0504ed;
-        public static final int DewVial_AutoDrink=0x7f0504ee;
-        public static final int DewVial_Collected=0x7f0504ef;
-        public static final int DewVial_Empty=0x7f0504f0;
-        public static final int DewVial_Full=0x7f0504f1;
-        public static final int DewVial_Info=0x7f0504f2;
-        public static final int DewVial_Name=0x7f0504f3;
-        public static final int Dewdrop_Info=0x7f0504f4;
-        public static final int Dewdrop_Name=0x7f0504f5;
-        public static final int Displacement_Txt=0x7f05011c;
-        public static final int DonateButton_pleaseDonate=0x7f05011d;
-        public static final int DonateButton_thanks=0x7f05011e;
-        public static final int Dragon_Desc=0x7f0506a1;
-        public static final int Dragon_Gender=0x7f0506a2;
-        public static final int Dragon_Info1=0x7f0506a3;
-        public static final int Dragon_Info2=0x7f0506a4;
-        public static final int Dragon_Info3=0x7f0506a5;
-        public static final int Dragon_Name=0x7f0506a6;
-        public static final int Dragon_Name_Objective=0x7f0506a7;
-        public static final int Dragon_Pits_TileDescBookshelf=0x7f0506a8;
-        public static final int Dragon_Pits_TileDescDeco=0x7f0506a9;
-        public static final int Dragon_Pits_TileDescEntrance=0x7f0506aa;
-        public static final int Dragon_Pits_TileDescExit=0x7f0506ab;
-        public static final int Dragon_Pits_TileDescStatue=0x7f0506ac;
-        public static final int Dragon_Pits_TileDescWater=0x7f0506ad;
-        public static final int Dragon_Pits_TileGrass=0x7f0506ae;
-        public static final int Dragon_Pits_TileHighGrass=0x7f0506af;
-        public static final int Dragon_Pits_TileStatue=0x7f0506b0;
-        public static final int Dragon_Pits_TileWater=0x7f0506b1;
-        public static final int DreadKnight_Desc=0x7f050660;
-        public static final int DreadKnight_Gender=0x7f0504f6;
-        public static final int DreadKnight_Name=0x7f050661;
-        public static final int DreadKnight_Name_Objective=0x7f050662;
-        public static final int Dreamweed_Desc=0x7f05011f;
-        public static final int Dreamweed_Name=0x7f050120;
-        public static final int DriedRose_Buff=0x7f0504f7;
-        public static final int DriedRose_CursedBuff=0x7f0504f8;
-        public static final int DriedRose_Info=0x7f0504f9;
-        public static final int DriedRose_Info2=0x7f0504fa;
-        public static final int DriedRose_Name=0x7f050121;
-        public static final int Drink_ACDrink=0x7f05067d;
-        public static final int Drink_Message=0x7f05067e;
-        public static final int Dungeon_DeadEnd=0x7f050122;
-        public static final int Dungeon_NoTips=0x7f050123;
-        public static final int DwarfToken_Info=0x7f0504fb;
-        public static final int DwarfToken_Name=0x7f0504fc;
-        public static final int EarthElemental_Desc=0x7f050124;
-        public static final int EarthElemental_Gender=0x7f050125;
-        public static final int EarthElemental_Name=0x7f050126;
-        public static final int EarthElemental_Name_Objective=0x7f050127;
-        public static final int Earthroot_Buff=0x7f050128;
-        public static final int Earthroot_Desc=0x7f050129;
-        public static final int Earthroot_Name=0x7f05012a;
-        public static final int Elemental_Desc=0x7f05012b;
-        public static final int Elemental_Gender=0x7f05012c;
-        public static final int Elemental_Name=0x7f05012d;
-        public static final int Elemental_Name_Objective=0x7f05012e;
-        public static final int ElfArmor_ACSpecial=0x7f05012f;
-        public static final int ElfArmor_Desc=0x7f050130;
-        public static final int ElfArmor_Name=0x7f050131;
-        public static final int ElfArmor_NotElf=0x7f050132;
-        public static final int EnslavedSoul_Desc=0x7f050663;
-        public static final int EnslavedSoul_Gender=0x7f0504fd;
-        public static final int EnslavedSoul_Name=0x7f0504fe;
-        public static final int EnslavedSoul_Name_Objective=0x7f0504ff;
-        public static final int Entanglement_Txt=0x7f050133;
-        public static final int EquipableItem_ACEquip=0x7f050500;
-        public static final int EquipableItem_ACUnequip=0x7f050501;
-        public static final int EquipableItem_Unequip=0x7f050502;
-        public static final int ExplodingSkull_Desc=0x7f050664;
-        public static final int ExplodingSkull_Gender=0x7f050503;
-        public static final int ExplodingSkull_Name=0x7f050504;
-        public static final int ExplodingSkull_Name_Objective=0x7f050505;
-        public static final int Eye_Desc=0x7f050134;
-        public static final int Eye_Gender=0x7f050135;
-        public static final int Eye_Kill=0x7f050136;
-        public static final int Eye_Name=0x7f050137;
-        public static final int Eye_Name_Objective=0x7f050138;
-        public static final int Fadeleaf_Desc=0x7f050139;
-        public static final int Fadeleaf_Name=0x7f05013a;
-        public static final int FakeLastLevel2_TileDescStatue=0x7f05013b;
-        public static final int FakeLastLevel2_TileDescWater=0x7f05013c;
-        public static final int FakeLastLevel2_TileGrass=0x7f05013d;
-        public static final int FakeLastLevel2_TileHighGrass=0x7f05013e;
-        public static final int FakeLastLevel2_TileStatue=0x7f05013f;
-        public static final int FakeLastLevel2_TileWater=0x7f050140;
-        public static final int FetidRat_Desc=0x7f050141;
-        public static final int FetidRat_Gender=0x7f050142;
-        public static final int FetidRat_Name=0x7f050143;
-        public static final int FetidRat_Name_Objective=0x7f050144;
-        public static final int Fez_Info=0x7f050506;
-        public static final int Fez_Name=0x7f050507;
-        public static final int FireArrow_Gender=0x7f050145;
-        public static final int FireArrow_Info=0x7f050146;
-        public static final int FireArrow_Name=0x7f050147;
-        public static final int FireQuiver_Gender=0x7f050148;
-        public static final int FireQuiver_Info=0x7f050149;
-        public static final int FireQuiver_Name=0x7f05014a;
-        public static final int Fire_Info=0x7f05014b;
-        public static final int Firebloom_Desc=0x7f05014c;
-        public static final int Firebloom_Name=0x7f05014d;
-        public static final int Foliage_Info=0x7f050508;
-        public static final int Food_ACEat=0x7f05014e;
-        public static final int Food_Message=0x7f05014f;
-        public static final int FrostArrow_Gender=0x7f050150;
-        public static final int FrostArrow_Info=0x7f050151;
-        public static final int FrostArrow_Name=0x7f050152;
-        public static final int Frost_Info=0x7f050509;
-        public static final int Frost_Shatter=0x7f05050a;
-        public static final int FrozenBeer_Info=0x7f05067f;
-        public static final int FrozenBeer_Info1=0x7f050680;
-        public static final int FrozenBeer_Info2=0x7f050681;
-        public static final int FrozenBeer_Info3=0x7f050682;
-        public static final int FrozenBeer_Info4=0x7f050683;
-        public static final int FrozenBeer_Name=0x7f050684;
-        public static final int FrozenCarpaccio_Info=0x7f050153;
-        public static final int FrozenCarpaccio_Info1=0x7f050154;
-        public static final int FrozenCarpaccio_Info2=0x7f050155;
-        public static final int FrozenCarpaccio_Info3=0x7f050156;
-        public static final int FrozenCarpaccio_Info4=0x7f050157;
-        public static final int FrozenCarpaccio_Name=0x7f050158;
-        public static final int Fury_Info=0x7f05050b;
-        public static final int GameScene_Chasm=0x7f050159;
-        public static final int GameScene_Grass=0x7f05015a;
-        public static final int GameScene_NightMode=0x7f05015b;
-        public static final int GameScene_Secrets=0x7f05015c;
-        public static final int GameScene_Water=0x7f05015d;
-        public static final int GameScene_Welcome=0x7f05015e;
-        public static final int GameScene_WelcomeBack=0x7f05015f;
-        public static final int Gargoyle_Defense=0x7f0506b2;
-        public static final int Gargoyle_Desc=0x7f0506b3;
-        public static final int Gargoyle_Gender=0x7f0506b4;
-        public static final int Gargoyle_Name=0x7f0506b5;
-        public static final int Gargoyle_Name_Objective=0x7f0506b6;
-        public static final int GasesImmunity_Info=0x7f05050c;
-        public static final int Ghost_Defense=0x7f050160;
-        public static final int Ghost_Desc=0x7f050161;
-        public static final int Ghost_Name=0x7f050162;
-        public static final int Ghost_Rat1=0x7f050163;
-        public static final int Ghost_Rat2=0x7f050164;
-        public static final int Ghost_Rose1=0x7f050165;
-        public static final int Ghost_Rose2=0x7f050166;
-        public static final int Glaive_Gender=0x7f050167;
-        public static final int Glaive_Info=0x7f050168;
-        public static final int Glaive_Name=0x7f050169;
-        public static final int Gnoll_Desc=0x7f05016a;
-        public static final int Gnoll_Gender=0x7f05016b;
-        public static final int Gnoll_Name=0x7f05016c;
-        public static final int Gnoll_Name_Objective=0x7f05016d;
-        public static final int Goblin_Defense=0x7f0506b7;
-        public static final int Goblin_Desc=0x7f0506b8;
-        public static final int Goblin_Gender=0x7f0506b9;
-        public static final int Goblin_Name=0x7f0506ba;
-        public static final int Goblin_Name_Objective=0x7f0506bb;
-        public static final int Gold_Collect=0x7f05050d;
-        public static final int Gold_Info=0x7f05050e;
-        public static final int Gold_Info1=0x7f05050f;
-        public static final int Gold_Name=0x7f050510;
-        public static final int GoldenKey_Info=0x7f050511;
-        public static final int GoldenKey_Name=0x7f05016e;
-        public static final int GoldenStatue_Desc=0x7f050512;
-        public static final int GoldenStatue_Gender=0x7f050513;
-        public static final int GoldenStatue_Name=0x7f050514;
-        public static final int GoldenStatue_Name_Objective=0x7f050515;
-        public static final int GoldenSword_Gender=0x7f050516;
-        public static final int GoldenSword_Info=0x7f050517;
-        public static final int GoldenSword_Name=0x7f050518;
-        public static final int Golem_Defense=0x7f05016f;
-        public static final int Golem_Desc=0x7f050170;
-        public static final int Golem_Gender=0x7f050171;
-        public static final int Golem_Name=0x7f050172;
-        public static final int Golem_Name_Objective=0x7f050173;
-        public static final int Goo_Desc=0x7f050174;
-        public static final int Goo_Gender=0x7f050175;
-        public static final int Goo_Info1=0x7f050176;
-        public static final int Goo_Info2=0x7f050177;
-        public static final int Goo_Info3=0x7f050178;
-        public static final int Goo_Name=0x7f050179;
-        public static final int Goo_Name_Objective=0x7f05017a;
-        public static final int Goo_StaInfo1=0x7f05017b;
-        public static final int GothicArmor_Info=0x7f050519;
-        public static final int GothicArmor_Name=0x7f05051a;
-        public static final int Guts_TileDescBookshelf=0x7f05051b;
-        public static final int Guts_TileDescDeco=0x7f05051c;
-        public static final int Guts_TileDescEntrance=0x7f05051d;
-        public static final int Guts_TileDescExit=0x7f05051e;
-        public static final int Guts_TileGrass=0x7f05051f;
-        public static final int Guts_TileHighGrass=0x7f050520;
-        public static final int Guts_TileWater=0x7f050521;
-        public static final int Halberd_Gender=0x7f050522;
-        public static final int Halberd_Info=0x7f050523;
-        public static final int Halberd_Name=0x7f050524;
-        public static final int Halls_TileDescBookshelf=0x7f05017c;
-        public static final int Halls_TileDescStatue=0x7f05017d;
-        public static final int Halls_TileDescWater=0x7f05017e;
-        public static final int Halls_TileGrass=0x7f05017f;
-        public static final int Halls_TileHighGrass=0x7f050180;
-        public static final int Halls_TileStatue=0x7f050181;
-        public static final int Halls_TileWater=0x7f050182;
-        public static final int Heap_Mimic=0x7f050525;
-        public static final int HeartOfDarkness_Gender=0x7f050685;
-        public static final int HeartOfDarkness_Info=0x7f050526;
-        public static final int HeartOfDarkness_Name=0x7f050183;
-        public static final int Hedgehog_Desc=0x7f050184;
-        public static final int Hedgehog_ImLate=0x7f050185;
-        public static final int Hedgehog_Info1=0x7f050186;
-        public static final int Hedgehog_Info2=0x7f050187;
-        public static final int Hedgehog_Info3=0x7f050188;
-        public static final int Hedgehog_Info4=0x7f050189;
-        public static final int Hedgehog_Name=0x7f05018a;
-        public static final int HeroClass_Cleric=0x7f050686;
-        public static final int HeroClass_Elf=0x7f05018b;
-        public static final int HeroClass_Hun=0x7f05018c;
-        public static final int HeroClass_Mag=0x7f05018d;
-        public static final int HeroClass_Rog=0x7f05018e;
-        public static final int HeroClass_War=0x7f05018f;
-        public static final int HeroSubClass_DescArcPriest=0x7f050687;
-        public static final int HeroSubClass_DescAssa=0x7f050190;
-        public static final int HeroSubClass_DescBatM=0x7f050191;
-        public static final int HeroSubClass_DescBers=0x7f050192;
-        public static final int HeroSubClass_DescFreR=0x7f050193;
-        public static final int HeroSubClass_DescGlad=0x7f050194;
-        public static final int HeroSubClass_DescPaladin=0x7f050688;
-        public static final int HeroSubClass_DescScout=0x7f050195;
-        public static final int HeroSubClass_DescShaman=0x7f050196;
-        public static final int HeroSubClass_DescSnip=0x7f050197;
-        public static final int HeroSubClass_DescWarL=0x7f050198;
-        public static final int HeroSubClass_DescWard=0x7f050199;
-        public static final int HeroSubClass_NameArcPriest=0x7f050689;
-        public static final int HeroSubClass_NameAssa=0x7f05019a;
-        public static final int HeroSubClass_NameBatM=0x7f05019b;
-        public static final int HeroSubClass_NameBers=0x7f05019c;
-        public static final int HeroSubClass_NameFreR=0x7f05019d;
-        public static final int HeroSubClass_NameGlad=0x7f05019e;
-        public static final int HeroSubClass_NamePaladin=0x7f05068a;
-        public static final int HeroSubClass_NameScout=0x7f05019f;
-        public static final int HeroSubClass_NameShaman=0x7f0501a0;
-        public static final int HeroSubClass_NameSnip=0x7f0501a1;
-        public static final int HeroSubClass_NameWarL=0x7f0501a2;
-        public static final int HeroSubClass_NameWard=0x7f0501a3;
-        public static final int Hero_Leave=0x7f0501a4;
-        public static final int Hero_LevelUp=0x7f0501a5;
-        public static final int Hero_LockedChest=0x7f0501a6;
-        public static final int Hero_LockedDoor=0x7f0501a7;
-        public static final int Hero_Name=0x7f0501a8;
-        public static final int Hero_Name_Objective=0x7f0501a9;
-        public static final int Hero_NewLevel=0x7f0501aa;
-        public static final int Hero_NoticedSmth=0x7f0501ab;
-        public static final int Hero_Search=0x7f0501ac;
-        public static final int Hero_SomethingElse=0x7f0501ad;
-        public static final int Hero_StaBleeding=0x7f0501ae;
-        public static final int Hero_StaBlindness=0x7f0501af;
-        public static final int Hero_StaBurning=0x7f0501b0;
-        public static final int Hero_StaCharm=0x7f0501b1;
-        public static final int Hero_StaCripple=0x7f0501b2;
-        public static final int Hero_StaFurious=0x7f0501b3;
-        public static final int Hero_StaFury=0x7f0501b4;
-        public static final int Hero_StaOoze=0x7f0501b5;
-        public static final int Hero_StaParalysis=0x7f0501b6;
-        public static final int Hero_StaPoison=0x7f0501b7;
-        public static final int Hero_StaRoots=0x7f0501b8;
-        public static final int Hero_StaVertigo=0x7f0501b9;
-        public static final int Hero_StaWeakness=0x7f0501ba;
-        public static final int Hero_Wait=0x7f0501bb;
-        public static final int Hero_YouNowHave=0x7f0501bc;
-        public static final int Hunger_Death=0x7f0501bd;
-        public static final int Hunger_Info1=0x7f050527;
-        public static final int Hunger_Info2=0x7f050528;
-        public static final int HuntressArmor_ACSpecial=0x7f0501be;
-        public static final int HuntressArmor_Desc=0x7f0501bf;
-        public static final int HuntressArmor_Name=0x7f0501c0;
-        public static final int HuntressArmor_NoEnemies=0x7f0501c1;
-        public static final int HuntressArmor_NotHuntress=0x7f0501c2;
-        public static final int Icecap_Desc=0x7f0501c3;
-        public static final int Icecap_Name=0x7f0501c4;
-        public static final int ImpShopkeeper_Desc=0x7f0501c5;
-        public static final int ImpShopkeeper_Greetings=0x7f0501c6;
-        public static final int ImpShopkeeper_Name=0x7f0501c7;
-        public static final int Imp_Cya=0x7f0501c8;
-        public static final int Imp_Defense=0x7f0501c9;
-        public static final int Imp_Desc=0x7f0501ca;
-        public static final int Imp_Golems1=0x7f0501cb;
-        public static final int Imp_Golems2=0x7f0501cc;
-        public static final int Imp_Hey=0x7f0501cd;
-        public static final int Imp_Monks1=0x7f0501ce;
-        public static final int Imp_Monks2=0x7f0501cf;
-        public static final int Imp_Name=0x7f0501d0;
-        public static final int IncendiaryDart_Gender=0x7f0501d1;
-        public static final int IncendiaryDart_Info=0x7f0501d2;
-        public static final int IncendiaryDart_Name=0x7f0501d3;
-        public static final int InterLevelScene_Ascending=0x7f0501d4;
-        public static final int InterLevelScene_Descending=0x7f0501d5;
-        public static final int InterLevelScene_ErrorGeneric=0x7f0501d6;
-        public static final int InterLevelScene_Falling=0x7f0501d7;
-        public static final int InterLevelScene_FileNotFound=0x7f0501d8;
-        public static final int InterLevelScene_Loading=0x7f0501d9;
-        public static final int InterLevelScene_Resurrecting=0x7f0501da;
-        public static final int InterLevelScene_Returning=0x7f0501db;
-        public static final int IntroScene_Txt=0x7f050529;
-        public static final int InventoryScroll_No=0x7f0501dc;
-        public static final int InventoryScroll_Title=0x7f0501dd;
-        public static final int InventoryScroll_Warning=0x7f0501de;
-        public static final int InventoryScroll_Yes=0x7f0501df;
-        public static final int Invisibility_Info=0x7f0501e0;
-        public static final int IronKey_FromDepth=0x7f05052a;
-        public static final int IronKey_Info=0x7f05052b;
-        public static final int IronKey_Name=0x7f0501e1;
-        public static final int ItemSprite_Info1=0x7f05052c;
-        public static final int Item_ACDrop=0x7f05052d;
-        public static final int Item_ACThrow=0x7f0501e2;
-        public static final int Item_DirThrow=0x7f05052e;
-        public static final int Item_Info=0x7f05052f;
-        public static final int Item_Name=0x7f050530;
-        public static final int Item_PackFull=0x7f050531;
-        public static final int JarOfSouls_Desc=0x7f050665;
-        public static final int JarOfSouls_Gender=0x7f050532;
-        public static final int JarOfSouls_Name=0x7f050533;
-        public static final int JarOfSouls_Name_Objective=0x7f050534;
-        public static final int Javelin_Gender=0x7f0501e3;
-        public static final int Javelin_Info=0x7f0501e4;
-        public static final int Javelin_Name=0x7f0501e5;
-        public static final int Journal_Alchemy=0x7f0501e6;
-        public static final int Journal_Azuterron=0x7f0501e7;
-        public static final int Journal_Garden=0x7f0501e8;
-        public static final int Journal_Ghost=0x7f0501e9;
-        public static final int Journal_Imp=0x7f0501ea;
-        public static final int Journal_Statue=0x7f0501eb;
-        public static final int Journal_Troll=0x7f0501ec;
-        public static final int Journal_Wandmaker=0x7f0501ed;
-        public static final int Journal_WellAwareness=0x7f0501ee;
-        public static final int Journal_WellHealt=0x7f0501ef;
-        public static final int Journal_WellTransmut=0x7f0501f0;
-        public static final int Keyring_Info=0x7f050535;
-        public static final int Keyring_Name=0x7f050536;
-        public static final int KindOfWeapon_EquipCursed=0x7f050537;
-        public static final int King_Defense=0x7f0501f1;
-        public static final int King_Desc=0x7f0501f2;
-        public static final int King_Gender=0x7f0501f3;
-        public static final int King_Info1=0x7f0501f4;
-        public static final int King_Info2=0x7f0501f5;
-        public static final int King_Info3=0x7f0501f6;
-        public static final int King_Name=0x7f0501f7;
-        public static final int King_Name_Objective=0x7f0501f8;
-        public static final int Knuckles_Gender=0x7f0501f9;
-        public static final int Knuckles_Info=0x7f0501fa;
-        public static final int Knuckles_Name=0x7f0501fb;
-        public static final int Kusarigama_Gender=0x7f050538;
-        public static final int Kusarigama_Info=0x7f050539;
-        public static final int Kusarigama_Name=0x7f05053a;
-        public static final int Kusarigama_Pull=0x7f05053b;
-        public static final int Larva_Desc=0x7f0501fc;
-        public static final int Larva_Gender=0x7f0501fd;
-        public static final int Larva_Name=0x7f0501fe;
-        public static final int Larva_Name_Objective=0x7f0501ff;
-        public static final int LastShopLevel_TileDescDeco=0x7f050200;
-        public static final int LastShopLevel_TileDescEmptySP=0x7f050201;
-        public static final int LastShopLevel_TileDescEntrance=0x7f050202;
-        public static final int LastShopLevel_TileDescExit=0x7f050203;
-        public static final int LastShopLevel_TileHighGrass=0x7f050204;
-        public static final int LastShopLevel_TileWater=0x7f050205;
-        public static final int LeatherArmor_Desc=0x7f050206;
-        public static final int LeatherArmor_Name=0x7f050207;
-        public static final int Level_HiddenPlate=0x7f050208;
-        public static final int Level_TileAlarmTrap=0x7f050209;
-        public static final int Level_TileAlchemy=0x7f05020a;
-        public static final int Level_TileBarricade=0x7f05020b;
-        public static final int Level_TileBookshelf=0x7f05020c;
-        public static final int Level_TileChasm=0x7f05020d;
-        public static final int Level_TileClosedDoor=0x7f05020e;
-        public static final int Level_TileDefault=0x7f05020f;
-        public static final int Level_TileDescAlchemy=0x7f050210;
-        public static final int Level_TileDescBarricade=0x7f050211;
-        public static final int Level_TileDescChasm=0x7f050212;
-        public static final int Level_TileDescEmbers=0x7f050213;
-        public static final int Level_TileDescEmptyWell=0x7f050214;
-        public static final int Level_TileDescEntrance=0x7f050215;
-        public static final int Level_TileDescExit=0x7f050216;
-        public static final int Level_TileDescHighGrass=0x7f050217;
-        public static final int Level_TileDescInactiveTrap=0x7f050218;
-        public static final int Level_TileDescLockedDoor=0x7f050219;
-        public static final int Level_TileDescLockedExit=0x7f05021a;
-        public static final int Level_TileDescSign=0x7f05021b;
-        public static final int Level_TileDescStatue=0x7f05021c;
-        public static final int Level_TileDescTrap=0x7f05021d;
-        public static final int Level_TileDescWater=0x7f05021e;
-        public static final int Level_TileEmbers=0x7f05021f;
-        public static final int Level_TileEmptyWell=0x7f050220;
-        public static final int Level_TileEntrance=0x7f050221;
-        public static final int Level_TileExit=0x7f050222;
-        public static final int Level_TileFireTrap=0x7f050223;
-        public static final int Level_TileFloor=0x7f050224;
-        public static final int Level_TileGrass=0x7f050225;
-        public static final int Level_TileGrippingTrap=0x7f050226;
-        public static final int Level_TileHighGrass=0x7f050227;
-        public static final int Level_TileInactiveTrap=0x7f050228;
-        public static final int Level_TileLightningTrap=0x7f050229;
-        public static final int Level_TileLockedDoor=0x7f05022a;
-        public static final int Level_TileLockedExit=0x7f05022b;
-        public static final int Level_TileOpenDoor=0x7f05022c;
-        public static final int Level_TileParalyticTrap=0x7f05022d;
-        public static final int Level_TilePedestal=0x7f05022e;
-        public static final int Level_TilePoisonTrap=0x7f05022f;
-        public static final int Level_TileSign=0x7f050230;
-        public static final int Level_TileStatue=0x7f050231;
-        public static final int Level_TileSummoningTrap=0x7f050232;
-        public static final int Level_TileToxicTrap=0x7f050233;
-        public static final int Level_TileUnlockedExit=0x7f050234;
-        public static final int Level_TileWall=0x7f050235;
-        public static final int Level_TileWater=0x7f050236;
-        public static final int Level_TileWell=0x7f050237;
-        public static final int Levitation_Info=0x7f05053c;
-        public static final int Lich_Desc=0x7f050666;
-        public static final int Lich_Gender=0x7f05053d;
-        public static final int Lich_Name=0x7f05053e;
-        public static final int Lich_Name_Objective=0x7f05053f;
-        public static final int Light_Info=0x7f050540;
-        public static final int LightningTrap_Desc=0x7f050238;
-        public static final int LightningTrap_Name=0x7f050239;
-        public static final int LloidsBeacon_ACReturn=0x7f050541;
-        public static final int LloidsBeacon_ACSet=0x7f050542;
-        public static final int LloidsBeacon_Creatures=0x7f050543;
-        public static final int LloidsBeacon_Info=0x7f050544;
-        public static final int LloidsBeacon_Name=0x7f050545;
-        public static final int LloidsBeacon_Preventing=0x7f050546;
-        public static final int LloidsBeacon_Return=0x7f050547;
-        public static final int LloidsBeacon_Set=0x7f050548;
-        public static final int Longsword_Gender=0x7f05023a;
-        public static final int Longsword_Info=0x7f05023b;
-        public static final int Longsword_Name=0x7f05023c;
-        public static final int Mace_Gender=0x7f05023d;
-        public static final int Mace_Info=0x7f05023e;
-        public static final int Mace_Name=0x7f05023f;
-        public static final int MageArmor_ACSpecial=0x7f050240;
-        public static final int MageArmor_Desc=0x7f050241;
-        public static final int MageArmor_Name=0x7f050242;
-        public static final int MageArmor_NotMage=0x7f050243;
-        public static final int MailArmor_Desc=0x7f050244;
-        public static final int MailArmor_Name=0x7f050245;
-        public static final int MeleeWeapon_Info1a=0x7f050246;
-        public static final int MeleeWeapon_Info1b=0x7f050247;
-        public static final int MeleeWeapon_Info1c=0x7f050248;
-        public static final int MeleeWeapon_Info1d=0x7f050249;
-        public static final int MeleeWeapon_Info2a=0x7f05024a;
-        public static final int MeleeWeapon_Info2b=0x7f05024b;
-        public static final int MeleeWeapon_Info2c=0x7f05024c;
-        public static final int MeleeWeapon_Info3a=0x7f05024d;
-        public static final int MeleeWeapon_Info3b=0x7f05024e;
-        public static final int MeleeWeapon_Info3c=0x7f05024f;
-        public static final int MeleeWeapon_Info3d=0x7f050250;
-        public static final int MeleeWeapon_Info3e=0x7f050251;
-        public static final int MeleeWeapon_Info3f=0x7f050252;
-        public static final int MeleeWeapon_Info3g=0x7f050253;
-        public static final int MeleeWeapon_Info4a=0x7f050254;
-        public static final int MeleeWeapon_Info4b=0x7f050255;
-        public static final int MeleeWeapon_Info5=0x7f050256;
-        public static final int MeleeWeapon_Info6a=0x7f050257;
-        public static final int MeleeWeapon_Info6b=0x7f050258;
-        public static final int MeleeWeapon_Info7a=0x7f050259;
-        public static final int MeleeWeapon_Info7b=0x7f05025a;
-        public static final int MeleeWeapon_Info7c=0x7f05025b;
-        public static final int Metabolism_Txt=0x7f05025c;
-        public static final int MimicAmulet_Desc=0x7f050549;
-        public static final int MimicAmulet_Gender=0x7f05025d;
-        public static final int MimicAmulet_Name=0x7f05025e;
-        public static final int MimicAmulet_Name_Objective=0x7f05025f;
-        public static final int MimicPie_Desc=0x7f050260;
-        public static final int MimicPie_Gender=0x7f050261;
-        public static final int MimicPie_Name=0x7f050262;
-        public static final int MimicPie_Name_Objective=0x7f050263;
-        public static final int Mimic_Desc=0x7f050264;
-        public static final int Mimic_Gender=0x7f050265;
-        public static final int Mimic_Name=0x7f050266;
-        public static final int Mimic_Name_Objective=0x7f050267;
-        public static final int MindVision_Info=0x7f05054a;
-        public static final int MirrorImage_Desc=0x7f050268;
-        public static final int MirrorImage_Gender=0x7f050269;
-        public static final int MirrorImage_Name=0x7f05026a;
-        public static final int MirrorImage_Name_Objective=0x7f05026b;
-        public static final int MissileWeapon_Info1=0x7f05026c;
-        public static final int MissileWeapon_Info2=0x7f05026d;
-        public static final int MissileWeapon_Info3=0x7f05026e;
-        public static final int MissileWeapon_Info4=0x7f05026f;
-        public static final int MissileWeapon_Missiles=0x7f050270;
-        public static final int MissileWeapon_No=0x7f050271;
-        public static final int MissileWeapon_Sure=0x7f050272;
-        public static final int MissileWeapon_Yes=0x7f050273;
-        public static final int Mob_Desc=0x7f050274;
-        public static final int Mob_Died=0x7f050275;
-        public static final int Mob_StaFleeingStatus=0x7f050276;
-        public static final int Mob_StaHuntingStatus=0x7f050277;
-        public static final int Mob_StaPassiveStatus=0x7f050278;
-        public static final int Mob_StaSleepingStatus=0x7f050279;
-        public static final int Mob_StaWanderingStatus=0x7f05027a;
-        public static final int Mob_Yell=0x7f05027b;
-        public static final int Mod_Author=0x7f0506bc;
-        public static final int Mod_Description=0x7f0506bd;
-        public static final int Mod_Email=0x7f0506be;
-        public static final int Mod_Link=0x7f0506bf;
-        public static final int Mod_Name=0x7f0506c0;
-        public static final int ModsButton_SelectMod=0x7f05054b;
-        public static final int Mods_AuthorEmail=0x7f05027c;
-        public static final int Mods_AuthorSite=0x7f05027d;
-        public static final int Mods_CreatedBy=0x7f05027e;
-        public static final int Mods_RestartRequired=0x7f05027f;
-        public static final int Monk_Defense=0x7f050280;
-        public static final int Monk_Desc=0x7f050281;
-        public static final int Monk_Disarm=0x7f050282;
-        public static final int Monk_Gender=0x7f050283;
-        public static final int Monk_Name=0x7f050284;
-        public static final int Monk_Name_Objective=0x7f050285;
-        public static final int Multiplicity_Txt=0x7f050286;
-        public static final int MysteryMeat_Info=0x7f050287;
-        public static final int MysteryMeat_Info1=0x7f050288;
-        public static final int MysteryMeat_Info2=0x7f050289;
-        public static final int MysteryMeat_Info3=0x7f05028a;
-        public static final int MysteryMeat_Info4=0x7f05028b;
-        public static final int MysteryMeat_Message=0x7f05028c;
-        public static final int MysteryMeat_Name=0x7f05028d;
-        public static final int NecromancerNPC_Desc=0x7f05054c;
-        public static final int NecromancerNPC_Gender=0x7f05054d;
-        public static final int NecromancerNPC_Intro=0x7f05054e;
-        public static final int NecromancerNPC_Intro2=0x7f050667;
-        public static final int NecromancerNPC_Message1=0x7f05054f;
-        public static final int NecromancerNPC_Message2=0x7f050550;
-        public static final int NecromancerNPC_Message3=0x7f050551;
-        public static final int NecromancerNPC_Message4=0x7f050552;
-        public static final int NecromancerNPC_Name=0x7f050553;
-        public static final int NecromancerNPC_Name_Objective=0x7f050554;
-        public static final int NekoEars_Info=0x7f050555;
-        public static final int NekoEars_Name=0x7f050556;
-        public static final int Neko_Ears_gives_5_additional_HP=0x7f0506c1;
-        public static final int Nightcap_Info=0x7f050557;
-        public static final int Nightcap_Name=0x7f050558;
-        public static final int Nightmare_Desc=0x7f050559;
-        public static final int Nightmare_Gender=0x7f05028e;
-        public static final int Nightmare_Name=0x7f05055a;
-        public static final int Nightmare_Name_Objective=0x7f05055b;
-        public static final int Ooze_Death=0x7f05055c;
-        public static final int Ooze_Info=0x7f05055d;
-        public static final int OverpricedRation_Info=0x7f05028f;
-        public static final int OverpricedRation_Message=0x7f050290;
-        public static final int OverpricedRation_Name=0x7f050291;
-        public static final int ParalysisArrow_Gender=0x7f050292;
-        public static final int ParalysisArrow_Info=0x7f050293;
-        public static final int ParalysisArrow_Name=0x7f050294;
-        public static final int ParalysisQuiver_Gender=0x7f050295;
-        public static final int ParalysisQuiver_Info=0x7f050296;
-        public static final int ParalysisQuiver_Name=0x7f050297;
-        public static final int Paralysis_Info=0x7f05055e;
-        public static final int ParalyticGas_Info=0x7f05055f;
-        public static final int Pasty_Info=0x7f050298;
-        public static final int Pasty_Name=0x7f050299;
-        public static final int Pet_Desc=0x7f0506c2;
-        public static final int Pet_Gender=0x7f0506c3;
-        public static final int Pet_Name=0x7f0506c4;
-        public static final int Pet_Name_Objective=0x7f0506c5;
-        public static final int Pickaxe_ACMine=0x7f050560;
-        public static final int Pickaxe_Gender=0x7f05029a;
-        public static final int Pickaxe_Info=0x7f050561;
-        public static final int Pickaxe_Name=0x7f05029b;
-        public static final int Pickaxe_NoVein=0x7f050562;
-        public static final int Piranha_Desc=0x7f05029c;
-        public static final int Piranha_Gender=0x7f05029d;
-        public static final int Piranha_Name=0x7f05029e;
-        public static final int Piranha_Name_Objective=0x7f05029f;
-        public static final int PirateSet_Info=0x7f050563;
-        public static final int PirateSet_Name=0x7f050564;
-        public static final int Plant_ACPlant=0x7f0502a0;
-        public static final int Plant_Info=0x7f0502a1;
-        public static final int Plant_Seed=0x7f0502a2;
-        public static final int PlateArmor_Desc=0x7f0502a3;
-        public static final int PlateArmor_Name=0x7f0502a4;
-        public static final int PoisonArrow_Gender=0x7f0502a5;
-        public static final int PoisonArrow_Info=0x7f0502a6;
-        public static final int PoisonArrow_Name=0x7f0502a7;
-        public static final int PoisonQuiver_Info=0x7f0502a8;
-        public static final int PoisonQuiver_Name=0x7f0502a9;
-        public static final int Poison_Death=0x7f050565;
-        public static final int Poison_Info=0x7f0502aa;
-        public static final int Poisonuiver_Gender=0x7f0502ab;
-        public static final int Potential_Txt=0x7f0502ac;
-        public static final int PotionBelt_Info=0x7f050566;
-        public static final int PotionBelt_Name=0x7f050567;
-        public static final int PotionOfExperience_Info=0x7f0502ad;
-        public static final int PotionOfExperience_Name=0x7f0502ae;
-        public static final int PotionOfFrost_Info=0x7f0502af;
-        public static final int PotionOfFrost_Name=0x7f0502b0;
-        public static final int PotionOfHealing_Apply=0x7f0502b1;
-        public static final int PotionOfHealing_Info=0x7f0502b2;
-        public static final int PotionOfHealing_Name=0x7f0502b3;
-        public static final int PotionOfInvisibility_Apply=0x7f0502b4;
-        public static final int PotionOfInvisibility_Info=0x7f0502b5;
-        public static final int PotionOfInvisibility_Name=0x7f0502b6;
-        public static final int PotionOfLevitation_Apply=0x7f0502b7;
-        public static final int PotionOfLevitation_Info=0x7f0502b8;
-        public static final int PotionOfLevitation_Name=0x7f0502b9;
-        public static final int PotionOfLiquidFlame_Info=0x7f0502ba;
-        public static final int PotionOfLiquidFlame_Name=0x7f0502bb;
-        public static final int PotionOfMight_Apply=0x7f0502bc;
-        public static final int PotionOfMight_Info=0x7f0502bd;
-        public static final int PotionOfMight_Name=0x7f0502be;
-        public static final int PotionOfMight_StaApply=0x7f0502bf;
-        public static final int PotionOfMindVision_Apply1=0x7f0502c0;
-        public static final int PotionOfMindVision_Apply2=0x7f0502c1;
-        public static final int PotionOfMindVision_Info=0x7f0502c2;
-        public static final int PotionOfMindVision_Name=0x7f0502c3;
-        public static final int PotionOfParalyticGas_Info=0x7f0502c4;
-        public static final int PotionOfParalyticGas_Name=0x7f0502c5;
-        public static final int PotionOfPurity_Freshness=0x7f0502c6;
-        public static final int PotionOfPurity_Info=0x7f0502c7;
-        public static final int PotionOfPurity_Name=0x7f0502c8;
-        public static final int PotionOfPurity_NoSmell=0x7f0502c9;
-        public static final int PotionOfStrength_Apply=0x7f0502ca;
-        public static final int PotionOfStrength_Info=0x7f0502cb;
-        public static final int PotionOfStrength_Name=0x7f0502cc;
-        public static final int PotionOfStrength_StaApply=0x7f0502cd;
-        public static final int PotionOfToxicGas_Info=0x7f0502ce;
-        public static final int PotionOfToxicGas_Name=0x7f0502cf;
-        public static final int Potion_ACDrink=0x7f0502d0;
-        public static final int Potion_ACMoisten=0x7f0502d1;
-        public static final int Potion_ArrowMoisten=0x7f0502d2;
-        public static final int Potion_Beneficial=0x7f0502d3;
-        public static final int Potion_DrinkRefreshed=0x7f05068b;
-        public static final int Potion_FoodRefreshed=0x7f0502d4;
-        public static final int Potion_Harmfull=0x7f0502d5;
-        public static final int Potion_Info=0x7f0502d6;
-        public static final int Potion_ItemFliesAway=0x7f0502d7;
-        public static final int Potion_MoistenUseless=0x7f0502d8;
-        public static final int Potion_Name=0x7f0502d9;
-        public static final int Potion_No=0x7f0502da;
-        public static final int Potion_RuneDissaperaed=0x7f0502db;
-        public static final int Potion_SelectForMoisten=0x7f0502dc;
-        public static final int Potion_Shatter=0x7f0502dd;
-        public static final int Potion_SureDrink=0x7f0502de;
-        public static final int Potion_SureThrow=0x7f0502df;
-        public static final int Potion_Yes=0x7f0502e0;
-        public static final int Prison_TileDescBookshelf=0x7f0502e1;
-        public static final int Prison_TileDescDeco=0x7f0502e2;
-        public static final int Prison_TileWater=0x7f0502e3;
-        public static final int PseudoPasty_Info=0x7f0502e4;
-        public static final int PseudoPasty_Name=0x7f0502e5;
-        public static final int PseudoRat_Desc=0x7f050568;
-        public static final int PseudoRat_Gender=0x7f0502e6;
-        public static final int PseudoRat_Name=0x7f050569;
-        public static final int PseudoRat_Name_Objective=0x7f05056a;
-        public static final int Pumpkin_Info=0x7f05056b;
-        public static final int Pumpkin_Name=0x7f05056c;
-        public static final int Quarterstaff_Gender=0x7f0502e7;
-        public static final int Quarterstaff_Info=0x7f0502e8;
-        public static final int Quarterstaff_Name=0x7f0502e9;
-        public static final int QuickSlot_SelectedItem=0x7f05056d;
-        public static final int Quiver_Gender=0x7f0502ea;
-        public static final int Quiver_Info=0x7f0502eb;
-        public static final int Quiver_Name=0x7f0502ec;
-        public static final int RabbitEars_Info=0x7f05056e;
-        public static final int RabbitEars_Name=0x7f05056f;
-        public static final int RankingsScene_NoGames=0x7f0502ed;
-        public static final int RankingsScene_NoInfo=0x7f0502ee;
-        public static final int RankingsScene_Title=0x7f0502ef;
-        public static final int RankingsScene_Total=0x7f0502f0;
-        public static final int RatKingCrown_Buff=0x7f050570;
-        public static final int RatKingCrown_Info=0x7f050571;
-        public static final int RatKingCrown_Name=0x7f050572;
-        public static final int RatKing_Desc=0x7f0502f1;
-        public static final int RatKing_Died=0x7f0502f2;
-        public static final int RatKing_Gender=0x7f050573;
-        public static final int RatKing_Info1=0x7f0502f3;
-        public static final int RatKing_Info2=0x7f0502f4;
-        public static final int RatKing_Info3=0x7f0502f5;
-        public static final int RatKing_Name=0x7f0502f6;
-        public static final int RatKing_Name_Objective=0x7f050574;
-        public static final int RatSkull_Buff=0x7f050575;
-        public static final int RatSkull_Info=0x7f050576;
-        public static final int RatSkull_Info2=0x7f050577;
-        public static final int RatSkull_Name=0x7f0502f7;
-        public static final int Rat_Desc=0x7f0502f8;
-        public static final int Rat_Gender=0x7f0502f9;
-        public static final int Rat_Name=0x7f0502fa;
-        public static final int Rat_Name_Objective=0x7f0502fb;
-        public static final int Ration_Info=0x7f0502fc;
-        public static final int Ration_Name=0x7f0502fd;
-        public static final int ReMakePixelDungeonApp_sendCrash=0x7f05068c;
-        public static final int ResultDescriptions_Bleeding=0x7f0502fe;
-        public static final int ResultDescriptions_Boss=0x7f0502ff;
-        public static final int ResultDescriptions_Burning=0x7f050300;
-        public static final int ResultDescriptions_Fall=0x7f050301;
-        public static final int ResultDescriptions_Gas=0x7f050302;
-        public static final int ResultDescriptions_Glyph=0x7f050303;
-        public static final int ResultDescriptions_Hunger=0x7f050304;
-        public static final int ResultDescriptions_Immured=0x7f050305;
-        public static final int ResultDescriptions_Mob=0x7f050306;
-        public static final int ResultDescriptions_Ooze=0x7f050307;
-        public static final int ResultDescriptions_Poison=0x7f050308;
-        public static final int ResultDescriptions_Trap=0x7f050309;
-        public static final int ResultDescriptions_Wand=0x7f05030a;
-        public static final int ResultDescriptions_Win=0x7f05030b;
-        public static final int RingOfAccuracy_Info=0x7f05030c;
-        public static final int RingOfAccuracy_Name=0x7f05030d;
-        public static final int RingOfDetection_Info=0x7f05030e;
-        public static final int RingOfDetection_Name=0x7f05030f;
-        public static final int RingOfElements_Info=0x7f050310;
-        public static final int RingOfElements_Name=0x7f050311;
-        public static final int RingOfEvasion_Info=0x7f050312;
-        public static final int RingOfEvasion_Name=0x7f050313;
-        public static final int RingOfHaggler_Info=0x7f050314;
-        public static final int RingOfHaggler_Name=0x7f050315;
-        public static final int RingOfHaste_Info=0x7f050316;
-        public static final int RingOfHaste_Name=0x7f050317;
-        public static final int RingOfHerbalism_Info=0x7f050318;
-        public static final int RingOfHerbalism_Name=0x7f050319;
-        public static final int RingOfMending_Info=0x7f05031a;
-        public static final int RingOfMending_Name=0x7f05031b;
-        public static final int RingOfPower_Info=0x7f05031c;
-        public static final int RingOfPower_Name=0x7f05031d;
-        public static final int RingOfSatiety_Info=0x7f05031e;
-        public static final int RingOfSatiety_Name=0x7f05031f;
-        public static final int RingOfShadows_Info=0x7f050320;
-        public static final int RingOfShadows_Name=0x7f050321;
-        public static final int RingOfStoneWalking_ImmuredInStone=0x7f050322;
-        public static final int RingOfStoneWalking_Info=0x7f050323;
-        public static final int RingOfStoneWalking_Name=0x7f050324;
-        public static final int RingOfThorns_Info=0x7f050325;
-        public static final int RingOfThorns_Name=0x7f050326;
-        public static final int Ring_BuffKnown=0x7f050327;
-        public static final int Ring_Identify=0x7f050328;
-        public static final int Ring_Info=0x7f050329;
-        public static final int Ring_Info1=0x7f05032a;
-        public static final int Ring_Info2=0x7f05032b;
-        public static final int Ring_Info3a=0x7f05032c;
-        public static final int Ring_Info3b=0x7f05032d;
-        public static final int Ring_Info4=0x7f05032e;
-        public static final int Ring_Name=0x7f05032f;
-        public static final int RogueArmor_ACSpecial=0x7f050330;
-        public static final int RogueArmor_Desc=0x7f050331;
-        public static final int RogueArmor_Fov=0x7f050332;
-        public static final int RogueArmor_Name=0x7f050333;
-        public static final int RogueArmor_NotRogue=0x7f050334;
-        public static final int RogueArmor_Prompt=0x7f050335;
-        public static final int Roots_Info=0x7f050578;
-        public static final int RottenFood_Message=0x7f050336;
-        public static final int RottenMeat_Info=0x7f050337;
-        public static final int RottenMeat_Name=0x7f050338;
-        public static final int RottenPasty_Info=0x7f050339;
-        public static final int RottenPasty_Name=0x7f05033a;
-        public static final int RottenRation_Info=0x7f05033b;
-        public static final int RottenRation_Name=0x7f05033c;
-        public static final int RottingFist_Desc=0x7f05033d;
-        public static final int RottingFist_Gender=0x7f05033e;
-        public static final int RottingFist_Name=0x7f05033f;
-        public static final int RottingFist_Name_Objective=0x7f050340;
-        public static final int RubyBow_Gender=0x7f050341;
-        public static final int RubyBow_Info=0x7f050342;
-        public static final int RubyBow_Name=0x7f050343;
-        public static final int RubyCrossbow_Gender=0x7f050579;
-        public static final int RubyCrossbow_Info=0x7f05057a;
-        public static final int RubyCrossbow_Name=0x7f05057b;
-        public static final int RunicSkull_Desc=0x7f050668;
-        public static final int RunicSkull_Gender=0x7f05057c;
-        public static final int RunicSkull_Name=0x7f050669;
-        public static final int RunicSkull_Name_Objective=0x7f05066a;
-        public static final int SacrificialSword_Gender=0x7f05057d;
-        public static final int SacrificialSword_Info=0x7f05057e;
-        public static final int SacrificialSword_Name=0x7f05057f;
-        public static final int SantaHatDesc=0x7f05068d;
-        public static final int SantaHat_Info=0x7f05068e;
-        public static final int SantaHat_Name=0x7f05068f;
-        public static final int ScaleArmor_Desc=0x7f050344;
-        public static final int ScaleArmor_Name=0x7f050345;
-        public static final int Scorpio_Desc=0x7f050346;
-        public static final int Scorpio_Gender=0x7f050347;
-        public static final int Scorpio_Name=0x7f050348;
-        public static final int Scorpio_Name_Objective=0x7f050349;
-        public static final int ScrollHolder_Info=0x7f050580;
-        public static final int ScrollHolder_Name=0x7f050581;
-        public static final int ScrollOfChallenge_Info=0x7f05034a;
-        public static final int ScrollOfChallenge_Info1=0x7f05034b;
-        public static final int ScrollOfChallenge_Name=0x7f05034c;
-        public static final int ScrollOfCurse_Info=0x7f050582;
-        public static final int ScrollOfCurse_Name=0x7f050583;
-        public static final int ScrollOfDomination_Info=0x7f050584;
-        public static final int ScrollOfDomination_Name=0x7f050585;
-        public static final int ScrollOfIdentify_Info=0x7f05034d;
-        public static final int ScrollOfIdentify_Info1=0x7f05034e;
-        public static final int ScrollOfIdentify_InvTitle=0x7f05034f;
-        public static final int ScrollOfIdentify_Name=0x7f050350;
-        public static final int ScrollOfLullaby_Info=0x7f050586;
-        public static final int ScrollOfLullaby_Info1=0x7f050587;
-        public static final int ScrollOfLullaby_Info2=0x7f050588;
-        public static final int ScrollOfLullaby_Info3=0x7f050589;
-        public static final int ScrollOfLullaby_Name=0x7f050351;
-        public static final int ScrollOfMagicMapping_Info=0x7f05058a;
-        public static final int ScrollOfMagicMapping_Layout=0x7f05058b;
-        public static final int ScrollOfMagicMapping_Name=0x7f050352;
-        public static final int ScrollOfMirrorImage_Info=0x7f05058c;
-        public static final int ScrollOfMirrorImage_Name=0x7f050353;
-        public static final int ScrollOfPsionicBlast_Info=0x7f05058d;
-        public static final int ScrollOfPsionicBlast_Name=0x7f050354;
-        public static final int ScrollOfRecharging_Info=0x7f05058e;
-        public static final int ScrollOfRecharging_Info1a=0x7f05058f;
-        public static final int ScrollOfRecharging_Info1b=0x7f050590;
-        public static final int ScrollOfRecharging_Info2=0x7f050591;
-        public static final int ScrollOfRecharging_Name=0x7f050355;
-        public static final int ScrollOfRemoveCurse_Info=0x7f050592;
-        public static final int ScrollOfRemoveCurse_Name=0x7f050356;
-        public static final int ScrollOfRemoveCurse_NoProced=0x7f050593;
-        public static final int ScrollOfRemoveCurse_Proced=0x7f050594;
-        public static final int ScrollOfSummon_Info=0x7f050690;
-        public static final int ScrollOfSummon_Info1=0x7f050691;
-        public static final int ScrollOfSummon_Name=0x7f050692;
-        public static final int ScrollOfTeleportation_Info=0x7f050595;
-        public static final int ScrollOfTeleportation_Name=0x7f050357;
-        public static final int ScrollOfTeleportation_NoTeleport=0x7f050358;
-        public static final int ScrollOfTeleportation_Teleport=0x7f050596;
-        public static final int ScrollOfTerror_Info=0x7f050597;
-        public static final int ScrollOfTerror_Info1=0x7f050598;
-        public static final int ScrollOfTerror_Info2=0x7f050599;
-        public static final int ScrollOfTerror_Info3=0x7f05059a;
-        public static final int ScrollOfTerror_Name=0x7f050359;
-        public static final int ScrollOfUpgrade_Info=0x7f05059b;
-        public static final int ScrollOfUpgrade_InvTitle=0x7f05059c;
-        public static final int ScrollOfUpgrade_LooksBetter=0x7f05059d;
-        public static final int ScrollOfUpgrade_Name=0x7f05035a;
-        public static final int ScrollOfWeaponUpgrade_Info=0x7f05059e;
-        public static final int ScrollOfWeaponUpgrade_InvTitle=0x7f05059f;
-        public static final int ScrollOfWeaponUpgrade_LooksBetter=0x7f0505a0;
-        public static final int ScrollOfWeaponUpgrade_Name=0x7f0505a1;
-        public static final int Scroll_ACRead=0x7f05035b;
-        public static final int Scroll_Blinded=0x7f05035c;
-        public static final int Scroll_Info=0x7f05035d;
-        public static final int Scroll_Name=0x7f05035e;
-        public static final int SeedPouch_Info=0x7f0505a2;
-        public static final int SeedPouch_Name=0x7f0505a3;
-        public static final int Senior_Desc=0x7f05035f;
-        public static final int Senior_Gender=0x7f050360;
-        public static final int Senior_Name=0x7f050361;
-        public static final int Senior_Name_Objective=0x7f050362;
-        public static final int Sewer_TileDescBookshelf=0x7f050363;
-        public static final int Sewer_TileDescDeco=0x7f050364;
-        public static final int Sewer_TileWater=0x7f050365;
-        public static final int Shades_Info=0x7f0505a4;
-        public static final int Shades_Name=0x7f0505a5;
-        public static final int ShadowLord_Death=0x7f050366;
-        public static final int ShadowLord_Desc=0x7f050367;
-        public static final int ShadowLord_Gender=0x7f050368;
-        public static final int ShadowLord_Intro=0x7f050369;
-        public static final int ShadowLord_Name=0x7f05036a;
-        public static final int ShadowLord_Name_Objective=0x7f05036b;
-        public static final int Shadow_Desc=0x7f05036c;
-        public static final int Shadow_Gender=0x7f05036d;
-        public static final int Shadow_Name=0x7f05036e;
-        public static final int Shadow_Name_Objective=0x7f05036f;
-        public static final int Shadows_Info=0x7f0505a6;
-        public static final int Shaman_Desc=0x7f050370;
-        public static final int Shaman_Gender=0x7f050371;
-        public static final int Shaman_Killed=0x7f050372;
-        public static final int Shaman_Name=0x7f050373;
-        public static final int Shaman_Name_Objective=0x7f050374;
-        public static final int Sheep_Desc=0x7f0505a7;
-        public static final int Sheep_Gender=0x7f0505a8;
-        public static final int Sheep_Name=0x7f050375;
-        public static final int Sheep_Name_Objective=0x7f0505a9;
-        public static final int Shielded_Defense=0x7f050376;
-        public static final int Shielded_Desc=0x7f050377;
-        public static final int Shielded_Gender=0x7f050378;
-        public static final int Shielded_Name=0x7f050379;
-        public static final int Shielded_Name_Objective=0x7f05037a;
-        public static final int Shopkeeper_Desc=0x7f05037b;
-        public static final int Shopkeeper_Name=0x7f05037c;
-        public static final int Shopkeeper_Sell=0x7f05037d;
-        public static final int ShortSword_ACReforge=0x7f05037e;
-        public static final int ShortSword_Gender=0x7f05037f;
-        public static final int ShortSword_Info=0x7f050380;
-        public static final int ShortSword_Name=0x7f050381;
-        public static final int ShortSword_NotBoomerang=0x7f050382;
-        public static final int ShortSword_Reforged=0x7f050383;
-        public static final int ShortSword_Select=0x7f050384;
-        public static final int Shuriken_Gender=0x7f050385;
-        public static final int Shuriken_Info=0x7f050386;
-        public static final int Shuriken_Name=0x7f050387;
-        public static final int SkeletonKey_Info=0x7f0505aa;
-        public static final int SkeletonKey_Name=0x7f0505ab;
-        public static final int Skeleton_Defense=0x7f050388;
-        public static final int Skeleton_Desc=0x7f050389;
-        public static final int Skeleton_Gender=0x7f05038a;
-        public static final int Skeleton_Killed=0x7f05038b;
-        public static final int Skeleton_Name=0x7f05038c;
-        public static final int Skeleton_Name_Objective=0x7f05038d;
-        public static final int Slow_Info=0x7f0505ac;
-        public static final int SnipersMark_Info=0x7f0505ad;
-        public static final int Sorrowmoss_Desc=0x7f05038e;
-        public static final int Sorrowmoss_Name=0x7f05038f;
-        public static final int SoulShard_Gender=0x7f0505ae;
-        public static final int SoulShard_Info=0x7f05066b;
-        public static final int SoulShard_Name=0x7f0505af;
-        public static final int Spear_Gender=0x7f050390;
-        public static final int Spear_Info=0x7f050391;
-        public static final int Spear_Name=0x7f050392;
-        public static final int SpiderArmor_Gender=0x7f0505b0;
-        public static final int SpiderArmor_Info=0x7f05066c;
-        public static final int SpiderArmor_Name=0x7f0505b1;
-        public static final int SpiderCharm_Info=0x7f050393;
-        public static final int SpiderCharm_Name=0x7f050394;
-        public static final int SpiderCharm_Use=0x7f050395;
-        public static final int SpiderEgg_Desc=0x7f0505b2;
-        public static final int SpiderEgg_Gender=0x7f050396;
-        public static final int SpiderEgg_Name=0x7f050397;
-        public static final int SpiderEgg_Name_Objective=0x7f050398;
-        public static final int SpiderExploding_Desc=0x7f0505b3;
-        public static final int SpiderExploding_Gender=0x7f050399;
-        public static final int SpiderExploding_Name=0x7f05039a;
-        public static final int SpiderExploding_Name_Objective=0x7f05039b;
-        public static final int SpiderGuard_Desc=0x7f0505b4;
-        public static final int SpiderGuard_Gender=0x7f0505b5;
-        public static final int SpiderGuard_Name=0x7f0505b6;
-        public static final int SpiderGuard_Name_Objective=0x7f0505b7;
-        public static final int SpiderMindAmber_Desc=0x7f0505b8;
-        public static final int SpiderMindAmber_Gender=0x7f0505b9;
-        public static final int SpiderMindAmber_Name=0x7f0505ba;
-        public static final int SpiderMindAmber_Name_Objective=0x7f0505bb;
-        public static final int SpiderMind_Desc=0x7f0505bc;
-        public static final int SpiderMind_Gender=0x7f05039c;
-        public static final int SpiderMind_Name=0x7f05039d;
-        public static final int SpiderMind_Name_Objective=0x7f05039e;
-        public static final int SpiderNest_Desc=0x7f0505bd;
-        public static final int SpiderNest_Gender=0x7f05039f;
-        public static final int SpiderNest_Name=0x7f0503a0;
-        public static final int SpiderNest_Name_Objective=0x7f0503a1;
-        public static final int SpiderQueen_Desc=0x7f0505be;
-        public static final int SpiderQueen_Gender=0x7f0503a2;
-        public static final int SpiderQueen_Name=0x7f0503a3;
-        public static final int SpiderQueen_Name_Objective=0x7f0503a4;
-        public static final int SpiderServant_Desc=0x7f0505bf;
-        public static final int SpiderServant_Gender=0x7f0503a5;
-        public static final int SpiderServant_Name=0x7f0503a6;
-        public static final int SpiderServant_Name_Objective=0x7f0503a7;
-        public static final int Spinner_Desc=0x7f0503a8;
-        public static final int Spinner_Gender=0x7f0503a9;
-        public static final int Spinner_Name=0x7f0503aa;
-        public static final int Spinner_Name_Objective=0x7f0503ab;
-        public static final int SpiritOfPain_Desc=0x7f0505c0;
-        public static final int SpiritOfPain_Gender=0x7f0505c1;
-        public static final int SpiritOfPain_Name=0x7f0505c2;
-        public static final int SpiritOfPain_Name_Objective=0x7f0505c3;
-        public static final int StartScene_Depth=0x7f0503ac;
-        public static final int StartScene_DifficultyEasy=0x7f0505c4;
-        public static final int StartScene_DifficultyExpert=0x7f0505c5;
-        public static final int StartScene_DifficultyNormal=0x7f0503ad;
-        public static final int StartScene_DifficultyNormalWithSaves=0x7f0505c6;
-        public static final int StartScene_DifficultySelect=0x7f0505c7;
-        public static final int StartScene_Erase=0x7f0503ae;
-        public static final int StartScene_Load=0x7f0503af;
-        public static final int StartScene_New=0x7f0503b0;
-        public static final int StartScene_No=0x7f0503b1;
-        public static final int StartScene_Really=0x7f0503b2;
-        public static final int StartScene_Unlock=0x7f0503b3;
-        public static final int StartScene_UnlockElf=0x7f0503b4;
-        public static final int StartScene_Warning=0x7f0503b5;
-        public static final int StartScene_WinGame=0x7f0503b6;
-        public static final int StartScene_Yes=0x7f0503b7;
-        public static final int Statue_Desc=0x7f0503b8;
-        public static final int Statue_Gender=0x7f0503b9;
-        public static final int Statue_Name=0x7f0503ba;
-        public static final int Statue_Name_Objective=0x7f0503bb;
-        public static final int Stench_Txt=0x7f0503bc;
-        public static final int Stylus_ACInscribe=0x7f0505c8;
-        public static final int Stylus_Info=0x7f0505c9;
-        public static final int Stylus_Inscribed=0x7f0505ca;
-        public static final int Stylus_Name=0x7f0505cb;
-        public static final int Stylus_SelectArmor=0x7f0505cc;
-        public static final int Succubus_Desc=0x7f0503bd;
-        public static final int Succubus_Gender=0x7f0503be;
-        public static final int Succubus_Name=0x7f0503bf;
-        public static final int Succubus_Name_Objective=0x7f0503c0;
-        public static final int Sungrass_Buff=0x7f0503c1;
-        public static final int Sungrass_Desc=0x7f0503c2;
-        public static final int Sungrass_Name=0x7f0503c3;
-        public static final int SurfaceScene_GameOver=0x7f0503c4;
-        public static final int SuspiciousRat_Desc=0x7f0505cd;
-        public static final int SuspiciousRat_Gender=0x7f0503c5;
-        public static final int SuspiciousRat_Info1=0x7f0505ce;
-        public static final int SuspiciousRat_Name=0x7f0503c6;
-        public static final int SuspiciousRat_Name_Objective=0x7f0503c7;
-        public static final int Swarm_Defense=0x7f0503c8;
-        public static final int Swarm_Desc=0x7f0503c9;
-        public static final int Swarm_Gender=0x7f0503ca;
-        public static final int Swarm_Name=0x7f0503cb;
-        public static final int Swarm_Name_Objective=0x7f0503cc;
-        public static final int Sword_Gender=0x7f0503cd;
-        public static final int Sword_Info=0x7f0503ce;
-        public static final int Sword_Name=0x7f0503cf;
-        public static final int TaintedBeer_Info=0x7f050693;
-        public static final int TaintedBeer_Name=0x7f050694;
-        public static final int TaintedDrink_Message=0x7f05066d;
-        public static final int Tamahawk_Gender=0x7f0503d0;
-        public static final int Tamahawk_Info=0x7f0503d1;
-        public static final int Tamahawk_Name=0x7f0503d2;
-        public static final int Tengu_Desc=0x7f0503d3;
-        public static final int Tengu_Gender=0x7f0503d4;
-        public static final int Tengu_Info1=0x7f0503d5;
-        public static final int Tengu_Info2=0x7f0503d6;
-        public static final int Tengu_Info3=0x7f0503d7;
-        public static final int Tengu_Name=0x7f0503d8;
-        public static final int Tengu_Name_Objective=0x7f0503d9;
-        public static final int Thief_Carries=0x7f0503da;
-        public static final int Thief_Desc=0x7f0503db;
-        public static final int Thief_Gender=0x7f0503dc;
-        public static final int Thief_Name=0x7f0503dd;
-        public static final int Thief_Name_Objective=0x7f0503de;
-        public static final int Thief_Stole=0x7f0503df;
-        public static final int This_Capotain_gives_defence_skill=0x7f050695;
-        public static final int This_Fez_gives_10_additional_HP=0x7f050696;
-        public static final int This_Nightcap_gives_2_additional_defense_skill=0x7f050697;
-        public static final int This_Pirate_Set_gives_additional_2_attack_skill_2_defense_skill_and_10_HP=0x7f050698;
-        public static final int This_Pumpkin_gives_additional_2_defense_skill_1_attack_skill_and_10_HP=0x7f050699;
-        public static final int This_Rabbit_Ears_gives_additional_4_defense_skill=0x7f05069a;
-        public static final int This_Shades_gives_additional_2_defense_skill_and_10_HP=0x7f05069b;
-        public static final int This_Wizard_Hat_gives_additional_10_attack_skill_and_10_HP=0x7f05069c;
-        public static final int TitleScene_About=0x7f0503e0;
-        public static final int TitleScene_Badges=0x7f0503e1;
-        public static final int TitleScene_Highscores=0x7f0503e2;
-        public static final int TitleScene_InternalStorageLow=0x7f0503e3;
-        public static final int TitleScene_Play=0x7f0503e4;
-        public static final int TomeOfMastery_ACRead=0x7f0505cf;
-        public static final int TomeOfMastery_Blinded=0x7f0505d0;
-        public static final int TomeOfMastery_Choose=0x7f0505d1;
-        public static final int TomeOfMastery_Info=0x7f0505d2;
-        public static final int TomeOfMastery_Name=0x7f0505d3;
-        public static final int TomeOfMastery_WayAlreadyChosen=0x7f05069d;
-        public static final int Toolbar_Info1=0x7f0505d4;
-        public static final int Toolbar_Info2=0x7f0505d5;
-        public static final int Torch_ACLight=0x7f0505d6;
-        public static final int Torch_Info=0x7f0505d7;
-        public static final int Torch_Name=0x7f0503e5;
-        public static final int ToxicGas_Info=0x7f0505d8;
-        public static final int ToxicGas_Info1=0x7f0503e6;
-        public static final int TreacherousSpirit_Desc=0x7f0505d9;
-        public static final int TreacherousSpirit_Gender=0x7f0503e7;
-        public static final int TreacherousSpirit_Name=0x7f0505da;
-        public static final int TreacherousSpirit_Name_Objective=0x7f0505db;
-        public static final int Undead_Defense=0x7f0503e8;
-        public static final int Undead_Desc=0x7f0503e9;
-        public static final int Undead_Gender=0x7f0503ea;
-        public static final int Undead_Name=0x7f0503eb;
-        public static final int Undead_Name_Objective=0x7f0503ec;
-        public static final int Utils_IsIndefinte=0x7f0505dc;
-        public static final int Vertigo_Info=0x7f0505dd;
-        public static final int Viscosity_Status=0x7f0503ed;
-        public static final int Viscosity_Txt=0x7f0503ee;
-        public static final int WandHolster_Info=0x7f0505de;
-        public static final int WandHolster_Name=0x7f0505df;
-        public static final int WandMaker_Berry1=0x7f0503ef;
-        public static final int WandMaker_Berry2=0x7f0503f0;
-        public static final int WandMaker_Defense=0x7f0503f1;
-        public static final int WandMaker_Desc=0x7f0503f2;
-        public static final int WandMaker_Dust1=0x7f0503f3;
-        public static final int WandMaker_Dust2=0x7f0505e0;
-        public static final int WandMaker_Name=0x7f0503f4;
-        public static final int WandMaker_RotberryDesc=0x7f0503f5;
-        public static final int WandMaker_RotberryInfo=0x7f0503f6;
-        public static final int WandMaker_RotberryName=0x7f0503f7;
-        public static final int WandOfAmok_Info=0x7f0503f8;
-        public static final int WandOfAmok_Info1=0x7f0503f9;
-        public static final int WandOfAmok_Name=0x7f0503fa;
-        public static final int WandOfAvalanche_Info=0x7f0503fb;
-        public static final int WandOfAvalanche_Info1=0x7f0503fc;
-        public static final int WandOfAvalanche_Name=0x7f0503fd;
-        public static final int WandOfBlink_Info=0x7f0503fe;
-        public static final int WandOfBlink_Name=0x7f0503ff;
-        public static final int WandOfDisintegration_Info=0x7f050400;
-        public static final int WandOfDisintegration_Name=0x7f050401;
-        public static final int WandOfFirebolt_Info=0x7f0505e1;
-        public static final int WandOfFirebolt_Info1=0x7f0505e2;
-        public static final int WandOfFirebolt_Name=0x7f050402;
-        public static final int WandOfFlock_Info=0x7f0505e3;
-        public static final int WandOfFlock_Name=0x7f0505e4;
-        public static final int WandOfLightning_Info=0x7f0505e5;
-        public static final int WandOfLightning_Info1=0x7f0505e6;
-        public static final int WandOfLightning_Name=0x7f0505e7;
-        public static final int WandOfMagicMissile_ACDisenchant=0x7f0505e8;
-        public static final int WandOfMagicMissile_Desinchanted=0x7f0505e9;
-        public static final int WandOfMagicMissile_Info=0x7f0505ea;
-        public static final int WandOfMagicMissile_Info1=0x7f0505eb;
-        public static final int WandOfMagicMissile_Name=0x7f0505ec;
-        public static final int WandOfMagicMissile_SelectWand=0x7f050403;
-        public static final int WandOfPoison_Info=0x7f0505ed;
-        public static final int WandOfPoison_Info1=0x7f0505ee;
-        public static final int WandOfPoison_Name=0x7f0505ef;
-        public static final int WandOfRegrowth_Info=0x7f0505f0;
-        public static final int WandOfRegrowth_Info1=0x7f050404;
-        public static final int WandOfRegrowth_Name=0x7f0505f1;
-        public static final int WandOfSlowness_Info=0x7f0505f2;
-        public static final int WandOfSlowness_Info1=0x7f0505f3;
-        public static final int WandOfSlowness_Name=0x7f0505f4;
-        public static final int WandOfTelekinesis_Info=0x7f0505f5;
-        public static final int WandOfTelekinesis_Name=0x7f0505f6;
-        public static final int WandOfTelekinesis_YouNowHave=0x7f0505f7;
-        public static final int WandOfTeleportation_Info=0x7f0505f8;
-        public static final int WandOfTeleportation_Info1=0x7f0505f9;
-        public static final int WandOfTeleportation_Info2=0x7f050405;
-        public static final int WandOfTeleportation_Name=0x7f0505fa;
-        public static final int Wand_ACZap=0x7f050406;
-        public static final int Wand_Damage=0x7f050407;
-        public static final int Wand_Fizzles=0x7f050408;
-        public static final int Wand_Name=0x7f050409;
-        public static final int Wand_Prompt=0x7f05040a;
-        public static final int Wand_SelfTarget=0x7f05040b;
-        public static final int Wand_Weapon=0x7f05040c;
-        public static final int Wand_Wood=0x7f05040d;
-        public static final int WarHammer_Gender=0x7f05040e;
-        public static final int WarHammer_Info=0x7f05040f;
-        public static final int WarHammer_Name=0x7f050410;
-        public static final int Warlock_Desc=0x7f050411;
-        public static final int Warlock_Gender=0x7f050412;
-        public static final int Warlock_Killed=0x7f050413;
-        public static final int Warlock_Name=0x7f050414;
-        public static final int Warlock_Name_Objective=0x7f050415;
-        public static final int WarriorArmor_ACSpecial=0x7f050416;
-        public static final int WarriorArmor_Desc=0x7f050417;
-        public static final int WarriorArmor_Name=0x7f050418;
-        public static final int WarriorArmor_NotWarrior=0x7f050419;
-        public static final int WarriorArmor_Prompt=0x7f05041a;
-        public static final int WaterElemental_Desc=0x7f05041b;
-        public static final int WaterElemental_Gender=0x7f05041c;
-        public static final int WaterElemental_Name=0x7f05041d;
-        public static final int WaterElemental_Name_Objective=0x7f05041e;
-        public static final int WaterOfAwareness_Info=0x7f0505fb;
-        public static final int WaterOfAwareness_Procced=0x7f0505fc;
-        public static final int WaterOfHealth_Info=0x7f0505fd;
-        public static final int WaterOfHealth_Procced=0x7f0505fe;
-        public static final int WaterOfTransmutation_Info=0x7f0505ff;
-        public static final int Weakness_Info=0x7f05041f;
-        public static final int Weapon_Identify=0x7f050420;
-        public static final int Weapon_Incompatible=0x7f050421;
-        public static final int Web_Info=0x7f050600;
-        public static final int Weightstone_ACApply=0x7f050601;
-        public static final int Weightstone_Accurate=0x7f050602;
-        public static final int Weightstone_Fast=0x7f050603;
-        public static final int Weightstone_Info=0x7f050604;
-        public static final int Weightstone_Name=0x7f050605;
-        public static final int Weightstone_Select=0x7f050606;
-        public static final int Weightstone_WndAccuracy=0x7f050607;
-        public static final int Weightstone_WndCancel=0x7f050608;
-        public static final int Weightstone_WndChoice=0x7f050609;
-        public static final int Weightstone_WndSpeed=0x7f05060a;
-        public static final int Welcome_Ok=0x7f050422;
-        public static final int Welcome_Text=0x7f050423;
-        public static final int Welcome_Text_19=0x7f050424;
-        public static final int Welcome_Text_20=0x7f050425;
-        public static final int Welcome_Text_20_1=0x7f050426;
-        public static final int Welcome_Text_20_2=0x7f050427;
-        public static final int Welcome_Text_21_1=0x7f050428;
-        public static final int Welcome_Text_21_2=0x7f050429;
-        public static final int Welcome_Text_21_3=0x7f05042a;
-        public static final int Welcome_Text_21_4=0x7f05042b;
-        public static final int Welcome_Text_21_5=0x7f05042c;
-        public static final int Welcome_Text_22=0x7f05042d;
-        public static final int Welcome_Text_23=0x7f05060b;
-        public static final int Welcome_Text_23_1=0x7f05060c;
-        public static final int Welcome_Text_23_2=0x7f05060d;
-        public static final int Welcome_Text_24=0x7f05060e;
-        public static final int Welcome_Text_24_1=0x7f05060f;
-        public static final int Welcome_Text_24_2=0x7f050610;
-        public static final int Welcome_Text_25=0x7f050611;
-        public static final int Welcome_Title=0x7f05042e;
-        public static final int Wine_Info=0x7f0506c6;
-        public static final int Wine_Info1=0x7f0506c7;
-        public static final int Wine_Info2=0x7f0506c8;
-        public static final int Wine_Info3=0x7f0506c9;
-        public static final int Wine_Info4=0x7f0506ca;
-        public static final int Wine_Message=0x7f0506cb;
-        public static final int Wine_Name=0x7f0506cc;
-        public static final int WizardHat_Info=0x7f050612;
-        public static final int WizardHat_Name=0x7f050613;
-        public static final int WndBlacksmith_Prompt=0x7f05042f;
-        public static final int WndBlacksmith_Reforge=0x7f050430;
-        public static final int WndBlacksmith_Select=0x7f050431;
-        public static final int WndCatalogus_Potions=0x7f050432;
-        public static final int WndCatalogus_Scrolls=0x7f050433;
-        public static final int WndCatalogus_Title=0x7f050434;
-        public static final int WndChallenges_Title=0x7f050435;
-        public static final int WndChooseWay_Cancel=0x7f050436;
-        public static final int WndChooseWay_Message=0x7f050437;
-        public static final int WndClass_Mastery=0x7f050438;
-        public static final int WndDonate_commonDonateText=0x7f050439;
-        public static final int WndDonate_donate=0x7f05043a;
-        public static final int WndDonate_gold=0x7f05043b;
-        public static final int WndDonate_goldDonate=0x7f05043c;
-        public static final int WndDonate_goldDonateText=0x7f05043d;
-        public static final int WndDonate_goldDonateText2=0x7f05043e;
-        public static final int WndDonate_notConnected=0x7f05043f;
-        public static final int WndDonate_ruby=0x7f050440;
-        public static final int WndDonate_rubyDonate=0x7f050441;
-        public static final int WndDonate_rubyDonateText=0x7f050442;
-        public static final int WndDonate_rubyDonateText2=0x7f050443;
-        public static final int WndDonate_silver=0x7f050444;
-        public static final int WndDonate_silverDonate=0x7f050445;
-        public static final int WndDonate_silverDonateText=0x7f050446;
-        public static final int WndDonate_silverDonateText2=0x7f050447;
-        public static final int WndError_Title=0x7f050448;
-        public static final int WndGame_Challenges=0x7f050449;
-        public static final int WndGame_Exit=0x7f05044a;
-        public static final int WndGame_Load=0x7f05044b;
-        public static final int WndGame_Ranking=0x7f05044c;
-        public static final int WndGame_Return=0x7f05044d;
-        public static final int WndGame_Save=0x7f05044e;
-        public static final int WndGame_Settings=0x7f05044f;
-        public static final int WndGame_Start=0x7f050450;
-        public static final int WndGame_menu=0x7f050451;
-        public static final int WndHats_BackButton=0x7f050614;
-        public static final int WndHats_BuyButton=0x7f050615;
-        public static final int WndHats_EquipButton=0x7f050616;
-        public static final int WndHats_InfoButton=0x7f050617;
-        public static final int WndHats_ListTitle=0x7f050618;
-        public static final int WndHats_NoConnectionMsg=0x7f050619;
-        public static final int WndHats_Purchased=0x7f05061a;
-        public static final int WndHats_SlotTitle=0x7f05061b;
-        public static final int WndHats_UnequipButton=0x7f05061c;
-        public static final int WndHero_Buffs=0x7f050452;
-        public static final int WndHero_Depth=0x7f050453;
-        public static final int WndHero_Exp=0x7f050454;
-        public static final int WndHero_Gold=0x7f050455;
-        public static final int WndHero_Health=0x7f050456;
-        public static final int WndHero_StaCatalogus=0x7f050457;
-        public static final int WndHero_StaJournal=0x7f050458;
-        public static final int WndHero_StaTitle=0x7f050459;
-        public static final int WndHero_Stats=0x7f05045a;
-        public static final int WndHero_Str=0x7f05045b;
-        public static final int WndImp_Message=0x7f05045c;
-        public static final int WndImp_Reward=0x7f05045d;
-        public static final int WndInfoCell_Nothing=0x7f05045e;
-        public static final int WndInfoItem_Chest=0x7f05045f;
-        public static final int WndInfoItem_CrystalChest=0x7f050460;
-        public static final int WndInfoItem_Inside=0x7f050461;
-        public static final int WndInfoItem_LockedChest=0x7f050462;
-        public static final int WndInfoItem_NeedKey=0x7f050463;
-        public static final int WndInfoItem_Owner=0x7f05061d;
-        public static final int WndInfoItem_Remains=0x7f05061e;
-        public static final int WndInfoItem_Skeleton=0x7f050464;
-        public static final int WndInfoItem_Tomb=0x7f050465;
-        public static final int WndInfoItem_WontKnow=0x7f050466;
-        public static final int WndJournal_Title=0x7f050467;
-        public static final int WndPremiumSettings_banners=0x7f050468;
-        public static final int WndPremiumSettings_chrome=0x7f050469;
-        public static final int WndPremiumSettings_gold=0x7f05046a;
-        public static final int WndPremiumSettings_notAvailbale=0x7f05046b;
-        public static final int WndPremiumSettings_ruby=0x7f05046c;
-        public static final int WndPremiumSettings_silver=0x7f05046d;
-        public static final int WndPremiumSettings_status=0x7f05046e;
-        public static final int WndPremiumSettings_std=0x7f05046f;
-        public static final int WndPremiumSettings_toolbar=0x7f050470;
-        public static final int WndRanking_Badges=0x7f05061f;
-        public static final int WndRanking_Error=0x7f050620;
-        public static final int WndRanking_Items=0x7f050621;
-        public static final int WndRanking_StaAlchemy=0x7f050622;
-        public static final int WndRanking_StaAnkhs=0x7f050623;
-        public static final int WndRanking_StaChallenges=0x7f050471;
-        public static final int WndRanking_StaDepth=0x7f050472;
-        public static final int WndRanking_StaDuration=0x7f050624;
-        public static final int WndRanking_StaEnemies=0x7f050625;
-        public static final int WndRanking_StaFood=0x7f050626;
-        public static final int WndRanking_StaGold=0x7f050473;
-        public static final int WndRanking_StaHealth=0x7f050474;
-        public static final int WndRanking_StaStr=0x7f050475;
-        public static final int WndRanking_StaTitle=0x7f050476;
-        public static final int WndRanking_Stats=0x7f050477;
-        public static final int WndResurrect_Message=0x7f050627;
-        public static final int WndResurrect_No=0x7f050628;
-        public static final int WndResurrect_Yes=0x7f050629;
-        public static final int WndSadGhost_Armor=0x7f05062a;
-        public static final int WndSadGhost_Farewell=0x7f05062b;
-        public static final int WndSadGhost_Rat=0x7f05062c;
-        public static final int WndSadGhost_Rose=0x7f05062d;
-        public static final int WndSadGhost_Wepon=0x7f05062e;
-        public static final int WndSaveSlotSelect_Delete_No=0x7f05062f;
-        public static final int WndSaveSlotSelect_Delete_Title=0x7f050630;
-        public static final int WndSaveSlotSelect_Delete_Yes=0x7f050631;
-        public static final int WndSaveSlotSelect_SelectSlot=0x7f050632;
-        public static final int WndSaveSlotSelect_dontLike=0x7f050478;
-        public static final int WndSelectLanguage_ImproveTranslation=0x7f050479;
-        public static final int WndSelectLanguage_LinkToTranslationSite=0x7f05047a;
-        public static final int WndSelectLanguage_TranslationLink=0x7f05047b;
-        public static final int WndSettings_Brightness=0x7f05047c;
-        public static final int WndSettings_ClassicFont=0x7f05047d;
-        public static final int WndSettings_ExperementalFont=0x7f05047e;
-        public static final int WndSettings_Immersive=0x7f05047f;
-        public static final int WndSettings_Music=0x7f050480;
-        public static final int WndSettings_ScaleUp=0x7f050481;
-        public static final int WndSettings_SecondQuickslot=0x7f050482;
-        public static final int WndSettings_SelectLanguage=0x7f050483;
-        public static final int WndSettings_Sound=0x7f050484;
-        public static final int WndSettings_SwitchLand=0x7f050485;
-        public static final int WndSettings_SwitchPort=0x7f050486;
-        public static final int WndSettings_TextScaleDefault=0x7f050487;
-        public static final int WndSettings_ThirdQuickslot=0x7f050488;
-        public static final int WndSettings_ZoomDef=0x7f050489;
-        public static final int WndSettings_ZoomIn=0x7f05048a;
-        public static final int WndSettings_ZoomOut=0x7f05048b;
-        public static final int WndStory_Caves=0x7f050633;
-        public static final int WndStory_Dragon_Pits=0x7f05069e;
-        public static final int WndStory_Guts=0x7f050634;
-        public static final int WndStory_Halls=0x7f050635;
-        public static final int WndStory_Metropolis=0x7f050636;
-        public static final int WndStory_Prision=0x7f050637;
-        public static final int WndStory_Sewers=0x7f050638;
-        public static final int WndStory_Spiders=0x7f050639;
-        public static final int WndTradeItem_Bought=0x7f05063a;
-        public static final int WndTradeItem_Buy=0x7f05063b;
-        public static final int WndTradeItem_Cancel=0x7f05063c;
-        public static final int WndTradeItem_Sale=0x7f05063d;
-        public static final int WndTradeItem_Sell=0x7f05063e;
-        public static final int WndTradeItem_Sell1=0x7f05063f;
-        public static final int WndTradeItem_SellAll=0x7f050640;
-        public static final int WndTradeItem_Sold=0x7f050641;
-        public static final int WndWandmaker_Battle=0x7f050642;
-        public static final int WndWandmaker_Farawell=0x7f050643;
-        public static final int WndWandmaker_Message=0x7f050644;
-        public static final int WndWandmaker_NonBattle=0x7f050645;
-        public static final int WoodenBow_Gender=0x7f05048c;
-        public static final int WoodenBow_Info=0x7f05048d;
-        public static final int WoodenBow_Name=0x7f05048e;
-        public static final int WoodenCrossbow_Gender=0x7f050646;
-        public static final int WoodenCrossbow_Info=0x7f050647;
-        public static final int WoodenCrossbow_Name=0x7f05048f;
-        public static final int Worm_Desc=0x7f050648;
-        public static final int Worm_Gender=0x7f050490;
-        public static final int Worm_Name=0x7f050491;
-        public static final int Worm_Name_Objective=0x7f050492;
-        public static final int Wraith_Defense=0x7f050493;
-        public static final int Wraith_Desc=0x7f050494;
-        public static final int Wraith_Gender=0x7f050495;
-        public static final int Wraith_Name=0x7f050496;
-        public static final int Wraith_Name_Objective=0x7f050497;
-        public static final int Yog_Desc=0x7f050649;
-        public static final int Yog_Gender=0x7f050498;
-        public static final int Yog_Info1=0x7f050499;
-        public static final int Yog_Info2=0x7f05049a;
-        public static final int Yog_Name=0x7f05049b;
-        public static final int Yog_Name_Objective=0x7f05049c;
-        public static final int YogsBrain_Desc=0x7f05064a;
-        public static final int YogsBrain_Gender=0x7f05049d;
-        public static final int YogsBrain_Name=0x7f05064b;
-        public static final int YogsBrain_Name_Objective=0x7f05064c;
-        public static final int YogsEye_Desc=0x7f05064d;
-        public static final int YogsEye_Gender=0x7f05049e;
-        public static final int YogsEye_Name=0x7f05049f;
-        public static final int YogsEye_Name_Objective=0x7f05064e;
-        public static final int YogsHeart_Desc=0x7f05064f;
-        public static final int YogsHeart_Gender=0x7f050650;
-        public static final int YogsHeart_Name=0x7f050651;
-        public static final int YogsHeart_Name_Objective=0x7f0504a0;
-        public static final int YogsTeeth_Desc=0x7f050652;
-        public static final int YogsTeeth_Gender=0x7f050653;
-        public static final int YogsTeeth_Name=0x7f050654;
-        public static final int YogsTeeth_Name_Objective=0x7f0504a1;
-        public static final int ZombieGnoll_Desc=0x7f050655;
-        public static final int ZombieGnoll_Gender=0x7f0504a2;
-        public static final int ZombieGnoll_Info=0x7f050656;
-        public static final int ZombieGnoll_Name=0x7f050657;
-        public static final int ZombieGnoll_Name_Objective=0x7f050658;
-        public static final int Zombie_Desc=0x7f05066e;
-        public static final int Zombie_Gender=0x7f050659;
-        public static final int Zombie_Name=0x7f05065a;
-        public static final int Zombie_Name_Objective=0x7f05065b;
-        public static final int accept=0x7f050000;
-        public static final int app_name=0x7f0504a3;
-        public static final int common_google_play_services_enable_button=0x7f050001;
-        public static final int common_google_play_services_enable_text=0x7f050002;
-        public static final int common_google_play_services_enable_title=0x7f050003;
-        public static final int common_google_play_services_install_button=0x7f050004;
-        public static final int common_google_play_services_install_text=0x7f050005;
-        public static final int common_google_play_services_install_title=0x7f050006;
-        public static final int common_google_play_services_notification_ticker=0x7f050007;
-        public static final int common_google_play_services_unknown_issue=0x7f050008;
-        public static final int common_google_play_services_unsupported_text=0x7f050009;
-        public static final int common_google_play_services_update_button=0x7f05000a;
-        public static final int common_google_play_services_update_text=0x7f05000b;
-        public static final int common_google_play_services_update_title=0x7f05000c;
-        public static final int common_google_play_services_updating_text=0x7f05000d;
-        public static final int common_google_play_services_wear_update_text=0x7f05000e;
-        public static final int common_open_on_phone=0x7f05000f;
-        public static final int common_signin_button_text=0x7f050010;
-        public static final int common_signin_button_text_long=0x7f050011;
-        public static final int create_calendar_message=0x7f050012;
-        public static final int create_calendar_title=0x7f050013;
-        public static final int debug_menu_ad_information=0x7f050014;
-        public static final int debug_menu_creative_preview=0x7f050015;
-        public static final int debug_menu_title=0x7f050016;
-        public static final int debug_menu_troubleshooting=0x7f050017;
-        public static final int decline=0x7f050018;
-        public static final int default_web_client_id=0x7f0506cd;
-        public static final int easyModeAdUnitId=0x7f0506ce;
-        public static final int easyModeSmallScreenAdUnitId=0x7f0506cf;
-        public static final int firebase_database_url=0x7f0506d0;
-        public static final int gcm_defaultSenderId=0x7f0506d1;
-        public static final int google_api_key=0x7f0506d2;
-        public static final int google_app_id=0x7f0506d3;
-        public static final int google_crash_reporting_api_key=0x7f0506d4;
-        public static final int google_storage_bucket=0x7f0506d5;
-        public static final int iapKey=0x7f0506d6;
-        public static final int saveLoadAdUnitId=0x7f0506d7;
-        public static final int store_picture_message=0x7f050019;
-        public static final int store_picture_title=0x7f05001a;
-        public static final int testDevice=0x7f0506d8;
-        public static final int this_bowknot_gives_additional_attack_skill=0x7f05069f;
+        public static final int AboutScene_Lnk=0x7f07002f;
+        public static final int AboutScene_Mail=0x7f070030;
+        public static final int AboutScene_OurSite=0x7f0704b8;
+        public static final int AboutScene_Snd=0x7f070031;
+        public static final int AboutScene_TranslatedBy=0x7f0704b9;
+        public static final int AboutScene_Txt=0x7f0704ba;
+        public static final int AccessoryInfo=0x7f0706b4;
+        public static final int Acidic_Desc=0x7f070032;
+        public static final int Acidic_Gender=0x7f070033;
+        public static final int Acidic_Name=0x7f070034;
+        public static final int Acidic_Name_Objective=0x7f070035;
+        public static final int Affection_Txt=0x7f070036;
+        public static final int AirElemental_Desc=0x7f070037;
+        public static final int AirElemental_Gender=0x7f070038;
+        public static final int AirElemental_Name=0x7f070039;
+        public static final int AirElemental_Name_Objective=0x7f07003a;
+        public static final int AlarmTrap_Desc=0x7f07003b;
+        public static final int Albino_Desc=0x7f07003c;
+        public static final int Albino_Gender=0x7f07003d;
+        public static final int Albino_Name=0x7f07003e;
+        public static final int Albino_Name_Objective=0x7f07003f;
+        public static final int AlchemyPot_SelectSeed=0x7f070040;
+        public static final int AllowStatisticsCollectionScene_Allow=0x7f070041;
+        public static final int AllowStatisticsCollectionScene_Deny=0x7f070042;
+        public static final int AllowStatisticsCollectionScene_Request=0x7f070043;
+        public static final int AllowStatisticsCollectionScene_Title=0x7f070044;
+        public static final int Amok_Info=0x7f0704bb;
+        public static final int AmuletScene_Exit=0x7f070045;
+        public static final int AmuletScene_Stay=0x7f070046;
+        public static final int AmuletScene_Txt=0x7f070047;
+        public static final int Amulet_ACEnd=0x7f0704bc;
+        public static final int Amulet_Info=0x7f0704bd;
+        public static final int Amulet_Name=0x7f0704be;
+        public static final int Ankh_Info=0x7f0704bf;
+        public static final int Ankh_Name=0x7f0704c0;
+        public static final int AntiEntropy_Txt=0x7f070048;
+        public static final int ArmorKit_ACAplly=0x7f0704c1;
+        public static final int ArmorKit_Info=0x7f0704c2;
+        public static final int ArmorKit_Name=0x7f0704c3;
+        public static final int ArmorKit_SelectArmor=0x7f0704c4;
+        public static final int ArmorKit_Upgraded=0x7f0704c5;
+        public static final int Armor_EquipCursed=0x7f070049;
+        public static final int Armor_Glyph=0x7f07004a;
+        public static final int Armor_Identify=0x7f07004b;
+        public static final int Armor_Incompatible=0x7f07004c;
+        public static final int Armor_Info1=0x7f07004d;
+        public static final int Armor_Info2=0x7f07004e;
+        public static final int Armor_Info3=0x7f07004f;
+        public static final int Armor_Info4=0x7f070050;
+        public static final int Armor_Info5=0x7f070051;
+        public static final int Armor_Info6=0x7f070052;
+        public static final int Armor_Info7a=0x7f070053;
+        public static final int Armor_Info7b=0x7f070054;
+        public static final int Armor_Info8=0x7f070055;
+        public static final int Armor_ToString=0x7f070056;
+        public static final int ArmoredStatue_Desc=0x7f0704c6;
+        public static final int ArmoredStatue_Gender=0x7f0704c7;
+        public static final int ArmoredStatue_Name=0x7f0704c8;
+        public static final int ArmoredStatue_Name_Objective=0x7f0704c9;
+        public static final int Assets_Prefix=0x7f0704ca;
+        public static final int AzuterronNPC_Desc=0x7f0704cb;
+        public static final int AzuterronNPC_Gender=0x7f070057;
+        public static final int AzuterronNPC_Name=0x7f070058;
+        public static final int AzuterronNPC_Name_Objective=0x7f070059;
+        public static final int AzuterronNPC_Quest_End=0x7f0704cc;
+        public static final int AzuterronNPC_Quest_Reminder=0x7f0704cd;
+        public static final int AzuterronNPC_Quest_Start=0x7f0704ce;
+        public static final int BadgesScene_Title=0x7f07005a;
+        public static final int Badges_AllBags=0x7f07005b;
+        public static final int Badges_AllItems=0x7f07005c;
+        public static final int Badges_AllPotions=0x7f07005d;
+        public static final int Badges_AllRings=0x7f07005e;
+        public static final int Badges_AllScrolls=0x7f07005f;
+        public static final int Badges_AllWands=0x7f070060;
+        public static final int Badges_BossSlain1=0x7f070061;
+        public static final int Badges_BossSlain1All=0x7f070062;
+        public static final int Badges_BossSlain2=0x7f070063;
+        public static final int Badges_BossSlain3=0x7f070064;
+        public static final int Badges_BossSlain3All=0x7f070065;
+        public static final int Badges_BossSlain4=0x7f070066;
+        public static final int Badges_Champion=0x7f070067;
+        public static final int Badges_DeathFalling=0x7f070068;
+        public static final int Badges_DeathFire=0x7f070069;
+        public static final int Badges_DeathGas=0x7f07006a;
+        public static final int Badges_DeathGlyph=0x7f07006b;
+        public static final int Badges_DeathHunger=0x7f07006c;
+        public static final int Badges_DeathPoison=0x7f07006d;
+        public static final int Badges_FoodEaten1=0x7f07006e;
+        public static final int Badges_FoodEaten2=0x7f07006f;
+        public static final int Badges_FoodEaten3=0x7f070070;
+        public static final int Badges_FoodEaten4=0x7f070071;
+        public static final int Badges_GamesPlayed1=0x7f070072;
+        public static final int Badges_GamesPlayed2=0x7f070073;
+        public static final int Badges_GamesPlayed3=0x7f070074;
+        public static final int Badges_GamesPlayed4=0x7f070075;
+        public static final int Badges_GoldColleted1=0x7f070076;
+        public static final int Badges_GoldColleted2=0x7f070077;
+        public static final int Badges_GoldColleted3=0x7f070078;
+        public static final int Badges_GoldColleted4=0x7f070079;
+        public static final int Badges_GrimWepon=0x7f07007a;
+        public static final int Badges_HappyEnd=0x7f07007b;
+        public static final int Badges_Immured=0x7f07007c;
+        public static final int Badges_Info1=0x7f07007d;
+        public static final int Badges_Info2=0x7f07007e;
+        public static final int Badges_Info3=0x7f07007f;
+        public static final int Badges_ItemLvl1=0x7f070080;
+        public static final int Badges_ItemLvl2=0x7f070081;
+        public static final int Badges_ItemLvl3=0x7f070082;
+        public static final int Badges_ItemLvl4=0x7f070083;
+        public static final int Badges_LevelReached1=0x7f070084;
+        public static final int Badges_LevelReached2=0x7f070085;
+        public static final int Badges_LevelReached3=0x7f070086;
+        public static final int Badges_LevelReached4=0x7f070087;
+        public static final int Badges_Lich_Slain=0x7f0704cf;
+        public static final int Badges_MasteryCombo=0x7f070088;
+        public static final int Badges_MonsterSlain1=0x7f070089;
+        public static final int Badges_MonsterSlain2=0x7f07008a;
+        public static final int Badges_MonsterSlain3=0x7f07008b;
+        public static final int Badges_MonsterSlain4=0x7f07008c;
+        public static final int Badges_Nidhoggr_Slain=0x7f070683;
+        public static final int Badges_NightHunter=0x7f07008d;
+        public static final int Badges_NoMonsterSlain=0x7f07008e;
+        public static final int Badges_Piranhas=0x7f07008f;
+        public static final int Badges_PotionsCooked1=0x7f070090;
+        public static final int Badges_PotionsCooked2=0x7f070091;
+        public static final int Badges_PotionsCooked3=0x7f070092;
+        public static final int Badges_PotionsCooked4=0x7f070093;
+        public static final int Badges_RareAll=0x7f070094;
+        public static final int Badges_RingHaggler=0x7f070095;
+        public static final int Badges_RingThorns=0x7f070096;
+        public static final int Badges_ShadowLord_Slain=0x7f0704d0;
+        public static final int Badges_SpiderQueen_Slain=0x7f0704d1;
+        public static final int Badges_StrengthAttained1=0x7f070097;
+        public static final int Badges_StrengthAttained2=0x7f070098;
+        public static final int Badges_StrengthAttained3=0x7f070099;
+        public static final int Badges_StrengthAttained4=0x7f07009a;
+        public static final int Badges_Supporter=0x7f07009b;
+        public static final int Badges_Victory=0x7f07009c;
+        public static final int Badges_VictoryAll=0x7f07009d;
+        public static final int Badges_Yasd=0x7f07009e;
+        public static final int Badges_Yog_Slain=0x7f07009f;
+        public static final int Bag_ACOpen=0x7f0704d2;
+        public static final int Bandit_Desc=0x7f0700a0;
+        public static final int Bandit_Gender=0x7f0700a1;
+        public static final int Bandit_Name=0x7f0700a2;
+        public static final int Bandit_Name_Objective=0x7f0700a3;
+        public static final int Barkskin_Info=0x7f0704d3;
+        public static final int Bat_Defense=0x7f0700a4;
+        public static final int Bat_Desc=0x7f0700a5;
+        public static final int Bat_Gender=0x7f0700a6;
+        public static final int Bat_Name=0x7f0700a7;
+        public static final int Bat_Name_Objective=0x7f0700a8;
+        public static final int BattleAxe_Gender=0x7f0700a9;
+        public static final int BattleAxe_Info=0x7f0700aa;
+        public static final int BattleAxe_Name=0x7f0700ab;
+        public static final int Beer_Info=0x7f070684;
+        public static final int Beer_Info1=0x7f070685;
+        public static final int Beer_Info2=0x7f070686;
+        public static final int Beer_Info3=0x7f070687;
+        public static final int Beer_Info4=0x7f070688;
+        public static final int Beer_Message=0x7f070689;
+        public static final int Beer_Name=0x7f07068a;
+        public static final int Belongings_Name=0x7f0704d4;
+        public static final int BlackSkull_Gender=0x7f0704d5;
+        public static final int BlackSkull_Info=0x7f070670;
+        public static final int BlackSkull_Info_Awakened=0x7f070671;
+        public static final int BlackSkull_Name=0x7f0704d6;
+        public static final int BlackSkull_Name_Awakened=0x7f070672;
+        public static final int Blacksmith_Blood1=0x7f0700ac;
+        public static final int Blacksmith_Completed=0x7f0700ad;
+        public static final int Blacksmith_Desc=0x7f0700ae;
+        public static final int Blacksmith_GetLost=0x7f0700af;
+        public static final int Blacksmith_Gold1=0x7f0700b0;
+        public static final int Blacksmith_LooksBetter=0x7f0700b1;
+        public static final int Blacksmith_Name=0x7f0700b2;
+        public static final int Blacksmith_Txt2=0x7f0700b3;
+        public static final int Blacksmith_Txt3=0x7f0700b4;
+        public static final int Blacksmith_Txt4=0x7f0700b5;
+        public static final int Blacksmith_Verify1=0x7f0700b6;
+        public static final int Blacksmith_Verify2=0x7f0700b7;
+        public static final int Blacksmith_Verify3=0x7f0700b8;
+        public static final int Blacksmith_Verify4=0x7f0700b9;
+        public static final int Blacksmith_Verify5=0x7f0700ba;
+        public static final int Blacksmith_Verify6=0x7f0700bb;
+        public static final int BlankScroll_Info=0x7f0700bc;
+        public static final int BlankScroll_Name=0x7f0700bd;
+        public static final int BlankScroll_ReallyBlank=0x7f0700be;
+        public static final int Bleeding_Death=0x7f0700bf;
+        public static final int Bleeding_Info=0x7f0704d7;
+        public static final int Blindness_Info=0x7f0704d8;
+        public static final int BoiledBeer_Info=0x7f07068b;
+        public static final int BoiledBeer_Name=0x7f07068c;
+        public static final int Boomerang_Gender=0x7f0700c0;
+        public static final int Boomerang_Info=0x7f0700c1;
+        public static final int Boomerang_Name=0x7f0700c2;
+        public static final int Bounce_Txt=0x7f0700c3;
+        public static final int Bow_Info1=0x7f0700c4;
+        public static final int Bowknot_Info=0x7f0704d9;
+        public static final int Bowknot_Name=0x7f0704da;
+        public static final int Brute_Desc=0x7f0700c5;
+        public static final int Brute_Enraged=0x7f0700c6;
+        public static final int Brute_Gender=0x7f0700c7;
+        public static final int Brute_Name=0x7f0700c8;
+        public static final int Brute_Name_Objective=0x7f0700c9;
+        public static final int Brute_StaEnraged=0x7f0700ca;
+        public static final int BurningFist_Desc=0x7f0700cb;
+        public static final int BurningFist_Gender=0x7f0700cc;
+        public static final int BurningFist_Name=0x7f0700cd;
+        public static final int BurningFist_Name_Objective=0x7f0700ce;
+        public static final int Burning_Burns=0x7f0704db;
+        public static final int Burning_Death=0x7f0704dc;
+        public static final int Burning_Info=0x7f0704dd;
+        public static final int Capotain_Info=0x7f0704de;
+        public static final int Capotain_Name=0x7f0704df;
+        public static final int Caves_TileDescBookshelf=0x7f0700cf;
+        public static final int Caves_TileDescDeco=0x7f0700d0;
+        public static final int Caves_TileDescEntrance=0x7f0700d1;
+        public static final int Caves_TileDescExit=0x7f0700d2;
+        public static final int Caves_TileDescHighGrass=0x7f0700d3;
+        public static final int Caves_TileGrass=0x7f0700d4;
+        public static final int Caves_TileHighGrass=0x7f0700d5;
+        public static final int Caves_TileWater=0x7f0700d6;
+        public static final int ChaosArmor_Info=0x7f0704e0;
+        public static final int ChaosArmor_Name=0x7f0704e1;
+        public static final int ChaosBow_Gender=0x7f0704e2;
+        public static final int ChaosBow_Info=0x7f0704e3;
+        public static final int ChaosBow_Name=0x7f0704e4;
+        public static final int ChaosCrystal_ArmorFused=0x7f0704e5;
+        public static final int ChaosCrystal_BowFused=0x7f0700d7;
+        public static final int ChaosCrystal_Fuse=0x7f0700d8;
+        public static final int ChaosCrystal_Info=0x7f0700d9;
+        public static final int ChaosCrystal_Info_1=0x7f0700da;
+        public static final int ChaosCrystal_Info_2=0x7f0700db;
+        public static final int ChaosCrystal_Name=0x7f0700dc;
+        public static final int ChaosCrystal_Name_1=0x7f0700dd;
+        public static final int ChaosCrystal_Name_2=0x7f0700de;
+        public static final int ChaosCrystal_Prompt=0x7f0700df;
+        public static final int ChaosCrystal_ScrollFused=0x7f0700e0;
+        public static final int ChaosCrystal_SelectForFuse=0x7f0700e1;
+        public static final int ChaosCrystal_StaffFused=0x7f0700e2;
+        public static final int ChaosCrystal_SwordFused=0x7f0700e3;
+        public static final int ChaosCrystal_Use=0x7f0700e4;
+        public static final int ChaosStaff_Gender=0x7f0704e6;
+        public static final int ChaosStaff_Info=0x7f0704e7;
+        public static final int ChaosStaff_Name=0x7f0704e8;
+        public static final int ChaosSword_Gender=0x7f0704e9;
+        public static final int ChaosSword_Info=0x7f0704ea;
+        public static final int ChaosSword_Name=0x7f0704eb;
+        public static final int Char_Name=0x7f0704ec;
+        public static final int Char_Name_Objective=0x7f0704ed;
+        public static final int Char_OutParalysis=0x7f0700e5;
+        public static final int Char_SmbMissed=0x7f0700e6;
+        public static final int Char_StaAmok=0x7f0700e7;
+        public static final int Char_StaBleeding=0x7f0700e8;
+        public static final int Char_StaCrippled=0x7f0700e9;
+        public static final int Char_StaDizzy=0x7f0700ea;
+        public static final int Char_StaFrightened=0x7f0700eb;
+        public static final int Char_StaInvisible=0x7f0700ec;
+        public static final int Char_StaMind=0x7f0700ed;
+        public static final int Char_StaParalysed=0x7f0700ee;
+        public static final int Char_StaPoisoned=0x7f0700ef;
+        public static final int Char_StaRooted=0x7f0700f0;
+        public static final int Char_StaSlowed=0x7f0700f1;
+        public static final int Char_StaVision=0x7f0700f2;
+        public static final int Char_YouMissed=0x7f0700f3;
+        public static final int ChargrilledMeat_Info=0x7f0700f4;
+        public static final int ChargrilledMeat_Name=0x7f0700f5;
+        public static final int Charm_Info=0x7f0704ee;
+        public static final int Chasm_Chasm=0x7f0700f6;
+        public static final int Chasm_Info=0x7f0700f7;
+        public static final int Chasm_Jump=0x7f0700f8;
+        public static final int Chasm_No=0x7f0700f9;
+        public static final int Chasm_Yes=0x7f0700fa;
+        public static final int City_TileDescBookshelf=0x7f0700fb;
+        public static final int City_TileDescDeco=0x7f0700fc;
+        public static final int City_TileDescEmptySP=0x7f0700fd;
+        public static final int City_TileDescEntrance=0x7f0700fe;
+        public static final int City_TileDescExit=0x7f0700ff;
+        public static final int City_TileDescStatue=0x7f070100;
+        public static final int City_TileHighGrass=0x7f070101;
+        public static final int City_TileWater=0x7f070102;
+        public static final int ClassArmor_Desc=0x7f070103;
+        public static final int ClassArmor_LowHealt=0x7f070104;
+        public static final int ClassArmor_NotEquipped=0x7f070105;
+        public static final int Claymore_Gender=0x7f070106;
+        public static final int Claymore_Info=0x7f0704ef;
+        public static final int Claymore_Name=0x7f0704f0;
+        public static final int ClericArmor_ACSpecial=0x7f07068d;
+        public static final int ClericArmor_Desc=0x7f07068e;
+        public static final int ClericArmor_Name=0x7f07068f;
+        public static final int ClericArmor_NotCleric=0x7f070690;
+        public static final int ClothArmor_Desc=0x7f070107;
+        public static final int ClothArmor_Name=0x7f070108;
+        public static final int Codex_ACRead=0x7f070109;
+        public static final int Codex_Blinded=0x7f07010a;
+        public static final int Codex_Info=0x7f07010b;
+        public static final int Codex_Name=0x7f07010c;
+        public static final int Combo_Combo=0x7f0704f1;
+        public static final int Combo_Info=0x7f0704f2;
+        public static final int CommonArrow_Gender=0x7f07010d;
+        public static final int CommonArrow_Info=0x7f07010e;
+        public static final int CommonArrow_Name=0x7f07010f;
+        public static final int CompositeCrossbow_Gender=0x7f0704f3;
+        public static final int CompositeCrossbow_Info=0x7f0704f4;
+        public static final int CompositeCrossbow_Name=0x7f0704f5;
+        public static final int CompoundBow_Gender=0x7f070110;
+        public static final int CompoundBow_Info=0x7f070111;
+        public static final int CompoundBow_Name=0x7f070112;
+        public static final int ConfusionGas_Info=0x7f0704f6;
+        public static final int CorpseDust_Buff=0x7f0704f7;
+        public static final int CorpseDust_Info=0x7f0704f8;
+        public static final int CorpseDust_Info2=0x7f0704f9;
+        public static final int CorpseDust_Name=0x7f0704fa;
+        public static final int Crab_Defense=0x7f070113;
+        public static final int Crab_Desc=0x7f070114;
+        public static final int Crab_Gender=0x7f070115;
+        public static final int Crab_Name=0x7f070116;
+        public static final int Crab_Name_Objective=0x7f070117;
+        public static final int Cripple_Info=0x7f0704fb;
+        public static final int Crystal_Desc=0x7f070118;
+        public static final int Crystal_Gender=0x7f070119;
+        public static final int Crystal_Name=0x7f07011a;
+        public static final int Crystal_Name_Objective=0x7f07011b;
+        public static final int CurareDart_Gender=0x7f07011c;
+        public static final int CurareDart_Info=0x7f07011d;
+        public static final int CurareDart_Name=0x7f07011e;
+        public static final int DM300_Desc=0x7f07011f;
+        public static final int DM300_Gender=0x7f070120;
+        public static final int DM300_Info1=0x7f070121;
+        public static final int DM300_Info2=0x7f070122;
+        public static final int DM300_Info3=0x7f070123;
+        public static final int DM300_Name=0x7f070124;
+        public static final int DM300_Name_Objective=0x7f070125;
+        public static final int Dagger_Gender=0x7f070126;
+        public static final int Dagger_Info=0x7f070127;
+        public static final int Dagger_Name=0x7f070128;
+        public static final int DarkGold_Info=0x7f0704fc;
+        public static final int DarkGold_Name=0x7f0704fd;
+        public static final int DarkVeil_Buff=0x7f070129;
+        public static final int Darkness_Info=0x7f07012a;
+        public static final int Dart_Gender=0x7f07012b;
+        public static final int Dart_Info=0x7f07012c;
+        public static final int Dart_Name=0x7f07012d;
+        public static final int DeathKnight_Desc=0x7f070673;
+        public static final int DeathKnight_Gender=0x7f0704fe;
+        public static final int DeathKnight_Name=0x7f0704ff;
+        public static final int DeathKnight_Name_Objective=0x7f070500;
+        public static final int DeferedDamage_Defered_Txt=0x7f07012e;
+        public static final int DeferedDamage_Killed_Txt=0x7f07012f;
+        public static final int DewVial_ACDRINK=0x7f070501;
+        public static final int DewVial_AutoDrink=0x7f070502;
+        public static final int DewVial_Collected=0x7f070503;
+        public static final int DewVial_Empty=0x7f070504;
+        public static final int DewVial_Full=0x7f070505;
+        public static final int DewVial_Info=0x7f070506;
+        public static final int DewVial_Name=0x7f070507;
+        public static final int Dewdrop_Info=0x7f070508;
+        public static final int Dewdrop_Name=0x7f070509;
+        public static final int Displacement_Txt=0x7f070130;
+        public static final int DonateButton_pleaseDonate=0x7f070131;
+        public static final int DonateButton_thanks=0x7f070132;
+        public static final int Dragon_Desc=0x7f0706b5;
+        public static final int Dragon_Gender=0x7f0706b6;
+        public static final int Dragon_Info1=0x7f0706b7;
+        public static final int Dragon_Info2=0x7f0706b8;
+        public static final int Dragon_Info3=0x7f0706b9;
+        public static final int Dragon_Name=0x7f0706ba;
+        public static final int Dragon_Name_Objective=0x7f0706bb;
+        public static final int Dragon_Pits_TileDescBookshelf=0x7f0706bc;
+        public static final int Dragon_Pits_TileDescDeco=0x7f0706bd;
+        public static final int Dragon_Pits_TileDescEntrance=0x7f0706be;
+        public static final int Dragon_Pits_TileDescExit=0x7f0706bf;
+        public static final int Dragon_Pits_TileDescStatue=0x7f0706c0;
+        public static final int Dragon_Pits_TileDescWater=0x7f0706c1;
+        public static final int Dragon_Pits_TileGrass=0x7f0706c2;
+        public static final int Dragon_Pits_TileHighGrass=0x7f0706c3;
+        public static final int Dragon_Pits_TileStatue=0x7f0706c4;
+        public static final int Dragon_Pits_TileWater=0x7f0706c5;
+        public static final int DreadKnight_Desc=0x7f070674;
+        public static final int DreadKnight_Gender=0x7f07050a;
+        public static final int DreadKnight_Name=0x7f070675;
+        public static final int DreadKnight_Name_Objective=0x7f070676;
+        public static final int Dreamweed_Desc=0x7f070133;
+        public static final int Dreamweed_Name=0x7f070134;
+        public static final int DriedRose_Buff=0x7f07050b;
+        public static final int DriedRose_CursedBuff=0x7f07050c;
+        public static final int DriedRose_Info=0x7f07050d;
+        public static final int DriedRose_Info2=0x7f07050e;
+        public static final int DriedRose_Name=0x7f070135;
+        public static final int Drink_ACDrink=0x7f070691;
+        public static final int Drink_Message=0x7f070692;
+        public static final int Dungeon_DeadEnd=0x7f070136;
+        public static final int Dungeon_NoTips=0x7f070137;
+        public static final int DwarfToken_Info=0x7f07050f;
+        public static final int DwarfToken_Name=0x7f070510;
+        public static final int EarthElemental_Desc=0x7f070138;
+        public static final int EarthElemental_Gender=0x7f070139;
+        public static final int EarthElemental_Name=0x7f07013a;
+        public static final int EarthElemental_Name_Objective=0x7f07013b;
+        public static final int Earthroot_Buff=0x7f07013c;
+        public static final int Earthroot_Desc=0x7f07013d;
+        public static final int Earthroot_Name=0x7f07013e;
+        public static final int Elemental_Desc=0x7f07013f;
+        public static final int Elemental_Gender=0x7f070140;
+        public static final int Elemental_Name=0x7f070141;
+        public static final int Elemental_Name_Objective=0x7f070142;
+        public static final int ElfArmor_ACSpecial=0x7f070143;
+        public static final int ElfArmor_Desc=0x7f070144;
+        public static final int ElfArmor_Name=0x7f070145;
+        public static final int ElfArmor_NotElf=0x7f070146;
+        public static final int EnslavedSoul_Desc=0x7f070677;
+        public static final int EnslavedSoul_Gender=0x7f070511;
+        public static final int EnslavedSoul_Name=0x7f070512;
+        public static final int EnslavedSoul_Name_Objective=0x7f070513;
+        public static final int Entanglement_Txt=0x7f070147;
+        public static final int EquipableItem_ACEquip=0x7f070514;
+        public static final int EquipableItem_ACUnequip=0x7f070515;
+        public static final int EquipableItem_Unequip=0x7f070516;
+        public static final int ExplodingSkull_Desc=0x7f070678;
+        public static final int ExplodingSkull_Gender=0x7f070517;
+        public static final int ExplodingSkull_Name=0x7f070518;
+        public static final int ExplodingSkull_Name_Objective=0x7f070519;
+        public static final int Eye_Desc=0x7f070148;
+        public static final int Eye_Gender=0x7f070149;
+        public static final int Eye_Kill=0x7f07014a;
+        public static final int Eye_Name=0x7f07014b;
+        public static final int Eye_Name_Objective=0x7f07014c;
+        public static final int Fadeleaf_Desc=0x7f07014d;
+        public static final int Fadeleaf_Name=0x7f07014e;
+        public static final int FakeLastLevel2_TileDescStatue=0x7f07014f;
+        public static final int FakeLastLevel2_TileDescWater=0x7f070150;
+        public static final int FakeLastLevel2_TileGrass=0x7f070151;
+        public static final int FakeLastLevel2_TileHighGrass=0x7f070152;
+        public static final int FakeLastLevel2_TileStatue=0x7f070153;
+        public static final int FakeLastLevel2_TileWater=0x7f070154;
+        public static final int FetidRat_Desc=0x7f070155;
+        public static final int FetidRat_Gender=0x7f070156;
+        public static final int FetidRat_Name=0x7f070157;
+        public static final int FetidRat_Name_Objective=0x7f070158;
+        public static final int Fez_Info=0x7f07051a;
+        public static final int Fez_Name=0x7f07051b;
+        public static final int FireArrow_Gender=0x7f070159;
+        public static final int FireArrow_Info=0x7f07015a;
+        public static final int FireArrow_Name=0x7f07015b;
+        public static final int FireQuiver_Gender=0x7f07015c;
+        public static final int FireQuiver_Info=0x7f07015d;
+        public static final int FireQuiver_Name=0x7f07015e;
+        public static final int Fire_Info=0x7f07015f;
+        public static final int Firebloom_Desc=0x7f070160;
+        public static final int Firebloom_Name=0x7f070161;
+        public static final int Foliage_Info=0x7f07051c;
+        public static final int Food_ACEat=0x7f070162;
+        public static final int Food_Message=0x7f070163;
+        public static final int FrostArrow_Gender=0x7f070164;
+        public static final int FrostArrow_Info=0x7f070165;
+        public static final int FrostArrow_Name=0x7f070166;
+        public static final int Frost_Info=0x7f07051d;
+        public static final int Frost_Shatter=0x7f07051e;
+        public static final int FrozenBeer_Info=0x7f070693;
+        public static final int FrozenBeer_Info1=0x7f070694;
+        public static final int FrozenBeer_Info2=0x7f070695;
+        public static final int FrozenBeer_Info3=0x7f070696;
+        public static final int FrozenBeer_Info4=0x7f070697;
+        public static final int FrozenBeer_Name=0x7f070698;
+        public static final int FrozenCarpaccio_Info=0x7f070167;
+        public static final int FrozenCarpaccio_Info1=0x7f070168;
+        public static final int FrozenCarpaccio_Info2=0x7f070169;
+        public static final int FrozenCarpaccio_Info3=0x7f07016a;
+        public static final int FrozenCarpaccio_Info4=0x7f07016b;
+        public static final int FrozenCarpaccio_Name=0x7f07016c;
+        public static final int Fury_Info=0x7f07051f;
+        public static final int GameScene_Chasm=0x7f07016d;
+        public static final int GameScene_Grass=0x7f07016e;
+        public static final int GameScene_NightMode=0x7f07016f;
+        public static final int GameScene_Secrets=0x7f070170;
+        public static final int GameScene_Water=0x7f070171;
+        public static final int GameScene_Welcome=0x7f070172;
+        public static final int GameScene_WelcomeBack=0x7f070173;
+        public static final int Gargoyle_Defense=0x7f0706c6;
+        public static final int Gargoyle_Desc=0x7f0706c7;
+        public static final int Gargoyle_Gender=0x7f0706c8;
+        public static final int Gargoyle_Name=0x7f0706c9;
+        public static final int Gargoyle_Name_Objective=0x7f0706ca;
+        public static final int GasesImmunity_Info=0x7f070520;
+        public static final int Ghost_Defense=0x7f070174;
+        public static final int Ghost_Desc=0x7f070175;
+        public static final int Ghost_Name=0x7f070176;
+        public static final int Ghost_Rat1=0x7f070177;
+        public static final int Ghost_Rat2=0x7f070178;
+        public static final int Ghost_Rose1=0x7f070179;
+        public static final int Ghost_Rose2=0x7f07017a;
+        public static final int Glaive_Gender=0x7f07017b;
+        public static final int Glaive_Info=0x7f07017c;
+        public static final int Glaive_Name=0x7f07017d;
+        public static final int Gnoll_Desc=0x7f07017e;
+        public static final int Gnoll_Gender=0x7f07017f;
+        public static final int Gnoll_Name=0x7f070180;
+        public static final int Gnoll_Name_Objective=0x7f070181;
+        public static final int Goblin_Defense=0x7f0706cb;
+        public static final int Goblin_Desc=0x7f0706cc;
+        public static final int Goblin_Gender=0x7f0706cd;
+        public static final int Goblin_Name=0x7f0706ce;
+        public static final int Goblin_Name_Objective=0x7f0706cf;
+        public static final int Gold_Collect=0x7f070521;
+        public static final int Gold_Info=0x7f070522;
+        public static final int Gold_Info1=0x7f070523;
+        public static final int Gold_Name=0x7f070524;
+        public static final int GoldenKey_Info=0x7f070525;
+        public static final int GoldenKey_Name=0x7f070182;
+        public static final int GoldenStatue_Desc=0x7f070526;
+        public static final int GoldenStatue_Gender=0x7f070527;
+        public static final int GoldenStatue_Name=0x7f070528;
+        public static final int GoldenStatue_Name_Objective=0x7f070529;
+        public static final int GoldenSword_Gender=0x7f07052a;
+        public static final int GoldenSword_Info=0x7f07052b;
+        public static final int GoldenSword_Name=0x7f07052c;
+        public static final int Golem_Defense=0x7f070183;
+        public static final int Golem_Desc=0x7f070184;
+        public static final int Golem_Gender=0x7f070185;
+        public static final int Golem_Name=0x7f070186;
+        public static final int Golem_Name_Objective=0x7f070187;
+        public static final int Goo_Desc=0x7f070188;
+        public static final int Goo_Gender=0x7f070189;
+        public static final int Goo_Info1=0x7f07018a;
+        public static final int Goo_Info2=0x7f07018b;
+        public static final int Goo_Info3=0x7f07018c;
+        public static final int Goo_Name=0x7f07018d;
+        public static final int Goo_Name_Objective=0x7f07018e;
+        public static final int Goo_StaInfo1=0x7f07018f;
+        public static final int GothicArmor_Info=0x7f07052d;
+        public static final int GothicArmor_Name=0x7f07052e;
+        public static final int Guts_TileDescBookshelf=0x7f07052f;
+        public static final int Guts_TileDescDeco=0x7f070530;
+        public static final int Guts_TileDescEntrance=0x7f070531;
+        public static final int Guts_TileDescExit=0x7f070532;
+        public static final int Guts_TileGrass=0x7f070533;
+        public static final int Guts_TileHighGrass=0x7f070534;
+        public static final int Guts_TileWater=0x7f070535;
+        public static final int Halberd_Gender=0x7f070536;
+        public static final int Halberd_Info=0x7f070537;
+        public static final int Halberd_Name=0x7f070538;
+        public static final int Halls_TileDescBookshelf=0x7f070190;
+        public static final int Halls_TileDescStatue=0x7f070191;
+        public static final int Halls_TileDescWater=0x7f070192;
+        public static final int Halls_TileGrass=0x7f070193;
+        public static final int Halls_TileHighGrass=0x7f070194;
+        public static final int Halls_TileStatue=0x7f070195;
+        public static final int Halls_TileWater=0x7f070196;
+        public static final int Heap_Mimic=0x7f070539;
+        public static final int HeartOfDarkness_Gender=0x7f070699;
+        public static final int HeartOfDarkness_Info=0x7f07053a;
+        public static final int HeartOfDarkness_Name=0x7f070197;
+        public static final int Hedgehog_Desc=0x7f070198;
+        public static final int Hedgehog_ImLate=0x7f070199;
+        public static final int Hedgehog_Info1=0x7f07019a;
+        public static final int Hedgehog_Info2=0x7f07019b;
+        public static final int Hedgehog_Info3=0x7f07019c;
+        public static final int Hedgehog_Info4=0x7f07019d;
+        public static final int Hedgehog_Name=0x7f07019e;
+        public static final int HeroClass_Cleric=0x7f07069a;
+        public static final int HeroClass_Elf=0x7f07019f;
+        public static final int HeroClass_Hun=0x7f0701a0;
+        public static final int HeroClass_Mag=0x7f0701a1;
+        public static final int HeroClass_Rog=0x7f0701a2;
+        public static final int HeroClass_War=0x7f0701a3;
+        public static final int HeroSubClass_DescArcPriest=0x7f07069b;
+        public static final int HeroSubClass_DescAssa=0x7f0701a4;
+        public static final int HeroSubClass_DescBatM=0x7f0701a5;
+        public static final int HeroSubClass_DescBers=0x7f0701a6;
+        public static final int HeroSubClass_DescFreR=0x7f0701a7;
+        public static final int HeroSubClass_DescGlad=0x7f0701a8;
+        public static final int HeroSubClass_DescPaladin=0x7f07069c;
+        public static final int HeroSubClass_DescScout=0x7f0701a9;
+        public static final int HeroSubClass_DescShaman=0x7f0701aa;
+        public static final int HeroSubClass_DescSnip=0x7f0701ab;
+        public static final int HeroSubClass_DescWarL=0x7f0701ac;
+        public static final int HeroSubClass_DescWard=0x7f0701ad;
+        public static final int HeroSubClass_NameArcPriest=0x7f07069d;
+        public static final int HeroSubClass_NameAssa=0x7f0701ae;
+        public static final int HeroSubClass_NameBatM=0x7f0701af;
+        public static final int HeroSubClass_NameBers=0x7f0701b0;
+        public static final int HeroSubClass_NameFreR=0x7f0701b1;
+        public static final int HeroSubClass_NameGlad=0x7f0701b2;
+        public static final int HeroSubClass_NamePaladin=0x7f07069e;
+        public static final int HeroSubClass_NameScout=0x7f0701b3;
+        public static final int HeroSubClass_NameShaman=0x7f0701b4;
+        public static final int HeroSubClass_NameSnip=0x7f0701b5;
+        public static final int HeroSubClass_NameWarL=0x7f0701b6;
+        public static final int HeroSubClass_NameWard=0x7f0701b7;
+        public static final int Hero_Leave=0x7f0701b8;
+        public static final int Hero_LevelUp=0x7f0701b9;
+        public static final int Hero_LockedChest=0x7f0701ba;
+        public static final int Hero_LockedDoor=0x7f0701bb;
+        public static final int Hero_Name=0x7f0701bc;
+        public static final int Hero_Name_Objective=0x7f0701bd;
+        public static final int Hero_NewLevel=0x7f0701be;
+        public static final int Hero_NoticedSmth=0x7f0701bf;
+        public static final int Hero_Search=0x7f0701c0;
+        public static final int Hero_SomethingElse=0x7f0701c1;
+        public static final int Hero_StaBleeding=0x7f0701c2;
+        public static final int Hero_StaBlindness=0x7f0701c3;
+        public static final int Hero_StaBurning=0x7f0701c4;
+        public static final int Hero_StaCharm=0x7f0701c5;
+        public static final int Hero_StaCripple=0x7f0701c6;
+        public static final int Hero_StaFurious=0x7f0701c7;
+        public static final int Hero_StaFury=0x7f0701c8;
+        public static final int Hero_StaOoze=0x7f0701c9;
+        public static final int Hero_StaParalysis=0x7f0701ca;
+        public static final int Hero_StaPoison=0x7f0701cb;
+        public static final int Hero_StaRoots=0x7f0701cc;
+        public static final int Hero_StaVertigo=0x7f0701cd;
+        public static final int Hero_StaWeakness=0x7f0701ce;
+        public static final int Hero_Wait=0x7f0701cf;
+        public static final int Hero_YouNowHave=0x7f0701d0;
+        public static final int Hunger_Death=0x7f0701d1;
+        public static final int Hunger_Info1=0x7f07053b;
+        public static final int Hunger_Info2=0x7f07053c;
+        public static final int HuntressArmor_ACSpecial=0x7f0701d2;
+        public static final int HuntressArmor_Desc=0x7f0701d3;
+        public static final int HuntressArmor_Name=0x7f0701d4;
+        public static final int HuntressArmor_NoEnemies=0x7f0701d5;
+        public static final int HuntressArmor_NotHuntress=0x7f0701d6;
+        public static final int Icecap_Desc=0x7f0701d7;
+        public static final int Icecap_Name=0x7f0701d8;
+        public static final int ImpShopkeeper_Desc=0x7f0701d9;
+        public static final int ImpShopkeeper_Greetings=0x7f0701da;
+        public static final int ImpShopkeeper_Name=0x7f0701db;
+        public static final int Imp_Cya=0x7f0701dc;
+        public static final int Imp_Defense=0x7f0701dd;
+        public static final int Imp_Desc=0x7f0701de;
+        public static final int Imp_Golems1=0x7f0701df;
+        public static final int Imp_Golems2=0x7f0701e0;
+        public static final int Imp_Hey=0x7f0701e1;
+        public static final int Imp_Monks1=0x7f0701e2;
+        public static final int Imp_Monks2=0x7f0701e3;
+        public static final int Imp_Name=0x7f0701e4;
+        public static final int IncendiaryDart_Gender=0x7f0701e5;
+        public static final int IncendiaryDart_Info=0x7f0701e6;
+        public static final int IncendiaryDart_Name=0x7f0701e7;
+        public static final int InterLevelScene_Ascending=0x7f0701e8;
+        public static final int InterLevelScene_Descending=0x7f0701e9;
+        public static final int InterLevelScene_ErrorGeneric=0x7f0701ea;
+        public static final int InterLevelScene_Falling=0x7f0701eb;
+        public static final int InterLevelScene_FileNotFound=0x7f0701ec;
+        public static final int InterLevelScene_Loading=0x7f0701ed;
+        public static final int InterLevelScene_Resurrecting=0x7f0701ee;
+        public static final int InterLevelScene_Returning=0x7f0701ef;
+        public static final int IntroScene_Txt=0x7f07053d;
+        public static final int InventoryScroll_No=0x7f0701f0;
+        public static final int InventoryScroll_Title=0x7f0701f1;
+        public static final int InventoryScroll_Warning=0x7f0701f2;
+        public static final int InventoryScroll_Yes=0x7f0701f3;
+        public static final int Invisibility_Info=0x7f0701f4;
+        public static final int IronKey_FromDepth=0x7f07053e;
+        public static final int IronKey_Info=0x7f07053f;
+        public static final int IronKey_Name=0x7f0701f5;
+        public static final int ItemSprite_Info1=0x7f070540;
+        public static final int Item_ACDrop=0x7f070541;
+        public static final int Item_ACThrow=0x7f0701f6;
+        public static final int Item_DirThrow=0x7f070542;
+        public static final int Item_Info=0x7f070543;
+        public static final int Item_Name=0x7f070544;
+        public static final int Item_PackFull=0x7f070545;
+        public static final int JarOfSouls_Desc=0x7f070679;
+        public static final int JarOfSouls_Gender=0x7f070546;
+        public static final int JarOfSouls_Name=0x7f070547;
+        public static final int JarOfSouls_Name_Objective=0x7f070548;
+        public static final int Javelin_Gender=0x7f0701f7;
+        public static final int Javelin_Info=0x7f0701f8;
+        public static final int Javelin_Name=0x7f0701f9;
+        public static final int Journal_Alchemy=0x7f0701fa;
+        public static final int Journal_Azuterron=0x7f0701fb;
+        public static final int Journal_Garden=0x7f0701fc;
+        public static final int Journal_Ghost=0x7f0701fd;
+        public static final int Journal_Imp=0x7f0701fe;
+        public static final int Journal_Statue=0x7f0701ff;
+        public static final int Journal_Troll=0x7f070200;
+        public static final int Journal_Wandmaker=0x7f070201;
+        public static final int Journal_WellAwareness=0x7f070202;
+        public static final int Journal_WellHealt=0x7f070203;
+        public static final int Journal_WellTransmut=0x7f070204;
+        public static final int Keyring_Info=0x7f070549;
+        public static final int Keyring_Name=0x7f07054a;
+        public static final int KindOfWeapon_EquipCursed=0x7f07054b;
+        public static final int King_Defense=0x7f070205;
+        public static final int King_Desc=0x7f070206;
+        public static final int King_Gender=0x7f070207;
+        public static final int King_Info1=0x7f070208;
+        public static final int King_Info2=0x7f070209;
+        public static final int King_Info3=0x7f07020a;
+        public static final int King_Name=0x7f07020b;
+        public static final int King_Name_Objective=0x7f07020c;
+        public static final int Knuckles_Gender=0x7f07020d;
+        public static final int Knuckles_Info=0x7f07020e;
+        public static final int Knuckles_Name=0x7f07020f;
+        public static final int Kusarigama_Gender=0x7f07054c;
+        public static final int Kusarigama_Info=0x7f07054d;
+        public static final int Kusarigama_Name=0x7f07054e;
+        public static final int Kusarigama_Pull=0x7f07054f;
+        public static final int Larva_Desc=0x7f070210;
+        public static final int Larva_Gender=0x7f070211;
+        public static final int Larva_Name=0x7f070212;
+        public static final int Larva_Name_Objective=0x7f070213;
+        public static final int LastShopLevel_TileDescDeco=0x7f070214;
+        public static final int LastShopLevel_TileDescEmptySP=0x7f070215;
+        public static final int LastShopLevel_TileDescEntrance=0x7f070216;
+        public static final int LastShopLevel_TileDescExit=0x7f070217;
+        public static final int LastShopLevel_TileHighGrass=0x7f070218;
+        public static final int LastShopLevel_TileWater=0x7f070219;
+        public static final int LeatherArmor_Desc=0x7f07021a;
+        public static final int LeatherArmor_Name=0x7f07021b;
+        public static final int Level_HiddenPlate=0x7f07021c;
+        public static final int Level_TileAlarmTrap=0x7f07021d;
+        public static final int Level_TileAlchemy=0x7f07021e;
+        public static final int Level_TileBarricade=0x7f07021f;
+        public static final int Level_TileBookshelf=0x7f070220;
+        public static final int Level_TileChasm=0x7f070221;
+        public static final int Level_TileClosedDoor=0x7f070222;
+        public static final int Level_TileDefault=0x7f070223;
+        public static final int Level_TileDescAlchemy=0x7f070224;
+        public static final int Level_TileDescBarricade=0x7f070225;
+        public static final int Level_TileDescChasm=0x7f070226;
+        public static final int Level_TileDescEmbers=0x7f070227;
+        public static final int Level_TileDescEmptyWell=0x7f070228;
+        public static final int Level_TileDescEntrance=0x7f070229;
+        public static final int Level_TileDescExit=0x7f07022a;
+        public static final int Level_TileDescHighGrass=0x7f07022b;
+        public static final int Level_TileDescInactiveTrap=0x7f07022c;
+        public static final int Level_TileDescLockedDoor=0x7f07022d;
+        public static final int Level_TileDescLockedExit=0x7f07022e;
+        public static final int Level_TileDescSign=0x7f07022f;
+        public static final int Level_TileDescStatue=0x7f070230;
+        public static final int Level_TileDescTrap=0x7f070231;
+        public static final int Level_TileDescWater=0x7f070232;
+        public static final int Level_TileEmbers=0x7f070233;
+        public static final int Level_TileEmptyWell=0x7f070234;
+        public static final int Level_TileEntrance=0x7f070235;
+        public static final int Level_TileExit=0x7f070236;
+        public static final int Level_TileFireTrap=0x7f070237;
+        public static final int Level_TileFloor=0x7f070238;
+        public static final int Level_TileGrass=0x7f070239;
+        public static final int Level_TileGrippingTrap=0x7f07023a;
+        public static final int Level_TileHighGrass=0x7f07023b;
+        public static final int Level_TileInactiveTrap=0x7f07023c;
+        public static final int Level_TileLightningTrap=0x7f07023d;
+        public static final int Level_TileLockedDoor=0x7f07023e;
+        public static final int Level_TileLockedExit=0x7f07023f;
+        public static final int Level_TileOpenDoor=0x7f070240;
+        public static final int Level_TileParalyticTrap=0x7f070241;
+        public static final int Level_TilePedestal=0x7f070242;
+        public static final int Level_TilePoisonTrap=0x7f070243;
+        public static final int Level_TilePortal=0x7f0706d0;
+        public static final int Level_TileSign=0x7f070244;
+        public static final int Level_TileStatue=0x7f070245;
+        public static final int Level_TileSummoningTrap=0x7f070246;
+        public static final int Level_TileToxicTrap=0x7f070247;
+        public static final int Level_TileUnlockedExit=0x7f070248;
+        public static final int Level_TileWall=0x7f070249;
+        public static final int Level_TileWater=0x7f07024a;
+        public static final int Level_TileWell=0x7f07024b;
+        public static final int Levitation_Info=0x7f070550;
+        public static final int Lich_Desc=0x7f07067a;
+        public static final int Lich_Gender=0x7f070551;
+        public static final int Lich_Name=0x7f070552;
+        public static final int Lich_Name_Objective=0x7f070553;
+        public static final int Light_Info=0x7f070554;
+        public static final int LightningTrap_Desc=0x7f07024c;
+        public static final int LightningTrap_Name=0x7f07024d;
+        public static final int LloidsBeacon_ACReturn=0x7f070555;
+        public static final int LloidsBeacon_ACSet=0x7f070556;
+        public static final int LloidsBeacon_Creatures=0x7f070557;
+        public static final int LloidsBeacon_Info=0x7f070558;
+        public static final int LloidsBeacon_Name=0x7f070559;
+        public static final int LloidsBeacon_Preventing=0x7f07055a;
+        public static final int LloidsBeacon_Return=0x7f07055b;
+        public static final int LloidsBeacon_Set=0x7f07055c;
+        public static final int Longsword_Gender=0x7f07024e;
+        public static final int Longsword_Info=0x7f07024f;
+        public static final int Longsword_Name=0x7f070250;
+        public static final int Mace_Gender=0x7f070251;
+        public static final int Mace_Info=0x7f070252;
+        public static final int Mace_Name=0x7f070253;
+        public static final int MageArmor_ACSpecial=0x7f070254;
+        public static final int MageArmor_Desc=0x7f070255;
+        public static final int MageArmor_Name=0x7f070256;
+        public static final int MageArmor_NotMage=0x7f070257;
+        public static final int MailArmor_Desc=0x7f070258;
+        public static final int MailArmor_Name=0x7f070259;
+        public static final int MeleeWeapon_Info1a=0x7f07025a;
+        public static final int MeleeWeapon_Info1b=0x7f07025b;
+        public static final int MeleeWeapon_Info1c=0x7f07025c;
+        public static final int MeleeWeapon_Info1d=0x7f07025d;
+        public static final int MeleeWeapon_Info2a=0x7f07025e;
+        public static final int MeleeWeapon_Info2b=0x7f07025f;
+        public static final int MeleeWeapon_Info2c=0x7f070260;
+        public static final int MeleeWeapon_Info3a=0x7f070261;
+        public static final int MeleeWeapon_Info3b=0x7f070262;
+        public static final int MeleeWeapon_Info3c=0x7f070263;
+        public static final int MeleeWeapon_Info3d=0x7f070264;
+        public static final int MeleeWeapon_Info3e=0x7f070265;
+        public static final int MeleeWeapon_Info3f=0x7f070266;
+        public static final int MeleeWeapon_Info3g=0x7f070267;
+        public static final int MeleeWeapon_Info4a=0x7f070268;
+        public static final int MeleeWeapon_Info4b=0x7f070269;
+        public static final int MeleeWeapon_Info5=0x7f07026a;
+        public static final int MeleeWeapon_Info6a=0x7f07026b;
+        public static final int MeleeWeapon_Info6b=0x7f07026c;
+        public static final int MeleeWeapon_Info7a=0x7f07026d;
+        public static final int MeleeWeapon_Info7b=0x7f07026e;
+        public static final int MeleeWeapon_Info7c=0x7f07026f;
+        public static final int Metabolism_Txt=0x7f070270;
+        public static final int MimicAmulet_Desc=0x7f07055d;
+        public static final int MimicAmulet_Gender=0x7f070271;
+        public static final int MimicAmulet_Name=0x7f070272;
+        public static final int MimicAmulet_Name_Objective=0x7f070273;
+        public static final int MimicPie_Desc=0x7f070274;
+        public static final int MimicPie_Gender=0x7f070275;
+        public static final int MimicPie_Name=0x7f070276;
+        public static final int MimicPie_Name_Objective=0x7f070277;
+        public static final int Mimic_Desc=0x7f070278;
+        public static final int Mimic_Gender=0x7f070279;
+        public static final int Mimic_Name=0x7f07027a;
+        public static final int Mimic_Name_Objective=0x7f07027b;
+        public static final int MindVision_Info=0x7f07055e;
+        public static final int MirrorImage_Desc=0x7f07027c;
+        public static final int MirrorImage_Gender=0x7f07027d;
+        public static final int MirrorImage_Name=0x7f07027e;
+        public static final int MirrorImage_Name_Objective=0x7f07027f;
+        public static final int MissileWeapon_Info1=0x7f070280;
+        public static final int MissileWeapon_Info2=0x7f070281;
+        public static final int MissileWeapon_Info3=0x7f070282;
+        public static final int MissileWeapon_Info4=0x7f070283;
+        public static final int MissileWeapon_Missiles=0x7f070284;
+        public static final int MissileWeapon_No=0x7f070285;
+        public static final int MissileWeapon_Sure=0x7f070286;
+        public static final int MissileWeapon_Yes=0x7f070287;
+        public static final int Mob_Desc=0x7f070288;
+        public static final int Mob_Died=0x7f070289;
+        public static final int Mob_StaFleeingStatus=0x7f07028a;
+        public static final int Mob_StaHuntingStatus=0x7f07028b;
+        public static final int Mob_StaPassiveStatus=0x7f07028c;
+        public static final int Mob_StaSleepingStatus=0x7f07028d;
+        public static final int Mob_StaWanderingStatus=0x7f07028e;
+        public static final int Mob_Yell=0x7f07028f;
+        public static final int Mod_Author=0x7f0706d1;
+        public static final int Mod_Description=0x7f0706d2;
+        public static final int Mod_Email=0x7f0706d3;
+        public static final int Mod_Link=0x7f0706d4;
+        public static final int Mod_Name=0x7f0706d5;
+        public static final int ModsButton_SelectMod=0x7f07055f;
+        public static final int Mods_AuthorEmail=0x7f070290;
+        public static final int Mods_AuthorSite=0x7f070291;
+        public static final int Mods_CreatedBy=0x7f070292;
+        public static final int Mods_RestartRequired=0x7f070293;
+        public static final int Monk_Defense=0x7f070294;
+        public static final int Monk_Desc=0x7f070295;
+        public static final int Monk_Disarm=0x7f070296;
+        public static final int Monk_Gender=0x7f070297;
+        public static final int Monk_Name=0x7f070298;
+        public static final int Monk_Name_Objective=0x7f070299;
+        public static final int Multiplicity_Txt=0x7f07029a;
+        public static final int MysteryMeat_Info=0x7f07029b;
+        public static final int MysteryMeat_Info1=0x7f07029c;
+        public static final int MysteryMeat_Info2=0x7f07029d;
+        public static final int MysteryMeat_Info3=0x7f07029e;
+        public static final int MysteryMeat_Info4=0x7f07029f;
+        public static final int MysteryMeat_Message=0x7f0702a0;
+        public static final int MysteryMeat_Name=0x7f0702a1;
+        public static final int NecromancerNPC_Desc=0x7f070560;
+        public static final int NecromancerNPC_Gender=0x7f070561;
+        public static final int NecromancerNPC_Intro=0x7f070562;
+        public static final int NecromancerNPC_Intro2=0x7f07067b;
+        public static final int NecromancerNPC_Message1=0x7f070563;
+        public static final int NecromancerNPC_Message2=0x7f070564;
+        public static final int NecromancerNPC_Message3=0x7f070565;
+        public static final int NecromancerNPC_Message4=0x7f070566;
+        public static final int NecromancerNPC_Name=0x7f070567;
+        public static final int NecromancerNPC_Name_Objective=0x7f070568;
+        public static final int NekoEars_Info=0x7f070569;
+        public static final int NekoEars_Name=0x7f07056a;
+        public static final int Neko_Ears_gives_5_additional_HP=0x7f0706d6;
+        public static final int Nightcap_Info=0x7f07056b;
+        public static final int Nightcap_Name=0x7f07056c;
+        public static final int Nightmare_Desc=0x7f07056d;
+        public static final int Nightmare_Gender=0x7f0702a2;
+        public static final int Nightmare_Name=0x7f07056e;
+        public static final int Nightmare_Name_Objective=0x7f07056f;
+        public static final int Ooze_Death=0x7f070570;
+        public static final int Ooze_Info=0x7f070571;
+        public static final int OverpricedRation_Info=0x7f0702a3;
+        public static final int OverpricedRation_Message=0x7f0702a4;
+        public static final int OverpricedRation_Name=0x7f0702a5;
+        public static final int ParalysisArrow_Gender=0x7f0702a6;
+        public static final int ParalysisArrow_Info=0x7f0702a7;
+        public static final int ParalysisArrow_Name=0x7f0702a8;
+        public static final int ParalysisQuiver_Gender=0x7f0702a9;
+        public static final int ParalysisQuiver_Info=0x7f0702aa;
+        public static final int ParalysisQuiver_Name=0x7f0702ab;
+        public static final int Paralysis_Info=0x7f070572;
+        public static final int ParalyticGas_Info=0x7f070573;
+        public static final int Pasty_Info=0x7f0702ac;
+        public static final int Pasty_Name=0x7f0702ad;
+        public static final int Pet_Desc=0x7f0706d7;
+        public static final int Pet_Gender=0x7f0706d8;
+        public static final int Pet_Name=0x7f0706d9;
+        public static final int Pet_Name_Objective=0x7f0706da;
+        public static final int Pickaxe_ACMine=0x7f070574;
+        public static final int Pickaxe_Gender=0x7f0702ae;
+        public static final int Pickaxe_Info=0x7f070575;
+        public static final int Pickaxe_Name=0x7f0702af;
+        public static final int Pickaxe_NoVein=0x7f070576;
+        public static final int Piranha_Desc=0x7f0702b0;
+        public static final int Piranha_Gender=0x7f0702b1;
+        public static final int Piranha_Name=0x7f0702b2;
+        public static final int Piranha_Name_Objective=0x7f0702b3;
+        public static final int PirateSet_Info=0x7f070577;
+        public static final int PirateSet_Name=0x7f070578;
+        public static final int Plant_ACPlant=0x7f0702b4;
+        public static final int Plant_Info=0x7f0702b5;
+        public static final int Plant_Seed=0x7f0702b6;
+        public static final int PlateArmor_Desc=0x7f0702b7;
+        public static final int PlateArmor_Name=0x7f0702b8;
+        public static final int PoisonArrow_Gender=0x7f0702b9;
+        public static final int PoisonArrow_Info=0x7f0702ba;
+        public static final int PoisonArrow_Name=0x7f0702bb;
+        public static final int PoisonQuiver_Info=0x7f0702bc;
+        public static final int PoisonQuiver_Name=0x7f0702bd;
+        public static final int Poison_Death=0x7f070579;
+        public static final int Poison_Info=0x7f0702be;
+        public static final int Poisonuiver_Gender=0x7f0702bf;
+        public static final int Potential_Txt=0x7f0702c0;
+        public static final int PotionBelt_Info=0x7f07057a;
+        public static final int PotionBelt_Name=0x7f07057b;
+        public static final int PotionOfExperience_Info=0x7f0702c1;
+        public static final int PotionOfExperience_Name=0x7f0702c2;
+        public static final int PotionOfFrost_Info=0x7f0702c3;
+        public static final int PotionOfFrost_Name=0x7f0702c4;
+        public static final int PotionOfHealing_Apply=0x7f0702c5;
+        public static final int PotionOfHealing_Info=0x7f0702c6;
+        public static final int PotionOfHealing_Name=0x7f0702c7;
+        public static final int PotionOfInvisibility_Apply=0x7f0702c8;
+        public static final int PotionOfInvisibility_Info=0x7f0702c9;
+        public static final int PotionOfInvisibility_Name=0x7f0702ca;
+        public static final int PotionOfLevitation_Apply=0x7f0702cb;
+        public static final int PotionOfLevitation_Info=0x7f0702cc;
+        public static final int PotionOfLevitation_Name=0x7f0702cd;
+        public static final int PotionOfLiquidFlame_Info=0x7f0702ce;
+        public static final int PotionOfLiquidFlame_Name=0x7f0702cf;
+        public static final int PotionOfMight_Apply=0x7f0702d0;
+        public static final int PotionOfMight_Info=0x7f0702d1;
+        public static final int PotionOfMight_Name=0x7f0702d2;
+        public static final int PotionOfMight_StaApply=0x7f0702d3;
+        public static final int PotionOfMindVision_Apply1=0x7f0702d4;
+        public static final int PotionOfMindVision_Apply2=0x7f0702d5;
+        public static final int PotionOfMindVision_Info=0x7f0702d6;
+        public static final int PotionOfMindVision_Name=0x7f0702d7;
+        public static final int PotionOfParalyticGas_Info=0x7f0702d8;
+        public static final int PotionOfParalyticGas_Name=0x7f0702d9;
+        public static final int PotionOfPurity_Freshness=0x7f0702da;
+        public static final int PotionOfPurity_Info=0x7f0702db;
+        public static final int PotionOfPurity_Name=0x7f0702dc;
+        public static final int PotionOfPurity_NoSmell=0x7f0702dd;
+        public static final int PotionOfStrength_Apply=0x7f0702de;
+        public static final int PotionOfStrength_Info=0x7f0702df;
+        public static final int PotionOfStrength_Name=0x7f0702e0;
+        public static final int PotionOfStrength_StaApply=0x7f0702e1;
+        public static final int PotionOfToxicGas_Info=0x7f0702e2;
+        public static final int PotionOfToxicGas_Name=0x7f0702e3;
+        public static final int Potion_ACDrink=0x7f0702e4;
+        public static final int Potion_ACMoisten=0x7f0702e5;
+        public static final int Potion_ArrowMoisten=0x7f0702e6;
+        public static final int Potion_Beneficial=0x7f0702e7;
+        public static final int Potion_DrinkRefreshed=0x7f07069f;
+        public static final int Potion_FoodRefreshed=0x7f0702e8;
+        public static final int Potion_Harmfull=0x7f0702e9;
+        public static final int Potion_Info=0x7f0702ea;
+        public static final int Potion_ItemFliesAway=0x7f0702eb;
+        public static final int Potion_MoistenUseless=0x7f0702ec;
+        public static final int Potion_Name=0x7f0702ed;
+        public static final int Potion_No=0x7f0702ee;
+        public static final int Potion_RuneDissaperaed=0x7f0702ef;
+        public static final int Potion_SelectForMoisten=0x7f0702f0;
+        public static final int Potion_Shatter=0x7f0702f1;
+        public static final int Potion_SureDrink=0x7f0702f2;
+        public static final int Potion_SureThrow=0x7f0702f3;
+        public static final int Potion_Yes=0x7f0702f4;
+        public static final int Prison_TileDescBookshelf=0x7f0702f5;
+        public static final int Prison_TileDescDeco=0x7f0702f6;
+        public static final int Prison_TileWater=0x7f0702f7;
+        public static final int PseudoPasty_Info=0x7f0702f8;
+        public static final int PseudoPasty_Name=0x7f0702f9;
+        public static final int PseudoRat_Desc=0x7f07057c;
+        public static final int PseudoRat_Gender=0x7f0702fa;
+        public static final int PseudoRat_Name=0x7f07057d;
+        public static final int PseudoRat_Name_Objective=0x7f07057e;
+        public static final int Pumpkin_Info=0x7f07057f;
+        public static final int Pumpkin_Name=0x7f070580;
+        public static final int Quarterstaff_Gender=0x7f0702fb;
+        public static final int Quarterstaff_Info=0x7f0702fc;
+        public static final int Quarterstaff_Name=0x7f0702fd;
+        public static final int QuickSlot_SelectedItem=0x7f070581;
+        public static final int Quiver_Gender=0x7f0702fe;
+        public static final int Quiver_Info=0x7f0702ff;
+        public static final int Quiver_Name=0x7f070300;
+        public static final int RabbitEars_Info=0x7f070582;
+        public static final int RabbitEars_Name=0x7f070583;
+        public static final int RankingsScene_NoGames=0x7f070301;
+        public static final int RankingsScene_NoInfo=0x7f070302;
+        public static final int RankingsScene_Title=0x7f070303;
+        public static final int RankingsScene_Total=0x7f070304;
+        public static final int RatKingCrown_Buff=0x7f070584;
+        public static final int RatKingCrown_Info=0x7f070585;
+        public static final int RatKingCrown_Name=0x7f070586;
+        public static final int RatKing_Desc=0x7f070305;
+        public static final int RatKing_Died=0x7f070306;
+        public static final int RatKing_Gender=0x7f070587;
+        public static final int RatKing_Info1=0x7f070307;
+        public static final int RatKing_Info2=0x7f070308;
+        public static final int RatKing_Info3=0x7f070309;
+        public static final int RatKing_Name=0x7f07030a;
+        public static final int RatKing_Name_Objective=0x7f070588;
+        public static final int RatSkull_Buff=0x7f070589;
+        public static final int RatSkull_Info=0x7f07058a;
+        public static final int RatSkull_Info2=0x7f07058b;
+        public static final int RatSkull_Name=0x7f07030b;
+        public static final int Rat_Desc=0x7f07030c;
+        public static final int Rat_Gender=0x7f07030d;
+        public static final int Rat_Name=0x7f07030e;
+        public static final int Rat_Name_Objective=0x7f07030f;
+        public static final int Ration_Info=0x7f070310;
+        public static final int Ration_Name=0x7f070311;
+        public static final int ReMakePixelDungeonApp_sendCrash=0x7f0706a0;
+        public static final int ResultDescriptions_Bleeding=0x7f070312;
+        public static final int ResultDescriptions_Boss=0x7f070313;
+        public static final int ResultDescriptions_Burning=0x7f070314;
+        public static final int ResultDescriptions_Fall=0x7f070315;
+        public static final int ResultDescriptions_Gas=0x7f070316;
+        public static final int ResultDescriptions_Glyph=0x7f070317;
+        public static final int ResultDescriptions_Hunger=0x7f070318;
+        public static final int ResultDescriptions_Immured=0x7f070319;
+        public static final int ResultDescriptions_Mob=0x7f07031a;
+        public static final int ResultDescriptions_Ooze=0x7f07031b;
+        public static final int ResultDescriptions_Poison=0x7f07031c;
+        public static final int ResultDescriptions_Trap=0x7f07031d;
+        public static final int ResultDescriptions_Wand=0x7f07031e;
+        public static final int ResultDescriptions_Win=0x7f07031f;
+        public static final int RingOfAccuracy_Info=0x7f070320;
+        public static final int RingOfAccuracy_Name=0x7f070321;
+        public static final int RingOfDetection_Info=0x7f070322;
+        public static final int RingOfDetection_Name=0x7f070323;
+        public static final int RingOfElements_Info=0x7f070324;
+        public static final int RingOfElements_Name=0x7f070325;
+        public static final int RingOfEvasion_Info=0x7f070326;
+        public static final int RingOfEvasion_Name=0x7f070327;
+        public static final int RingOfHaggler_Info=0x7f070328;
+        public static final int RingOfHaggler_Name=0x7f070329;
+        public static final int RingOfHaste_Info=0x7f07032a;
+        public static final int RingOfHaste_Name=0x7f07032b;
+        public static final int RingOfHerbalism_Info=0x7f07032c;
+        public static final int RingOfHerbalism_Name=0x7f07032d;
+        public static final int RingOfMending_Info=0x7f07032e;
+        public static final int RingOfMending_Name=0x7f07032f;
+        public static final int RingOfPower_Info=0x7f070330;
+        public static final int RingOfPower_Name=0x7f070331;
+        public static final int RingOfSatiety_Info=0x7f070332;
+        public static final int RingOfSatiety_Name=0x7f070333;
+        public static final int RingOfShadows_Info=0x7f070334;
+        public static final int RingOfShadows_Name=0x7f070335;
+        public static final int RingOfStoneWalking_ImmuredInStone=0x7f070336;
+        public static final int RingOfStoneWalking_Info=0x7f070337;
+        public static final int RingOfStoneWalking_Name=0x7f070338;
+        public static final int RingOfThorns_Info=0x7f070339;
+        public static final int RingOfThorns_Name=0x7f07033a;
+        public static final int Ring_BuffKnown=0x7f07033b;
+        public static final int Ring_Identify=0x7f07033c;
+        public static final int Ring_Info=0x7f07033d;
+        public static final int Ring_Info1=0x7f07033e;
+        public static final int Ring_Info2=0x7f07033f;
+        public static final int Ring_Info3a=0x7f070340;
+        public static final int Ring_Info3b=0x7f070341;
+        public static final int Ring_Info4=0x7f070342;
+        public static final int Ring_Name=0x7f070343;
+        public static final int RogueArmor_ACSpecial=0x7f070344;
+        public static final int RogueArmor_Desc=0x7f070345;
+        public static final int RogueArmor_Fov=0x7f070346;
+        public static final int RogueArmor_Name=0x7f070347;
+        public static final int RogueArmor_NotRogue=0x7f070348;
+        public static final int RogueArmor_Prompt=0x7f070349;
+        public static final int Roots_Info=0x7f07058c;
+        public static final int RottenFood_Message=0x7f07034a;
+        public static final int RottenMeat_Info=0x7f07034b;
+        public static final int RottenMeat_Name=0x7f07034c;
+        public static final int RottenPasty_Info=0x7f07034d;
+        public static final int RottenPasty_Name=0x7f07034e;
+        public static final int RottenRation_Info=0x7f07034f;
+        public static final int RottenRation_Name=0x7f070350;
+        public static final int RottingFist_Desc=0x7f070351;
+        public static final int RottingFist_Gender=0x7f070352;
+        public static final int RottingFist_Name=0x7f070353;
+        public static final int RottingFist_Name_Objective=0x7f070354;
+        public static final int RubyBow_Gender=0x7f070355;
+        public static final int RubyBow_Info=0x7f070356;
+        public static final int RubyBow_Name=0x7f070357;
+        public static final int RubyCrossbow_Gender=0x7f07058d;
+        public static final int RubyCrossbow_Info=0x7f07058e;
+        public static final int RubyCrossbow_Name=0x7f07058f;
+        public static final int RunicSkull_Desc=0x7f07067c;
+        public static final int RunicSkull_Gender=0x7f070590;
+        public static final int RunicSkull_Name=0x7f07067d;
+        public static final int RunicSkull_Name_Objective=0x7f07067e;
+        public static final int SacrificialSword_Gender=0x7f070591;
+        public static final int SacrificialSword_Info=0x7f070592;
+        public static final int SacrificialSword_Name=0x7f070593;
+        public static final int SantaHatDesc=0x7f0706a1;
+        public static final int SantaHat_Info=0x7f0706a2;
+        public static final int SantaHat_Name=0x7f0706a3;
+        public static final int ScaleArmor_Desc=0x7f070358;
+        public static final int ScaleArmor_Name=0x7f070359;
+        public static final int Scorpio_Desc=0x7f07035a;
+        public static final int Scorpio_Gender=0x7f07035b;
+        public static final int Scorpio_Name=0x7f07035c;
+        public static final int Scorpio_Name_Objective=0x7f07035d;
+        public static final int ScrollHolder_Info=0x7f070594;
+        public static final int ScrollHolder_Name=0x7f070595;
+        public static final int ScrollOfChallenge_Info=0x7f07035e;
+        public static final int ScrollOfChallenge_Info1=0x7f07035f;
+        public static final int ScrollOfChallenge_Name=0x7f070360;
+        public static final int ScrollOfCurse_Info=0x7f070596;
+        public static final int ScrollOfCurse_Name=0x7f070597;
+        public static final int ScrollOfDomination_Info=0x7f070598;
+        public static final int ScrollOfDomination_Name=0x7f070599;
+        public static final int ScrollOfIdentify_Info=0x7f070361;
+        public static final int ScrollOfIdentify_Info1=0x7f070362;
+        public static final int ScrollOfIdentify_InvTitle=0x7f070363;
+        public static final int ScrollOfIdentify_Name=0x7f070364;
+        public static final int ScrollOfLullaby_Info=0x7f07059a;
+        public static final int ScrollOfLullaby_Info1=0x7f07059b;
+        public static final int ScrollOfLullaby_Info2=0x7f07059c;
+        public static final int ScrollOfLullaby_Info3=0x7f07059d;
+        public static final int ScrollOfLullaby_Name=0x7f070365;
+        public static final int ScrollOfMagicMapping_Info=0x7f07059e;
+        public static final int ScrollOfMagicMapping_Layout=0x7f07059f;
+        public static final int ScrollOfMagicMapping_Name=0x7f070366;
+        public static final int ScrollOfMirrorImage_Info=0x7f0705a0;
+        public static final int ScrollOfMirrorImage_Name=0x7f070367;
+        public static final int ScrollOfPsionicBlast_Info=0x7f0705a1;
+        public static final int ScrollOfPsionicBlast_Name=0x7f070368;
+        public static final int ScrollOfRecharging_Info=0x7f0705a2;
+        public static final int ScrollOfRecharging_Info1a=0x7f0705a3;
+        public static final int ScrollOfRecharging_Info1b=0x7f0705a4;
+        public static final int ScrollOfRecharging_Info2=0x7f0705a5;
+        public static final int ScrollOfRecharging_Name=0x7f070369;
+        public static final int ScrollOfRemoveCurse_Info=0x7f0705a6;
+        public static final int ScrollOfRemoveCurse_Name=0x7f07036a;
+        public static final int ScrollOfRemoveCurse_NoProced=0x7f0705a7;
+        public static final int ScrollOfRemoveCurse_Proced=0x7f0705a8;
+        public static final int ScrollOfSummon_Info=0x7f0706a4;
+        public static final int ScrollOfSummon_Info1=0x7f0706a5;
+        public static final int ScrollOfSummon_Name=0x7f0706a6;
+        public static final int ScrollOfTeleportation_Info=0x7f0705a9;
+        public static final int ScrollOfTeleportation_Name=0x7f07036b;
+        public static final int ScrollOfTeleportation_NoTeleport=0x7f07036c;
+        public static final int ScrollOfTeleportation_Teleport=0x7f0705aa;
+        public static final int ScrollOfTerror_Info=0x7f0705ab;
+        public static final int ScrollOfTerror_Info1=0x7f0705ac;
+        public static final int ScrollOfTerror_Info2=0x7f0705ad;
+        public static final int ScrollOfTerror_Info3=0x7f0705ae;
+        public static final int ScrollOfTerror_Name=0x7f07036d;
+        public static final int ScrollOfUpgrade_Info=0x7f0705af;
+        public static final int ScrollOfUpgrade_InvTitle=0x7f0705b0;
+        public static final int ScrollOfUpgrade_LooksBetter=0x7f0705b1;
+        public static final int ScrollOfUpgrade_Name=0x7f07036e;
+        public static final int ScrollOfWeaponUpgrade_Info=0x7f0705b2;
+        public static final int ScrollOfWeaponUpgrade_InvTitle=0x7f0705b3;
+        public static final int ScrollOfWeaponUpgrade_LooksBetter=0x7f0705b4;
+        public static final int ScrollOfWeaponUpgrade_Name=0x7f0705b5;
+        public static final int Scroll_ACRead=0x7f07036f;
+        public static final int Scroll_Blinded=0x7f070370;
+        public static final int Scroll_Info=0x7f070371;
+        public static final int Scroll_Name=0x7f070372;
+        public static final int SeedPouch_Info=0x7f0705b6;
+        public static final int SeedPouch_Name=0x7f0705b7;
+        public static final int Senior_Desc=0x7f070373;
+        public static final int Senior_Gender=0x7f070374;
+        public static final int Senior_Name=0x7f070375;
+        public static final int Senior_Name_Objective=0x7f070376;
+        public static final int Sewer_TileDescBookshelf=0x7f070377;
+        public static final int Sewer_TileDescDeco=0x7f070378;
+        public static final int Sewer_TileWater=0x7f070379;
+        public static final int Shades_Info=0x7f0705b8;
+        public static final int Shades_Name=0x7f0705b9;
+        public static final int ShadowLord_Death=0x7f07037a;
+        public static final int ShadowLord_Desc=0x7f07037b;
+        public static final int ShadowLord_Gender=0x7f07037c;
+        public static final int ShadowLord_Intro=0x7f07037d;
+        public static final int ShadowLord_Name=0x7f07037e;
+        public static final int ShadowLord_Name_Objective=0x7f07037f;
+        public static final int Shadow_Desc=0x7f070380;
+        public static final int Shadow_Gender=0x7f070381;
+        public static final int Shadow_Name=0x7f070382;
+        public static final int Shadow_Name_Objective=0x7f070383;
+        public static final int Shadows_Info=0x7f0705ba;
+        public static final int Shaman_Desc=0x7f070384;
+        public static final int Shaman_Gender=0x7f070385;
+        public static final int Shaman_Killed=0x7f070386;
+        public static final int Shaman_Name=0x7f070387;
+        public static final int Shaman_Name_Objective=0x7f070388;
+        public static final int Sheep_Desc=0x7f0705bb;
+        public static final int Sheep_Gender=0x7f0705bc;
+        public static final int Sheep_Name=0x7f070389;
+        public static final int Sheep_Name_Objective=0x7f0705bd;
+        public static final int Shielded_Defense=0x7f07038a;
+        public static final int Shielded_Desc=0x7f07038b;
+        public static final int Shielded_Gender=0x7f07038c;
+        public static final int Shielded_Name=0x7f07038d;
+        public static final int Shielded_Name_Objective=0x7f07038e;
+        public static final int Shopkeeper_Desc=0x7f07038f;
+        public static final int Shopkeeper_Name=0x7f070390;
+        public static final int Shopkeeper_Sell=0x7f070391;
+        public static final int ShortSword_ACReforge=0x7f070392;
+        public static final int ShortSword_Gender=0x7f070393;
+        public static final int ShortSword_Info=0x7f070394;
+        public static final int ShortSword_Name=0x7f070395;
+        public static final int ShortSword_NotBoomerang=0x7f070396;
+        public static final int ShortSword_Reforged=0x7f070397;
+        public static final int ShortSword_Select=0x7f070398;
+        public static final int Shuriken_Gender=0x7f070399;
+        public static final int Shuriken_Info=0x7f07039a;
+        public static final int Shuriken_Name=0x7f07039b;
+        public static final int SkeletonKey_Info=0x7f0705be;
+        public static final int SkeletonKey_Name=0x7f0705bf;
+        public static final int Skeleton_Defense=0x7f07039c;
+        public static final int Skeleton_Desc=0x7f07039d;
+        public static final int Skeleton_Gender=0x7f07039e;
+        public static final int Skeleton_Killed=0x7f07039f;
+        public static final int Skeleton_Name=0x7f0703a0;
+        public static final int Skeleton_Name_Objective=0x7f0703a1;
+        public static final int Slow_Info=0x7f0705c0;
+        public static final int SnipersMark_Info=0x7f0705c1;
+        public static final int Sorrowmoss_Desc=0x7f0703a2;
+        public static final int Sorrowmoss_Name=0x7f0703a3;
+        public static final int SoulShard_Gender=0x7f0705c2;
+        public static final int SoulShard_Info=0x7f07067f;
+        public static final int SoulShard_Name=0x7f0705c3;
+        public static final int Spear_Gender=0x7f0703a4;
+        public static final int Spear_Info=0x7f0703a5;
+        public static final int Spear_Name=0x7f0703a6;
+        public static final int SpiderArmor_Gender=0x7f0705c4;
+        public static final int SpiderArmor_Info=0x7f070680;
+        public static final int SpiderArmor_Name=0x7f0705c5;
+        public static final int SpiderCharm_Info=0x7f0703a7;
+        public static final int SpiderCharm_Name=0x7f0703a8;
+        public static final int SpiderCharm_Use=0x7f0703a9;
+        public static final int SpiderEgg_Desc=0x7f0705c6;
+        public static final int SpiderEgg_Gender=0x7f0703aa;
+        public static final int SpiderEgg_Name=0x7f0703ab;
+        public static final int SpiderEgg_Name_Objective=0x7f0703ac;
+        public static final int SpiderExploding_Desc=0x7f0705c7;
+        public static final int SpiderExploding_Gender=0x7f0703ad;
+        public static final int SpiderExploding_Name=0x7f0703ae;
+        public static final int SpiderExploding_Name_Objective=0x7f0703af;
+        public static final int SpiderGuard_Desc=0x7f0705c8;
+        public static final int SpiderGuard_Gender=0x7f0705c9;
+        public static final int SpiderGuard_Name=0x7f0705ca;
+        public static final int SpiderGuard_Name_Objective=0x7f0705cb;
+        public static final int SpiderMindAmber_Desc=0x7f0705cc;
+        public static final int SpiderMindAmber_Gender=0x7f0705cd;
+        public static final int SpiderMindAmber_Name=0x7f0705ce;
+        public static final int SpiderMindAmber_Name_Objective=0x7f0705cf;
+        public static final int SpiderMind_Desc=0x7f0705d0;
+        public static final int SpiderMind_Gender=0x7f0703b0;
+        public static final int SpiderMind_Name=0x7f0703b1;
+        public static final int SpiderMind_Name_Objective=0x7f0703b2;
+        public static final int SpiderNest_Desc=0x7f0705d1;
+        public static final int SpiderNest_Gender=0x7f0703b3;
+        public static final int SpiderNest_Name=0x7f0703b4;
+        public static final int SpiderNest_Name_Objective=0x7f0703b5;
+        public static final int SpiderQueen_Desc=0x7f0705d2;
+        public static final int SpiderQueen_Gender=0x7f0703b6;
+        public static final int SpiderQueen_Name=0x7f0703b7;
+        public static final int SpiderQueen_Name_Objective=0x7f0703b8;
+        public static final int SpiderServant_Desc=0x7f0705d3;
+        public static final int SpiderServant_Gender=0x7f0703b9;
+        public static final int SpiderServant_Name=0x7f0703ba;
+        public static final int SpiderServant_Name_Objective=0x7f0703bb;
+        public static final int Spinner_Desc=0x7f0703bc;
+        public static final int Spinner_Gender=0x7f0703bd;
+        public static final int Spinner_Name=0x7f0703be;
+        public static final int Spinner_Name_Objective=0x7f0703bf;
+        public static final int SpiritOfPain_Desc=0x7f0705d4;
+        public static final int SpiritOfPain_Gender=0x7f0705d5;
+        public static final int SpiritOfPain_Name=0x7f0705d6;
+        public static final int SpiritOfPain_Name_Objective=0x7f0705d7;
+        public static final int StartScene_Depth=0x7f0703c0;
+        public static final int StartScene_DifficultyEasy=0x7f0705d8;
+        public static final int StartScene_DifficultyExpert=0x7f0705d9;
+        public static final int StartScene_DifficultyNormal=0x7f0703c1;
+        public static final int StartScene_DifficultyNormalWithSaves=0x7f0705da;
+        public static final int StartScene_DifficultySelect=0x7f0705db;
+        public static final int StartScene_Erase=0x7f0703c2;
+        public static final int StartScene_Load=0x7f0703c3;
+        public static final int StartScene_New=0x7f0703c4;
+        public static final int StartScene_No=0x7f0703c5;
+        public static final int StartScene_Really=0x7f0703c6;
+        public static final int StartScene_Unlock=0x7f0703c7;
+        public static final int StartScene_UnlockElf=0x7f0703c8;
+        public static final int StartScene_Warning=0x7f0703c9;
+        public static final int StartScene_WinGame=0x7f0703ca;
+        public static final int StartScene_Yes=0x7f0703cb;
+        public static final int Statue_Desc=0x7f0703cc;
+        public static final int Statue_Gender=0x7f0703cd;
+        public static final int Statue_Name=0x7f0703ce;
+        public static final int Statue_Name_Objective=0x7f0703cf;
+        public static final int Stench_Txt=0x7f0703d0;
+        public static final int Stone_ACUse=0x7f0706db;
+        public static final int Stone_Info=0x7f0706dc;
+        public static final int Stone_Name=0x7f0706dd;
+        public static final int Stylus_ACInscribe=0x7f0705dc;
+        public static final int Stylus_Info=0x7f0705dd;
+        public static final int Stylus_Inscribed=0x7f0705de;
+        public static final int Stylus_Name=0x7f0705df;
+        public static final int Stylus_SelectArmor=0x7f0705e0;
+        public static final int Succubus_Desc=0x7f0703d1;
+        public static final int Succubus_Gender=0x7f0703d2;
+        public static final int Succubus_Name=0x7f0703d3;
+        public static final int Succubus_Name_Objective=0x7f0703d4;
+        public static final int Sungrass_Buff=0x7f0703d5;
+        public static final int Sungrass_Desc=0x7f0703d6;
+        public static final int Sungrass_Name=0x7f0703d7;
+        public static final int SurfaceScene_GameOver=0x7f0703d8;
+        public static final int SuspiciousRat_Desc=0x7f0705e1;
+        public static final int SuspiciousRat_Gender=0x7f0703d9;
+        public static final int SuspiciousRat_Info1=0x7f0705e2;
+        public static final int SuspiciousRat_Name=0x7f0703da;
+        public static final int SuspiciousRat_Name_Objective=0x7f0703db;
+        public static final int Swarm_Defense=0x7f0703dc;
+        public static final int Swarm_Desc=0x7f0703dd;
+        public static final int Swarm_Gender=0x7f0703de;
+        public static final int Swarm_Name=0x7f0703df;
+        public static final int Swarm_Name_Objective=0x7f0703e0;
+        public static final int Sword_Gender=0x7f0703e1;
+        public static final int Sword_Info=0x7f0703e2;
+        public static final int Sword_Name=0x7f0703e3;
+        public static final int TaintedBeer_Info=0x7f0706a7;
+        public static final int TaintedBeer_Name=0x7f0706a8;
+        public static final int TaintedDrink_Message=0x7f070681;
+        public static final int Tamahawk_Gender=0x7f0703e4;
+        public static final int Tamahawk_Info=0x7f0703e5;
+        public static final int Tamahawk_Name=0x7f0703e6;
+        public static final int Tengu_Desc=0x7f0703e7;
+        public static final int Tengu_Gender=0x7f0703e8;
+        public static final int Tengu_Info1=0x7f0703e9;
+        public static final int Tengu_Info2=0x7f0703ea;
+        public static final int Tengu_Info3=0x7f0703eb;
+        public static final int Tengu_Name=0x7f0703ec;
+        public static final int Tengu_Name_Objective=0x7f0703ed;
+        public static final int Thief_Carries=0x7f0703ee;
+        public static final int Thief_Desc=0x7f0703ef;
+        public static final int Thief_Gender=0x7f0703f0;
+        public static final int Thief_Name=0x7f0703f1;
+        public static final int Thief_Name_Objective=0x7f0703f2;
+        public static final int Thief_Stole=0x7f0703f3;
+        public static final int This_Capotain_gives_defence_skill=0x7f0706a9;
+        public static final int This_Fez_gives_10_additional_HP=0x7f0706aa;
+        public static final int This_Nightcap_gives_2_additional_defense_skill=0x7f0706ab;
+        public static final int This_Pirate_Set_gives_additional_2_attack_skill_2_defense_skill_and_10_HP=0x7f0706ac;
+        public static final int This_Pumpkin_gives_additional_2_defense_skill_1_attack_skill_and_10_HP=0x7f0706ad;
+        public static final int This_Rabbit_Ears_gives_additional_4_defense_skill=0x7f0706ae;
+        public static final int This_Shades_gives_additional_2_defense_skill_and_10_HP=0x7f0706af;
+        public static final int This_Wizard_Hat_gives_additional_10_attack_skill_and_10_HP=0x7f0706b0;
+        public static final int TitleScene_About=0x7f0703f4;
+        public static final int TitleScene_Badges=0x7f0703f5;
+        public static final int TitleScene_Highscores=0x7f0703f6;
+        public static final int TitleScene_InternalStorageLow=0x7f0703f7;
+        public static final int TitleScene_Play=0x7f0703f8;
+        public static final int TomeOfMastery_ACRead=0x7f0705e3;
+        public static final int TomeOfMastery_Blinded=0x7f0705e4;
+        public static final int TomeOfMastery_Choose=0x7f0705e5;
+        public static final int TomeOfMastery_Info=0x7f0705e6;
+        public static final int TomeOfMastery_Name=0x7f0705e7;
+        public static final int TomeOfMastery_WayAlreadyChosen=0x7f0706b1;
+        public static final int Toolbar_Info1=0x7f0705e8;
+        public static final int Toolbar_Info2=0x7f0705e9;
+        public static final int Torch_ACLight=0x7f0705ea;
+        public static final int Torch_Info=0x7f0705eb;
+        public static final int Torch_Name=0x7f0703f9;
+        public static final int ToxicGas_Info=0x7f0705ec;
+        public static final int ToxicGas_Info1=0x7f0703fa;
+        public static final int TreacherousSpirit_Desc=0x7f0705ed;
+        public static final int TreacherousSpirit_Gender=0x7f0703fb;
+        public static final int TreacherousSpirit_Name=0x7f0705ee;
+        public static final int TreacherousSpirit_Name_Objective=0x7f0705ef;
+        public static final int Undead_Defense=0x7f0703fc;
+        public static final int Undead_Desc=0x7f0703fd;
+        public static final int Undead_Gender=0x7f0703fe;
+        public static final int Undead_Name=0x7f0703ff;
+        public static final int Undead_Name_Objective=0x7f070400;
+        public static final int Utils_IsIndefinte=0x7f0705f0;
+        public static final int Vertigo_Info=0x7f0705f1;
+        public static final int Viscosity_Status=0x7f070401;
+        public static final int Viscosity_Txt=0x7f070402;
+        public static final int WandHolster_Info=0x7f0705f2;
+        public static final int WandHolster_Name=0x7f0705f3;
+        public static final int WandMaker_Berry1=0x7f070403;
+        public static final int WandMaker_Berry2=0x7f070404;
+        public static final int WandMaker_Defense=0x7f070405;
+        public static final int WandMaker_Desc=0x7f070406;
+        public static final int WandMaker_Dust1=0x7f070407;
+        public static final int WandMaker_Dust2=0x7f0705f4;
+        public static final int WandMaker_Name=0x7f070408;
+        public static final int WandMaker_RotberryDesc=0x7f070409;
+        public static final int WandMaker_RotberryInfo=0x7f07040a;
+        public static final int WandMaker_RotberryName=0x7f07040b;
+        public static final int WandOfAmok_Info=0x7f07040c;
+        public static final int WandOfAmok_Info1=0x7f07040d;
+        public static final int WandOfAmok_Name=0x7f07040e;
+        public static final int WandOfAvalanche_Info=0x7f07040f;
+        public static final int WandOfAvalanche_Info1=0x7f070410;
+        public static final int WandOfAvalanche_Name=0x7f070411;
+        public static final int WandOfBlink_Info=0x7f070412;
+        public static final int WandOfBlink_Name=0x7f070413;
+        public static final int WandOfDisintegration_Info=0x7f070414;
+        public static final int WandOfDisintegration_Name=0x7f070415;
+        public static final int WandOfFirebolt_Info=0x7f0705f5;
+        public static final int WandOfFirebolt_Info1=0x7f0705f6;
+        public static final int WandOfFirebolt_Name=0x7f070416;
+        public static final int WandOfFlock_Info=0x7f0705f7;
+        public static final int WandOfFlock_Name=0x7f0705f8;
+        public static final int WandOfLightning_Info=0x7f0705f9;
+        public static final int WandOfLightning_Info1=0x7f0705fa;
+        public static final int WandOfLightning_Name=0x7f0705fb;
+        public static final int WandOfMagicMissile_ACDisenchant=0x7f0705fc;
+        public static final int WandOfMagicMissile_Desinchanted=0x7f0705fd;
+        public static final int WandOfMagicMissile_Info=0x7f0705fe;
+        public static final int WandOfMagicMissile_Info1=0x7f0705ff;
+        public static final int WandOfMagicMissile_Name=0x7f070600;
+        public static final int WandOfMagicMissile_SelectWand=0x7f070417;
+        public static final int WandOfPoison_Info=0x7f070601;
+        public static final int WandOfPoison_Info1=0x7f070602;
+        public static final int WandOfPoison_Name=0x7f070603;
+        public static final int WandOfRegrowth_Info=0x7f070604;
+        public static final int WandOfRegrowth_Info1=0x7f070418;
+        public static final int WandOfRegrowth_Name=0x7f070605;
+        public static final int WandOfSlowness_Info=0x7f070606;
+        public static final int WandOfSlowness_Info1=0x7f070607;
+        public static final int WandOfSlowness_Name=0x7f070608;
+        public static final int WandOfTelekinesis_Info=0x7f070609;
+        public static final int WandOfTelekinesis_Name=0x7f07060a;
+        public static final int WandOfTelekinesis_YouNowHave=0x7f07060b;
+        public static final int WandOfTeleportation_Info=0x7f07060c;
+        public static final int WandOfTeleportation_Info1=0x7f07060d;
+        public static final int WandOfTeleportation_Info2=0x7f070419;
+        public static final int WandOfTeleportation_Name=0x7f07060e;
+        public static final int Wand_ACZap=0x7f07041a;
+        public static final int Wand_Damage=0x7f07041b;
+        public static final int Wand_Fizzles=0x7f07041c;
+        public static final int Wand_Name=0x7f07041d;
+        public static final int Wand_Prompt=0x7f07041e;
+        public static final int Wand_SelfTarget=0x7f07041f;
+        public static final int Wand_Weapon=0x7f070420;
+        public static final int Wand_Wood=0x7f070421;
+        public static final int WarHammer_Gender=0x7f070422;
+        public static final int WarHammer_Info=0x7f070423;
+        public static final int WarHammer_Name=0x7f070424;
+        public static final int Warlock_Desc=0x7f070425;
+        public static final int Warlock_Gender=0x7f070426;
+        public static final int Warlock_Killed=0x7f070427;
+        public static final int Warlock_Name=0x7f070428;
+        public static final int Warlock_Name_Objective=0x7f070429;
+        public static final int WarriorArmor_ACSpecial=0x7f07042a;
+        public static final int WarriorArmor_Desc=0x7f07042b;
+        public static final int WarriorArmor_Name=0x7f07042c;
+        public static final int WarriorArmor_NotWarrior=0x7f07042d;
+        public static final int WarriorArmor_Prompt=0x7f07042e;
+        public static final int WaterElemental_Desc=0x7f07042f;
+        public static final int WaterElemental_Gender=0x7f070430;
+        public static final int WaterElemental_Name=0x7f070431;
+        public static final int WaterElemental_Name_Objective=0x7f070432;
+        public static final int WaterOfAwareness_Info=0x7f07060f;
+        public static final int WaterOfAwareness_Procced=0x7f070610;
+        public static final int WaterOfHealth_Info=0x7f070611;
+        public static final int WaterOfHealth_Procced=0x7f070612;
+        public static final int WaterOfTransmutation_Info=0x7f070613;
+        public static final int Weakness_Info=0x7f070433;
+        public static final int Weapon_Identify=0x7f070434;
+        public static final int Weapon_Incompatible=0x7f070435;
+        public static final int Web_Info=0x7f070614;
+        public static final int Weightstone_ACApply=0x7f070615;
+        public static final int Weightstone_Accurate=0x7f070616;
+        public static final int Weightstone_Fast=0x7f070617;
+        public static final int Weightstone_Info=0x7f070618;
+        public static final int Weightstone_Name=0x7f070619;
+        public static final int Weightstone_Select=0x7f07061a;
+        public static final int Weightstone_WndAccuracy=0x7f07061b;
+        public static final int Weightstone_WndCancel=0x7f07061c;
+        public static final int Weightstone_WndChoice=0x7f07061d;
+        public static final int Weightstone_WndSpeed=0x7f07061e;
+        public static final int Welcome_Ok=0x7f070436;
+        public static final int Welcome_Text=0x7f070437;
+        public static final int Welcome_Text_19=0x7f070438;
+        public static final int Welcome_Text_20=0x7f070439;
+        public static final int Welcome_Text_20_1=0x7f07043a;
+        public static final int Welcome_Text_20_2=0x7f07043b;
+        public static final int Welcome_Text_21_1=0x7f07043c;
+        public static final int Welcome_Text_21_2=0x7f07043d;
+        public static final int Welcome_Text_21_3=0x7f07043e;
+        public static final int Welcome_Text_21_4=0x7f07043f;
+        public static final int Welcome_Text_21_5=0x7f070440;
+        public static final int Welcome_Text_22=0x7f070441;
+        public static final int Welcome_Text_23=0x7f07061f;
+        public static final int Welcome_Text_23_1=0x7f070620;
+        public static final int Welcome_Text_23_2=0x7f070621;
+        public static final int Welcome_Text_24=0x7f070622;
+        public static final int Welcome_Text_24_1=0x7f070623;
+        public static final int Welcome_Text_24_2=0x7f070624;
+        public static final int Welcome_Text_25=0x7f070625;
+        public static final int Welcome_Title=0x7f070442;
+        public static final int Wine_Info=0x7f0706de;
+        public static final int Wine_Info1=0x7f0706df;
+        public static final int Wine_Info2=0x7f0706e0;
+        public static final int Wine_Info3=0x7f0706e1;
+        public static final int Wine_Info4=0x7f0706e2;
+        public static final int Wine_Message=0x7f0706e3;
+        public static final int Wine_Name=0x7f0706e4;
+        public static final int WizardHat_Info=0x7f070626;
+        public static final int WizardHat_Name=0x7f070627;
+        public static final int WndBlacksmith_Prompt=0x7f070443;
+        public static final int WndBlacksmith_Reforge=0x7f070444;
+        public static final int WndBlacksmith_Select=0x7f070445;
+        public static final int WndCatalogus_Potions=0x7f070446;
+        public static final int WndCatalogus_Scrolls=0x7f070447;
+        public static final int WndCatalogus_Title=0x7f070448;
+        public static final int WndChallenges_Title=0x7f070449;
+        public static final int WndChooseWay_Cancel=0x7f07044a;
+        public static final int WndChooseWay_Message=0x7f07044b;
+        public static final int WndClass_Mastery=0x7f07044c;
+        public static final int WndDonate_commonDonateText=0x7f07044d;
+        public static final int WndDonate_donate=0x7f07044e;
+        public static final int WndDonate_gold=0x7f07044f;
+        public static final int WndDonate_goldDonate=0x7f070450;
+        public static final int WndDonate_goldDonateText=0x7f070451;
+        public static final int WndDonate_goldDonateText2=0x7f070452;
+        public static final int WndDonate_notConnected=0x7f070453;
+        public static final int WndDonate_ruby=0x7f070454;
+        public static final int WndDonate_rubyDonate=0x7f070455;
+        public static final int WndDonate_rubyDonateText=0x7f070456;
+        public static final int WndDonate_rubyDonateText2=0x7f070457;
+        public static final int WndDonate_silver=0x7f070458;
+        public static final int WndDonate_silverDonate=0x7f070459;
+        public static final int WndDonate_silverDonateText=0x7f07045a;
+        public static final int WndDonate_silverDonateText2=0x7f07045b;
+        public static final int WndError_Title=0x7f07045c;
+        public static final int WndGame_Challenges=0x7f07045d;
+        public static final int WndGame_Exit=0x7f07045e;
+        public static final int WndGame_Load=0x7f07045f;
+        public static final int WndGame_Ranking=0x7f070460;
+        public static final int WndGame_Return=0x7f070461;
+        public static final int WndGame_Save=0x7f070462;
+        public static final int WndGame_Settings=0x7f070463;
+        public static final int WndGame_Start=0x7f070464;
+        public static final int WndGame_menu=0x7f070465;
+        public static final int WndHats_BackButton=0x7f070628;
+        public static final int WndHats_BuyButton=0x7f070629;
+        public static final int WndHats_EquipButton=0x7f07062a;
+        public static final int WndHats_InfoButton=0x7f07062b;
+        public static final int WndHats_ListTitle=0x7f07062c;
+        public static final int WndHats_NoConnectionMsg=0x7f07062d;
+        public static final int WndHats_Purchased=0x7f07062e;
+        public static final int WndHats_SlotTitle=0x7f07062f;
+        public static final int WndHats_UnequipButton=0x7f070630;
+        public static final int WndHero_Buffs=0x7f070466;
+        public static final int WndHero_Depth=0x7f070467;
+        public static final int WndHero_Exp=0x7f070468;
+        public static final int WndHero_Gold=0x7f070469;
+        public static final int WndHero_Health=0x7f07046a;
+        public static final int WndHero_StaCatalogus=0x7f07046b;
+        public static final int WndHero_StaJournal=0x7f07046c;
+        public static final int WndHero_StaTitle=0x7f07046d;
+        public static final int WndHero_Stats=0x7f07046e;
+        public static final int WndHero_Str=0x7f07046f;
+        public static final int WndImp_Message=0x7f070470;
+        public static final int WndImp_Reward=0x7f070471;
+        public static final int WndInfoCell_Nothing=0x7f070472;
+        public static final int WndInfoItem_Chest=0x7f070473;
+        public static final int WndInfoItem_CrystalChest=0x7f070474;
+        public static final int WndInfoItem_Inside=0x7f070475;
+        public static final int WndInfoItem_LockedChest=0x7f070476;
+        public static final int WndInfoItem_NeedKey=0x7f070477;
+        public static final int WndInfoItem_Owner=0x7f070631;
+        public static final int WndInfoItem_Remains=0x7f070632;
+        public static final int WndInfoItem_Skeleton=0x7f070478;
+        public static final int WndInfoItem_Tomb=0x7f070479;
+        public static final int WndInfoItem_WontKnow=0x7f07047a;
+        public static final int WndJournal_Title=0x7f07047b;
+        public static final int WndPremiumSettings_banners=0x7f07047c;
+        public static final int WndPremiumSettings_chrome=0x7f07047d;
+        public static final int WndPremiumSettings_gold=0x7f07047e;
+        public static final int WndPremiumSettings_notAvailbale=0x7f07047f;
+        public static final int WndPremiumSettings_ruby=0x7f070480;
+        public static final int WndPremiumSettings_silver=0x7f070481;
+        public static final int WndPremiumSettings_status=0x7f070482;
+        public static final int WndPremiumSettings_std=0x7f070483;
+        public static final int WndPremiumSettings_toolbar=0x7f070484;
+        public static final int WndRanking_Badges=0x7f070633;
+        public static final int WndRanking_Error=0x7f070634;
+        public static final int WndRanking_Items=0x7f070635;
+        public static final int WndRanking_StaAlchemy=0x7f070636;
+        public static final int WndRanking_StaAnkhs=0x7f070637;
+        public static final int WndRanking_StaChallenges=0x7f070485;
+        public static final int WndRanking_StaDepth=0x7f070486;
+        public static final int WndRanking_StaDuration=0x7f070638;
+        public static final int WndRanking_StaEnemies=0x7f070639;
+        public static final int WndRanking_StaFood=0x7f07063a;
+        public static final int WndRanking_StaGold=0x7f070487;
+        public static final int WndRanking_StaHealth=0x7f070488;
+        public static final int WndRanking_StaStr=0x7f070489;
+        public static final int WndRanking_StaTitle=0x7f07048a;
+        public static final int WndRanking_Stats=0x7f07048b;
+        public static final int WndResurrect_Message=0x7f07063b;
+        public static final int WndResurrect_No=0x7f07063c;
+        public static final int WndResurrect_Yes=0x7f07063d;
+        public static final int WndSadGhost_Armor=0x7f07063e;
+        public static final int WndSadGhost_Farewell=0x7f07063f;
+        public static final int WndSadGhost_Rat=0x7f070640;
+        public static final int WndSadGhost_Rose=0x7f070641;
+        public static final int WndSadGhost_Wepon=0x7f070642;
+        public static final int WndSaveSlotSelect_Delete_No=0x7f070643;
+        public static final int WndSaveSlotSelect_Delete_Title=0x7f070644;
+        public static final int WndSaveSlotSelect_Delete_Yes=0x7f070645;
+        public static final int WndSaveSlotSelect_SelectSlot=0x7f070646;
+        public static final int WndSaveSlotSelect_dontLike=0x7f07048c;
+        public static final int WndSelectLanguage_ImproveTranslation=0x7f07048d;
+        public static final int WndSelectLanguage_LinkToTranslationSite=0x7f07048e;
+        public static final int WndSelectLanguage_TranslationLink=0x7f07048f;
+        public static final int WndSettings_Brightness=0x7f070490;
+        public static final int WndSettings_ClassicFont=0x7f070491;
+        public static final int WndSettings_ExperementalFont=0x7f070492;
+        public static final int WndSettings_Immersive=0x7f070493;
+        public static final int WndSettings_Music=0x7f070494;
+        public static final int WndSettings_ScaleUp=0x7f070495;
+        public static final int WndSettings_SecondQuickslot=0x7f070496;
+        public static final int WndSettings_SelectLanguage=0x7f070497;
+        public static final int WndSettings_Sound=0x7f070498;
+        public static final int WndSettings_SwitchLand=0x7f070499;
+        public static final int WndSettings_SwitchPort=0x7f07049a;
+        public static final int WndSettings_TextScaleDefault=0x7f07049b;
+        public static final int WndSettings_ThirdQuickslot=0x7f07049c;
+        public static final int WndSettings_ZoomDef=0x7f07049d;
+        public static final int WndSettings_ZoomIn=0x7f07049e;
+        public static final int WndSettings_ZoomOut=0x7f07049f;
+        public static final int WndStory_Caves=0x7f070647;
+        public static final int WndStory_Dragon_Pits=0x7f0706b2;
+        public static final int WndStory_Guts=0x7f070648;
+        public static final int WndStory_Halls=0x7f070649;
+        public static final int WndStory_Metropolis=0x7f07064a;
+        public static final int WndStory_Prision=0x7f07064b;
+        public static final int WndStory_Sewers=0x7f07064c;
+        public static final int WndStory_Spiders=0x7f07064d;
+        public static final int WndTradeItem_Bought=0x7f07064e;
+        public static final int WndTradeItem_Buy=0x7f07064f;
+        public static final int WndTradeItem_Cancel=0x7f070650;
+        public static final int WndTradeItem_Sale=0x7f070651;
+        public static final int WndTradeItem_Sell=0x7f070652;
+        public static final int WndTradeItem_Sell1=0x7f070653;
+        public static final int WndTradeItem_SellAll=0x7f070654;
+        public static final int WndTradeItem_Sold=0x7f070655;
+        public static final int WndWandmaker_Battle=0x7f070656;
+        public static final int WndWandmaker_Farawell=0x7f070657;
+        public static final int WndWandmaker_Message=0x7f070658;
+        public static final int WndWandmaker_NonBattle=0x7f070659;
+        public static final int WoodenBow_Gender=0x7f0704a0;
+        public static final int WoodenBow_Info=0x7f0704a1;
+        public static final int WoodenBow_Name=0x7f0704a2;
+        public static final int WoodenCrossbow_Gender=0x7f07065a;
+        public static final int WoodenCrossbow_Info=0x7f07065b;
+        public static final int WoodenCrossbow_Name=0x7f0704a3;
+        public static final int Worm_Desc=0x7f07065c;
+        public static final int Worm_Gender=0x7f0704a4;
+        public static final int Worm_Name=0x7f0704a5;
+        public static final int Worm_Name_Objective=0x7f0704a6;
+        public static final int Wraith_Defense=0x7f0704a7;
+        public static final int Wraith_Desc=0x7f0704a8;
+        public static final int Wraith_Gender=0x7f0704a9;
+        public static final int Wraith_Name=0x7f0704aa;
+        public static final int Wraith_Name_Objective=0x7f0704ab;
+        public static final int Yog_Desc=0x7f07065d;
+        public static final int Yog_Gender=0x7f0704ac;
+        public static final int Yog_Info1=0x7f0704ad;
+        public static final int Yog_Info2=0x7f0704ae;
+        public static final int Yog_Name=0x7f0704af;
+        public static final int Yog_Name_Objective=0x7f0704b0;
+        public static final int YogsBrain_Desc=0x7f07065e;
+        public static final int YogsBrain_Gender=0x7f0704b1;
+        public static final int YogsBrain_Name=0x7f07065f;
+        public static final int YogsBrain_Name_Objective=0x7f070660;
+        public static final int YogsEye_Desc=0x7f070661;
+        public static final int YogsEye_Gender=0x7f0704b2;
+        public static final int YogsEye_Name=0x7f0704b3;
+        public static final int YogsEye_Name_Objective=0x7f070662;
+        public static final int YogsHeart_Desc=0x7f070663;
+        public static final int YogsHeart_Gender=0x7f070664;
+        public static final int YogsHeart_Name=0x7f070665;
+        public static final int YogsHeart_Name_Objective=0x7f0704b4;
+        public static final int YogsTeeth_Desc=0x7f070666;
+        public static final int YogsTeeth_Gender=0x7f070667;
+        public static final int YogsTeeth_Name=0x7f070668;
+        public static final int YogsTeeth_Name_Objective=0x7f0704b5;
+        public static final int ZombieGnoll_Desc=0x7f070669;
+        public static final int ZombieGnoll_Gender=0x7f0704b6;
+        public static final int ZombieGnoll_Info=0x7f07066a;
+        public static final int ZombieGnoll_Name=0x7f07066b;
+        public static final int ZombieGnoll_Name_Objective=0x7f07066c;
+        public static final int Zombie_Desc=0x7f070682;
+        public static final int Zombie_Gender=0x7f07066d;
+        public static final int Zombie_Name=0x7f07066e;
+        public static final int Zombie_Name_Objective=0x7f07066f;
+        public static final int abc_action_bar_home_description=0x7f070000;
+        public static final int abc_action_bar_home_description_format=0x7f070001;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f070002;
+        public static final int abc_action_bar_up_description=0x7f070003;
+        public static final int abc_action_menu_overflow_description=0x7f070004;
+        public static final int abc_action_mode_done=0x7f070005;
+        public static final int abc_activity_chooser_view_see_all=0x7f070006;
+        public static final int abc_activitychooserview_choose_application=0x7f070007;
+        public static final int abc_capital_off=0x7f070008;
+        public static final int abc_capital_on=0x7f070009;
+        public static final int abc_search_hint=0x7f07000a;
+        public static final int abc_searchview_description_clear=0x7f07000b;
+        public static final int abc_searchview_description_query=0x7f07000c;
+        public static final int abc_searchview_description_search=0x7f07000d;
+        public static final int abc_searchview_description_submit=0x7f07000e;
+        public static final int abc_searchview_description_voice=0x7f07000f;
+        public static final int abc_shareactionprovider_share_with=0x7f070010;
+        public static final int abc_shareactionprovider_share_with_application=0x7f070011;
+        public static final int abc_toolbar_collapse_description=0x7f070012;
+        public static final int accept=0x7f070013;
+        public static final int app_name=0x7f0704b7;
+        public static final int common_google_play_services_enable_button=0x7f070014;
+        public static final int common_google_play_services_enable_text=0x7f070015;
+        public static final int common_google_play_services_enable_title=0x7f070016;
+        public static final int common_google_play_services_install_button=0x7f070017;
+        public static final int common_google_play_services_install_text=0x7f070018;
+        public static final int common_google_play_services_install_title=0x7f070019;
+        public static final int common_google_play_services_notification_ticker=0x7f07001a;
+        public static final int common_google_play_services_unknown_issue=0x7f07001b;
+        public static final int common_google_play_services_unsupported_text=0x7f07001c;
+        public static final int common_google_play_services_update_button=0x7f07001d;
+        public static final int common_google_play_services_update_text=0x7f07001e;
+        public static final int common_google_play_services_update_title=0x7f07001f;
+        public static final int common_google_play_services_updating_text=0x7f070020;
+        public static final int common_google_play_services_wear_update_text=0x7f070021;
+        public static final int common_open_on_phone=0x7f070022;
+        public static final int common_signin_button_text=0x7f070023;
+        public static final int common_signin_button_text_long=0x7f070024;
+        public static final int create_calendar_message=0x7f070025;
+        public static final int create_calendar_title=0x7f070026;
+        public static final int debug_menu_ad_information=0x7f070027;
+        public static final int debug_menu_creative_preview=0x7f070028;
+        public static final int debug_menu_title=0x7f070029;
+        public static final int debug_menu_troubleshooting=0x7f07002a;
+        public static final int decline=0x7f07002b;
+        public static final int default_web_client_id=0x7f0706e5;
+        public static final int easyModeAdUnitId=0x7f0706e6;
+        public static final int easyModeSmallScreenAdUnitId=0x7f0706e7;
+        public static final int firebase_database_url=0x7f0706e8;
+        public static final int gcm_defaultSenderId=0x7f0706e9;
+        public static final int google_api_key=0x7f0706ea;
+        public static final int google_app_id=0x7f0706eb;
+        public static final int google_crash_reporting_api_key=0x7f0706ec;
+        public static final int google_storage_bucket=0x7f0706ed;
+        public static final int iapKey=0x7f0706ee;
+        public static final int saveLoadAdUnitId=0x7f0706ef;
+        public static final int status_bar_notification_info_overflow=0x7f07002c;
+        public static final int store_picture_message=0x7f07002d;
+        public static final int store_picture_title=0x7f07002e;
+        public static final int testDevice=0x7f0706f0;
+        public static final int this_bowknot_gives_additional_attack_skill=0x7f0706b3;
     }
     public static final class style {
+        public static final int AlertDialog_AppCompat=0x7f0b007f;
+        public static final int AlertDialog_AppCompat_Light=0x7f0b0080;
+        public static final int Animation_AppCompat_Dialog=0x7f0b0081;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0b0082;
         /** 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
@@ -1950,18 +3691,926 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f0b0004;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
  All customizations that are NOT specific to a particular API-level can go here. 
+ All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int Theme_IAPTheme=0x7f070002;
+        public static final int AppTheme=0x7f0b0005;
+        public static final int Base_AlertDialog_AppCompat=0x7f0b0083;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b0084;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0b0085;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b0086;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b0087;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b0088;
+        public static final int Base_TextAppearance_AppCompat=0x7f0b0031;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0032;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0033;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b001b;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0034;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0035;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0036;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0037;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0038;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0039;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b0006;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b003a;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b0007;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b003b;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b003c;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b003d;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0008;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b003e;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b0089;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b003f;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0040;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0041;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0009;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0042;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b000a;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0043;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b000b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0044;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0045;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0046;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0047;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0048;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0049;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b004a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b007b;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b008a;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b004c;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b004e;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b004f;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b008b;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0050;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0051;
+        public static final int Base_Theme_AppCompat=0x7f0b0052;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b008c;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0b000c;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b008d;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b008e;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b008f;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0001;
+        public static final int Base_Theme_AppCompat_Light=0x7f0b0053;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0090;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b000d;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0091;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0092;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0093;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0002;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0b0094;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b0095;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b0096;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0097;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b0098;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b000e;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b000f;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0017;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0018;
+        public static final int Base_V21_Theme_AppCompat=0x7f0b0054;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0055;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0056;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0057;
+        public static final int Base_V22_Theme_AppCompat=0x7f0b0079;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b007a;
+        public static final int Base_V23_Theme_AppCompat=0x7f0b007c;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b007d;
+        public static final int Base_V7_Theme_AppCompat=0x7f0b0099;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b009a;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b009b;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b009c;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b009d;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b009e;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b009f;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00a0;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00a1;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0058;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0059;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b005a;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b005b;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b005c;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00a2;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00a3;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0019;
+        public static final int Base_Widget_AppCompat_Button=0x7f0b005d;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b005e;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b005f;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00a4;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b007e;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b0060;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b0061;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00a5;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0062;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0063;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00a6;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00a7;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0064;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0b001a;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b0065;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00a8;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00a9;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00aa;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0066;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0067;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0068;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0069;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b006a;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b006b;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0b006c;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b006d;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b006e;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b006f;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0070;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00ab;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b0010;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0011;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0071;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00ac;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00ad;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0072;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0073;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0003;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0074;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00ae;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0075;
+        public static final int Platform_AppCompat=0x7f0b0012;
+        public static final int Platform_AppCompat_Light=0x7f0b0013;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b0076;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0077;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0078;
+        public static final int Platform_V11_AppCompat=0x7f0b0014;
+        public static final int Platform_V11_AppCompat_Light=0x7f0b0015;
+        public static final int Platform_V14_AppCompat=0x7f0b001c;
+        public static final int Platform_V14_AppCompat_Light=0x7f0b001d;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b0016;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0023;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0024;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0025;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0026;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0027;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0028;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0029;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b002a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b002b;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b002c;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b002d;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b002e;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b002f;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0030;
+        public static final int TextAppearance_AppCompat=0x7f0b00af;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0b00b0;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0b00b1;
+        public static final int TextAppearance_AppCompat_Button=0x7f0b00b2;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0b00b3;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0b00b4;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0b00b5;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0b00b6;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0b00b7;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0b00b8;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00b9;
+        public static final int TextAppearance_AppCompat_Large=0x7f0b00ba;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00bb;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00bc;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00bd;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00be;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00bf;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0b00c0;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00c1;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0b00c2;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00c3;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00c4;
+        public static final int TextAppearance_AppCompat_Small=0x7f0b00c5;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00c6;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00c7;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00c8;
+        public static final int TextAppearance_AppCompat_Title=0x7f0b00c9;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00ca;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00cb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00cc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00cd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00ce;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00cf;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00d0;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00d1;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00d2;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00d3;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b00d4;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00d5;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00d6;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00d7;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00d8;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00d9;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00da;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0b001e;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b001f;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0020;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b0021;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b0022;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00db;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00dc;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00dd;
+        public static final int Theme_AppCompat=0x7f0b00de;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0b00df;
+        public static final int Theme_AppCompat_Dialog=0x7f0b00e0;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00e1;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00e2;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00e3;
+        public static final int Theme_AppCompat_Light=0x7f0b00e4;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00e5;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00e6;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b00e7;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00e8;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b00e9;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b00ea;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0b00eb;
+        public static final int Theme_IAPTheme=0x7f0b00ec;
+        public static final int ThemeOverlay_AppCompat=0x7f0b00ed;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b00ee;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b00ef;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00f0;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0b00f1;
+        public static final int Widget_AppCompat_ActionBar=0x7f0b00f2;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b00f3;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b00f4;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b00f5;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b00f6;
+        public static final int Widget_AppCompat_ActionButton=0x7f0b00f7;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b00f8;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b00f9;
+        public static final int Widget_AppCompat_ActionMode=0x7f0b00fa;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b00fb;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b00fc;
+        public static final int Widget_AppCompat_Button=0x7f0b00fd;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0b00fe;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b00ff;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0100;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0b0101;
+        public static final int Widget_AppCompat_Button_Small=0x7f0b0102;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0b0103;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0104;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0105;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0106;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0107;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b0108;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0109;
+        public static final int Widget_AppCompat_EditText=0x7f0b010a;
+        public static final int Widget_AppCompat_ImageButton=0x7f0b010b;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b010c;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b010d;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b010e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b010f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0110;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0111;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0112;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0113;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0114;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0115;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0116;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0117;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b0118;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0119;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b011a;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b011b;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b011c;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b011d;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b011e;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b011f;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0b0120;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0121;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0122;
+        public static final int Widget_AppCompat_ListView=0x7f0b0123;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0124;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0b0125;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0b0126;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0127;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0b0128;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0b0129;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b012a;
+        public static final int Widget_AppCompat_RatingBar=0x7f0b012b;
+        public static final int Widget_AppCompat_SearchView=0x7f0b012c;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b012d;
+        public static final int Widget_AppCompat_SeekBar=0x7f0b012e;
+        public static final int Widget_AppCompat_Spinner=0x7f0b012f;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b0130;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0131;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b0132;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0133;
+        public static final int Widget_AppCompat_Toolbar=0x7f0b0134;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0135;
     }
     public static final class xml {
-        public static final int app_tracker=0x7f030000;
+        public static final int app_tracker=0x7f050000;
     }
     public static final class styleable {
+        /** Attributes that can be used with a ActionBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionBar_background com.coner.pixeldungeon.remake:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.coner.pixeldungeon.remake:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.coner.pixeldungeon.remake:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.coner.pixeldungeon.remake:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.coner.pixeldungeon.remake:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.coner.pixeldungeon.remake:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.coner.pixeldungeon.remake:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.coner.pixeldungeon.remake:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.coner.pixeldungeon.remake:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.coner.pixeldungeon.remake:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.coner.pixeldungeon.remake:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.coner.pixeldungeon.remake:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.coner.pixeldungeon.remake:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.coner.pixeldungeon.remake:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.coner.pixeldungeon.remake:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.coner.pixeldungeon.remake:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.coner.pixeldungeon.remake:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.coner.pixeldungeon.remake:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.coner.pixeldungeon.remake:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.coner.pixeldungeon.remake:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.coner.pixeldungeon.remake:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.coner.pixeldungeon.remake:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.coner.pixeldungeon.remake:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.coner.pixeldungeon.remake:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.coner.pixeldungeon.remake:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.coner.pixeldungeon.remake:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.coner.pixeldungeon.remake:titleTextStyle}</code></td><td></td></tr>
+           </table>
+           @see #ActionBar_background
+           @see #ActionBar_backgroundSplit
+           @see #ActionBar_backgroundStacked
+           @see #ActionBar_contentInsetEnd
+           @see #ActionBar_contentInsetLeft
+           @see #ActionBar_contentInsetRight
+           @see #ActionBar_contentInsetStart
+           @see #ActionBar_customNavigationLayout
+           @see #ActionBar_displayOptions
+           @see #ActionBar_divider
+           @see #ActionBar_elevation
+           @see #ActionBar_height
+           @see #ActionBar_hideOnContentScroll
+           @see #ActionBar_homeAsUpIndicator
+           @see #ActionBar_homeLayout
+           @see #ActionBar_icon
+           @see #ActionBar_indeterminateProgressStyle
+           @see #ActionBar_itemPadding
+           @see #ActionBar_logo
+           @see #ActionBar_navigationMode
+           @see #ActionBar_popupTheme
+           @see #ActionBar_progressBarPadding
+           @see #ActionBar_progressBarStyle
+           @see #ActionBar_subtitle
+           @see #ActionBar_subtitleTextStyle
+           @see #ActionBar_title
+           @see #ActionBar_titleTextStyle
+         */
+        public static final int[] ActionBar = {
+            0x7f010001, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f010085
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#background}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:background
+        */
+        public static final int ActionBar_background = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#backgroundSplit}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:backgroundSplit
+        */
+        public static final int ActionBar_backgroundSplit = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#backgroundStacked}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:backgroundStacked
+        */
+        public static final int ActionBar_backgroundStacked = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetEnd}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetEnd
+        */
+        public static final int ActionBar_contentInsetEnd = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetLeft}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetLeft
+        */
+        public static final int ActionBar_contentInsetLeft = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetRight}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetRight
+        */
+        public static final int ActionBar_contentInsetRight = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetStart}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetStart
+        */
+        public static final int ActionBar_contentInsetStart = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#customNavigationLayout}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:customNavigationLayout
+        */
+        public static final int ActionBar_customNavigationLayout = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#displayOptions}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>useLogo</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>showHome</code></td><td>0x2</td><td></td></tr>
+<tr><td><code>homeAsUp</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>showTitle</code></td><td>0x8</td><td></td></tr>
+<tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:displayOptions
+        */
+        public static final int ActionBar_displayOptions = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#divider}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:divider
+        */
+        public static final int ActionBar_divider = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#elevation}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:elevation
+        */
+        public static final int ActionBar_elevation = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#height}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:height
+        */
+        public static final int ActionBar_height = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#hideOnContentScroll}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:hideOnContentScroll
+        */
+        public static final int ActionBar_hideOnContentScroll = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#homeAsUpIndicator}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:homeAsUpIndicator
+        */
+        public static final int ActionBar_homeAsUpIndicator = 26;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#homeLayout}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:homeLayout
+        */
+        public static final int ActionBar_homeLayout = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#icon}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:icon
+        */
+        public static final int ActionBar_icon = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#indeterminateProgressStyle}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:indeterminateProgressStyle
+        */
+        public static final int ActionBar_indeterminateProgressStyle = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#itemPadding}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:itemPadding
+        */
+        public static final int ActionBar_itemPadding = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#logo}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:logo
+        */
+        public static final int ActionBar_logo = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#navigationMode}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>listMode</code></td><td>1</td><td></td></tr>
+<tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:navigationMode
+        */
+        public static final int ActionBar_navigationMode = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#popupTheme}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:popupTheme
+        */
+        public static final int ActionBar_popupTheme = 25;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#progressBarPadding}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:progressBarPadding
+        */
+        public static final int ActionBar_progressBarPadding = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#progressBarStyle}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:progressBarStyle
+        */
+        public static final int ActionBar_progressBarStyle = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitle}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:subtitle
+        */
+        public static final int ActionBar_subtitle = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitleTextStyle}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:subtitleTextStyle
+        */
+        public static final int ActionBar_subtitleTextStyle = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#title}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:title
+        */
+        public static final int ActionBar_title = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleTextStyle}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:titleTextStyle
+        */
+        public static final int ActionBar_titleTextStyle = 5;
+        /** Attributes that can be used with a ActionBarLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionBarLayout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
+           </table>
+           @see #ActionBarLayout_android_layout_gravity
+         */
+        public static final int[] ActionBarLayout = {
+            0x010100b3
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+          attribute's value can be found in the {@link #ActionBarLayout} array.
+          @attr name android:layout_gravity
+        */
+        public static final int ActionBarLayout_android_layout_gravity = 0;
+        /** Attributes that can be used with a ActionMenuItemView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionMenuItemView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           </table>
+           @see #ActionMenuItemView_android_minWidth
+         */
+        public static final int[] ActionMenuItemView = {
+            0x0101013f
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #ActionMenuItemView} array.
+          @attr name android:minWidth
+        */
+        public static final int ActionMenuItemView_android_minWidth = 0;
+        /** Attributes that can be used with a ActionMenuView.
+         */
+        public static final int[] ActionMenuView = {
+            
+        };
+        /** Attributes that can be used with a ActionMode.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionMode_background com.coner.pixeldungeon.remake:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.coner.pixeldungeon.remake:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.coner.pixeldungeon.remake:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.coner.pixeldungeon.remake:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.coner.pixeldungeon.remake:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.coner.pixeldungeon.remake:titleTextStyle}</code></td><td></td></tr>
+           </table>
+           @see #ActionMode_background
+           @see #ActionMode_backgroundSplit
+           @see #ActionMode_closeItemLayout
+           @see #ActionMode_height
+           @see #ActionMode_subtitleTextStyle
+           @see #ActionMode_titleTextStyle
+         */
+        public static final int[] ActionMode = {
+            0x7f010001, 0x7f010007, 0x7f010008, 0x7f01000c,
+            0x7f01000e, 0x7f01001c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#background}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:background
+        */
+        public static final int ActionMode_background = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#backgroundSplit}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:backgroundSplit
+        */
+        public static final int ActionMode_backgroundSplit = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#closeItemLayout}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:closeItemLayout
+        */
+        public static final int ActionMode_closeItemLayout = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#height}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:height
+        */
+        public static final int ActionMode_height = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitleTextStyle}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:subtitleTextStyle
+        */
+        public static final int ActionMode_subtitleTextStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleTextStyle}
+          attribute's value can be found in the {@link #ActionMode} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:titleTextStyle
+        */
+        public static final int ActionMode_titleTextStyle = 1;
+        /** Attributes that can be used with a ActivityChooserView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.coner.pixeldungeon.remake:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.coner.pixeldungeon.remake:initialActivityCount}</code></td><td></td></tr>
+           </table>
+           @see #ActivityChooserView_expandActivityOverflowButtonDrawable
+           @see #ActivityChooserView_initialActivityCount
+         */
+        public static final int[] ActivityChooserView = {
+            0x7f01001d, 0x7f01001e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#expandActivityOverflowButtonDrawable}
+          attribute's value can be found in the {@link #ActivityChooserView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:expandActivityOverflowButtonDrawable
+        */
+        public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#initialActivityCount}
+          attribute's value can be found in the {@link #ActivityChooserView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:initialActivityCount
+        */
+        public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
            <p>Includes the following attributes:</p>
            <table>
@@ -1977,7 +4626,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AdsAttrs_adUnitId
          */
         public static final int[] AdsAttrs = {
-            0x7f010000, 0x7f010001, 0x7f010002
+            0x7f01001f, 0x7f010020, 0x7f010021
         };
         /**
           <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#adSize}
@@ -2021,6 +4670,546 @@ containing a value of this type.
           @attr name com.coner.pixeldungeon.remake:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a AlertDialog.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.coner.pixeldungeon.remake:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.coner.pixeldungeon.remake:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.coner.pixeldungeon.remake:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.coner.pixeldungeon.remake:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.coner.pixeldungeon.remake:singleChoiceItemLayout}</code></td><td></td></tr>
+           </table>
+           @see #AlertDialog_android_layout
+           @see #AlertDialog_buttonPanelSideLayout
+           @see #AlertDialog_listItemLayout
+           @see #AlertDialog_listLayout
+           @see #AlertDialog_multiChoiceItemLayout
+           @see #AlertDialog_singleChoiceItemLayout
+         */
+        public static final int[] AlertDialog = {
+            0x010100f2, 0x7f010022, 0x7f010023, 0x7f010024,
+            0x7f010025, 0x7f010026
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+          @attr name android:layout
+        */
+        public static final int AlertDialog_android_layout = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonPanelSideLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonPanelSideLayout
+        */
+        public static final int AlertDialog_buttonPanelSideLayout = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:listItemLayout
+        */
+        public static final int AlertDialog_listItemLayout = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:listLayout
+        */
+        public static final int AlertDialog_listLayout = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#multiChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:multiChoiceItemLayout
+        */
+        public static final int AlertDialog_multiChoiceItemLayout = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#singleChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:singleChoiceItemLayout
+        */
+        public static final int AlertDialog_singleChoiceItemLayout = 4;
+        /** Attributes that can be used with a AppCompatTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.coner.pixeldungeon.remake:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatTextView_android_textAppearance
+           @see #AppCompatTextView_textAllCaps
+         */
+        public static final int[] AppCompatTextView = {
+            0x01010034, 0x7f010027
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+          @attr name android:textAppearance
+        */
+        public static final int AppCompatTextView_android_textAppearance = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name com.coner.pixeldungeon.remake:textAllCaps
+        */
+        public static final int AppCompatTextView_textAllCaps = 1;
+        /** Attributes that can be used with a ButtonBarLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.coner.pixeldungeon.remake:allowStacking}</code></td><td></td></tr>
+           </table>
+           @see #ButtonBarLayout_allowStacking
+         */
+        public static final int[] ButtonBarLayout = {
+            0x7f010028
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#allowStacking}
+          attribute's value can be found in the {@link #ButtonBarLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:allowStacking
+        */
+        public static final int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CompoundButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.coner.pixeldungeon.remake:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.coner.pixeldungeon.remake:buttonTintMode}</code></td><td></td></tr>
+           </table>
+           @see #CompoundButton_android_button
+           @see #CompoundButton_buttonTint
+           @see #CompoundButton_buttonTintMode
+         */
+        public static final int[] CompoundButton = {
+            0x01010107, 0x7f010029, 0x7f01002a
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#button}
+          attribute's value can be found in the {@link #CompoundButton} array.
+          @attr name android:button
+        */
+        public static final int CompoundButton_android_button = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonTint}
+          attribute's value can be found in the {@link #CompoundButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:buttonTint
+        */
+        public static final int CompoundButton_buttonTint = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonTintMode}
+          attribute's value can be found in the {@link #CompoundButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:buttonTintMode
+        */
+        public static final int CompoundButton_buttonTintMode = 2;
+        /** Attributes that can be used with a DrawerArrowToggle.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.coner.pixeldungeon.remake:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.coner.pixeldungeon.remake:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.coner.pixeldungeon.remake:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.coner.pixeldungeon.remake:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.coner.pixeldungeon.remake:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.coner.pixeldungeon.remake:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.coner.pixeldungeon.remake:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.coner.pixeldungeon.remake:thickness}</code></td><td></td></tr>
+           </table>
+           @see #DrawerArrowToggle_arrowHeadLength
+           @see #DrawerArrowToggle_arrowShaftLength
+           @see #DrawerArrowToggle_barLength
+           @see #DrawerArrowToggle_color
+           @see #DrawerArrowToggle_drawableSize
+           @see #DrawerArrowToggle_gapBetweenBars
+           @see #DrawerArrowToggle_spinBars
+           @see #DrawerArrowToggle_thickness
+         */
+        public static final int[] DrawerArrowToggle = {
+            0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
+            0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#arrowHeadLength}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:arrowHeadLength
+        */
+        public static final int DrawerArrowToggle_arrowHeadLength = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#arrowShaftLength}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:arrowShaftLength
+        */
+        public static final int DrawerArrowToggle_arrowShaftLength = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#barLength}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:barLength
+        */
+        public static final int DrawerArrowToggle_barLength = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#color}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:color
+        */
+        public static final int DrawerArrowToggle_color = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#drawableSize}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:drawableSize
+        */
+        public static final int DrawerArrowToggle_drawableSize = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#gapBetweenBars}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:gapBetweenBars
+        */
+        public static final int DrawerArrowToggle_gapBetweenBars = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#spinBars}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:spinBars
+        */
+        public static final int DrawerArrowToggle_spinBars = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#thickness}
+          attribute's value can be found in the {@link #DrawerArrowToggle} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:thickness
+        */
+        public static final int DrawerArrowToggle_thickness = 7;
+        /** Attributes that can be used with a LinearLayoutCompat.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.coner.pixeldungeon.remake:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.coner.pixeldungeon.remake:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.coner.pixeldungeon.remake:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.coner.pixeldungeon.remake:showDividers}</code></td><td></td></tr>
+           </table>
+           @see #LinearLayoutCompat_android_baselineAligned
+           @see #LinearLayoutCompat_android_baselineAlignedChildIndex
+           @see #LinearLayoutCompat_android_gravity
+           @see #LinearLayoutCompat_android_orientation
+           @see #LinearLayoutCompat_android_weightSum
+           @see #LinearLayoutCompat_divider
+           @see #LinearLayoutCompat_dividerPadding
+           @see #LinearLayoutCompat_measureWithLargestChild
+           @see #LinearLayoutCompat_showDividers
+         */
+        public static final int[] LinearLayoutCompat = {
+            0x010100af, 0x010100c4, 0x01010126, 0x01010127,
+            0x01010128, 0x7f01000b, 0x7f010033, 0x7f010034,
+            0x7f010035
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+          @attr name android:baselineAligned
+        */
+        public static final int LinearLayoutCompat_android_baselineAligned = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+          @attr name android:baselineAlignedChildIndex
+        */
+        public static final int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#gravity}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+          @attr name android:gravity
+        */
+        public static final int LinearLayoutCompat_android_gravity = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+          @attr name android:orientation
+        */
+        public static final int LinearLayoutCompat_android_orientation = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+          @attr name android:weightSum
+        */
+        public static final int LinearLayoutCompat_android_weightSum = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#divider}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:divider
+        */
+        public static final int LinearLayoutCompat_divider = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dividerPadding}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:dividerPadding
+        */
+        public static final int LinearLayoutCompat_dividerPadding = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#measureWithLargestChild}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:measureWithLargestChild
+        */
+        public static final int LinearLayoutCompat_measureWithLargestChild = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#showDividers}
+          attribute's value can be found in the {@link #LinearLayoutCompat} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>beginning</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:showDividers
+        */
+        public static final int LinearLayoutCompat_showDividers = 7;
+        /** Attributes that can be used with a LinearLayoutCompat_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_height android:layout_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_weight android:layout_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_width android:layout_width}</code></td><td></td></tr>
+           </table>
+           @see #LinearLayoutCompat_Layout_android_layout_gravity
+           @see #LinearLayoutCompat_Layout_android_layout_height
+           @see #LinearLayoutCompat_Layout_android_layout_weight
+           @see #LinearLayoutCompat_Layout_android_layout_width
+         */
+        public static final int[] LinearLayoutCompat_Layout = {
+            0x010100b3, 0x010100f4, 0x010100f5, 0x01010181
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+          attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+          @attr name android:layout_gravity
+        */
+        public static final int LinearLayoutCompat_Layout_android_layout_gravity = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+          attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+          @attr name android:layout_height
+        */
+        public static final int LinearLayoutCompat_Layout_android_layout_height = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_weight}
+          attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+          @attr name android:layout_weight
+        */
+        public static final int LinearLayoutCompat_Layout_android_layout_weight = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+          attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+          @attr name android:layout_width
+        */
+        public static final int LinearLayoutCompat_Layout_android_layout_width = 1;
+        /** Attributes that can be used with a ListPopupWindow.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ListPopupWindow_android_dropDownHorizontalOffset android:dropDownHorizontalOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ListPopupWindow_android_dropDownVerticalOffset android:dropDownVerticalOffset}</code></td><td></td></tr>
+           </table>
+           @see #ListPopupWindow_android_dropDownHorizontalOffset
+           @see #ListPopupWindow_android_dropDownVerticalOffset
+         */
+        public static final int[] ListPopupWindow = {
+            0x010102ac, 0x010102ad
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
+          attribute's value can be found in the {@link #ListPopupWindow} array.
+          @attr name android:dropDownHorizontalOffset
+        */
+        public static final int ListPopupWindow_android_dropDownHorizontalOffset = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
+          attribute's value can be found in the {@link #ListPopupWindow} array.
+          @attr name android:dropDownVerticalOffset
+        */
+        public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
         /** Attributes that can be used with a LoadingImageView.
            <p>Includes the following attributes:</p>
            <table>
@@ -2036,7 +5225,7 @@ containing a value of this type.
            @see #LoadingImageView_imageAspectRatioAdjust
          */
         public static final int[] LoadingImageView = {
-            0x7f010003, 0x7f010004, 0x7f010005
+            0x7f010036, 0x7f010037, 0x7f010038
         };
         /**
           <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#circleCrop}
@@ -2084,6 +5273,612 @@ containing a value of this type.
           @attr name com.coner.pixeldungeon.remake:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a MenuGroup.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MenuGroup_android_checkableBehavior android:checkableBehavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_enabled android:enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_menuCategory android:menuCategory}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_orderInCategory android:orderInCategory}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_visible android:visible}</code></td><td></td></tr>
+           </table>
+           @see #MenuGroup_android_checkableBehavior
+           @see #MenuGroup_android_enabled
+           @see #MenuGroup_android_id
+           @see #MenuGroup_android_menuCategory
+           @see #MenuGroup_android_orderInCategory
+           @see #MenuGroup_android_visible
+         */
+        public static final int[] MenuGroup = {
+            0x0101000e, 0x010100d0, 0x01010194, 0x010101de,
+            0x010101df, 0x010101e0
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:checkableBehavior
+        */
+        public static final int MenuGroup_android_checkableBehavior = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#enabled}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:enabled
+        */
+        public static final int MenuGroup_android_enabled = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#id}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:id
+        */
+        public static final int MenuGroup_android_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:menuCategory
+        */
+        public static final int MenuGroup_android_menuCategory = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:orderInCategory
+        */
+        public static final int MenuGroup_android_orderInCategory = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#visible}
+          attribute's value can be found in the {@link #MenuGroup} array.
+          @attr name android:visible
+        */
+        public static final int MenuGroup_android_visible = 2;
+        /** Attributes that can be used with a MenuItem.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.coner.pixeldungeon.remake:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.coner.pixeldungeon.remake:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.coner.pixeldungeon.remake:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_enabled android:enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_icon android:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_menuCategory android:menuCategory}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_orderInCategory android:orderInCategory}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.coner.pixeldungeon.remake:showAsAction}</code></td><td></td></tr>
+           </table>
+           @see #MenuItem_actionLayout
+           @see #MenuItem_actionProviderClass
+           @see #MenuItem_actionViewClass
+           @see #MenuItem_android_alphabeticShortcut
+           @see #MenuItem_android_checkable
+           @see #MenuItem_android_checked
+           @see #MenuItem_android_enabled
+           @see #MenuItem_android_icon
+           @see #MenuItem_android_id
+           @see #MenuItem_android_menuCategory
+           @see #MenuItem_android_numericShortcut
+           @see #MenuItem_android_onClick
+           @see #MenuItem_android_orderInCategory
+           @see #MenuItem_android_title
+           @see #MenuItem_android_titleCondensed
+           @see #MenuItem_android_visible
+           @see #MenuItem_showAsAction
+         */
+        public static final int[] MenuItem = {
+            0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
+            0x01010194, 0x010101de, 0x010101df, 0x010101e1,
+            0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
+            0x0101026f, 0x7f010039, 0x7f01003a, 0x7f01003b,
+            0x7f01003c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionLayout}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionLayout
+        */
+        public static final int MenuItem_actionLayout = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionProviderClass}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:actionProviderClass
+        */
+        public static final int MenuItem_actionProviderClass = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionViewClass}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:actionViewClass
+        */
+        public static final int MenuItem_actionViewClass = 15;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:alphabeticShortcut
+        */
+        public static final int MenuItem_android_alphabeticShortcut = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#checkable}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:checkable
+        */
+        public static final int MenuItem_android_checkable = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#checked}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:checked
+        */
+        public static final int MenuItem_android_checked = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#enabled}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:enabled
+        */
+        public static final int MenuItem_android_enabled = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#icon}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:icon
+        */
+        public static final int MenuItem_android_icon = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#id}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:id
+        */
+        public static final int MenuItem_android_id = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:menuCategory
+        */
+        public static final int MenuItem_android_menuCategory = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:numericShortcut
+        */
+        public static final int MenuItem_android_numericShortcut = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#onClick}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:onClick
+        */
+        public static final int MenuItem_android_onClick = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:orderInCategory
+        */
+        public static final int MenuItem_android_orderInCategory = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#title}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:title
+        */
+        public static final int MenuItem_android_title = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:titleCondensed
+        */
+        public static final int MenuItem_android_titleCondensed = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#visible}
+          attribute's value can be found in the {@link #MenuItem} array.
+          @attr name android:visible
+        */
+        public static final int MenuItem_android_visible = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#showAsAction}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>never</code></td><td>0</td><td></td></tr>
+<tr><td><code>ifRoom</code></td><td>1</td><td></td></tr>
+<tr><td><code>always</code></td><td>2</td><td></td></tr>
+<tr><td><code>withText</code></td><td>4</td><td></td></tr>
+<tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:showAsAction
+        */
+        public static final int MenuItem_showAsAction = 13;
+        /** Attributes that can be used with a MenuView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_horizontalDivider android:horizontalDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.coner.pixeldungeon.remake:preserveIconSpacing}</code></td><td></td></tr>
+           </table>
+           @see #MenuView_android_headerBackground
+           @see #MenuView_android_horizontalDivider
+           @see #MenuView_android_itemBackground
+           @see #MenuView_android_itemIconDisabledAlpha
+           @see #MenuView_android_itemTextAppearance
+           @see #MenuView_android_verticalDivider
+           @see #MenuView_android_windowAnimationStyle
+           @see #MenuView_preserveIconSpacing
+         */
+        public static final int[] MenuView = {
+            0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
+            0x0101012f, 0x01010130, 0x01010131, 0x7f01003d
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:headerBackground
+        */
+        public static final int MenuView_android_headerBackground = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:horizontalDivider
+        */
+        public static final int MenuView_android_horizontalDivider = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:itemBackground
+        */
+        public static final int MenuView_android_itemBackground = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:itemIconDisabledAlpha
+        */
+        public static final int MenuView_android_itemIconDisabledAlpha = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:itemTextAppearance
+        */
+        public static final int MenuView_android_itemTextAppearance = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:verticalDivider
+        */
+        public static final int MenuView_android_verticalDivider = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #MenuView} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int MenuView_android_windowAnimationStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#preserveIconSpacing}
+          attribute's value can be found in the {@link #MenuView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:preserveIconSpacing
+        */
+        public static final int MenuView_preserveIconSpacing = 7;
+        /** Attributes that can be used with a PopupWindow.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.coner.pixeldungeon.remake:overlapAnchor}</code></td><td></td></tr>
+           </table>
+           @see #PopupWindow_android_popupBackground
+           @see #PopupWindow_overlapAnchor
+         */
+        public static final int[] PopupWindow = {
+            0x01010176, 0x7f01003e
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+          attribute's value can be found in the {@link #PopupWindow} array.
+          @attr name android:popupBackground
+        */
+        public static final int PopupWindow_android_popupBackground = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#overlapAnchor}
+          attribute's value can be found in the {@link #PopupWindow} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:overlapAnchor
+        */
+        public static final int PopupWindow_overlapAnchor = 1;
+        /** Attributes that can be used with a PopupWindowBackgroundState.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.coner.pixeldungeon.remake:state_above_anchor}</code></td><td></td></tr>
+           </table>
+           @see #PopupWindowBackgroundState_state_above_anchor
+         */
+        public static final int[] PopupWindowBackgroundState = {
+            0x7f01003f
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#state_above_anchor}
+          attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:state_above_anchor
+        */
+        public static final int PopupWindowBackgroundState_state_above_anchor = 0;
+        /** Attributes that can be used with a SearchView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SearchView_android_focusable android:focusable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.coner.pixeldungeon.remake:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.coner.pixeldungeon.remake:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.coner.pixeldungeon.remake:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.coner.pixeldungeon.remake:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.coner.pixeldungeon.remake:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.coner.pixeldungeon.remake:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.coner.pixeldungeon.remake:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.coner.pixeldungeon.remake:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.coner.pixeldungeon.remake:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.coner.pixeldungeon.remake:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.coner.pixeldungeon.remake:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.coner.pixeldungeon.remake:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.coner.pixeldungeon.remake:voiceIcon}</code></td><td></td></tr>
+           </table>
+           @see #SearchView_android_focusable
+           @see #SearchView_android_imeOptions
+           @see #SearchView_android_inputType
+           @see #SearchView_android_maxWidth
+           @see #SearchView_closeIcon
+           @see #SearchView_commitIcon
+           @see #SearchView_defaultQueryHint
+           @see #SearchView_goIcon
+           @see #SearchView_iconifiedByDefault
+           @see #SearchView_layout
+           @see #SearchView_queryBackground
+           @see #SearchView_queryHint
+           @see #SearchView_searchHintIcon
+           @see #SearchView_searchIcon
+           @see #SearchView_submitBackground
+           @see #SearchView_suggestionRowLayout
+           @see #SearchView_voiceIcon
+         */
+        public static final int[] SearchView = {
+            0x010100da, 0x0101011f, 0x01010220, 0x01010264,
+            0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043,
+            0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047,
+            0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b,
+            0x7f01004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#focusable}
+          attribute's value can be found in the {@link #SearchView} array.
+          @attr name android:focusable
+        */
+        public static final int SearchView_android_focusable = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+          attribute's value can be found in the {@link #SearchView} array.
+          @attr name android:imeOptions
+        */
+        public static final int SearchView_android_imeOptions = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#inputType}
+          attribute's value can be found in the {@link #SearchView} array.
+          @attr name android:inputType
+        */
+        public static final int SearchView_android_inputType = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+          attribute's value can be found in the {@link #SearchView} array.
+          @attr name android:maxWidth
+        */
+        public static final int SearchView_android_maxWidth = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#closeIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:closeIcon
+        */
+        public static final int SearchView_closeIcon = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#commitIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:commitIcon
+        */
+        public static final int SearchView_commitIcon = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#defaultQueryHint}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:defaultQueryHint
+        */
+        public static final int SearchView_defaultQueryHint = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#goIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:goIcon
+        */
+        public static final int SearchView_goIcon = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#iconifiedByDefault}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:iconifiedByDefault
+        */
+        public static final int SearchView_iconifiedByDefault = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#layout}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:layout
+        */
+        public static final int SearchView_layout = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#queryBackground}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:queryBackground
+        */
+        public static final int SearchView_queryBackground = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#queryHint}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:queryHint
+        */
+        public static final int SearchView_queryHint = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#searchHintIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:searchHintIcon
+        */
+        public static final int SearchView_searchHintIcon = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#searchIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:searchIcon
+        */
+        public static final int SearchView_searchIcon = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#submitBackground}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:submitBackground
+        */
+        public static final int SearchView_submitBackground = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#suggestionRowLayout}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:suggestionRowLayout
+        */
+        public static final int SearchView_suggestionRowLayout = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#voiceIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:voiceIcon
+        */
+        public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -2099,7 +5894,7 @@ containing a value of this type.
            @see #SignInButton_scopeUris
          */
         public static final int[] SignInButton = {
-            0x7f010006, 0x7f010007, 0x7f010008
+            0x7f01004d, 0x7f01004e, 0x7f01004f
         };
         /**
           <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonSize}
@@ -2152,5 +5947,2391 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.coner.pixeldungeon.remake:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
+        /** Attributes that can be used with a Spinner.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.coner.pixeldungeon.remake:popupTheme}</code></td><td></td></tr>
+           </table>
+           @see #Spinner_android_dropDownWidth
+           @see #Spinner_android_popupBackground
+           @see #Spinner_android_prompt
+           @see #Spinner_popupTheme
+         */
+        public static final int[] Spinner = {
+            0x01010176, 0x0101017b, 0x01010262, 0x7f01001b
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+          attribute's value can be found in the {@link #Spinner} array.
+          @attr name android:dropDownWidth
+        */
+        public static final int Spinner_android_dropDownWidth = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+          attribute's value can be found in the {@link #Spinner} array.
+          @attr name android:popupBackground
+        */
+        public static final int Spinner_android_popupBackground = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#prompt}
+          attribute's value can be found in the {@link #Spinner} array.
+          @attr name android:prompt
+        */
+        public static final int Spinner_android_prompt = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#popupTheme}
+          attribute's value can be found in the {@link #Spinner} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:popupTheme
+        */
+        public static final int Spinner_popupTheme = 3;
+        /** Attributes that can be used with a SwitchCompat.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.coner.pixeldungeon.remake:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.coner.pixeldungeon.remake:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.coner.pixeldungeon.remake:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.coner.pixeldungeon.remake:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.coner.pixeldungeon.remake:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.coner.pixeldungeon.remake:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.coner.pixeldungeon.remake:track}</code></td><td></td></tr>
+           </table>
+           @see #SwitchCompat_android_textOff
+           @see #SwitchCompat_android_textOn
+           @see #SwitchCompat_android_thumb
+           @see #SwitchCompat_showText
+           @see #SwitchCompat_splitTrack
+           @see #SwitchCompat_switchMinWidth
+           @see #SwitchCompat_switchPadding
+           @see #SwitchCompat_switchTextAppearance
+           @see #SwitchCompat_thumbTextPadding
+           @see #SwitchCompat_track
+         */
+        public static final int[] SwitchCompat = {
+            0x01010124, 0x01010125, 0x01010142, 0x7f010050,
+            0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054,
+            0x7f010055, 0x7f010056
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textOff}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+          @attr name android:textOff
+        */
+        public static final int SwitchCompat_android_textOff = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textOn}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+          @attr name android:textOn
+        */
+        public static final int SwitchCompat_android_textOn = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#thumb}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+          @attr name android:thumb
+        */
+        public static final int SwitchCompat_android_thumb = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#showText}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:showText
+        */
+        public static final int SwitchCompat_showText = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#splitTrack}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:splitTrack
+        */
+        public static final int SwitchCompat_splitTrack = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#switchMinWidth}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:switchMinWidth
+        */
+        public static final int SwitchCompat_switchMinWidth = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#switchPadding}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:switchPadding
+        */
+        public static final int SwitchCompat_switchPadding = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#switchTextAppearance}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:switchTextAppearance
+        */
+        public static final int SwitchCompat_switchTextAppearance = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#thumbTextPadding}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:thumbTextPadding
+        */
+        public static final int SwitchCompat_thumbTextPadding = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#track}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:track
+        */
+        public static final int SwitchCompat_track = 3;
+        /** Attributes that can be used with a TextAppearance.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.coner.pixeldungeon.remake:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #TextAppearance_android_shadowColor
+           @see #TextAppearance_android_shadowDx
+           @see #TextAppearance_android_shadowDy
+           @see #TextAppearance_android_shadowRadius
+           @see #TextAppearance_android_textColor
+           @see #TextAppearance_android_textSize
+           @see #TextAppearance_android_textStyle
+           @see #TextAppearance_android_typeface
+           @see #TextAppearance_textAllCaps
+         */
+        public static final int[] TextAppearance = {
+            0x01010095, 0x01010096, 0x01010097, 0x01010098,
+            0x01010161, 0x01010162, 0x01010163, 0x01010164,
+            0x7f010027
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowColor
+        */
+        public static final int TextAppearance_android_shadowColor = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowDx
+        */
+        public static final int TextAppearance_android_shadowDx = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowDy
+        */
+        public static final int TextAppearance_android_shadowDy = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowRadius
+        */
+        public static final int TextAppearance_android_shadowRadius = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textColor
+        */
+        public static final int TextAppearance_android_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textSize}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textSize
+        */
+        public static final int TextAppearance_android_textSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textStyle
+        */
+        public static final int TextAppearance_android_textStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#typeface}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:typeface
+        */
+        public static final int TextAppearance_android_typeface = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #TextAppearance} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name com.coner.pixeldungeon.remake:textAllCaps
+        */
+        public static final int TextAppearance_textAllCaps = 8;
+        /** Attributes that can be used with a Theme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.coner.pixeldungeon.remake:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.coner.pixeldungeon.remake:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.coner.pixeldungeon.remake:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.coner.pixeldungeon.remake:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.coner.pixeldungeon.remake:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.coner.pixeldungeon.remake:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.coner.pixeldungeon.remake:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.coner.pixeldungeon.remake:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.coner.pixeldungeon.remake:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.coner.pixeldungeon.remake:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.coner.pixeldungeon.remake:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.coner.pixeldungeon.remake:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.coner.pixeldungeon.remake:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.coner.pixeldungeon.remake:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.coner.pixeldungeon.remake:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.coner.pixeldungeon.remake:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.coner.pixeldungeon.remake:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.coner.pixeldungeon.remake:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.coner.pixeldungeon.remake:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.coner.pixeldungeon.remake:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.coner.pixeldungeon.remake:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.coner.pixeldungeon.remake:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.coner.pixeldungeon.remake:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.coner.pixeldungeon.remake:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.coner.pixeldungeon.remake:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.coner.pixeldungeon.remake:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.coner.pixeldungeon.remake:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.coner.pixeldungeon.remake:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.coner.pixeldungeon.remake:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.coner.pixeldungeon.remake:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.coner.pixeldungeon.remake:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.coner.pixeldungeon.remake:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.coner.pixeldungeon.remake:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.coner.pixeldungeon.remake:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.coner.pixeldungeon.remake:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.coner.pixeldungeon.remake:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle com.coner.pixeldungeon.remake:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.coner.pixeldungeon.remake:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.coner.pixeldungeon.remake:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.coner.pixeldungeon.remake:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.coner.pixeldungeon.remake:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.coner.pixeldungeon.remake:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.coner.pixeldungeon.remake:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.coner.pixeldungeon.remake:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.coner.pixeldungeon.remake:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.coner.pixeldungeon.remake:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.coner.pixeldungeon.remake:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.coner.pixeldungeon.remake:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.coner.pixeldungeon.remake:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.coner.pixeldungeon.remake:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.coner.pixeldungeon.remake:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.coner.pixeldungeon.remake:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.coner.pixeldungeon.remake:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.coner.pixeldungeon.remake:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground com.coner.pixeldungeon.remake:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.coner.pixeldungeon.remake:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.coner.pixeldungeon.remake:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.coner.pixeldungeon.remake:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.coner.pixeldungeon.remake:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.coner.pixeldungeon.remake:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.coner.pixeldungeon.remake:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.coner.pixeldungeon.remake:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.coner.pixeldungeon.remake:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.coner.pixeldungeon.remake:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.coner.pixeldungeon.remake:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle com.coner.pixeldungeon.remake:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.coner.pixeldungeon.remake:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.coner.pixeldungeon.remake:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.coner.pixeldungeon.remake:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.coner.pixeldungeon.remake:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.coner.pixeldungeon.remake:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.coner.pixeldungeon.remake:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.coner.pixeldungeon.remake:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.coner.pixeldungeon.remake:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.coner.pixeldungeon.remake:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.coner.pixeldungeon.remake:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.coner.pixeldungeon.remake:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.coner.pixeldungeon.remake:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.coner.pixeldungeon.remake:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.coner.pixeldungeon.remake:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.coner.pixeldungeon.remake:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.coner.pixeldungeon.remake:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle com.coner.pixeldungeon.remake:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.coner.pixeldungeon.remake:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.coner.pixeldungeon.remake:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.coner.pixeldungeon.remake:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.coner.pixeldungeon.remake:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.coner.pixeldungeon.remake:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.coner.pixeldungeon.remake:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.coner.pixeldungeon.remake:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.coner.pixeldungeon.remake:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.coner.pixeldungeon.remake:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.coner.pixeldungeon.remake:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.coner.pixeldungeon.remake:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.coner.pixeldungeon.remake:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.coner.pixeldungeon.remake:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.coner.pixeldungeon.remake:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.coner.pixeldungeon.remake:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.coner.pixeldungeon.remake:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.coner.pixeldungeon.remake:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.coner.pixeldungeon.remake:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.coner.pixeldungeon.remake:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.coner.pixeldungeon.remake:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.coner.pixeldungeon.remake:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.coner.pixeldungeon.remake:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.coner.pixeldungeon.remake:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.coner.pixeldungeon.remake:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.coner.pixeldungeon.remake:windowNoTitle}</code></td><td></td></tr>
+           </table>
+           @see #Theme_actionBarDivider
+           @see #Theme_actionBarItemBackground
+           @see #Theme_actionBarPopupTheme
+           @see #Theme_actionBarSize
+           @see #Theme_actionBarSplitStyle
+           @see #Theme_actionBarStyle
+           @see #Theme_actionBarTabBarStyle
+           @see #Theme_actionBarTabStyle
+           @see #Theme_actionBarTabTextStyle
+           @see #Theme_actionBarTheme
+           @see #Theme_actionBarWidgetTheme
+           @see #Theme_actionButtonStyle
+           @see #Theme_actionDropDownStyle
+           @see #Theme_actionMenuTextAppearance
+           @see #Theme_actionMenuTextColor
+           @see #Theme_actionModeBackground
+           @see #Theme_actionModeCloseButtonStyle
+           @see #Theme_actionModeCloseDrawable
+           @see #Theme_actionModeCopyDrawable
+           @see #Theme_actionModeCutDrawable
+           @see #Theme_actionModeFindDrawable
+           @see #Theme_actionModePasteDrawable
+           @see #Theme_actionModePopupWindowStyle
+           @see #Theme_actionModeSelectAllDrawable
+           @see #Theme_actionModeShareDrawable
+           @see #Theme_actionModeSplitBackground
+           @see #Theme_actionModeStyle
+           @see #Theme_actionModeWebSearchDrawable
+           @see #Theme_actionOverflowButtonStyle
+           @see #Theme_actionOverflowMenuStyle
+           @see #Theme_activityChooserViewStyle
+           @see #Theme_alertDialogButtonGroupStyle
+           @see #Theme_alertDialogCenterButtons
+           @see #Theme_alertDialogStyle
+           @see #Theme_alertDialogTheme
+           @see #Theme_android_windowAnimationStyle
+           @see #Theme_android_windowIsFloating
+           @see #Theme_autoCompleteTextViewStyle
+           @see #Theme_borderlessButtonStyle
+           @see #Theme_buttonBarButtonStyle
+           @see #Theme_buttonBarNegativeButtonStyle
+           @see #Theme_buttonBarNeutralButtonStyle
+           @see #Theme_buttonBarPositiveButtonStyle
+           @see #Theme_buttonBarStyle
+           @see #Theme_buttonStyle
+           @see #Theme_buttonStyleSmall
+           @see #Theme_checkboxStyle
+           @see #Theme_checkedTextViewStyle
+           @see #Theme_colorAccent
+           @see #Theme_colorButtonNormal
+           @see #Theme_colorControlActivated
+           @see #Theme_colorControlHighlight
+           @see #Theme_colorControlNormal
+           @see #Theme_colorPrimary
+           @see #Theme_colorPrimaryDark
+           @see #Theme_colorSwitchThumbNormal
+           @see #Theme_controlBackground
+           @see #Theme_dialogPreferredPadding
+           @see #Theme_dialogTheme
+           @see #Theme_dividerHorizontal
+           @see #Theme_dividerVertical
+           @see #Theme_dropDownListViewStyle
+           @see #Theme_dropdownListPreferredItemHeight
+           @see #Theme_editTextBackground
+           @see #Theme_editTextColor
+           @see #Theme_editTextStyle
+           @see #Theme_homeAsUpIndicator
+           @see #Theme_imageButtonStyle
+           @see #Theme_listChoiceBackgroundIndicator
+           @see #Theme_listDividerAlertDialog
+           @see #Theme_listPopupWindowStyle
+           @see #Theme_listPreferredItemHeight
+           @see #Theme_listPreferredItemHeightLarge
+           @see #Theme_listPreferredItemHeightSmall
+           @see #Theme_listPreferredItemPaddingLeft
+           @see #Theme_listPreferredItemPaddingRight
+           @see #Theme_panelBackground
+           @see #Theme_panelMenuListTheme
+           @see #Theme_panelMenuListWidth
+           @see #Theme_popupMenuStyle
+           @see #Theme_popupWindowStyle
+           @see #Theme_radioButtonStyle
+           @see #Theme_ratingBarStyle
+           @see #Theme_searchViewStyle
+           @see #Theme_seekBarStyle
+           @see #Theme_selectableItemBackground
+           @see #Theme_selectableItemBackgroundBorderless
+           @see #Theme_spinnerDropDownItemStyle
+           @see #Theme_spinnerStyle
+           @see #Theme_switchStyle
+           @see #Theme_textAppearanceLargePopupMenu
+           @see #Theme_textAppearanceListItem
+           @see #Theme_textAppearanceListItemSmall
+           @see #Theme_textAppearanceSearchResultSubtitle
+           @see #Theme_textAppearanceSearchResultTitle
+           @see #Theme_textAppearanceSmallPopupMenu
+           @see #Theme_textColorAlertDialogListItem
+           @see #Theme_textColorSearchUrl
+           @see #Theme_toolbarNavigationButtonStyle
+           @see #Theme_toolbarStyle
+           @see #Theme_windowActionBar
+           @see #Theme_windowActionBarOverlay
+           @see #Theme_windowActionModeOverlay
+           @see #Theme_windowFixedHeightMajor
+           @see #Theme_windowFixedHeightMinor
+           @see #Theme_windowFixedWidthMajor
+           @see #Theme_windowFixedWidthMinor
+           @see #Theme_windowMinWidthMajor
+           @see #Theme_windowMinWidthMinor
+           @see #Theme_windowNoTitle
+         */
+        public static final int[] Theme = {
+            0x01010057, 0x010100ae, 0x7f010057, 0x7f010058,
+            0x7f010059, 0x7f01005a, 0x7f01005b, 0x7f01005c,
+            0x7f01005d, 0x7f01005e, 0x7f01005f, 0x7f010060,
+            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064,
+            0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068,
+            0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c,
+            0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070,
+            0x7f010071, 0x7f010072, 0x7f010073, 0x7f010074,
+            0x7f010075, 0x7f010076, 0x7f010077, 0x7f010078,
+            0x7f010079, 0x7f01007a, 0x7f01007b, 0x7f01007c,
+            0x7f01007d, 0x7f01007e, 0x7f01007f, 0x7f010080,
+            0x7f010081, 0x7f010082, 0x7f010083, 0x7f010084,
+            0x7f010085, 0x7f010086, 0x7f010087, 0x7f010088,
+            0x7f010089, 0x7f01008a, 0x7f01008b, 0x7f01008c,
+            0x7f01008d, 0x7f01008e, 0x7f01008f, 0x7f010090,
+            0x7f010091, 0x7f010092, 0x7f010093, 0x7f010094,
+            0x7f010095, 0x7f010096, 0x7f010097, 0x7f010098,
+            0x7f010099, 0x7f01009a, 0x7f01009b, 0x7f01009c,
+            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
+            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
+            0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8,
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
+            0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8,
+            0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc,
+            0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0,
+            0x7f0100c1, 0x7f0100c2
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarDivider}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarDivider
+        */
+        public static final int Theme_actionBarDivider = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarItemBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarItemBackground
+        */
+        public static final int Theme_actionBarItemBackground = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarPopupTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarPopupTheme
+        */
+        public static final int Theme_actionBarPopupTheme = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarSize}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:actionBarSize
+        */
+        public static final int Theme_actionBarSize = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarSplitStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarSplitStyle
+        */
+        public static final int Theme_actionBarSplitStyle = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarStyle
+        */
+        public static final int Theme_actionBarStyle = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarTabBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarTabBarStyle
+        */
+        public static final int Theme_actionBarTabBarStyle = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarTabStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarTabStyle
+        */
+        public static final int Theme_actionBarTabStyle = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarTabTextStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarTabTextStyle
+        */
+        public static final int Theme_actionBarTabTextStyle = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarTheme
+        */
+        public static final int Theme_actionBarTheme = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionBarWidgetTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionBarWidgetTheme
+        */
+        public static final int Theme_actionBarWidgetTheme = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionButtonStyle
+        */
+        public static final int Theme_actionButtonStyle = 49;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionDropDownStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionDropDownStyle
+        */
+        public static final int Theme_actionDropDownStyle = 45;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionMenuTextAppearance}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionMenuTextAppearance
+        */
+        public static final int Theme_actionMenuTextAppearance = 25;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionMenuTextColor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionMenuTextColor
+        */
+        public static final int Theme_actionMenuTextColor = 26;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeBackground
+        */
+        public static final int Theme_actionModeBackground = 29;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeCloseButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeCloseButtonStyle
+        */
+        public static final int Theme_actionModeCloseButtonStyle = 28;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeCloseDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeCloseDrawable
+        */
+        public static final int Theme_actionModeCloseDrawable = 31;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeCopyDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeCopyDrawable
+        */
+        public static final int Theme_actionModeCopyDrawable = 33;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeCutDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeCutDrawable
+        */
+        public static final int Theme_actionModeCutDrawable = 32;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeFindDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeFindDrawable
+        */
+        public static final int Theme_actionModeFindDrawable = 37;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModePasteDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModePasteDrawable
+        */
+        public static final int Theme_actionModePasteDrawable = 34;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModePopupWindowStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModePopupWindowStyle
+        */
+        public static final int Theme_actionModePopupWindowStyle = 39;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeSelectAllDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeSelectAllDrawable
+        */
+        public static final int Theme_actionModeSelectAllDrawable = 35;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeShareDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeShareDrawable
+        */
+        public static final int Theme_actionModeShareDrawable = 36;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeSplitBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeSplitBackground
+        */
+        public static final int Theme_actionModeSplitBackground = 30;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeStyle
+        */
+        public static final int Theme_actionModeStyle = 27;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionModeWebSearchDrawable}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionModeWebSearchDrawable
+        */
+        public static final int Theme_actionModeWebSearchDrawable = 38;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionOverflowButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionOverflowButtonStyle
+        */
+        public static final int Theme_actionOverflowButtonStyle = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#actionOverflowMenuStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:actionOverflowMenuStyle
+        */
+        public static final int Theme_actionOverflowMenuStyle = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#activityChooserViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:activityChooserViewStyle
+        */
+        public static final int Theme_activityChooserViewStyle = 57;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:alertDialogButtonGroupStyle
+        */
+        public static final int Theme_alertDialogButtonGroupStyle = 92;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:alertDialogCenterButtons
+        */
+        public static final int Theme_alertDialogCenterButtons = 93;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:alertDialogStyle
+        */
+        public static final int Theme_alertDialogStyle = 91;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#alertDialogTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:alertDialogTheme
+        */
+        public static final int Theme_alertDialogTheme = 94;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #Theme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int Theme_android_windowAnimationStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+          attribute's value can be found in the {@link #Theme} array.
+          @attr name android:windowIsFloating
+        */
+        public static final int Theme_android_windowIsFloating = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#autoCompleteTextViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:autoCompleteTextViewStyle
+        */
+        public static final int Theme_autoCompleteTextViewStyle = 99;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#borderlessButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:borderlessButtonStyle
+        */
+        public static final int Theme_borderlessButtonStyle = 54;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonBarButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonBarButtonStyle
+        */
+        public static final int Theme_buttonBarButtonStyle = 51;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonBarNegativeButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonBarNegativeButtonStyle
+        */
+        public static final int Theme_buttonBarNegativeButtonStyle = 97;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonBarNeutralButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonBarNeutralButtonStyle
+        */
+        public static final int Theme_buttonBarNeutralButtonStyle = 98;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonBarPositiveButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonBarPositiveButtonStyle
+        */
+        public static final int Theme_buttonBarPositiveButtonStyle = 96;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonBarStyle
+        */
+        public static final int Theme_buttonBarStyle = 50;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonStyle
+        */
+        public static final int Theme_buttonStyle = 100;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#buttonStyleSmall}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:buttonStyleSmall
+        */
+        public static final int Theme_buttonStyleSmall = 101;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#checkboxStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:checkboxStyle
+        */
+        public static final int Theme_checkboxStyle = 102;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#checkedTextViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:checkedTextViewStyle
+        */
+        public static final int Theme_checkedTextViewStyle = 103;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorAccent}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorAccent
+        */
+        public static final int Theme_colorAccent = 84;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorButtonNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorButtonNormal
+        */
+        public static final int Theme_colorButtonNormal = 88;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorControlActivated}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorControlActivated
+        */
+        public static final int Theme_colorControlActivated = 86;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorControlHighlight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorControlHighlight
+        */
+        public static final int Theme_colorControlHighlight = 87;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorControlNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorControlNormal
+        */
+        public static final int Theme_colorControlNormal = 85;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorPrimary}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorPrimary
+        */
+        public static final int Theme_colorPrimary = 82;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorPrimaryDark}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorPrimaryDark
+        */
+        public static final int Theme_colorPrimaryDark = 83;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#colorSwitchThumbNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:colorSwitchThumbNormal
+        */
+        public static final int Theme_colorSwitchThumbNormal = 89;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#controlBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:controlBackground
+        */
+        public static final int Theme_controlBackground = 90;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dialogPreferredPadding}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:dialogPreferredPadding
+        */
+        public static final int Theme_dialogPreferredPadding = 43;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dialogTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:dialogTheme
+        */
+        public static final int Theme_dialogTheme = 42;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dividerHorizontal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:dividerHorizontal
+        */
+        public static final int Theme_dividerHorizontal = 56;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dividerVertical}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:dividerVertical
+        */
+        public static final int Theme_dividerVertical = 55;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dropDownListViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:dropDownListViewStyle
+        */
+        public static final int Theme_dropDownListViewStyle = 74;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#dropdownListPreferredItemHeight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:dropdownListPreferredItemHeight
+        */
+        public static final int Theme_dropdownListPreferredItemHeight = 46;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#editTextBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:editTextBackground
+        */
+        public static final int Theme_editTextBackground = 63;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#editTextColor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:editTextColor
+        */
+        public static final int Theme_editTextColor = 62;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#editTextStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:editTextStyle
+        */
+        public static final int Theme_editTextStyle = 104;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#homeAsUpIndicator}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:homeAsUpIndicator
+        */
+        public static final int Theme_homeAsUpIndicator = 48;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#imageButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:imageButtonStyle
+        */
+        public static final int Theme_imageButtonStyle = 64;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listChoiceBackgroundIndicator}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:listChoiceBackgroundIndicator
+        */
+        public static final int Theme_listChoiceBackgroundIndicator = 81;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listDividerAlertDialog}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:listDividerAlertDialog
+        */
+        public static final int Theme_listDividerAlertDialog = 44;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:listPopupWindowStyle
+        */
+        public static final int Theme_listPopupWindowStyle = 75;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPreferredItemHeight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:listPreferredItemHeight
+        */
+        public static final int Theme_listPreferredItemHeight = 69;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPreferredItemHeightLarge}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:listPreferredItemHeightLarge
+        */
+        public static final int Theme_listPreferredItemHeightLarge = 71;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPreferredItemHeightSmall}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:listPreferredItemHeightSmall
+        */
+        public static final int Theme_listPreferredItemHeightSmall = 70;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPreferredItemPaddingLeft}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:listPreferredItemPaddingLeft
+        */
+        public static final int Theme_listPreferredItemPaddingLeft = 72;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#listPreferredItemPaddingRight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:listPreferredItemPaddingRight
+        */
+        public static final int Theme_listPreferredItemPaddingRight = 73;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#panelBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:panelBackground
+        */
+        public static final int Theme_panelBackground = 78;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#panelMenuListTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:panelMenuListTheme
+        */
+        public static final int Theme_panelMenuListTheme = 80;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#panelMenuListWidth}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:panelMenuListWidth
+        */
+        public static final int Theme_panelMenuListWidth = 79;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#popupMenuStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:popupMenuStyle
+        */
+        public static final int Theme_popupMenuStyle = 60;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#popupWindowStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:popupWindowStyle
+        */
+        public static final int Theme_popupWindowStyle = 61;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#radioButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:radioButtonStyle
+        */
+        public static final int Theme_radioButtonStyle = 105;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#ratingBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:ratingBarStyle
+        */
+        public static final int Theme_ratingBarStyle = 106;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#searchViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:searchViewStyle
+        */
+        public static final int Theme_searchViewStyle = 68;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#seekBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:seekBarStyle
+        */
+        public static final int Theme_seekBarStyle = 107;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#selectableItemBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:selectableItemBackground
+        */
+        public static final int Theme_selectableItemBackground = 52;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#selectableItemBackgroundBorderless}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:selectableItemBackgroundBorderless
+        */
+        public static final int Theme_selectableItemBackgroundBorderless = 53;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#spinnerDropDownItemStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:spinnerDropDownItemStyle
+        */
+        public static final int Theme_spinnerDropDownItemStyle = 47;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#spinnerStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:spinnerStyle
+        */
+        public static final int Theme_spinnerStyle = 108;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#switchStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:switchStyle
+        */
+        public static final int Theme_switchStyle = 109;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceLargePopupMenu}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceLargePopupMenu
+        */
+        public static final int Theme_textAppearanceLargePopupMenu = 40;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceListItem}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceListItem
+        */
+        public static final int Theme_textAppearanceListItem = 76;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceListItemSmall}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceListItemSmall
+        */
+        public static final int Theme_textAppearanceListItemSmall = 77;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceSearchResultSubtitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceSearchResultSubtitle
+        */
+        public static final int Theme_textAppearanceSearchResultSubtitle = 66;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceSearchResultTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceSearchResultTitle
+        */
+        public static final int Theme_textAppearanceSearchResultTitle = 65;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textAppearanceSmallPopupMenu}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textAppearanceSmallPopupMenu
+        */
+        public static final int Theme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textColorAlertDialogListItem}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textColorAlertDialogListItem
+        */
+        public static final int Theme_textColorAlertDialogListItem = 95;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#textColorSearchUrl}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.coner.pixeldungeon.remake:textColorSearchUrl
+        */
+        public static final int Theme_textColorSearchUrl = 67;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#toolbarNavigationButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:toolbarNavigationButtonStyle
+        */
+        public static final int Theme_toolbarNavigationButtonStyle = 59;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#toolbarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:toolbarStyle
+        */
+        public static final int Theme_toolbarStyle = 58;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowActionBar}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowActionBar
+        */
+        public static final int Theme_windowActionBar = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowActionBarOverlay}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowActionBarOverlay
+        */
+        public static final int Theme_windowActionBarOverlay = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowActionModeOverlay}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowActionModeOverlay
+        */
+        public static final int Theme_windowActionModeOverlay = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowFixedHeightMajor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowFixedHeightMajor
+        */
+        public static final int Theme_windowFixedHeightMajor = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowFixedHeightMinor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowFixedHeightMinor
+        */
+        public static final int Theme_windowFixedHeightMinor = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowFixedWidthMajor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowFixedWidthMajor
+        */
+        public static final int Theme_windowFixedWidthMajor = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowFixedWidthMinor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowFixedWidthMinor
+        */
+        public static final int Theme_windowFixedWidthMinor = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowMinWidthMajor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowMinWidthMajor
+        */
+        public static final int Theme_windowMinWidthMajor = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowMinWidthMinor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowMinWidthMinor
+        */
+        public static final int Theme_windowMinWidthMinor = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#windowNoTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:windowNoTitle
+        */
+        public static final int Theme_windowNoTitle = 3;
+        /** Attributes that can be used with a Toolbar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.coner.pixeldungeon.remake:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.coner.pixeldungeon.remake:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.coner.pixeldungeon.remake:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.coner.pixeldungeon.remake:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.coner.pixeldungeon.remake:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.coner.pixeldungeon.remake:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.coner.pixeldungeon.remake:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.coner.pixeldungeon.remake:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.coner.pixeldungeon.remake:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.coner.pixeldungeon.remake:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.coner.pixeldungeon.remake:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.coner.pixeldungeon.remake:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.coner.pixeldungeon.remake:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.coner.pixeldungeon.remake:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.coner.pixeldungeon.remake:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.coner.pixeldungeon.remake:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.coner.pixeldungeon.remake:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.coner.pixeldungeon.remake:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.coner.pixeldungeon.remake:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.coner.pixeldungeon.remake:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.coner.pixeldungeon.remake:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.coner.pixeldungeon.remake:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.coner.pixeldungeon.remake:titleTextColor}</code></td><td></td></tr>
+           </table>
+           @see #Toolbar_android_gravity
+           @see #Toolbar_android_minHeight
+           @see #Toolbar_collapseContentDescription
+           @see #Toolbar_collapseIcon
+           @see #Toolbar_contentInsetEnd
+           @see #Toolbar_contentInsetLeft
+           @see #Toolbar_contentInsetRight
+           @see #Toolbar_contentInsetStart
+           @see #Toolbar_logo
+           @see #Toolbar_logoDescription
+           @see #Toolbar_maxButtonHeight
+           @see #Toolbar_navigationContentDescription
+           @see #Toolbar_navigationIcon
+           @see #Toolbar_popupTheme
+           @see #Toolbar_subtitle
+           @see #Toolbar_subtitleTextAppearance
+           @see #Toolbar_subtitleTextColor
+           @see #Toolbar_title
+           @see #Toolbar_titleMarginBottom
+           @see #Toolbar_titleMarginEnd
+           @see #Toolbar_titleMarginStart
+           @see #Toolbar_titleMarginTop
+           @see #Toolbar_titleMargins
+           @see #Toolbar_titleTextAppearance
+           @see #Toolbar_titleTextColor
+         */
+        public static final int[] Toolbar = {
+            0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
+            0x7f01000a, 0x7f010016, 0x7f010017, 0x7f010018,
+            0x7f010019, 0x7f01001b, 0x7f0100c3, 0x7f0100c4,
+            0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8,
+            0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc,
+            0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
+            0x7f0100d1
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#gravity}
+          attribute's value can be found in the {@link #Toolbar} array.
+          @attr name android:gravity
+        */
+        public static final int Toolbar_android_gravity = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #Toolbar} array.
+          @attr name android:minHeight
+        */
+        public static final int Toolbar_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#collapseContentDescription}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:collapseContentDescription
+        */
+        public static final int Toolbar_collapseContentDescription = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#collapseIcon}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:collapseIcon
+        */
+        public static final int Toolbar_collapseIcon = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetEnd}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetEnd
+        */
+        public static final int Toolbar_contentInsetEnd = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetLeft}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetLeft
+        */
+        public static final int Toolbar_contentInsetLeft = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetRight}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetRight
+        */
+        public static final int Toolbar_contentInsetRight = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#contentInsetStart}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:contentInsetStart
+        */
+        public static final int Toolbar_contentInsetStart = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#logo}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:logo
+        */
+        public static final int Toolbar_logo = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#logoDescription}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:logoDescription
+        */
+        public static final int Toolbar_logoDescription = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#maxButtonHeight}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:maxButtonHeight
+        */
+        public static final int Toolbar_maxButtonHeight = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#navigationContentDescription}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:navigationContentDescription
+        */
+        public static final int Toolbar_navigationContentDescription = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#navigationIcon}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:navigationIcon
+        */
+        public static final int Toolbar_navigationIcon = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#popupTheme}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:popupTheme
+        */
+        public static final int Toolbar_popupTheme = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitle}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:subtitle
+        */
+        public static final int Toolbar_subtitle = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitleTextAppearance}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:subtitleTextAppearance
+        */
+        public static final int Toolbar_subtitleTextAppearance = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#subtitleTextColor}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:subtitleTextColor
+        */
+        public static final int Toolbar_subtitleTextColor = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#title}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:title
+        */
+        public static final int Toolbar_title = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleMarginBottom}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleMarginBottom
+        */
+        public static final int Toolbar_titleMarginBottom = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleMarginEnd}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleMarginEnd
+        */
+        public static final int Toolbar_titleMarginEnd = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleMarginStart}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleMarginStart
+        */
+        public static final int Toolbar_titleMarginStart = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleMarginTop}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleMarginTop
+        */
+        public static final int Toolbar_titleMarginTop = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleMargins}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleMargins
+        */
+        public static final int Toolbar_titleMargins = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleTextAppearance}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:titleTextAppearance
+        */
+        public static final int Toolbar_titleTextAppearance = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#titleTextColor}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:titleTextColor
+        */
+        public static final int Toolbar_titleTextColor = 23;
+        /** Attributes that can be used with a View.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.coner.pixeldungeon.remake:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.coner.pixeldungeon.remake:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.coner.pixeldungeon.remake:theme}</code></td><td></td></tr>
+           </table>
+           @see #View_android_focusable
+           @see #View_android_theme
+           @see #View_paddingEnd
+           @see #View_paddingStart
+           @see #View_theme
+         */
+        public static final int[] View = {
+            0x01010000, 0x010100da, 0x7f0100d2, 0x7f0100d3,
+            0x7f0100d4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#focusable}
+          attribute's value can be found in the {@link #View} array.
+          @attr name android:focusable
+        */
+        public static final int View_android_focusable = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+          @attr name android:theme
+        */
+        public static final int View_android_theme = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#paddingEnd}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:paddingEnd
+        */
+        public static final int View_paddingEnd = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#paddingStart}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:paddingStart
+        */
+        public static final int View_paddingStart = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.coner.pixeldungeon.remake:theme
+        */
+        public static final int View_theme = 4;
+        /** Attributes that can be used with a ViewBackgroundHelper.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.coner.pixeldungeon.remake:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.coner.pixeldungeon.remake:backgroundTintMode}</code></td><td></td></tr>
+           </table>
+           @see #ViewBackgroundHelper_android_background
+           @see #ViewBackgroundHelper_backgroundTint
+           @see #ViewBackgroundHelper_backgroundTintMode
+         */
+        public static final int[] ViewBackgroundHelper = {
+            0x010100d4, 0x7f0100d5, 0x7f0100d6
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#background}
+          attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+          @attr name android:background
+        */
+        public static final int ViewBackgroundHelper_android_background = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#backgroundTint}
+          attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.coner.pixeldungeon.remake:backgroundTint
+        */
+        public static final int ViewBackgroundHelper_backgroundTint = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.coner.pixeldungeon.remake.R.attr#backgroundTintMode}
+          attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name com.coner.pixeldungeon.remake:backgroundTintMode
+        */
+        public static final int ViewBackgroundHelper_backgroundTintMode = 2;
+        /** Attributes that can be used with a ViewStubCompat.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ViewStubCompat_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewStubCompat_android_inflatedId android:inflatedId}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewStubCompat_android_layout android:layout}</code></td><td></td></tr>
+           </table>
+           @see #ViewStubCompat_android_id
+           @see #ViewStubCompat_android_inflatedId
+           @see #ViewStubCompat_android_layout
+         */
+        public static final int[] ViewStubCompat = {
+            0x010100d0, 0x010100f2, 0x010100f3
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#id}
+          attribute's value can be found in the {@link #ViewStubCompat} array.
+          @attr name android:id
+        */
+        public static final int ViewStubCompat_android_id = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+          attribute's value can be found in the {@link #ViewStubCompat} array.
+          @attr name android:inflatedId
+        */
+        public static final int ViewStubCompat_android_inflatedId = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #ViewStubCompat} array.
+          @attr name android:layout
+        */
+        public static final int ViewStubCompat_android_layout = 1;
     };
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/stones -->
+    <!-- STRINGS OF Stone CLASS -->
+    <string name="Stone_Name">Stone \"%s\"</string>
+    <string name="Stone_Info">This stone is covered with ancient symbols, Who knows what it will do when use?</string>
+    <string name="Stone_ACUse">USE</string>
+
+    <string-array name="Stone_Colors">
+        <item>red</item>
+    </string-array>
+</resources>

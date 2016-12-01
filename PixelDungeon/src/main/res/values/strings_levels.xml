@@ -22,6 +22,7 @@
     <string name="Level_TileUnlockedExit">Unlocked depth exit</string>
     <string name="Level_TileSign">Sign</string>
     <string name="Level_TileWell">Well</string>
+    <string name="Level_TilePortal">Portal</string>
     <string name="Level_TileEmptyWell">Empty well</string>
     <string name="Level_TileStatue">Statue</string>
     <string name="Level_TileToxicTrap">Toxic gas trap</string>

@@ -1,5 +1,7 @@
 package com.watabou.pixeldungeon.windows;
 
+import android.app.Application;
+
 import com.coner.android.util.DownloadStateListener;
 import com.coner.android.util.DownloadTask;
 import com.coner.android.util.FileSystem;
@@ -161,7 +163,7 @@ public class WndModSelect extends Window implements DownloadStateListener {
 		File modDir = FileSystem.getExternalStorageFile(option);
 
 		if (!modDir.exists() && !option.equals(ModdingMode.ReMake)) {
-			if (!Util.isConnectedToInternet()) {
+			if (!Util.isConnectedToInternet(Game.instance().getApplicationContext())) {
 				PixelDungeon.scene().add(new WndError("Please enable Internet access to download mods"));
 				return;
 			}

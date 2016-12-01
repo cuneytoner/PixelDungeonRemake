@@ -116,7 +116,7 @@ public class Iap {
         new Thread() {
             @Override
             public void run() {
-                if (Util.isConnectedToInternet()) {
+                if (Util.isConnectedToInternet(Game.instance().getApplicationContext())) {
                     initIapPhase2();
                 }
             }

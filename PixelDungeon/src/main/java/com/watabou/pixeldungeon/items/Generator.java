@@ -138,6 +138,9 @@ import com.watabou.pixeldungeon.plants.Plant;
 import com.watabou.pixeldungeon.plants.Sorrowmoss;
 import com.watabou.pixeldungeon.plants.Sungrass;
 import com.watabou.utils.Random;
+import com.coner.pixeldungeon.items.stones.Stone;
+import com.coner.pixeldungeon.items.stones.PortalStone;
+
 
 import java.util.HashMap;
 
@@ -155,7 +158,8 @@ public class Generator {
 		GOLD	( 50,	Gold.class ),
 		RANGED  ( 2,	Bow.class),
 		BULLETS ( 5,	Arrow.class),
-        DRINK   ( 0,    Drink.class);
+        DRINK   ( 0,    Drink.class),
+		STONE   ( 40,   Stone.class);
 
 		public Class<?>[] classes;
 		public float[] probs;
@@ -186,6 +190,12 @@ public class Generator {
 		Category.GOLD.classes = new Class<?>[]{
 				Gold.class };
 		Category.GOLD.probs = new float[]{ 1 };
+
+		Category.STONE.classes = new Class<?>[]{
+				PortalStone.class
+		};
+		Category.STONE.probs = new float[]{ 20 };
+
 
 		Category.SCROLL.classes = new Class<?>[]{
 				ScrollOfIdentify.class,

@@ -1,4 +1,7 @@
 {
+   "PortalLevel":{
+     "portallevel":{}
+   },
    "SewerLevel":{
       "1":{"Rat":1},
       "2":{"Rat":1,"Gnoll":1},

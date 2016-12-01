@@ -68,6 +68,7 @@ public class Terrain {
 	public static final int SUMMONING_TRAP = 39;
 	public static final int SECRET_SUMMONING_TRAP = 40;
 
+	public static final int PORTAL = 47;
 	public static final int WATER_TILES = 48;
 	public static final int WATER = 63;
 

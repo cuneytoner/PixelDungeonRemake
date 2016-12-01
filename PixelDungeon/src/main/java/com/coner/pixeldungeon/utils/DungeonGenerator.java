@@ -27,6 +27,7 @@ import com.watabou.pixeldungeon.levels.HallsBossLevel;
 import com.watabou.pixeldungeon.levels.HallsLevel;
 import com.watabou.pixeldungeon.levels.LastShopLevel;
 import com.watabou.pixeldungeon.levels.Level;
+import com.watabou.pixeldungeon.levels.PortalLevel;
 import com.watabou.pixeldungeon.levels.PrisonBossLevel;
 import com.watabou.pixeldungeon.levels.PrisonLevel;
 import com.watabou.pixeldungeon.levels.SewerBossLevel;
@@ -42,6 +43,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.StringTokenizer;
 
 public class DungeonGenerator {
 	private static final String DEAD_END_LEVEL = "DeadEndLevel";
@@ -117,6 +119,7 @@ public class DungeonGenerator {
         registerLevelClass(DragonPitsBossLevel.class);
 
 		registerLevelClass(LastLevel.class);
+		registerLevelClass(PortalLevel.class);
 	}
 
 	public static String getEntryLevelKind() {
@@ -248,6 +251,7 @@ public class DungeonGenerator {
 		return descendOrAscend(current, true);
 	}
 
+
 	public static Level createLevel(Position pos) {
 		Class<? extends Level> levelClass = mLevelKindList.get(pos.levelKind);
 		if (levelClass == null) {
@@ -258,12 +262,19 @@ public class DungeonGenerator {
 		}
 		try {
 			Level ret;
-			if (levelClass == PredesignedLevel.class) {
-				String levelFile = mLevels.getJSONObject(pos.levelId).getString("file");
-				ret = new PredesignedLevel(levelFile);
-			} else {
-				ret = levelClass.newInstance();
-			}
+            if (levelClass == PortalLevel.class) {
+                String levelFile = mLevels.getJSONObject(pos.levelId).getString("file");
+                ret = new PortalLevel(levelFile);
+                ret.create(ret.getWidth(),ret.getHeight());
+            }
+            else {
+                if (levelClass == PredesignedLevel.class) {
+                    String levelFile = mLevels.getJSONObject(pos.levelId).getString("file");
+                    ret = new PredesignedLevel(levelFile);
+                } else {
+                    ret = levelClass.newInstance();
+                }
+            }
 			ret.levelId = pos.levelId;
 			return ret;
 		} catch (InstantiationException | IllegalAccessException | JSONException e) {
@@ -323,6 +334,9 @@ public class DungeonGenerator {
 	public static void loadingLevel(Position next) {
 		mCurrentLevelId    = next.levelId;
 		mCurrentLevelDepth = next.levelDepth;
+
+
+
 	}
 
 
