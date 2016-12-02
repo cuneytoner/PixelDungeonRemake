@@ -17,10 +17,10 @@
  */
 package com.watabou.pixeldungeon.levels;
 
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.coner.android.util.TrackedRuntimeException;
+import com.coner.pixeldungeon.levels.PortalLevel;
 import com.coner.pixeldungeon.remake.EventCollector;
 import com.coner.pixeldungeon.remake.R;
 import com.coner.pixeldungeon.mobs.elementals.AirElemental;
@@ -83,6 +83,8 @@ import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 import com.watabou.utils.SparseArray;
 
+import org.json.JSONException;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -105,6 +107,10 @@ public abstract class Level implements Bundlable {
 
 	public void setExit(int exit, Integer index) {
 		exitMap.put(index, exit);
+       /* if (isPortalLevel())
+        {
+            this.addReturnFromPortalLevel();
+        }*/
 	}
 
 	public boolean isExit(int pos) {
@@ -417,6 +423,48 @@ public abstract class Level implements Bundlable {
 		buildFlagMaps();
 		cleanWalls();
 	}
+
+	public void addPortalEnterance(int cell){
+		exitMap.put(exitMap.size(),cell);
+        DungeonGenerator.addPortalEnterance(exitMap.size()-1, this.levelId);
+        DungeonGenerator.beforePortalMapCell = map[cell];
+        DungeonGenerator.beforePortalMapPos = cell;
+        map[cell] = Terrain.EXIT;
+        GameScene.updateMap();
+        DungeonGenerator.beforePortalLevelId = this.levelId;
+	}
+
+
+    public void removePortalEnterance()
+    {
+        int ndx = (DungeonGenerator.removePortalEnterance(exitMap.size()-1, levelId) );
+        if ( ndx > -1 )
+        {
+            exitMap.remove(ndx);
+        }
+
+        map[DungeonGenerator.beforePortalMapPos] = DungeonGenerator.beforePortalMapCell;
+
+        GameScene.updateMap();
+    }
+
+    public void addReturnFromPortalLevel()
+    {
+        if (!(this instanceof PortalLevel))
+        {
+            return;
+        }
+
+        try {
+            if (hasExit(0)==false)
+            {
+                exitMap.put(exitMap.size(),10);
+            }
+            DungeonGenerator.addReturnFromPortalLevel(getExit(0));
+        } catch (JSONException e) {
+            throw new TrackedRuntimeException("addReturnFromPortalLevel Error");
+        }
+    }
 
 	public void removePets() {
 		HashSet<Mob> nonPets = new HashSet<>();

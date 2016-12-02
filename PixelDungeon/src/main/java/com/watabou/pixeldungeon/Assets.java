@@ -113,6 +113,7 @@ public class Assets {
 	public static final String TILES_GUTS = "tiles_guts_x.png";
 	public static final String TILES_NECRO = "tiles_necropolis.png";
 	public static final String TILES_DRAGONPITS = "tiles_dragon_pits.png";
+	public static final String TILES_PORTAL_LEVEL = "tiles_portal_level.png";
 
 	public static final String WATER_SEWERS = "water0.png";
 	public static final String WATER_PRISON = "water1.png";
@@ -123,6 +124,8 @@ public class Assets {
 	public static final String WATER_GUTS = "water_guts.png";
 	public static final String WATER_NECRO = "water_necropolis.png";
 	public static final String WATER_DRAGONPITS = "water_dragon_pits.png";
+	public static final String WATER_PORTAL_LEVEL = "water_portal_level.png";
+
 
 	public static final String BUFFS_SMALL = "buffs.png";
 	public static final String BUFFS_LARGE = "large_buffs.png";

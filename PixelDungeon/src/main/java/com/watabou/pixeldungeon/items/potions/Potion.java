@@ -235,9 +235,8 @@ public class Potion extends Item {
 	@Override
 	protected void onThrow( int cell ) {
 		if (Dungeon.hero.getPos() == cell) {
-			
-			apply( Dungeon.hero );
-			
+			super.onThrow( cell );
+
 		} else if (Dungeon.level.map[cell] == Terrain.WELL || Dungeon.level.pit[cell]) {
 			
 			super.onThrow( cell );
@@ -245,7 +244,7 @@ public class Potion extends Item {
 		} else  {
 			
 			shatter( cell );
-			
+
 		}
 	}
 	

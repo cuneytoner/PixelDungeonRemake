@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.levels.HallsBossLevel;
 import com.watabou.pixeldungeon.levels.HallsLevel;
 import com.watabou.pixeldungeon.levels.LastShopLevel;
 import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.PortalLevel;
+import com.coner.pixeldungeon.levels.PortalLevel;
 import com.watabou.pixeldungeon.levels.PrisonBossLevel;
 import com.watabou.pixeldungeon.levels.PrisonLevel;
 import com.watabou.pixeldungeon.levels.SewerBossLevel;
@@ -43,7 +43,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
-import java.util.StringTokenizer;
 
 public class DungeonGenerator {
 	private static final String DEAD_END_LEVEL = "DeadEndLevel";
@@ -57,10 +56,14 @@ public class DungeonGenerator {
     private static final String DRAGON_PITS_LEVEL = "DragonPitsLevel";
 
 	public static final String UNKNOWN        = "unknown";
+    public static String beforePortalLevelId   = null;
+    public static int beforePortalMapCell = 1;
+    public static int beforePortalMapPos = 0;
+
 
 	static private JSONObject mDungeonMap;
 	static private JSONObject mLevels;
-	static private JSONObject mGraph;
+	static public JSONObject mGraph;
 
 	@NonNull
 	private static String mCurrentLevelId;
@@ -185,8 +188,16 @@ public class DungeonGenerator {
 				index = 0;
 				EventCollector.logEvent("DungeonGenerator","wrong next level index");
 			}
-
-			mCurrentLevelId = nextLevelSet.getString(index);
+/*
+            if (Dungeon.level instanceof PortalLevel)
+            {
+                nextLevelSet.put(index,current.levelId);
+                mCurrentLevelId = nextLevelSet.getString(index);
+            }
+            else
+            {*/
+                mCurrentLevelId = nextLevelSet.getString(index);
+            //}
 
 			JSONObject nextLevelDesc = mLevels.getJSONObject(mCurrentLevelId);
 
@@ -339,5 +350,62 @@ public class DungeonGenerator {
 
 	}
 
+    public static void addPortalEnterance(int exitMap, String levelId) {
+        try {
+            JSONArray currentLevel = mGraph.getJSONArray(levelId);
+            currentLevel.getJSONArray(0).put(currentLevel.getJSONArray(0).length(),"portallevel");
+        }
+        catch (JSONException e) {
+            throw new TrackedRuntimeException(e);
+        }
 
+    }
+
+    public static int removePortalEnterance(int exitMap, String levelId)
+    {
+        try {
+            JSONArray currentLevel = mGraph.getJSONArray(levelId);
+
+            int ndx = currentLevel.getJSONArray(0).length()-1;
+
+            if (ndx>=0) {
+                String id = (String) currentLevel.getJSONArray(0).getString(ndx);
+
+                if (id == "portallevel") {
+                    currentLevel.getJSONArray(0).put(ndx,null);
+                    return ndx;
+                }
+            }
+            else
+            {
+                return ndx;
+            }
+        }
+        catch (JSONException e) {
+            throw new TrackedRuntimeException(e);
+        }
+        return -1;
+    }
+
+    public static void addReturnFromPortalLevel(int exitMap) throws JSONException {
+
+        if (DungeonGenerator.beforePortalLevelId==null)
+        {
+            throw new TrackedRuntimeException("Portal level exit error: no beforePortalLevelId");
+        }
+
+        JSONArray currentLevel = mGraph.getJSONArray("portallevel");
+        JSONObject jo = currentLevel.getJSONArray(0).optJSONObject(0);
+        if (jo==null)
+        {
+            currentLevel.getJSONArray(0).put(0,DungeonGenerator.beforePortalLevelId);
+        }
+        else {
+            jo.optString(DungeonGenerator.beforePortalLevelId);
+        }
+
+        DungeonGenerator.beforePortalLevelId = null;
+
+        //currentLevel.getJSONArray(0).put(currentLejo vel.getJSONArray(0).length(),"portallevel");
+    }
 }

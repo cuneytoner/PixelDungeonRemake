@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 01 19:08:12 EET 2016
+#Fri Dec 02 19:54:30 EET 2016
 20.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 143.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 493.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
@@ -15,7 +15,7 @@
 203.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/head/hair/HUNTRESS_WARDEN_HAIR.png
 86.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 389.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
-236.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+236.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
 8.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 407.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/spritesDesc/DeathKnight.json
 118.set=ASSET
@@ -226,7 +226,7 @@
 174.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 345.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 280.set=ASSET
-542.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
+542.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_tab_indicator_material.xml
 378.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 208.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 225.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_alert_dialog_material.xml
@@ -259,7 +259,7 @@
 145.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 22.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 495.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
-171.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_screen_simple.xml
+171.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/color-v23/abc_color_highlight_material.xml
 459.set=ANDROID_RESOURCE
 342.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/armor/helmet/FreeRunnerArmor.png
 513.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sound/snd_rotten_drop.mp3
@@ -284,7 +284,7 @@
 485.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 306.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 332.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/elemental.png
-503.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout-v17/abc_alert_dialog_button_bar_material.xml
+503.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
 45.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 168.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 237.set=ANDROID_RESOURCE
@@ -360,7 +360,7 @@
 326.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
 222.set=ASSET
 39.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
-188.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+188.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/notification_template_part_chronometer.xml
 65.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_switch_thumb_material.xml
 100.set=ASSET
 98.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sound/snd_plant.mp3
@@ -487,7 +487,7 @@
 417.set=ANDROID_RESOURCE
 383.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/mobs/exploding_skull.png
 44.set=ANDROID_RESOURCE
-2.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+2.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/color/abc_secondary_text_material_dark.xml
 96.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 417.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_screen_content_include.xml
 218.set=ASSET
@@ -884,7 +884,7 @@
 279.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 296.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/plants.png
 126.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/water2.png
-159.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout-v17/notification_template_part_chronometer.xml
+159.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
 262.set=ANDROID_RESOURCE
 160.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 69.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/empty.png
@@ -912,7 +912,7 @@
 217.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 293.set=ANDROID_RESOURCE
 414.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/tiles_guts_x.png
-276.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+276.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_textfield_search_material.xml
 447.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
 518.set=ANDROID_RESOURCE
 68.set=ANDROID_RESOURCE
@@ -923,7 +923,7 @@
 344.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 515.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 270.set=ASSET
-541.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+541.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/anim/abc_fade_in.xml
 377.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 207.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 224.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/mimic.png
@@ -966,7 +966,7 @@
 528.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 204.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/armor/PaladinArmor.png
 87.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
-237.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+237.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
 9.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 408.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
 128.set=ANDROID_RESOURCE
@@ -980,7 +980,7 @@
 484.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 305.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 331.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sheep.png
-502.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+502.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout-v17/abc_alert_dialog_button_bar_material.xml
 44.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 167.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 61.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
@@ -1181,7 +1181,7 @@
 175.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 346.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 290.set=ANDROID_RESOURCE
-543.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_tab_indicator_material.xml
+543.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
 379.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 226.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/blacksmith.png
 209.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
@@ -1216,7 +1216,7 @@
 146.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 23.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 496.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
-172.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/color-v23/abc_color_highlight_material.xml
+172.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/abc_screen_simple.xml
 469.set=ANDROID_RESOURCE
 343.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/font1x.png
 514.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/head/hair/ROGUE_ASSASSIN_HAIR.png
@@ -1319,7 +1319,7 @@
 156.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/spritesDesc/EnslavedSoul.json
 327.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/common_google_signin_btn_icon_dark.xml
 232.set=ASSET
-189.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/notification_template_part_chronometer.xml
+189.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
 66.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sound/snd_beacon.mp3
 110.set=ASSET
 190.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
@@ -1434,7 +1434,7 @@ count=548
 384.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/mobs/azuterronnpc.png
 54.set=ASSET
 305.set=ASSET
-3.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+3.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 97.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 418.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sound/snd_teleport.mp3
 228.set=ANDROID_RESOURCE
@@ -1567,7 +1567,7 @@ count=548
 278.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 449.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 125.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/mobs/jar_of_souls.png
-158.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+158.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout-v17/notification_template_part_chronometer.xml
 329.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/sound/snd_hit.mp3
 252.set=ASSET
 68.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/layout/notification_template_media.xml
@@ -1596,7 +1596,7 @@ count=548
 413.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/wandmaker.png
 161.set=ASSET
 249.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
-275.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable/abc_textfield_search_material.xml
+275.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
 446.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/armor/SpiderArmor.png
 508.set=ASSET
 479.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/armor/SniperArmor.png
@@ -1609,7 +1609,7 @@ count=548
 343.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 514.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 260.set=ANDROID_RESOURCE
-540.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/anim/abc_fade_in.xml
+540.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_/res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 376.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/resources-GooglePlay-debug.ap_
 206.base=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug
 223.file=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/assets/GooglePlay/debug/hero/head/HUNTRESS_SNIPER.png

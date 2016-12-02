@@ -8,12 +8,17 @@ package com.coner.pixeldungeon.items.stones;
 import com.coner.android.util.TrackedRuntimeException;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
+import com.watabou.noosa.audio.Sample;
+import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.Badges;
+import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.buffs.Blindness;
 import com.watabou.pixeldungeon.actors.hero.Hero;
+import com.watabou.pixeldungeon.effects.Splash;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.items.ItemStatusHandler;
-import com.watabou.pixeldungeon.items.scrolls.Scroll;
+import com.watabou.pixeldungeon.levels.Terrain;
+import com.watabou.pixeldungeon.sprites.ItemSprite;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.pixeldungeon.utils.GLog;
 import com.watabou.pixeldungeon.utils.Utils;
@@ -24,9 +29,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 public abstract class Stone extends Item {
-    public static final String AC_USE    	= Game.getVar(R.string.Stone_ACUse);
-
     protected static final float TIME_TO_USESTONE	= 1f;
+    private boolean shatterd = false;
 
     private String color;
 
@@ -39,6 +43,10 @@ public abstract class Stone extends Item {
     private static final Integer[] images = {
             ItemSpriteSheet.PORTAL_STONE
     };
+
+    protected String color() {
+        return color;
+    }
 
     private static String[] getColors(){
         if(colors == null){
@@ -65,36 +73,11 @@ public abstract class Stone extends Item {
 
     public Stone() {
         stackable     = true;
-        defaultAction = AC_USE;
+        defaultAction = AC_THROW;
 
         image = handler.image( this );
         color  = handler.label( this );
     }
-
-    @Override
-    public ArrayList<String> actions( Hero hero ) {
-        ArrayList<String> actions = super.actions( hero );
-        actions.add( AC_USE );
-        return actions;
-    }
-
-    @Override
-    public void execute( Hero hero, String action ) {
-        if (action.equals( AC_USE )) {
-
-                setCurUser(hero);
-                curItem = detach( hero.belongings.backpack );
-
-                doUse();
-
-        } else {
-
-            super.execute( hero, action );
-
-        }
-    }
-
-    abstract protected void doUse();
 
     public boolean isKnown() {
         return handler.isKnown( this );
@@ -115,12 +98,12 @@ public abstract class Stone extends Item {
 
     @Override
     public String name() {
-        return isKnown() ? name : Utils.format(Game.getVar(R.string.Scroll_Name), color);
+        return isKnown() ? name : Utils.format(Game.getVar(R.string.Stone_Name), color);
     }
 
     @Override
     public String info() {
-        return isKnown() ? desc() : Utils.format(Game.getVar(R.string.Scroll_Info), color);
+        return isKnown() ? desc() : Utils.format(Game.getVar(R.string.Stone_Info), color);
     }
 
     @Override
@@ -155,5 +138,44 @@ public abstract class Stone extends Item {
         return null;
     }
 
+    protected boolean canShatter() {
+        if(!shatterd) {
+            shatterd = true;
+            return true;
+        }
+        return false;
+    }
+
+    protected void splash( int cell ) {
+        final int color = ItemSprite.pick( image, 8, 10 );
+        Splash.at( cell, color, 5 );
+    }
+
+    public void shatter( int cell ) {
+        setKnown();
+        GLog.i(Utils.format(Game.getVar(R.string.Potion_Shatter), color()));
+        Sample.INSTANCE.play( Assets.SND_PORTALSTONE );
+        splash( cell );
+        useStone(cell);
+    }
+
+    protected void useStone(int cell) {
+    }
+
+        @Override
+    protected void onThrow( int cell ) {
+        if (Dungeon.hero.getPos() == cell) {
+            super.onThrow( cell );
+
+        } else if (Dungeon.level.map[cell] == Terrain.WELL || Dungeon.level.pit[cell]) {
+
+            super.onThrow( cell );
+
+        } else  {
+
+            shatter( cell );
+
+        }
+    }
 }
 

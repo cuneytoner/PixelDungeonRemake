@@ -249,6 +249,14 @@ public class Dungeon {
 		hero.viewDistance = light == null ? level.viewDistance : Math.max(Light.DISTANCE, level.viewDistance);
 
 		Dungeon.level = level;
+		if (level.isPortalLevel())
+		{
+			level.addReturnFromPortalLevel();
+		}
+        else
+        {
+            level.removePortalEnterance();
+        }
 	}
 
 	public static boolean posNeeded() {
