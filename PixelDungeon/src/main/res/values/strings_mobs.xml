@@ -54,13 +54,13 @@
     <string name="Goblin_Defense">parried</string>
     <!-- STRINGS OF Gargoyle CLASS -->
     <string name="Gargoyle_Name">Gargoyle</string>
-    <string name="Gargoyle_Gender">masculine</string>
+    <string name="Gargoyle_Gender" translatable="false">masculine</string>
     <string name="Gargoyle_Name_Objective">Gargoyle</string>
     <string name="Gargoyle_Desc">In the semi-shadow of the gathering evening the gargoyles took on a menacing look.</string>
     <string name="Gargoyle_Defense">parried</string>
     <!-- STRINGS OF Dragon CLASS -->
     <string name="Dragon_Name">Nidhoggr</string>
-    <string name="Dragon_Gender">masculine</string>
+    <string name="Dragon_Gender" translatable="false">masculine</string>
     <string name="Dragon_Name_Objective">Nidhoggr</string>
     <string name="Dragon_Desc">Nidhoggr is a monstrous dragon that relentlessly gnaws on the deepest root of Yggdrasill. He hopes to chew through the root causing the World Tree to fall and bring about the end of the world. He seizure the Yendor Amulet and keep it in a secret place </string>
     <string name="Dragon_Info1">Nidhoggr healing himself</string>

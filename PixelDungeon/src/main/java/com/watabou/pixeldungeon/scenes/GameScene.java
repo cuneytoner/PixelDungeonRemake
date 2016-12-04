@@ -325,10 +325,11 @@ public class GameScene extends PixelScene {
 	@Override
 	public synchronized void pause() {
 		try {
-			if (Dungeon.level.levelId !="portallevel")
-				Dungeon.saveAll();
+			if (Dungeon.level.levelId !="portallevel") {
+                Dungeon.saveAll();
 
-			Badges.saveGlobal();
+                Badges.saveGlobal();
+            }
 		} catch (IOException e) {
 			throw new TrackedRuntimeException(e);
 		}

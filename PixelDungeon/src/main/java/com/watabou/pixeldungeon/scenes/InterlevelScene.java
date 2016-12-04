@@ -226,21 +226,25 @@ public class InterlevelScene extends PixelScene {
 	}
 
 	private void descend() throws IOException {
+        Position next = null;
 
-		Actor.fixTime();
-		
+        Actor.fixTime();
+
 		if (Dungeon.hero == null) {
 			Dungeon.init();
 			if (noStory) {
 				Dungeon.chapters.add(WndStory.ID_SEWERS);
 				noStory = false;
 			}
+            next = DungeonGenerator.descend(Dungeon.currentPosition());
 		} else {
 			Dungeon.level.removePets();
-			Dungeon.saveLevel();
+            next = DungeonGenerator.descend(Dungeon.currentPosition());
+			if (Dungeon.level.levelId !="portallevel" && next.levelId != "portallevel") {
+				Dungeon.saveLevel();
+			}
 		}
-		
-		Position next = DungeonGenerator.descend(Dungeon.currentPosition());
+
 		Dungeon.depth = next.levelDepth;
 		Level level = Dungeon.loadLevel(next);
 

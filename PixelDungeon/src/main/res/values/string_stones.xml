@@ -11,6 +11,6 @@
 
     <!-- STRINGS OF PortalStone CLASS -->
     <string name="PortalStone_Name">Portal Stone</string>
-    <string name="PortalStone_Info">This stone immediately generates an exit to another dimension.</string>
+    <string name="PortalStone_Info">This stone immediately generates a portal to another dimension.Be carefull to enter where you don\'t know</string>
 
 </resources>

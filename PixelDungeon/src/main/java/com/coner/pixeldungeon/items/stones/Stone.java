@@ -153,7 +153,6 @@ public abstract class Stone extends Item {
 
     public void shatter( int cell ) {
         setKnown();
-        GLog.i(Utils.format(Game.getVar(R.string.Potion_Shatter), color()));
         Sample.INSTANCE.play( Assets.SND_PORTALSTONE );
         splash( cell );
         useStone(cell);
