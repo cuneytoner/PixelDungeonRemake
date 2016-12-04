@@ -13,6 +13,7 @@ import com.coner.pixeldungeon.items.guts.weapon.melee.Halberd;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.CompositeCrossbow;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.RubyCrossbow;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.WoodenCrossbow;
+import com.coner.pixeldungeon.items.stones.PortalStone;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.actors.mobs.npcs.WandMaker;
 import com.watabou.pixeldungeon.items.Amulet;
@@ -352,6 +353,7 @@ public class ItemFactory {
 		registerItemClass(TaintedBeer.class);
 		registerItemClass(BoiledBeer.class);
         registerItemClass(Wine.class);
+		registerItemClass(PortalStone.class);
 	}
 
 	public static Class<? extends Item> itemClassRandom() {

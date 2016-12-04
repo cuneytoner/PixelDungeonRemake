@@ -86,7 +86,7 @@ public abstract class RegularLevel extends CommonLevel {
 
 	@Override
 	protected boolean build() {
-		
+
 		if (!initRooms()) {
 			return false;
 		}
@@ -694,7 +694,7 @@ public abstract class RegularLevel extends CommonLevel {
 	}
 	
 	@Override
-	public void storeInBundle( Bundle bundle ) {
+	public void storeInBundle( Bundle bundle ) {createMobs();
 		super.storeInBundle( bundle );
 		bundle.put( "rooms", rooms );
 	}

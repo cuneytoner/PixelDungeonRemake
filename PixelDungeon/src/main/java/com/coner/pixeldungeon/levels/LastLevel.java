@@ -38,19 +38,23 @@ public class LastLevel extends Level {
         return Assets.WATER_DRAGONPITS;
     }
 
+
     @Override
     protected boolean build() {
 
         Arrays.fill( map, Terrain.WALL );
-        Painter.fill( this, 1, 1, SIZE, SIZE, Terrain.WATER );
-        Painter.fill( this, 2, 2, SIZE-2, SIZE-2, Terrain.EMPTY );
+        Painter.fill( this, 2, 2, SIZE-2, SIZE-2, Terrain.WATER );
+        Painter.fill( this, 3, 3, SIZE-4, SIZE-4, Terrain.EMPTY );
         Painter.fill( this, SIZE/2, SIZE/2, 3, 3, Terrain.EMPTY_SP );
 
         entrance = SIZE * getWidth() + SIZE / 2 + 1;
         map[entrance] = Terrain.ENTRANCE;
 
-        setExit(entrance - getWidth() * SIZE,0);
+        setExit(entrance - getWidth() * ( SIZE - 1 ),0);
         map[getExit(0)] = Terrain.LOCKED_EXIT;
+
+		/*secondaryExit = entrance - getWidth() * SIZE + getWidth() * 2;
+		map[secondaryExit] = Terrain.EXIT;*/
 
         pedestal = (SIZE / 2 + 1) * (getWidth() + 1);
         map[pedestal] = Terrain.PEDESTAL;
@@ -69,6 +73,7 @@ public class LastLevel extends Level {
             }
         }
     }
+
 
     @Override
     protected void createMobs() {

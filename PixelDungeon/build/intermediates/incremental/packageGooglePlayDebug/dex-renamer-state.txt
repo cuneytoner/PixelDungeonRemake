@@ -1,4 +1,4 @@
-#Fri Dec 02 20:50:48 EET 2016
+#Sun Dec 04 15:15:49 EET 2016
 base.0=/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/transforms/dex/GooglePlay/debug/folders/1000/10/instant-run-bootstrap_73d9b6f9805bf2edb055b522882e10d0b05aa910
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -274,8 +274,8 @@ public class DungeonGenerator {
 		try {
 			Level ret;
             if (levelClass == PortalLevel.class) {
-                String levelFile = mLevels.getJSONObject(pos.levelId).getString("file");
-                ret = new PortalLevel(levelFile);
+                //String levelFile = mLevels.getJSONObject(pos.levelId).getString("file");
+                ret = new PortalLevel(/*levelFile*/);
                 ret.create(ret.getWidth(),ret.getHeight());
             }
             else {
@@ -361,6 +361,18 @@ public class DungeonGenerator {
 
     }
 
+
+    public static JSONArray removeJsonObjectAtJsonArrayIndex(JSONArray source, int index) throws JSONException {
+        if (index < 0 || index > source.length() - 1) {
+            throw new IndexOutOfBoundsException();
+        }
+
+        final JSONArray copy = new JSONArray();
+        for (int i = 0, count = source.length(); i < count; i++) {
+            if (i != index) copy.put(source.get(i));
+        }
+        return copy;
+    }
     public static int removePortalEnterance(int exitMap, String levelId)
     {
         try {
@@ -372,7 +384,9 @@ public class DungeonGenerator {
                 String id = (String) currentLevel.getJSONArray(0).getString(ndx);
 
                 if (id == "portallevel") {
-                    currentLevel.getJSONArray(0).put(ndx,null);
+                    JSONArray n = currentLevel.getJSONArray(0);
+                    n = removeJsonObjectAtJsonArrayIndex(n,ndx);
+                    currentLevel.put(0,n);
                     return ndx;
                 }
             }

@@ -1,7 +1,7 @@
 {
    "Levels":{
       "0":{"kind":"SewerLevel", "depth":0,        "size":[0,0]},
-      "portallevel":{"kind":"PortalLevel", "depth":0,  "size":[32,32], "file":"levelsDesc/PortalLevel.json"},
+      "portallevel":{"kind":"PortalLevel", "depth":0,  "size":[24,24]},
       "test_guts":{"kind":"PredesignedLevel", "depth":2,  "size":[16,16], "file":"levelsDesc/TestLevelGuts.json"},
       "test_sewers":{"kind":"PredesignedLevel", "depth":2,  "size":[16,16], "file":"levelsDesc/TestLevelSewers.json"},
       "test_town":{"kind":"PredesignedLevel", "depth":0,  "size":[32,32], "file":"levelsDesc/Town.json"},

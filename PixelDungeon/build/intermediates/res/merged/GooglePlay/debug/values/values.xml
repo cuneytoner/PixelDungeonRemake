@@ -1436,6 +1436,8 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Poison_Death">You died from poison...</string>
     <string name="Poison_Info">Poisoned</string>
     <string name="Poisonuiver_Gender">masculine</string>
+    <string name="PortalStone_Info">This stone immediately generates an exit to another dimension.</string>
+    <string name="PortalStone_Name">Portal Stone</string>
     <string name="Potential_Txt">%s of potential</string>
     <string name="PotionBelt_Info">This strong leather belt is capable of storing all your potions while protecting them from shattering due to frost.</string>
     <string name="PotionBelt_Name">potion belt</string>
@@ -1820,7 +1822,6 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Statue_Name">animated statue</string>
     <string name="Statue_Name_Objective">animated statue</string>
     <string name="Stench_Txt">%s of stench</string>
-    <string name="Stone_ACUse">USE</string>
     <string name="Stone_Info">This stone is covered with ancient symbols, Who knows what it will do when use?</string>
     <string name="Stone_Name">Stone \"%s\"</string>
     <string name="Stylus_ACInscribe">INSCRIBE</string>
