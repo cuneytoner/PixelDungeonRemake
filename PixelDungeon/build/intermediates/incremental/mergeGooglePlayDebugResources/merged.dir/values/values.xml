@@ -868,7 +868,7 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="DonateButton_pleaseDonate">please consider donating</string>
     <string name="DonateButton_thanks">Thanks for Your support!</string>
     <string name="Dragon_Desc">Nidhoggr is a monstrous dragon that relentlessly gnaws on the deepest root of Yggdrasill. He hopes to chew through the root causing the World Tree to fall and bring about the end of the world. He seizure the Yendor Amulet and keep it in a secret place </string>
-    <string name="Dragon_Gender">masculine</string>
+    <string name="Dragon_Gender" translatable="false">masculine</string>
     <string name="Dragon_Info1">Nidhoggr healing himself</string>
     <string name="Dragon_Info2">Noo.You are just human, how can it be ?</string>
     <string name="Dragon_Info3">How dare you !!!</string>
@@ -986,7 +986,7 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="GameScene_WelcomeBack">Welcome back to the level %d of Pixel Dungeon!</string>
     <string name="Gargoyle_Defense">parried</string>
     <string name="Gargoyle_Desc">In the semi-shadow of the gathering evening the gargoyles took on a menacing look.</string>
-    <string name="Gargoyle_Gender">masculine</string>
+    <string name="Gargoyle_Gender" translatable="false">masculine</string>
     <string name="Gargoyle_Name">Gargoyle</string>
     <string name="Gargoyle_Name_Objective">Gargoyle</string>
     <string name="GasesImmunity_Info">Immune to gases</string>
@@ -1436,7 +1436,7 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Poison_Death">You died from poison...</string>
     <string name="Poison_Info">Poisoned</string>
     <string name="Poisonuiver_Gender">masculine</string>
-    <string name="PortalStone_Info">This stone immediately generates an exit to another dimension.</string>
+    <string name="PortalStone_Info">This stone immediately generates a portal to another dimension.Be carefull to enter where you don\'t know</string>
     <string name="PortalStone_Name">Portal Stone</string>
     <string name="Potential_Txt">%s of potential</string>
     <string name="PotionBelt_Info">This strong leather belt is capable of storing all your potions while protecting them from shattering due to frost.</string>
@@ -1850,6 +1850,7 @@ No, there was no place for her in the light, not anymore. She turned from the me
     <string name="Sword_Gender">masculine</string>
     <string name="Sword_Info">The razor-sharp length of steel blade shines reassuringly.</string>
     <string name="Sword_Name">sword</string>
+    <string name="TXT_CANNOT_USE_ON_PORTAL_LEVEL">You can\'t use on Portal Level.</string>
     <string name="TaintedBeer_Info">A glass of Tainted Beer</string>
     <string name="TaintedBeer_Name">Tainted Beer</string>
     <string name="TaintedDrink_Message">Nasty!</string>

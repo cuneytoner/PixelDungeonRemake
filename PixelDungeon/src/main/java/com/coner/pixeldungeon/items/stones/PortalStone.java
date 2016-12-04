@@ -5,12 +5,17 @@ package com.coner.pixeldungeon.items.stones;
  */
 
 import com.coner.android.util.TrackedRuntimeException;
+import com.coner.pixeldungeon.levels.PortalLevel;
+import com.coner.pixeldungeon.remake.R;
+import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Dungeon;
+import com.watabou.pixeldungeon.utils.GLog;
 
 import java.io.IOException;
 
 public class PortalStone extends Stone {
 
+    private static final String TXT_CANNOT_USE_ON_PORTAL_LEVEL  = Game.getVar(R.string.TXT_CANNOT_USE_ON_PORTAL_LEVEL);
     private int cellId = -1;
 
     protected void setPortal(int cell)
@@ -20,7 +25,13 @@ public class PortalStone extends Stone {
 
     @Override
     protected void useStone(int cell) {
-        setPortal(cell);
+        if (Dungeon.level.levelId=="portallevel")
+        {
+            GLog.w( TXT_CANNOT_USE_ON_PORTAL_LEVEL );
+        }
+        else {
+            setPortal(cell);
+        }
     }
 
 

@@ -83,19 +83,15 @@ public class PortalLevel extends Level {
         Painter.fill( this, 3, 3, SIZE-4, SIZE-4, Terrain.EMPTY );
         Painter.fill( this, SIZE/2, SIZE/2, 3, 3, Terrain.EMPTY_SP );
 
-        entrance = SIZE * getWidth() + SIZE / 2 + 1;
-        map[entrance] = Terrain.ENTRANCE;
+        entrance = (SIZE * getWidth() + SIZE / 2 + 1);
 
         setExit(entrance - getWidth() * ( SIZE - 1 ),0);
         map[getExit(0)] = Terrain.EXIT;
 
+        entrance = (SIZE / 2 + 1) * (getWidth() + 1);//(SIZE * getWidth() + SIZE / 2 + 1);
         map[entrance] = Terrain.LOCKED_DOOR;
 		/*secondaryExit = entrance - getWidth() * SIZE + getWidth() * 2;
 		map[secondaryExit] = Terrain.EXIT;*/
-
-        pedestal = (SIZE / 2 + 1) * (getWidth() + 1);
-        map[pedestal] = Terrain.PEDESTAL;
-        map[pedestal-1] = map[pedestal+1] = Terrain.STATUE_SP;
 
         feeling = Feeling.NONE;
 

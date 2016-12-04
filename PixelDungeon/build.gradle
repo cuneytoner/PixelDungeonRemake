@@ -65,5 +65,8 @@ dependencies {
     compile 'com.google.android.gms:play-services-analytics:9.8.0'
     compile 'com.google.android.gms:play-services-ads:9.8.0'
     compile 'com.google.firebase:firebase-core:9.8.0'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
 }
 apply plugin: 'com.google.gms.google-services'

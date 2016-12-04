@@ -212,6 +212,9 @@
       <item>Soğuk %s</item>
       <item>Soğuk %s</item>
     </string-array>
+    <string-array name="Stone_Colors">
+        <item>kırmızı</item>
+    </string-array>
     <string-array name="Swing_Name">
       <item>Vahşi %s</item>
       <item>Vahşi %s</item>
@@ -604,6 +607,21 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="Displacement_Txt">Yerdeğiştirme %s</string>
     <string name="DonateButton_pleaseDonate">Destekte bulunmayı düşünür müsünüz?</string>
     <string name="DonateButton_thanks">Desteğiniz için teşekkürler!</string>
+    <string name="Dragon_Desc">Nidhoggr, acımasızca Yggdrasill\'in kökünü kemiren korkunç bir ejderha.Dünyayı ayakta tutan ağacın düşmesini ve dünyanın sonunu getirmesini umuyor. Yendor Amulet\'ini gizli bir yerde saklıyor.</string>
+    <string name="Dragon_Info1">Nidhoggr kendini iyileştiriyor</string>
+    <string name="Dragon_Info2">"Bu nasıl olabilir sen sadece bir insansın ? "</string>
+    <string name="Dragon_Info3">Buna nasıl cesaret edersin ?</string>
+    <string name="Dragon_Name">Nidhoggr</string>
+    <string name="Dragon_Name_Objective">Nidhoggr</string>
+    <string name="Dragon_Pits_TileDescBookshelf">Bir kısmı yanmış kitaplar raflarda duruyor.</string>
+    <string name="Dragon_Pits_TileDescDeco">Duvarda bir miktar cevher damarı görülüyor. Altın mı?</string>
+    <string name="Dragon_Pits_TileDescEntrance">Merdidenler yukarıya doğru çıkıyor</string>
+    <string name="Dragon_Pits_TileDescExit">Merdivenler aşağıya doğru iniyor.</string>
+    <string name="Dragon_Pits_TileDescStatue">Erimiş altından yapılmış bir heykel . Mhuteşem</string>
+    <string name="Dragon_Pits_TileDescWater">Çok soğuk ve karanlık bir su</string>
+    <string name="Dragon_Pits_TileGrass">Parlak yosunlar</string>
+    <string name="Dragon_Pits_TileHighGrass">Parlak mantar</string>
+    <string name="Dragon_Pits_TileStatue">Heykel</string>
     <string name="DreadKnight_Desc">Dehşet şovalyesi , hayatına güzel ve doğru birşey girmemiş antik bir savaşçıdır.Günahlarından dolayı bu şekilsiz vücutta sonsuza kadar yaşamak ile lanetlenmiş.Yaşadığı her an kurbanlarına verdiği acı ve çileyi hissediyor.</string>
     <string name="DreadKnight_Gender">masculine</string>
     <string name="DreadKnight_Name">dehşet şovalyesi</string>
@@ -704,6 +722,7 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="GameScene_Water">Etrafında akan suyu sesini duyuyorsun.</string>
     <string name="GameScene_Welcome">Pixel Dungeon\'un %d . seviyesine hoşgeldin!</string>
     <string name="GameScene_WelcomeBack">Pixel Dungeon\'un %d . seviyesine tekrar hoşgeldin!!</string>
+    <string name="Gargoyle_Defense">savuşturdu</string>
     <string name="GasesImmunity_Info">gazlara karşı bağışıklık</string>
     <string name="Ghost_Defense">savuşturdu</string>
     <string name="Ghost_Desc">Hayalet zorlukla görülüyor.Üzgün yüzlü soluk ve şekilsiz bir ışık gibi görünüyor.</string>
@@ -1135,6 +1154,8 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="Poison_Death">Zehirden öldün...</string>
     <string name="Poison_Info">Zehirlenmiş</string>
     <string name="Poisonuiver_Gender">masculine</string>
+    <string name="PortalStone_Info">Bu taş anında başka bir boyuta portal açar, bilmediğin yerlere gidiyorsun dikkatli ol.</string>
+    <string name="PortalStone_Name">Portal Taşı</string>
     <string name="Potential_Txt">Güç %s </string>
     <string name="PotionBelt_Info">Bu dayanıklı deri kemer ile iksirlerini saklayabilir ve onları donmaktan koruyabilirsin.</string>
     <string name="PotionBelt_Name">iksir kemeri</string>
@@ -1519,6 +1540,8 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="Statue_Name">canlı heykel</string>
     <string name="Statue_Name_Objective">canlı heykel</string>
     <string name="Stench_Txt">Kokuşuk %s </string>
+    <string name="Stone_Info">Bu taş antik rünlerle kaplı,Kullandığında nelere olabileceğini kim bilir?</string>
+    <string name="Stone_Name">\"%s\ taşı"</string>
     <string name="Stylus_ACInscribe">KAZI</string>
     <string name="Stylus_Info">Bu gizemli kalem karanlık bir taştan yapılmış.Bu kalem ile bir rün veya kabartma çizebilirsin ama ne olacağını seçmeye gücün yetmez.</string>
     <string name="Stylus_Inscribed">%2$s üzerine %1$s kazıdın</string>
@@ -1742,6 +1765,13 @@ Kararınızı değiştirmeniz durumunda ana ekrandaki tablo simgesine tıklayabi
     <string name="Welcome_Text_25">
         </string>
     <string name="Welcome_Title">Hoşgeldin!</string>
+    <string name="Wine_Info">Çok lezzetli görünüyor</string>
+    <string name="Wine_Info1">Bırak ışık olsun!</string>
+    <string name="Wine_Info2">Tazelenmiş hissediyorsun</string>
+    <string name="Wine_Info3">İyi hissetmiyorsun</string>
+    <string name="Wine_Info4">Çok süratlisin</string>
+    <string name="Wine_Message">Tadı... ilginç</string>
+    <string name="Wine_Name">Şarap</string>
     <string name="WizardHat_Info">A beautiful silk hat decorated with star ornaments. Back in the old, some believed that the greatest wizards wore specially crafted clothing that increased their power. But it doesn\'t actually buffs your magical capabilities, but it\'s sure feels like it.</string>
     <string name="WizardHat_Name">Wizard Hat</string>
     <string name="WndBlacksmith_Prompt">Tamam , anlaşma anlaşmadı. Senin için 2 nesneni daha kaliteli bir nesneye dönüştüreceğim.</string>
