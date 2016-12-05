@@ -325,7 +325,8 @@ public class GameScene extends PixelScene {
 	@Override
 	public synchronized void pause() {
 		try {
-			if (Dungeon.level.levelId !="portallevel") {
+			//if (Dungeon.level.levelId !="portallevel")
+			{
                 Dungeon.saveAll();
 
                 Badges.saveGlobal();

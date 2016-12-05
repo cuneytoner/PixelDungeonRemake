@@ -90,8 +90,6 @@ public class PortalLevel extends Level {
 
         entrance = (SIZE / 2 + 1) * (getWidth() + 1);//(SIZE * getWidth() + SIZE / 2 + 1);
         map[entrance] = Terrain.LOCKED_DOOR;
-		/*secondaryExit = entrance - getWidth() * SIZE + getWidth() * 2;
-		map[secondaryExit] = Terrain.EXIT;*/
 
         feeling = Feeling.NONE;
 
@@ -245,5 +243,5 @@ public class PortalLevel extends Level {
         HallsLevel.addVisuals( this, scene );
     }
 
-}
+        }
 

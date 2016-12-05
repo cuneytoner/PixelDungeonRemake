@@ -64,12 +64,12 @@
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/src/main/res/drawable-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",

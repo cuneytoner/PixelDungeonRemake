@@ -5,38 +5,27 @@ package com.coner.pixeldungeon.items.stones;
  * Created by cc on 11/29/16.
  */
 
-import com.coner.android.util.TrackedRuntimeException;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.buffs.Blindness;
-import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.effects.Splash;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.items.ItemStatusHandler;
 import com.watabou.pixeldungeon.levels.Terrain;
 import com.watabou.pixeldungeon.sprites.ItemSprite;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.utils.GLog;
 import com.watabou.pixeldungeon.utils.Utils;
 import com.watabou.utils.Bundle;
-import com.watabou.utils.Random;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 
-public abstract class Stone extends Item {
+public class Stone extends Item {
     protected static final float TIME_TO_USESTONE	= 1f;
-    private boolean shatterd = false;
-
-    private String color;
 
     private static final Class<?>[] stones = {
             PortalStone.class    };
-
 
     private static String[] colors = null;
 
@@ -44,9 +33,17 @@ public abstract class Stone extends Item {
             ItemSpriteSheet.PORTAL_STONE
     };
 
-    protected String color() {
-        return color;
+
+    private static ItemStatusHandler<Stone> handler;
+
+    private String color;
+
+    {
+        stackable = true;
+        defaultAction = AC_THROW;
     }
+
+    private boolean shatterd = false;
 
     private static String[] getColors(){
         if(colors == null){
@@ -56,11 +53,9 @@ public abstract class Stone extends Item {
     }
 
     @SuppressWarnings("unchecked")
-    public static void initLabels() {
+    public static void initColors() {
         handler = new ItemStatusHandler<>((Class<? extends Stone>[]) stones, getColors(), images);
     }
-
-    private static ItemStatusHandler<Stone> handler;
 
     public static void save( Bundle bundle ) {
         handler.save( bundle );
@@ -72,12 +67,14 @@ public abstract class Stone extends Item {
     }
 
     public Stone() {
-        stackable     = true;
-        defaultAction = AC_THROW;
-
         image = handler.image( this );
         color  = handler.label( this );
     }
+
+    protected String color() {
+        return color;
+    }
+
 
     public boolean isKnown() {
         return handler.isKnown( this );

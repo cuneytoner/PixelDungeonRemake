@@ -115,7 +115,7 @@ public class Dungeon {
 	public static void init() {
 		challenges = PixelDungeon.challenges();
 
-		Stone.initLabels();
+		Stone.initColors();
 		Scroll.initLabels();
 		Potion.initColors();
 		Wand.initWoods();
@@ -340,6 +340,7 @@ public class Dungeon {
 		Statistics.storeInBundle(bundle);
 		Journal.storeInBundle(bundle);
 
+		Stone.save(bundle);
 		Scroll.save(bundle);
 		Potion.save(bundle);
 		Wand.save(bundle);
@@ -412,6 +413,7 @@ public class Dungeon {
 		Dungeon.level = null;
 		Dungeon.depth = -1;
 
+		Stone.restore(bundle);
 		Scroll.restore(bundle);
 		Potion.restore(bundle);
 		Wand.restore(bundle);

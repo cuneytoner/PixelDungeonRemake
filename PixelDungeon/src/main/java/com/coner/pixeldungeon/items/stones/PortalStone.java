@@ -4,14 +4,10 @@ package com.coner.pixeldungeon.items.stones;
  * Created by cc on 11/29/16.
  */
 
-import com.coner.android.util.TrackedRuntimeException;
-import com.coner.pixeldungeon.levels.PortalLevel;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.utils.GLog;
-
-import java.io.IOException;
 
 public class PortalStone extends Stone {
 
@@ -33,7 +29,6 @@ public class PortalStone extends Stone {
             setPortal(cell);
         }
     }
-
 
 }
 
