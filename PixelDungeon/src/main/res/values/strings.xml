@@ -403,6 +403,7 @@
 	<string name="RatSkull_Info2"> On the other hand, it demonstrates that owner is capable of killing rats, even big and smelly ones.</string>
 
     <!-- PACKAGE /actors/blobs -->
+    <string name="DarkEnergy_Info">Darkmatter , darker than black.</string>
     <!-- STRINGS OF MissileWeapon CLASS -->
     <string name="ConfusionGas_Info">A cloud of confusion gas is swirling here.</string>
     <!-- STRINGS OF Fire CLASS -->

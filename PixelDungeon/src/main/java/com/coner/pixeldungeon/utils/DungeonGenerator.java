@@ -155,6 +155,9 @@ public class DungeonGenerator {
 
 	private static Position descendOrAscend(Position current, boolean descend) {
 		try {
+			if (current.levelId.equals("portallevel")) {
+			   DungeonGenerator.beforePortalLevelId = null;
+			}
 
 			if (current.levelId.equals("unknown")) {
 				current.levelId = guessLevelId(current.levelKind, current.levelDepth);
@@ -209,6 +212,7 @@ public class DungeonGenerator {
 			next.xs = levelSize.getInt(0);
 			next.ys = levelSize.getInt(1);
 
+			//DungeonGenerator.beforePortalLevelId = null;
 			return next;
 		} catch (JSONException e) {
 			throw new TrackedRuntimeException(e);
@@ -373,6 +377,25 @@ public class DungeonGenerator {
         }
         return copy;
     }
+
+    public static boolean isPortalActive(String levelId)
+    {
+        try {
+
+            JSONArray currentLevel = mGraph.getJSONArray(levelId);
+
+            int ndx = currentLevel.getJSONArray(0).length() - 1;
+
+            String id = (String) currentLevel.getJSONArray(0).getString(ndx);
+
+            return (id.equals("portallevel"));
+        }
+        catch (JSONException e) {
+            throw new TrackedRuntimeException(e);
+        }
+
+    }
+
     public static int removePortalEnterance(int exitMap, String levelId)
     {
         try {
@@ -418,7 +441,7 @@ public class DungeonGenerator {
             jo.optString(DungeonGenerator.beforePortalLevelId);
         }
 
-        DungeonGenerator.beforePortalLevelId = null;
+        //DungeonGenerator.beforePortalLevelId = null;
 
         //currentLevel.getJSONArray(0).put(currentLejo vel.getJSONArray(0).length(),"portallevel");
     }

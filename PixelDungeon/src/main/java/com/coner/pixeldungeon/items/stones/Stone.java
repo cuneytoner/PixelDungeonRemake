@@ -25,12 +25,15 @@ public class Stone extends Item {
     protected static final float TIME_TO_USESTONE	= 1f;
 
     private static final Class<?>[] stones = {
-            PortalStone.class    };
+            PortalStone.class,
+            WanishStone.class
+        };
 
     private static String[] colors = null;
 
     private static final Integer[] images = {
-            ItemSpriteSheet.PORTAL_STONE
+            ItemSpriteSheet.PORTAL_STONE,
+            ItemSpriteSheet.WANISH_STONE
     };
 
 
@@ -150,7 +153,6 @@ public class Stone extends Item {
 
     public void shatter( int cell ) {
         setKnown();
-        Sample.INSTANCE.play( Assets.SND_PORTALSTONE );
         splash( cell );
         useStone(cell);
     }

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+    }
+]

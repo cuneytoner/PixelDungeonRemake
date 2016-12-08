@@ -26,6 +26,7 @@ import com.coner.pixeldungeon.items.guts.weapon.melee.Halberd;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.CompositeCrossbow;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.RubyCrossbow;
 import com.coner.pixeldungeon.items.guts.weapon.ranged.WoodenCrossbow;
+import com.coner.pixeldungeon.items.stones.WanishStone;
 import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.actors.mobs.npcs.WandMaker.Rotberry;
@@ -192,9 +193,10 @@ public class Generator {
 		Category.GOLD.probs = new float[]{ 1 };
 
 		Category.STONE.classes = new Class<?>[]{
-				PortalStone.class
+				PortalStone.class,
+				WanishStone.class
 		};
-		Category.STONE.probs = new float[]{ 20 };
+		Category.STONE.probs = new float[]{ 20, 13 };
 
 
 		Category.SCROLL.classes = new Class<?>[]{

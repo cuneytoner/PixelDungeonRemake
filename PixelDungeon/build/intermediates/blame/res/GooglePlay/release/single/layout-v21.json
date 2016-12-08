@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/layout-v21/notification_action.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

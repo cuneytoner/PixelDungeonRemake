@@ -287,6 +287,7 @@ public class Dungeon {
 	}
 
 	private static final String VERSION    = "version";
+
 	private static final String CHALLENGES = "challenges";
 	private static final String HERO       = "hero";
 	private static final String GOLD       = "gold";
@@ -300,6 +301,9 @@ public class Dungeon {
 	private static final String CHAPTERS   = "chapters";
 	private static final String QUESTS     = "quests";
 	private static final String BADGES     = "badges";
+	private static final String BEFOREPORTALLEVELID = "beforeportallevelid";
+	private static final String BEFOREPORTALMAPCELL = "beforeportalmapcell";
+	private static final String BEFOREPORTALMAPPOS = "beforeportalmappos";
 
 	public static void gameOver() {
 		Dungeon.deleteGame(true);
@@ -319,6 +323,9 @@ public class Dungeon {
 		bundle.put(AS, arcaneStyli);
 		bundle.put(DV, dewVial);
 		bundle.put(WT, transmutation);
+		bundle.put(BEFOREPORTALLEVELID,DungeonGenerator.beforePortalLevelId);
+		bundle.put(BEFOREPORTALMAPCELL,DungeonGenerator.beforePortalMapCell);
+		bundle.put(BEFOREPORTALMAPPOS,DungeonGenerator.beforePortalMapPos);
 
 		int count = 0;
 		int ids[] = new int[chapters.size()];
@@ -424,6 +431,9 @@ public class Dungeon {
 		arcaneStyli = bundle.getInt(AS);
 		dewVial = bundle.getBoolean(DV);
 		transmutation = bundle.getInt(WT);
+        DungeonGenerator.beforePortalLevelId = bundle.getString(BEFOREPORTALLEVELID);
+		DungeonGenerator.beforePortalMapCell = bundle.getInt(BEFOREPORTALMAPCELL);
+		DungeonGenerator.beforePortalMapPos  = bundle.getInt(BEFOREPORTALMAPPOS);
 
 		if (fullLoad) {
 			chapters = new HashSet<>();
