@@ -7,369 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 108,
-                    "endOffset": 209
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 108,
-                        "endOffset": 333
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 214,
-                    "endColumn": 107,
-                    "endOffset": 317
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 338,
-                        "endColumn": 107,
-                        "endOffset": 441
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 322,
-                    "endColumn": 122,
-                    "endOffset": 440
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 446,
-                        "endColumn": 122,
-                        "endOffset": 564
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 445,
-                    "endColumn": 102,
-                    "endOffset": 543
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 569,
-                        "endColumn": 102,
-                        "endOffset": 667
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 548,
-                    "endColumn": 105,
-                    "endOffset": 649
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 672,
-                        "endColumn": 105,
-                        "endOffset": 773
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 654,
-                    "endColumn": 85,
-                    "endOffset": 735
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 778,
-                        "endColumn": 85,
-                        "endOffset": 859
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 740,
-                    "endColumn": 103,
-                    "endOffset": 839
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 864,
-                        "endColumn": 103,
-                        "endOffset": 963
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 844,
-                    "endColumn": 117,
-                    "endOffset": 957
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 968,
-                        "endColumn": 117,
-                        "endOffset": 1081
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 962,
-                    "endColumn": 80,
-                    "endOffset": 1038
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1086,
-                        "endColumn": 80,
-                        "endOffset": 1162
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1043,
-                    "endColumn": 79,
-                    "endOffset": 1118
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1167,
-                        "endColumn": 79,
-                        "endOffset": 1242
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1123,
-                    "endColumn": 87,
-                    "endOffset": 1206
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1247,
-                        "endColumn": 87,
-                        "endOffset": 1330
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1211,
-                    "endColumn": 104,
-                    "endOffset": 1311
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1335,
-                        "endColumn": 104,
-                        "endOffset": 1435
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1316,
-                    "endColumn": 107,
-                    "endOffset": 1419
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1440,
-                        "endColumn": 107,
-                        "endOffset": 1543
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1424,
-                    "endColumn": 100,
-                    "endOffset": 1520
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1548,
-                        "endColumn": 100,
-                        "endOffset": 1644
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1525,
-                    "endColumn": 103,
-                    "endOffset": 1624
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1649,
-                        "endColumn": 103,
-                        "endOffset": 1748
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1629,
-                    "endColumn": 107,
-                    "endOffset": 1732
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1753,
-                        "endColumn": 107,
-                        "endOffset": 1856
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1737,
-                    "endColumn": 100,
-                    "endOffset": 1833
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1861,
-                        "endColumn": 100,
-                        "endOffset": 1957
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1838,
-                    "endColumn": 127,
-                    "endOffset": 1961
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1962,
-                        "endColumn": 127,
-                        "endOffset": 2085
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1966,
-                    "endColumn": 96,
-                    "endOffset": 2058
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2090,
-                        "endColumn": 96,
-                        "endOffset": 2182
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2063,
                     "endColumn": 73,
-                    "endOffset": 2132
+                    "endOffset": 174
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -384,11 +23,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 2137,
+                    "startOffset": 179,
                     "endColumn": 107,
-                    "endOffset": 2240
+                    "endOffset": 282
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -403,11 +42,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 2245,
+                    "startOffset": 287,
                     "endColumn": 187,
-                    "endOffset": 2428
+                    "endOffset": 470
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -422,11 +61,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 2433,
+                    "startOffset": 475,
                     "endColumn": 127,
-                    "endOffset": 2556
+                    "endOffset": 598
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -441,11 +80,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 2561,
+                    "startOffset": 603,
                     "endColumn": 111,
-                    "endOffset": 2668
+                    "endOffset": 710
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -460,11 +99,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 2673,
+                    "startOffset": 715,
                     "endColumn": 212,
-                    "endOffset": 2881
+                    "endOffset": 923
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -479,11 +118,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 2886,
+                    "startOffset": 928,
                     "endColumn": 128,
-                    "endOffset": 3010
+                    "endOffset": 1052
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -498,11 +137,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 3015,
+                    "startOffset": 1057,
                     "endColumn": 130,
-                    "endOffset": 3141
+                    "endOffset": 1183
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -517,11 +156,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 3146,
+                    "startOffset": 1188,
                     "endColumn": 189,
-                    "endOffset": 3331
+                    "endOffset": 1373
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values-sr/values.xml",
@@ -536,11 +175,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 3336,
+                    "startOffset": 1378,
                     "endColumn": 207,
-                    "endOffset": 3539
+                    "endOffset": 1581
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -555,11 +194,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 3544,
+                    "startOffset": 1586,
                     "endColumn": 108,
-                    "endOffset": 3648
+                    "endOffset": 1690
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -574,11 +213,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 3653,
+                    "startOffset": 1695,
                     "endColumn": 190,
-                    "endOffset": 3839
+                    "endOffset": 1881
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -593,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 3844,
+                    "startOffset": 1886,
                     "endColumn": 128,
-                    "endOffset": 3968
+                    "endOffset": 2010
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -612,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 3973,
+                    "startOffset": 2015,
                     "endColumn": 207,
-                    "endOffset": 4176
+                    "endOffset": 2218
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -631,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 4181,
+                    "startOffset": 2223,
                     "endColumn": 171,
-                    "endOffset": 4348
+                    "endOffset": 2390
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -650,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 4353,
+                    "startOffset": 2395,
                     "endColumn": 97,
-                    "endOffset": 4446
+                    "endOffset": 2488
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -669,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 4451,
+                    "startOffset": 2493,
                     "endColumn": 94,
-                    "endOffset": 4541
+                    "endOffset": 2583
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -688,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 4546,
+                    "startOffset": 2588,
                     "endColumn": 108,
-                    "endOffset": 4650
+                    "endOffset": 2692
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-sr/values.xml",
@@ -707,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 4655,
+                    "startOffset": 2697,
                     "endColumn": 142,
-                    "endOffset": 4793
+                    "endOffset": 2835
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -726,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 4798,
+                    "startOffset": 2840,
                     "endColumn": 109,
-                    "endOffset": 4903
+                    "endOffset": 2945
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -745,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 4908,
+                    "startOffset": 2950,
                     "endColumn": 104,
-                    "endOffset": 5008
+                    "endOffset": 3050
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -764,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 5013,
+                    "startOffset": 3055,
                     "endColumn": 109,
-                    "endOffset": 5118
+                    "endOffset": 3160
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -783,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 5123,
+                    "startOffset": 3165,
                     "endColumn": 108,
-                    "endOffset": 5227
+                    "endOffset": 3269
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -802,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 5232,
+                    "startOffset": 3274,
                     "endColumn": 102,
-                    "endOffset": 5330
+                    "endOffset": 3372
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -821,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 5335,
+                    "startOffset": 3377,
                     "endColumn": 71,
-                    "endOffset": 5402
+                    "endOffset": 3444
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -840,30 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 5407,
-                    "endColumn": 100,
-                    "endOffset": 5503
-                },
-                "from": {
-                    "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sr/values-sr.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2187,
-                        "endColumn": 100,
-                        "endOffset": 2283
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 5508,
+                    "startOffset": 3449,
                     "endColumn": 142,
-                    "endOffset": 5646
+                    "endOffset": 3587
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",
@@ -878,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 5651,
+                    "startOffset": 3592,
                     "endColumn": 90,
-                    "endOffset": 5737
+                    "endOffset": 3678
                 },
                 "from": {
                     "file": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/res/values-sr/values.xml",

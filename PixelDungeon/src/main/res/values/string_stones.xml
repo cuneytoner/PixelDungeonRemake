@@ -7,6 +7,7 @@
 
     <string-array name="Stone_Colors">
         <item>red</item>
+        <item>yellow</item>
     </string-array>
 
     <!-- STRINGS OF PortalStone CLASS -->
@@ -14,4 +15,10 @@
     <string name="PortalStone_Info">This stone immediately generates a portal to another dimension.Be carefull to enter where you don\'t know</string>
 
     <string name="TXT_CANNOT_USE_ON_PORTAL_LEVEL">You can\'t use on Portal Level.</string>
+    <string name="TXT_CANNOT_USE_SECOND_PORTAL_STONE">Yon can\'t use second portal stone when level has an existing portal</string>
+
+    <!-- STRINGS OF WanishStone CLASS -->
+    <string name="WanishStone_Name">Wanish Stone</string>
+    <string name="WanishStone_Info">This stone contains a very powerful energy. It has the ability to destroy the enemy it touches</string>
+
 </resources>

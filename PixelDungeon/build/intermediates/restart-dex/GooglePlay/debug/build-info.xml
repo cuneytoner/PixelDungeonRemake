@@ -5,22 +5,26 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="34181163944176"
+    timestamp="11771475654987"
     token="3141927945709981458"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="20130" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="240" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
+
+    <artifact
+        location="/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/outputs/apk/PixelDungeon-GooglePlay-debug.apk"
+        type="MAIN" />
 
     <build
         timestamp="34102891994762"
@@ -29,8 +33,5 @@
             location="/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/outputs/apk/PixelDungeon-GooglePlay-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="34181163944176"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">180625235602</string>
+    <string name="package_name">com.coner.pixeldungeon.remake</string>
+    <string name="achievement_monsterslain1">CgkIkr3p8KAFEAIQAQ</string>
+    <string name="achievement_monsterslain2">CgkIkr3p8KAFEAIQAg</string>
+    <string name="achievement_monsterslain3">CgkIkr3p8KAFEAIQAw</string>
+    <string name="achievement_monsterslain4">CgkIkr3p8KAFEAIQBA</string>
+    <string name="achievement_goldcolleted1">CgkIkr3p8KAFEAIQBQ</string>
+    <string name="achievement_goldcolleted2">CgkIkr3p8KAFEAIQBg</string>
+    <string name="achievement_goldcolleted3">CgkIkr3p8KAFEAIQBw</string>
+    <string name="achievement_goldcolleted4">CgkIkr3p8KAFEAIQCA</string>
+    <string name="achievement_levelreached1">CgkIkr3p8KAFEAIQCQ</string>
+    <string name="achievement_levelreached2">CgkIkr3p8KAFEAIQCg</string>
+    <string name="achievement_levelreached3">CgkIkr3p8KAFEAIQCw</string>
+    <string name="achievement_levelreached4">CgkIkr3p8KAFEAIQDA</string>
+    <string name="achievement_allpotions">CgkIkr3p8KAFEAIQDQ</string>
+    <string name="achievement_allscrolls">CgkIkr3p8KAFEAIQDg</string>
+    <string name="achievement_allrings">CgkIkr3p8KAFEAIQDw</string>
+    <string name="achievement_allwands">CgkIkr3p8KAFEAIQEA</string>
+    <string name="achievement_allitems">CgkIkr3p8KAFEAIQEQ</string>
+    <string name="achievement_allbags">CgkIkr3p8KAFEAIQEg</string>
+    <string name="achievement_deathfire">CgkIkr3p8KAFEAIQEw</string>
+    <string name="achievement_deathpoison">CgkIkr3p8KAFEAIQFA</string>
+    <string name="achievement_deathgas">CgkIkr3p8KAFEAIQFQ</string>
+    <string name="achievement_deathhunger">CgkIkr3p8KAFEAIQFg</string>
+    <string name="achievement_deathglyph">CgkIkr3p8KAFEAIQFw</string>
+    <string name="achievement_deathfalling">CgkIkr3p8KAFEAIQGA</string>
+    <string name="achievement_yasd">CgkIkr3p8KAFEAIQGQ</string>
+    <string name="achievement_bossslain1">CgkIkr3p8KAFEAIQGg</string>
+    <string name="achievement_bossslain2">CgkIkr3p8KAFEAIQGw</string>
+    <string name="achievement_bossslain3">CgkIkr3p8KAFEAIQHA</string>
+    <string name="achievement_bossslain4">CgkIkr3p8KAFEAIQHQ</string>
+    <string name="achievement_bossslain1all">CgkIkr3p8KAFEAIQHg</string>
+    <string name="achievement_bossslain3all">CgkIkr3p8KAFEAIQHw</string>
+    <string name="achievement_ringhaggler">CgkIkr3p8KAFEAIQIA</string>
+    <string name="achievement_ringthorns">CgkIkr3p8KAFEAIQIQ</string>
+    <string name="achievement_strengthattained1">CgkIkr3p8KAFEAIQIg</string>
+    <string name="achievement_strengthattained2">CgkIkr3p8KAFEAIQIw</string>
+    <string name="achievement_strengthattained3">CgkIkr3p8KAFEAIQJA</string>
+    <string name="achievement_strengthattained4">CgkIkr3p8KAFEAIQJQ</string>
+    <string name="achievement_foodeaten1">CgkIkr3p8KAFEAIQJg</string>
+    <string name="achievement_foodeaten2">CgkIkr3p8KAFEAIQJw</string>
+    <string name="achievement_foodeaten3">CgkIkr3p8KAFEAIQKA</string>
+    <string name="achievement_foodeaten4">CgkIkr3p8KAFEAIQKQ</string>
+    <string name="achievement_itemlvl1">CgkIkr3p8KAFEAIQKg</string>
+    <string name="achievement_itemlvl2">CgkIkr3p8KAFEAIQKw</string>
+    <string name="achievement_itemlvl3">CgkIkr3p8KAFEAIQLA</string>
+    <string name="achievement_itemlvl4">CgkIkr3p8KAFEAIQLQ</string>
+    <string name="achievement_rareall">CgkIkr3p8KAFEAIQLg</string>
+    <string name="achievement_victory">CgkIkr3p8KAFEAIQLw</string>
+    <string name="achievement_victoryall">CgkIkr3p8KAFEAIQMA</string>
+    <string name="achievement_masterycombo">CgkIkr3p8KAFEAIQMQ</string>
+    <string name="achievement_potionscooked1">CgkIkr3p8KAFEAIQMg</string>
+    <string name="achievement_potionscooked2">CgkIkr3p8KAFEAIQMw</string>
+    <string name="achievement_potionscooked3">CgkIkr3p8KAFEAIQNA</string>
+    <string name="achievement_potionscooked4">CgkIkr3p8KAFEAIQNQ</string>
+    <string name="achievement_nomonsterslain">CgkIkr3p8KAFEAIQNg</string>
+    <string name="achievement_grimwepon">CgkIkr3p8KAFEAIQNw</string>
+    <string name="achievement_piranhas">CgkIkr3p8KAFEAIQOA</string>
+    <string name="achievement_nighthunter">CgkIkr3p8KAFEAIQOQ</string>
+    <string name="achievement_gamesplayed1">CgkIkr3p8KAFEAIQOg</string>
+    <string name="achievement_gamesplayed2">CgkIkr3p8KAFEAIQOw</string>
+    <string name="achievement_gamesplayed3">CgkIkr3p8KAFEAIQPA</string>
+    <string name="achievement_gamesplayed4">CgkIkr3p8KAFEAIQPQ</string>
+    <string name="achievement_happyend">CgkIkr3p8KAFEAIQPg</string>
+    <string name="achievement_champion">CgkIkr3p8KAFEAIQPw</string>
+    <string name="achievement_supporter">CgkIkr3p8KAFEAIQQA</string>
+    <string name="achievement_immured">CgkIkr3p8KAFEAIQQQ</string>
+</resources>

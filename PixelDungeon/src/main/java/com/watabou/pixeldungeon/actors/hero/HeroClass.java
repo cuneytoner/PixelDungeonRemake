@@ -19,33 +19,23 @@
 package com.watabou.pixeldungeon.actors.hero;
 
 import com.coner.android.util.TrackedRuntimeException;
-import com.coner.pixeldungeon.items.accessories.Accessory;
 import com.coner.pixeldungeon.items.guts.weapon.melee.Claymore;
-import com.coner.pixeldungeon.items.necropolis.BlackSkull;
-import com.coner.pixeldungeon.items.necropolis.BladeOfSouls;
 import com.coner.pixeldungeon.items.stones.PortalStone;
-import com.coner.pixeldungeon.items.stones.Stone;
+import com.coner.pixeldungeon.items.stones.WanishStone;
 import com.coner.pixeldungeon.remake.BuildConfig;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.items.KindOfWeapon;
 import com.watabou.pixeldungeon.items.TomeOfMastery;
-import com.watabou.pixeldungeon.items.armor.ArcPriestArmor;
 import com.watabou.pixeldungeon.items.armor.ClassArmor;
+import com.watabou.pixeldungeon.items.armor.ClericArmor;
 import com.watabou.pixeldungeon.items.armor.ClothArmor;
 import com.watabou.pixeldungeon.items.armor.ElfArmor;
-import com.watabou.pixeldungeon.items.armor.ClericArmor;
 import com.watabou.pixeldungeon.items.armor.HuntressArmor;
 import com.watabou.pixeldungeon.items.armor.MageArmor;
-import com.watabou.pixeldungeon.items.armor.PaladinArmor;
 import com.watabou.pixeldungeon.items.armor.RogueArmor;
 import com.watabou.pixeldungeon.items.armor.WarriorArmor;
 import com.watabou.pixeldungeon.items.drink.Wine;
-import com.watabou.pixeldungeon.items.drink.Beer;
-import com.watabou.pixeldungeon.items.drink.BoiledBeer;
-import com.watabou.pixeldungeon.items.drink.FrozenBeer;
-import com.watabou.pixeldungeon.items.drink.TaintedBeer;
 import com.watabou.pixeldungeon.items.food.Ration;
 import com.watabou.pixeldungeon.items.potions.PotionOfHealing;
 import com.watabou.pixeldungeon.items.potions.PotionOfLiquidFlame;
@@ -57,13 +47,10 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfIdentify;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfSummon;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfWeaponUpgrade;
 import com.watabou.pixeldungeon.items.wands.WandOfDisintegration;
 import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
-import com.watabou.pixeldungeon.items.wands.WandOfRegrowth;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
-import com.watabou.pixeldungeon.items.weapon.melee.Kusarigama;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
 import com.watabou.pixeldungeon.items.weapon.melee.WoodenBow;
 import com.watabou.pixeldungeon.items.weapon.missiles.Boomerang;
@@ -72,8 +59,6 @@ import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
 import com.watabou.pixeldungeon.ui.QuickSlot;
 import com.watabou.pixeldungeon.utils.Utils;
 import com.watabou.utils.Bundle;
-
-import java.util.List;
 
 public enum HeroClass {
 
@@ -154,6 +139,7 @@ public enum HeroClass {
 			hero.collect(new PotionOfLiquidFlame());
 			hero.collect(new ScrollOfUpgrade());
 			hero.collect(new PortalStone());
+			hero.collect(new WanishStone());
 		}
 
 		Badges.validateBossSlain(Badges.Badge.BOSS_SLAIN_3);

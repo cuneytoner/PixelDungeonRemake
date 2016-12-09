@@ -8,12 +8,12 @@
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/ic_expand.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable/ic_expand.xml"
-    },
-    {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_dialog_material_background.xml",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/ic_expand.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable/ic_expand.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_item_background_holo_dark.xml",
@@ -30,6 +30,10 @@
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_ic_go_search_api_material.xml",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_vector_test.xml",
@@ -49,7 +53,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_ratingbar_indicator_material.xml",
@@ -73,7 +77,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -117,7 +121,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/notification_tile_bg.xml",
@@ -140,12 +144,12 @@
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_seekbar_track_material.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/cast_ic_mini_controller_stop.xml",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/drawable/cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/cast_ic_notification_forward.xml",
@@ -158,6 +162,10 @@
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/notification_bg.xml",
@@ -205,7 +213,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
@@ -308,6 +316,10 @@
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/mr_ic_media_route_connecting_dark.xml",
         "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable/mr_ic_media_route_connecting_dark.xml"
     },
@@ -325,7 +337,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/mr_ic_cast_dark.xml",
@@ -349,7 +361,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/cast_ic_notification_connecting.xml",
@@ -361,7 +373,11 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/cast_ic_notification_forward10.xml",
@@ -409,7 +425,7 @@
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/media/cc/cc/Projects/PixelDungeonRemake/PixelDungeon/build/intermediates/res/merged/GooglePlay/release/drawable/cast_ic_notification_rewind.xml",

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PACKAGE /items/stones -->
+    <!-- STRINGS OF Stone CLASS -->
+    <string name="Stone_Name">\"%s\ taşı"</string>
+    <string name="Stone_Info">Bu taş antik rünlerle kaplı,Kullandığında nelere olabileceğini kim bilir?</string>
+
+    <string-array name="Stone_Colors">
+        <item>kırmızı</item>
+        <item>sarı</item>
+    </string-array>
+
+    <!-- STRINGS OF PortalStone CLASS -->
+    <string name="PortalStone_Info">Bu taş anında başka bir boyuta portal açar, bilmediğin yerlere gidiyorsun dikkatli ol.</string>
+    <string name="PortalStone_Name">Portal Taşı</string>
+
+</resources>

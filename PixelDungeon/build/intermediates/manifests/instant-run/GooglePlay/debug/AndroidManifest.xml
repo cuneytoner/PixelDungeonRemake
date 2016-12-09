@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.coner.pixeldungeon.remake"
     android:installLocation="auto"
-    android:versionCode="34"
-    android:versionName="remake_01.34" >
+    android:versionCode="36"
+    android:versionName="remake_01.36" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -23,6 +23,7 @@
         android:normalScreens="true"
         android:smallScreens="false" />
 
+    <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -38,12 +39,13 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-
-        <!-- Add the following meta-data for devices running Google Play service. -->
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
+        <!-- Add the following meta-data for devices running Google Play service. -->
         <!--
              Optionally, register AnalyticsReceiver and AnalyticsService to support background
              dispatching on non-Google Play devices
@@ -74,11 +76,6 @@
         </receiver>
 
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
-
-        <!-- This meta-data tag is required to use Google Play Services. -->
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name="com.watabou.pixeldungeon.PixelDungeon"
@@ -134,12 +131,6 @@
             android:enabled="true"
             android:exported="false" />
 
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.coner.pixeldungeon.remake.firebaseinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
-
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:exported="true"
@@ -169,6 +160,12 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.coner.pixeldungeon.remake.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
     </application>
 
 </manifest>

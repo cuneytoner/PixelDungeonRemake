@@ -186,6 +186,7 @@ public class Assets {
 	public static final String SND_MIMIC = "snd_mimic.mp3";
 	public static final String SND_BITE = "snd_bite.mp3";
 	public static final String SND_PORTALSTONE = "snd_portal_stone.mp3";
+	public static final String SND_WANISHSTONE = "snd_wanish_stone.mp3";
 
 	public static final String SND_DOMINANCE = "snd_dominance.mp3";
 	public static final String SND_ROTTEN_DROP = "snd_rotten_drop.mp3";

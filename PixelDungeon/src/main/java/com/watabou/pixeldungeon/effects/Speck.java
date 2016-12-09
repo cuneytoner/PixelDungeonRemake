@@ -45,7 +45,8 @@ public class Speck extends Image {
 	public static final int STEAM		= 13;
 	public static final int COIN		= 14;
 	public static final int MIST        = 15;
-	
+	public static final int DARKENERGY  = 16;
+
 	public static final int DISCOVER	= 101;
 	public static final int EVOKE		= 102;
 	public static final int MASTERY		= 103;
@@ -93,6 +94,9 @@ public class Speck extends Image {
 			break;
 		case RATTLE:
 			frame( film.get( BONE ) );
+			break;
+		case DARKENERGY :
+		    frame( film.get(DARKENERGY) );
 			break;
 		case JET:
 		case TOXIC:
@@ -292,7 +296,14 @@ public class Speck extends Image {
 			speed.polar( Random.Float( 2 * 3.1415926f ), Random.Float( 16, 48 ) );
 			lifespan = 0.5f;
 			break;
-			
+
+		case DARKENERGY:
+			hardlight( 0x0AFF66 );
+			angularSpeed = Random.Float( +180 );
+			angle = Random.Float( 360 );
+			lifespan = 0.5f;
+			break;
+
 		case COIN:
 			speed.polar( -PointF.PI * Random.Float( 0.3f, 0.7f ), Random.Float( 48, 96 ) );
 			acc.y = 256;
@@ -385,7 +396,11 @@ public class Speck extends Image {
 				scale.set( 1 - p );
 				am = 1 - p * p;
 				break;
-				
+
+			case DARKENERGY:
+				am = p < 0.2f ? p * 5 : 1;
+				break;
+
 			case BUBBLE:
 				am = p < 0.2f ? p * 5 : 1;
 				break;

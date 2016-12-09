@@ -97,16 +97,26 @@ public class King extends Boss {
 	
 	@Override
 	protected boolean getCloser( int target ) {
-		return canTryToSummon() ? 
-			super.getCloser( ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) ) : 
-			super.getCloser( target );
+		if (isPet()) {
+		   return super.getCloser( target );
+		}
+		else {
+			return canTryToSummon() ?
+					super.getCloser(((CityBossLevel) (Dungeon.level)).pedestal(nextPedestal)) :
+					super.getCloser(target);
+		}
 	}
 	
 	@Override
 	protected boolean canAttack( Char enemy ) {
-		return canTryToSummon() ? 
-			getPos() == ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) : 
-			Dungeon.level.adjacent( getPos(), enemy.getPos() );
+		if (this.isPet()) {
+		   return Dungeon.level.adjacent( getPos(), enemy.getPos() );
+		}
+		else {
+			return canTryToSummon() ?
+					getPos() == ((CityBossLevel)(Dungeon.level)).pedestal( nextPedestal ) :
+					Dungeon.level.adjacent( getPos(), enemy.getPos() );
+		}
 	}
 	
 	private boolean canTryToSummon() {
@@ -143,15 +153,20 @@ public class King extends Boss {
 	
 	@Override
 	public void die( Object cause ) {
-		GameScene.bossSlain();
-		Dungeon.level.drop( new ArmorKit(), getPos() ).sprite.drop();
-		Dungeon.level.drop( new SkeletonKey(), getPos() ).sprite.drop();
-		
-		super.die( cause );
-		
-		Badges.validateBossSlain(Badges.Badge.BOSS_SLAIN_4);
-		
-		yell(Utils.format(Game.getVar(R.string.King_Info1), Dungeon.hero.heroClass.title()));
+		if (this.isPet()) {
+			super.die(cause);
+		}
+		else {
+			GameScene.bossSlain();
+			Dungeon.level.drop(new ArmorKit(), getPos()).sprite.drop();
+			Dungeon.level.drop(new SkeletonKey(), getPos()).sprite.drop();
+
+			super.die(cause);
+
+			Badges.validateBossSlain(Badges.Badge.BOSS_SLAIN_4);
+
+			yell(Utils.format(Game.getVar(R.string.King_Info1), Dungeon.hero.heroClass.title()));
+		}
 	}
 	
 	private int maxArmySize() {

@@ -240,9 +240,7 @@ public class InterlevelScene extends PixelScene {
 		} else {
 			Dungeon.level.removePets();
             next = DungeonGenerator.descend(Dungeon.currentPosition());
-			if (Dungeon.level.levelId !="portallevel" && next.levelId != "portallevel") {
-				Dungeon.saveLevel();
-			}
+			Dungeon.saveLevel();
 		}
 
 		Dungeon.depth = next.levelDepth;
