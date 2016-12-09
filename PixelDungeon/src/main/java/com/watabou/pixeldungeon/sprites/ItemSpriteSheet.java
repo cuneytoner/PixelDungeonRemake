@@ -168,6 +168,7 @@ public class ItemSpriteSheet {
 
 	//Stone
 	public static final int PORTAL_STONE = 153;
+	public static final int WANISH_STONE = 154;
 	
 	// Rotten food
 	public static final int ROTTEN_PASTY    = 117;
