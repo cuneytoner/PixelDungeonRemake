@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.coner.pixeldungeon.remake"
     android:installLocation="auto"
-    android:versionCode="36"
-    android:versionName="remake_01.36" >
+    android:versionCode="38"
+    android:versionName="remake_01.38" >
 
     <uses-sdk tools:overrideLibrary="com.google.android.gms.ads,com.google.android.gms,com.google.android.gms.base,com.google.android.gms.analytics" />
 

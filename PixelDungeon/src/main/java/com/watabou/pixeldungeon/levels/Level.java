@@ -441,11 +441,9 @@ public abstract class Level implements Bundlable {
         if ( ndx > -1 )
         {
             exitMap.remove(ndx);
+			map[DungeonGenerator.beforePortalMapPos] = DungeonGenerator.beforePortalMapCell;
+			GameScene.updateMap();
         }
-
-        map[DungeonGenerator.beforePortalMapPos] = DungeonGenerator.beforePortalMapCell;
-
-        GameScene.updateMap();
     }
 
     public void addReturnFromPortalLevel()
@@ -488,7 +486,13 @@ public abstract class Level implements Bundlable {
 		int[] exits = new int[exitMap.size()];
 
 		for (int i = 0; i < exitMap.size(); ++i) {
-			exits[i] = exitMap.get(i);
+			try {
+				exits[i] = exitMap.get(i);
+			}
+			catch (Exception e)
+			{
+				EventCollector.logEvent("bug", "level", Utils.format("Null exitmap %d", i));
+			}
 		}
 
 		bundle.put(EXIT, exits);
