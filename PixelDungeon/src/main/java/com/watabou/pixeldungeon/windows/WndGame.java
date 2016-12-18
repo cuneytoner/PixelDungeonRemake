@@ -71,7 +71,7 @@ public class WndGame extends Window {
 				}
 			} );
 		}
-		
+
 		if(Dungeon.hero.getDifficulty() < 2) {
 			addButton( new RedButton( Game.getVar(R.string.WndGame_Load) ) {
 				@Override
@@ -80,7 +80,8 @@ public class WndGame extends Window {
 				}
 			} );
 		}
-		
+
+
 		if (Dungeon.challenges > 0) {
 			addButton( new RedButton( TXT_CHALLEGES ) {
 				@Override

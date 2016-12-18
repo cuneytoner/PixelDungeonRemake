@@ -44,13 +44,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/AmazonDebug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AmazonDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AmazonDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/Amazon/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/Amazon/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/Amazon/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/Amazon/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/Amazon/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/Amazon/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/Amazon/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/assets" type="java-test-resource" />
@@ -59,6 +52,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testAmazonDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/Amazon/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/Amazon/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/Amazon/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/Amazon/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/Amazon/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/Amazon/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/Amazon/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/Amazon/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/Amazon/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/Amazon/assets" type="java-resource" />
@@ -125,6 +125,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/ch.acra/acra/4.8.1/jars" />
@@ -153,6 +154,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />

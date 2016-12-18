@@ -219,6 +219,8 @@ public class Assets {
 				return BANNERS_PREFIX+"banners_supporter_2.png";
 			case 3:
 				return BANNERS_PREFIX+"banners_supporter_3.png";
+			case 4:
+				return BANNERS_PREFIX+"banners_supporter_4.png";
 		}
 	}
 

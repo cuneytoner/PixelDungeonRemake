@@ -22,6 +22,7 @@ import android.support.annotation.NonNull;
 import com.coner.android.util.FileSystem;
 import com.coner.android.util.Scrambler;
 import com.coner.pixeldungeon.items.stones.Stone;
+import com.coner.pixeldungeon.levels.PortalLevel;
 import com.coner.pixeldungeon.remake.EventCollector;
 import com.coner.pixeldungeon.remake.R;
 import com.coner.pixeldungeon.mobs.npc.AzuterronNPC;
@@ -46,6 +47,7 @@ import com.watabou.pixeldungeon.actors.mobs.npcs.WandMaker;
 import com.watabou.pixeldungeon.effects.Speck;
 import com.watabou.pixeldungeon.items.Ankh;
 import com.watabou.pixeldungeon.items.Heap;
+import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.items.potions.Potion;
 import com.watabou.pixeldungeon.items.rings.Ring;
 import com.watabou.pixeldungeon.items.scrolls.Scroll;
@@ -498,7 +500,7 @@ public class Dungeon {
 
 		InputStream input;
 
-		if (FileSystem.getFile(loadFrom).exists()) {
+        if ((FileSystem.getFile(loadFrom).exists()) && (next.levelId.equals( "portallevel" ) == false ) ) {
 			input = new FileInputStream(FileSystem.getFile(loadFrom));
 			Dungeon.level = null;
 		} else {
@@ -601,15 +603,15 @@ public class Dungeon {
                 }
                 else {
                     if (actor instanceof Mob) {
-                        if (actor instanceof Mob) {
-                            if (((Mob) actor).isPet()) {
-                                passable[pos] = true;
-                            } else {
-                                passable[pos] = false;
-                            }
+                        if (((Mob) actor).isPet()) {
+                            passable[pos] = true;
+                        } else {
+                            passable[pos] = false;
                         }
                     }
+
                 }
+
             }
         }
     }
