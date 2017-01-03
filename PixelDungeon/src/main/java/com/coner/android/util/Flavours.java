@@ -14,8 +14,7 @@ public class Flavours {
 	public static final String GOOGLE_PLAY      = "GooglePlay";
 
 	public static boolean haveHats() {
-		return BuildConfig.FLAVOR.equals(GOOGLE_PLAY)
-				&& Iap.googleIapUsable();
+		return Iap.googleIapUsable();
 	}
 
 

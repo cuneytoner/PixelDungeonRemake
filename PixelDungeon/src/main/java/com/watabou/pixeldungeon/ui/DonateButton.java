@@ -37,11 +37,14 @@ public class DonateButton extends Button {
 		case 2:
 			image = Icons.CHEST_GOLD.get();
 			break;
-		case 3:
+        case 3:
 			image = Icons.CHEST_RUBY.get();
 			break;
+		case 4:
+			image = Icons.CHEST_BLUEDIAMOND.get();
+			break;
 		}
-		
+
 		add(image);
 		layout();
 	}
@@ -57,7 +60,8 @@ public class DonateButton extends Button {
 		switch (PixelDungeon.donated()) {
 		case 1:
 		case 2:
-		case 3:
+        case 3:
+        case 4:
 			return Game.getVar(R.string.DonateButton_thanks);
 		default:
 			return Game.getVar(R.string.DonateButton_pleaseDonate);

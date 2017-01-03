@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import com.coner.pixeldungeon.remake.BuildConfig;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.coner.android.google.util.IabHelper;
@@ -150,7 +151,7 @@ public class Iap {
             PixelDungeon.setDonationLevel(3);
         }
 
-        if (checkPurchase(SKU_LEVEL_4)) {
+        if (checkPurchase(SKU_LEVEL_4) || BuildConfig.DEBUG) {
             PixelDungeon.setDonationLevel(4);
         }
     }

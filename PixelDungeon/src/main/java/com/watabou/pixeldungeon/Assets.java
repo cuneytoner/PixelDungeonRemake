@@ -235,6 +235,8 @@ public class Assets {
 				return "chrome_supporter_2.png";
 			case 3:
 				return "chrome_supporter_3.png";
+			case 4:
+				return "chrome_supporter_4.png";
 		}
 	}
 
@@ -248,6 +250,8 @@ public class Assets {
 				return "status_pane_supporter_2.png";
 			case 3:
 				return "status_pane_supporter_3.png";
+			case 4:
+				return "status_pane_supporter_4.png";
 		}
 	}
 
@@ -261,6 +265,8 @@ public class Assets {
 				return "toolbar_supporter_2.png";
 			case 3:
 				return "toolbar_supporter_3.png";
+			case 4:
+				return "toolbar_supporter_4.png";
 		}
 	}
 

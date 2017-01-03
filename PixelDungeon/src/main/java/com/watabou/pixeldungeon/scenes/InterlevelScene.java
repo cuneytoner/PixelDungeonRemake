@@ -317,7 +317,12 @@ public class InterlevelScene extends PixelScene {
 				problemWithSave();
 				return;
 			}
+
 			Dungeon.switchLevel(level, Dungeon.hero.getPos(), Dungeon.hero.levelId);
+            if (DungeonGenerator.beforePortalLevelId != null) {
+                level.loadPortalEnterance(DungeonGenerator.beforePortalMapPos);
+                GameScene.updateMap();
+            }
 		}
 	}
 

@@ -20,9 +20,11 @@ package com.watabou.pixeldungeon;
 import android.support.annotation.NonNull;
 
 import com.coner.android.util.FileSystem;
+import com.coner.android.util.Flavours;
 import com.coner.android.util.Scrambler;
 import com.coner.pixeldungeon.items.stones.Stone;
 import com.coner.pixeldungeon.levels.PortalLevel;
+import com.coner.pixeldungeon.remake.BuildConfig;
 import com.coner.pixeldungeon.remake.EventCollector;
 import com.coner.pixeldungeon.remake.R;
 import com.coner.pixeldungeon.mobs.npc.AzuterronNPC;
@@ -64,6 +66,7 @@ import com.watabou.utils.Bundle;
 import com.watabou.utils.PathFinder;
 import com.watabou.utils.Random;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -311,6 +314,40 @@ public class Dungeon {
 		Dungeon.deleteGame(true);
 	}
 
+
+	public static void copyDirectoryOneLocationToAnotherLocation(File sourceLocation, File targetLocation)
+			throws IOException {
+
+		if (sourceLocation.isDirectory()) {
+			if (!targetLocation.exists()) {
+				targetLocation.mkdir();
+			}
+
+			String[] children = sourceLocation.list();
+			for (int i = 0; i < sourceLocation.listFiles().length; i++) {
+
+				copyDirectoryOneLocationToAnotherLocation(new File(sourceLocation, children[i]),
+						new File(targetLocation, children[i]));
+			}
+		} else {
+
+			InputStream in = new FileInputStream(sourceLocation);
+
+			OutputStream out = new FileOutputStream(targetLocation);
+
+			// Copy the bits from instream to outstream
+			byte[] buf = new byte[1024];
+			int len;
+			while ((len = in.read(buf)) > 0) {
+				out.write(buf, 0, len);
+			}
+			in.close();
+			out.close();
+		}
+
+	}
+
+
 	public static void saveGame(String fileName) throws IOException {
 		Bundle bundle = new Bundle();
 
@@ -364,6 +401,10 @@ public class Dungeon {
 		OutputStream output = new FileOutputStream(FileSystem.getInteralStorageFile(fileName));
 		Bundle.write(bundle, output);
 		output.close();
+
+		if (BuildConfig.DEBUG) {
+			copyDirectoryOneLocationToAnotherLocation(FileSystem.getInteralStorageFile(fileName),new File("/storage/emulated/0/Download/"+fileName));
+		}
 	}
 
 	public static void saveLevel() throws IOException {
@@ -481,6 +522,7 @@ public class Dungeon {
 
 		Statistics.restoreFromBundle(bundle);
 		Journal.restoreFromBundle(bundle);
+
 	}
 
 	public static void loadGame(String fileName, boolean fullLoad) throws IOException {

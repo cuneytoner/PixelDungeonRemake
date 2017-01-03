@@ -23,6 +23,7 @@ import com.coner.android.util.ModdingMode;
 import com.coner.android.util.TrackedRuntimeException;
 import com.coner.pixeldungeon.items.necropolis.BlackSkull;
 import com.coner.pixeldungeon.mobs.common.MobFactory;
+import com.coner.pixeldungeon.mobs.necropolis.DeathKnight;
 import com.coner.pixeldungeon.mobs.spiders.SpiderServant;
 import com.coner.pixeldungeon.remake.BuildConfig;
 import com.coner.pixeldungeon.remake.R;
@@ -897,7 +898,7 @@ public abstract class Mob extends Char {
 		Mob pet;
 		do {
 			if(BuildConfig.DEBUG){
-				pet = new Shadow();
+				pet = new DeathKnight();
 			}
 			else {
 				pet = MobFactory.mobClassRandom().newInstance();

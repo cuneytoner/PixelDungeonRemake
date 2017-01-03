@@ -365,7 +365,17 @@ public class DungeonGenerator {
 
     }
 
+	public static void updatePortalEnterance(String levelId) {
+		try {
+			JSONArray currentLevel = mGraph.getJSONArray(levelId);
+			if (currentLevel.getJSONArray(0).length() > 0) {
+				currentLevel.getJSONArray(0).put(currentLevel.getJSONArray(0).length(), "portallevel");
+			}
+		} catch (JSONException e) {
+			throw new TrackedRuntimeException(e);
+		}
 
+	}
 
     public static JSONArray removeJsonObjectAtJsonArrayIndex(JSONArray source, int index) throws JSONException {
         if (index < 0 || index > source.length() - 1) {

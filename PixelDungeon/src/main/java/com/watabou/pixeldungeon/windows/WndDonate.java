@@ -18,6 +18,7 @@ public class WndDonate extends WndTabbed {
 	private static final String RUBY   = Game.getVar(R.string.WndDonate_ruby);
 	private static final String GOLD   = Game.getVar(R.string.WndDonate_gold);
 	private static final String SILVER = Game.getVar(R.string.WndDonate_silver);
+	private static final String BLUEDIAMOND   = Game.getVar(R.string.WndDonate_bluediamond);
 
 	private static final String DONATE = Game.getVar(R.string.WndDonate_donate);
 	private static final String NOT_CONNECTED =  Game.getVar(R.string.WndDonate_notConnected);
@@ -28,6 +29,8 @@ public class WndDonate extends WndTabbed {
 			.getVar(R.string.WndDonate_goldDonate);
 	private static final String SILVER_DONATE = Game
 			.getVar(R.string.WndDonate_silverDonate);
+	private static final String BLUEDIAMOND_DONATE = Game
+			.getVar(R.string.WndDonate_bluediamondDonate);
 
 	private static final String SILVER_DONATE_TEXT = Game
 			.getVar(R.string.WndDonate_silverDonateText);
@@ -35,13 +38,17 @@ public class WndDonate extends WndTabbed {
 			.getVar(R.string.WndDonate_goldDonateText);
 	private static final String RUBY_DONATE_TEXT = Game
 			.getVar(R.string.WndDonate_rubyDonateText);
-	
+	private static final String BLUEDIAMOND_DONATE_TEXT = Game
+			.getVar(R.string.WndDonate_bluediamondDonateText);
+
 	private static final String SILVER_DONATE_TEXT_2 = Game
 			.getVar(R.string.WndDonate_silverDonateText2);
 	private static final String GOLD_DONATE_TEXT_2 = Game
 			.getVar(R.string.WndDonate_goldDonateText2);
 	private static final String RUBY_DONATE_TEXT_2 = Game
 			.getVar(R.string.WndDonate_rubyDonateText2);
+	private static final String BLUEDIAMOND_DONATE_TEXT_2 = Game
+			.getVar(R.string.WndDonate_bluediamondDonateText2);
 
 	private static final int WIDTH = 130;
 	private static final int HEIGHT = 145;
@@ -53,20 +60,20 @@ public class WndDonate extends WndTabbed {
 	private static final int TAB_WIDTH = 47;
 
 	private static final Icons[] icons = { Icons.CHEST_SILVER,
-			Icons.CHEST_GOLD, Icons.CHEST_RUBY };
+			Icons.CHEST_GOLD, Icons.CHEST_RUBY, Icons.CHEST_BLUEDIAMOND };
 	private static final String[] title = { SILVER_DONATE, GOLD_DONATE,
-			RUBY_DONATE };
+			RUBY_DONATE, BLUEDIAMOND_DONATE };
 	
 	private static final String[] text = { SILVER_DONATE_TEXT,
-			GOLD_DONATE_TEXT, RUBY_DONATE_TEXT };
+			GOLD_DONATE_TEXT, RUBY_DONATE_TEXT, BLUEDIAMOND_DONATE_TEXT };
 	
 	private static final String[] text2 = { SILVER_DONATE_TEXT_2,
-			GOLD_DONATE_TEXT_2, RUBY_DONATE_TEXT_2 };
+			GOLD_DONATE_TEXT_2, RUBY_DONATE_TEXT_2, BLUEDIAMOND_DONATE_TEXT_2 };
 
 	public WndDonate() {
 		super();
-		String[] labels = { SILVER, GOLD, RUBY };
-		Group[] pages = { new DonateTab(1), new DonateTab(2), new DonateTab(3) };
+		String[] labels = { SILVER, GOLD, RUBY, BLUEDIAMOND };
+		Group[] pages = { new DonateTab(1), new DonateTab(2), new DonateTab(3), new DonateTab(4) };
 
 		for (int i = 0; i < pages.length; i++) {
 			add(pages[i]);

@@ -95,6 +95,7 @@ public class Accessory {
 			{
 				GLog.i("allAccessoriesList null");
 			}
+
 			return allAccessoriesList.get(name).newInstance();
 		} catch (Exception e) {
 			throw new TrackedRuntimeException(e);

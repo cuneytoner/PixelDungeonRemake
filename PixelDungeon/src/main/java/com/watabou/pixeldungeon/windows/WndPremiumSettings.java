@@ -20,7 +20,8 @@ public class WndPremiumSettings extends Window {
 	private static final String GOLD   = Game.getVar(R.string.WndPremiumSettings_gold);
 	private static final String SILVER = Game.getVar(R.string.WndPremiumSettings_silver);
 	private static final String STD    = Game.getVar(R.string.WndPremiumSettings_std);
-		
+	private static final String BLUEDIAMOND   = Game.getVar(R.string.WndPremiumSettings_bluediamond);
+
 	private static final int WIDTH      = 112;
 	private static final int BTN_HEIGHT = 20;
 	private static final int GAP        = 2;
@@ -44,7 +45,7 @@ public class WndPremiumSettings extends Window {
 			protected void onClick() {
 				PixelDungeon.scene().add(
 						new WndOptions(assetName, "", STD, SILVER,
-								GOLD, RUBY) {
+								GOLD, RUBY, BLUEDIAMOND) {
 							@Override
 							protected void onSelect(int index) {
 								if (PixelDungeon.donated() >= index) {

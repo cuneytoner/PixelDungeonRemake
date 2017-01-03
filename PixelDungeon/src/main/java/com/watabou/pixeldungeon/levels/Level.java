@@ -434,6 +434,14 @@ public abstract class Level implements Bundlable {
         DungeonGenerator.beforePortalLevelId = this.levelId;
 	}
 
+	public void loadPortalEnterance(int cell){
+		DungeonGenerator.updatePortalEnterance(this.levelId);
+        DungeonGenerator.beforePortalMapCell = map[cell];
+        DungeonGenerator.beforePortalMapPos = cell;
+		map[cell] = Terrain.EXIT;
+		GameScene.updateMap();
+	}
+
 
     public void removePortalEnterance()
     {

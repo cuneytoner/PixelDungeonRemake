@@ -21,6 +21,7 @@ import com.coner.android.util.TrackedRuntimeException;
 import com.coner.pixeldungeon.remake.R;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Badges;
+import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.buffs.Blindness;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.items.Item;
@@ -37,6 +38,7 @@ import java.util.HashSet;
 public abstract class Scroll extends Item {
 
 	private static final String TXT_BLINDED	= Game.getVar(R.string.Scroll_Blinded);
+    private static final String TXT_SCROLLPORTALLEVEL	= Game.getVar(R.string.Scroll_PortalLevel);
 
 	public static final String AC_READ    	= Game.getVar(R.string.Scroll_ACRead);
 
@@ -155,14 +157,20 @@ public abstract class Scroll extends Item {
 	public void execute( Hero hero, String action ) {
 		if (action.equals( AC_READ )) {
 
-			if (hero.buff( Blindness.class ) != null) {
-				GLog.w( TXT_BLINDED );
-			} else {
+			if (Dungeon.level.levelId.equals("portallevel"))
+			{
+                GLog.w( TXT_SCROLLPORTALLEVEL );
+                return;
+			}
+
+            if (hero.buff( Blindness.class ) != null) {
+                GLog.w( TXT_BLINDED );
+            } else {
 				setCurUser(hero);
 				curItem = detach( hero.belongings.backpack );
 
 				doRead();
-			}
+			   }
 
 		} else {
 

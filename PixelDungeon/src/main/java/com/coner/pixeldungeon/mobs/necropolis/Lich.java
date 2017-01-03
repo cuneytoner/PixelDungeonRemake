@@ -17,6 +17,7 @@ import com.watabou.pixeldungeon.actors.mobs.Boss;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
 import com.watabou.pixeldungeon.actors.mobs.Skeleton;
 import com.watabou.pixeldungeon.effects.Pushing;
+import com.watabou.pixeldungeon.items.keys.SkeletonKey;
 import com.watabou.pixeldungeon.items.potions.PotionOfHealing;
 import com.watabou.pixeldungeon.items.wands.WandOfBlink;
 import com.watabou.pixeldungeon.items.weapon.enchantments.Death;
@@ -217,6 +218,8 @@ public class Lich extends Boss {
     public void die( Object cause ) {
         GameScene.bossSlain();
         Dungeon.level.drop( new BlackSkull(), getPos() ).sprite.drop();
+        Dungeon.level.drop( new SkeletonKey(), getPos() ).sprite.drop();
+
         super.die( cause );
 
         //Kill everthing

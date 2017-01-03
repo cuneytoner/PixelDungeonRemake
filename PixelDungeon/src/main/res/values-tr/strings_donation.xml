@@ -4,7 +4,8 @@
     <string name="WndDonate_silver">gümüş</string>
     <string name="WndDonate_gold">altın</string>
     <string name="WndDonate_ruby">yakut</string>
-    
+    <string name="WndDonate_bluediamond">mavi elmas</string>
+
     <string name="WndDonate_donate">bahış yap: </string>
     <string name="WndDonate_notConnected">bağlantı yok:(</string>
     <string name="WndDonate_commonDonateText">ReMake Pixel Dungeon - herkes için ücretsiz.\n\nAncak daha çok geliştirme için desteklerinizi bekliyoruz.\n\nGörsel geliştirme desteklerinizi de teşekkürlerimizle kabul ederiz.</string>
@@ -12,21 +13,25 @@
     <string name="WndDonate_silverDonate">gümüş bahışçı</string>
     <string name="WndDonate_goldDonate">altın bahışçı</string>
     <string name="WndDonate_rubyDonate">yakut bahışçı</string>
-    
+    <string name="WndDonate_bluediamondDonate">mavi elmas bahışçı</string>
+
     <string name="WndDonate_silverDonateText">Tüm bahışlarınız geliştirmemiz katkıda bulunacaktır</string>
     <string name="WndDonate_goldDonateText">Yardımınız için teşekkürler</string>
     <string name="WndDonate_rubyDonateText">Cömertliğiniz ReMake Pixel Dungeon\'u geliştirmemiz yardımcı olacaktır!</string>
-    
+    <string name="WndDonate_bluediamondDonateText">Cömertliğiniz ReMake Pixel Dungeon\'u geliştirmemiz yardımcı olacaktır!</string>
+
     <string name="WndDonate_silverDonateText2">Ayrıca tüm oyun modlarında reklamlar kapancak ve Avcı karakteri başlangıçta da olsa açılacakır.</string>
     <string name="WndDonate_goldDonateText2">ayrıca Elf karakterinide baştan itibaren kullanabilirsiniz.</string>
     <string name="WndDonate_rubyDonateText2"></string>
-    
+    <string name="WndDonate_bluediamondDonateText2"></string>
+
     <!-- STRINGS OF WndPremiumSettings CLASS -->
     <string name="WndPremiumSettings_std">standart</string>
     <string name="WndPremiumSettings_silver">gümüş</string>
     <string name="WndPremiumSettings_gold">altın</string>
     <string name="WndPremiumSettings_ruby">yakut</string>
-    
+    <string name="WndPremiumSettings_bluediamond">mavi elmas</string>
+
     <string name="WndPremiumSettings_chrome">Görsel malzeme seçin</string>
     <string name="WndPremiumSettings_status">Durum çubuğu malzemesini seçin</string>
     <string name="WndPremiumSettings_toolbar">Araç çubuğu malzemesini seçin</string>

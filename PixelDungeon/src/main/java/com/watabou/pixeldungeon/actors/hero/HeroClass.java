@@ -47,6 +47,7 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfIdentify;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfSummon;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.watabou.pixeldungeon.items.scrolls.ScrollOfWeaponUpgrade;
 import com.watabou.pixeldungeon.items.wands.WandOfDisintegration;
 import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
@@ -134,6 +135,7 @@ public enum HeroClass {
 
 		for(int i = 0;i<100;i++) {
 			hero.collect(new ScrollOfMagicMapping());
+			hero.collect(new ScrollOfWeaponUpgrade());
 			hero.collect(new PotionOfStrength());
 			hero.collect(new PotionOfToxicGas());
 			hero.collect(new PotionOfLiquidFlame());

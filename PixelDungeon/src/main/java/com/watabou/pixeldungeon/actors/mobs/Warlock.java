@@ -178,6 +178,11 @@ public class Warlock extends Mob implements Callback {
 	}
 
 	@Override
+	public boolean canBePet() {
+		return false;
+	}
+
+	@Override
 	public void call() {
 		next();
 	}

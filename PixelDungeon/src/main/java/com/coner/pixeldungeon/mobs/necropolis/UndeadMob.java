@@ -37,4 +37,9 @@ public class UndeadMob extends Mob {
         super.add( buff );
     }
 
+    @Override
+    public boolean canBePet() {
+        return false;
+    }
+
 }

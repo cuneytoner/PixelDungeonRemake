@@ -120,7 +120,7 @@ public class King extends Boss {
 	}
 	
 	private boolean canTryToSummon() {
-		if (this.isPet()){
+		if (this.isPet() || !(Dungeon.level instanceof CityBossLevel)){
 			return false;
 		}
 		else {

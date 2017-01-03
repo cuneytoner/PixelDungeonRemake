@@ -523,5 +523,5 @@
     <string name="This_Rabbit_Ears_gives_additional_4_defense_skill">This Rabbit Ears gives additional +4 defense skill</string>
     <string name="This_Shades_gives_additional_2_defense_skill_and_10_HP">This Shades gives additional +2 defense skill and +10 HP</string>
     <string name="This_Wizard_Hat_gives_additional_10_attack_skill_and_10_HP">This Wizard Hat gives additional +10 attack skill and +10 HP</string>
-    <string name="SantaHatDesc">This Santa Hat give Additional +10HP, +3 Attack and +3 Defens skill also you will get a special pet</string>
+    <string name="SantaHatDesc">This Santa Hat give Additional +10HP, +3 Attack and +3 Defense skill also you will get a special pet</string>
 </resources>

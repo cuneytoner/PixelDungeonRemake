@@ -60,7 +60,8 @@ public enum Icons {
 	QUIVER,
 	MIND_CONTROL,
 	GRAPHS,
-    CLERIC;
+    CLERIC,
+	CHEST_BLUEDIAMOND;
 
 	
 	public Image get() {
@@ -165,6 +166,9 @@ public enum Icons {
 			break;
 		case CHEST_RUBY:
 			icon.frame( icon.texture.uvRect( 95, 46, 109, 59 ) );
+			break;
+		case CHEST_BLUEDIAMOND:
+			icon.frame( icon.texture.uvRect( 95, 61, 109, 74 ) );
 			break;
 		case HUNTRESS:
 			icon.frame( icon.texture.uvRect( 110, 45, 126, 61 ) );
