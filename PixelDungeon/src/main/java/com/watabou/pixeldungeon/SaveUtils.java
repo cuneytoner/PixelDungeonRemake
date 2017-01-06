@@ -219,14 +219,23 @@ public class SaveUtils {
 		if(FileSystem.getInteralStorageFile(newFormat).exists()) {
 			return newFormat;
 		}
-		
+
 		return Utils.format(levelKind + "_" + _depthFile(cl), depth);
+	}
+
+	public static String depthFileForLoad(HeroClass cl, String depth, String levelKind, String levelId) {
+		String newFormat = depthFileForSave(cl, depth, levelKind, levelId);
+		return newFormat;
 	}
 
 	public static String depthFileForSave(HeroClass heroClass, int levelDepth, String levelKind, String levelId) {
 		return Utils.format(levelKind + "_" + levelId + "_" + _depthFile(heroClass), levelDepth);
 	}
-	
+
+	public static String depthFileForSave(HeroClass heroClass, String levelDepth, String levelKind, String levelId) {
+		return levelKind + "_" + levelId + "_" + Utils.format(_depthFile(heroClass),0);
+	}
+
 	private static String _depthFile(HeroClass cl) {
 
 		switch (cl) {

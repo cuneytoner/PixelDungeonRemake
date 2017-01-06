@@ -23,7 +23,7 @@
     <string name="WndDonate_silverDonateText2">Also disable ads in all game modes and unlock huntress from start.</string>
     <string name="WndDonate_goldDonateText2">Also unlocks elf from start.</string>
     <string name="WndDonate_rubyDonateText2"></string>
-    <string name="WndDonate_bluediamondDonateText2"></string>
+    <string name="WndDonate_bluediamondDonateText2">Also you will have a pet on game play</string>
 
     <!-- STRINGS OF WndPremiumSettings CLASS -->
     <string name="WndPremiumSettings_std">standard</string>

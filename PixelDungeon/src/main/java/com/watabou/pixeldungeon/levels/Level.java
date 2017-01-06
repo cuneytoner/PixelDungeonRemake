@@ -450,6 +450,9 @@ public abstract class Level implements Bundlable {
         {
             exitMap.remove(ndx);
 			map[DungeonGenerator.beforePortalMapPos] = DungeonGenerator.beforePortalMapCell;
+			DungeonGenerator.beforePortalLevelId = null;
+			DungeonGenerator.beforePortalMapCell = -1;
+			DungeonGenerator.beforePortalMapPos = 0;
 			GameScene.updateMap();
         }
     }

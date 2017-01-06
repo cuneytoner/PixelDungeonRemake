@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <!--GENERAL STRINGS VARIABLES-->
-  <string name="app_name">Remixed Pixel Dungeon</string>
+  <string name="app_name">Pixel Dungeon Remake</string>
   <!--STRINGS OF IntroScene CLASS-->
   <!--STRINGS OF AmuletScene CLASS-->
   <string name="AmuletScene_Exit">Lassen wir es gut sein</string>

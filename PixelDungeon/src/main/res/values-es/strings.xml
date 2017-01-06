@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <!--GENERAL STRINGS VARIABLES-->
-  <string name="app_name">Remixed Pixel Dungeon</string>
+  <string name="app_name">Pixel Dungeon Remake</string>
   <!--STRINGS OF IntroScene CLASS-->
   <string name="IntroScene_Txt">Muchos héroes de todo tipo se han aventurado en la mazmorra antes que tu. Algunos de ellos han vuelto con tesoros y artefactos mágicos, pero de la mayoría no se ha vuelto a saber nada. Pero ninguno ha logrado recuperar el Amuleto de Yendor, él cual dicen que se encuentra escondido en las profundidades de la Mazmorra. \n\nCrees que estás listo para este desafío, pero aún más importante, sientes que la fortuna te sonríe. ¡Hora de empezar tu aventura!</string>
   <!--STRINGS OF AmuletScene CLASS-->

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <!--GENERAL STRINGS VARIABLES-->
-  <string name="app_name">Remixed Pixel Dungeon</string>
+  <string name="app_name">Pixel Dungeon Remake</string>
   <!--STRINGS OF IntroScene CLASS-->
   <string name="IntroScene_Txt">수많은 영웅들이 당신 이전에 던전으로 모험을 떠났다. 일부는 보물이나 마법 장비와 함께 돌아 오기도 했지만, 대부분은 그 이후로 소식이 끊겼다. 하지만 그 누구도 던전 가장 아래에 숨겨진 옌도르의 아뮬렛을 손에 넣는데 성공한 사람은 없다.\n\n당신은 이제 도전을 받아들일 준비가 되었다. 무엇보다도 행운의 여신이 당신에게 미소짓고 있다고 생각하기 때문이다. 이제 당신만의 모험을 떠날 시간이다!</string>
   <!--STRINGS OF AmuletScene CLASS-->

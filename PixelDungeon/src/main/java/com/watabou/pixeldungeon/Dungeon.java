@@ -401,10 +401,10 @@ public class Dungeon {
 		OutputStream output = new FileOutputStream(FileSystem.getInteralStorageFile(fileName));
 		Bundle.write(bundle, output);
 		output.close();
-
+/*
 		if (BuildConfig.DEBUG) {
 			copyDirectoryOneLocationToAnotherLocation(FileSystem.getInteralStorageFile(fileName),new File("/storage/emulated/0/Download/"+fileName));
-		}
+		}*/
 	}
 
 	public static void saveLevel() throws IOException {
@@ -536,13 +536,21 @@ public class Dungeon {
 	public static Level loadLevel(Position next) throws IOException {
 		loading = true;
 
-		String loadFrom = SaveUtils.depthFileForLoad(heroClass, next.levelDepth, next.levelKind, next.levelId);
+        String loadFrom = null;
 
+        if (next.levelId.equals("portallevel")) {
+            loadFrom = SaveUtils.depthFileForLoad(heroClass, "PortalLevel", next.levelKind, next.levelId);
+        }
+        else
+        {
+            loadFrom = SaveUtils.depthFileForLoad(heroClass, next.levelDepth, next.levelKind, next.levelId);
+        }
 		GLog.toFile("loading level: %s", loadFrom);
 
 		InputStream input;
 
-        if ((FileSystem.getFile(loadFrom).exists()) && (next.levelId.equals( "portallevel" ) == false ) ) {
+        if (FileSystem.getFile(loadFrom).exists()) //&& (next.levelId.equals( "portallevel" ) == false ) )
+        {
 			input = new FileInputStream(FileSystem.getFile(loadFrom));
 			Dungeon.level = null;
 		} else {

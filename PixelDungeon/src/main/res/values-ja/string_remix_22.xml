@@ -8,7 +8,7 @@
   <string name="ShadowLord_Intro">覚悟を決めろ！</string>
   <string name="ShadowLord_Death">Nooooo...</string>
   <string name="AllowStatisticsCollectionScene_Title">利用統計の収集</string>
-  <string name="AllowStatisticsCollectionScene_Request">あなたが許可する場合は、Remixed Pixel Dungeonは使用状況の統計を収集します。そのデータは以下で使用します。:\n
+  <string name="AllowStatisticsCollectionScene_Request">あなたが許可する場合は、Pixel Dungeon Remakeは使用状況の統計を収集します。そのデータは以下で使用します。:\n
 - 欠点と様々なマイナーな不具合を修正(致命的なエラーが発生したときには、明示的にレポートを送信するように求められます)\n
 - ゲームバランスの改善\n
 - デバイス固有のパフォーマンスの問題を修正\n
@@ -17,7 +17,7 @@
   <string name="AllowStatisticsCollectionScene_Allow">許可する</string>
   <string name="AllowStatisticsCollectionScene_Deny">否定する</string>
   <string name="Darkness_Info">大気中に浮遊する永遠の闇の一片のように見えます</string>
-  <string name="WndSelectLanguage_ImproveTranslation">Remixed Pixel Dungeonの翻訳を助けて下さい</string>
+  <string name="WndSelectLanguage_ImproveTranslation">Pixel Dungeon Remakeの翻訳を助けて下さい</string>
   <string name="WndSelectLanguage_TranslationLink">https://www.transifex.com/nyrds/remixed-pixel-dungeon/</string>
-  <string name="WndSelectLanguage_LinkToTranslationSite">Remixed Pixel Dungeon翻訳チームに参加するには、ここをクリックしてください</string>
+  <string name="WndSelectLanguage_LinkToTranslationSite">Pixel Dungeon Remake翻訳チームに参加するには、ここをクリックしてください</string>
 </resources>

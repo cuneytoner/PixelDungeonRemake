@@ -6,13 +6,13 @@
   <string name="WndDonate_ruby">ルビー</string>
   <string name="WndDonate_donate">寄付:</string>
   <string name="WndDonate_notConnected">接続されていない :(</string>
-  <string name="WndDonate_commonDonateText">Remixed Pixel Dungeon - 誰でも常に無料です。\n\nしかし、あなたはより良いゲームを作るのを助けることが出来ます。\n\n私達の心からの感謝に加えて、あなたはいくつかの改良を得るでしょう。</string>
+  <string name="WndDonate_commonDonateText">Pixel Dungeon Remake - 誰でも常に無料です。\n\nしかし、あなたはより良いゲームを作るのを助けることが出来ます。\n\n私達の心からの感謝に加えて、あなたはいくつかの改良を得るでしょう。</string>
   <string name="WndDonate_silverDonate">シルバーの寄付</string>
   <string name="WndDonate_goldDonate">ゴールドの寄付</string>
   <string name="WndDonate_rubyDonate">ルビーの寄付</string>
   <string name="WndDonate_silverDonateText">寄付金はプロジェクトの開発を支援します</string>
   <string name="WndDonate_goldDonateText">ご協力ありがとうございました！</string>
-  <string name="WndDonate_rubyDonateText">あなたの寛大さは Remixed Pixel Dungeon の改善の助けになるでしょう！</string>
+  <string name="WndDonate_rubyDonateText">あなたの寛大さは Pixel Dungeon Remake の改善の助けになるでしょう！</string>
   <string name="WndDonate_silverDonateText2">さらに、すべてのゲームモードで広告を無効にして、最初からハンターのロックを解除します。</string>
   <string name="WndDonate_goldDonateText2">さらに、最初からエルフのロックを解除します。</string>
   <string name="WndDonate_rubyDonateText2"></string>

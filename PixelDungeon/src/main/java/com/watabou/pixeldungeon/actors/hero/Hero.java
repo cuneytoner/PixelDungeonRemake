@@ -25,6 +25,7 @@ import com.coner.pixeldungeon.items.chaos.IChaosItem;
 import com.coner.pixeldungeon.items.common.RatKingCrown;
 import com.coner.pixeldungeon.items.common.armor.SpiderArmor;
 import com.coner.pixeldungeon.items.guts.HeartOfDarkness;
+import com.coner.pixeldungeon.mobs.elementals.WaterElemental;
 import com.coner.pixeldungeon.mobs.spiders.SpiderServant;
 import com.coner.pixeldungeon.remake.BuildConfig;
 import com.coner.pixeldungeon.remake.EventCollector;
@@ -288,9 +289,9 @@ public class Hero extends Char {
 			}
 		}
 
+		Mob pet;
 		//cc
 		if (alivePets.isEmpty() && hasPetAccessory){
-			Mob pet;
 			try {
 				pet = Mob.randomPet(this);
 			} catch (Exception e) {
@@ -300,6 +301,11 @@ public class Hero extends Char {
 			alivePets.add(pet);
 
 			pet = Mob.makePet(new King(), this);
+			alivePets.add(pet);
+		}
+
+		if (PixelDungeon.donated()>=4) {
+			pet = Mob.makePet(new WaterElemental(), this);
 			alivePets.add(pet);
 		}
 

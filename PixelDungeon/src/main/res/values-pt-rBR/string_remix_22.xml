@@ -19,5 +19,5 @@ Você poderá mudar sua decisão a qualquer momento (clique no icone de estatist
   <string name="Darkness_Info">Parecem pedaços de escuridão eterna flutuando no ar.</string>
   <string name="WndSelectLanguage_ImproveTranslation">Por favor ajude a melhorar a tradução de Remixed Pixiel Dungeon</string>
   <string name="WndSelectLanguage_TranslationLink">https://www.transifex.com/nyrds/remixed-pixel-dungeon/</string>
-  <string name="WndSelectLanguage_LinkToTranslationSite">Clique aqui para fazer parte do time de tradução de Remixed Pixel Dungeon</string>
+  <string name="WndSelectLanguage_LinkToTranslationSite">Clique aqui para fazer parte do time de tradução de Pixel Dungeon Remake</string>
 </resources>
